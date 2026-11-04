@@ -1,0 +1,645 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#171522">
+<meta name="description" content="Practical AI programmes for businesses, institutions and universities. Build skills across a series of live, project-based sessions — on site or online.">
+<title>Acumelo — AI learning. Human possibility.</title>
+<style>
+:root{--ink:#25332f;--muted:#65716b;--teal:#286455;--side:#202c2b;--paper:#f7f6f1;--line:#d6dbd2;--serif:"Batang","바탕","Noto Serif KR","Times New Roman",serif;--sans:"Pretendard","Malgun Gothic","맑은 고딕","Apple SD Gothic Neo",Arial,sans-serif;--rail:224px;--pad:clamp(32px,5.1vw,88px)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:28px}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.8;word-break:keep-all;overflow-wrap:break-word}button,input,select,textarea{font:inherit}button,a{-webkit-tap-highlight-color:transparent}button{cursor:pointer}a{color:inherit;text-decoration:none}button{color:inherit}a,button,input,select,textarea,summary{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:2px solid #b76e48;outline-offset:5px}h1,:is(h1.page-title,h2),h3,p{margin:0}h1,:is(h1.page-title,h2),h3{font-weight:400}h1,:is(h1.page-title,h2){font-family:var(--serif);letter-spacing:-.055em;line-height:1.48}:is(h1.page-title,h2){font-size:clamp(30px,3vw,46px)}p[data-i18n],:is(h1.page-title,h2)[data-i18n],h3[data-i18n]{white-space:pre-line}button{border:0;background:none}svg{display:block;width:100%;height:auto}[hidden]{display:none!important}.small{font-size:12px;line-height:1.85}.muted{color:var(--muted)}.small-caps{font-family:Arial,sans-serif;font-size:10px;letter-spacing:.17em;font-weight:500}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.skip{position:fixed;z-index:100;top:10px;left:10px;transform:translateY(-160%);padding:12px 20px;background:#fff;color:var(--ink)}.skip:focus{transform:none}
+.sidebar{position:fixed;inset:0 auto 0 0;width:var(--rail);background:var(--side);color:#e9eee8;padding:44px 30px 28px;z-index:40;display:flex;flex-direction:column}.wordmark{display:inline-flex;align-items:baseline;font-family:Georgia,"Times New Roman",serif;font-size:36px;line-height:1.2;letter-spacing:-1.7px;font-weight:400}.wordmark i{color:#90b5a0;font-style:normal}.sidebar .wordmark{color:#c8dfd2}.brand-caption{font:8px/1.8 Arial,sans-serif;letter-spacing:.17em;margin-top:17px;color:#aab9b3}.menu-panel{flex:1;display:flex;flex-direction:column;min-height:0}.main-nav{display:grid;margin-top:85px}.main-nav>a{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:20px 0;border-bottom:1px solid #40514c;font-size:15px;position:relative}.main-nav small{font:10px Arial,sans-serif;color:#9bada4}.main-nav>a:hover,.main-nav>a[aria-current]{color:#a8d4bc}.main-nav>a[aria-current]:before{content:"";position:absolute;width:3px;height:16px;background:#a8d4bc;left:-15px}.sidebar-contact{display:flex;justify-content:space-between;gap:8px;margin-top:35px;font-size:13px}.sidebar-contact:hover{color:#a8d4bc}.sidebar-bottom{margin-top:auto;padding-top:50px}.languages{display:flex;align-items:center;gap:12px;color:#84958d;font:11px Arial,sans-serif;letter-spacing:.08em}.languages button{padding:12px 0;min-height:44px;min-width:26px;opacity:.75}.languages button[aria-pressed=true]{color:#fff;opacity:1;text-decoration:underline;text-underline-offset:7px}.sidebar-note{font-size:11px;line-height:2;color:#b5c1b9;margin-top:22px}.sidebar-domain{display:block;font:11px Arial,sans-serif;margin-top:26px;color:#becbc3}.draft-label{display:flex;align-items:center;gap:7px;font-size:9px;margin-top:20px;color:#9eafa7}.draft-label i{height:4px;width:4px;border-radius:50%;background:#a4b6a9}.menu-toggle{display:none}
+main{margin-left:var(--rail)}.hero{position:relative;min-height:790px;height:100svh;max-height:1100px;background:#eaece4;isolation:isolate;overflow:hidden;display:flex;flex-direction:column;padding:0 var(--pad)}.hero-top{position:relative;z-index:2;display:flex;justify-content:space-between;align-items:center;gap:24px;min-height:92px;border-bottom:1px solid #b9c2b7;font-size:10px;color:#43574b;letter-spacing:.08em}.hero-top>span:first-child{font-family:Arial,sans-serif;font-size:9px;letter-spacing:.12em}.hero-art{position:absolute;inset:0 0 0 40%;z-index:-1;overflow:hidden}.architecture{width:100%;height:100%;object-fit:cover}.hero:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#f0efe7 3%,#f0efe7e6 23%,#f0efe777 43%,transparent 67%);pointer-events:none}.art-caption{position:absolute;right:30px;bottom:125px;font:10px/1.5 Arial,sans-serif;letter-spacing:.22em;writing-mode:vertical-rl;color:#294f42}.hero-copy{position:relative;z-index:1;padding:60px 0 70px;margin:auto 0;max-width:650px}.eyebrow{display:flex;align-items:center;gap:16px;font-size:11px;letter-spacing:.12em;color:var(--teal);margin-bottom:30px}.tiny-cross{font:26px/1 Arial,sans-serif}.hero h1{font-size:clamp(70px,7.7vw,118px);line-height:1.25;letter-spacing:-.065em}.hero h1 span,.hero h1 em{display:block}.hero h1 em{font-style:normal;color:var(--teal)}.hero-english{font:italic 20px/1.5 Georgia,serif;letter-spacing:-.02em;margin-top:22px;color:#3c5549}.hero-description{max-width:390px;font-size:14px;line-height:2.1;margin-top:38px;color:#44574b}.line-link{display:inline-flex;justify-content:space-between;align-items:center;gap:45px;padding:12px 0;border-bottom:1px solid currentColor;font-size:12px;line-height:1.7;color:var(--teal);text-align:left}.line-link span:last-child{font-family:Arial;font-size:19px;transition:transform .2s}.line-link:hover span:last-child{transform:translate(3px,-3px)}.hero .line-link{margin-top:23px;min-width:210px}.hero-bottom{position:relative;z-index:2;display:flex;justify-content:space-between;align-items:center;gap:15px;min-height:75px;border-top:1px solid #b9c2b7;color:#3e5548;font-size:10px}.hero-bottom>span{font:9px Arial,sans-serif;letter-spacing:.13em}.hero-bottom a{display:flex;align-items:center;gap:30px;min-height:44px}.hero-bottom a>span:last-child{font-size:20px}
+.section{padding:90px var(--pad) 100px;scroll-margin-top:0}.section-heading{display:flex;align-items:center;justify-content:space-between;gap:20px;border-top:1px solid var(--line);padding-top:21px;margin-bottom:55px}.section-index{display:flex;align-items:center;gap:24px;font-size:12px}.section-index>span:first-child{font:11px Arial,sans-serif;color:var(--teal)}.section-heading>.small-caps{color:var(--muted)}.section-intro{display:grid;grid-template-columns:1.35fr 1fr;gap:60px;align-items:start;margin-bottom:60px}.section-intro>p,.section-intro>div{max-width:380px;padding-top:8px;color:#5b695f;font-size:13px;line-height:2.1}.section-intro .small{margin-top:17px}.course-list{border-top:1px solid var(--ink)}.course{border-bottom:1px solid var(--line)}.course-link{cursor:pointer;display:grid;grid-template-columns:48px minmax(0,1.1fr) minmax(0,1fr) 34px;gap:24px;align-items:center;padding:34px 0;list-style:none}.course-link::-webkit-details-marker{display:none}.course-number{font:italic 26px Georgia,serif;color:#839489;align-self:start;padding-top:20px}.course-title .small-caps{font-size:9px;color:var(--teal);display:block;margin-bottom:9px}.course h2{font-size:24px;line-height:1.5;letter-spacing:-.045em}.course-subtitle{font-size:12px;color:#647266;margin-top:6px}.course-summary{font-size:12px;line-height:2;color:var(--muted);max-width:310px}.expand-icon{width:32px;height:32px;border:1px solid #b4c2b6;border-radius:50%;position:relative;transition:background .2s}.expand-icon:before,.expand-icon:after{content:"";width:10px;height:1px;background:var(--teal);position:absolute;top:15px;left:10px}.expand-icon:after{transform:rotate(90deg);transition:transform .2s}.course[open] .expand-icon:after{transform:rotate(0)}.course-link:hover .expand-icon{background:#dce7dc}.course-detail{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;margin-left:72px;padding:0 58px 35px 0}.course-detail .small-caps{color:var(--teal);margin-bottom:12px}.course-detail ul{margin:0;padding-left:17px;font-size:12px;color:#4f6054;line-height:2.2}.course-output{border-left:1px solid var(--line);padding-left:28px;font-size:12px;line-height:2}.vibe-feature{margin-top:70px;background:#284f44;color:#eaf1e6;padding:44px;display:grid;grid-template-columns:1.1fr 1fr;gap:45px;position:relative}.vibe-intro>.small-caps{color:#b4cdbb}.vibe-intro h3{font-family:var(--serif);font-size:28px;line-height:1.65;letter-spacing:-.04em;margin:28px 0 20px}.vibe-intro>p:not(.small-caps){font-size:12px;line-height:2.1;color:#cfdbd0;max-width:360px}.line-link.light{color:#ecf0e3;font-size:11px;margin-top:26px;gap:25px}.vibe-steps{display:grid;align-content:center}.vibe-step{display:grid;grid-template-columns:32px 1fr;column-gap:15px;border-top:1px solid #5a7864;padding:19px 0}.vibe-step:last-child{border-bottom:1px solid #5a7864}.vibe-step>span{font:italic 17px Georgia,serif;color:#c1d5ba;padding-top:3px}.vibe-step h4{font-size:14px;font-weight:400;margin:0 0 6px}.vibe-step p{font-size:11px;color:#c4d4c6;line-height:1.8}
+.people{background:#e9ede5}.people-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px}.member-visual{position:relative;aspect-ratio:4/4.5;background:#dce3d8;display:flex;align-items:center;justify-content:center;overflow:hidden}.member-visual:before{content:"";position:absolute;inset:12px;border:1px solid #becabc}.member-visual svg{width:70%;max-width:230px;color:#acbbaa;position:relative}.member:nth-child(2) .member-visual{background:#dfe2da}.member:nth-child(3) .member-visual{background:#d9e1d7}.member-caption{border-bottom:1px solid #b8c5b5;padding:19px 0;color:#5e705f;font-size:12px;display:flex;justify-content:space-between;gap:8px}.member-caption>span:last-child{font-size:18px}.member-name{font-size:20px;margin-top:16px}.member-role,.member-bio{font-size:12px;color:var(--muted);margin-top:6px}.member-visual img,.slot-photo{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}.about{background:#f7f6f1}.about-statement{max-width:740px;margin:0 auto 75px;text-align:center;padding:10px 0 15px}.about-statement .eyebrow{justify-content:center;margin-bottom:24px;font-size:10px}.about-statement :is(h1.page-title,h2){font-size:clamp(32px,3.4vw,50px)}.about-statement>p:last-child{max-width:580px;font-size:14px;line-height:2.2;margin:30px auto 0;color:#5e6c61}.process-header{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-bottom:30px}.process-header h3{font-size:15px}.process-header .small-caps{color:var(--muted)}.process-list{padding:0;margin:0;list-style:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:25px}.process-item{border-top:1px solid #849b89;padding-top:18px}.process-item>span{font:italic 25px Georgia,serif;color:#819682}.process-item h4{font-size:14px;font-weight:500;margin:23px 0 12px}.process-item p{font-size:12px;color:#667466;line-height:2}
+.expertise{background:#e2e8dd;display:grid;grid-template-columns:.85fr 1.15fr;gap:65px;align-items:center;padding-top:75px;padding-bottom:75px}.expertise-art{position:relative;min-width:0;color:#5b8069;aspect-ratio:1;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden}.expertise-art svg{max-width:360px}.expertise-art>.small-caps{position:absolute;bottom:0;font-size:8px}.expertise-copy>.small-caps{color:var(--teal);margin-bottom:27px}.expertise-copy :is(h1.page-title,h2){font-size:clamp(28px,2.7vw,40px)}.expertise-copy>p:not(.small-caps):not(.small){font-size:13px;line-height:2.1;max-width:480px;margin:25px 0;color:#566957}.engines{display:flex;flex-wrap:wrap;gap:30px;border-top:1px solid #aebeaa;border-bottom:1px solid #aebeaa;padding:19px 0;margin:28px 0 18px;font:21px Georgia,serif}.expertise-copy>.small{font-size:10px}.contact{background:#f7f6f1}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px}.contact-copy :is(h1.page-title,h2){font-size:clamp(32px,3.4vw,50px)}.contact-copy>p{font-size:13px;line-height:2.1;color:#627163;margin-top:25px}.contact-address{margin-top:40px}.contact-address>span{display:block}.contact-address>.small-caps{font-size:9px;margin-bottom:8px}.contact-address>span:nth-child(2){font:25px Georgia,serif;letter-spacing:-.6px;overflow-wrap:anywhere}.contact-address>p{font-size:10px;color:#716b5b;margin-top:8px}.contact-copy>.preview-notice{font-size:11px;max-width:350px;line-height:1.9;margin-top:30px;padding-left:13px;border-left:2px solid #a3b5a0}.field{margin-bottom:23px}.field label,.enquiry-result label{display:block;font-size:12px;margin-bottom:10px}.field input,.field select,.field textarea{border:0;border-bottom:1px solid #a3b19f;border-radius:0;background:transparent;width:100%;padding:10px 0 15px;color:var(--ink);font-size:13px}.field input::placeholder,.field textarea::placeholder{color:#768070;opacity:1}.field textarea{resize:vertical;min-height:120px}.field select{min-height:48px;cursor:pointer}.field option{background:var(--paper)}.field .small{font-size:10px;margin-top:7px}.solid-button{display:flex;align-items:center;justify-content:space-between;gap:20px;width:100%;background:var(--teal);color:#fff;padding:17px 22px;font-size:12px;min-height:56px}.solid-button:hover{background:#1c4c40}.solid-button>span:last-child{font:20px Arial,sans-serif}.enquiry-result{margin-top:28px;border-top:1px solid var(--line);padding-top:22px}.enquiry-result textarea{width:100%;resize:vertical;border:1px solid #b9c5b4;background:#edf0e8;padding:14px;font-size:12px;line-height:1.9;color:var(--ink)}.form-status{margin-top:14px;color:var(--teal);min-height:23px}.footer{border-top:1px solid var(--line);padding:35px var(--pad);display:flex;align-items:center;gap:28px}.footer .wordmark{font-size:29px}.footer p{font-size:10px;color:var(--muted)}.footer>span{font:10px Arial,sans-serif;color:var(--muted);margin-left:auto;white-space:nowrap}.back-top{border:1px solid #b9c8b6;min-width:40px;height:40px;text-align:center;line-height:38px}.noscript{position:fixed;bottom:0;left:0;right:0;background:#fff;padding:18px;z-index:99;font-size:12px}
+html[lang=en] h1,html[lang=en] :is(h1.page-title,h2),html[lang=en] .vibe-intro h3{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.045em}html[lang=en] .hero h1{font-size:clamp(70px,7.8vw,118px);line-height:1.05}html[lang=en] .hero-english{font-size:17px}html[lang=en] .hero-description{font-size:14px;line-height:1.9;max-width:345px}html[lang=en] .hero-top>span:last-child{font-size:8px}html[lang=en] .course h2{font-size:24px;letter-spacing:-.025em}html[lang=en] .course-summary{font-size:12px;line-height:1.9}html[lang=en] .process-item h4{font-size:13px}
+@media(min-width:1600px){:root{--rail:240px;--pad:96px}.hero-copy{padding-left:24px}.section{padding-left:max(96px,calc((100vw - 1500px)/2));padding-right:max(96px,calc((100vw - 1500px)/2))}}
+@media(max-width:1150px){:root{--rail:194px;--pad:38px}.sidebar{padding-left:25px;padding-right:25px}.sidebar .wordmark{font-size:31px}.section-intro{gap:30px;grid-template-columns:1.1fr 1fr}.course-link{gap:16px;grid-template-columns:32px 1.1fr 1fr 30px}.course h2{font-size:21px}.course-detail{margin-left:48px;padding-right:0}.vibe-feature{padding:32px;gap:28px}.vibe-intro h3{font-size:24px}.expertise{gap:35px}.contact-grid{gap:35px}.process-list{gap:17px}.footer{gap:20px}.footer p{max-width:150px}.hero-description{max-width:330px}.hero-top>span:last-child{max-width:180px;text-align:right}}
+@media(max-width:900px){:root{--rail:0px;--pad:40px}html{scroll-padding-top:100px}.sidebar{height:76px;width:100%;padding:0 30px;display:flex;flex-direction:row;align-items:center;justify-content:space-between}.sidebar .wordmark{font-size:31px}.brand-caption{display:none}.menu-toggle{display:flex;align-items:center;gap:17px;font-size:12px;padding:14px 0 14px 16px;min-height:48px;z-index:2}.menu-icon{position:relative;display:block;width:22px;height:12px;border-top:1px solid #d8e4d9;border-bottom:1px solid #d8e4d9}.menu-toggle[aria-expanded=true] .menu-icon{border-color:transparent}.menu-toggle[aria-expanded=true] .menu-icon:before,.menu-toggle[aria-expanded=true] .menu-icon:after{content:"";height:1px;width:22px;background:#d8e4d9;position:absolute;top:4px;left:0;transform:rotate(45deg)}.menu-toggle[aria-expanded=true] .menu-icon:after{transform:rotate(-45deg)}.menu-panel{display:none;position:fixed;top:76px;bottom:0;left:0;right:0;padding:12px 30px 25px;background:var(--side);overflow-y:auto;overscroll-behavior:contain}.menu-panel.is-open{display:flex}.main-nav{margin-top:12px}.main-nav>a{font-size:22px;padding:20px 0}.sidebar-contact{font-size:18px;margin-top:25px;padding-bottom:20px}.sidebar-bottom{padding-top:25px}.sidebar-note{margin-top:12px}.sidebar-domain{margin-top:12px}.draft-label{margin-top:12px}.languages{gap:25px}.languages button{min-width:35px}.menu-open{overflow:hidden}main{padding-top:76px}.hero{height:calc(100svh - 76px);min-height:740px;max-height:1000px}.hero h1{font-size:90px}.hero-top{min-height:70px}.hero-copy{padding:50px 0}.hero-bottom{min-height:66px}.hero-art{left:35%}.section{padding-top:75px;padding-bottom:80px}.section-intro :is(h1.page-title,h2){font-size:34px}.expertise-copy :is(h1.page-title,h2){font-size:32px}.contact-copy :is(h1.page-title,h2){font-size:35px}}
+@media(max-width:600px){:root{--pad:24px}html{scroll-padding-top:88px}.sidebar{height:68px;padding:0 24px}.menu-panel{top:68px;padding:10px 24px 24px}.sidebar .wordmark{font-size:29px}.menu-toggle{font-size:11px}main{padding-top:68px}.hero{min-height:740px;height:calc(100svh - 68px);max-height:900px;padding:0 24px}.hero-top{min-height:61px;gap:8px}.hero-top>span:first-child{font-size:7px;letter-spacing:.06em;max-width:160px}.hero-top>span:last-child{font-size:8px;letter-spacing:0;max-width:120px}.hero-art{inset:135px -80px 0 17%;opacity:.76}.hero:after{background:linear-gradient(90deg,#f0efe7f2,#f0efe7a1 45%,#f0efe744)}.hero-copy{padding:45px 0 75px;max-width:100%}.eyebrow{font-size:10px;margin-bottom:27px;gap:12px}.hero h1{font-size:clamp(67px,17.5vw,98px);line-height:1.3}.hero-english{font-size:17px;margin-top:20px}.hero-description{font-size:12px;line-height:2.1;max-width:275px;margin-top:30px}.hero .line-link{font-size:11px;min-width:185px;margin-top:24px}.hero-bottom{min-height:64px}.hero-bottom>span{font-size:7px;letter-spacing:.08em}.hero-bottom a{font-size:9px;gap:16px}.art-caption{display:none}.section{padding:62px var(--pad) 65px}.section-heading{padding-top:16px;margin-bottom:37px;gap:12px}.section-index{font-size:11px;gap:15px}.section-heading>.small-caps{font-size:8px;letter-spacing:.12em;text-align:right}.section-intro{display:block;margin-bottom:37px}.section-intro :is(h1.page-title,h2){font-size:29px;line-height:1.6}.section-intro>p,.section-intro>div{padding-top:22px;font-size:12px;max-width:none}.section-intro .small{font-size:10px;margin-top:12px}.course-link{grid-template-columns:26px 1fr 28px;gap:12px;padding:28px 0}.course-number{font-size:22px;padding-top:23px}.course h2,html[lang=en] .course h2{font-size:20px;line-height:1.5}.course-title .small-caps{font-size:8px}.course-subtitle{font-size:11px}.course-summary{grid-column:2;grid-row:2;font-size:11px;margin-top:0;line-height:2}.expand-icon{grid-column:3;grid-row:1;width:28px;height:28px}.expand-icon:before,.expand-icon:after{top:13px;left:8px}.course-detail{display:block;margin-left:38px;padding:0 0 27px}.course-detail .small-caps{font-size:9px}.course-detail ul{font-size:11px;line-height:2}.course-output{border-left:0;border-top:1px solid var(--line);margin-top:20px;padding:17px 0 0;font-size:11px}.vibe-feature{margin-top:40px;padding:29px 24px;display:block}.vibe-intro h3{font-size:24px;margin:24px 0 18px;line-height:1.7}.vibe-intro>.small-caps{font-size:8px}.vibe-intro>p:not(.small-caps){font-size:11px}.line-link.light{font-size:10px;gap:20px;margin-top:20px}.vibe-steps{margin-top:30px}.vibe-step{padding:17px 0}.vibe-step h4{font-size:13px}.vibe-step p{font-size:11px}.people-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:23px 15px}.member-visual{aspect-ratio:4/5}.member-visual:before{inset:8px}.member-caption{font-size:10px;padding:13px 0}.member-caption>span:last-child{font-size:15px}.about-statement{margin:0 auto 42px;text-align:left;padding:0}.about-statement .eyebrow{justify-content:flex-start;font-size:9px;margin-bottom:20px}.about-statement :is(h1.page-title,h2){font-size:30px;line-height:1.65}.about-statement>p:last-child{font-size:12px;margin-top:23px}.process-header{gap:12px;margin-bottom:23px}.process-header h3{font-size:13px}.process-header .small-caps{font-size:8px;letter-spacing:.1em}.process-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:29px 22px}.process-item{padding-top:15px}.process-item h4{font-size:13px;margin:17px 0 10px}.process-item p{font-size:11px;line-height:2}.expertise{display:flex;flex-direction:column;gap:35px;padding-top:45px;padding-bottom:55px}.expertise-art{width:210px;align-self:center}.expertise-copy>.small-caps{font-size:9px;margin-bottom:22px}.expertise-copy :is(h1.page-title,h2){font-size:30px;line-height:1.65}.expertise-copy>p:not(.small-caps):not(.small){font-size:12px;margin:22px 0}.engines{font-size:21px;gap:27px;margin:25px 0 17px}.expertise-copy>.small{font-size:10px}.contact-grid{display:block}.contact-copy :is(h1.page-title,h2){font-size:32px}.contact-copy>p{font-size:12px;margin-top:23px}.contact-address{margin-top:28px}.contact-address>span:nth-child(2){font-size:25px}.contact-copy>.preview-notice{font-size:10px;margin-top:23px;max-width:none}.enquiry-form{margin-top:38px}.field label,.enquiry-result label{font-size:11px}.field input,.field select,.field textarea{font-size:16px}.field input::placeholder,.field textarea::placeholder{font-size:12px}.solid-button{font-size:12px}.enquiry-result textarea{font-size:13px}.footer{padding:29px 24px;display:grid;grid-template-columns:1fr auto;gap:15px}.footer .wordmark{font-size:29px}.footer p{grid-column:1;max-width:none;font-size:9px}.footer>span{grid-column:1;margin-left:0;font-size:9px}.back-top{grid-column:2;grid-row:1/4;align-self:center}.form-status{font-size:11px}
+html[lang=en] .hero h1{font-size:clamp(62px,16vw,92px);line-height:1.08}html[lang=en] .hero-english{font-size:13px;max-width:280px}html[lang=en] .hero-description{font-size:13px;line-height:1.9;max-width:270px}html[lang=en] .hero-top>span:last-child{font-size:7px;max-width:110px}html[lang=en] .section-intro :is(h1.page-title,h2){font-size:31px;line-height:1.35}html[lang=en] .vibe-intro h3{font-size:27px;line-height:1.3}html[lang=en] .about-statement :is(h1.page-title,h2),html[lang=en] .expertise-copy :is(h1.page-title,h2){font-size:33px;line-height:1.3}html[lang=en] .contact-copy :is(h1.page-title,h2){font-size:37px}}
+@media(max-width:350px){:root{--pad:20px}.sidebar,.hero{padding-left:20px;padding-right:20px}.hero{min-height:720px}.hero h1{font-size:65px}.hero-top>span:first-child{max-width:140px}.hero-description{max-width:255px}.section-intro :is(h1.page-title,h2){font-size:26px}.vibe-feature{padding:25px 20px}.vibe-intro h3{font-size:21px}.course h2,html[lang=en] .course h2{font-size:18px}.member-caption{font-size:9px}.about-statement :is(h1.page-title,h2),.expertise-copy :is(h1.page-title,h2){font-size:27px}.process-item h4{font-size:12px}.footer{padding:28px 20px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
+@media print{.sidebar,.hero-art,.menu-toggle,.enquiry-form,.back-top,.draft-label{display:none}main{margin:0;padding:0}.hero{height:auto;min-height:0;max-height:none}.hero-copy{padding:40px 0}.section{break-inside:avoid;padding:40px}.hero-top,.hero-bottom{min-height:40px}.section-heading{margin-bottom:25px}.contact-grid{display:block}body{font-size:12px}.hero:after{display:none}}
+/* Responsive review adjustments - 2026-11-03 */
+@media screen and (min-width:901px) and (max-height:760px){
+  .sidebar{padding-top:26px;padding-bottom:20px;overflow-y:auto}
+  .sidebar>.wordmark,.sidebar>.brand-caption{flex-shrink:0}
+  .sidebar .menu-panel{flex:1 0 auto}
+  .brand-caption{margin-top:12px}
+  .main-nav{margin-top:32px}
+  .sidebar-contact{margin-top:24px}
+  .sidebar-bottom{padding-top:24px}
+  .sidebar-note{margin-top:12px}
+  .sidebar-domain{margin-top:14px}
+  .draft-label{margin-top:12px}
+}
+@media screen and (max-width:600px){
+  .hero-description,html[lang=en] .hero-description,
+  .section-intro>p,.section-intro>div,
+  .course-summary,html[lang=en] .course-summary,
+  .course-detail ul,.course-output,
+  .vibe-intro>p:not(.small-caps),.vibe-step p,
+  .about-statement>p:last-child,.process-item p,
+  .expertise-copy>p:not(.small-caps):not(.small),
+  .contact-copy>p{font-size:14px;line-height:1.95}
+  .course-subtitle{font-size:12px}
+  .vibe-step h4,.process-item h4,html[lang=en] .process-item h4{font-size:14px}
+  .section-intro .small,.contact-copy>.preview-notice,.field .small,
+  .expertise-copy>.small{font-size:12px;line-height:1.85}
+  .field label,.enquiry-result label{font-size:13px}
+  .hero .line-link,.line-link.light{font-size:12px}
+}
+
+/* Independent page views: navigation replaces content, never scrolls between sections. */
+.course h2{font-family:var(--sans)}
+html[lang=en] .course h2{font-family:var(--sans)}
+.course-link:hover .course-title h2{color:var(--teal)}
+.course-view{display:block;color:var(--teal);font-size:11px;margin-top:17px;text-decoration:underline;text-underline-offset:5px}
+.course-arrow{font:25px Georgia,serif;color:var(--teal)}
+.course-back{font-size:12px;color:var(--teal);padding:7px 0}
+.course-back:hover{text-decoration:underline;text-underline-offset:5px}
+.course-header{max-width:800px;margin-bottom:48px}
+.course-header>.small-caps{color:var(--teal);margin-bottom:18px}
+.course-header h1{font-size:clamp(34px,4.1vw,60px);line-height:1.35}
+.course-lead{font-size:19px;color:var(--teal);margin-top:16px}
+.course-description{max-width:610px;font-size:15px;color:var(--muted);line-height:2;margin-top:24px}
+.course-overview{display:grid;grid-template-columns:1.35fr 1fr;gap:48px;border-top:1px solid var(--ink);padding:32px 0 42px}
+.course-page h2{font-family:var(--sans);font-size:19px;letter-spacing:-.025em;line-height:1.6}
+html[lang=en] .course-page h2{font-family:var(--sans);letter-spacing:-.02em}
+.course-goals{padding-left:18px;margin:18px 0 0;font-size:14px;color:var(--muted);line-height:2.1}
+.course-goals li+li{margin-top:8px}
+.course-audience{border-left:1px solid var(--line);padding-left:32px}
+.course-audience h2{font-size:13px;color:var(--teal)}
+.course-audience p{font-size:13px;line-height:2;margin-top:18px;color:var(--muted)}
+.curriculum{margin-top:20px}
+.curriculum>h2{font-family:var(--serif);font-size:32px}
+html[lang=en] .curriculum>h2{font-family:Georgia,serif}
+.curriculum-note{font-size:12px;color:var(--muted);margin:10px 0 28px}
+.curriculum-list{padding:0;margin:0;list-style:none;border-top:1px solid var(--ink)}
+.curriculum-module{display:grid;grid-template-columns:64px minmax(0,1fr);gap:20px;padding:28px 0;border-bottom:1px solid var(--line)}
+.module-number{font:italic 28px Georgia,serif;color:#789082;padding-top:5px}
+.curriculum-module h3{font-size:19px;font-weight:500;line-height:1.6;margin-bottom:10px}
+.curriculum-module p{font-size:14px;color:var(--muted);max-width:780px;line-height:2}
+.curriculum-module .module-practice{margin-top:15px;color:var(--teal);font-size:13px}
+.module-practice span{display:inline-block;font-size:11px;line-height:1.6;border:1px solid #becbbf;padding:3px 9px;margin-right:12px}
+.course-outcome{background:#e5ebe1;padding:30px 34px;margin-top:32px}
+.course-outcome .small-caps{color:var(--teal);margin-bottom:10px}
+.course-outcome>p:last-child{font-size:18px}
+.course-extension{background:#284f44;color:#eaf1e6;margin-top:32px;padding:34px}
+.course-extension>.small-caps{color:#bad3c5;margin-bottom:20px}
+.course-extension h2{font-size:25px;font-family:var(--serif)}
+.course-extension>p:last-child{font-size:14px;line-height:2;margin-top:20px;max-width:760px;color:#d3e1d4}
+.course-format{padding:45px 0}
+.course-format>p{font-size:13px;color:var(--muted);line-height:2;max-width:740px;margin-top:14px}
+.course-format .line-link{margin-top:20px;min-height:44px}
+.course-related{display:flex;flex-wrap:wrap;align-items:center;gap:16px 32px;border-top:1px solid var(--line);padding-top:25px}
+.course-related>.small-caps{color:var(--muted);margin-right:auto}
+.course-related a{font-size:13px;color:var(--teal);padding:8px 0}
+.course-related a:hover{text-decoration:underline;text-underline-offset:5px}
+@media(max-width:600px){
+  .course-arrow{grid-column:3;grid-row:1;font-size:23px}
+  .course-view{font-size:11px;line-height:1.7}
+  .course-page .section-heading{align-items:flex-start}
+  .course-back{font-size:12px}
+  .course-header{margin-bottom:30px}
+  .course-header h1{font-size:34px}
+  .course-lead{font-size:16px;margin-top:13px}
+  .course-description{font-size:14px;margin-top:20px}
+  .course-overview{display:block;padding:26px 0 15px}
+  .course-audience{border-left:0;border-top:1px solid var(--line);padding:24px 0 0;margin-top:25px}
+  .course-audience p{font-size:14px;margin-top:12px}
+  .curriculum{margin-top:25px}
+  .curriculum>h2{font-size:27px}
+  .curriculum-module{grid-template-columns:29px minmax(0,1fr);gap:13px;padding:25px 0}
+  .module-number{font-size:23px}
+  .curriculum-module h3{font-size:17px}
+  .module-practice span{display:table;margin-bottom:8px}
+  .course-outcome,.course-extension{padding:26px 22px}
+  .course-outcome>p:last-child{font-size:16px}
+  .course-extension h2{font-size:24px}
+  .course-format>p{font-size:14px}
+  .course-related{display:grid;gap:8px}
+}
+html{scroll-behavior:auto;scroll-padding-top:0}
+body:not([data-page="home"]) main{min-height:100svh;display:flex;flex-direction:column}
+
+body[data-page="people"] #people,body[data-page="contact"] #contact{min-height:calc(100svh - 115px)}
+body:not([data-page="home"]) .footer{margin-top:auto}
+.sidebar-contact[aria-current="page"]{color:#a8d4bc}
+@media(max-width:900px){body[data-page="people"] #people,body[data-page="contact"] #contact{min-height:calc(100svh - 191px)}}
+
+/* Mobile review: make compact navigation comfortable to tap. */
+@media screen and (max-width:900px){
+  .course-back,.course-related a{display:inline-flex;align-items:center;min-height:44px}
+  .languages button{min-width:44px;min-height:44px}
+  .sidebar .wordmark{min-height:44px;align-items:center}
+  .back-top{min-width:44px;height:44px;line-height:42px}
+}
+
+/* ACUMELO / CREATIVE DIRECTION
+   Palette and surface tokens can be replaced without changing the page layout.
+   Final logo, portraits and showreels are supplied separately. */
+:root{
+  --ink:#262132;--muted:#686173;--teal:#6341b0;--side:#191620;
+  --paper:#f8f6fb;--line:#dcd5e5;
+  --accent-violet:#b5a0ed;--accent-mint:#bce8d9;--accent-peach:#f1b8a0;
+  --surface-lilac:#eee8f7;--surface-mint:#e5f2ec;--surface-peach:#fae9e2;
+  --stage-dark:#272035;--motion-fast:200ms;--motion-page:360ms;
+}
+::selection{background:var(--accent-mint);color:var(--ink)}
+.sidebar{background:var(--side);color:#f1edf7}
+.sidebar .wordmark{color:#ece4fb}
+.wordmark i{color:var(--accent-mint)}
+.brand-caption,.sidebar-note,.sidebar-domain,.draft-label{color:#b9afc7}
+.main-nav>a{border-color:#44384f}
+.main-nav small{color:#b4a8c3}
+.main-nav>a:hover,.main-nav>a[aria-current],.sidebar-contact:hover,.sidebar-contact[aria-current="page"]{color:var(--accent-mint)}
+.main-nav>a[aria-current]:before{background:var(--accent-mint)}
+.languages{color:#aa9ebc}.languages button[aria-pressed=true]{color:#fff}
+.sidebar .draft-label i{background:var(--accent-peach)}
+.hero{background:var(--surface-lilac)}
+.hero:after{background:linear-gradient(90deg,#f5f0fa 0%,#f5f0faed 24%,#f5f0fa88 49%,transparent 76%)}
+.hero-art:not(.has-media){background:radial-gradient(ellipse at 82% 22%,var(--accent-peach),transparent 48%),radial-gradient(ellipse at 22% 82%,var(--accent-mint),transparent 53%),linear-gradient(145deg,#ddd1f4,#bba7e7 64%,#edf3ef)}
+.hero-art:not(.has-media) .architecture{opacity:.08;mix-blend-mode:multiply}
+.hero-art:not(.has-media):before,.hero-art:not(.has-media):after{content:"";position:absolute;border-radius:50%;border:1px solid #fff9;pointer-events:none}
+.hero-art:not(.has-media):before{width:68%;height:74%;left:19%;top:16%;transform:rotate(24deg);box-shadow:0 0 0 36px #ffffff0c,0 0 0 72px #ffffff0c,0 0 0 108px #ffffff0c}
+.hero-art:not(.has-media):after{width:58%;height:58%;left:38%;top:35%;background:linear-gradient(145deg,#ffffff3d,#f2b5a11a);border-color:#ffffff66;transform:rotate(-18deg)}
+.hero .hero-top,.hero .hero-bottom{border-color:#a89ab760;color:#4d415e}
+.hero-english{color:#635379}
+.hero-description{color:#51475e}
+.art-caption{color:#514469}
+.hero h1 em{color:var(--teal)}
+.hero-copy{animation:stage-arrive 700ms both}
+.course-page,.courses,.people,.about,.contact{animation:page-arrive var(--motion-page) both}
+.section-intro>p,.section-intro>div,.course-subtitle,.course-summary,.about-statement>p:last-child,.process-item p,.contact-copy>p,.expertise-copy>p:not(.small-caps):not(.small){color:var(--muted)}
+.course{--field-accent:var(--teal);--field-surface:var(--surface-lilac)}
+.course[data-course-id="analytics"]{--field-accent:#25705e;--field-surface:var(--surface-mint)}
+.course[data-course-id="marketing"]{--field-accent:#9b4b30;--field-surface:var(--surface-peach)}
+.course[data-course-id="design"]{--field-accent:#9b3773;--field-surface:#fae6f0}
+.course[data-course-id="development"]{--field-accent:#3e55a4;--field-surface:#e8edff}
+.course[data-course-id="strategy"]{--field-accent:#706020;--field-surface:#f5efd8}
+.course-link{transition:background var(--motion-fast),box-shadow var(--motion-fast)}
+.course-link:hover,.course-link:focus-visible{background:var(--field-surface);box-shadow:12px 0 var(--field-surface),-12px 0 var(--field-surface)}
+.course-title .small-caps,.course-link:hover .course-title h2,.course-number,.course-arrow{color:var(--field-accent)}
+.course h2{font-weight:500}
+.course-view{color:var(--field-accent)}
+.vibe-feature,.course-extension{background:linear-gradient(125deg,var(--stage-dark),#3d2c51);color:#f5eefb}
+.vibe-intro>.small-caps,.course-extension>.small-caps{color:var(--accent-mint)}
+.vibe-intro>p:not(.small-caps),.vibe-step p,.course-extension>p:last-child{color:#dcd1e8}
+.vibe-step{border-color:#796488}.vibe-step:last-child{border-color:#796488}
+.vibe-step>span{color:var(--accent-peach)}
+.line-link.light{color:#e8f8f1}
+.people{background:var(--surface-lilac)}
+.member-visual,.member:nth-child(2) .member-visual,.member:nth-child(3) .member-visual{background:linear-gradient(145deg,#e0d6f0,#cec0e2)}
+.member:nth-child(2) .member-visual{background:linear-gradient(145deg,#dfede5,#bacec8)}
+.member:nth-child(3) .member-visual{background:linear-gradient(145deg,#f4e4dc,#dcbda9)}
+.member-visual:before{border-color:#ffffff88}
+.member-visual svg{color:#756b88}
+.member:nth-child(2) .member-visual svg{color:#657a75}
+.member:nth-child(3) .member-visual svg{color:#8d7465}
+.member-caption{border-color:#c3b7d2;color:#675b79}
+.about,.contact{background:var(--paper)}
+.process-item{border-color:#9a86b0}.process-item>span{color:#84679f}
+.expertise{background:var(--surface-mint)}
+.expertise-art{color:#597d71}
+.engines{border-color:#a5beb2}
+.field input,.field select,.field textarea{border-color:#ad9dbb}
+.field input::placeholder,.field textarea::placeholder{color:#766a80}
+.solid-button{background:var(--teal)}.solid-button:hover{background:#4e2e95}
+.enquiry-result textarea{background:var(--surface-lilac);border-color:#c8bad5}
+.course-audience,.course-overview,.curriculum-module{border-color:var(--line)}
+.course-outcome{background:var(--surface-lilac)}
+.module-number{color:#927aac}.module-practice span{border-color:#c9b9db}
+.back-top{border-color:#c7b9d4}
+.has-media video{object-fit:cover;z-index:2}
+.wordmark .brand-image{display:block;width:150px;max-width:100%;max-height:44px;object-fit:contain;object-position:left center}
+.footer .wordmark .brand-image{width:130px}
+@keyframes stage-arrive{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes page-arrive{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:900px){.menu-panel{background:var(--side)}}
+@media(max-width:600px){
+  .hero:after{background:linear-gradient(90deg,#f5f0faf2,#f5f0facb 42%,#f5f0fa77)}
+  .hero-art{opacity:.95}
+  .course-page .section-heading>.small-caps{max-width:43%;overflow-wrap:anywhere}
+  .course-related a{overflow-wrap:anywhere}
+  html[lang=en] .course-header h1{font-size:32px}
+  .course-lead{font-size:15px;line-height:1.8}
+}
+@media(prefers-reduced-motion:reduce){.hero-copy,.course-page,.courses,.people,.about,.contact{animation:none;transform:none}}
+
+</style>
+</head>
+<body>
+<a href="#main" class="skip" data-i18n="skip">Skip to content</a>
+<header class="sidebar">
+<a class="wordmark" href="#home" aria-label="Acumelo"><span>Acumelo</span><i aria-hidden="true">.</i></a>
+<p class="brand-caption">AI EDUCATION<br>& CREATIVE PRACTICE</p>
+<button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="menu-panel"><span data-i18n="menu">Menu</span><span class="menu-icon" aria-hidden="true"></span></button>
+<div class="menu-panel" id="menu-panel">
+<nav class="main-nav" aria-label="Main navigation">
+<a href="#lectures"><span data-i18n="navLectures">Education</span><small>01</small></a>
+<a href="#people"><span data-i18n="navPeople">Instructors</span><small>02</small></a>
+<a href="#about"><span data-i18n="navAbout">About</span><small>03</small></a>
+</nav>
+<a class="sidebar-contact" href="#contact"><span data-i18n="navContact">Enquiries</span><span aria-hidden="true">↗</span></a>
+<div class="sidebar-bottom">
+<div class="languages" role="group" aria-label="Language"><button type="button" data-lang="en" aria-pressed="true">EN<span class="sr-only"> English</span></button><span aria-hidden="true">/</span><button type="button" data-lang="ko" aria-pressed="false">KR<span class="sr-only"> 한국어</span></button></div>
+<p class="sidebar-note" data-i18n="sidebarNote">배움이 일의 변화로<br>이어지는 곳.</p><a class="sidebar-domain" href="#home">acumelo.com</a>
+<span class="draft-label"><i></i><span data-i18n="draft">Design preview</span></span>
+</div></div>
+</header>
+<main id="main" tabindex="-1">
+<section id="home" class="hero" aria-labelledby="hero-title">
+<div class="hero-top"><span>ACUMELO — LEARNING IN PRACTICE</span><span data-i18n="heroTop">AI TRAINING FOR ORGANISATIONS</span></div>
+<div class="hero-art" data-image-slot="hero" aria-hidden="true">
+<svg viewBox="0 0 720 900" preserveAspectRatio="xMidYMid slice" class="architecture">
+<defs>
+<linearGradient id="wall"><stop stop-color="#e8e7df"/><stop offset="1" stop-color="#bfc6bf"/></linearGradient>
+<linearGradient id="light" x2="1" y2="1"><stop stop-color="#f8f6f0"/><stop offset="1" stop-color="#d7dcd3"/></linearGradient>
+<linearGradient id="shade"><stop stop-color="#a8b9ae"/><stop offset="1" stop-color="#d0d7cd"/></linearGradient>
+<linearGradient id="inside" x2="1" y2="1"><stop stop-color="#2e5c54"/><stop offset="1" stop-color="#739084"/></linearGradient>
+<pattern id="lines" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 0V12" stroke="#fff" stroke-opacity=".14" stroke-width=".7"/></pattern>
+</defs>
+<path fill="url(#wall)" d="M0 0H720V900H0z"/><path fill="url(#light)" d="M0 0H470V770L0 900z"/><path fill="url(#shade)" d="M470 0H720V900L470 770z"/><path fill="#f4f2e9" d="M0 900L470 770 720 900z"/>
+<path fill="#c5cdc3" d="M210 900V330a170 170 0 0 1 340 0v570z"/><path fill="url(#inside)" d="M252 900V334a128 128 0 0 1 256 0v566z"/><path fill="url(#lines)" d="M252 900V334a128 128 0 0 1 256 0v566z"/>
+<path fill="#e8e9df" d="M290 900V359a90 90 0 0 1 180 0v541z"/><path fill="#aebfb1" d="M313 900V363a67 67 0 0 1 134 0v537z"/><path fill="#dfe6d8" d="M337 900V388a43 43 0 0 1 86 0v512z"/><path fill="#f7f5ed" d="M357 900V397a23 23 0 0 1 46 0v503z"/>
+<path fill="#293e36" opacity=".14" d="M252 690L0 900H250L508 780V680z"/><path fill="#fff" opacity=".22" d="M0 0H60L720 650V720z"/>
+<g fill="none" stroke="#668176" stroke-width=".8" opacity=".38"><path d="M165 900V325a215 215 0 0 1 430 0V900M130 900V320a250 250 0 0 1 500 0v580M0 770H720M470 0V900"/></g><g fill="#6e8177"><circle cx="165" cy="770" r="3"/><circle cx="595" cy="770" r="3"/></g>
+</svg><div class="art-caption">A NEW WAY<br>TO MAKE.</div></div>
+<div class="hero-copy">
+<p class="eyebrow"><span class="tiny-cross" aria-hidden="true">+</span><span data-i18n="heroEyebrow">LEARNING WITH CREATIVE ENERGY</span></p>
+<h1 id="hero-title"><span data-i18n="heroLineOne">Learn AI.</span><em data-i18n="heroLineTwo">Make it.</em></h1>
+<p class="hero-english" data-i18n="heroSubline">Human ideas. New possibilities.</p>
+<p class="hero-description" data-i18n="heroDescription">Practical AI programmes for businesses, institutions and universities. Build skills across a series of live, project-based sessions — on site or online.</p>
+<a class="line-link" href="#lectures"><span data-i18n="explore">Explore our education</span><span aria-hidden="true">↗</span></a>
+</div>
+<div class="hero-bottom"><span data-i18n="heroTopics">AUTOMATION · RAG · AGENTS</span><a href="#lectures"><span data-i18n="scroll">Explore education</span><span aria-hidden="true">↗</span></a></div>
+</section>
+<section hidden id="lectures" class="section courses" aria-labelledby="courses-title">
+<div class="section-heading"><p class="section-index"><span>01</span><span data-i18n="navLectures">Education</span></p><p class="small-caps">FIELDS OF LEARNING</p></div>
+<div class="section-intro"><h1 class="page-title" id="courses-title" data-i18n="coursesTitle">Six fields.
+New possibilities.</h1><div><p data-i18n="coursesIntro">From everyday automation to intelligent applications. Explore six connected fields, shaped around the people and projects in your organisation.</p><p class="muted small" data-i18n="curriculumNote">Illustrative modules for a multi-session programme. We agree the scope, level and schedule with your organisation.</p></div></div>
+<div id="course-list" class="course-list"></div>
+<div class="vibe-feature">
+<div class="vibe-intro"><p class="small-caps" data-i18n="featureLabel">IN FOCUS / RAG &amp; AGENTS</p><h3 data-i18n="vibeTitle">From your knowledge
+to a working AI application.</h3><p data-i18n="vibeBody">Go beyond a prompt. Explore retrieval-augmented generation (RAG), build an agent and test how it behaves. Connect a series of practical sessions through one evolving project.</p><a href="#development" class="line-link light"><span data-i18n="vibeCta">Explore application development</span><span aria-hidden="true">↗</span></a></div>
+<div class="vibe-steps" id="vibe-steps"></div>
+</div>
+</section>
+<section hidden id="people" class="section people" aria-labelledby="people-title">
+<div class="section-heading"><p class="section-index"><span>02</span><span data-i18n="navPeople">Instructors</span></p><p class="small-caps">THE PEOPLE / THE PERSPECTIVES</p></div>
+<div class="section-intro"><h1 class="page-title" id="people-title" data-i18n="peopleTitle">Different perspectives.
+Shared creative energy.</h1><p data-i18n="peopleIntro">Meet the people behind the learning. Instructor introductions are being prepared; each programme brings together expertise around your subject and participants.</p></div>
+<div id="people-list" class="people-list"></div>
+</section>
+<section hidden id="about" class="section about" aria-labelledby="about-title">
+<div class="section-heading"><p class="section-index"><span>03</span><span data-i18n="navAbout">About</span></p><p class="small-caps">LEARNING, WHERE YOU ARE</p></div>
+<div class="about-statement"><p class="eyebrow" data-i18n="aboutEyebrow">AI EDUCATION, WITH A GLOBAL OUTLOOK</p><h1 class="page-title" id="about-title" data-i18n="aboutTitle">Human potential.
+A wider stage.</h1><p data-i18n="aboutBody">Acumelo is an AI education company for businesses, institutions and universities. We design multi-session, hands-on programmes for professionals, university students and people preparing for their careers, delivered at your organisation or live online. We are developing our international reach, with the UAE as our first market for exploring overseas demand.</p></div>
+<div class="process-header"><h3 data-i18n="processTitle">From a shared goal to a practical project.</h3><span class="small-caps">OUR APPROACH</span></div><ol id="process-list" class="process-list"></ol>
+</section>
+<section hidden class="section expertise" aria-labelledby="expertise-title">
+<div class="expertise-art" data-image-slot="expertise" aria-hidden="true"><svg viewBox="0 0 480 480" fill="none"><g stroke="currentColor" stroke-width="1"><path d="M240 40 420 144v208L240 456 60 352V144zM240 40v208m0 208V248M60 144l180 104 180-104M60 352l180-104 180 104"/><path d="M240 100 368 174v148l-128 74-128-74V174zM240 160l76 44v88l-76 44-76-44v-88z"/><path d="M60 144l308 178M112 174l308 178M60 352l308-178M112 322l308-178"/></g><g fill="currentColor"><circle cx="240" cy="248" r="7"/><circle cx="60" cy="144" r="3"/><circle cx="420" cy="352" r="3"/></g></svg><span class="small-caps">THINK. BUILD. PLAY.</span></div>
+<div class="expertise-copy"><p class="small-caps">A DEEPER PERSPECTIVE</p><h2 id="expertise-title" data-i18n="expertiseTitle">Interactive AI.
+A deeper creative practice.</h2><p data-i18n="expertiseBody">App and game development expertise shapes our advanced courses. With Unity and Unreal Engine, participants can explore interactive AI, real-time experiences and digital humans — building on the foundations of application development.</p><div class="engines"><span>Unity</span><span>Unreal Engine</span></div><p class="small muted" data-i18n="expertiseNote">Advanced topics are scoped around participants’ technical experience and project goals.</p></div>
+</section>
+<section hidden id="contact" class="section contact" aria-labelledby="contact-title">
+<div class="section-heading"><p class="section-index"><span>↗</span><span data-i18n="navContact">Enquiries</span></p><p class="small-caps">LET’S START A CONVERSATION</p></div>
+<div class="contact-grid"><div class="contact-copy"><h1 class="page-title" id="contact-title" data-i18n="contactTitle">Let’s shape
+your next programme.</h1><p data-i18n="contactBody">Tell us who is learning and what they want to build.
+We can discuss a series of sessions at your organisation or live online.</p><div class="contact-address"><span class="small-caps" data-i18n="emailLabel">EDUCATION ENQUIRIES</span><span>1st@acumelo.com</span><p class="small" data-i18n="emailStatus">Mailbox setup pending</p></div><p class="preview-notice" data-i18n="contactNotice">This is a design preview. Your text is neither sent nor saved. Use the button to prepare and copy an enquiry draft.</p></div>
+<form id="enquiry-form" class="enquiry-form">
+<div class="field"><label for="organization" data-i18n="formOrganization">Organisation</label><input id="organization" name="organization" autocomplete="organization" maxlength="120" data-placeholder="orgPlaceholder"></div>
+<div class="field"><label for="topic" data-i18n="formTopic">Education area</label><select id="topic" name="topic"></select></div>
+<div class="field"><label for="enquiry" data-i18n="formMessage">Tell us about your course *</label><textarea id="enquiry" name="enquiry" rows="4" maxlength="3000" required aria-describedby="message-hint" data-placeholder="messagePlaceholder"></textarea><p class="small muted" id="message-hint" data-i18n="messageHint">Required · You can leave undecided details out.</p></div>
+<button type="submit" class="solid-button"><span data-i18n="prepare">Prepare enquiry draft</span><span aria-hidden="true">↗</span></button>
+<div id="enquiry-result" class="enquiry-result" hidden><label for="enquiry-draft" data-i18n="draftLabel">Enquiry draft · Not sent</label><textarea id="enquiry-draft" readonly rows="7"></textarea><button id="copy-enquiry" type="button" class="line-link"><span data-i18n="copy">Copy draft</span><span aria-hidden="true">↗</span></button></div>
+<p class="form-status small" id="form-status" role="status" aria-live="polite"></p>
+</form></div>
+</section>
+<footer hidden class="footer"><a class="wordmark" href="#home">Acumelo<i aria-hidden="true">.</i></a><p data-i18n="footer">AI learning. Human possibility.</p><span>© 2026 Acumelo</span><a href="#home" class="back-top" data-label="backTop" aria-label="Home">⌂</a></footer>
+</main>
+<noscript><p class="noscript">교육 상세·언어 전환·문의 문안 기능에는 JavaScript가 필요합니다. This preview requires JavaScript for course details, languages and enquiry drafting.</p></noscript>
+<script>
+window.ACUMELO = {"assets":{"hero":{"src":"","position":"50% 50%","video":"","poster":""},"expertise":{"src":"","position":"50% 50%","video":"","poster":""},"logo":{"src":""}},"members":[{"image":"","name":{"ko":"","en":""},"role":{"ko":"","en":""},"bio":{"ko":"","en":""}},{"image":"","name":{"ko":"","en":""},"role":{"ko":"","en":""},"bio":{"ko":"","en":""}},{"image":"","name":{"ko":"","en":""},"role":{"ko":"","en":""},"bio":{"ko":"","en":""}}],"copy":{"ko":{"title":"Acumelo — AI 배움으로 넓히는 가능성","skip":"본문으로 이동","menu":"메뉴","menuClose":"닫기","navLectures":"교육분야","navPeople":"강사진","navAbout":"회사소개","navContact":"교육 문의","navigation":"주 메뉴","language":"언어 선택","draft":"검토용 시안","sidebarNote":"새로운 관점.\n더 넓은 가능성.","heroTop":"기업 · 기관 · 대학 AI 교육","heroEyebrow":"배움에 창의적인 에너지를 더하다","heroLineOne":"배우고,","heroLineTwo":"만들다.","heroSubline":"Human ideas. New possibilities.","heroDescription":"기업·기관·대학을 위한 실습·프로젝트 중심 AI 교육. 현장 출강 또는 실시간 원격으로, 여러 회차의 배움을 하나의 프로젝트로 연결합니다.","explore":"교육분야 살펴보기","scroll":"교육분야 보기","coursesTitle":"여섯 개의 분야,\n새로운 가능성.","coursesIntro":"일상의 업무 자동화부터 지능형 서비스 구현까지. 조직의 과제와 참여자의 경험에 맞춰 여섯 교육분야를 연결하고 실습을 설계합니다.","curriculumNote":"여러 회차로 구성하는 교육의 모듈 예시입니다. 실제 범위·난이도·일정은 조직과 협의해 정합니다.","details":"과정 살펴보기","collapse":"과정 접기","topicsLabel":"이런 내용을 다룹니다","outputLabel":"실습 결과물 예시","vibeTitle":"우리의 지식이\n작동하는 AI 서비스로.","vibeBody":"프롬프트를 넘어, 지식 검색과 응답을 연결하는 RAG와 에이전트를 직접 구현합니다. 여러 회차의 실습을 하나의 프로젝트로 이어가며 결과와 한계를 검증합니다.","vibeCta":"AI 서비스 개발 과정 보기","peopleTitle":"서로 다른 관점,\n함께 만드는 에너지.","peopleIntro":"배움에 각자의 관점과 전문성을 더하는 강사진을 소개할 예정입니다. 교육 주제와 참여자의 경험에 맞춰 강사진을 구성합니다.","memberPending":"프로필 준비 중","memberAvatar":"구성원 소개용 빈 아바타","aboutEyebrow":"글로벌을 향하는 AI 교육 전문회사","aboutTitle":"사람의 가능성을,\n더 넓은 무대로.","aboutBody":"Acumelo는 기업·기관·대학을 위한 AI 강의 전문회사입니다. 직장인·대학생·취업준비생이 실습과 프로젝트로 역량을 쌓도록 여러 회차의 교육을 설계하고, 고객 현장 출강 또는 실시간 원격으로 진행합니다. 글로벌 진출을 목표로 UAE를 첫 해외 수요 검증시장으로 삼아 준비하고 있습니다.","processTitle":"공통의 목표에서 실무 프로젝트까지.","expertiseTitle":"인터랙티브 AI,\n개발 경험으로 더 깊게.","expertiseBody":"앱·게임 개발 전문성을 심화 교육에 담습니다. Unity와 Unreal Engine을 활용해 인터랙티브 AI, 실시간 콘텐츠와 디지털 휴먼을 탐구하며 서비스 개발의 기본기를 창의적인 경험으로 확장합니다.","expertiseNote":"심화 주제는 참여자의 기술 경험과 프로젝트 목표에 맞춰 협의합니다.","contactTitle":"다음 배움을\n함께 설계해 볼까요?","contactBody":"누가 배우고, 무엇을 만들고 싶은지 알려주세요.\n여러 회차의 현장 출강 또는 실시간 원격 교육을 논의합니다.","emailLabel":"교육 문의 이메일","emailStatus":"메일 개통 준비 중","contactNotice":"검토용 시안입니다. 작성한 내용은 전송·저장되지 않으며, 버튼으로 문의 문안을 만들고 복사할 수 있습니다.","formOrganization":"기관·회사명","orgPlaceholder":"소속 기관 또는 회사","formTopic":"관심 교육분야","formMessage":"교육에 대해 알려주세요 *","messagePlaceholder":"교육 대상, 학습 목표, 희망 언어, 회차·일정, 출강 장소 또는 실시간 원격 여부 등","messageHint":"필수 항목 · 아직 정하지 않은 내용은 비워두셔도 됩니다.","prepare":"문의 문안 만들기","draftLabel":"문의 문안 · 전송되지 않았습니다","copy":"문안 복사","copied":"문의 문안을 복사했습니다. 아직 전송되지 않았습니다.","copyFallback":"자동 복사가 지원되지 않습니다. 선택된 문안을 직접 복사해 주세요.","prepared":"문의 문안을 만들었습니다. 검토 후 복사해 보관할 수 있습니다.","required":"교육에 관한 내용을 입력해 주세요.","topicAny":"상담 후 결정","notProvided":"미정","subject":"[Acumelo] 교육과정 문의","draftBodyLabel":"교육 요청 내용","footer":"AI 배움으로 넓히는 사람의 가능성.","backTop":"첫 화면으로","courses":[{"id":"workflow","tag":"AI × WORK","title":"AI 업무혁신·자동화","subtitle":"문서 · 메일 · 보고서 · n8n · 업무용 에이전트","body":"반복 업무를 연결하고, 중요한 일에 집중하는 방법. AI 도구와 자동화 흐름을 실제 업무에 맞게 활용하고 구성합니다.","audience":"문서·자료·메일 업무를 담당하는 직장인, 팀의 반복 업무를 개선하는 담당자, 업무용 AI 도구를 익히려는 대학생·취업준비생.","learning":["문서·메일·보고서 작업을 분석하고 자동화할 지점을 찾습니다.","n8n으로 업무 흐름을 연결하고 오류·검토 단계를 구성합니다.","기존 AI 도구를 활용해 업무용 에이전트의 역할과 규칙을 설정합니다."],"output":"샘플 업무를 연결한 n8n 자동화 흐름과 업무용 에이전트 구성안","curriculum":[["업무 흐름과 개선 과제","업무의 입력·처리·결과를 나누고 반복 빈도, 오류와 검토 지점을 정리합니다.","업무 흐름도와 자동화 우선순위 작성"],["문서·메일·보고서 활용","AI로 문서 요약, 답장 초안과 보고서를 만들고 근거·수치·표현을 사람이 확인합니다.","샘플 자료로 보고서와 메일 초안 만들기"],["n8n 업무 자동화","트리거와 작업 단계를 연결하고 데이터 전달, 실행 기록과 예외 처리를 다룹니다.","샘플 접수 자료를 정리하고 검토용 알림으로 연결"],["업무용 에이전트 구성","기존 도구에서 역할, 참고 지식, 응답 규칙과 승인 단계를 설정합니다. 코드 기반 구현은 서비스 개발 분야에서 다룹니다.","내부 업무 안내를 돕는 에이전트 구성"],["테스트와 업무 적용","누락·중복·오류 상황을 시험하고 실행 권한, 정보 취급과 운영 방법을 정리합니다.","자동화 시연과 업무 적용 체크리스트 작성"]]},{"id":"analytics","tag":"AI × DATA","title":"AI 데이터 분석","subtitle":"데이터 정리 · 분석 · 시각화 · 의사결정 보고서","body":"흩어진 데이터에서 판단의 근거를 찾습니다. AI와 함께 자료를 정리하고 분석의 의미를 읽어 의사결정에 연결합니다.","audience":"데이터로 업무를 설명해야 하는 직장인, 보고서·기획 담당자, 분석 역량을 기르려는 대학생·취업준비생.","learning":["질문에 맞는 데이터와 분석 기준을 정의합니다.","AI의 도움으로 데이터를 정리·분석하고 결과를 검산합니다.","시각화와 해석을 의사결정 보고서로 연결합니다."],"output":"분석 과정과 한계를 설명하는 시각화 및 의사결정 보고서","curriculum":[["분석 질문과 데이터 이해","의사결정에 필요한 질문을 정하고 데이터의 범위·단위·품질을 살펴봅니다.","샘플 데이터의 항목 설명과 분석 질문 작성"],["데이터 정리와 품질 점검","누락·중복·형식 차이를 정리하고 변경 내역과 원본을 구분합니다.","정리된 데이터셋과 품질 점검표 만들기"],["AI와 함께하는 탐색 분석","집계·비교·추세를 살펴보고 AI가 제안한 계산과 해석을 검증합니다.","지표 요약과 비교 분석 수행"],["시각화와 인사이트","질문에 맞는 차트를 선택하고 오해를 줄이는 축·단위·설명을 구성합니다.","핵심 질문에 답하는 차트와 해석 작성"],["의사결정 보고서","관찰과 추정을 구분하고 한계, 대안과 후속 검증을 함께 제시합니다.","분석 근거를 담은 의사결정 보고서 발표"]]},{"id":"marketing","tag":"AI × GROWTH","title":"AI 마케팅·세일즈","subtitle":"고객 분석 · 캠페인 · CRM · 영업 지원","body":"고객을 이해하는 질문에서 시작합니다. AI를 활용해 캠페인을 설계하고 고객 관리와 영업 활동을 돕는 자료를 만듭니다.","audience":"마케팅·영업·고객관리 담당자, 사업 기획자, 관련 직무를 준비하는 대학생·취업준비생.","learning":["고객 자료에서 가설과 세그먼트를 도출합니다.","목표·메시지·채널을 연결한 캠페인을 기획합니다.","CRM 자료와 영업 준비를 돕는 AI 활용 흐름을 구성합니다."],"output":"고객 가설, 캠페인 기획안과 CRM·영업 지원 자료","curriculum":[["고객 이해와 가설","샘플 고객 자료를 살펴보고 고객 과제와 구매 여정에 관한 가설을 세웁니다.","고객 세그먼트와 검증할 질문 정리"],["메시지와 제안 구성","고객 상황에 맞는 가치 제안, 메시지와 콘텐츠 초안을 만들고 표현을 검토합니다.","고객군별 메시지와 제안 초안 작성"],["캠페인 설계","목표·채널·콘텐츠 흐름을 연결하고 비교 실험과 성과 지표를 계획합니다.","캠페인 브리프와 실험 계획 작성"],["CRM·영업 지원","샘플 상담 기록을 정리하고 후속 업무, 미팅 준비와 제안서 작성을 보조합니다.","CRM 요약과 영업 미팅 준비 자료 만들기"],["성과 해석과 개선","실제 성과를 가정하지 않고 샘플 결과로 지표를 읽고 개선 방향을 논의합니다.","캠페인 리뷰와 다음 실행안 발표"]]},{"id":"design","tag":"AI × CREATE","title":"AI 디자인·콘텐츠","subtitle":"이미지 · 영상 · UI · 3D · 캐릭터 · 글 · 음악","body":"아이디어를 여러 감각으로 표현합니다. 목적에 맞는 제작 분야를 선택하고 AI 결과물을 일관된 콘텐츠로 다듬습니다.","audience":"디자인·콘텐츠·브랜드 담당자, 창작 도구를 익히려는 직장인, 포트폴리오를 준비하는 대학생·취업준비생.","learning":["기획 의도를 시각·서사·음악의 제작 방향으로 구체화합니다.","이미지·영상·UI·3D·캐릭터·글·음악 중 필요한 분야를 선택해 실습합니다.","일관성·사용성·출처와 이용 조건을 검토하며 결과물을 다듬습니다."],"output":"선택 분야의 콘텐츠 시안과 제작 과정을 담은 프로젝트","curriculum":[["콘셉트와 제작 방향","대상·메시지·사용 맥락을 정의하고 레퍼런스와 제작 지시를 정리합니다.","프로젝트 브리프와 무드보드 만들기"],["이미지·캐릭터·글","시각 스타일과 캐릭터 설정, 이야기·카피를 연결하며 일관성을 점검합니다.","캐릭터 콘셉트와 이미지·텍스트 시안 제작"],["영상·음악 콘텐츠","스토리보드와 장면, 편집 리듬과 음악의 역할을 설계하고 생성 결과를 검토합니다.","짧은 영상 구성안과 장면·음악 시안 제작"],["UI·3D 표현","목적에 따라 화면 흐름과 UI 또는 오브젝트·공간·재질 표현을 선택해 실습합니다.","UI 프로토타입 또는 3D 콘셉트 제작"],["통합 리뷰와 정리","결과물의 메시지·일관성·사용성을 확인하고 출처와 이용 조건을 정리합니다.","선택한 콘텐츠와 제작 과정 발표"]]},{"id":"development","tag":"AI × BUILD","title":"AI 서비스 개발","subtitle":"바이브코딩 · 웹·앱 · RAG · 에이전트 구현·배포","body":"아이디어를 작동하는 서비스로 만듭니다. 웹·앱 시제품에서 RAG와 에이전트의 기술적 구현까지, 실행과 검증을 반복합니다.","audience":"AI 서비스를 구현하려는 개발자와 실무자, 바이브코딩으로 시제품을 만들고 싶은 기획자, 프로젝트 역량을 기르는 대학생·취업준비생.","learning":["바이브코딩으로 웹·앱 시제품을 만들고 코드를 읽고 검증합니다.","자료 검색과 근거 기반 응답을 연결하는 RAG를 구현합니다.","에이전트의 도구·상태·권한을 설계하고 제한된 환경에서 배포를 연습합니다."],"output":"웹·앱 기반 RAG 또는 에이전트 시제품과 검증·배포 기록","curriculum":[["요구사항과 바이브코딩","사용자 문제와 완료 기준을 정의하고 AI와 작은 단위로 웹·앱 구조를 구현합니다.","서비스 요구사항과 핵심 화면 시제품 만들기"],["웹·앱과 데이터 연결","입력·출력·화면 상태와 데이터 흐름을 연결하고 오류 처리와 코드 구조를 살펴봅니다.","샘플 데이터로 동작하는 핵심 기능 구현"],["RAG 구현과 응답 검증","문서 준비, 분할, 검색과 응답 연결을 구현하고 출처와 답변 품질을 확인합니다.","샘플 문서 기반 질의응답 시제품 제작"],["에이전트의 기술적 구현","도구 호출, 상태와 실행 권한, 사람의 승인 단계를 코드로 연결합니다. 업무 도구 활용·구성은 업무혁신 분야에서 다룹니다.","제한된 작업을 수행하는 에이전트 구현"],["테스트와 배포 실습","정상·실패 사례, 비용과 비밀정보 취급을 확인하고 교육용 환경에서 배포·운영 절차를 연습합니다.","평가 결과와 배포·복구 절차 정리"]]},{"id":"strategy","tag":"AI × DIRECTION","title":"AI 기획·프로젝트 관리","subtitle":"과제 발굴 · 도입 제안 · 요구사항 · 검증 · 성과 관리","body":"AI를 어디에, 왜 적용할지부터 설계합니다. 아이디어를 실행 가능한 과제로 정리하고 검증과 프로젝트 관리를 연결합니다.","audience":"기획·PM·사업 담당자, 조직의 AI 도입을 준비하는 리더와 직장인, 프로젝트 기획 역량을 기르는 대학생·취업준비생.","learning":["AI 적용 후보를 발굴하고 가치·실행 가능성·위험을 비교합니다.","도입 제안서와 요구사항, 검증 계획을 작성합니다.","역할·일정·성과 지표를 연결해 프로젝트 실행을 관리합니다."],"output":"AI 도입 제안서와 요구사항·검증·프로젝트 실행 계획","curriculum":[["AI 적용 과제 발굴","현장의 문제를 정리하고 AI 적용 필요성과 다른 해결 방법을 함께 검토합니다.","후보 과제 목록과 우선순위 작성"],["도입 제안과 범위","기대 가치, 이해관계자, 데이터·자원과 위험을 정리하고 초기 범위를 정합니다.","AI 도입 제안서 초안 작성"],["요구사항과 수용 기준","사용자 시나리오, 기능·운영 요구와 성공·중단 기준을 명확히 합니다.","요구사항 문서와 수용 기준 작성"],["검증 계획과 실행 관리","단계별 검증, 역할·일정·의존 관계와 변경 관리 방법을 설계합니다.","검증 계획과 프로젝트 실행표 만들기"],["성과 검토와 다음 결정","활용도·품질·비용 등 지표를 정하고 결과에 따른 개선·확대·중단 판단을 연습합니다.","샘플 결과 기반 리뷰와 후속 의사결정 제안"]]}],"vibeSteps":[["지식 준비","샘플 문서를 정리하고 서비스가 답해야 할 질문을 정의합니다."],["검색과 응답 연결","필요한 자료를 찾아 AI 응답에 연결하고 근거를 확인합니다."],["에이전트 구현","도구, 실행 권한과 사람의 검토 단계를 포함한 흐름을 만듭니다."],["검증과 전달","실패 사례와 한계를 평가하고 제한된 환경에서 배포를 준비합니다."]],"process":[["학습 목표 정의","조직과 대상, 교육 언어, 경험 수준과 실무 목표를 함께 살펴봅니다."],["회차와 프로젝트 설계","교육 회차, 프로젝트 단계, 진행 방식과 강사진 구성을 협의합니다."],["함께 배우고 구현","현장 또는 실시간 원격으로 설명·실습·프로젝트를 연결합니다."],["검토와 업무 적용","결과물과 한계를 평가하고 배운 내용을 적용할 방향을 정리합니다."]],"courseBack":"← 교육분야 전체 보기","courseView":"강의 내용 · 커리큘럼 보기","courseAudience":"이런 분들과 함께합니다","courseLearning":"주요 강의 내용","courseCurriculum":"단계별 커리큘럼","coursePractice":"실습 예시","courseFormat":"교육 구성 안내","courseFormatBody":"고객 현장 출강 또는 실시간 원격으로 진행하는 여러 회차의 교육을 설계합니다. 참여자의 경험과 목표에 따라 범위, 도구, 사전 준비와 프로젝트 깊이를 협의합니다. 아래 모듈은 확정 시간표가 아닌 과정 구성 예시입니다.","courseEnquiry":"이 과정 문의하기","courseOther":"다른 교육분야","courseExtension":"게임 개발 경험을 인터랙티브 AI로.","courseExtensionBody":"앱·게임 개발 전문성을 바탕으로 Unity와 Unreal Engine을 활용한 AI 상호작용, 실시간 캐릭터와 디지털 휴먼을 탐구합니다. 심화 과정의 엔진, 기술 범위와 사전 역량은 프로젝트 목표에 따라 별도로 협의합니다.","heroTopics":"자동화 · RAG · 에이전트","featureLabel":"집중 탐구 / RAG · 에이전트","heroMediaLabel":"Acumelo 브랜드 영상","expertiseMediaLabel":"Acumelo 인터랙티브 프로젝트 영상"},"en":{"title":"Acumelo — AI learning. Human possibility.","skip":"Skip to content","menu":"Menu","menuClose":"Close","navLectures":"Education","navPeople":"Instructors","navAbout":"About","navContact":"Enquiries","navigation":"Main navigation","language":"Language","draft":"Design preview","sidebarNote":"A new perspective.\nA new possibility.","heroTop":"AI TRAINING FOR ORGANISATIONS","heroEyebrow":"LEARNING WITH CREATIVE ENERGY","heroLineOne":"Learn AI.","heroLineTwo":"Make it.","heroSubline":"Human ideas. New possibilities.","heroDescription":"Practical AI programmes for businesses, institutions and universities. Build skills across a series of live, project-based sessions — on site or online.","explore":"Explore our education","scroll":"Explore education","coursesTitle":"Six fields.\nNew possibilities.","coursesIntro":"From everyday automation to intelligent applications. Explore six connected fields, shaped around the people and projects in your organisation.","curriculumNote":"Illustrative modules for a multi-session programme. We agree the scope, level and schedule with your organisation.","details":"Explore the course","collapse":"Close course details","topicsLabel":"WHAT WE EXPLORE","outputLabel":"EXAMPLE PROJECT","vibeTitle":"From your knowledge\nto a working AI application.","vibeBody":"Go beyond a prompt. Explore retrieval-augmented generation (RAG), build an agent and test how it behaves. Connect a series of practical sessions through one evolving project.","vibeCta":"Explore application development","peopleTitle":"Different perspectives.\nShared creative energy.","peopleIntro":"Meet the people behind the learning. Instructor introductions are being prepared; each programme brings together expertise around your subject and participants.","memberPending":"Profile coming soon","memberAvatar":"Empty member avatar placeholder","aboutEyebrow":"AI EDUCATION, WITH A GLOBAL OUTLOOK","aboutTitle":"Human potential.\nA wider stage.","aboutBody":"Acumelo is an AI education company for businesses, institutions and universities. We design multi-session, hands-on programmes for professionals, university students and people preparing for their careers, delivered at your organisation or live online. We are developing our international reach, with the UAE as our first market for exploring overseas demand.","processTitle":"From a shared goal to a practical project.","expertiseTitle":"Interactive AI.\nA deeper creative practice.","expertiseBody":"App and game development expertise shapes our advanced courses. With Unity and Unreal Engine, participants can explore interactive AI, real-time experiences and digital humans — building on the foundations of application development.","expertiseNote":"Advanced topics are scoped around participants’ technical experience and project goals.","contactTitle":"Let’s shape\nyour next programme.","contactBody":"Tell us who is learning and what they want to build.\nWe can discuss a series of sessions at your organisation or live online.","emailLabel":"EDUCATION ENQUIRIES","emailStatus":"Mailbox setup pending","contactNotice":"This is a design preview. Your text is neither sent nor saved. Use the button to prepare and copy an enquiry draft.","formOrganization":"Organisation","orgPlaceholder":"Your company or institution","formTopic":"Education area","formMessage":"Tell us about your course *","messagePlaceholder":"Participants, learning goals, preferred language, number of sessions, dates and on-site / live online format…","messageHint":"Required · You can leave undecided details out.","prepare":"Prepare enquiry draft","draftLabel":"Enquiry draft · Not sent","copy":"Copy draft","copied":"Draft copied. No enquiry has been sent.","copyFallback":"Automatic copying is unavailable. Please copy the selected draft manually.","prepared":"Your draft is ready to review and copy. It has not been sent.","required":"Please enter some details about your course.","topicAny":"Discuss with us","notProvided":"To be decided","subject":"[Acumelo] Education enquiry","draftBodyLabel":"Course requirements","footer":"AI learning. Human possibility.","backTop":"Home","courses":[{"id":"workflow","tag":"AI × WORK","title":"AI Workflow Automation","subtitle":"Documents · Email · Reporting · n8n · Workplace agents","body":"Connect repetitive work and make room for what matters. Apply AI tools and configure automation around real workplace tasks.","audience":"Professionals handling documents, information and email; teams improving recurring work; university students and job seekers building practical workplace skills.","learning":["Map document, email and reporting tasks to identify automation opportunities.","Connect work in n8n with error handling and human review.","Configure roles and rules for workplace agents using existing AI tools."],"output":"An n8n workflow built around a sample task, with a workplace agent configuration","curriculum":[["Map the work","Identify inputs, actions and outputs. Examine repetition, errors and review points.","Create a workflow map and automation priorities"],["Work with documents and email","Create summaries, reply drafts and reports with AI, then check sources, figures and wording.","Prepare a report and email drafts from sample materials"],["Connect tasks in n8n","Link triggers and actions, transfer data, review execution records and handle exceptions.","Organise sample requests and route them for review"],["Configure workplace agents","Set roles, reference knowledge, response rules and approval steps in existing tools. Code-based implementation belongs to Application Development.","Configure an assistant for internal work guidance"],["Test and apply","Test missing, duplicate and error cases. Document permissions, information handling and operating steps.","Demonstrate the workflow and prepare an adoption checklist"]]},{"id":"analytics","tag":"AI × DATA","title":"AI Data Analytics","subtitle":"Data preparation · Analysis · Visualisation · Decision reports","body":"Find evidence in scattered information. Prepare data with AI, examine what the analysis means and connect it to a decision.","audience":"Professionals explaining work through data, reporting and planning teams, and university students or job seekers developing analytical skills.","learning":["Define a decision question, the relevant data and analytical criteria.","Prepare and analyse data with AI while checking the results.","Connect visualisations and interpretation in a decision report."],"output":"Visualisations and a decision report explaining the analysis and its limits","curriculum":[["Frame the question","Identify the decision to support and examine the scope, units and quality of the data.","Write a data dictionary and analytical questions for a sample dataset"],["Prepare the data","Address missing values, duplicates and inconsistent formats. Keep the original data and record changes.","Produce a cleaned dataset and quality checklist"],["Explore with AI","Examine summaries, comparisons and trends. Verify calculations and interpretations suggested by AI.","Summarise key indicators and compare relevant groups"],["Visualise the findings","Choose charts that answer the question and use clear axes, units and explanations.","Build charts with an interpretation of the main findings"],["Support a decision","Separate observations from assumptions. Present limitations, alternatives and further checks.","Present an evidence-based decision report"]]},{"id":"marketing","tag":"AI × GROWTH","title":"AI Marketing & Sales","subtitle":"Customer insight · Campaigns · CRM · Sales enablement","body":"Start with a better understanding of the customer. Use AI to plan campaigns and prepare materials that support customer relationships and sales.","audience":"Marketing, sales and customer relationship teams; business planners; and university students or job seekers preparing for these roles.","learning":["Develop customer hypotheses and segments from sample information.","Connect goals, messages and channels in a campaign plan.","Support CRM work and sales preparation with AI-assisted workflows."],"output":"Customer hypotheses, a campaign plan and CRM / sales support materials","curriculum":[["Understand the customer","Review sample customer information and form hypotheses about needs and the buying journey.","Define customer segments and questions to validate"],["Shape the message","Draft value propositions, messages and content for customer situations, then review the claims and wording.","Prepare messages and proposal outlines for selected segments"],["Plan a campaign","Connect objectives, channels and content. Define comparison experiments and performance measures.","Write a campaign brief and experiment plan"],["Support CRM and sales","Summarise sample conversations and prepare follow-up tasks, meeting notes and proposal materials.","Build a CRM summary and sales meeting preparation pack"],["Review and improve","Interpret sample results without assuming real campaign outcomes. Discuss what to change next.","Present a campaign review and next-step recommendations"]]},{"id":"design","tag":"AI × CREATE","title":"AI Design & Content","subtitle":"Images · Video · UI · 3D · Characters · Writing · Music","body":"Give an idea more ways to be experienced. Select the creative disciplines that fit your purpose and refine AI output into coherent content.","audience":"Design, content and brand teams; professionals exploring creative tools; and university students or job seekers developing a portfolio.","learning":["Translate intent into a visual, narrative or musical direction.","Select practical work in images, video, UI, 3D, characters, writing or music.","Review consistency, usability, sources and usage terms as you refine the result."],"output":"A project in the selected creative discipline, with concepts and a documented process","curriculum":[["Set the creative direction","Define the audience, message and context of use. Organise references and production instructions.","Create a project brief and moodboard"],["Images, characters and writing","Connect visual style, character concepts and narrative or copy, checking consistency across outputs.","Develop character concepts with image and text studies"],["Video and music","Plan a storyboard, scenes, editing rhythm and the role of music. Review the generated material.","Create a short video outline with scene and music concepts"],["UI and 3D","Select a screen flow and UI exercise, or explore object, space and material design around the project’s purpose.","Produce a UI prototype or 3D concept"],["Review and present","Examine the message, consistency and usability of the work, and document sources and usage terms.","Present the selected content and the making process"]]},{"id":"development","tag":"AI × BUILD","title":"AI Application Development","subtitle":"Vibe coding · Web & apps · RAG · Agent implementation","body":"Turn an idea into a working application. Move from web and app prototypes to RAG and agent implementation through repeated building, testing and review.","audience":"Developers and professionals building AI applications; planners prototyping through vibe coding; and university students or job seekers developing project experience.","learning":["Build web or app prototypes through vibe coding, then read and verify the code.","Implement RAG to connect information retrieval with grounded responses.","Design agent tools, state and permissions, and practise deployment in a controlled environment."],"output":"A web or app prototype with RAG or an agent, plus evaluation and deployment notes","curriculum":[["Requirements and vibe coding","Define the user problem and completion criteria. Build the web or app structure with AI in small, reviewable steps.","Write requirements and build a core screen prototype"],["Connect features and data","Link inputs, outputs, screen states and data flows. Review error handling and code structure.","Implement a core feature using sample data"],["Implement and evaluate RAG","Prepare and split documents, implement retrieval and connect responses. Check supporting sources and answer quality.","Build a question-answering prototype using sample documents"],["Implement an agent","Connect tool calls, state, permissions and human approval in code. Workplace tool use and configuration are covered in Workflow Automation.","Implement an agent with a limited set of tasks"],["Test and deploy","Review success and failure cases, costs and secret handling. Practise deployment and operating steps in a learning environment.","Document evaluation findings and deployment / recovery steps"]]},{"id":"strategy","tag":"AI × DIRECTION","title":"AI Strategy & Project Management","subtitle":"Opportunity discovery · Proposals · Requirements · Delivery","body":"Decide where AI can help and why. Turn an idea into a scoped initiative, with a plan for validation, delivery and performance review.","audience":"Planning, project and business teams; leaders and professionals preparing AI initiatives; and university students or job seekers developing project planning skills.","learning":["Compare AI opportunities by value, feasibility and risk.","Prepare an adoption proposal, requirements and a validation plan.","Connect responsibilities, milestones and measures to manage delivery."],"output":"An AI adoption proposal with requirements, validation and project delivery plans","curriculum":[["Discover opportunities","Describe practical problems and assess whether AI is useful alongside other approaches.","Create an opportunity shortlist and priorities"],["Propose and scope","Clarify expected value, stakeholders, data, resources and risks. Set the initial scope.","Draft an AI adoption proposal"],["Define requirements","Write user scenarios, functional and operational requirements, and acceptance or stop criteria.","Prepare requirements and acceptance criteria"],["Plan validation and delivery","Design staged checks, responsibilities, milestones, dependencies and change management.","Build a validation plan and project delivery schedule"],["Review results and decide","Define adoption, quality and cost measures. Practise decisions to improve, expand or stop using sample results.","Present a project review and a recommendation for the next decision"]]}],"vibeSteps":[["Prepare the knowledge","Organise sample documents and define the questions the application should answer."],["Retrieve & respond","Connect relevant material to an AI response and inspect the supporting sources."],["Build the agent","Implement tools, permissions and human review around a specific task."],["Test & deliver","Evaluate failures and limitations, then prepare a controlled prototype deployment."]],"process":[["Define the learning goal","Discuss the organisation, participants, language, experience and practical objectives."],["Shape the programme","Agree a series of sessions, project milestones, delivery format and instructor needs."],["Learn & build together","Connect explanation, guided practice and project work on site or live online."],["Review & apply","Evaluate the project, document limitations and plan how the learning can be applied."]],"courseBack":"← All education areas","courseView":"View content & curriculum","courseAudience":"WHO IT IS FOR","courseLearning":"What you will explore","courseCurriculum":"Curriculum, step by step","coursePractice":"Example exercise","courseFormat":"A course shaped around your team","courseFormatBody":"Programmes are designed as a series of live sessions, delivered at your organisation or remotely. Scope, tools, prerequisites and project depth are agreed around participants’ experience and goals. The modules are examples, not a fixed timetable.","courseEnquiry":"Enquire about this course","courseOther":"Explore other areas","courseExtension":"Interactive AI, powered by game development.","courseExtensionBody":"Build on app and game development expertise with Unity and Unreal Engine. Advanced projects can explore AI-driven interactions, real-time characters and digital humans. We agree the technical scope, engine and prerequisites before shaping these modules.","heroTopics":"AUTOMATION · RAG · AGENTS","featureLabel":"IN FOCUS / RAG & AGENTS","heroMediaLabel":"Acumelo showreel","expertiseMediaLabel":"Acumelo interactive projects"}}};
+</script>
+<script>
+'use strict';
+(() => {
+  const content = window.ACUMELO;
+  // English for a first visit; only a user's explicit language choice overrides it.
+  let lang = 'en';
+  try { const stored = localStorage.getItem('acumelo.language'); if (stored === 'ko' || stored === 'en') lang = stored; } catch {}
+  const $ = s => document.querySelector(s);
+  const media = matchMedia('(max-width: 900px)');
+  const menuButton = $('#menu-toggle');
+  const panel = $('#menu-panel');
+  const form = $('#enquiry-form');
+  let menuOpen = false;
+  const el = (tag, className, text) => {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text !== undefined) node.textContent = text;
+    return node;
+  };
+  const t = key => content.copy[lang][key];
+  function toggleMenu(open, restoreFocus = false) {
+    menuOpen = Boolean(open && media.matches);
+    panel.classList.toggle('is-open', menuOpen);
+    menuButton.setAttribute('aria-expanded', String(menuOpen));
+    menuButton.querySelector('[data-i18n]').textContent = t(menuOpen ? 'menuClose' : 'menu');
+    document.body.classList.toggle('menu-open', menuOpen);
+    $('#main').inert = menuOpen;
+    if (restoreFocus) menuButton.focus();
+  }
+  menuButton.addEventListener('click', () => toggleMenu(!menuOpen));
+  media.addEventListener('change', () => toggleMenu(false));
+  document.addEventListener('keydown', e => {
+    if (!menuOpen) return;
+    if (e.key === 'Escape') { e.preventDefault(); toggleMenu(false, true); }
+    if (e.key === 'Tab') {
+      const focusable = [...document.querySelectorAll('.sidebar a, .sidebar button')].filter(n => n.getClientRects().length);
+      const first = focusable[0], last = focusable[focusable.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    }
+  });
+  const courseIds = content.copy.ko.courses.map(course => course.id);
+  const pages = ['home', 'lectures', 'people', 'about', 'contact', ...courseIds];
+  courseIds.forEach(id => {
+    const section = el('section', 'section course-page');
+    section.id = id; section.hidden = true;
+    $('#lectures').after(section);
+  });
+  let activePage = 'home';
+  function pageFromLocation() {
+    const requested = new URL(location.href).searchParams.get('page');
+    const legacyHash = location.hash.slice(1);
+    return pages.includes(requested) ? requested : pages.includes(legacyHash) ? legacyHash : 'home';
+  }
+  function pageUrl(page) {
+    const url = new URL(location.href);
+    url.hash = '';
+    url.searchParams.set('page', page);
+    return url.pathname + url.search;
+  }
+  function updatePageTitle() {
+    const keys = { lectures: 'navLectures', people: 'navPeople', about: 'navAbout', contact: 'navContact' };
+    const course = t('courses').find(c => c.id === activePage);
+    document.title = activePage === 'home' ? t('title') : (course ? course.title : t(keys[activePage])) + ' — Acumelo';
+  }
+  function updatePageLinks() {
+    document.querySelectorAll('[data-page-link]').forEach(link => {
+      if (link.dataset.pageLink === activePage) link.setAttribute('aria-current', 'page');
+      else if (link.closest('.main-nav') && link.dataset.pageLink === 'lectures' && courseIds.includes(activePage)) link.setAttribute('aria-current', 'location');
+      else link.removeAttribute('aria-current');
+    });
+  }
+  function showPage(page, focus = false) {
+    activePage = pages.includes(page) ? page : 'home';
+    toggleMenu(false);
+    document.body.dataset.page = activePage;
+    document.querySelectorAll('main > section').forEach(section => {
+      section.hidden = section.id !== activePage && !(activePage === 'about' && section.classList.contains('expertise'));
+    });
+    $('.footer').hidden = activePage === 'home';
+    updatePageLinks();
+    document.querySelectorAll('main > section h2[aria-level]').forEach(heading => heading.removeAttribute('aria-level'));
+    const section = document.getElementById(activePage);
+    const heading = section.querySelector('h1, h2');
+    if (heading) heading.setAttribute('aria-level', '1');
+    updatePageTitle();
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+    if (focus && heading) {
+      heading.setAttribute('tabindex', '-1');
+      heading.focus({ preventScroll: true });
+    }
+  }
+  document.querySelectorAll('a[href^="#"]').forEach(link => {
+    const page = link.hash.slice(1);
+    if (!pages.includes(page)) return;
+    link.dataset.pageLink = page;
+    link.href = '?page=' + page;
+  });
+  document.addEventListener('click', event => {
+      const link = event.target.closest('a[data-page-link]');
+      if (!link) return;
+      const page = link.dataset.pageLink;
+      if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      if (link.dataset.course) {
+        $('#topic').value = link.dataset.course;
+        if (!$('#enquiry-result').hidden) $('#enquiry-draft').value = buildDraft();
+        $('#form-status').textContent = '';
+      }
+      if (activePage !== page) {
+        try { history.pushState({ page }, '', pageUrl(page)); }
+        catch { location.href = link.href; return; }
+      }
+      showPage(page, true);
+  });
+  window.addEventListener('popstate', () => showPage(pageFromLocation(), true));
+  function pageLink(page, text, className = '') {
+    const link = el('a', className, text);
+    link.href = '?page=' + page;
+    link.dataset.pageLink = page;
+    return link;
+  }
+  function renderCourses() {
+    const list = $('#course-list');
+    list.replaceChildren();
+    t('courses').forEach((c, i) => {
+      const article = el('article', 'course');
+      article.dataset.courseId = c.id;
+      const link = pageLink(c.id, undefined, 'course-link');
+      const number = el('span', 'course-number', String(i + 1).padStart(2, '0'));
+      number.setAttribute('aria-hidden', 'true');
+      const title = el('div', 'course-title');
+      title.append(el('span', 'small-caps', c.tag), el('h2', '', c.title), el('p', 'course-subtitle', c.subtitle), el('span', 'course-view', t('courseView')));
+      const arrow = el('span', 'course-arrow', '→'); arrow.setAttribute('aria-hidden', 'true');
+      link.append(number, title, el('p', 'course-summary', c.body), arrow);
+      article.append(link); list.append(article);
+    });
+    renderCoursePages();
+    updatePageLinks();
+  }
+  function renderCoursePages() {
+    t('courses').forEach((c, i) => {
+      const section = document.getElementById(c.id);
+      section.replaceChildren();
+      const breadcrumb = el('div', 'section-heading');
+      breadcrumb.append(pageLink('lectures', t('courseBack'), 'course-back'), el('span', 'small-caps', c.tag));
+      const header = el('header', 'course-header');
+      const heading = el('h1', 'page-title', c.title);
+      heading.id = c.id + '-title'; section.setAttribute('aria-labelledby', heading.id);
+      header.append(el('p', 'small-caps', 'EDUCATION / ' + String(i + 1).padStart(2, '0')), heading, el('p', 'course-lead', c.subtitle), el('p', 'course-description', c.body));
+      const intro = el('div', 'course-overview');
+      const learning = el('div'), goals = el('ul', 'course-goals');
+      c.learning.forEach(goal => goals.append(el('li', '', goal)));
+      learning.append(el('h2', '', t('courseLearning')), goals);
+      const audience = el('aside', 'course-audience');
+      audience.append(el('h2', '', t('courseAudience')), el('p', '', c.audience));
+      intro.append(learning, audience);
+      const curriculum = el('div', 'curriculum');
+      curriculum.append(el('h2', '', t('courseCurriculum')), el('p', 'curriculum-note', t('curriculumNote')));
+      const modules = el('ol', 'curriculum-list');
+      c.curriculum.forEach((step, index) => {
+        const item = el('li', 'curriculum-module'), body = el('div');
+        const number = el('span', 'module-number', String(index + 1).padStart(2, '0')); number.setAttribute('aria-hidden', 'true');
+        const practice = el('p', 'module-practice');
+        practice.append(el('span', '', t('coursePractice')), document.createTextNode(step[2]));
+        body.append(el('h3', '', step[0]), el('p', '', step[1]), practice);
+        item.append(number, body); modules.append(item);
+      });
+      curriculum.append(modules);
+      const outcome = el('div', 'course-outcome');
+      outcome.append(el('p', 'small-caps', t('outputLabel')), el('p', '', c.output));
+      section.append(breadcrumb, header, intro, curriculum, outcome);
+      if (c.id === 'development') {
+        const extension = el('div', 'course-extension');
+        extension.append(el('p', 'small-caps', 'UNITY · UNREAL ENGINE'), el('h2', '', t('courseExtension')), el('p', '', t('courseExtensionBody')));
+        section.append(extension);
+      }
+      const format = el('div', 'course-format');
+      const enquiry = pageLink('contact', t('courseEnquiry') + ' →', 'line-link');
+      enquiry.dataset.course = c.id;
+      format.append(el('h2', '', t('courseFormat')), el('p', '', t('courseFormatBody')), enquiry);
+      const other = el('nav', 'course-related'); other.setAttribute('aria-label', t('courseOther'));
+      other.append(el('p', 'small-caps', t('courseOther')));
+      t('courses').filter(course => course.id !== c.id).forEach(course => other.append(pageLink(course.id, course.title + ' →')));
+      section.append(format, other);
+    });
+  }
+  function renderSequences() {
+    const steps = $('#vibe-steps'), process = $('#process-list');
+    steps.replaceChildren(); process.replaceChildren();
+    t('vibeSteps').forEach((step, i) => {
+      const item = el('div', 'vibe-step'), text = el('div');
+      text.append(el('h4', '', step[0]), el('p', '', step[1]));
+      item.append(el('span', '', String(i+1).padStart(2,'0')), text); steps.append(item);
+    });
+    t('process').forEach((step, i) => {
+      const item = el('li', 'process-item');
+      const number = el('span', '', String(i+1).padStart(2,'0')); number.setAttribute('aria-hidden','true');
+      item.append(number, el('h4', '', step[0]), el('p', '', step[1])); process.append(item);
+    });
+  }
+  const avatar = '<svg viewBox="0 0 240 270" fill="none" aria-hidden="true"><circle cx="120" cy="103" r="43" fill="currentColor" opacity=".36"/><path d="M36 255v-29a84 84 0 0 1 168 0v29" fill="currentColor" opacity=".36"/><circle cx="120" cy="103" r="43" stroke="currentColor" stroke-width="1"/><path d="M36 255v-29a84 84 0 0 1 168 0v29" stroke="currentColor" stroke-width="1"/><path d="M120 28v226M22 155h196" stroke="currentColor" stroke-width=".5" stroke-dasharray="3 5"/></svg>';
+  function renderPeople() {
+    const list = $('#people-list'); list.replaceChildren();
+    content.members.forEach(member => {
+      const article = el('article','member'), visual = el('div','member-visual');
+      if (member.image) {
+        const image = el('img'); image.src = member.image; image.alt = member.name[lang] || t('memberPending'); image.loading = 'lazy'; visual.append(image);
+      } else { visual.innerHTML = avatar; visual.setAttribute('role','img'); visual.setAttribute('aria-label',t('memberAvatar')); }
+      article.append(visual);
+      if (member.name[lang]) {
+        article.append(el('h3','member-name', member.name[lang]));
+        if (member.role[lang]) article.append(el('p','member-role',member.role[lang]));
+        if (member.bio[lang]) article.append(el('p','member-bio',member.bio[lang]));
+      } else {
+        const caption=el('p','member-caption');
+        const plus=el('span','','+'); plus.setAttribute('aria-hidden','true');
+        caption.append(el('span','',t('memberPending')), plus); article.append(caption);
+      }
+      list.append(article);
+    });
+  }
+  function buildDraft() {
+    const org = $('#organization').value.trim() || t('notProvided');
+    const selected = t('courses').find(c => c.id === $('#topic').value);
+    const topic = selected ? selected.title + ' / ' + selected.subtitle : t('topicAny');
+    return [t('subject'), '', t('formOrganization') + ': ' + org, t('formTopic') + ': ' + topic, '', t('draftBodyLabel'), $('#enquiry').value.trim()].join('\n');
+  }
+  function setLanguage(next, save = true) {
+    lang = next;
+    document.documentElement.lang = lang;
+    updatePageTitle();
+    $('meta[name="description"]').content = t('heroDescription');
+    document.querySelectorAll('[data-i18n]').forEach(node => {
+      const value = t(node.dataset.i18n);
+      if (typeof value === 'string') node.textContent = value;
+    });
+    document.querySelectorAll('[data-placeholder]').forEach(node => node.placeholder = t(node.dataset.placeholder));
+    document.querySelectorAll('[data-label]').forEach(node => node.setAttribute('aria-label', t(node.dataset.label)));
+    document.querySelectorAll('[data-lang]').forEach(node => node.setAttribute('aria-pressed', String(node.dataset.lang === lang)));
+    $('.main-nav').setAttribute('aria-label', t('navigation'));
+    $('.languages').setAttribute('aria-label', t('language'));
+    menuButton.querySelector('[data-i18n]').textContent = t(menuOpen ? 'menuClose' : 'menu');
+    renderCourses(); renderSequences(); renderPeople();
+    const selected = $('#topic').value;
+    $('#topic').replaceChildren();
+    const first = el('option', '', t('topicAny')); first.value = ''; $('#topic').append(first);
+    t('courses').forEach(c => { const option = el('option', '', c.title); option.value = c.id; $('#topic').append(option); });
+    $('#topic').value = selected;
+    if (!$('#enquiry-result').hidden) $('#enquiry-draft').value = buildDraft();
+    $('#form-status').textContent = '';
+    $('#enquiry').setCustomValidity('');
+    if (save) { try { localStorage.setItem('acumelo.language', lang); } catch {} }
+  }
+  document.querySelectorAll('[data-lang]').forEach(button => button.addEventListener('click', () => setLanguage(button.dataset.lang)));
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    if (!$('#enquiry').value.trim()) {
+      $('#enquiry').setCustomValidity(t('required')); $('#enquiry').reportValidity(); return;
+    }
+    $('#enquiry-draft').value = buildDraft();
+    $('#enquiry-result').hidden = false;
+    $('#form-status').textContent = t('prepared');
+    $('#enquiry-draft').focus();
+  });
+  form.addEventListener('input', () => {
+    $('#enquiry').setCustomValidity('');
+    if (!$('#enquiry-result').hidden) $('#enquiry-draft').value = buildDraft();
+    $('#form-status').textContent = '';
+  });
+  $('#topic').addEventListener('change', () => { if (!$('#enquiry-result').hidden) $('#enquiry-draft').value = buildDraft(); });
+  $('#copy-enquiry').addEventListener('click', async () => {
+    try {
+      if (!navigator.clipboard || !window.isSecureContext) throw new Error('Clipboard unavailable');
+      await navigator.clipboard.writeText($('#enquiry-draft').value);
+      $('#form-status').textContent = t('copied');
+    } catch {
+      $('#enquiry-draft').focus(); $('#enquiry-draft').select();
+      $('#form-status').textContent = t('copyFallback');
+    }
+  });
+  Object.entries(content.assets).forEach(([name,asset]) => {
+    if (!asset.src && !asset.video) return;
+    if (name === 'logo') {
+      document.querySelectorAll('.wordmark').forEach(mark => {
+        const logo = el('img', 'brand-image');
+        logo.src = asset.src; logo.alt = 'Acumelo';
+        mark.replaceChildren(logo);
+      });
+      return;
+    }
+    const slot = document.querySelector('[data-image-slot="'+name+'"]');
+    if (!slot) return;
+    slot.classList.add('has-media');
+    if (asset.video) {
+      // Future showreels are user-controlled and never autoplay or play audio by default.
+      slot.removeAttribute('aria-hidden');
+      const video = el('video', 'slot-photo');
+      video.src = asset.video; video.controls = true; video.muted = true;
+      video.playsInline = true; video.preload = 'none';
+      video.poster = asset.poster || asset.src || '';
+      video.dataset.label = name + 'MediaLabel';
+      video.setAttribute('aria-label', t(name + 'MediaLabel'));
+      video.style.objectPosition = asset.position || '50% 50%';
+      slot.replaceChildren(video);
+    } else {
+      const image = el('img','slot-photo'); image.alt = ''; image.src = asset.src;
+      image.style.objectPosition = asset.position || '50% 50%';
+      if (name !== 'hero') image.loading = 'lazy';
+      slot.replaceChildren(image);
+    }
+  });
+  setLanguage(lang, false);
+  showPage(pageFromLocation());
+})();
+
+</script>
+</body></html>
