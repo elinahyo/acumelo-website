@@ -1,0 +1,99 @@
+AI Data Analytics / 24 finished project concepts
+
+Original animated workflow reconstructions and generated project concepts. Not recordings of live software sessions or verified student submissions. Tool names identify the illustrated workflows; no endorsement is implied.
+
+00:00:00.000 – 00:00:00.625 | 01 | Finished output
+Revenue, explained
+A finished executive analytics view
+
+00:00:00.625 – 00:00:01.250 | 02 | Finished output
+Customers who stay
+A cohort retention report
+
+00:00:01.250 – 00:00:01.875 | 03 | Finished output
+The regional picture
+A location-based performance map
+
+00:00:01.875 – 00:00:02.500 | 04 | Finished output
+What comes next
+A forecast with visible uncertainty
+
+00:00:02.500 – 00:00:03.125 | 05 | Finished output
+The insight brief
+A concise analytical recommendation
+
+00:00:03.125 – 00:00:03.750 | 06 | Finished output
+Product adoption
+Activation and engagement trends
+
+00:00:03.750 – 00:00:04.375 | 07 | Finished output
+When customers return
+Patterns by day and hour
+
+00:00:04.375 – 00:00:05.000 | 08 | Finished output
+Delivery coverage
+A service-area planning view
+
+00:00:05.000 – 00:00:05.625 | 09 | Finished output
+Demand outlook
+A seasonal demand comparison
+
+00:00:05.625 – 00:00:06.250 | 10 | Finished output
+The data story
+A finished decision-making deck
+
+00:00:06.250 – 00:00:06.875 | 11 | Finished output
+Marketing efficiency
+Spend, conversion and return
+
+00:00:06.875 – 00:00:07.500 | 12 | Finished output
+Quality scorecard
+Data completeness and freshness
+
+00:00:07.500 – 00:00:08.125 | 13 | Finished output
+Market opportunity
+Regions compared on equal terms
+
+00:00:08.125 – 00:00:08.750 | 14 | Finished output
+Channel cohorts
+Retention across acquisition channels
+
+00:00:08.750 – 00:00:09.375 | 15 | Finished output
+Inventory scenarios
+A comparison of planning assumptions
+
+00:00:09.375 – 00:00:10.000 | 16 | Finished output
+Service performance
+Queue, volume and response signals
+
+00:00:10.000 – 00:00:10.625 | 17 | Finished output
+Pricing evidence
+A readable price sensitivity study
+
+00:00:10.625 – 00:00:11.250 | 18 | Finished output
+Quarterly intelligence
+A business review with evidence
+
+00:00:11.250 – 00:00:11.875 | 19 | Finished output
+Site selection
+A location comparison interface
+
+00:00:11.875 – 00:00:12.500 | 20 | Finished output
+Cash flow outlook
+A range of financial scenarios
+
+00:00:12.500 – 00:00:13.125 | 21 | Finished output
+Learning impact
+Engagement and completion patterns
+
+00:00:13.125 – 00:00:13.750 | 22 | Finished output
+Portfolio correlations
+A matrix of related signals
+
+00:00:13.750 – 00:00:14.375 | 23 | Finished output
+Experiment readout
+Results with caveats and next steps
+
+00:00:14.375 – 00:00:15.000 | 24 | Finished output
+Decision centre
+A linked view of the business

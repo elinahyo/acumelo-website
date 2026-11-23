@@ -1,0 +1,49 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.250
+Excel Power Query — Clean the source before analysis
+
+2
+00:00:01.250 --> 00:00:02.500
+PostgreSQL — Design the analytical data contract
+
+3
+00:00:02.500 --> 00:00:03.750
+SQL — Build an incremental revenue model
+
+4
+00:00:03.750 --> 00:00:05.000
+Python + pandas — Validate and transform the source
+
+5
+00:00:05.000 --> 00:00:06.250
+dbt + orchestration — Trace lineage across models
+
+6
+00:00:06.250 --> 00:00:07.500
+DAX — Write a context-aware measure
+
+7
+00:00:07.500 --> 00:00:08.750
+Power BI — Design a drillable executive view
+
+8
+00:00:08.750 --> 00:00:10.000
+Cohort analysis — Separate retention from acquisition
+
+9
+00:00:10.000 --> 00:00:11.250
+Python forecasting — Separate signal from seasonality
+
+10
+00:00:11.250 --> 00:00:12.500
+GeoPandas — Connect performance to geography
+
+11
+00:00:12.500 --> 00:00:13.750
+Streamlit — Build an interactive scenario model
+
+12
+00:00:13.750 --> 00:00:15.000
+Decision storytelling — Present a recommendation with evidence

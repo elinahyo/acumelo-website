@@ -310,6 +310,11 @@
     const heading = el('h1', 'page-title', t('mediaLibraryTitle'));
     heading.id = 'media-library-title'; library.setAttribute('aria-labelledby', heading.id);
     library.append(pageLink('lectures', t('courseBack'), 'course-back'), heading, el('p', 'media-library-intro', t('mediaLibraryIntro')));
+    if (content.mediaGallery) {
+      const galleryLink = el('a', 'line-link media-library-entry', t('mediaGallery'));
+      galleryLink.href = content.mediaGallery;
+      library.append(galleryLink);
+    }
     for (const course of t('courses')) {
       const group = el('section', 'library-field'); group.dataset.fieldId = course.id;
       const title = el('h2'); title.append(pageLink(course.id, course.title));
@@ -404,27 +409,28 @@
       item.append(title, el('p', '', course.problem), enquiry); connection.append(item);
     });
     if (!courses.length) connection.append(el('p', '', t('profileCoursesPending')));
-    const portfolio = el('div', 'profile-portfolio');
-    portfolio.append(el('h2', '', t('profilePortfolio')), el('p', 'portfolio-note', t('profilePortfolioNote')));
-    portfolio.append(el('p', 'portfolio-note shared-media-note', t('profileSharedMediaNote')),
-      pageLink('library', t('mediaLibraryExplore'), 'line-link media-library-link'));
-    mediaKinds.forEach(([kind, label]) => {
-      const group = el('section', 'portfolio-group'); group.append(el('h3', '', t(label)));
-      const grid = el('div', 'portfolio-grid');
-      const personal = member.portfolio.filter(asset => asset.kind === kind);
-      const shared = courses.map(course => ({ ...courseMediaAsset(course, kind), fieldIds: [course.id], shared: true,
-        title: { [lang]: course.title + ' · ' + t(label) } })).filter(asset => kind !== 'lecture' || asset.src);
-      const assets = [...personal, ...shared];
-      (assets.length ? assets : [{}]).forEach(asset => {
-        const card = mediaCard(asset, asset.title?.[lang] || t(label), kind === 'project', 'h4');
-        if (asset.fieldIds?.length) {
-          const related = fieldTags(asset.fieldIds, true); related.setAttribute('aria-label', t('mediaFieldLabel')); card.append(related);
-        }
-        grid.append(card);
-      });
-      group.append(grid); portfolio.append(group);
+    // Instructor demos never fall back to the shared field montages.
+    const ownDemo = el('section', 'profile-own-demo');
+    ownDemo.dataset.mediaGroup = 'instructor-demo';
+    ownDemo.append(el('h2', '', t('profileOwnDemo')), el('p', 'portfolio-note', t('profileOwnDemoNote')));
+    const demo = member.media?.demo || {};
+    ownDemo.append(mediaCard(demo, demo.title?.[lang] || t('profileOwnDemo')));
+    if (!demo.src && !demo.url) ownDemo.append(el('p', 'profile-pending', t('profileOwnDemoPending')));
+    const projects = el('section', 'profile-field-projects');
+    projects.dataset.mediaGroup = 'field-projects';
+    projects.append(el('h2', '', t('profileFieldProjects')), el('p', 'portfolio-note', t('profileFieldProjectsNote')));
+    const grid = el('div', 'portfolio-grid');
+    courses.forEach(course => {
+      const asset = courseMediaAsset(course, 'project');
+      const card = mediaCard(asset, course.title + ' · ' + t('mediaProject'), true);
+      card.append(fieldTags([course.id], true)); grid.append(card);
     });
-    section.append(breadcrumb, hero, biography, connection, portfolio);
+    projects.append(grid, pageLink('library', t('mediaLibraryExplore'), 'line-link media-library-link'));
+    const lecture = el('section', 'profile-teaching-film');
+    lecture.dataset.mediaGroup = 'lecture';
+    lecture.append(el('h2', '', t('mediaLecture')), el('p', 'portfolio-note', t('profileTeachingFilmNote')),
+      mediaCard(member.media?.lecture || {}, t('mediaLecture')));
+    section.append(breadcrumb, hero, ownDemo, biography, connection, projects, lecture);
   }
   function buildDraft() {
     const org = $('#organization').value.trim() || t('notProvided');

@@ -1,0 +1,51 @@
+AI Marketing & Sales / Frameworks in practice
+
+Original animated workflow reconstructions and generated project concepts. Not recordings of live software sessions or verified student submissions. Tool names identify the illustrated workflows; no endorsement is implied.
+
+00:00:00.000 – 00:00:01.250 | 01 | GA4 + events
+Define the acquisition measurement plan
+Events / properties / consent / attribution
+
+00:00:01.250 – 00:00:02.500 | 02 | SQL segmentation
+Build actionable customer segments
+Recency / frequency / value / lifecycle
+
+00:00:02.500 – 00:00:03.750 | 03 | CRM
+Model the sales lifecycle
+Lead score / owner / next action / evidence
+
+00:00:03.750 – 00:00:05.000 | 04 | Landing page design
+Design an experiment-ready offer
+Message hierarchy / CTA / variant states
+
+00:00:05.000 – 00:00:06.250 | 05 | Next.js
+Implement a measurable landing page
+Server rendering / forms / event contract
+
+00:00:06.250 – 00:00:07.500 | 06 | Higgsfield campaign shots
+Plan distinct creative variants
+Product angle / motion / crop / continuity
+
+00:00:07.500 – 00:00:08.750 | 07 | After Effects ad variants
+Build responsive campaign motion
+Vertical / square / wide / type-safe area
+
+00:00:08.750 – 00:00:10.000 | 08 | n8n + CRM
+Connect acquisition to follow-up
+Webhook → qualify → score → assign → nurture
+
+00:00:10.000 – 00:00:11.250 | 09 | Experiment design
+Read conversion with uncertainty
+Control / treatment / lift / confidence
+
+00:00:11.250 – 00:00:12.500 | 10 | Email journeys
+Personalize a lifecycle sequence
+Trigger / segment / frequency / exit rule
+
+00:00:12.500 – 00:00:13.750 | 11 | Analytics QA
+Verify events before a campaign
+Duplicate events / UTM / form failure
+
+00:00:13.750 – 00:00:15.000 | 12 | Growth service delivery
+Release the full acquisition loop
+Landing → CRM → experiment dashboard

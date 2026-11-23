@@ -1,0 +1,51 @@
+Joseph / Data contracts, pipelines and analytical APIs
+
+Original animated workflow reconstructions and generated project concepts. Not recordings of live software sessions or verified student submissions. Tool names identify the illustrated workflows; no endorsement is implied.
+
+00:00:00.000 – 00:00:01.250 | 01 | PostgreSQL
+Design the analytical data contract
+Fact grain / keys / dimensional model
+
+00:00:01.250 – 00:00:02.500 | 02 | SQL
+Build an incremental revenue model
+Watermarks / joins / late-arriving records
+
+00:00:02.500 – 00:00:03.750 | 03 | Python + pandas
+Validate and transform the source
+Nullable types / schema assertions / profiling
+
+00:00:03.750 – 00:00:05.000 | 04 | dbt + orchestration
+Trace lineage across models
+Sources → staging → marts → metrics
+
+00:00:05.000 – 00:00:06.250 | 05 | Data quality
+Locate anomalies before reporting
+Null rates / outliers / reconciliation
+
+00:00:06.250 – 00:00:07.500 | 06 | Jupyter
+Explain the analytical assumptions
+Cohorts / confidence / validation windows
+
+00:00:07.500 – 00:00:08.750 | 07 | FastAPI
+Serve the model through a typed API
+Filters / pagination / cache / response schema
+
+00:00:08.750 – 00:00:10.000 | 08 | Plotly + Dash
+Build a linked analytical interface
+Cross-filter / drill-down / uncertainty
+
+00:00:10.000 – 00:00:11.250 | 09 | Data tests
+Check the invariants on every run
+Uniqueness / freshness / referential integrity
+
+00:00:11.250 – 00:00:12.500 | 10 | Pipeline monitoring
+Recover failed data partitions
+Checkpoint / replay / alert routing
+
+00:00:12.500 – 00:00:13.750 | 11 | Query performance
+Measure cost before scaling
+Query plan / scan size / materialization
+
+00:00:13.750 – 00:00:15.000 | 12 | Data service deployment
+Ship a versioned analytical service
+Schema migration / checks / observability

@@ -1,0 +1,49 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.250
+System architecture — One brief. Six connected disciplines.
+
+2
+00:00:01.250 --> 00:00:02.500
+n8n — Build the automation control plane
+
+3
+00:00:02.500 --> 00:00:03.750
+Excel + Office Scripts — Turn operations data into decisions
+
+4
+00:00:03.750 --> 00:00:05.000
+PostgreSQL + Python — Design a reliable analytical layer
+
+5
+00:00:05.000 --> 00:00:06.250
+RAG + vector search — Trace retrieval before generating
+
+6
+00:00:06.250 --> 00:00:07.500
+After Effects — Bind motion to data
+
+7
+00:00:07.500 --> 00:00:08.750
+Cinema 4D — Make a procedural visual system
+
+8
+00:00:08.750 --> 00:00:10.000
+Unity — Connect an interactive experience
+
+9
+00:00:10.000 --> 00:00:11.250
+Unreal Engine — Stage a cinematic interaction
+
+10
+00:00:11.250 --> 00:00:12.500
+Higgsfield — Direct a controlled AI shot sequence
+
+11
+00:00:12.500 --> 00:00:13.750
+CI + evaluation — Test the whole pipeline
+
+12
+00:00:13.750 --> 00:00:15.000
+Cloudflare + GitHub — Ship a versioned experience

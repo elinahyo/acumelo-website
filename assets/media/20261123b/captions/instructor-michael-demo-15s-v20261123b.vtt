@@ -1,0 +1,49 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.250
+Power BI — Design a drillable executive view
+
+2
+00:00:01.250 --> 00:00:02.500
+SQL analytics — Define metrics at the correct grain
+
+3
+00:00:02.500 --> 00:00:03.750
+Power BI data model — Build a clear semantic model
+
+4
+00:00:03.750 --> 00:00:05.000
+DAX — Write a context-aware measure
+
+5
+00:00:05.000 --> 00:00:06.250
+Excel Power Query — Clean the source before analysis
+
+6
+00:00:06.250 --> 00:00:07.500
+Python statistics — Explain the uncertainty in a result
+
+7
+00:00:07.500 --> 00:00:08.750
+Cohort analysis — Separate retention from acquisition
+
+8
+00:00:08.750 --> 00:00:10.000
+Location analysis — Compare regions on equal terms
+
+9
+00:00:10.000 --> 00:00:11.250
+Forecast review — Compare plan with observed outcomes
+
+10
+00:00:11.250 --> 00:00:12.500
+Analytical QA — Reconcile the report to its source
+
+11
+00:00:12.500 --> 00:00:13.750
+Decision storytelling — Present a recommendation with evidence
+
+12
+00:00:13.750 --> 00:00:15.000
+Published analytics — Deliver a readable decision surface

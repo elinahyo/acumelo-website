@@ -1,0 +1,1 @@
+{"name":"acumelo-framework-films","private":true,"type":"module","engines":{"node":">=22"},"dependencies":{"@napi-rs/canvas":"0.1.100"},"scripts":{"proof":"node render.mjs --proof","render":"node render.mjs","validate":"node validate.mjs"}}

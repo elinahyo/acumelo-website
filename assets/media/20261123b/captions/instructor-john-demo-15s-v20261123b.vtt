@@ -1,0 +1,49 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.250
+Excel Power Query — Normalize messy operational exports
+
+2
+00:00:01.250 --> 00:00:02.500
+Office Scripts — Generate a repeatable report
+
+3
+00:00:02.500 --> 00:00:03.750
+PowerPoint — Produce a data-linked executive deck
+
+4
+00:00:03.750 --> 00:00:05.000
+Outlook + email rules — Route messages with confidence
+
+5
+00:00:05.000 --> 00:00:06.250
+n8n — Connect Excel, email and reporting
+
+6
+00:00:06.250 --> 00:00:07.500
+FastAPI — Expose a typed automation endpoint
+
+7
+00:00:07.500 --> 00:00:08.750
+PostgreSQL — Persist workflow state safely
+
+8
+00:00:08.750 --> 00:00:10.000
+Queues + workers — Handle retries without duplicates
+
+9
+00:00:10.000 --> 00:00:11.250
+n8n sub-workflows — Separate reusable steps
+
+10
+00:00:11.250 --> 00:00:12.500
+Integration tests — Test failure paths deliberately
+
+11
+00:00:12.500 --> 00:00:13.750
+Operations telemetry — Trace one job across services
+
+12
+00:00:13.750 --> 00:00:15.000
+Docker + CI — Deliver the automation safely

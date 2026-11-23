@@ -1,0 +1,99 @@
+AI Service Development / 24 finished project concepts
+
+Original animated workflow reconstructions and generated project concepts. Not recordings of live software sessions or verified student submissions. Tool names identify the illustrated workflows; no endorsement is implied.
+
+00:00:00.000 – 00:00:00.625 | 01 | Finished output
+Fieldnotes
+A responsive publishing interface
+
+00:00:00.625 – 00:00:01.250 | 02 | Finished output
+Ask the knowledge base
+A cited-answer assistant interface
+
+00:00:01.250 – 00:00:01.875 | 03 | Finished output
+Book a session
+A self-service booking application
+
+00:00:01.875 – 00:00:02.500 | 04 | Finished output
+Explore the archipelago
+An interactive environment concept
+
+00:00:02.500 – 00:00:03.125 | 05 | Finished output
+Project cockpit
+A complete project analytics interface
+
+00:00:03.125 – 00:00:03.750 | 06 | Finished output
+Configure your object
+A product customization concept
+
+00:00:03.750 – 00:00:04.375 | 07 | Finished output
+Work, together
+A collaborative planning application
+
+00:00:04.375 – 00:00:05.000 | 08 | Finished output
+Find your next place
+A location discovery interface
+
+00:00:05.000 – 00:00:05.625 | 09 | Finished output
+Studio directory
+A searchable creative directory
+
+00:00:05.625 – 00:00:06.250 | 10 | Finished output
+Time well spent
+A scheduling service
+
+00:00:06.250 – 00:00:06.875 | 11 | Finished output
+The customer portal
+A unified account and request interface
+
+00:00:06.875 – 00:00:07.500 | 12 | Finished output
+Interactive motion
+A browser-based visual experience
+
+00:00:07.500 – 00:00:08.125 | 13 | Finished output
+A helpful service desk
+A support assistant with evidence
+
+00:00:08.125 – 00:00:08.750 | 14 | Finished output
+A financial companion
+A personal finance application
+
+00:00:08.750 – 00:00:09.375 | 15 | Finished output
+The learning room
+A course discovery interface
+
+00:00:09.375 – 00:00:10.000 | 16 | Finished output
+Pathfinder
+A playful interactive world
+
+00:00:10.000 – 00:00:10.625 | 17 | Finished output
+Document centre
+A searchable document workflow
+
+00:00:10.625 – 00:00:11.250 | 18 | Finished output
+Plan the launch
+A release planning application
+
+00:00:11.250 – 00:00:11.875 | 19 | Finished output
+The object viewer
+A 3D product experience
+
+00:00:11.875 – 00:00:12.500 | 20 | Finished output
+Community connections
+A local discovery application
+
+00:00:12.500 – 00:00:13.125 | 21 | Finished output
+Events made simple
+An event scheduling tool
+
+00:00:13.125 – 00:00:13.750 | 22 | Finished output
+Live operations
+A finished operations interface
+
+00:00:13.750 – 00:00:14.375 | 23 | Finished output
+Research companion
+A source-aware research assistant
+
+00:00:14.375 – 00:00:15.000 | 24 | Finished output
+Made to be used
+A responsive service landing page

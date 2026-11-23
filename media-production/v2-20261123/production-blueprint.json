@@ -1,0 +1,2631 @@
+{
+  "members": [
+    {
+      "id": "instructor-chris",
+      "name": "Chris",
+      "fields": [
+        "workflow",
+        "strategy",
+        "design",
+        "analytics",
+        "marketing",
+        "development"
+      ],
+      "focus": "The connected AI production stack",
+      "color": "#799dff",
+      "scenes": [
+        {
+          "type": "architecture",
+          "tool": "System architecture",
+          "title": "One brief. Six connected disciplines.",
+          "detail": "Data contracts / event boundaries / human approvals",
+          "labels": [
+            "Brief",
+            "Workflow",
+            "Data",
+            "Creative",
+            "Services",
+            "Release"
+          ]
+        },
+        {
+          "type": "nodes",
+          "tool": "n8n",
+          "title": "Build the automation control plane",
+          "detail": "Webhook validation → deduplication → approval → retries",
+          "labels": [
+            "Webhook",
+            "Validate payload",
+            "Idempotency",
+            "Approval gate",
+            "Write records",
+            "Error workflow"
+          ]
+        },
+        {
+          "type": "sheet",
+          "tool": "Excel + Office Scripts",
+          "title": "Turn operations data into decisions",
+          "detail": "Typed tables / anomaly flags / report generation",
+          "variant": 1
+        },
+        {
+          "type": "sql",
+          "tool": "PostgreSQL + Python",
+          "title": "Design a reliable analytical layer",
+          "detail": "Incremental models / tests / cohort aggregation",
+          "variant": 1
+        },
+        {
+          "type": "rag",
+          "tool": "RAG + vector search",
+          "title": "Trace retrieval before generating",
+          "detail": "Chunking → hybrid retrieval → reranking → citations",
+          "labels": [
+            "Documents",
+            "Chunk 512",
+            "Embed",
+            "Hybrid search",
+            "Rerank 8",
+            "Cited answer"
+          ]
+        },
+        {
+          "type": "ae",
+          "tool": "After Effects",
+          "title": "Bind motion to data",
+          "detail": "Expressions / keyframe easing / precompositions",
+          "asset": "sculpture",
+          "variant": 1
+        },
+        {
+          "type": "c4d",
+          "tool": "Cinema 4D",
+          "title": "Make a procedural visual system",
+          "detail": "Cloner / Fields / material controls / render passes",
+          "asset": "product",
+          "variant": 1
+        },
+        {
+          "type": "unity",
+          "tool": "Unity",
+          "title": "Connect an interactive experience",
+          "detail": "Components / events / runtime data binding",
+          "asset": "islands",
+          "variant": 1
+        },
+        {
+          "type": "unreal",
+          "tool": "Unreal Engine",
+          "title": "Stage a cinematic interaction",
+          "detail": "Blueprint / Niagara / Sequencer",
+          "asset": "world",
+          "variant": 1
+        },
+        {
+          "type": "higgsfield",
+          "tool": "Higgsfield",
+          "title": "Direct a controlled AI shot sequence",
+          "detail": "Shot plan / reference continuity / camera intent",
+          "asset": "headphones",
+          "variant": 1
+        },
+        {
+          "type": "tests",
+          "tool": "CI + evaluation",
+          "title": "Test the whole pipeline",
+          "detail": "Contract tests / retrieval evaluation / quality gates",
+          "variant": 1
+        },
+        {
+          "type": "deploy",
+          "tool": "Cloudflare + GitHub",
+          "title": "Ship a versioned experience",
+          "detail": "Preview → checks → production → rollback",
+          "variant": 1
+        }
+      ]
+    },
+    {
+      "id": "instructor-sage",
+      "name": "Sage",
+      "fields": [
+        "strategy",
+        "design",
+        "development"
+      ],
+      "focus": "From product hypothesis to usable service",
+      "color": "#dfb674",
+      "scenes": [
+        {
+          "type": "figma",
+          "tool": "Figma",
+          "title": "Build a reusable interface language",
+          "detail": "Variables / components / responsive constraints",
+          "variant": 2
+        },
+        {
+          "type": "roadmap",
+          "tool": "Product strategy",
+          "title": "Map the hypothesis to a measurable outcome",
+          "detail": "Problem statement / experiment / decision rule",
+          "variant": 2
+        },
+        {
+          "type": "research",
+          "tool": "Discovery research",
+          "title": "Synthesize the evidence",
+          "detail": "Interview themes / opportunity scores / assumptions",
+          "variant": 2
+        },
+        {
+          "type": "kanban",
+          "tool": "Jira + delivery planning",
+          "title": "Convert ideas into testable stories",
+          "detail": "Acceptance criteria / dependencies / capacity",
+          "variant": 2
+        },
+        {
+          "type": "figma",
+          "tool": "Figma prototypes",
+          "title": "Define the interaction states",
+          "detail": "Empty / loading / success / error",
+          "variant": 3
+        },
+        {
+          "type": "code",
+          "tool": "React + TypeScript",
+          "title": "Implement a stateful booking flow",
+          "detail": "Validation / accessible forms / optimistic update",
+          "variant": 2
+        },
+        {
+          "type": "schema",
+          "tool": "Supabase",
+          "title": "Model permissions with the product",
+          "detail": "Bookings / memberships / row-level policy",
+          "variant": 2
+        },
+        {
+          "type": "motion",
+          "tool": "Motion design",
+          "title": "Prototype a meaningful transition",
+          "detail": "Hierarchy / feedback / reduced motion",
+          "variant": 2
+        },
+        {
+          "type": "tests",
+          "tool": "Playwright",
+          "title": "Verify the critical journey",
+          "detail": "Keyboard / mobile / error recovery",
+          "variant": 2
+        },
+        {
+          "type": "metrics",
+          "tool": "Product analytics",
+          "title": "Instrument the activation path",
+          "detail": "Events / cohorts / conversion definitions",
+          "variant": 2
+        },
+        {
+          "type": "risk",
+          "tool": "Release readiness",
+          "title": "Make the launch decision explicit",
+          "detail": "Owner / evidence / fallback / decision log",
+          "variant": 2
+        },
+        {
+          "type": "deploy",
+          "tool": "GitHub + Cloudflare",
+          "title": "Release a usable product slice",
+          "detail": "Staging review / asset budget / release notes",
+          "variant": 2
+        }
+      ]
+    },
+    {
+      "id": "instructor-03",
+      "name": "Pillow",
+      "fields": [
+        "design",
+        "development"
+      ],
+      "focus": "Motion, 3D and interactive creative systems",
+      "color": "#b69af1",
+      "scenes": [
+        {
+          "type": "ae",
+          "tool": "After Effects",
+          "title": "Shape movement with the graph editor",
+          "detail": "Velocity curves / keyframe interpolation / timing",
+          "asset": "sculpture",
+          "variant": 3
+        },
+        {
+          "type": "ae",
+          "tool": "After Effects expressions",
+          "title": "Drive motion with a reusable controller",
+          "detail": "Slider control / time remap / responsive title",
+          "asset": "product",
+          "variant": 4
+        },
+        {
+          "type": "vfx",
+          "tool": "VFX compositing",
+          "title": "Rebuild the image in layers",
+          "detail": "Depth / matte / emission / color matching",
+          "asset": "gallery",
+          "variant": 3
+        },
+        {
+          "type": "c4d",
+          "tool": "Cinema 4D MoGraph",
+          "title": "Make variation procedural",
+          "detail": "Cloner / radial distribution / Fields falloff",
+          "asset": "sculpture",
+          "variant": 3
+        },
+        {
+          "type": "shader",
+          "tool": "Cinema 4D materials",
+          "title": "Design a controllable surface",
+          "detail": "Noise → ramp → roughness → layered material",
+          "asset": "product",
+          "variant": 3
+        },
+        {
+          "type": "higgsfield",
+          "tool": "Higgsfield",
+          "title": "Plan continuity across AI shots",
+          "detail": "Lens / camera direction / subject consistency",
+          "asset": "headphones",
+          "variant": 3
+        },
+        {
+          "type": "unity",
+          "tool": "Unity Shader Graph",
+          "title": "Expose a runtime visual parameter",
+          "detail": "Fresnel / emission / time / property binding",
+          "asset": "islands",
+          "variant": 3
+        },
+        {
+          "type": "unreal",
+          "tool": "Unreal Engine Niagara",
+          "title": "Build an event-driven particle effect",
+          "detail": "Emitter / spawn rate / vector field / lifetime",
+          "asset": "portal",
+          "variant": 3
+        },
+        {
+          "type": "code",
+          "tool": "Three.js + GLSL",
+          "title": "Move the visual system into the browser",
+          "detail": "Uniforms / pointer input / render loop",
+          "variant": 3
+        },
+        {
+          "type": "ae",
+          "tool": "After Effects render pipeline",
+          "title": "Prepare multi-format motion assets",
+          "detail": "Composition variants / alpha / delivery settings",
+          "asset": "sculpture",
+          "variant": 5
+        },
+        {
+          "type": "tests",
+          "tool": "WebGL performance",
+          "title": "Profile the interactive piece",
+          "detail": "Draw calls / frame budget / texture sizing",
+          "variant": 3
+        },
+        {
+          "type": "deploy",
+          "tool": "Interactive portfolio",
+          "title": "Publish a responsive creative experience",
+          "detail": "Preview / touch interaction / asset loading",
+          "variant": 3
+        }
+      ]
+    },
+    {
+      "id": "instructor-04",
+      "name": "John",
+      "fields": [
+        "workflow",
+        "development"
+      ],
+      "focus": "Reliable office automation and service integration",
+      "color": "#63d0b3",
+      "scenes": [
+        {
+          "type": "sheet",
+          "tool": "Excel Power Query",
+          "title": "Normalize messy operational exports",
+          "detail": "Unpivot / type rules / duplicate keys",
+          "variant": 4
+        },
+        {
+          "type": "sheet",
+          "tool": "Office Scripts",
+          "title": "Generate a repeatable report",
+          "detail": "Named tables / formulas / workbook validation",
+          "variant": 5
+        },
+        {
+          "type": "slides",
+          "tool": "PowerPoint",
+          "title": "Produce a data-linked executive deck",
+          "detail": "Template slots / charts / speaker notes",
+          "variant": 4
+        },
+        {
+          "type": "mail",
+          "tool": "Outlook + email rules",
+          "title": "Route messages with confidence",
+          "detail": "Classify / redact / approval / draft",
+          "variant": 4
+        },
+        {
+          "type": "nodes",
+          "tool": "n8n",
+          "title": "Connect Excel, email and reporting",
+          "detail": "Schedule → transform → report → approval → send",
+          "labels": [
+            "Schedule",
+            "Excel rows",
+            "Normalize",
+            "PPT summary",
+            "Approval",
+            "Email draft"
+          ],
+          "variant": 4
+        },
+        {
+          "type": "code",
+          "tool": "FastAPI",
+          "title": "Expose a typed automation endpoint",
+          "detail": "Pydantic / idempotency / structured errors",
+          "variant": 4
+        },
+        {
+          "type": "schema",
+          "tool": "PostgreSQL",
+          "title": "Persist workflow state safely",
+          "detail": "Jobs / attempts / payload versions",
+          "variant": 4
+        },
+        {
+          "type": "queue",
+          "tool": "Queues + workers",
+          "title": "Handle retries without duplicates",
+          "detail": "Backoff / dead letters / correlation ID",
+          "variant": 4
+        },
+        {
+          "type": "nodes",
+          "tool": "n8n sub-workflows",
+          "title": "Separate reusable steps",
+          "detail": "Credential scopes / input contracts / error path",
+          "labels": [
+            "Webhook",
+            "Contract check",
+            "Transform",
+            "Save job",
+            "Dispatch",
+            "Retry branch"
+          ],
+          "variant": 5
+        },
+        {
+          "type": "tests",
+          "tool": "Integration tests",
+          "title": "Test failure paths deliberately",
+          "detail": "Timeout / malformed row / missing approval",
+          "variant": 4
+        },
+        {
+          "type": "metrics",
+          "tool": "Operations telemetry",
+          "title": "Trace one job across services",
+          "detail": "Latency / run history / failure reasons",
+          "variant": 4
+        },
+        {
+          "type": "deploy",
+          "tool": "Docker + CI",
+          "title": "Deliver the automation safely",
+          "detail": "Environment config / health checks / rollback",
+          "variant": 4
+        }
+      ]
+    },
+    {
+      "id": "instructor-05",
+      "name": "Sarah",
+      "fields": [
+        "strategy",
+        "design"
+      ],
+      "focus": "Creative production planning and campaign systems",
+      "color": "#e8a4b8",
+      "scenes": [
+        {
+          "type": "research",
+          "tool": "Creative strategy",
+          "title": "Turn a brief into a production system",
+          "detail": "Audience / message / formats / evidence",
+          "variant": 5
+        },
+        {
+          "type": "roadmap",
+          "tool": "Production planning",
+          "title": "Plan dependencies before production",
+          "detail": "Storyboard → 3D → compositing → QA",
+          "variant": 5
+        },
+        {
+          "type": "figma",
+          "tool": "Figma",
+          "title": "Build a campaign design kit",
+          "detail": "Type scale / format variants / asset library",
+          "variant": 5
+        },
+        {
+          "type": "higgsfield",
+          "tool": "Higgsfield shot planning",
+          "title": "Direct a coherent campaign sequence",
+          "detail": "Reference board / camera language / shot IDs",
+          "asset": "headphones",
+          "variant": 5
+        },
+        {
+          "type": "ae",
+          "tool": "After Effects",
+          "title": "Construct the campaign master template",
+          "detail": "Nested comps / expressions / essential controls",
+          "asset": "headphones",
+          "variant": 6
+        },
+        {
+          "type": "c4d",
+          "tool": "Cinema 4D",
+          "title": "Plan the 3D product stage",
+          "detail": "Camera / light rig / material variations",
+          "asset": "product",
+          "variant": 5
+        },
+        {
+          "type": "vfx",
+          "tool": "VFX review",
+          "title": "Review the composite by pass",
+          "detail": "Matte edges / light continuity / final grade",
+          "asset": "desert",
+          "variant": 5
+        },
+        {
+          "type": "kanban",
+          "tool": "Notion + production board",
+          "title": "Route creative reviews",
+          "detail": "Owner / version / comments / approval",
+          "variant": 5
+        },
+        {
+          "type": "risk",
+          "tool": "Project management",
+          "title": "Manage changes without losing scope",
+          "detail": "Impact / budget / contingency / sign-off",
+          "variant": 5
+        },
+        {
+          "type": "slides",
+          "tool": "Campaign presentation",
+          "title": "Present the rationale and delivery plan",
+          "detail": "Story / variations / channels / metrics",
+          "variant": 5
+        },
+        {
+          "type": "metrics",
+          "tool": "Creative testing",
+          "title": "Compare assets by a defined signal",
+          "detail": "Message variants / sample size / decision rule",
+          "variant": 5
+        },
+        {
+          "type": "deploy",
+          "tool": "Asset delivery",
+          "title": "Package the final campaign",
+          "detail": "Naming / dimensions / caption file / archive",
+          "variant": 5
+        }
+      ]
+    },
+    {
+      "id": "instructor-06",
+      "name": "Joseph",
+      "fields": [
+        "analytics",
+        "development"
+      ],
+      "focus": "Data contracts, pipelines and analytical APIs",
+      "color": "#61bdd7",
+      "scenes": [
+        {
+          "type": "schema",
+          "tool": "PostgreSQL",
+          "title": "Design the analytical data contract",
+          "detail": "Fact grain / keys / dimensional model",
+          "variant": 6
+        },
+        {
+          "type": "sql",
+          "tool": "SQL",
+          "title": "Build an incremental revenue model",
+          "detail": "Watermarks / joins / late-arriving records",
+          "variant": 6
+        },
+        {
+          "type": "code",
+          "tool": "Python + pandas",
+          "title": "Validate and transform the source",
+          "detail": "Nullable types / schema assertions / profiling",
+          "variant": 6
+        },
+        {
+          "type": "nodes",
+          "tool": "dbt + orchestration",
+          "title": "Trace lineage across models",
+          "detail": "Sources → staging → marts → metrics",
+          "labels": [
+            "Sources",
+            "Staging",
+            "Quality tests",
+            "Dimensions",
+            "Fact model",
+            "Metric API"
+          ],
+          "variant": 6
+        },
+        {
+          "type": "sheet",
+          "tool": "Data quality",
+          "title": "Locate anomalies before reporting",
+          "detail": "Null rates / outliers / reconciliation",
+          "variant": 6
+        },
+        {
+          "type": "notebook",
+          "tool": "Jupyter",
+          "title": "Explain the analytical assumptions",
+          "detail": "Cohorts / confidence / validation windows",
+          "variant": 6
+        },
+        {
+          "type": "code",
+          "tool": "FastAPI",
+          "title": "Serve the model through a typed API",
+          "detail": "Filters / pagination / cache / response schema",
+          "variant": 6
+        },
+        {
+          "type": "dashboard",
+          "tool": "Plotly + Dash",
+          "title": "Build a linked analytical interface",
+          "detail": "Cross-filter / drill-down / uncertainty",
+          "variant": 6
+        },
+        {
+          "type": "tests",
+          "tool": "Data tests",
+          "title": "Check the invariants on every run",
+          "detail": "Uniqueness / freshness / referential integrity",
+          "variant": 6
+        },
+        {
+          "type": "queue",
+          "tool": "Pipeline monitoring",
+          "title": "Recover failed data partitions",
+          "detail": "Checkpoint / replay / alert routing",
+          "variant": 6
+        },
+        {
+          "type": "metrics",
+          "tool": "Query performance",
+          "title": "Measure cost before scaling",
+          "detail": "Query plan / scan size / materialization",
+          "variant": 6
+        },
+        {
+          "type": "deploy",
+          "tool": "Data service deployment",
+          "title": "Ship a versioned analytical service",
+          "detail": "Schema migration / checks / observability",
+          "variant": 6
+        }
+      ]
+    },
+    {
+      "id": "instructor-07",
+      "name": "Rachel",
+      "fields": [
+        "marketing",
+        "development"
+      ],
+      "focus": "Growth experiments and customer-facing services",
+      "color": "#f38c85",
+      "scenes": [
+        {
+          "type": "funnel",
+          "tool": "GA4 + events",
+          "title": "Define the acquisition measurement plan",
+          "detail": "Events / properties / consent / attribution",
+          "variant": 7
+        },
+        {
+          "type": "sql",
+          "tool": "SQL segmentation",
+          "title": "Build actionable customer segments",
+          "detail": "Recency / frequency / value / lifecycle",
+          "variant": 7
+        },
+        {
+          "type": "crm",
+          "tool": "CRM",
+          "title": "Model the sales lifecycle",
+          "detail": "Lead score / owner / next action / evidence",
+          "variant": 7
+        },
+        {
+          "type": "figma",
+          "tool": "Landing page design",
+          "title": "Design an experiment-ready offer",
+          "detail": "Message hierarchy / CTA / variant states",
+          "variant": 7
+        },
+        {
+          "type": "code",
+          "tool": "Next.js",
+          "title": "Implement a measurable landing page",
+          "detail": "Server rendering / forms / event contract",
+          "variant": 7
+        },
+        {
+          "type": "higgsfield",
+          "tool": "Higgsfield campaign shots",
+          "title": "Plan distinct creative variants",
+          "detail": "Product angle / motion / crop / continuity",
+          "asset": "headphones",
+          "variant": 7
+        },
+        {
+          "type": "ae",
+          "tool": "After Effects ad variants",
+          "title": "Build responsive campaign motion",
+          "detail": "Vertical / square / wide / type-safe area",
+          "asset": "product",
+          "variant": 7
+        },
+        {
+          "type": "nodes",
+          "tool": "n8n + CRM",
+          "title": "Connect acquisition to follow-up",
+          "detail": "Webhook → qualify → score → assign → nurture",
+          "labels": [
+            "Signup",
+            "Consent",
+            "Qualify",
+            "Lead score",
+            "CRM owner",
+            "Nurture"
+          ],
+          "variant": 7
+        },
+        {
+          "type": "metrics",
+          "tool": "Experiment design",
+          "title": "Read conversion with uncertainty",
+          "detail": "Control / treatment / lift / confidence",
+          "variant": 7
+        },
+        {
+          "type": "mail",
+          "tool": "Email journeys",
+          "title": "Personalize a lifecycle sequence",
+          "detail": "Trigger / segment / frequency / exit rule",
+          "variant": 7
+        },
+        {
+          "type": "tests",
+          "tool": "Analytics QA",
+          "title": "Verify events before a campaign",
+          "detail": "Duplicate events / UTM / form failure",
+          "variant": 7
+        },
+        {
+          "type": "deploy",
+          "tool": "Growth service delivery",
+          "title": "Release the full acquisition loop",
+          "detail": "Landing → CRM → experiment dashboard",
+          "variant": 7
+        }
+      ]
+    },
+    {
+      "id": "instructor-08",
+      "name": "Joshua",
+      "fields": [
+        "analytics",
+        "development"
+      ],
+      "focus": "Forecasting, geospatial analysis and decision apps",
+      "color": "#9bbe66",
+      "scenes": [
+        {
+          "type": "notebook",
+          "tool": "Python forecasting",
+          "title": "Separate signal from seasonality",
+          "detail": "Baseline / rolling validation / residuals",
+          "variant": 8
+        },
+        {
+          "type": "sql",
+          "tool": "Time-series SQL",
+          "title": "Create the training window safely",
+          "detail": "Time grain / gaps / leakage prevention",
+          "variant": 8
+        },
+        {
+          "type": "map",
+          "tool": "GeoPandas",
+          "title": "Connect performance to geography",
+          "detail": "Spatial join / projection / aggregation",
+          "variant": 8
+        },
+        {
+          "type": "notebook",
+          "tool": "scikit-learn",
+          "title": "Compare a model to the baseline",
+          "detail": "Backtesting / MAE / calibration",
+          "variant": 8
+        },
+        {
+          "type": "dashboard",
+          "tool": "Streamlit",
+          "title": "Build an interactive scenario model",
+          "detail": "Assumptions / sliders / forecast bands",
+          "variant": 8
+        },
+        {
+          "type": "code",
+          "tool": "Python simulation",
+          "title": "Quantify operational uncertainty",
+          "detail": "Monte Carlo / constraints / sensitivities",
+          "variant": 8
+        },
+        {
+          "type": "schema",
+          "tool": "PostGIS",
+          "title": "Serve spatial features efficiently",
+          "detail": "Indexes / bounding boxes / simplification",
+          "variant": 8
+        },
+        {
+          "type": "map",
+          "tool": "MapLibre",
+          "title": "Build a decision map",
+          "detail": "Layers / legends / hover / region filters",
+          "variant": 9
+        },
+        {
+          "type": "metrics",
+          "tool": "Model evaluation",
+          "title": "Expose what the model gets wrong",
+          "detail": "Residual plots / segments / drift",
+          "variant": 8
+        },
+        {
+          "type": "tests",
+          "tool": "Model tests",
+          "title": "Guard against silent data leakage",
+          "detail": "Time splits / feature availability / bounds",
+          "variant": 8
+        },
+        {
+          "type": "queue",
+          "tool": "Scheduled inference",
+          "title": "Refresh predictions predictably",
+          "detail": "Batch windows / version pinning / recovery",
+          "variant": 8
+        },
+        {
+          "type": "deploy",
+          "tool": "Decision application",
+          "title": "Ship a forecast people can inspect",
+          "detail": "Inputs / intervals / provenance / download",
+          "variant": 8
+        }
+      ]
+    },
+    {
+      "id": "instructor-09",
+      "name": "Elizabeth",
+      "fields": [
+        "workflow",
+        "strategy"
+      ],
+      "focus": "Governed workflows and programme delivery",
+      "color": "#73c9c7",
+      "scenes": [
+        {
+          "type": "roadmap",
+          "tool": "Programme planning",
+          "title": "Connect outcomes to milestones",
+          "detail": "Benefits / owners / dependencies / gates",
+          "variant": 9
+        },
+        {
+          "type": "risk",
+          "tool": "Risk register",
+          "title": "Make operational risks actionable",
+          "detail": "Likelihood / impact / mitigation / owner",
+          "variant": 9
+        },
+        {
+          "type": "sheet",
+          "tool": "Excel + planning models",
+          "title": "Build a capacity and budget model",
+          "detail": "Workload / allocation / forecast / variance",
+          "variant": 9
+        },
+        {
+          "type": "kanban",
+          "tool": "Jira + Notion",
+          "title": "Build an evidence-based delivery board",
+          "detail": "Dependencies / blockers / review criteria",
+          "variant": 9
+        },
+        {
+          "type": "nodes",
+          "tool": "n8n approval workflows",
+          "title": "Automate the human decision points",
+          "detail": "Request → policy → owner → approve → audit",
+          "labels": [
+            "Request",
+            "Policy check",
+            "Owner",
+            "Approval",
+            "Audit log",
+            "Notify"
+          ],
+          "variant": 9
+        },
+        {
+          "type": "mail",
+          "tool": "Email operations",
+          "title": "Convert requests into tracked work",
+          "detail": "Intent / routing / SLA / escalation",
+          "variant": 9
+        },
+        {
+          "type": "slides",
+          "tool": "PowerPoint reporting",
+          "title": "Produce a decision-ready steering pack",
+          "detail": "Progress / risk / spend / decision needed",
+          "variant": 9
+        },
+        {
+          "type": "architecture",
+          "tool": "Governance design",
+          "title": "Define accountability across the system",
+          "detail": "Roles / access / escalation / evidence",
+          "labels": [
+            "Sponsor",
+            "Owner",
+            "Reviewer",
+            "Operator",
+            "Audit",
+            "Outcome"
+          ],
+          "variant": 9
+        },
+        {
+          "type": "metrics",
+          "tool": "Programme health",
+          "title": "Detect delivery risk early",
+          "detail": "Flow time / blocked work / forecast drift",
+          "variant": 9
+        },
+        {
+          "type": "queue",
+          "tool": "Escalation automation",
+          "title": "Handle exceptions explicitly",
+          "detail": "Timeout / fallback owner / audit events",
+          "variant": 9
+        },
+        {
+          "type": "tests",
+          "tool": "Control validation",
+          "title": "Check policy enforcement",
+          "detail": "Access / approval / retention / recovery",
+          "variant": 9
+        },
+        {
+          "type": "deploy",
+          "tool": "Operational handover",
+          "title": "Transfer a maintainable workflow",
+          "detail": "Runbook / support owner / change process",
+          "variant": 9
+        }
+      ]
+    },
+    {
+      "id": "instructor-10",
+      "name": "Michael",
+      "fields": [
+        "analytics"
+      ],
+      "focus": "Business intelligence and evidence-led decisions",
+      "color": "#80aee0",
+      "scenes": [
+        {
+          "type": "dashboard",
+          "tool": "Power BI",
+          "title": "Design a drillable executive view",
+          "detail": "KPIs / comparison / tooltip / drill-through",
+          "variant": 10
+        },
+        {
+          "type": "sql",
+          "tool": "SQL analytics",
+          "title": "Define metrics at the correct grain",
+          "detail": "Joins / windows / period comparisons",
+          "variant": 10
+        },
+        {
+          "type": "schema",
+          "tool": "Power BI data model",
+          "title": "Build a clear semantic model",
+          "detail": "Star schema / relationships / date table",
+          "variant": 10
+        },
+        {
+          "type": "code",
+          "tool": "DAX",
+          "title": "Write a context-aware measure",
+          "detail": "CALCULATE / filter context / time intelligence",
+          "variant": 10
+        },
+        {
+          "type": "sheet",
+          "tool": "Excel Power Query",
+          "title": "Clean the source before analysis",
+          "detail": "Type inference / merge rules / missing values",
+          "variant": 10
+        },
+        {
+          "type": "notebook",
+          "tool": "Python statistics",
+          "title": "Explain the uncertainty in a result",
+          "detail": "Bootstrap / distributions / interval estimates",
+          "variant": 10
+        },
+        {
+          "type": "heatmap",
+          "tool": "Cohort analysis",
+          "title": "Separate retention from acquisition",
+          "detail": "Cohort month / tenure / denominator",
+          "variant": 10
+        },
+        {
+          "type": "map",
+          "tool": "Location analysis",
+          "title": "Compare regions on equal terms",
+          "detail": "Normalization / exposure / region filters",
+          "variant": 10
+        },
+        {
+          "type": "metrics",
+          "tool": "Forecast review",
+          "title": "Compare plan with observed outcomes",
+          "detail": "Variance / seasonality / sensitivity",
+          "variant": 10
+        },
+        {
+          "type": "tests",
+          "tool": "Analytical QA",
+          "title": "Reconcile the report to its source",
+          "detail": "Totals / missing groups / freshness",
+          "variant": 10
+        },
+        {
+          "type": "slides",
+          "tool": "Decision storytelling",
+          "title": "Present a recommendation with evidence",
+          "detail": "Finding / caveat / action / follow-up",
+          "variant": 10
+        },
+        {
+          "type": "dashboard",
+          "tool": "Published analytics",
+          "title": "Deliver a readable decision surface",
+          "detail": "Permissions / refresh / mobile view",
+          "variant": 11
+        }
+      ]
+    },
+    {
+      "id": "instructor-11",
+      "name": "Rebecca",
+      "fields": [
+        "workflow",
+        "development"
+      ],
+      "focus": "Knowledge assistants and service operations",
+      "color": "#c09ed9",
+      "scenes": [
+        {
+          "type": "rag",
+          "tool": "RAG ingestion",
+          "title": "Create a traceable knowledge index",
+          "detail": "Parse / chunk / metadata / version",
+          "labels": [
+            "Documents",
+            "Parse",
+            "Chunk",
+            "Metadata",
+            "Embeddings",
+            "Index"
+          ],
+          "variant": 11
+        },
+        {
+          "type": "architecture",
+          "tool": "Service architecture",
+          "title": "Design an assistant with boundaries",
+          "detail": "Knowledge / tools / permissions / audit",
+          "labels": [
+            "Request",
+            "Policy",
+            "Retrieve",
+            "Tools",
+            "Approval",
+            "Response"
+          ],
+          "variant": 11
+        },
+        {
+          "type": "code",
+          "tool": "Python document pipeline",
+          "title": "Preserve source structure",
+          "detail": "Headings / tables / provenance / checksum",
+          "variant": 11
+        },
+        {
+          "type": "rag",
+          "tool": "Hybrid retrieval",
+          "title": "Retrieve evidence before responding",
+          "detail": "BM25 / vector / merge / reranking",
+          "labels": [
+            "Question",
+            "Keyword",
+            "Vector",
+            "RRF merge",
+            "Rerank",
+            "Citations"
+          ],
+          "variant": 12
+        },
+        {
+          "type": "nodes",
+          "tool": "n8n + tools",
+          "title": "Separate answers from actions",
+          "detail": "Intent → permission → tool → approval → log",
+          "labels": [
+            "Intent",
+            "Permission",
+            "Tool call",
+            "Human gate",
+            "Execute",
+            "Audit"
+          ],
+          "variant": 11
+        },
+        {
+          "type": "mail",
+          "tool": "Service inbox automation",
+          "title": "Route and draft with source evidence",
+          "detail": "Classification / retrieval / draft / review",
+          "variant": 11
+        },
+        {
+          "type": "code",
+          "tool": "FastAPI + streaming",
+          "title": "Serve a responsive assistant",
+          "detail": "Streaming / cancellation / structured events",
+          "variant": 12
+        },
+        {
+          "type": "schema",
+          "tool": "Supabase + access policy",
+          "title": "Scope knowledge to the right audience",
+          "detail": "Tenant / role / document policy",
+          "variant": 11
+        },
+        {
+          "type": "tests",
+          "tool": "RAG evaluation",
+          "title": "Test groundedness and abstention",
+          "detail": "Golden set / citation recall / failure modes",
+          "variant": 11
+        },
+        {
+          "type": "metrics",
+          "tool": "Assistant observability",
+          "title": "Inspect the full response trace",
+          "detail": "Retrieval / latency / cost / feedback",
+          "variant": 11
+        },
+        {
+          "type": "queue",
+          "tool": "Service recovery",
+          "title": "Handle slow or unavailable tools",
+          "detail": "Timeout / retry budget / human fallback",
+          "variant": 11
+        },
+        {
+          "type": "deploy",
+          "tool": "Knowledge service release",
+          "title": "Publish a reviewable assistant",
+          "detail": "Versioned prompts / policy / rollback",
+          "variant": 11
+        }
+      ]
+    }
+  ],
+  "fields": {
+    "workflow": "AI Workflow & Automation",
+    "strategy": "AI Strategy & Project Management",
+    "design": "AI Design & Content",
+    "analytics": "AI Data Analytics",
+    "marketing": "AI Marketing & Sales",
+    "development": "AI Service Development"
+  },
+  "projects": {
+    "workflow": [
+      {
+        "type": "report",
+        "title": "Monthly operations brief",
+        "detail": "An automatically assembled management summary"
+      },
+      {
+        "type": "dashboard",
+        "title": "Finance pulse",
+        "detail": "Revenue, spend and cash position"
+      },
+      {
+        "type": "inbox",
+        "title": "A calm, organized inbox",
+        "detail": "Priority messages with suggested next actions"
+      },
+      {
+        "type": "presentation",
+        "title": "The weekly briefing",
+        "detail": "A finished executive slide deck"
+      },
+      {
+        "type": "calendar",
+        "title": "A week that fits",
+        "detail": "Scheduling and capacity at a glance"
+      },
+      {
+        "type": "invoice",
+        "title": "Invoice ready",
+        "detail": "A clean, generated customer document"
+      },
+      {
+        "type": "portal",
+        "title": "Leave, without the paperwork",
+        "detail": "A self-service request portal"
+      },
+      {
+        "type": "dashboard",
+        "title": "Inventory watch",
+        "detail": "Stock levels and reorder alerts"
+      },
+      {
+        "type": "report",
+        "title": "Supplier comparison",
+        "detail": "A side-by-side purchasing report"
+      },
+      {
+        "type": "kanban",
+        "title": "Approval desk",
+        "detail": "Requests grouped by decision stage"
+      },
+      {
+        "type": "presentation",
+        "title": "Sales in one story",
+        "detail": "A finished data-led presentation"
+      },
+      {
+        "type": "chat",
+        "title": "The team knowledge desk",
+        "detail": "A searchable internal help experience"
+      },
+      {
+        "type": "calendar",
+        "title": "Team availability",
+        "detail": "A shared planning calendar"
+      },
+      {
+        "type": "report",
+        "title": "Customer meeting notes",
+        "detail": "Decisions, actions and owners"
+      },
+      {
+        "type": "dashboard",
+        "title": "Project spend monitor",
+        "detail": "Budget and actuals in one view"
+      },
+      {
+        "type": "portal",
+        "title": "Travel request",
+        "detail": "A simple end-to-end request interface"
+      },
+      {
+        "type": "inbox",
+        "title": "A helpful follow-up",
+        "detail": "A personalized, reviewable email draft"
+      },
+      {
+        "type": "invoice",
+        "title": "Purchase order",
+        "detail": "A generated purchasing document"
+      },
+      {
+        "type": "kanban",
+        "title": "Onboarding checklist",
+        "detail": "A clear path from offer to first day"
+      },
+      {
+        "type": "report",
+        "title": "Expense summary",
+        "detail": "Receipts organized into a readable report"
+      },
+      {
+        "type": "dashboard",
+        "title": "Service queue",
+        "detail": "Requests, response times and trends"
+      },
+      {
+        "type": "presentation",
+        "title": "Quarterly review",
+        "detail": "A concise leadership-ready deck"
+      },
+      {
+        "type": "calendar",
+        "title": "Delivery schedule",
+        "detail": "Milestones and responsible teams"
+      },
+      {
+        "type": "portal",
+        "title": "Operations home",
+        "detail": "One front door for everyday work"
+      }
+    ],
+    "strategy": [
+      {
+        "type": "presentation",
+        "title": "A strategy made tangible",
+        "detail": "A concise AI adoption proposal"
+      },
+      {
+        "type": "roadmap",
+        "title": "The next ninety days",
+        "detail": "A milestone-based delivery roadmap"
+      },
+      {
+        "type": "portal",
+        "title": "Project brief",
+        "detail": "Goals, scope and success criteria"
+      },
+      {
+        "type": "kanban",
+        "title": "Launch room",
+        "detail": "A shared view of work and ownership"
+      },
+      {
+        "type": "report",
+        "title": "Opportunity assessment",
+        "detail": "Use cases ranked by value and feasibility"
+      },
+      {
+        "type": "dashboard",
+        "title": "Programme pulse",
+        "detail": "Health, capacity and delivery outlook"
+      },
+      {
+        "type": "presentation",
+        "title": "Decision day",
+        "detail": "A steering committee decision pack"
+      },
+      {
+        "type": "roadmap",
+        "title": "Creative production plan",
+        "detail": "From brief to final delivery"
+      },
+      {
+        "type": "portal",
+        "title": "Research library",
+        "detail": "Evidence organized around decisions"
+      },
+      {
+        "type": "report",
+        "title": "Risk and response",
+        "detail": "A readable risk review"
+      },
+      {
+        "type": "calendar",
+        "title": "Release calendar",
+        "detail": "Launches and review windows"
+      },
+      {
+        "type": "dashboard",
+        "title": "Benefits tracker",
+        "detail": "A view of intended and observed value"
+      },
+      {
+        "type": "presentation",
+        "title": "The product story",
+        "detail": "Problem, prototype and next steps"
+      },
+      {
+        "type": "kanban",
+        "title": "Review and approve",
+        "detail": "A clear creative approval workflow"
+      },
+      {
+        "type": "report",
+        "title": "Resource plan",
+        "detail": "Capacity, allocation and constraints"
+      },
+      {
+        "type": "roadmap",
+        "title": "AI pilot journey",
+        "detail": "A staged learning and validation plan"
+      },
+      {
+        "type": "portal",
+        "title": "Stakeholder hub",
+        "detail": "Updates, decisions and shared context"
+      },
+      {
+        "type": "dashboard",
+        "title": "Portfolio view",
+        "detail": "Projects compared on consistent criteria"
+      },
+      {
+        "type": "presentation",
+        "title": "Workshop outcomes",
+        "detail": "A finished facilitation summary"
+      },
+      {
+        "type": "calendar",
+        "title": "Production schedule",
+        "detail": "People, dates and review checkpoints"
+      },
+      {
+        "type": "report",
+        "title": "Launch readiness",
+        "detail": "A completed release review pack"
+      },
+      {
+        "type": "kanban",
+        "title": "Sprint review",
+        "detail": "A visible record of completed work"
+      },
+      {
+        "type": "roadmap",
+        "title": "Scale with evidence",
+        "detail": "A rollout plan with decision gates"
+      },
+      {
+        "type": "portal",
+        "title": "Programme home",
+        "detail": "A usable centre for delivery information"
+      }
+    ],
+    "design": [
+      {
+        "type": "film",
+        "title": "Sculptural motion",
+        "detail": "A finished abstract motion loop",
+        "asset": "sculpture",
+        "theme": "dark"
+      },
+      {
+        "type": "product",
+        "title": "Object / 01",
+        "detail": "A polished product visual",
+        "asset": "product",
+        "theme": "cream"
+      },
+      {
+        "type": "poster",
+        "title": "MAKE / CREATE",
+        "detail": "A kinetic typography poster",
+        "asset": null,
+        "theme": "violet"
+      },
+      {
+        "type": "architecture",
+        "title": "Quiet architecture",
+        "detail": "A rendered gallery space",
+        "asset": "forest",
+        "theme": "cream"
+      },
+      {
+        "type": "game",
+        "title": "Beyond the horizon",
+        "detail": "A cinematic environment study",
+        "asset": "world",
+        "theme": "dark"
+      },
+      {
+        "type": "website",
+        "title": "Studio Forma",
+        "detail": "A finished creative portfolio",
+        "asset": "sculpture",
+        "theme": "cream"
+      },
+      {
+        "type": "motion",
+        "title": "Better together",
+        "detail": "A responsive brand motion system",
+        "asset": null,
+        "theme": "blue"
+      },
+      {
+        "type": "poster",
+        "title": "New perspectives",
+        "detail": "An editorial campaign poster",
+        "asset": null,
+        "theme": "coral"
+      },
+      {
+        "type": "product",
+        "title": "Material matters",
+        "detail": "A product finish exploration",
+        "asset": "headphones",
+        "theme": "dark"
+      },
+      {
+        "type": "film",
+        "title": "Orbit study",
+        "detail": "An abstract VFX composition",
+        "asset": "portal",
+        "theme": "dark"
+      },
+      {
+        "type": "website",
+        "title": "The exhibition",
+        "detail": "A digital exhibition landing page",
+        "asset": "forest",
+        "theme": "cream"
+      },
+      {
+        "type": "motion",
+        "title": "Shape the future",
+        "detail": "An animated identity study",
+        "asset": null,
+        "theme": "coral"
+      },
+      {
+        "type": "architecture",
+        "title": "Light and structure",
+        "detail": "An architectural mood film",
+        "asset": "desert",
+        "theme": "cream"
+      },
+      {
+        "type": "poster",
+        "title": "The creative week",
+        "detail": "An event identity",
+        "asset": null,
+        "theme": "yellow"
+      },
+      {
+        "type": "game",
+        "title": "Floating worlds",
+        "detail": "A stylized environment artwork",
+        "asset": "coastal",
+        "theme": "dark"
+      },
+      {
+        "type": "product",
+        "title": "A new point of view",
+        "detail": "A product campaign composition",
+        "asset": "watch",
+        "theme": "blue"
+      },
+      {
+        "type": "website",
+        "title": "Object collection",
+        "detail": "A digital product gallery",
+        "asset": "product",
+        "theme": "cream"
+      },
+      {
+        "type": "film",
+        "title": "Particles in motion",
+        "detail": "A luminous VFX study",
+        "asset": "portal",
+        "theme": "dark"
+      },
+      {
+        "type": "poster",
+        "title": "Sound / space",
+        "detail": "A music event visual",
+        "asset": null,
+        "theme": "dark"
+      },
+      {
+        "type": "motion",
+        "title": "Small ideas. Big moves.",
+        "detail": "A typographic social film",
+        "asset": null,
+        "theme": "yellow"
+      },
+      {
+        "type": "architecture",
+        "title": "The living gallery",
+        "detail": "A spatial design visualization",
+        "asset": "forest",
+        "theme": "dark"
+      },
+      {
+        "type": "website",
+        "title": "Motion archive",
+        "detail": "A responsive motion portfolio",
+        "asset": "sculpture",
+        "theme": "dark"
+      },
+      {
+        "type": "game",
+        "title": "Neon pathways",
+        "detail": "An interactive-world concept",
+        "asset": "islands",
+        "theme": "dark"
+      },
+      {
+        "type": "film",
+        "title": "A world of possibilities",
+        "detail": "A final creative montage",
+        "asset": "portal",
+        "theme": "blue"
+      }
+    ],
+    "analytics": [
+      {
+        "type": "dashboard",
+        "title": "Revenue, explained",
+        "detail": "A finished executive analytics view"
+      },
+      {
+        "type": "heatmap",
+        "title": "Customers who stay",
+        "detail": "A cohort retention report"
+      },
+      {
+        "type": "map",
+        "title": "The regional picture",
+        "detail": "A location-based performance map"
+      },
+      {
+        "type": "forecast",
+        "title": "What comes next",
+        "detail": "A forecast with visible uncertainty"
+      },
+      {
+        "type": "report",
+        "title": "The insight brief",
+        "detail": "A concise analytical recommendation"
+      },
+      {
+        "type": "dashboard",
+        "title": "Product adoption",
+        "detail": "Activation and engagement trends"
+      },
+      {
+        "type": "heatmap",
+        "title": "When customers return",
+        "detail": "Patterns by day and hour"
+      },
+      {
+        "type": "map",
+        "title": "Delivery coverage",
+        "detail": "A service-area planning view"
+      },
+      {
+        "type": "forecast",
+        "title": "Demand outlook",
+        "detail": "A seasonal demand comparison"
+      },
+      {
+        "type": "presentation",
+        "title": "The data story",
+        "detail": "A finished decision-making deck"
+      },
+      {
+        "type": "dashboard",
+        "title": "Marketing efficiency",
+        "detail": "Spend, conversion and return"
+      },
+      {
+        "type": "report",
+        "title": "Quality scorecard",
+        "detail": "Data completeness and freshness"
+      },
+      {
+        "type": "map",
+        "title": "Market opportunity",
+        "detail": "Regions compared on equal terms"
+      },
+      {
+        "type": "heatmap",
+        "title": "Channel cohorts",
+        "detail": "Retention across acquisition channels"
+      },
+      {
+        "type": "forecast",
+        "title": "Inventory scenarios",
+        "detail": "A comparison of planning assumptions"
+      },
+      {
+        "type": "dashboard",
+        "title": "Service performance",
+        "detail": "Queue, volume and response signals"
+      },
+      {
+        "type": "report",
+        "title": "Pricing evidence",
+        "detail": "A readable price sensitivity study"
+      },
+      {
+        "type": "presentation",
+        "title": "Quarterly intelligence",
+        "detail": "A business review with evidence"
+      },
+      {
+        "type": "map",
+        "title": "Site selection",
+        "detail": "A location comparison interface"
+      },
+      {
+        "type": "forecast",
+        "title": "Cash flow outlook",
+        "detail": "A range of financial scenarios"
+      },
+      {
+        "type": "dashboard",
+        "title": "Learning impact",
+        "detail": "Engagement and completion patterns"
+      },
+      {
+        "type": "heatmap",
+        "title": "Portfolio correlations",
+        "detail": "A matrix of related signals"
+      },
+      {
+        "type": "report",
+        "title": "Experiment readout",
+        "detail": "Results with caveats and next steps"
+      },
+      {
+        "type": "dashboard",
+        "title": "Decision centre",
+        "detail": "A linked view of the business"
+      }
+    ],
+    "marketing": [
+      {
+        "type": "website",
+        "title": "An offer worth exploring",
+        "detail": "A finished campaign landing page",
+        "asset": "product",
+        "theme": "cream"
+      },
+      {
+        "type": "crm",
+        "title": "From interest to opportunity",
+        "detail": "A sales pipeline interface"
+      },
+      {
+        "type": "poster",
+        "title": "A clear message",
+        "detail": "A finished campaign creative",
+        "asset": null,
+        "theme": "coral"
+      },
+      {
+        "type": "dashboard",
+        "title": "Campaign pulse",
+        "detail": "A performance overview for a launch"
+      },
+      {
+        "type": "inbox",
+        "title": "A thoughtful welcome",
+        "detail": "A customer onboarding email"
+      },
+      {
+        "type": "product",
+        "title": "The launch film",
+        "detail": "A finished product advertising visual",
+        "asset": "headphones",
+        "theme": "dark"
+      },
+      {
+        "type": "website",
+        "title": "Reserve your place",
+        "detail": "An event registration landing page",
+        "asset": "forest",
+        "theme": "cream"
+      },
+      {
+        "type": "report",
+        "title": "The customer brief",
+        "detail": "Audience insight in a readable report"
+      },
+      {
+        "type": "crm",
+        "title": "The next best action",
+        "detail": "A focused sales follow-up view"
+      },
+      {
+        "type": "motion",
+        "title": "Make your next move",
+        "detail": "A short social campaign animation",
+        "asset": null,
+        "theme": "blue"
+      },
+      {
+        "type": "website",
+        "title": "The product story",
+        "detail": "A conversion-focused product page",
+        "asset": "watch",
+        "theme": "coral"
+      },
+      {
+        "type": "dashboard",
+        "title": "An experiment, explained",
+        "detail": "Control and treatment side by side"
+      },
+      {
+        "type": "inbox",
+        "title": "A timely reminder",
+        "detail": "A personalized lifecycle message"
+      },
+      {
+        "type": "poster",
+        "title": "Ideas in motion",
+        "detail": "An event campaign asset",
+        "asset": null,
+        "theme": "yellow"
+      },
+      {
+        "type": "film",
+        "title": "A visual hook",
+        "detail": "A short-form brand motion piece",
+        "asset": "portal",
+        "theme": "dark"
+      },
+      {
+        "type": "website",
+        "title": "Join the conversation",
+        "detail": "A community campaign page",
+        "asset": "forest",
+        "theme": "cream"
+      },
+      {
+        "type": "crm",
+        "title": "A stronger relationship",
+        "detail": "An account planning interface"
+      },
+      {
+        "type": "report",
+        "title": "Launch lessons",
+        "detail": "A finished campaign review"
+      },
+      {
+        "type": "motion",
+        "title": "One message. Many formats.",
+        "detail": "A responsive advertising concept",
+        "asset": null,
+        "theme": "coral"
+      },
+      {
+        "type": "dashboard",
+        "title": "The growth view",
+        "detail": "Acquisition through retention"
+      },
+      {
+        "type": "inbox",
+        "title": "A useful recommendation",
+        "detail": "A product recommendation email"
+      },
+      {
+        "type": "product",
+        "title": "A fresh perspective",
+        "detail": "A product-focused campaign scene",
+        "asset": "headphones",
+        "theme": "blue"
+      },
+      {
+        "type": "website",
+        "title": "A place to begin",
+        "detail": "A polished lead-generation site",
+        "asset": "world",
+        "theme": "dark"
+      },
+      {
+        "type": "presentation",
+        "title": "Campaign in one story",
+        "detail": "A finished marketing results deck"
+      }
+    ],
+    "development": [
+      {
+        "type": "website",
+        "title": "Fieldnotes",
+        "detail": "A responsive publishing interface",
+        "asset": "gallery",
+        "theme": "cream"
+      },
+      {
+        "type": "chat",
+        "title": "Ask the knowledge base",
+        "detail": "A cited-answer assistant interface"
+      },
+      {
+        "type": "portal",
+        "title": "Book a session",
+        "detail": "A self-service booking application"
+      },
+      {
+        "type": "game",
+        "title": "Explore the archipelago",
+        "detail": "An interactive environment concept",
+        "asset": "world",
+        "theme": "dark"
+      },
+      {
+        "type": "dashboard",
+        "title": "Project cockpit",
+        "detail": "A complete project analytics interface"
+      },
+      {
+        "type": "product",
+        "title": "Configure your object",
+        "detail": "A product customization concept",
+        "asset": "headphones",
+        "theme": "cream"
+      },
+      {
+        "type": "kanban",
+        "title": "Work, together",
+        "detail": "A collaborative planning application"
+      },
+      {
+        "type": "map",
+        "title": "Find your next place",
+        "detail": "A location discovery interface"
+      },
+      {
+        "type": "website",
+        "title": "Studio directory",
+        "detail": "A searchable creative directory",
+        "asset": "sculpture",
+        "theme": "dark"
+      },
+      {
+        "type": "calendar",
+        "title": "Time well spent",
+        "detail": "A scheduling service"
+      },
+      {
+        "type": "portal",
+        "title": "The customer portal",
+        "detail": "A unified account and request interface"
+      },
+      {
+        "type": "film",
+        "title": "Interactive motion",
+        "detail": "A browser-based visual experience",
+        "asset": "sculpture",
+        "theme": "dark"
+      },
+      {
+        "type": "chat",
+        "title": "A helpful service desk",
+        "detail": "A support assistant with evidence"
+      },
+      {
+        "type": "dashboard",
+        "title": "A financial companion",
+        "detail": "A personal finance application"
+      },
+      {
+        "type": "website",
+        "title": "The learning room",
+        "detail": "A course discovery interface",
+        "asset": "forest",
+        "theme": "cream"
+      },
+      {
+        "type": "game",
+        "title": "Pathfinder",
+        "detail": "A playful interactive world",
+        "asset": "coastal",
+        "theme": "dark"
+      },
+      {
+        "type": "portal",
+        "title": "Document centre",
+        "detail": "A searchable document workflow"
+      },
+      {
+        "type": "kanban",
+        "title": "Plan the launch",
+        "detail": "A release planning application"
+      },
+      {
+        "type": "product",
+        "title": "The object viewer",
+        "detail": "A 3D product experience",
+        "asset": "watch",
+        "theme": "dark"
+      },
+      {
+        "type": "map",
+        "title": "Community connections",
+        "detail": "A local discovery application"
+      },
+      {
+        "type": "calendar",
+        "title": "Events made simple",
+        "detail": "An event scheduling tool"
+      },
+      {
+        "type": "dashboard",
+        "title": "Live operations",
+        "detail": "A finished operations interface"
+      },
+      {
+        "type": "chat",
+        "title": "Research companion",
+        "detail": "A source-aware research assistant"
+      },
+      {
+        "type": "website",
+        "title": "Made to be used",
+        "detail": "A responsive service landing page",
+        "asset": "forest",
+        "theme": "cream"
+      }
+    ]
+  },
+  "categoryScenes": {
+    "workflow": [
+      {
+        "type": "sheet",
+        "tool": "Excel Power Query",
+        "title": "Normalize messy operational exports",
+        "detail": "Unpivot / type rules / duplicate keys",
+        "variant": 4
+      },
+      {
+        "type": "sheet",
+        "tool": "Office Scripts",
+        "title": "Generate a repeatable report",
+        "detail": "Named tables / formulas / workbook validation",
+        "variant": 5
+      },
+      {
+        "type": "slides",
+        "tool": "PowerPoint",
+        "title": "Produce a data-linked executive deck",
+        "detail": "Template slots / charts / speaker notes",
+        "variant": 4
+      },
+      {
+        "type": "mail",
+        "tool": "Outlook + email rules",
+        "title": "Route messages with confidence",
+        "detail": "Classify / redact / approval / draft",
+        "variant": 4
+      },
+      {
+        "type": "nodes",
+        "tool": "n8n",
+        "title": "Connect Excel, email and reporting",
+        "detail": "Schedule → transform → report → approval → send",
+        "labels": [
+          "Schedule",
+          "Excel rows",
+          "Normalize",
+          "PPT summary",
+          "Approval",
+          "Email draft"
+        ],
+        "variant": 4
+      },
+      {
+        "type": "nodes",
+        "tool": "n8n approval workflows",
+        "title": "Automate the human decision points",
+        "detail": "Request → policy → owner → approve → audit",
+        "labels": [
+          "Request",
+          "Policy check",
+          "Owner",
+          "Approval",
+          "Audit log",
+          "Notify"
+        ],
+        "variant": 9
+      },
+      {
+        "type": "mail",
+        "tool": "Service inbox automation",
+        "title": "Route and draft with source evidence",
+        "detail": "Classification / retrieval / draft / review",
+        "variant": 11
+      },
+      {
+        "type": "code",
+        "tool": "FastAPI",
+        "title": "Expose a typed automation endpoint",
+        "detail": "Pydantic / idempotency / structured errors",
+        "variant": 4
+      },
+      {
+        "type": "queue",
+        "tool": "Queues + workers",
+        "title": "Handle retries without duplicates",
+        "detail": "Backoff / dead letters / correlation ID",
+        "variant": 4
+      },
+      {
+        "type": "queue",
+        "tool": "Escalation automation",
+        "title": "Handle exceptions explicitly",
+        "detail": "Timeout / fallback owner / audit events",
+        "variant": 9
+      },
+      {
+        "type": "metrics",
+        "tool": "Operations telemetry",
+        "title": "Trace one job across services",
+        "detail": "Latency / run history / failure reasons",
+        "variant": 4
+      },
+      {
+        "type": "deploy",
+        "tool": "Operational handover",
+        "title": "Transfer a maintainable workflow",
+        "detail": "Runbook / support owner / change process",
+        "variant": 9
+      }
+    ],
+    "strategy": [
+      {
+        "type": "roadmap",
+        "tool": "Product strategy",
+        "title": "Map the hypothesis to a measurable outcome",
+        "detail": "Problem statement / experiment / decision rule",
+        "variant": 2
+      },
+      {
+        "type": "research",
+        "tool": "Discovery research",
+        "title": "Synthesize the evidence",
+        "detail": "Interview themes / opportunity scores / assumptions",
+        "variant": 2
+      },
+      {
+        "type": "roadmap",
+        "tool": "Programme planning",
+        "title": "Connect outcomes to milestones",
+        "detail": "Benefits / owners / dependencies / gates",
+        "variant": 9
+      },
+      {
+        "type": "roadmap",
+        "tool": "Production planning",
+        "title": "Plan dependencies before production",
+        "detail": "Storyboard → 3D → compositing → QA",
+        "variant": 5
+      },
+      {
+        "type": "kanban",
+        "tool": "Jira + delivery planning",
+        "title": "Convert ideas into testable stories",
+        "detail": "Acceptance criteria / dependencies / capacity",
+        "variant": 2
+      },
+      {
+        "type": "risk",
+        "tool": "Risk register",
+        "title": "Make operational risks actionable",
+        "detail": "Likelihood / impact / mitigation / owner",
+        "variant": 9
+      },
+      {
+        "type": "sheet",
+        "tool": "Excel + planning models",
+        "title": "Build a capacity and budget model",
+        "detail": "Workload / allocation / forecast / variance",
+        "variant": 9
+      },
+      {
+        "type": "kanban",
+        "tool": "Notion + production board",
+        "title": "Route creative reviews",
+        "detail": "Owner / version / comments / approval",
+        "variant": 5
+      },
+      {
+        "type": "risk",
+        "tool": "Project management",
+        "title": "Manage changes without losing scope",
+        "detail": "Impact / budget / contingency / sign-off",
+        "variant": 5
+      },
+      {
+        "type": "metrics",
+        "tool": "Programme health",
+        "title": "Detect delivery risk early",
+        "detail": "Flow time / blocked work / forecast drift",
+        "variant": 9
+      },
+      {
+        "type": "risk",
+        "tool": "Release readiness",
+        "title": "Make the launch decision explicit",
+        "detail": "Owner / evidence / fallback / decision log",
+        "variant": 2
+      },
+      {
+        "type": "deploy",
+        "tool": "Operational handover",
+        "title": "Transfer a maintainable workflow",
+        "detail": "Runbook / support owner / change process",
+        "variant": 9
+      }
+    ],
+    "design": [
+      {
+        "type": "ae",
+        "tool": "After Effects",
+        "title": "Shape movement with the graph editor",
+        "detail": "Velocity curves / keyframe interpolation / timing",
+        "asset": "sculpture",
+        "variant": 3
+      },
+      {
+        "type": "ae",
+        "tool": "After Effects expressions",
+        "title": "Drive motion with a reusable controller",
+        "detail": "Slider control / time remap / responsive title",
+        "asset": "product",
+        "variant": 4
+      },
+      {
+        "type": "vfx",
+        "tool": "VFX compositing",
+        "title": "Rebuild the image in layers",
+        "detail": "Depth / matte / emission / color matching",
+        "asset": "gallery",
+        "variant": 3
+      },
+      {
+        "type": "c4d",
+        "tool": "Cinema 4D MoGraph",
+        "title": "Make variation procedural",
+        "detail": "Cloner / radial distribution / Fields falloff",
+        "asset": "sculpture",
+        "variant": 3
+      },
+      {
+        "type": "shader",
+        "tool": "Cinema 4D materials",
+        "title": "Design a controllable surface",
+        "detail": "Noise → ramp → roughness → layered material",
+        "asset": "product",
+        "variant": 3
+      },
+      {
+        "type": "higgsfield",
+        "tool": "Higgsfield",
+        "title": "Plan continuity across AI shots",
+        "detail": "Lens / camera direction / subject consistency",
+        "asset": "headphones",
+        "variant": 3
+      },
+      {
+        "type": "ae",
+        "tool": "After Effects",
+        "title": "Construct the campaign master template",
+        "detail": "Nested comps / expressions / essential controls",
+        "asset": "headphones",
+        "variant": 6
+      },
+      {
+        "type": "c4d",
+        "tool": "Cinema 4D",
+        "title": "Plan the 3D product stage",
+        "detail": "Camera / light rig / material variations",
+        "asset": "product",
+        "variant": 5
+      },
+      {
+        "type": "unity",
+        "tool": "Unity Shader Graph",
+        "title": "Expose a runtime visual parameter",
+        "detail": "Fresnel / emission / time / property binding",
+        "asset": "islands",
+        "variant": 3
+      },
+      {
+        "type": "unreal",
+        "tool": "Unreal Engine Niagara",
+        "title": "Build an event-driven particle effect",
+        "detail": "Emitter / spawn rate / vector field / lifetime",
+        "asset": "portal",
+        "variant": 3
+      },
+      {
+        "type": "code",
+        "tool": "Three.js + GLSL",
+        "title": "Move the visual system into the browser",
+        "detail": "Uniforms / pointer input / render loop",
+        "variant": 3
+      },
+      {
+        "type": "ae",
+        "tool": "After Effects render pipeline",
+        "title": "Prepare multi-format motion assets",
+        "detail": "Composition variants / alpha / delivery settings",
+        "asset": "sculpture",
+        "variant": 5
+      }
+    ],
+    "analytics": [
+      {
+        "type": "sheet",
+        "tool": "Excel Power Query",
+        "title": "Clean the source before analysis",
+        "detail": "Type inference / merge rules / missing values",
+        "variant": 10
+      },
+      {
+        "type": "schema",
+        "tool": "PostgreSQL",
+        "title": "Design the analytical data contract",
+        "detail": "Fact grain / keys / dimensional model",
+        "variant": 6
+      },
+      {
+        "type": "sql",
+        "tool": "SQL",
+        "title": "Build an incremental revenue model",
+        "detail": "Watermarks / joins / late-arriving records",
+        "variant": 6
+      },
+      {
+        "type": "code",
+        "tool": "Python + pandas",
+        "title": "Validate and transform the source",
+        "detail": "Nullable types / schema assertions / profiling",
+        "variant": 6
+      },
+      {
+        "type": "nodes",
+        "tool": "dbt + orchestration",
+        "title": "Trace lineage across models",
+        "detail": "Sources → staging → marts → metrics",
+        "labels": [
+          "Sources",
+          "Staging",
+          "Quality tests",
+          "Dimensions",
+          "Fact model",
+          "Metric API"
+        ],
+        "variant": 6
+      },
+      {
+        "type": "code",
+        "tool": "DAX",
+        "title": "Write a context-aware measure",
+        "detail": "CALCULATE / filter context / time intelligence",
+        "variant": 10
+      },
+      {
+        "type": "dashboard",
+        "tool": "Power BI",
+        "title": "Design a drillable executive view",
+        "detail": "KPIs / comparison / tooltip / drill-through",
+        "variant": 10
+      },
+      {
+        "type": "heatmap",
+        "tool": "Cohort analysis",
+        "title": "Separate retention from acquisition",
+        "detail": "Cohort month / tenure / denominator",
+        "variant": 10
+      },
+      {
+        "type": "notebook",
+        "tool": "Python forecasting",
+        "title": "Separate signal from seasonality",
+        "detail": "Baseline / rolling validation / residuals",
+        "variant": 8
+      },
+      {
+        "type": "map",
+        "tool": "GeoPandas",
+        "title": "Connect performance to geography",
+        "detail": "Spatial join / projection / aggregation",
+        "variant": 8
+      },
+      {
+        "type": "dashboard",
+        "tool": "Streamlit",
+        "title": "Build an interactive scenario model",
+        "detail": "Assumptions / sliders / forecast bands",
+        "variant": 8
+      },
+      {
+        "type": "slides",
+        "tool": "Decision storytelling",
+        "title": "Present a recommendation with evidence",
+        "detail": "Finding / caveat / action / follow-up",
+        "variant": 10
+      }
+    ],
+    "marketing": [
+      {
+        "type": "funnel",
+        "tool": "GA4 + events",
+        "title": "Define the acquisition measurement plan",
+        "detail": "Events / properties / consent / attribution",
+        "variant": 7
+      },
+      {
+        "type": "sql",
+        "tool": "SQL segmentation",
+        "title": "Build actionable customer segments",
+        "detail": "Recency / frequency / value / lifecycle",
+        "variant": 7
+      },
+      {
+        "type": "crm",
+        "tool": "CRM",
+        "title": "Model the sales lifecycle",
+        "detail": "Lead score / owner / next action / evidence",
+        "variant": 7
+      },
+      {
+        "type": "figma",
+        "tool": "Landing page design",
+        "title": "Design an experiment-ready offer",
+        "detail": "Message hierarchy / CTA / variant states",
+        "variant": 7
+      },
+      {
+        "type": "code",
+        "tool": "Next.js",
+        "title": "Implement a measurable landing page",
+        "detail": "Server rendering / forms / event contract",
+        "variant": 7
+      },
+      {
+        "type": "higgsfield",
+        "tool": "Higgsfield campaign shots",
+        "title": "Plan distinct creative variants",
+        "detail": "Product angle / motion / crop / continuity",
+        "asset": "headphones",
+        "variant": 7
+      },
+      {
+        "type": "ae",
+        "tool": "After Effects ad variants",
+        "title": "Build responsive campaign motion",
+        "detail": "Vertical / square / wide / type-safe area",
+        "asset": "product",
+        "variant": 7
+      },
+      {
+        "type": "nodes",
+        "tool": "n8n + CRM",
+        "title": "Connect acquisition to follow-up",
+        "detail": "Webhook → qualify → score → assign → nurture",
+        "labels": [
+          "Signup",
+          "Consent",
+          "Qualify",
+          "Lead score",
+          "CRM owner",
+          "Nurture"
+        ],
+        "variant": 7
+      },
+      {
+        "type": "metrics",
+        "tool": "Experiment design",
+        "title": "Read conversion with uncertainty",
+        "detail": "Control / treatment / lift / confidence",
+        "variant": 7
+      },
+      {
+        "type": "mail",
+        "tool": "Email journeys",
+        "title": "Personalize a lifecycle sequence",
+        "detail": "Trigger / segment / frequency / exit rule",
+        "variant": 7
+      },
+      {
+        "type": "tests",
+        "tool": "Analytics QA",
+        "title": "Verify events before a campaign",
+        "detail": "Duplicate events / UTM / form failure",
+        "variant": 7
+      },
+      {
+        "type": "deploy",
+        "tool": "Growth service delivery",
+        "title": "Release the full acquisition loop",
+        "detail": "Landing → CRM → experiment dashboard",
+        "variant": 7
+      }
+    ],
+    "development": [
+      {
+        "type": "architecture",
+        "tool": "System architecture",
+        "title": "One brief. Six connected disciplines.",
+        "detail": "Data contracts / event boundaries / human approvals",
+        "labels": [
+          "Brief",
+          "Workflow",
+          "Data",
+          "Creative",
+          "Services",
+          "Release"
+        ]
+      },
+      {
+        "type": "code",
+        "tool": "React + TypeScript",
+        "title": "Implement a stateful booking flow",
+        "detail": "Validation / accessible forms / optimistic update",
+        "variant": 2
+      },
+      {
+        "type": "code",
+        "tool": "FastAPI",
+        "title": "Expose a typed automation endpoint",
+        "detail": "Pydantic / idempotency / structured errors",
+        "variant": 4
+      },
+      {
+        "type": "schema",
+        "tool": "Supabase",
+        "title": "Model permissions with the product",
+        "detail": "Bookings / memberships / row-level policy",
+        "variant": 2
+      },
+      {
+        "type": "rag",
+        "tool": "RAG ingestion",
+        "title": "Create a traceable knowledge index",
+        "detail": "Parse / chunk / metadata / version",
+        "labels": [
+          "Documents",
+          "Parse",
+          "Chunk",
+          "Metadata",
+          "Embeddings",
+          "Index"
+        ],
+        "variant": 11
+      },
+      {
+        "type": "rag",
+        "tool": "Hybrid retrieval",
+        "title": "Retrieve evidence before responding",
+        "detail": "BM25 / vector / merge / reranking",
+        "labels": [
+          "Question",
+          "Keyword",
+          "Vector",
+          "RRF merge",
+          "Rerank",
+          "Citations"
+        ],
+        "variant": 12
+      },
+      {
+        "type": "nodes",
+        "tool": "n8n + tools",
+        "title": "Separate answers from actions",
+        "detail": "Intent → permission → tool → approval → log",
+        "labels": [
+          "Intent",
+          "Permission",
+          "Tool call",
+          "Human gate",
+          "Execute",
+          "Audit"
+        ],
+        "variant": 11
+      },
+      {
+        "type": "code",
+        "tool": "FastAPI + streaming",
+        "title": "Serve a responsive assistant",
+        "detail": "Streaming / cancellation / structured events",
+        "variant": 12
+      },
+      {
+        "type": "unity",
+        "tool": "Unity Shader Graph",
+        "title": "Expose a runtime visual parameter",
+        "detail": "Fresnel / emission / time / property binding",
+        "asset": "islands",
+        "variant": 3
+      },
+      {
+        "type": "unreal",
+        "tool": "Unreal Engine Niagara",
+        "title": "Build an event-driven particle effect",
+        "detail": "Emitter / spawn rate / vector field / lifetime",
+        "asset": "portal",
+        "variant": 3
+      },
+      {
+        "type": "code",
+        "tool": "Three.js + GLSL",
+        "title": "Move the visual system into the browser",
+        "detail": "Uniforms / pointer input / render loop",
+        "variant": 3
+      },
+      {
+        "type": "deploy",
+        "tool": "Cloudflare + GitHub",
+        "title": "Ship a versioned experience",
+        "detail": "Preview → checks → production → rollback",
+        "variant": 1
+      }
+    ]
+  },
+  "references": [
+    {
+      "tool": "After Effects",
+      "url": "https://helpx.adobe.com/after-effects/desktop/get-started/get-familiar-with-the-interface/workspaces-panels-viewers.html"
+    },
+    {
+      "tool": "Cinema 4D",
+      "url": "https://support.maxon.net/hc/en-us/articles/4406397183634-New-Layouts-Cinema-4D-R25-and-newer-Hot-Corners-Managers-and-New-Icon-Placement"
+    },
+    {
+      "tool": "Unreal Engine",
+      "url": "https://dev.epicgames.com/documentation/unreal-engine/tools-and-editors-in-unreal-engine?lang=en-US"
+    },
+    {
+      "tool": "Unity",
+      "url": "https://docs.unity3d.com/es/current/Manual/UsingTheInspector.html"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.250
+Python forecasting — Separate signal from seasonality
+
+2
+00:00:01.250 --> 00:00:02.500
+Time-series SQL — Create the training window safely
+
+3
+00:00:02.500 --> 00:00:03.750
+GeoPandas — Connect performance to geography
+
+4
+00:00:03.750 --> 00:00:05.000
+scikit-learn — Compare a model to the baseline
+
+5
+00:00:05.000 --> 00:00:06.250
+Streamlit — Build an interactive scenario model
+
+6
+00:00:06.250 --> 00:00:07.500
+Python simulation — Quantify operational uncertainty
+
+7
+00:00:07.500 --> 00:00:08.750
+PostGIS — Serve spatial features efficiently
+
+8
+00:00:08.750 --> 00:00:10.000
+MapLibre — Build a decision map
+
+9
+00:00:10.000 --> 00:00:11.250
+Model evaluation — Expose what the model gets wrong
+
+10
+00:00:11.250 --> 00:00:12.500
+Model tests — Guard against silent data leakage
+
+11
+00:00:12.500 --> 00:00:13.750
+Scheduled inference — Refresh predictions predictably
+
+12
+00:00:13.750 --> 00:00:15.000
+Decision application — Ship a forecast people can inspect

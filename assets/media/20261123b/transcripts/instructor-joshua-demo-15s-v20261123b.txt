@@ -1,0 +1,51 @@
+Joshua / Forecasting, geospatial analysis and decision apps
+
+Original animated workflow reconstructions and generated project concepts. Not recordings of live software sessions or verified student submissions. Tool names identify the illustrated workflows; no endorsement is implied.
+
+00:00:00.000 – 00:00:01.250 | 01 | Python forecasting
+Separate signal from seasonality
+Baseline / rolling validation / residuals
+
+00:00:01.250 – 00:00:02.500 | 02 | Time-series SQL
+Create the training window safely
+Time grain / gaps / leakage prevention
+
+00:00:02.500 – 00:00:03.750 | 03 | GeoPandas
+Connect performance to geography
+Spatial join / projection / aggregation
+
+00:00:03.750 – 00:00:05.000 | 04 | scikit-learn
+Compare a model to the baseline
+Backtesting / MAE / calibration
+
+00:00:05.000 – 00:00:06.250 | 05 | Streamlit
+Build an interactive scenario model
+Assumptions / sliders / forecast bands
+
+00:00:06.250 – 00:00:07.500 | 06 | Python simulation
+Quantify operational uncertainty
+Monte Carlo / constraints / sensitivities
+
+00:00:07.500 – 00:00:08.750 | 07 | PostGIS
+Serve spatial features efficiently
+Indexes / bounding boxes / simplification
+
+00:00:08.750 – 00:00:10.000 | 08 | MapLibre
+Build a decision map
+Layers / legends / hover / region filters
+
+00:00:10.000 – 00:00:11.250 | 09 | Model evaluation
+Expose what the model gets wrong
+Residual plots / segments / drift
+
+00:00:11.250 – 00:00:12.500 | 10 | Model tests
+Guard against silent data leakage
+Time splits / feature availability / bounds
+
+00:00:12.500 – 00:00:13.750 | 11 | Scheduled inference
+Refresh predictions predictably
+Batch windows / version pinning / recovery
+
+00:00:13.750 – 00:00:15.000 | 12 | Decision application
+Ship a forecast people can inspect
+Inputs / intervals / provenance / download

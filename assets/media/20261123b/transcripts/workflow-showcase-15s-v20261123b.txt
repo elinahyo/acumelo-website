@@ -1,0 +1,99 @@
+AI Workflow & Automation / 24 finished project concepts
+
+Original animated workflow reconstructions and generated project concepts. Not recordings of live software sessions or verified student submissions. Tool names identify the illustrated workflows; no endorsement is implied.
+
+00:00:00.000 – 00:00:00.625 | 01 | Finished output
+Monthly operations brief
+An automatically assembled management summary
+
+00:00:00.625 – 00:00:01.250 | 02 | Finished output
+Finance pulse
+Revenue, spend and cash position
+
+00:00:01.250 – 00:00:01.875 | 03 | Finished output
+A calm, organized inbox
+Priority messages with suggested next actions
+
+00:00:01.875 – 00:00:02.500 | 04 | Finished output
+The weekly briefing
+A finished executive slide deck
+
+00:00:02.500 – 00:00:03.125 | 05 | Finished output
+A week that fits
+Scheduling and capacity at a glance
+
+00:00:03.125 – 00:00:03.750 | 06 | Finished output
+Invoice ready
+A clean, generated customer document
+
+00:00:03.750 – 00:00:04.375 | 07 | Finished output
+Leave, without the paperwork
+A self-service request portal
+
+00:00:04.375 – 00:00:05.000 | 08 | Finished output
+Inventory watch
+Stock levels and reorder alerts
+
+00:00:05.000 – 00:00:05.625 | 09 | Finished output
+Supplier comparison
+A side-by-side purchasing report
+
+00:00:05.625 – 00:00:06.250 | 10 | Finished output
+Approval desk
+Requests grouped by decision stage
+
+00:00:06.250 – 00:00:06.875 | 11 | Finished output
+Sales in one story
+A finished data-led presentation
+
+00:00:06.875 – 00:00:07.500 | 12 | Finished output
+The team knowledge desk
+A searchable internal help experience
+
+00:00:07.500 – 00:00:08.125 | 13 | Finished output
+Team availability
+A shared planning calendar
+
+00:00:08.125 – 00:00:08.750 | 14 | Finished output
+Customer meeting notes
+Decisions, actions and owners
+
+00:00:08.750 – 00:00:09.375 | 15 | Finished output
+Project spend monitor
+Budget and actuals in one view
+
+00:00:09.375 – 00:00:10.000 | 16 | Finished output
+Travel request
+A simple end-to-end request interface
+
+00:00:10.000 – 00:00:10.625 | 17 | Finished output
+A helpful follow-up
+A personalized, reviewable email draft
+
+00:00:10.625 – 00:00:11.250 | 18 | Finished output
+Purchase order
+A generated purchasing document
+
+00:00:11.250 – 00:00:11.875 | 19 | Finished output
+Onboarding checklist
+A clear path from offer to first day
+
+00:00:11.875 – 00:00:12.500 | 20 | Finished output
+Expense summary
+Receipts organized into a readable report
+
+00:00:12.500 – 00:00:13.125 | 21 | Finished output
+Service queue
+Requests, response times and trends
+
+00:00:13.125 – 00:00:13.750 | 22 | Finished output
+Quarterly review
+A concise leadership-ready deck
+
+00:00:13.750 – 00:00:14.375 | 23 | Finished output
+Delivery schedule
+Milestones and responsible teams
+
+00:00:14.375 – 00:00:15.000 | 24 | Finished output
+Operations home
+One front door for everyday work

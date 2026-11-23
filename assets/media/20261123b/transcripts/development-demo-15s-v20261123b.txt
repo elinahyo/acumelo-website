@@ -1,0 +1,51 @@
+AI Service Development / Frameworks in practice
+
+Original animated workflow reconstructions and generated project concepts. Not recordings of live software sessions or verified student submissions. Tool names identify the illustrated workflows; no endorsement is implied.
+
+00:00:00.000 – 00:00:01.250 | 01 | System architecture
+One brief. Six connected disciplines.
+Data contracts / event boundaries / human approvals
+
+00:00:01.250 – 00:00:02.500 | 02 | React + TypeScript
+Implement a stateful booking flow
+Validation / accessible forms / optimistic update
+
+00:00:02.500 – 00:00:03.750 | 03 | FastAPI
+Expose a typed automation endpoint
+Pydantic / idempotency / structured errors
+
+00:00:03.750 – 00:00:05.000 | 04 | Supabase
+Model permissions with the product
+Bookings / memberships / row-level policy
+
+00:00:05.000 – 00:00:06.250 | 05 | RAG ingestion
+Create a traceable knowledge index
+Parse / chunk / metadata / version
+
+00:00:06.250 – 00:00:07.500 | 06 | Hybrid retrieval
+Retrieve evidence before responding
+BM25 / vector / merge / reranking
+
+00:00:07.500 – 00:00:08.750 | 07 | n8n + tools
+Separate answers from actions
+Intent → permission → tool → approval → log
+
+00:00:08.750 – 00:00:10.000 | 08 | FastAPI + streaming
+Serve a responsive assistant
+Streaming / cancellation / structured events
+
+00:00:10.000 – 00:00:11.250 | 09 | Unity Shader Graph
+Expose a runtime visual parameter
+Fresnel / emission / time / property binding
+
+00:00:11.250 – 00:00:12.500 | 10 | Unreal Engine Niagara
+Build an event-driven particle effect
+Emitter / spawn rate / vector field / lifetime
+
+00:00:12.500 – 00:00:13.750 | 11 | Three.js + GLSL
+Move the visual system into the browser
+Uniforms / pointer input / render loop
+
+00:00:13.750 – 00:00:15.000 | 12 | Cloudflare + GitHub
+Ship a versioned experience
+Preview → checks → production → rollback

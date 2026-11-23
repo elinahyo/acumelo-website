@@ -1,0 +1,49 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.250
+System architecture — One brief. Six connected disciplines.
+
+2
+00:00:01.250 --> 00:00:02.500
+React + TypeScript — Implement a stateful booking flow
+
+3
+00:00:02.500 --> 00:00:03.750
+FastAPI — Expose a typed automation endpoint
+
+4
+00:00:03.750 --> 00:00:05.000
+Supabase — Model permissions with the product
+
+5
+00:00:05.000 --> 00:00:06.250
+RAG ingestion — Create a traceable knowledge index
+
+6
+00:00:06.250 --> 00:00:07.500
+Hybrid retrieval — Retrieve evidence before responding
+
+7
+00:00:07.500 --> 00:00:08.750
+n8n + tools — Separate answers from actions
+
+8
+00:00:08.750 --> 00:00:10.000
+FastAPI + streaming — Serve a responsive assistant
+
+9
+00:00:10.000 --> 00:00:11.250
+Unity Shader Graph — Expose a runtime visual parameter
+
+10
+00:00:11.250 --> 00:00:12.500
+Unreal Engine Niagara — Build an event-driven particle effect
+
+11
+00:00:12.500 --> 00:00:13.750
+Three.js + GLSL — Move the visual system into the browser
+
+12
+00:00:13.750 --> 00:00:15.000
+Cloudflare + GitHub — Ship a versioned experience

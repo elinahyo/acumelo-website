@@ -1,0 +1,8 @@
+node_modules/
+logs/
+vendor/
+native/unity-project/Library/
+native/unity-project/Logs/
+native/unity-project/Temp/
+native/unity-project/build.log
+*.blend1

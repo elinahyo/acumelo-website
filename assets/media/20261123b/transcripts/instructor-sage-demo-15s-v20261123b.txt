@@ -1,0 +1,51 @@
+Sage / From product hypothesis to usable service
+
+Original animated workflow reconstructions and generated project concepts. Not recordings of live software sessions or verified student submissions. Tool names identify the illustrated workflows; no endorsement is implied.
+
+00:00:00.000 – 00:00:01.250 | 01 | Figma
+Build a reusable interface language
+Variables / components / responsive constraints
+
+00:00:01.250 – 00:00:02.500 | 02 | Product strategy
+Map the hypothesis to a measurable outcome
+Problem statement / experiment / decision rule
+
+00:00:02.500 – 00:00:03.750 | 03 | Discovery research
+Synthesize the evidence
+Interview themes / opportunity scores / assumptions
+
+00:00:03.750 – 00:00:05.000 | 04 | Jira + delivery planning
+Convert ideas into testable stories
+Acceptance criteria / dependencies / capacity
+
+00:00:05.000 – 00:00:06.250 | 05 | Figma prototypes
+Define the interaction states
+Empty / loading / success / error
+
+00:00:06.250 – 00:00:07.500 | 06 | React + TypeScript
+Implement a stateful booking flow
+Validation / accessible forms / optimistic update
+
+00:00:07.500 – 00:00:08.750 | 07 | Supabase
+Model permissions with the product
+Bookings / memberships / row-level policy
+
+00:00:08.750 – 00:00:10.000 | 08 | Motion design
+Prototype a meaningful transition
+Hierarchy / feedback / reduced motion
+
+00:00:10.000 – 00:00:11.250 | 09 | Playwright
+Verify the critical journey
+Keyboard / mobile / error recovery
+
+00:00:11.250 – 00:00:12.500 | 10 | Product analytics
+Instrument the activation path
+Events / cohorts / conversion definitions
+
+00:00:12.500 – 00:00:13.750 | 11 | Release readiness
+Make the launch decision explicit
+Owner / evidence / fallback / decision log
+
+00:00:13.750 – 00:00:15.000 | 12 | GitHub + Cloudflare
+Release a usable product slice
+Staging review / asset budget / release notes

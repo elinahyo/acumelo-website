@@ -1,4 +1,3 @@
-/* Bilingual programmes and independently identified instructors. */
 window.ACUMELO = {
   "assets": {
     "hero": {
@@ -27,8 +26,8 @@ window.ACUMELO = {
       "id": "instructor-chris",
       "image": "assets/instructors/avatar-01-20261114-final-v5.webp",
       "name": {
-        "ko": "Chris",
-        "en": "Chris"
+        "en": "Chris",
+        "ko": "Chris"
       },
       "role": {
         "ko": "",
@@ -55,14 +54,78 @@ window.ACUMELO = {
         "analytics",
         "marketing",
         "development"
-      ]
+      ],
+      "media": {
+        "demo": {
+          "id": "instructor-chris-demo",
+          "kind": "demo",
+          "status": "ready",
+          "scope": "instructor",
+          "fieldIds": [
+            "workflow",
+            "strategy",
+            "design",
+            "analytics",
+            "marketing",
+            "development"
+          ],
+          "illustrative": true,
+          "title": {
+            "en": "Chris / The connected AI production stack",
+            "ko": "Chris · AI 제작 시스템 통합 설계"
+          },
+          "description": {
+            "en": "The connected AI production stack",
+            "ko": "AI 제작 시스템 통합 설계"
+          },
+          "src": "assets/media/20261123b/instructor-chris-demo-15s-v20261123b.mp4",
+          "poster": "assets/media/20261123b/posters/instructor-chris-demo-15s-v20261123b.jpg",
+          "durationSeconds": 15,
+          "frameworks": [
+            "System architecture",
+            "n8n",
+            "Excel + Office Scripts",
+            "PostgreSQL + Python",
+            "RAG + vector search",
+            "After Effects",
+            "Cinema 4D",
+            "Unity",
+            "Unreal Engine",
+            "Higgsfield",
+            "CI + evaluation",
+            "Cloudflare + GitHub"
+          ],
+          "transcript": {
+            "en": "1. One brief. Six connected disciplines.\nData contracts / event boundaries / human approvals\n\n2. Build the automation control plane\nWebhook validation → deduplication → approval → retries\n\n3. Turn operations data into decisions\nTyped tables / anomaly flags / report generation\n\n4. Design a reliable analytical layer\nIncremental models / tests / cohort aggregation\n\n5. Trace retrieval before generating\nChunking → hybrid retrieval → reranking → citations\n\n6. Bind motion to data\nExpressions / keyframe easing / precompositions\n\n7. Make a procedural visual system\nCloner / Fields / material controls / render passes\n\n8. Connect an interactive experience\nComponents / events / runtime data binding\n\n9. Stage a cinematic interaction\nBlueprint / Niagara / Sequencer\n\n10. Direct a controlled AI shot sequence\nShot plan / reference continuity / camera intent\n\n11. Test the whole pipeline\nContract tests / retrieval evaluation / quality gates\n\n12. Ship a versioned experience\nPreview → checks → production → rollback",
+            "ko": "AI 제작 시스템 통합 설계\n\n1. One brief. Six connected disciplines.\nData contracts / event boundaries / human approvals\n\n2. Build the automation control plane\nWebhook validation → deduplication → approval → retries\n\n3. Turn operations data into decisions\nTyped tables / anomaly flags / report generation\n\n4. Design a reliable analytical layer\nIncremental models / tests / cohort aggregation\n\n5. Trace retrieval before generating\nChunking → hybrid retrieval → reranking → citations\n\n6. Bind motion to data\nExpressions / keyframe easing / precompositions\n\n7. Make a procedural visual system\nCloner / Fields / material controls / render passes\n\n8. Connect an interactive experience\nComponents / events / runtime data binding\n\n9. Stage a cinematic interaction\nBlueprint / Niagara / Sequencer\n\n10. Direct a controlled AI shot sequence\nShot plan / reference continuity / camera intent\n\n11. Test the whole pipeline\nContract tests / retrieval evaluation / quality gates\n\n12. Ship a versioned experience\nPreview → checks → production → rollback"
+          },
+          "transcriptSrc": "assets/media/20261123b/transcripts/instructor-chris-demo-15s-v20261123b.txt",
+          "captions": [
+            {
+              "src": "assets/media/20261123b/captions/instructor-chris-demo-15s-v20261123b.vtt",
+              "srclang": "en",
+              "label": "English"
+            }
+          ],
+          "instructorId": "instructor-chris"
+        },
+        "lecture": {
+          "id": "instructor-chris-lecture",
+          "kind": "lecture",
+          "instructorId": "instructor-chris",
+          "status": "pending",
+          "src": "",
+          "poster": "",
+          "captions": []
+        }
+      }
     },
     {
       "id": "instructor-sage",
       "image": "assets/instructors/avatar-02.png",
       "name": {
-        "ko": "Sage",
-        "en": "Sage"
+        "en": "Sage",
+        "ko": "Sage"
       },
       "role": {
         "ko": "",
@@ -85,14 +148,75 @@ window.ACUMELO = {
         "strategy",
         "design",
         "development"
-      ]
+      ],
+      "media": {
+        "demo": {
+          "id": "instructor-sage-demo",
+          "kind": "demo",
+          "status": "ready",
+          "scope": "instructor",
+          "fieldIds": [
+            "strategy",
+            "design",
+            "development"
+          ],
+          "illustrative": true,
+          "title": {
+            "en": "Sage / From product hypothesis to usable service",
+            "ko": "Sage · 제품 가설에서 UX·서비스 구현까지"
+          },
+          "description": {
+            "en": "From product hypothesis to usable service",
+            "ko": "제품 가설에서 UX·서비스 구현까지"
+          },
+          "src": "assets/media/20261123b/instructor-sage-demo-15s-v20261123b.mp4",
+          "poster": "assets/media/20261123b/posters/instructor-sage-demo-15s-v20261123b.jpg",
+          "durationSeconds": 15,
+          "frameworks": [
+            "Figma",
+            "Product strategy",
+            "Discovery research",
+            "Jira + delivery planning",
+            "Figma prototypes",
+            "React + TypeScript",
+            "Supabase",
+            "Motion design",
+            "Playwright",
+            "Product analytics",
+            "Release readiness",
+            "GitHub + Cloudflare"
+          ],
+          "transcript": {
+            "en": "1. Build a reusable interface language\nVariables / components / responsive constraints\n\n2. Map the hypothesis to a measurable outcome\nProblem statement / experiment / decision rule\n\n3. Synthesize the evidence\nInterview themes / opportunity scores / assumptions\n\n4. Convert ideas into testable stories\nAcceptance criteria / dependencies / capacity\n\n5. Define the interaction states\nEmpty / loading / success / error\n\n6. Implement a stateful booking flow\nValidation / accessible forms / optimistic update\n\n7. Model permissions with the product\nBookings / memberships / row-level policy\n\n8. Prototype a meaningful transition\nHierarchy / feedback / reduced motion\n\n9. Verify the critical journey\nKeyboard / mobile / error recovery\n\n10. Instrument the activation path\nEvents / cohorts / conversion definitions\n\n11. Make the launch decision explicit\nOwner / evidence / fallback / decision log\n\n12. Release a usable product slice\nStaging review / asset budget / release notes",
+            "ko": "제품 가설에서 UX·서비스 구현까지\n\n1. Build a reusable interface language\nVariables / components / responsive constraints\n\n2. Map the hypothesis to a measurable outcome\nProblem statement / experiment / decision rule\n\n3. Synthesize the evidence\nInterview themes / opportunity scores / assumptions\n\n4. Convert ideas into testable stories\nAcceptance criteria / dependencies / capacity\n\n5. Define the interaction states\nEmpty / loading / success / error\n\n6. Implement a stateful booking flow\nValidation / accessible forms / optimistic update\n\n7. Model permissions with the product\nBookings / memberships / row-level policy\n\n8. Prototype a meaningful transition\nHierarchy / feedback / reduced motion\n\n9. Verify the critical journey\nKeyboard / mobile / error recovery\n\n10. Instrument the activation path\nEvents / cohorts / conversion definitions\n\n11. Make the launch decision explicit\nOwner / evidence / fallback / decision log\n\n12. Release a usable product slice\nStaging review / asset budget / release notes"
+          },
+          "transcriptSrc": "assets/media/20261123b/transcripts/instructor-sage-demo-15s-v20261123b.txt",
+          "captions": [
+            {
+              "src": "assets/media/20261123b/captions/instructor-sage-demo-15s-v20261123b.vtt",
+              "srclang": "en",
+              "label": "English"
+            }
+          ],
+          "instructorId": "instructor-sage"
+        },
+        "lecture": {
+          "id": "instructor-sage-lecture",
+          "kind": "lecture",
+          "instructorId": "instructor-sage",
+          "status": "pending",
+          "src": "",
+          "poster": "",
+          "captions": []
+        }
+      }
     },
     {
       "id": "instructor-03",
       "image": "assets/instructors/avatar-03.png",
       "name": {
-        "ko": "",
-        "en": ""
+        "en": "Pillow",
+        "ko": "Pillow"
       },
       "role": {
         "ko": "",
@@ -111,14 +235,77 @@ window.ACUMELO = {
       "legacyIds": [
         "instructor-design"
       ],
-      "teachingFieldIds": []
+      "teachingFieldIds": [
+        "design",
+        "development"
+      ],
+      "media": {
+        "demo": {
+          "id": "instructor-03-demo",
+          "kind": "demo",
+          "status": "ready",
+          "scope": "instructor",
+          "fieldIds": [
+            "design",
+            "development"
+          ],
+          "illustrative": true,
+          "title": {
+            "en": "Pillow / Motion, 3D and interactive creative systems",
+            "ko": "Pillow · 모션·3D·인터랙티브 제작"
+          },
+          "description": {
+            "en": "Motion, 3D and interactive creative systems",
+            "ko": "모션·3D·인터랙티브 제작"
+          },
+          "src": "assets/media/20261123b/instructor-pillow-demo-15s-v20261123b.mp4",
+          "poster": "assets/media/20261123b/posters/instructor-pillow-demo-15s-v20261123b.jpg",
+          "durationSeconds": 15,
+          "frameworks": [
+            "After Effects",
+            "After Effects expressions",
+            "VFX compositing",
+            "Cinema 4D MoGraph",
+            "Cinema 4D materials",
+            "Higgsfield",
+            "Unity Shader Graph",
+            "Unreal Engine Niagara",
+            "Three.js + GLSL",
+            "After Effects render pipeline",
+            "WebGL performance",
+            "Interactive portfolio"
+          ],
+          "transcript": {
+            "en": "1. Shape movement with the graph editor\nVelocity curves / keyframe interpolation / timing\n\n2. Drive motion with a reusable controller\nSlider control / time remap / responsive title\n\n3. Rebuild the image in layers\nDepth / matte / emission / color matching\n\n4. Make variation procedural\nCloner / radial distribution / Fields falloff\n\n5. Design a controllable surface\nNoise → ramp → roughness → layered material\n\n6. Plan continuity across AI shots\nLens / camera direction / subject consistency\n\n7. Expose a runtime visual parameter\nFresnel / emission / time / property binding\n\n8. Build an event-driven particle effect\nEmitter / spawn rate / vector field / lifetime\n\n9. Move the visual system into the browser\nUniforms / pointer input / render loop\n\n10. Prepare multi-format motion assets\nComposition variants / alpha / delivery settings\n\n11. Profile the interactive piece\nDraw calls / frame budget / texture sizing\n\n12. Publish a responsive creative experience\nPreview / touch interaction / asset loading",
+            "ko": "모션·3D·인터랙티브 제작\n\n1. Shape movement with the graph editor\nVelocity curves / keyframe interpolation / timing\n\n2. Drive motion with a reusable controller\nSlider control / time remap / responsive title\n\n3. Rebuild the image in layers\nDepth / matte / emission / color matching\n\n4. Make variation procedural\nCloner / radial distribution / Fields falloff\n\n5. Design a controllable surface\nNoise → ramp → roughness → layered material\n\n6. Plan continuity across AI shots\nLens / camera direction / subject consistency\n\n7. Expose a runtime visual parameter\nFresnel / emission / time / property binding\n\n8. Build an event-driven particle effect\nEmitter / spawn rate / vector field / lifetime\n\n9. Move the visual system into the browser\nUniforms / pointer input / render loop\n\n10. Prepare multi-format motion assets\nComposition variants / alpha / delivery settings\n\n11. Profile the interactive piece\nDraw calls / frame budget / texture sizing\n\n12. Publish a responsive creative experience\nPreview / touch interaction / asset loading"
+          },
+          "transcriptSrc": "assets/media/20261123b/transcripts/instructor-pillow-demo-15s-v20261123b.txt",
+          "captions": [
+            {
+              "src": "assets/media/20261123b/captions/instructor-pillow-demo-15s-v20261123b.vtt",
+              "srclang": "en",
+              "label": "English"
+            }
+          ],
+          "instructorId": "instructor-03"
+        },
+        "lecture": {
+          "id": "instructor-03-lecture",
+          "kind": "lecture",
+          "instructorId": "instructor-03",
+          "status": "pending",
+          "src": "",
+          "poster": "",
+          "captions": []
+        }
+      }
     },
     {
       "id": "instructor-04",
       "image": "assets/instructors/avatar-04-20261114-final-v3.webp",
       "name": {
-        "ko": "",
-        "en": ""
+        "en": "John",
+        "ko": "John"
       },
       "role": {
         "ko": "",
@@ -137,14 +324,77 @@ window.ACUMELO = {
       "legacyIds": [
         "instructor-analytics"
       ],
-      "teachingFieldIds": []
+      "teachingFieldIds": [
+        "workflow",
+        "development"
+      ],
+      "media": {
+        "demo": {
+          "id": "instructor-04-demo",
+          "kind": "demo",
+          "status": "ready",
+          "scope": "instructor",
+          "fieldIds": [
+            "workflow",
+            "development"
+          ],
+          "illustrative": true,
+          "title": {
+            "en": "John / Reliable office automation and service integration",
+            "ko": "John · 사무 시스템 자동화와 서비스 연동"
+          },
+          "description": {
+            "en": "Reliable office automation and service integration",
+            "ko": "사무 시스템 자동화와 서비스 연동"
+          },
+          "src": "assets/media/20261123b/instructor-john-demo-15s-v20261123b.mp4",
+          "poster": "assets/media/20261123b/posters/instructor-john-demo-15s-v20261123b.jpg",
+          "durationSeconds": 15,
+          "frameworks": [
+            "Excel Power Query",
+            "Office Scripts",
+            "PowerPoint",
+            "Outlook + email rules",
+            "n8n",
+            "FastAPI",
+            "PostgreSQL",
+            "Queues + workers",
+            "n8n sub-workflows",
+            "Integration tests",
+            "Operations telemetry",
+            "Docker + CI"
+          ],
+          "transcript": {
+            "en": "1. Normalize messy operational exports\nUnpivot / type rules / duplicate keys\n\n2. Generate a repeatable report\nNamed tables / formulas / workbook validation\n\n3. Produce a data-linked executive deck\nTemplate slots / charts / speaker notes\n\n4. Route messages with confidence\nClassify / redact / approval / draft\n\n5. Connect Excel, email and reporting\nSchedule → transform → report → approval → send\n\n6. Expose a typed automation endpoint\nPydantic / idempotency / structured errors\n\n7. Persist workflow state safely\nJobs / attempts / payload versions\n\n8. Handle retries without duplicates\nBackoff / dead letters / correlation ID\n\n9. Separate reusable steps\nCredential scopes / input contracts / error path\n\n10. Test failure paths deliberately\nTimeout / malformed row / missing approval\n\n11. Trace one job across services\nLatency / run history / failure reasons\n\n12. Deliver the automation safely\nEnvironment config / health checks / rollback",
+            "ko": "사무 시스템 자동화와 서비스 연동\n\n1. Normalize messy operational exports\nUnpivot / type rules / duplicate keys\n\n2. Generate a repeatable report\nNamed tables / formulas / workbook validation\n\n3. Produce a data-linked executive deck\nTemplate slots / charts / speaker notes\n\n4. Route messages with confidence\nClassify / redact / approval / draft\n\n5. Connect Excel, email and reporting\nSchedule → transform → report → approval → send\n\n6. Expose a typed automation endpoint\nPydantic / idempotency / structured errors\n\n7. Persist workflow state safely\nJobs / attempts / payload versions\n\n8. Handle retries without duplicates\nBackoff / dead letters / correlation ID\n\n9. Separate reusable steps\nCredential scopes / input contracts / error path\n\n10. Test failure paths deliberately\nTimeout / malformed row / missing approval\n\n11. Trace one job across services\nLatency / run history / failure reasons\n\n12. Deliver the automation safely\nEnvironment config / health checks / rollback"
+          },
+          "transcriptSrc": "assets/media/20261123b/transcripts/instructor-john-demo-15s-v20261123b.txt",
+          "captions": [
+            {
+              "src": "assets/media/20261123b/captions/instructor-john-demo-15s-v20261123b.vtt",
+              "srclang": "en",
+              "label": "English"
+            }
+          ],
+          "instructorId": "instructor-04"
+        },
+        "lecture": {
+          "id": "instructor-04-lecture",
+          "kind": "lecture",
+          "instructorId": "instructor-04",
+          "status": "pending",
+          "src": "",
+          "poster": "",
+          "captions": []
+        }
+      }
     },
     {
       "id": "instructor-05",
       "image": "assets/instructors/avatar-05-20261114-final.webp",
       "name": {
-        "ko": "",
-        "en": ""
+        "en": "Sarah",
+        "ko": "Sarah"
       },
       "role": {
         "ko": "",
@@ -163,14 +413,77 @@ window.ACUMELO = {
       "legacyIds": [
         "instructor-marketing"
       ],
-      "teachingFieldIds": []
+      "teachingFieldIds": [
+        "strategy",
+        "design"
+      ],
+      "media": {
+        "demo": {
+          "id": "instructor-05-demo",
+          "kind": "demo",
+          "status": "ready",
+          "scope": "instructor",
+          "fieldIds": [
+            "strategy",
+            "design"
+          ],
+          "illustrative": true,
+          "title": {
+            "en": "Sarah / Creative production planning and campaign systems",
+            "ko": "Sarah · 크리에이티브 제작·캠페인 기획"
+          },
+          "description": {
+            "en": "Creative production planning and campaign systems",
+            "ko": "크리에이티브 제작·캠페인 기획"
+          },
+          "src": "assets/media/20261123b/instructor-sarah-demo-15s-v20261123b.mp4",
+          "poster": "assets/media/20261123b/posters/instructor-sarah-demo-15s-v20261123b.jpg",
+          "durationSeconds": 15,
+          "frameworks": [
+            "Creative strategy",
+            "Production planning",
+            "Figma",
+            "Higgsfield shot planning",
+            "After Effects",
+            "Cinema 4D",
+            "VFX review",
+            "Notion + production board",
+            "Project management",
+            "Campaign presentation",
+            "Creative testing",
+            "Asset delivery"
+          ],
+          "transcript": {
+            "en": "1. Turn a brief into a production system\nAudience / message / formats / evidence\n\n2. Plan dependencies before production\nStoryboard → 3D → compositing → QA\n\n3. Build a campaign design kit\nType scale / format variants / asset library\n\n4. Direct a coherent campaign sequence\nReference board / camera language / shot IDs\n\n5. Construct the campaign master template\nNested comps / expressions / essential controls\n\n6. Plan the 3D product stage\nCamera / light rig / material variations\n\n7. Review the composite by pass\nMatte edges / light continuity / final grade\n\n8. Route creative reviews\nOwner / version / comments / approval\n\n9. Manage changes without losing scope\nImpact / budget / contingency / sign-off\n\n10. Present the rationale and delivery plan\nStory / variations / channels / metrics\n\n11. Compare assets by a defined signal\nMessage variants / sample size / decision rule\n\n12. Package the final campaign\nNaming / dimensions / caption file / archive",
+            "ko": "크리에이티브 제작·캠페인 기획\n\n1. Turn a brief into a production system\nAudience / message / formats / evidence\n\n2. Plan dependencies before production\nStoryboard → 3D → compositing → QA\n\n3. Build a campaign design kit\nType scale / format variants / asset library\n\n4. Direct a coherent campaign sequence\nReference board / camera language / shot IDs\n\n5. Construct the campaign master template\nNested comps / expressions / essential controls\n\n6. Plan the 3D product stage\nCamera / light rig / material variations\n\n7. Review the composite by pass\nMatte edges / light continuity / final grade\n\n8. Route creative reviews\nOwner / version / comments / approval\n\n9. Manage changes without losing scope\nImpact / budget / contingency / sign-off\n\n10. Present the rationale and delivery plan\nStory / variations / channels / metrics\n\n11. Compare assets by a defined signal\nMessage variants / sample size / decision rule\n\n12. Package the final campaign\nNaming / dimensions / caption file / archive"
+          },
+          "transcriptSrc": "assets/media/20261123b/transcripts/instructor-sarah-demo-15s-v20261123b.txt",
+          "captions": [
+            {
+              "src": "assets/media/20261123b/captions/instructor-sarah-demo-15s-v20261123b.vtt",
+              "srclang": "en",
+              "label": "English"
+            }
+          ],
+          "instructorId": "instructor-05"
+        },
+        "lecture": {
+          "id": "instructor-05-lecture",
+          "kind": "lecture",
+          "instructorId": "instructor-05",
+          "status": "pending",
+          "src": "",
+          "poster": "",
+          "captions": []
+        }
+      }
     },
     {
       "id": "instructor-06",
       "image": "assets/instructors/avatar-06-20261114-final.webp",
       "name": {
-        "ko": "",
-        "en": ""
+        "en": "Joseph",
+        "ko": "Joseph"
       },
       "role": {
         "ko": "",
@@ -189,8 +502,71 @@ window.ACUMELO = {
       "legacyIds": [
         "instructor-development"
       ],
-      "teachingFieldIds": [],
-      "imageMirrored": true
+      "teachingFieldIds": [
+        "analytics",
+        "development"
+      ],
+      "imageMirrored": true,
+      "media": {
+        "demo": {
+          "id": "instructor-06-demo",
+          "kind": "demo",
+          "status": "ready",
+          "scope": "instructor",
+          "fieldIds": [
+            "analytics",
+            "development"
+          ],
+          "illustrative": true,
+          "title": {
+            "en": "Joseph / Data contracts, pipelines and analytical APIs",
+            "ko": "Joseph · 데이터 계약·파이프라인·분석 API"
+          },
+          "description": {
+            "en": "Data contracts, pipelines and analytical APIs",
+            "ko": "데이터 계약·파이프라인·분석 API"
+          },
+          "src": "assets/media/20261123b/instructor-joseph-demo-15s-v20261123b.mp4",
+          "poster": "assets/media/20261123b/posters/instructor-joseph-demo-15s-v20261123b.jpg",
+          "durationSeconds": 15,
+          "frameworks": [
+            "PostgreSQL",
+            "SQL",
+            "Python + pandas",
+            "dbt + orchestration",
+            "Data quality",
+            "Jupyter",
+            "FastAPI",
+            "Plotly + Dash",
+            "Data tests",
+            "Pipeline monitoring",
+            "Query performance",
+            "Data service deployment"
+          ],
+          "transcript": {
+            "en": "1. Design the analytical data contract\nFact grain / keys / dimensional model\n\n2. Build an incremental revenue model\nWatermarks / joins / late-arriving records\n\n3. Validate and transform the source\nNullable types / schema assertions / profiling\n\n4. Trace lineage across models\nSources → staging → marts → metrics\n\n5. Locate anomalies before reporting\nNull rates / outliers / reconciliation\n\n6. Explain the analytical assumptions\nCohorts / confidence / validation windows\n\n7. Serve the model through a typed API\nFilters / pagination / cache / response schema\n\n8. Build a linked analytical interface\nCross-filter / drill-down / uncertainty\n\n9. Check the invariants on every run\nUniqueness / freshness / referential integrity\n\n10. Recover failed data partitions\nCheckpoint / replay / alert routing\n\n11. Measure cost before scaling\nQuery plan / scan size / materialization\n\n12. Ship a versioned analytical service\nSchema migration / checks / observability",
+            "ko": "데이터 계약·파이프라인·분석 API\n\n1. Design the analytical data contract\nFact grain / keys / dimensional model\n\n2. Build an incremental revenue model\nWatermarks / joins / late-arriving records\n\n3. Validate and transform the source\nNullable types / schema assertions / profiling\n\n4. Trace lineage across models\nSources → staging → marts → metrics\n\n5. Locate anomalies before reporting\nNull rates / outliers / reconciliation\n\n6. Explain the analytical assumptions\nCohorts / confidence / validation windows\n\n7. Serve the model through a typed API\nFilters / pagination / cache / response schema\n\n8. Build a linked analytical interface\nCross-filter / drill-down / uncertainty\n\n9. Check the invariants on every run\nUniqueness / freshness / referential integrity\n\n10. Recover failed data partitions\nCheckpoint / replay / alert routing\n\n11. Measure cost before scaling\nQuery plan / scan size / materialization\n\n12. Ship a versioned analytical service\nSchema migration / checks / observability"
+          },
+          "transcriptSrc": "assets/media/20261123b/transcripts/instructor-joseph-demo-15s-v20261123b.txt",
+          "captions": [
+            {
+              "src": "assets/media/20261123b/captions/instructor-joseph-demo-15s-v20261123b.vtt",
+              "srclang": "en",
+              "label": "English"
+            }
+          ],
+          "instructorId": "instructor-06"
+        },
+        "lecture": {
+          "id": "instructor-06-lecture",
+          "kind": "lecture",
+          "instructorId": "instructor-06",
+          "status": "pending",
+          "src": "",
+          "poster": "",
+          "captions": []
+        }
+      }
     },
     {
       "id": "instructor-07",
@@ -199,8 +575,8 @@ window.ACUMELO = {
       "imagePresentation": "cutout",
       "visualTone": "rose",
       "name": {
-        "ko": "",
-        "en": ""
+        "en": "Rachel",
+        "ko": "Rachel"
       },
       "role": {
         "ko": "",
@@ -214,9 +590,72 @@ window.ACUMELO = {
         "ko": "",
         "en": ""
       },
-      "teachingFieldIds": [],
+      "teachingFieldIds": [
+        "marketing",
+        "development"
+      ],
       "portfolio": [],
-      "imageMirrored": false
+      "imageMirrored": false,
+      "media": {
+        "demo": {
+          "id": "instructor-07-demo",
+          "kind": "demo",
+          "status": "ready",
+          "scope": "instructor",
+          "fieldIds": [
+            "marketing",
+            "development"
+          ],
+          "illustrative": true,
+          "title": {
+            "en": "Rachel / Growth experiments and customer-facing services",
+            "ko": "Rachel · 마케팅 실험과 고객 서비스"
+          },
+          "description": {
+            "en": "Growth experiments and customer-facing services",
+            "ko": "마케팅 실험과 고객 서비스"
+          },
+          "src": "assets/media/20261123b/instructor-rachel-demo-15s-v20261123b.mp4",
+          "poster": "assets/media/20261123b/posters/instructor-rachel-demo-15s-v20261123b.jpg",
+          "durationSeconds": 15,
+          "frameworks": [
+            "GA4 + events",
+            "SQL segmentation",
+            "CRM",
+            "Landing page design",
+            "Next.js",
+            "Higgsfield campaign shots",
+            "After Effects ad variants",
+            "n8n + CRM",
+            "Experiment design",
+            "Email journeys",
+            "Analytics QA",
+            "Growth service delivery"
+          ],
+          "transcript": {
+            "en": "1. Define the acquisition measurement plan\nEvents / properties / consent / attribution\n\n2. Build actionable customer segments\nRecency / frequency / value / lifecycle\n\n3. Model the sales lifecycle\nLead score / owner / next action / evidence\n\n4. Design an experiment-ready offer\nMessage hierarchy / CTA / variant states\n\n5. Implement a measurable landing page\nServer rendering / forms / event contract\n\n6. Plan distinct creative variants\nProduct angle / motion / crop / continuity\n\n7. Build responsive campaign motion\nVertical / square / wide / type-safe area\n\n8. Connect acquisition to follow-up\nWebhook → qualify → score → assign → nurture\n\n9. Read conversion with uncertainty\nControl / treatment / lift / confidence\n\n10. Personalize a lifecycle sequence\nTrigger / segment / frequency / exit rule\n\n11. Verify events before a campaign\nDuplicate events / UTM / form failure\n\n12. Release the full acquisition loop\nLanding → CRM → experiment dashboard",
+            "ko": "마케팅 실험과 고객 서비스\n\n1. Define the acquisition measurement plan\nEvents / properties / consent / attribution\n\n2. Build actionable customer segments\nRecency / frequency / value / lifecycle\n\n3. Model the sales lifecycle\nLead score / owner / next action / evidence\n\n4. Design an experiment-ready offer\nMessage hierarchy / CTA / variant states\n\n5. Implement a measurable landing page\nServer rendering / forms / event contract\n\n6. Plan distinct creative variants\nProduct angle / motion / crop / continuity\n\n7. Build responsive campaign motion\nVertical / square / wide / type-safe area\n\n8. Connect acquisition to follow-up\nWebhook → qualify → score → assign → nurture\n\n9. Read conversion with uncertainty\nControl / treatment / lift / confidence\n\n10. Personalize a lifecycle sequence\nTrigger / segment / frequency / exit rule\n\n11. Verify events before a campaign\nDuplicate events / UTM / form failure\n\n12. Release the full acquisition loop\nLanding → CRM → experiment dashboard"
+          },
+          "transcriptSrc": "assets/media/20261123b/transcripts/instructor-rachel-demo-15s-v20261123b.txt",
+          "captions": [
+            {
+              "src": "assets/media/20261123b/captions/instructor-rachel-demo-15s-v20261123b.vtt",
+              "srclang": "en",
+              "label": "English"
+            }
+          ],
+          "instructorId": "instructor-07"
+        },
+        "lecture": {
+          "id": "instructor-07-lecture",
+          "kind": "lecture",
+          "instructorId": "instructor-07",
+          "status": "pending",
+          "src": "",
+          "poster": "",
+          "captions": []
+        }
+      }
     },
     {
       "id": "instructor-08",
@@ -225,8 +664,8 @@ window.ACUMELO = {
       "imagePresentation": "cutout",
       "visualTone": "slate",
       "name": {
-        "ko": "",
-        "en": ""
+        "en": "Joshua",
+        "ko": "Joshua"
       },
       "role": {
         "ko": "",
@@ -240,9 +679,72 @@ window.ACUMELO = {
         "ko": "",
         "en": ""
       },
-      "teachingFieldIds": [],
+      "teachingFieldIds": [
+        "analytics",
+        "development"
+      ],
       "portfolio": [],
-      "imageMirrored": false
+      "imageMirrored": false,
+      "media": {
+        "demo": {
+          "id": "instructor-08-demo",
+          "kind": "demo",
+          "status": "ready",
+          "scope": "instructor",
+          "fieldIds": [
+            "analytics",
+            "development"
+          ],
+          "illustrative": true,
+          "title": {
+            "en": "Joshua / Forecasting, geospatial analysis and decision apps",
+            "ko": "Joshua · 예측·공간 분석과 의사결정 앱"
+          },
+          "description": {
+            "en": "Forecasting, geospatial analysis and decision apps",
+            "ko": "예측·공간 분석과 의사결정 앱"
+          },
+          "src": "assets/media/20261123b/instructor-joshua-demo-15s-v20261123b.mp4",
+          "poster": "assets/media/20261123b/posters/instructor-joshua-demo-15s-v20261123b.jpg",
+          "durationSeconds": 15,
+          "frameworks": [
+            "Python forecasting",
+            "Time-series SQL",
+            "GeoPandas",
+            "scikit-learn",
+            "Streamlit",
+            "Python simulation",
+            "PostGIS",
+            "MapLibre",
+            "Model evaluation",
+            "Model tests",
+            "Scheduled inference",
+            "Decision application"
+          ],
+          "transcript": {
+            "en": "1. Separate signal from seasonality\nBaseline / rolling validation / residuals\n\n2. Create the training window safely\nTime grain / gaps / leakage prevention\n\n3. Connect performance to geography\nSpatial join / projection / aggregation\n\n4. Compare a model to the baseline\nBacktesting / MAE / calibration\n\n5. Build an interactive scenario model\nAssumptions / sliders / forecast bands\n\n6. Quantify operational uncertainty\nMonte Carlo / constraints / sensitivities\n\n7. Serve spatial features efficiently\nIndexes / bounding boxes / simplification\n\n8. Build a decision map\nLayers / legends / hover / region filters\n\n9. Expose what the model gets wrong\nResidual plots / segments / drift\n\n10. Guard against silent data leakage\nTime splits / feature availability / bounds\n\n11. Refresh predictions predictably\nBatch windows / version pinning / recovery\n\n12. Ship a forecast people can inspect\nInputs / intervals / provenance / download",
+            "ko": "예측·공간 분석과 의사결정 앱\n\n1. Separate signal from seasonality\nBaseline / rolling validation / residuals\n\n2. Create the training window safely\nTime grain / gaps / leakage prevention\n\n3. Connect performance to geography\nSpatial join / projection / aggregation\n\n4. Compare a model to the baseline\nBacktesting / MAE / calibration\n\n5. Build an interactive scenario model\nAssumptions / sliders / forecast bands\n\n6. Quantify operational uncertainty\nMonte Carlo / constraints / sensitivities\n\n7. Serve spatial features efficiently\nIndexes / bounding boxes / simplification\n\n8. Build a decision map\nLayers / legends / hover / region filters\n\n9. Expose what the model gets wrong\nResidual plots / segments / drift\n\n10. Guard against silent data leakage\nTime splits / feature availability / bounds\n\n11. Refresh predictions predictably\nBatch windows / version pinning / recovery\n\n12. Ship a forecast people can inspect\nInputs / intervals / provenance / download"
+          },
+          "transcriptSrc": "assets/media/20261123b/transcripts/instructor-joshua-demo-15s-v20261123b.txt",
+          "captions": [
+            {
+              "src": "assets/media/20261123b/captions/instructor-joshua-demo-15s-v20261123b.vtt",
+              "srclang": "en",
+              "label": "English"
+            }
+          ],
+          "instructorId": "instructor-08"
+        },
+        "lecture": {
+          "id": "instructor-08-lecture",
+          "kind": "lecture",
+          "instructorId": "instructor-08",
+          "status": "pending",
+          "src": "",
+          "poster": "",
+          "captions": []
+        }
+      }
     },
     {
       "id": "instructor-09",
@@ -251,8 +753,8 @@ window.ACUMELO = {
       "imagePresentation": "cutout",
       "visualTone": "mint",
       "name": {
-        "ko": "",
-        "en": ""
+        "en": "Elizabeth",
+        "ko": "Elizabeth"
       },
       "role": {
         "ko": "",
@@ -266,9 +768,72 @@ window.ACUMELO = {
         "ko": "",
         "en": ""
       },
-      "teachingFieldIds": [],
+      "teachingFieldIds": [
+        "workflow",
+        "strategy"
+      ],
       "portfolio": [],
-      "imageMirrored": false
+      "imageMirrored": false,
+      "media": {
+        "demo": {
+          "id": "instructor-09-demo",
+          "kind": "demo",
+          "status": "ready",
+          "scope": "instructor",
+          "fieldIds": [
+            "workflow",
+            "strategy"
+          ],
+          "illustrative": true,
+          "title": {
+            "en": "Elizabeth / Governed workflows and programme delivery",
+            "ko": "Elizabeth · 운영 거버넌스와 프로젝트 실행"
+          },
+          "description": {
+            "en": "Governed workflows and programme delivery",
+            "ko": "운영 거버넌스와 프로젝트 실행"
+          },
+          "src": "assets/media/20261123b/instructor-elizabeth-demo-15s-v20261123b.mp4",
+          "poster": "assets/media/20261123b/posters/instructor-elizabeth-demo-15s-v20261123b.jpg",
+          "durationSeconds": 15,
+          "frameworks": [
+            "Programme planning",
+            "Risk register",
+            "Excel + planning models",
+            "Jira + Notion",
+            "n8n approval workflows",
+            "Email operations",
+            "PowerPoint reporting",
+            "Governance design",
+            "Programme health",
+            "Escalation automation",
+            "Control validation",
+            "Operational handover"
+          ],
+          "transcript": {
+            "en": "1. Connect outcomes to milestones\nBenefits / owners / dependencies / gates\n\n2. Make operational risks actionable\nLikelihood / impact / mitigation / owner\n\n3. Build a capacity and budget model\nWorkload / allocation / forecast / variance\n\n4. Build an evidence-based delivery board\nDependencies / blockers / review criteria\n\n5. Automate the human decision points\nRequest → policy → owner → approve → audit\n\n6. Convert requests into tracked work\nIntent / routing / SLA / escalation\n\n7. Produce a decision-ready steering pack\nProgress / risk / spend / decision needed\n\n8. Define accountability across the system\nRoles / access / escalation / evidence\n\n9. Detect delivery risk early\nFlow time / blocked work / forecast drift\n\n10. Handle exceptions explicitly\nTimeout / fallback owner / audit events\n\n11. Check policy enforcement\nAccess / approval / retention / recovery\n\n12. Transfer a maintainable workflow\nRunbook / support owner / change process",
+            "ko": "운영 거버넌스와 프로젝트 실행\n\n1. Connect outcomes to milestones\nBenefits / owners / dependencies / gates\n\n2. Make operational risks actionable\nLikelihood / impact / mitigation / owner\n\n3. Build a capacity and budget model\nWorkload / allocation / forecast / variance\n\n4. Build an evidence-based delivery board\nDependencies / blockers / review criteria\n\n5. Automate the human decision points\nRequest → policy → owner → approve → audit\n\n6. Convert requests into tracked work\nIntent / routing / SLA / escalation\n\n7. Produce a decision-ready steering pack\nProgress / risk / spend / decision needed\n\n8. Define accountability across the system\nRoles / access / escalation / evidence\n\n9. Detect delivery risk early\nFlow time / blocked work / forecast drift\n\n10. Handle exceptions explicitly\nTimeout / fallback owner / audit events\n\n11. Check policy enforcement\nAccess / approval / retention / recovery\n\n12. Transfer a maintainable workflow\nRunbook / support owner / change process"
+          },
+          "transcriptSrc": "assets/media/20261123b/transcripts/instructor-elizabeth-demo-15s-v20261123b.txt",
+          "captions": [
+            {
+              "src": "assets/media/20261123b/captions/instructor-elizabeth-demo-15s-v20261123b.vtt",
+              "srclang": "en",
+              "label": "English"
+            }
+          ],
+          "instructorId": "instructor-09"
+        },
+        "lecture": {
+          "id": "instructor-09-lecture",
+          "kind": "lecture",
+          "instructorId": "instructor-09",
+          "status": "pending",
+          "src": "",
+          "poster": "",
+          "captions": []
+        }
+      }
     },
     {
       "id": "instructor-10",
@@ -277,8 +842,8 @@ window.ACUMELO = {
       "imagePresentation": "cutout",
       "visualTone": "sand",
       "name": {
-        "ko": "",
-        "en": ""
+        "en": "Michael",
+        "ko": "Michael"
       },
       "role": {
         "ko": "",
@@ -292,9 +857,70 @@ window.ACUMELO = {
         "ko": "",
         "en": ""
       },
-      "teachingFieldIds": [],
+      "teachingFieldIds": [
+        "analytics"
+      ],
       "portfolio": [],
-      "imageMirrored": true
+      "imageMirrored": true,
+      "media": {
+        "demo": {
+          "id": "instructor-10-demo",
+          "kind": "demo",
+          "status": "ready",
+          "scope": "instructor",
+          "fieldIds": [
+            "analytics"
+          ],
+          "illustrative": true,
+          "title": {
+            "en": "Michael / Business intelligence and evidence-led decisions",
+            "ko": "Michael · BI 대시보드와 의사결정"
+          },
+          "description": {
+            "en": "Business intelligence and evidence-led decisions",
+            "ko": "BI 대시보드와 의사결정"
+          },
+          "src": "assets/media/20261123b/instructor-michael-demo-15s-v20261123b.mp4",
+          "poster": "assets/media/20261123b/posters/instructor-michael-demo-15s-v20261123b.jpg",
+          "durationSeconds": 15,
+          "frameworks": [
+            "Power BI",
+            "SQL analytics",
+            "Power BI data model",
+            "DAX",
+            "Excel Power Query",
+            "Python statistics",
+            "Cohort analysis",
+            "Location analysis",
+            "Forecast review",
+            "Analytical QA",
+            "Decision storytelling",
+            "Published analytics"
+          ],
+          "transcript": {
+            "en": "1. Design a drillable executive view\nKPIs / comparison / tooltip / drill-through\n\n2. Define metrics at the correct grain\nJoins / windows / period comparisons\n\n3. Build a clear semantic model\nStar schema / relationships / date table\n\n4. Write a context-aware measure\nCALCULATE / filter context / time intelligence\n\n5. Clean the source before analysis\nType inference / merge rules / missing values\n\n6. Explain the uncertainty in a result\nBootstrap / distributions / interval estimates\n\n7. Separate retention from acquisition\nCohort month / tenure / denominator\n\n8. Compare regions on equal terms\nNormalization / exposure / region filters\n\n9. Compare plan with observed outcomes\nVariance / seasonality / sensitivity\n\n10. Reconcile the report to its source\nTotals / missing groups / freshness\n\n11. Present a recommendation with evidence\nFinding / caveat / action / follow-up\n\n12. Deliver a readable decision surface\nPermissions / refresh / mobile view",
+            "ko": "BI 대시보드와 의사결정\n\n1. Design a drillable executive view\nKPIs / comparison / tooltip / drill-through\n\n2. Define metrics at the correct grain\nJoins / windows / period comparisons\n\n3. Build a clear semantic model\nStar schema / relationships / date table\n\n4. Write a context-aware measure\nCALCULATE / filter context / time intelligence\n\n5. Clean the source before analysis\nType inference / merge rules / missing values\n\n6. Explain the uncertainty in a result\nBootstrap / distributions / interval estimates\n\n7. Separate retention from acquisition\nCohort month / tenure / denominator\n\n8. Compare regions on equal terms\nNormalization / exposure / region filters\n\n9. Compare plan with observed outcomes\nVariance / seasonality / sensitivity\n\n10. Reconcile the report to its source\nTotals / missing groups / freshness\n\n11. Present a recommendation with evidence\nFinding / caveat / action / follow-up\n\n12. Deliver a readable decision surface\nPermissions / refresh / mobile view"
+          },
+          "transcriptSrc": "assets/media/20261123b/transcripts/instructor-michael-demo-15s-v20261123b.txt",
+          "captions": [
+            {
+              "src": "assets/media/20261123b/captions/instructor-michael-demo-15s-v20261123b.vtt",
+              "srclang": "en",
+              "label": "English"
+            }
+          ],
+          "instructorId": "instructor-10"
+        },
+        "lecture": {
+          "id": "instructor-10-lecture",
+          "kind": "lecture",
+          "instructorId": "instructor-10",
+          "status": "pending",
+          "src": "",
+          "poster": "",
+          "captions": []
+        }
+      }
     },
     {
       "id": "instructor-11",
@@ -303,8 +929,8 @@ window.ACUMELO = {
       "imagePresentation": "cutout",
       "visualTone": "lilac",
       "name": {
-        "ko": "",
-        "en": ""
+        "en": "Rebecca",
+        "ko": "Rebecca"
       },
       "role": {
         "ko": "",
@@ -318,9 +944,72 @@ window.ACUMELO = {
         "ko": "",
         "en": ""
       },
-      "teachingFieldIds": [],
+      "teachingFieldIds": [
+        "workflow",
+        "development"
+      ],
       "portfolio": [],
-      "imageMirrored": false
+      "imageMirrored": false,
+      "media": {
+        "demo": {
+          "id": "instructor-11-demo",
+          "kind": "demo",
+          "status": "ready",
+          "scope": "instructor",
+          "fieldIds": [
+            "workflow",
+            "development"
+          ],
+          "illustrative": true,
+          "title": {
+            "en": "Rebecca / Knowledge assistants and service operations",
+            "ko": "Rebecca · 지식 서비스와 RAG"
+          },
+          "description": {
+            "en": "Knowledge assistants and service operations",
+            "ko": "지식 서비스와 RAG"
+          },
+          "src": "assets/media/20261123b/instructor-rebecca-demo-15s-v20261123b.mp4",
+          "poster": "assets/media/20261123b/posters/instructor-rebecca-demo-15s-v20261123b.jpg",
+          "durationSeconds": 15,
+          "frameworks": [
+            "RAG ingestion",
+            "Service architecture",
+            "Python document pipeline",
+            "Hybrid retrieval",
+            "n8n + tools",
+            "Service inbox automation",
+            "FastAPI + streaming",
+            "Supabase + access policy",
+            "RAG evaluation",
+            "Assistant observability",
+            "Service recovery",
+            "Knowledge service release"
+          ],
+          "transcript": {
+            "en": "1. Create a traceable knowledge index\nParse / chunk / metadata / version\n\n2. Design an assistant with boundaries\nKnowledge / tools / permissions / audit\n\n3. Preserve source structure\nHeadings / tables / provenance / checksum\n\n4. Retrieve evidence before responding\nBM25 / vector / merge / reranking\n\n5. Separate answers from actions\nIntent → permission → tool → approval → log\n\n6. Route and draft with source evidence\nClassification / retrieval / draft / review\n\n7. Serve a responsive assistant\nStreaming / cancellation / structured events\n\n8. Scope knowledge to the right audience\nTenant / role / document policy\n\n9. Test groundedness and abstention\nGolden set / citation recall / failure modes\n\n10. Inspect the full response trace\nRetrieval / latency / cost / feedback\n\n11. Handle slow or unavailable tools\nTimeout / retry budget / human fallback\n\n12. Publish a reviewable assistant\nVersioned prompts / policy / rollback",
+            "ko": "지식 서비스와 RAG\n\n1. Create a traceable knowledge index\nParse / chunk / metadata / version\n\n2. Design an assistant with boundaries\nKnowledge / tools / permissions / audit\n\n3. Preserve source structure\nHeadings / tables / provenance / checksum\n\n4. Retrieve evidence before responding\nBM25 / vector / merge / reranking\n\n5. Separate answers from actions\nIntent → permission → tool → approval → log\n\n6. Route and draft with source evidence\nClassification / retrieval / draft / review\n\n7. Serve a responsive assistant\nStreaming / cancellation / structured events\n\n8. Scope knowledge to the right audience\nTenant / role / document policy\n\n9. Test groundedness and abstention\nGolden set / citation recall / failure modes\n\n10. Inspect the full response trace\nRetrieval / latency / cost / feedback\n\n11. Handle slow or unavailable tools\nTimeout / retry budget / human fallback\n\n12. Publish a reviewable assistant\nVersioned prompts / policy / rollback"
+          },
+          "transcriptSrc": "assets/media/20261123b/transcripts/instructor-rebecca-demo-15s-v20261123b.txt",
+          "captions": [
+            {
+              "src": "assets/media/20261123b/captions/instructor-rebecca-demo-15s-v20261123b.vtt",
+              "srclang": "en",
+              "label": "English"
+            }
+          ],
+          "instructorId": "instructor-11"
+        },
+        "lecture": {
+          "id": "instructor-11-lecture",
+          "kind": "lecture",
+          "instructorId": "instructor-11",
+          "status": "pending",
+          "src": "",
+          "poster": "",
+          "captions": []
+        }
+      }
     }
   ],
   "copy": {
@@ -725,8 +1414,8 @@ window.ACUMELO = {
       "profilePortfolioNote": "강의 장면과 시연, 프로젝트 결과물을 이곳에 소개합니다.",
       "mediaPending": "준비 중",
       "mediaLecture": "강의 영상",
-      "mediaDemo": "도구·프레임워크 타임랩스",
-      "mediaProject": "결과물 예시 24선",
+      "mediaDemo": "심화 시연",
+      "mediaProject": "완성 결과물 예시",
       "mediaIntro": "인트로 영상",
       "mediaOpen": "영상 보기",
       "projectOpen": "프로젝트 보기",
@@ -745,17 +1434,24 @@ window.ACUMELO = {
       "teachingFieldsPending": "강의분야 준비 중",
       "profileCoursesPending": "연결된 교육과정을 준비하고 있습니다.",
       "mediaFieldLabel": "관련 분야",
-      "mediaDemoExample": "교육용 시연 예시",
-      "mediaProjectExample": "결과물 콘셉트",
-      "mediaExampleNotice": "코드로 만든 UI 시연·결과물 예시로, 실제 앱 녹화나 실제 수강생·고객의 작업실적이 아닙니다.",
+      "mediaDemoExample": "UI 재구성",
+      "mediaProjectExample": "예시 프로젝트",
+      "mediaExampleNotice": "UI를 재구성한 시연과 완성 결과물 예시입니다. 실제 앱 녹화나 실제 수강생 실적이 아닙니다.",
       "mediaLibraryTitle": "시연·결과물 예시 라이브러리",
       "mediaLibraryExplore": "공통 시연 라이브러리 보기",
-      "mediaLibraryIntro": "6개 AI 분야를 15초 도구 몽타주와 분야별 결과물 콘셉트 24개로 살펴보세요. 코드로 만든 UI 예시이며 실제 앱 녹화나 실제 수강생·고객의 작업실적이 아닙니다. 강사 등장 강의영상은 별도로 추가합니다.",
+      "mediaLibraryIntro": "6개 AI 분야의 심화 시연과 분야별 완성 결과물 콘셉트 24개를 살펴보세요. UI 재구성·예시 프로젝트이며 실제 수강생 실적이 아닙니다.",
       "profileSharedMediaNote": "확정된 담당 교육분야의 공통 UI 예시입니다. 코드로 제작했으며 실제 앱 녹화·강사 개인 실적·실제 수강생 성과를 뜻하지 않습니다.",
       "mediaTranscript": "영상 내용 설명 읽기",
       "mediaVideoFallback": "이 브라우저는 영상을 재생할 수 없습니다. 아래 내용 설명을 확인해 주세요.",
       "mediaLoadError": "영상을 불러오지 못했습니다. 잠시 후 다시 시도하거나 아래 내용 설명을 확인해 주세요.",
-      "mediaFullTranscript": "전체 장면 설명 읽기 (영어)"
+      "mediaFullTranscript": "전체 장면 설명 읽기 (영어)",
+      "profileOwnDemo": "이 강사의 시연",
+      "profileOwnDemoNote": "구현 과정을 학습할 수 있도록 재구성한 교육용 시연입니다.",
+      "profileOwnDemoPending": "이 강사를 위한 고유 심화 시연을 준비하고 있습니다.",
+      "profileFieldProjects": "분야별 결과물 예시",
+      "profileFieldProjectsNote": "담당 분야의 완성 결과물 콘셉트입니다. 실제 수강생·고객의 실적이 아닌 예시 프로젝트입니다.",
+      "profileTeachingFilmNote": "실제 강사가 출연하는 강의영상은 별도로 추가합니다.",
+      "mediaGallery": "영상 23편 전체·장면별 보기"
     },
     "en": {
       "title": "Acumelo — AI learning. Human possibility.",
@@ -1158,8 +1854,8 @@ window.ACUMELO = {
       "profilePortfolioNote": "Teaching clips, demonstrations and project work will be shared here.",
       "mediaPending": "Coming soon",
       "mediaLecture": "Teaching film",
-      "mediaDemo": "Tools & frameworks montage",
-      "mediaProject": "24 project examples",
+      "mediaDemo": "In-depth demonstration",
+      "mediaProject": "Finished project examples",
       "mediaIntro": "Intro film",
       "mediaOpen": "Open media",
       "projectOpen": "View project",
@@ -1178,17 +1874,24 @@ window.ACUMELO = {
       "teachingFieldsPending": "Teaching fields to be announced",
       "profileCoursesPending": "Associated programmes will be announced.",
       "mediaFieldLabel": "Related fields",
-      "mediaDemoExample": "Illustrative demo",
-      "mediaProjectExample": "Project concepts",
-      "mediaExampleNotice": "Code-animated UI examples, not recordings of live apps or actual student/client work.",
+      "mediaDemoExample": "UI reconstruction",
+      "mediaProjectExample": "Illustrative project",
+      "mediaExampleNotice": "Reconstructed workflows and illustrative finished projects, not live app recordings or actual student results.",
       "mediaLibraryTitle": "Example library",
       "mediaLibraryExplore": "Explore the example library",
-      "mediaLibraryIntro": "Explore six AI fields through 15-second tools montages and 24 project concepts per field. These code-animated UI examples are not recordings of live apps or actual student/client work. Teaching films will be added separately.",
+      "mediaLibraryIntro": "Explore six AI fields through in-depth demonstrations and 24 finished project concepts per field. These are UI reconstructions and illustrative projects, not actual student results.",
       "profileSharedMediaNote": "Shared code-animated examples for confirmed teaching fields. They are not live app recordings, personal instructor work or actual student results.",
       "mediaTranscript": "Read the video description",
       "mediaVideoFallback": "Your browser cannot play this video. Read the description below.",
       "mediaLoadError": "This video could not be loaded. Please try again later or read the description below.",
-      "mediaFullTranscript": "Full scene transcript (English)"
+      "mediaFullTranscript": "Full scene transcript (English)",
+      "profileOwnDemo": "This instructor’s demo",
+      "profileOwnDemoNote": "An illustrative walkthrough of the build process, reconstructed for learning.",
+      "profileOwnDemoPending": "A dedicated in-depth demo is being prepared for this instructor.",
+      "profileFieldProjects": "Project examples by field",
+      "profileFieldProjectsNote": "Finished project concepts for these teaching fields. These are illustrative examples, not actual student or client results.",
+      "profileTeachingFilmNote": "A teaching film featuring the instructor will be added separately.",
+      "mediaGallery": "Explore all 23 films & chapters"
     }
   },
   "courseMedia": {
@@ -1202,37 +1905,46 @@ window.ACUMELO = {
       },
       "demo": {
         "id": "workflow-demo-15s",
-        "src": "assets/media/20261123/workflow-demo-15s-v20261123.mp4",
-        "poster": "assets/media/20261123/posters/workflow-demo-15s-v20261123.jpg",
-        "url": "",
+        "kind": "demo",
+        "status": "ready",
+        "scope": "category",
+        "fieldIds": [
+          "workflow"
+        ],
         "illustrative": true,
-        "durationSeconds": 15,
-        "description": {
-          "en": "Spreadsheets → slides → email → connected automation.",
-          "ko": "스프레드시트 → 발표자료 → 이메일 → 자동화 연결."
+        "title": {
+          "en": "AI Workflow & Automation / Frameworks in practice",
+          "ko": "데이터 정리·보고서·이메일·승인 자동화"
         },
+        "description": {
+          "en": "Excel Power Query → Office Scripts → PowerPoint → Outlook + email rules.",
+          "ko": "데이터 정리·보고서·이메일·승인 자동화"
+        },
+        "src": "assets/media/20261123b/workflow-demo-15s-v20261123b.mp4",
+        "poster": "assets/media/20261123b/posters/workflow-demo-15s-v20261123b.jpg",
+        "durationSeconds": 15,
         "frameworks": [
-          "Microsoft Excel",
-          "Google Sheets",
-          "Python / pandas",
+          "Excel Power Query",
+          "Office Scripts",
           "PowerPoint",
-          "Outlook",
-          "Google Calendar",
+          "Outlook + email rules",
           "n8n",
-          "Make",
-          "Slack",
-          "Notion",
-          "Power Automate",
-          "Apps Script"
+          "n8n approval workflows",
+          "Service inbox automation",
+          "FastAPI",
+          "Queues + workers",
+          "Escalation automation",
+          "Operations telemetry",
+          "Operational handover"
         ],
         "transcript": {
-          "en": "1. Source workbook — Microsoft Excel\nInspect duplicate requests\n\n2. Clean data view — Google Sheets\nNormalize source fields\n\n3. Validation notebook — Python / pandas\nFlag missing values\n\n4. Weekly briefing — PowerPoint\nBuild a report deck\n\n5. Follow-up drafts — Outlook\nDraft recipient-specific replies\n\n6. Team schedule — Google Calendar\nCheck availability\n\n7. Automation canvas — n8n\nConnect trigger and actions\n\n8. Exception route — Make\nHandle failed delivery\n\n9. Approval channel — Slack\nRequest owner sign-off\n\n10. Action board — Notion\nAssign approved tasks\n\n11. Execution monitor — Power Automate\nInspect the run log\n\n12. Delivery report — Apps Script\nPublish an audit summary",
-          "ko": "스프레드시트 → 발표자료 → 이메일 → 자동화 연결.\n\n영상에는 아래 도구와 단계가 등장합니다. 자세한 장면 설명과 자막은 영어로 제공됩니다.\nMicrosoft Excel · Google Sheets · Python / pandas · PowerPoint · Outlook · Google Calendar · n8n · Make · Slack · Notion · Power Automate · Apps Script"
+          "en": "1. Normalize messy operational exports\nUnpivot / type rules / duplicate keys\n\n2. Generate a repeatable report\nNamed tables / formulas / workbook validation\n\n3. Produce a data-linked executive deck\nTemplate slots / charts / speaker notes\n\n4. Route messages with confidence\nClassify / redact / approval / draft\n\n5. Connect Excel, email and reporting\nSchedule → transform → report → approval → send\n\n6. Automate the human decision points\nRequest → policy → owner → approve → audit\n\n7. Route and draft with source evidence\nClassification / retrieval / draft / review\n\n8. Expose a typed automation endpoint\nPydantic / idempotency / structured errors\n\n9. Handle retries without duplicates\nBackoff / dead letters / correlation ID\n\n10. Handle exceptions explicitly\nTimeout / fallback owner / audit events\n\n11. Trace one job across services\nLatency / run history / failure reasons\n\n12. Transfer a maintainable workflow\nRunbook / support owner / change process",
+          "ko": "데이터 정리·보고서·이메일·승인 자동화\n\n1. Normalize messy operational exports\nUnpivot / type rules / duplicate keys\n\n2. Generate a repeatable report\nNamed tables / formulas / workbook validation\n\n3. Produce a data-linked executive deck\nTemplate slots / charts / speaker notes\n\n4. Route messages with confidence\nClassify / redact / approval / draft\n\n5. Connect Excel, email and reporting\nSchedule → transform → report → approval → send\n\n6. Automate the human decision points\nRequest → policy → owner → approve → audit\n\n7. Route and draft with source evidence\nClassification / retrieval / draft / review\n\n8. Expose a typed automation endpoint\nPydantic / idempotency / structured errors\n\n9. Handle retries without duplicates\nBackoff / dead letters / correlation ID\n\n10. Handle exceptions explicitly\nTimeout / fallback owner / audit events\n\n11. Trace one job across services\nLatency / run history / failure reasons\n\n12. Transfer a maintainable workflow\nRunbook / support owner / change process"
         },
-        "transcriptSrc": "assets/media/20261123/workflow-demo-15s-v20261123.txt",
+        "transcriptSrc": "assets/media/20261123b/transcripts/workflow-demo-15s-v20261123b.txt",
         "captions": [
           {
-            "src": "assets/media/20261123/workflow-demo-15s-v20261123.vtt",
+            "src": "assets/media/20261123b/captions/workflow-demo-15s-v20261123b.vtt",
             "srclang": "en",
             "label": "English"
           }
@@ -1240,42 +1952,38 @@ window.ACUMELO = {
       },
       "project": {
         "id": "workflow-showcase-15s",
-        "src": "assets/media/20261123/workflow-showcase-15s-v20261123.mp4",
-        "poster": "assets/media/20261123/posters/workflow-showcase-15s-v20261123.jpg",
-        "url": "",
-        "illustrative": true,
-        "exampleCount": 24,
-        "durationSeconds": 15,
-        "description": {
-          "en": "24 concepts, from invoice intake and expense approvals to meeting actions and lead routing.",
-          "ko": "청구서 접수·경비 승인·회의 후속 조치·리드 분류 등 24개 콘셉트."
-        },
-        "frameworks": [
-          "Microsoft Excel",
-          "Google Sheets",
-          "Python / pandas",
-          "PowerPoint",
-          "Outlook",
-          "Google Calendar",
-          "n8n",
-          "Make",
-          "Slack",
-          "Notion",
-          "Power Automate",
-          "Apps Script"
+        "kind": "project",
+        "status": "ready",
+        "scope": "category",
+        "fieldIds": [
+          "workflow"
         ],
-        "transcript": {
-          "en": "1. Invoice intake — undefined\nExtract, validate, route\n\n2. Expense approvals — undefined\nReceipts to reviewer queues\n\n3. Meeting action planner — undefined\nNotes become scheduled tasks\n\n4. Lead routing desk — undefined\nMatch enquiries to owners\n\n5. Policy answer assistant — undefined\nAnswers linked to source files\n\n6. Weekly executive digest — undefined\nSix teams, one concise briefing\n\n7. Capacity scheduler — undefined\nBalance meetings and focus time\n\n8. New starter journey — undefined\nA coordinated first week\n\n9. Support triage inbox — undefined\nDrafts sorted by intent\n\n10. Renewal watchlist — undefined\nSee contracts nearing renewal\n\n11. Stock alert workbook — undefined\nTrack reorder thresholds\n\n12. Monthly operations brief — undefined\nTurn tables into talking points\n\n13. Leave approval calendar — undefined\nResolve coverage conflicts\n\n14. Purchase order checker — undefined\nMatch orders and line items\n\n15. Shipment exception desk — undefined\nHighlight delayed deliveries\n\n16. Workshop enrolment hub — undefined\nForms to confirmed places\n\n17. Vendor review pack — undefined\nEvidence and approval notes\n\n18. Survey theme collector — undefined\nGroup responses by topic\n\n19. Compliance task board — undefined\nOwners and evidence links\n\n20. Document filing pipeline — undefined\nClassify, rename, archive\n\n21. Event follow-up studio — undefined\nPersonalized draft sequences\n\n22. Shift coverage planner — undefined\nFill staffing gaps\n\n23. Knowledge publishing kit — undefined\nTurn approved notes into guides\n\n24. Field request assistant — undefined\nCapture requests on the move",
-          "ko": "청구서 접수·경비 승인·회의 후속 조치·리드 분류 등 24개 콘셉트.\n\n영상에는 아래 도구와 단계가 등장합니다. 자세한 장면 설명과 자막은 영어로 제공됩니다.\nMicrosoft Excel · Google Sheets · Python / pandas · PowerPoint · Outlook · Google Calendar · n8n · Make · Slack · Notion · Power Automate · Apps Script"
+        "illustrative": true,
+        "title": {
+          "en": "AI Workflow & Automation / 24 finished project concepts",
+          "ko": "완성 결과물 예시 24선"
         },
-        "transcriptSrc": "assets/media/20261123/workflow-showcase-15s-v20261123.txt",
+        "description": {
+          "en": "24 finished project concepts.",
+          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트."
+        },
+        "src": "assets/media/20261123b/workflow-showcase-15s-v20261123b.mp4",
+        "poster": "assets/media/20261123b/posters/workflow-showcase-15s-v20261123b.jpg",
+        "durationSeconds": 15,
+        "frameworks": [],
+        "transcript": {
+          "en": "1. Monthly operations brief\nAn automatically assembled management summary\n\n2. Finance pulse\nRevenue, spend and cash position\n\n3. A calm, organized inbox\nPriority messages with suggested next actions\n\n4. The weekly briefing\nA finished executive slide deck\n\n5. A week that fits\nScheduling and capacity at a glance\n\n6. Invoice ready\nA clean, generated customer document\n\n7. Leave, without the paperwork\nA self-service request portal\n\n8. Inventory watch\nStock levels and reorder alerts\n\n9. Supplier comparison\nA side-by-side purchasing report\n\n10. Approval desk\nRequests grouped by decision stage\n\n11. Sales in one story\nA finished data-led presentation\n\n12. The team knowledge desk\nA searchable internal help experience\n\n13. Team availability\nA shared planning calendar\n\n14. Customer meeting notes\nDecisions, actions and owners\n\n15. Project spend monitor\nBudget and actuals in one view\n\n16. Travel request\nA simple end-to-end request interface\n\n17. A helpful follow-up\nA personalized, reviewable email draft\n\n18. Purchase order\nA generated purchasing document\n\n19. Onboarding checklist\nA clear path from offer to first day\n\n20. Expense summary\nReceipts organized into a readable report\n\n21. Service queue\nRequests, response times and trends\n\n22. Quarterly review\nA concise leadership-ready deck\n\n23. Delivery schedule\nMilestones and responsible teams\n\n24. Operations home\nOne front door for everyday work",
+          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트.\n\n1. Monthly operations brief\nAn automatically assembled management summary\n\n2. Finance pulse\nRevenue, spend and cash position\n\n3. A calm, organized inbox\nPriority messages with suggested next actions\n\n4. The weekly briefing\nA finished executive slide deck\n\n5. A week that fits\nScheduling and capacity at a glance\n\n6. Invoice ready\nA clean, generated customer document\n\n7. Leave, without the paperwork\nA self-service request portal\n\n8. Inventory watch\nStock levels and reorder alerts\n\n9. Supplier comparison\nA side-by-side purchasing report\n\n10. Approval desk\nRequests grouped by decision stage\n\n11. Sales in one story\nA finished data-led presentation\n\n12. The team knowledge desk\nA searchable internal help experience\n\n13. Team availability\nA shared planning calendar\n\n14. Customer meeting notes\nDecisions, actions and owners\n\n15. Project spend monitor\nBudget and actuals in one view\n\n16. Travel request\nA simple end-to-end request interface\n\n17. A helpful follow-up\nA personalized, reviewable email draft\n\n18. Purchase order\nA generated purchasing document\n\n19. Onboarding checklist\nA clear path from offer to first day\n\n20. Expense summary\nReceipts organized into a readable report\n\n21. Service queue\nRequests, response times and trends\n\n22. Quarterly review\nA concise leadership-ready deck\n\n23. Delivery schedule\nMilestones and responsible teams\n\n24. Operations home\nOne front door for everyday work"
+        },
+        "transcriptSrc": "assets/media/20261123b/transcripts/workflow-showcase-15s-v20261123b.txt",
         "captions": [
           {
-            "src": "assets/media/20261123/workflow-showcase-15s-v20261123.vtt",
+            "src": "assets/media/20261123b/captions/workflow-showcase-15s-v20261123b.vtt",
             "srclang": "en",
             "label": "English"
           }
-        ]
+        ],
+        "exampleCount": 24
       }
     },
     "strategy": {
@@ -1288,37 +1996,46 @@ window.ACUMELO = {
       },
       "demo": {
         "id": "strategy-demo-15s",
-        "src": "assets/media/20261123/strategy-demo-15s-v20261123.mp4",
-        "poster": "assets/media/20261123/posters/strategy-demo-15s-v20261123.jpg",
-        "url": "",
+        "kind": "demo",
+        "status": "ready",
+        "scope": "category",
+        "fieldIds": [
+          "strategy"
+        ],
         "illustrative": true,
-        "durationSeconds": 15,
-        "description": {
-          "en": "Problem briefs → opportunity maps → prioritisation → project planning.",
-          "ko": "문제 정의 → 기회 지도 → 우선순위 설정 → 프로젝트 계획."
+        "title": {
+          "en": "AI Strategy & Project Management / Frameworks in practice",
+          "ko": "문제 정의·우선순위·프로젝트 계획과 실행"
         },
+        "description": {
+          "en": "Product strategy → Discovery research → Programme planning → Production planning.",
+          "ko": "문제 정의·우선순위·프로젝트 계획과 실행"
+        },
+        "src": "assets/media/20261123b/strategy-demo-15s-v20261123b.mp4",
+        "poster": "assets/media/20261123b/posters/strategy-demo-15s-v20261123b.jpg",
+        "durationSeconds": 15,
         "frameworks": [
-          "Notion",
-          "Miro",
-          "Microsoft Excel",
-          "Power BI",
-          "Jira",
-          "Confluence",
-          "Microsoft Project",
-          "Mermaid",
-          "Linear",
-          "Asana",
-          "PowerPoint",
-          "Google Docs"
+          "Product strategy",
+          "Discovery research",
+          "Programme planning",
+          "Production planning",
+          "Jira + delivery planning",
+          "Risk register",
+          "Excel + planning models",
+          "Notion + production board",
+          "Project management",
+          "Programme health",
+          "Release readiness",
+          "Operational handover"
         ],
         "transcript": {
-          "en": "1. Problem brief — Notion\nDefine the business problem\n\n2. Opportunity map — Miro\nCluster possible AI uses\n\n3. Weighted shortlist — Microsoft Excel\nAdjust decision weights\n\n4. Scenario view — Power BI\nCompare cost scenarios\n\n5. Discovery backlog — Jira\nSeparate ideas from commitments\n\n6. Requirements page — Confluence\nTrace needs to tests\n\n7. Delivery roadmap — Microsoft Project\nSequence dependencies\n\n8. Decision architecture — Mermaid\nMap approval boundaries\n\n9. Pilot sprint — Linear\nPrioritize a small vertical slice\n\n10. Review cadence — Asana\nSchedule stakeholder reviews\n\n11. Steering presentation — PowerPoint\nExplain options and trade-offs\n\n12. Go / revise / stop — Google Docs\nRecord the next decision",
-          "ko": "문제 정의 → 기회 지도 → 우선순위 설정 → 프로젝트 계획.\n\n영상에는 아래 도구와 단계가 등장합니다. 자세한 장면 설명과 자막은 영어로 제공됩니다.\nNotion · Miro · Microsoft Excel · Power BI · Jira · Confluence · Microsoft Project · Mermaid · Linear · Asana · PowerPoint · Google Docs"
+          "en": "1. Map the hypothesis to a measurable outcome\nProblem statement / experiment / decision rule\n\n2. Synthesize the evidence\nInterview themes / opportunity scores / assumptions\n\n3. Connect outcomes to milestones\nBenefits / owners / dependencies / gates\n\n4. Plan dependencies before production\nStoryboard → 3D → compositing → QA\n\n5. Convert ideas into testable stories\nAcceptance criteria / dependencies / capacity\n\n6. Make operational risks actionable\nLikelihood / impact / mitigation / owner\n\n7. Build a capacity and budget model\nWorkload / allocation / forecast / variance\n\n8. Route creative reviews\nOwner / version / comments / approval\n\n9. Manage changes without losing scope\nImpact / budget / contingency / sign-off\n\n10. Detect delivery risk early\nFlow time / blocked work / forecast drift\n\n11. Make the launch decision explicit\nOwner / evidence / fallback / decision log\n\n12. Transfer a maintainable workflow\nRunbook / support owner / change process",
+          "ko": "문제 정의·우선순위·프로젝트 계획과 실행\n\n1. Map the hypothesis to a measurable outcome\nProblem statement / experiment / decision rule\n\n2. Synthesize the evidence\nInterview themes / opportunity scores / assumptions\n\n3. Connect outcomes to milestones\nBenefits / owners / dependencies / gates\n\n4. Plan dependencies before production\nStoryboard → 3D → compositing → QA\n\n5. Convert ideas into testable stories\nAcceptance criteria / dependencies / capacity\n\n6. Make operational risks actionable\nLikelihood / impact / mitigation / owner\n\n7. Build a capacity and budget model\nWorkload / allocation / forecast / variance\n\n8. Route creative reviews\nOwner / version / comments / approval\n\n9. Manage changes without losing scope\nImpact / budget / contingency / sign-off\n\n10. Detect delivery risk early\nFlow time / blocked work / forecast drift\n\n11. Make the launch decision explicit\nOwner / evidence / fallback / decision log\n\n12. Transfer a maintainable workflow\nRunbook / support owner / change process"
         },
-        "transcriptSrc": "assets/media/20261123/strategy-demo-15s-v20261123.txt",
+        "transcriptSrc": "assets/media/20261123b/transcripts/strategy-demo-15s-v20261123b.txt",
         "captions": [
           {
-            "src": "assets/media/20261123/strategy-demo-15s-v20261123.vtt",
+            "src": "assets/media/20261123b/captions/strategy-demo-15s-v20261123b.vtt",
             "srclang": "en",
             "label": "English"
           }
@@ -1326,42 +2043,38 @@ window.ACUMELO = {
       },
       "project": {
         "id": "strategy-showcase-15s",
-        "src": "assets/media/20261123/strategy-showcase-15s-v20261123.mp4",
-        "poster": "assets/media/20261123/posters/strategy-showcase-15s-v20261123.jpg",
-        "url": "",
-        "illustrative": true,
-        "exampleCount": 24,
-        "durationSeconds": 15,
-        "description": {
-          "en": "24 concepts including pilot roadmaps, value-feasibility maps, cost scenarios and risk registers.",
-          "ko": "파일럿 로드맵·가치와 실행가능성 분석·비용 시나리오·위험 관리 등 24개 콘셉트."
-        },
-        "frameworks": [
-          "Notion",
-          "Miro",
-          "Microsoft Excel",
-          "Power BI",
-          "Jira",
-          "Confluence",
-          "Microsoft Project",
-          "Mermaid",
-          "Linear",
-          "Asana",
-          "PowerPoint",
-          "Google Docs"
+        "kind": "project",
+        "status": "ready",
+        "scope": "category",
+        "fieldIds": [
+          "strategy"
         ],
-        "transcript": {
-          "en": "1. AI opportunity radar — undefined\nCompare candidate initiatives\n\n2. Six-week pilot roadmap — undefined\nMilestones and dependencies\n\n3. Value-feasibility map — undefined\nFind practical starting points\n\n4. Cost scenario planner — undefined\nChange assumptions visibly\n\n5. Responsible AI risk register — undefined\nControls, owners and open risks\n\n6. One-page project charter — undefined\nPurpose, scope and success tests\n\n7. Stakeholder decision map — undefined\nWho advises and who approves\n\n8. Discovery sprint backlog — undefined\nQuestions before commitments\n\n9. AI adoption journey — undefined\nFrom pilot to team practice\n\n10. Governance review calendar — undefined\nDecision gates and evidence\n\n11. Board proposal deck — undefined\nA concise investment narrative\n\n12. Service blueprint — undefined\nConnect user and team actions\n\n13. Weighted vendor comparison — undefined\nCriteria with documented weights\n\n14. Pilot acceptance checklist — undefined\nEvidence required to progress\n\n15. Portfolio health view — undefined\nScope, risks and next decisions\n\n16. Change request desk — undefined\nAssess scope and cost impact\n\n17. Human approval boundaries — undefined\nWhere automated actions stop\n\n18. Data readiness assessment — undefined\nAccess, quality and ownership\n\n19. Dependency delivery map — undefined\nMake blockers visible early\n\n20. Project retrospective — undefined\nLessons and concrete next steps\n\n21. Assumption test log — undefined\nRecord hypotheses and outcomes\n\n22. Stakeholder engagement plan — undefined\nNeeds, concerns and follow-ups\n\n23. Internal AI launch hub — undefined\nGuidance, training and support\n\n24. Project check-in companion — undefined\nWeekly questions for teams",
-          "ko": "파일럿 로드맵·가치와 실행가능성 분석·비용 시나리오·위험 관리 등 24개 콘셉트.\n\n영상에는 아래 도구와 단계가 등장합니다. 자세한 장면 설명과 자막은 영어로 제공됩니다.\nNotion · Miro · Microsoft Excel · Power BI · Jira · Confluence · Microsoft Project · Mermaid · Linear · Asana · PowerPoint · Google Docs"
+        "illustrative": true,
+        "title": {
+          "en": "AI Strategy & Project Management / 24 finished project concepts",
+          "ko": "완성 결과물 예시 24선"
         },
-        "transcriptSrc": "assets/media/20261123/strategy-showcase-15s-v20261123.txt",
+        "description": {
+          "en": "24 finished project concepts.",
+          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트."
+        },
+        "src": "assets/media/20261123b/strategy-showcase-15s-v20261123b.mp4",
+        "poster": "assets/media/20261123b/posters/strategy-showcase-15s-v20261123b.jpg",
+        "durationSeconds": 15,
+        "frameworks": [],
+        "transcript": {
+          "en": "1. A strategy made tangible\nA concise AI adoption proposal\n\n2. The next ninety days\nA milestone-based delivery roadmap\n\n3. Project brief\nGoals, scope and success criteria\n\n4. Launch room\nA shared view of work and ownership\n\n5. Opportunity assessment\nUse cases ranked by value and feasibility\n\n6. Programme pulse\nHealth, capacity and delivery outlook\n\n7. Decision day\nA steering committee decision pack\n\n8. Creative production plan\nFrom brief to final delivery\n\n9. Research library\nEvidence organized around decisions\n\n10. Risk and response\nA readable risk review\n\n11. Release calendar\nLaunches and review windows\n\n12. Benefits tracker\nA view of intended and observed value\n\n13. The product story\nProblem, prototype and next steps\n\n14. Review and approve\nA clear creative approval workflow\n\n15. Resource plan\nCapacity, allocation and constraints\n\n16. AI pilot journey\nA staged learning and validation plan\n\n17. Stakeholder hub\nUpdates, decisions and shared context\n\n18. Portfolio view\nProjects compared on consistent criteria\n\n19. Workshop outcomes\nA finished facilitation summary\n\n20. Production schedule\nPeople, dates and review checkpoints\n\n21. Launch readiness\nA completed release review pack\n\n22. Sprint review\nA visible record of completed work\n\n23. Scale with evidence\nA rollout plan with decision gates\n\n24. Programme home\nA usable centre for delivery information",
+          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트.\n\n1. A strategy made tangible\nA concise AI adoption proposal\n\n2. The next ninety days\nA milestone-based delivery roadmap\n\n3. Project brief\nGoals, scope and success criteria\n\n4. Launch room\nA shared view of work and ownership\n\n5. Opportunity assessment\nUse cases ranked by value and feasibility\n\n6. Programme pulse\nHealth, capacity and delivery outlook\n\n7. Decision day\nA steering committee decision pack\n\n8. Creative production plan\nFrom brief to final delivery\n\n9. Research library\nEvidence organized around decisions\n\n10. Risk and response\nA readable risk review\n\n11. Release calendar\nLaunches and review windows\n\n12. Benefits tracker\nA view of intended and observed value\n\n13. The product story\nProblem, prototype and next steps\n\n14. Review and approve\nA clear creative approval workflow\n\n15. Resource plan\nCapacity, allocation and constraints\n\n16. AI pilot journey\nA staged learning and validation plan\n\n17. Stakeholder hub\nUpdates, decisions and shared context\n\n18. Portfolio view\nProjects compared on consistent criteria\n\n19. Workshop outcomes\nA finished facilitation summary\n\n20. Production schedule\nPeople, dates and review checkpoints\n\n21. Launch readiness\nA completed release review pack\n\n22. Sprint review\nA visible record of completed work\n\n23. Scale with evidence\nA rollout plan with decision gates\n\n24. Programme home\nA usable centre for delivery information"
+        },
+        "transcriptSrc": "assets/media/20261123b/transcripts/strategy-showcase-15s-v20261123b.txt",
         "captions": [
           {
-            "src": "assets/media/20261123/strategy-showcase-15s-v20261123.vtt",
+            "src": "assets/media/20261123b/captions/strategy-showcase-15s-v20261123b.vtt",
             "srclang": "en",
             "label": "English"
           }
-        ]
+        ],
+        "exampleCount": 24
       }
     },
     "design": {
@@ -1374,37 +2087,45 @@ window.ACUMELO = {
       },
       "demo": {
         "id": "design-demo-15s",
-        "src": "assets/media/20261123/design-demo-15s-v20261123.mp4",
-        "poster": "assets/media/20261123/posters/design-demo-15s-v20261123.jpg",
-        "url": "",
+        "kind": "demo",
+        "status": "ready",
+        "scope": "category",
+        "fieldIds": [
+          "design"
+        ],
         "illustrative": true,
-        "durationSeconds": 15,
-        "description": {
-          "en": "Creative briefs → image generation → UI systems → 3D, video and audio.",
-          "ko": "크리에이티브 기획 → 이미지 생성 → UI 시스템 → 3D·영상·오디오."
+        "title": {
+          "en": "AI Design & Content / Frameworks in practice",
+          "ko": "모션·3D·VFX·AI 영상 제작"
         },
+        "description": {
+          "en": "After Effects → After Effects expressions → VFX compositing → Cinema 4D MoGraph.",
+          "ko": "모션·3D·VFX·AI 영상 제작"
+        },
+        "src": "assets/media/20261123b/design-demo-15s-v20261123b.mp4",
+        "poster": "assets/media/20261123b/posters/design-demo-15s-v20261123b.jpg",
+        "durationSeconds": 15,
         "frameworks": [
-          "Figma",
-          "Notion",
-          "Adobe Firefly",
-          "ComfyUI",
-          "Design Tokens",
-          "Framer",
-          "Figma Auto Layout",
-          "Blender",
-          "DaVinci Resolve",
-          "Sonic Pi",
-          "Adobe Illustrator",
-          "Storybook"
+          "After Effects",
+          "After Effects expressions",
+          "VFX compositing",
+          "Cinema 4D MoGraph",
+          "Cinema 4D materials",
+          "Higgsfield",
+          "Cinema 4D",
+          "Unity Shader Graph",
+          "Unreal Engine Niagara",
+          "Three.js + GLSL",
+          "After Effects render pipeline"
         ],
         "transcript": {
-          "en": "1. Creative direction — Figma\nArrange mood and visual references\n\n2. Creative brief — Notion\nConnect intent to deliverables\n\n3. Image studies — Adobe Firefly\nCompare illustrative directions\n\n4. Generation workflow — ComfyUI\nInspect conditioning and revisions\n\n5. Token system — Design Tokens\nSet color and type variables\n\n6. Landing composition — Framer\nBuild a clear visual hierarchy\n\n7. Responsive screen — Figma Auto Layout\nReflow content for mobile\n\n8. 3D scene study — Blender\nInspect forms and lighting\n\n9. Sequence timeline — DaVinci Resolve\nArrange shots and transitions\n\n10. Audio motif sketch — Sonic Pi\nSequence a short pattern\n\n11. Campaign artwork — Adobe Illustrator\nCompose type and geometry\n\n12. Component review — Storybook\nCheck states and consistency",
-          "ko": "크리에이티브 기획 → 이미지 생성 → UI 시스템 → 3D·영상·오디오.\n\n영상에는 아래 도구와 단계가 등장합니다. 자세한 장면 설명과 자막은 영어로 제공됩니다.\nFigma · Notion · Adobe Firefly · ComfyUI · Design Tokens · Framer · Figma Auto Layout · Blender · DaVinci Resolve · Sonic Pi · Adobe Illustrator · Storybook"
+          "en": "1. Shape movement with the graph editor\nVelocity curves / keyframe interpolation / timing\n\n2. Drive motion with a reusable controller\nSlider control / time remap / responsive title\n\n3. Rebuild the image in layers\nDepth / matte / emission / color matching\n\n4. Make variation procedural\nCloner / radial distribution / Fields falloff\n\n5. Design a controllable surface\nNoise → ramp → roughness → layered material\n\n6. Plan continuity across AI shots\nLens / camera direction / subject consistency\n\n7. Construct the campaign master template\nNested comps / expressions / essential controls\n\n8. Plan the 3D product stage\nCamera / light rig / material variations\n\n9. Expose a runtime visual parameter\nFresnel / emission / time / property binding\n\n10. Build an event-driven particle effect\nEmitter / spawn rate / vector field / lifetime\n\n11. Move the visual system into the browser\nUniforms / pointer input / render loop\n\n12. Prepare multi-format motion assets\nComposition variants / alpha / delivery settings",
+          "ko": "모션·3D·VFX·AI 영상 제작\n\n1. Shape movement with the graph editor\nVelocity curves / keyframe interpolation / timing\n\n2. Drive motion with a reusable controller\nSlider control / time remap / responsive title\n\n3. Rebuild the image in layers\nDepth / matte / emission / color matching\n\n4. Make variation procedural\nCloner / radial distribution / Fields falloff\n\n5. Design a controllable surface\nNoise → ramp → roughness → layered material\n\n6. Plan continuity across AI shots\nLens / camera direction / subject consistency\n\n7. Construct the campaign master template\nNested comps / expressions / essential controls\n\n8. Plan the 3D product stage\nCamera / light rig / material variations\n\n9. Expose a runtime visual parameter\nFresnel / emission / time / property binding\n\n10. Build an event-driven particle effect\nEmitter / spawn rate / vector field / lifetime\n\n11. Move the visual system into the browser\nUniforms / pointer input / render loop\n\n12. Prepare multi-format motion assets\nComposition variants / alpha / delivery settings"
         },
-        "transcriptSrc": "assets/media/20261123/design-demo-15s-v20261123.txt",
+        "transcriptSrc": "assets/media/20261123b/transcripts/design-demo-15s-v20261123b.txt",
         "captions": [
           {
-            "src": "assets/media/20261123/design-demo-15s-v20261123.vtt",
+            "src": "assets/media/20261123b/captions/design-demo-15s-v20261123b.vtt",
             "srclang": "en",
             "label": "English"
           }
@@ -1412,42 +2133,38 @@ window.ACUMELO = {
       },
       "project": {
         "id": "design-showcase-15s",
-        "src": "assets/media/20261123/design-showcase-15s-v20261123.mp4",
-        "poster": "assets/media/20261123/posters/design-showcase-15s-v20261123.jpg",
-        "url": "",
-        "illustrative": true,
-        "exampleCount": 24,
-        "durationSeconds": 15,
-        "description": {
-          "en": "24 concepts spanning brand worlds, posters, app screens, websites and character studies.",
-          "ko": "브랜드 세계관·포스터·앱 화면·웹사이트·캐릭터 연구 등 24개 콘셉트."
-        },
-        "frameworks": [
-          "Figma",
-          "Notion",
-          "Adobe Firefly",
-          "ComfyUI",
-          "Design Tokens",
-          "Framer",
-          "Figma Auto Layout",
-          "Blender",
-          "DaVinci Resolve",
-          "Sonic Pi",
-          "Adobe Illustrator",
-          "Storybook"
+        "kind": "project",
+        "status": "ready",
+        "scope": "category",
+        "fieldIds": [
+          "design"
         ],
-        "transcript": {
-          "en": "1. Coffee brand universe — undefined\nPalette, type and packaging\n\n2. Future learning poster — undefined\nBold type and geometric motion\n\n3. Wellbeing app concept — undefined\nA calm daily check-in flow\n\n4. Cultural festival website — undefined\nAn expressive event identity\n\n5. Character expression sheet — undefined\nOne character, varied emotions\n\n6. Modular lamp concept — undefined\nForm, materials and light\n\n7. Short-film storyboard — undefined\nSix connected story moments\n\n8. Editorial presentation kit — undefined\nA consistent slide family\n\n9. Independent album artwork — undefined\nVisual rhythm for music\n\n10. Sustainable package studies — undefined\nThree material-led directions\n\n11. Museum guide interface — undefined\nAccessible routes and stories\n\n12. Creative portfolio system — undefined\nShow work with clear hierarchy\n\n13. Community wayfinding set — undefined\nReadable signs and symbols\n\n14. Magazine feature spread — undefined\nTypography and image pacing\n\n15. Motion title collection — undefined\nThree distinct title treatments\n\n16. Product launch teaser — undefined\nA sequence of reveal shots\n\n17. Exhibition spatial concept — undefined\nA connected visitor journey\n\n18. Travel journal interface — undefined\nPlaces, notes and memories\n\n19. Data storytelling infographic — undefined\nOne insight, clear visual order\n\n20. Icon and component family — undefined\nA reusable visual vocabulary\n\n21. Story pitch deck — undefined\nWorld, characters and tone\n\n22. Boutique studio homepage — undefined\nEditorial type with rich color\n\n23. Music visualizer concept — undefined\nColor responding to rhythm\n\n24. Creative process case study — undefined\nBrief, exploration and refinement",
-          "ko": "브랜드 세계관·포스터·앱 화면·웹사이트·캐릭터 연구 등 24개 콘셉트.\n\n영상에는 아래 도구와 단계가 등장합니다. 자세한 장면 설명과 자막은 영어로 제공됩니다.\nFigma · Notion · Adobe Firefly · ComfyUI · Design Tokens · Framer · Figma Auto Layout · Blender · DaVinci Resolve · Sonic Pi · Adobe Illustrator · Storybook"
+        "illustrative": true,
+        "title": {
+          "en": "AI Design & Content / 24 finished project concepts",
+          "ko": "완성 결과물 예시 24선"
         },
-        "transcriptSrc": "assets/media/20261123/design-showcase-15s-v20261123.txt",
+        "description": {
+          "en": "24 finished project concepts.",
+          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트."
+        },
+        "src": "assets/media/20261123b/design-showcase-15s-v20261123b.mp4",
+        "poster": "assets/media/20261123b/posters/design-showcase-15s-v20261123b.jpg",
+        "durationSeconds": 15,
+        "frameworks": [],
+        "transcript": {
+          "en": "1. Sculptural motion\nA finished abstract motion loop\n\n2. Object / 01\nA polished product visual\n\n3. MAKE / CREATE\nA kinetic typography poster\n\n4. Quiet architecture\nA rendered gallery space\n\n5. Beyond the horizon\nA cinematic environment study\n\n6. Studio Forma\nA finished creative portfolio\n\n7. Better together\nA responsive brand motion system\n\n8. New perspectives\nAn editorial campaign poster\n\n9. Material matters\nA product finish exploration\n\n10. Orbit study\nAn abstract VFX composition\n\n11. The exhibition\nA digital exhibition landing page\n\n12. Shape the future\nAn animated identity study\n\n13. Light and structure\nAn architectural mood film\n\n14. The creative week\nAn event identity\n\n15. Floating worlds\nA stylized environment artwork\n\n16. A new point of view\nA product campaign composition\n\n17. Object collection\nA digital product gallery\n\n18. Particles in motion\nA luminous VFX study\n\n19. Sound / space\nA music event visual\n\n20. Small ideas. Big moves.\nA typographic social film\n\n21. The living gallery\nA spatial design visualization\n\n22. Motion archive\nA responsive motion portfolio\n\n23. Neon pathways\nAn interactive-world concept\n\n24. A world of possibilities\nA final creative montage",
+          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트.\n\n1. Sculptural motion\nA finished abstract motion loop\n\n2. Object / 01\nA polished product visual\n\n3. MAKE / CREATE\nA kinetic typography poster\n\n4. Quiet architecture\nA rendered gallery space\n\n5. Beyond the horizon\nA cinematic environment study\n\n6. Studio Forma\nA finished creative portfolio\n\n7. Better together\nA responsive brand motion system\n\n8. New perspectives\nAn editorial campaign poster\n\n9. Material matters\nA product finish exploration\n\n10. Orbit study\nAn abstract VFX composition\n\n11. The exhibition\nA digital exhibition landing page\n\n12. Shape the future\nAn animated identity study\n\n13. Light and structure\nAn architectural mood film\n\n14. The creative week\nAn event identity\n\n15. Floating worlds\nA stylized environment artwork\n\n16. A new point of view\nA product campaign composition\n\n17. Object collection\nA digital product gallery\n\n18. Particles in motion\nA luminous VFX study\n\n19. Sound / space\nA music event visual\n\n20. Small ideas. Big moves.\nA typographic social film\n\n21. The living gallery\nA spatial design visualization\n\n22. Motion archive\nA responsive motion portfolio\n\n23. Neon pathways\nAn interactive-world concept\n\n24. A world of possibilities\nA final creative montage"
+        },
+        "transcriptSrc": "assets/media/20261123b/transcripts/design-showcase-15s-v20261123b.txt",
         "captions": [
           {
-            "src": "assets/media/20261123/design-showcase-15s-v20261123.vtt",
+            "src": "assets/media/20261123b/captions/design-showcase-15s-v20261123b.vtt",
             "srclang": "en",
             "label": "English"
           }
-        ]
+        ],
+        "exampleCount": 24
       }
     },
     "analytics": {
@@ -1460,37 +2177,46 @@ window.ACUMELO = {
       },
       "demo": {
         "id": "analytics-demo-15s",
-        "src": "assets/media/20261123/analytics-demo-15s-v20261123.mp4",
-        "poster": "assets/media/20261123/posters/analytics-demo-15s-v20261123.jpg",
-        "url": "",
+        "kind": "demo",
+        "status": "ready",
+        "scope": "category",
+        "fieldIds": [
+          "analytics"
+        ],
         "illustrative": true,
-        "durationSeconds": 15,
-        "description": {
-          "en": "Source data → cleaning → SQL analysis → dashboards and reports.",
-          "ko": "원천 데이터 → 정제 → SQL 분석 → 대시보드와 보고서."
+        "title": {
+          "en": "AI Data Analytics / Frameworks in practice",
+          "ko": "데이터 파이프라인·분석·대시보드"
         },
+        "description": {
+          "en": "Excel Power Query → PostgreSQL → SQL → Python + pandas.",
+          "ko": "데이터 파이프라인·분석·대시보드"
+        },
+        "src": "assets/media/20261123b/analytics-demo-15s-v20261123b.mp4",
+        "poster": "assets/media/20261123b/posters/analytics-demo-15s-v20261123b.jpg",
+        "durationSeconds": 15,
         "frameworks": [
-          "Microsoft Excel",
-          "Google Sheets",
-          "Jupyter / pandas",
-          "SQL / DuckDB",
-          "Polars",
-          "Great Expectations",
-          "Plotly",
+          "Excel Power Query",
+          "PostgreSQL",
+          "SQL",
+          "Python + pandas",
+          "dbt + orchestration",
+          "DAX",
           "Power BI",
-          "Tableau",
+          "Cohort analysis",
+          "Python forecasting",
+          "GeoPandas",
           "Streamlit",
-          "Quarto",
-          "PowerPoint"
+          "Decision storytelling"
         ],
         "transcript": {
-          "en": "1. Raw source table — Microsoft Excel\nInspect rows and units\n\n2. Data dictionary — Google Sheets\nDefine fields and missing values\n\n3. Cleaning notebook — Jupyter / pandas\nDeduplicate and normalize\n\n4. Query workspace — SQL / DuckDB\nJoin and aggregate data\n\n5. Grouped analysis — Polars\nCompare segments efficiently\n\n6. Quality checks — Great Expectations\nTest ranges and uniqueness\n\n7. Exploratory charts — Plotly\nLink filters to charts\n\n8. Decision dashboard — Power BI\nCompare time and categories\n\n9. Visual exploration — Tableau\nDrill into a selected segment\n\n10. Analytical app — Streamlit\nExpose useful controls\n\n11. Decision report — Quarto\nExplain findings and caveats\n\n12. Evidence briefing — PowerPoint\nPresent the decision question",
-          "ko": "원천 데이터 → 정제 → SQL 분석 → 대시보드와 보고서.\n\n영상에는 아래 도구와 단계가 등장합니다. 자세한 장면 설명과 자막은 영어로 제공됩니다.\nMicrosoft Excel · Google Sheets · Jupyter / pandas · SQL / DuckDB · Polars · Great Expectations · Plotly · Power BI · Tableau · Streamlit · Quarto · PowerPoint"
+          "en": "1. Clean the source before analysis\nType inference / merge rules / missing values\n\n2. Design the analytical data contract\nFact grain / keys / dimensional model\n\n3. Build an incremental revenue model\nWatermarks / joins / late-arriving records\n\n4. Validate and transform the source\nNullable types / schema assertions / profiling\n\n5. Trace lineage across models\nSources → staging → marts → metrics\n\n6. Write a context-aware measure\nCALCULATE / filter context / time intelligence\n\n7. Design a drillable executive view\nKPIs / comparison / tooltip / drill-through\n\n8. Separate retention from acquisition\nCohort month / tenure / denominator\n\n9. Separate signal from seasonality\nBaseline / rolling validation / residuals\n\n10. Connect performance to geography\nSpatial join / projection / aggregation\n\n11. Build an interactive scenario model\nAssumptions / sliders / forecast bands\n\n12. Present a recommendation with evidence\nFinding / caveat / action / follow-up",
+          "ko": "데이터 파이프라인·분석·대시보드\n\n1. Clean the source before analysis\nType inference / merge rules / missing values\n\n2. Design the analytical data contract\nFact grain / keys / dimensional model\n\n3. Build an incremental revenue model\nWatermarks / joins / late-arriving records\n\n4. Validate and transform the source\nNullable types / schema assertions / profiling\n\n5. Trace lineage across models\nSources → staging → marts → metrics\n\n6. Write a context-aware measure\nCALCULATE / filter context / time intelligence\n\n7. Design a drillable executive view\nKPIs / comparison / tooltip / drill-through\n\n8. Separate retention from acquisition\nCohort month / tenure / denominator\n\n9. Separate signal from seasonality\nBaseline / rolling validation / residuals\n\n10. Connect performance to geography\nSpatial join / projection / aggregation\n\n11. Build an interactive scenario model\nAssumptions / sliders / forecast bands\n\n12. Present a recommendation with evidence\nFinding / caveat / action / follow-up"
         },
-        "transcriptSrc": "assets/media/20261123/analytics-demo-15s-v20261123.txt",
+        "transcriptSrc": "assets/media/20261123b/transcripts/analytics-demo-15s-v20261123b.txt",
         "captions": [
           {
-            "src": "assets/media/20261123/analytics-demo-15s-v20261123.vtt",
+            "src": "assets/media/20261123b/captions/analytics-demo-15s-v20261123b.vtt",
             "srclang": "en",
             "label": "English"
           }
@@ -1498,42 +2224,38 @@ window.ACUMELO = {
       },
       "project": {
         "id": "analytics-showcase-15s",
-        "src": "assets/media/20261123/analytics-showcase-15s-v20261123.mp4",
-        "poster": "assets/media/20261123/posters/analytics-showcase-15s-v20261123.jpg",
-        "url": "",
-        "illustrative": true,
-        "exampleCount": 24,
-        "durationSeconds": 15,
-        "description": {
-          "en": "24 concepts including retail, energy, transport, attendance and data-quality analysis.",
-          "ko": "유통·에너지·교통·행사 참여·데이터 품질 분석 등 24개 콘셉트."
-        },
-        "frameworks": [
-          "Microsoft Excel",
-          "Google Sheets",
-          "Jupyter / pandas",
-          "SQL / DuckDB",
-          "Polars",
-          "Great Expectations",
-          "Plotly",
-          "Power BI",
-          "Tableau",
-          "Streamlit",
-          "Quarto",
-          "PowerPoint"
+        "kind": "project",
+        "status": "ready",
+        "scope": "category",
+        "fieldIds": [
+          "analytics"
         ],
-        "transcript": {
-          "en": "1. Retail category explorer — undefined\nCompare seasonal demand\n\n2. Energy usage calendar — undefined\nFind daily consumption patterns\n\n3. Public transport pulse — undefined\nRidership across routes and times\n\n4. Event attendance study — undefined\nWhat registration data suggests\n\n5. Data quality scorecard — undefined\nMissing values and duplicates\n\n6. Support response analysis — undefined\nCompare queues and response times\n\n7. Learning progress explorer — undefined\nSample activity across modules\n\n8. Regional service access — undefined\nCompare coverage and limitations\n\n9. Inventory ageing view — undefined\nSpot slow-moving items\n\n10. Customer cohort notebook — undefined\nRetention by signup group\n\n11. Household budget analysis — undefined\nCategorize a sample spending log\n\n12. Website journey explorer — undefined\nFrom arrival to key actions\n\n13. Project delivery trends — undefined\nLead time and blocked work\n\n14. Survey insight narrative — undefined\nThemes with supporting evidence\n\n15. Workforce capacity view — undefined\nDemand, availability and gaps\n\n16. Text feedback explorer — undefined\nCluster sample comments\n\n17. Booking demand calendar — undefined\nFind busy and quiet periods\n\n18. Food waste monitor — undefined\nWaste by station and time\n\n19. Procurement price study — undefined\nComparable items and caveats\n\n20. Research dataset audit — undefined\nVariables, units and exclusions\n\n21. City mobility dashboard — undefined\nCompare illustrative route patterns\n\n22. Forecast scenario notebook — undefined\nRanges rather than one promise\n\n23. Executive data briefing — undefined\nA visual case for the next check\n\n24. Open data explorer — undefined\nSearch, filter and explain",
-          "ko": "유통·에너지·교통·행사 참여·데이터 품질 분석 등 24개 콘셉트.\n\n영상에는 아래 도구와 단계가 등장합니다. 자세한 장면 설명과 자막은 영어로 제공됩니다.\nMicrosoft Excel · Google Sheets · Jupyter / pandas · SQL / DuckDB · Polars · Great Expectations · Plotly · Power BI · Tableau · Streamlit · Quarto · PowerPoint"
+        "illustrative": true,
+        "title": {
+          "en": "AI Data Analytics / 24 finished project concepts",
+          "ko": "완성 결과물 예시 24선"
         },
-        "transcriptSrc": "assets/media/20261123/analytics-showcase-15s-v20261123.txt",
+        "description": {
+          "en": "24 finished project concepts.",
+          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트."
+        },
+        "src": "assets/media/20261123b/analytics-showcase-15s-v20261123b.mp4",
+        "poster": "assets/media/20261123b/posters/analytics-showcase-15s-v20261123b.jpg",
+        "durationSeconds": 15,
+        "frameworks": [],
+        "transcript": {
+          "en": "1. Revenue, explained\nA finished executive analytics view\n\n2. Customers who stay\nA cohort retention report\n\n3. The regional picture\nA location-based performance map\n\n4. What comes next\nA forecast with visible uncertainty\n\n5. The insight brief\nA concise analytical recommendation\n\n6. Product adoption\nActivation and engagement trends\n\n7. When customers return\nPatterns by day and hour\n\n8. Delivery coverage\nA service-area planning view\n\n9. Demand outlook\nA seasonal demand comparison\n\n10. The data story\nA finished decision-making deck\n\n11. Marketing efficiency\nSpend, conversion and return\n\n12. Quality scorecard\nData completeness and freshness\n\n13. Market opportunity\nRegions compared on equal terms\n\n14. Channel cohorts\nRetention across acquisition channels\n\n15. Inventory scenarios\nA comparison of planning assumptions\n\n16. Service performance\nQueue, volume and response signals\n\n17. Pricing evidence\nA readable price sensitivity study\n\n18. Quarterly intelligence\nA business review with evidence\n\n19. Site selection\nA location comparison interface\n\n20. Cash flow outlook\nA range of financial scenarios\n\n21. Learning impact\nEngagement and completion patterns\n\n22. Portfolio correlations\nA matrix of related signals\n\n23. Experiment readout\nResults with caveats and next steps\n\n24. Decision centre\nA linked view of the business",
+          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트.\n\n1. Revenue, explained\nA finished executive analytics view\n\n2. Customers who stay\nA cohort retention report\n\n3. The regional picture\nA location-based performance map\n\n4. What comes next\nA forecast with visible uncertainty\n\n5. The insight brief\nA concise analytical recommendation\n\n6. Product adoption\nActivation and engagement trends\n\n7. When customers return\nPatterns by day and hour\n\n8. Delivery coverage\nA service-area planning view\n\n9. Demand outlook\nA seasonal demand comparison\n\n10. The data story\nA finished decision-making deck\n\n11. Marketing efficiency\nSpend, conversion and return\n\n12. Quality scorecard\nData completeness and freshness\n\n13. Market opportunity\nRegions compared on equal terms\n\n14. Channel cohorts\nRetention across acquisition channels\n\n15. Inventory scenarios\nA comparison of planning assumptions\n\n16. Service performance\nQueue, volume and response signals\n\n17. Pricing evidence\nA readable price sensitivity study\n\n18. Quarterly intelligence\nA business review with evidence\n\n19. Site selection\nA location comparison interface\n\n20. Cash flow outlook\nA range of financial scenarios\n\n21. Learning impact\nEngagement and completion patterns\n\n22. Portfolio correlations\nA matrix of related signals\n\n23. Experiment readout\nResults with caveats and next steps\n\n24. Decision centre\nA linked view of the business"
+        },
+        "transcriptSrc": "assets/media/20261123b/transcripts/analytics-showcase-15s-v20261123b.txt",
         "captions": [
           {
-            "src": "assets/media/20261123/analytics-showcase-15s-v20261123.vtt",
+            "src": "assets/media/20261123b/captions/analytics-showcase-15s-v20261123b.vtt",
             "srclang": "en",
             "label": "English"
           }
-        ]
+        ],
+        "exampleCount": 24
       }
     },
     "marketing": {
@@ -1546,37 +2268,46 @@ window.ACUMELO = {
       },
       "demo": {
         "id": "marketing-demo-15s",
-        "src": "assets/media/20261123/marketing-demo-15s-v20261123.mp4",
-        "poster": "assets/media/20261123/posters/marketing-demo-15s-v20261123.jpg",
-        "url": "",
+        "kind": "demo",
+        "status": "ready",
+        "scope": "category",
+        "fieldIds": [
+          "marketing"
+        ],
         "illustrative": true,
-        "durationSeconds": 15,
-        "description": {
-          "en": "Customer evidence → segmentation → campaigns → CRM and measurement.",
-          "ko": "고객 정보 → 세분화 → 캠페인 → CRM과 성과 측정."
+        "title": {
+          "en": "AI Marketing & Sales / Frameworks in practice",
+          "ko": "고객 조사·캠페인·실험·성과 분석"
         },
+        "description": {
+          "en": "GA4 + events → SQL segmentation → CRM → Landing page design.",
+          "ko": "고객 조사·캠페인·실험·성과 분석"
+        },
+        "src": "assets/media/20261123b/marketing-demo-15s-v20261123b.mp4",
+        "poster": "assets/media/20261123b/posters/marketing-demo-15s-v20261123b.jpg",
+        "durationSeconds": 15,
         "frameworks": [
-          "HubSpot",
-          "Google Sheets",
-          "Miro",
-          "Notion",
-          "Canva",
-          "Mailchimp",
-          "Webflow",
-          "GA4",
-          "Looker Studio",
-          "Salesforce",
-          "n8n",
-          "PowerPoint"
+          "GA4 + events",
+          "SQL segmentation",
+          "CRM",
+          "Landing page design",
+          "Next.js",
+          "Higgsfield campaign shots",
+          "After Effects ad variants",
+          "n8n + CRM",
+          "Experiment design",
+          "Email journeys",
+          "Analytics QA",
+          "Growth service delivery"
         ],
         "transcript": {
-          "en": "1. Customer evidence — HubSpot\nReview sample customer records\n\n2. Segment worksheet — Google Sheets\nDefine useful audience groups\n\n3. Customer journey — Miro\nConnect questions to touchpoints\n\n4. Campaign brief — Notion\nAlign goal, message and channel\n\n5. Creative variations — Canva\nCompare visual message concepts\n\n6. Email sequence — Mailchimp\nReview messages by audience\n\n7. Landing page — Webflow\nAlign headline and next action\n\n8. Measurement plan — GA4\nInspect event definitions\n\n9. Experiment readout — Looker Studio\nCompare sample variants carefully\n\n10. Sales workspace — Salesforce\nPrepare context and next steps\n\n11. CRM handoff — n8n\nRoute approved follow-up tasks\n\n12. Campaign review — PowerPoint\nExplain what to test next",
-          "ko": "고객 정보 → 세분화 → 캠페인 → CRM과 성과 측정.\n\n영상에는 아래 도구와 단계가 등장합니다. 자세한 장면 설명과 자막은 영어로 제공됩니다.\nHubSpot · Google Sheets · Miro · Notion · Canva · Mailchimp · Webflow · GA4 · Looker Studio · Salesforce · n8n · PowerPoint"
+          "en": "1. Define the acquisition measurement plan\nEvents / properties / consent / attribution\n\n2. Build actionable customer segments\nRecency / frequency / value / lifecycle\n\n3. Model the sales lifecycle\nLead score / owner / next action / evidence\n\n4. Design an experiment-ready offer\nMessage hierarchy / CTA / variant states\n\n5. Implement a measurable landing page\nServer rendering / forms / event contract\n\n6. Plan distinct creative variants\nProduct angle / motion / crop / continuity\n\n7. Build responsive campaign motion\nVertical / square / wide / type-safe area\n\n8. Connect acquisition to follow-up\nWebhook → qualify → score → assign → nurture\n\n9. Read conversion with uncertainty\nControl / treatment / lift / confidence\n\n10. Personalize a lifecycle sequence\nTrigger / segment / frequency / exit rule\n\n11. Verify events before a campaign\nDuplicate events / UTM / form failure\n\n12. Release the full acquisition loop\nLanding → CRM → experiment dashboard",
+          "ko": "고객 조사·캠페인·실험·성과 분석\n\n1. Define the acquisition measurement plan\nEvents / properties / consent / attribution\n\n2. Build actionable customer segments\nRecency / frequency / value / lifecycle\n\n3. Model the sales lifecycle\nLead score / owner / next action / evidence\n\n4. Design an experiment-ready offer\nMessage hierarchy / CTA / variant states\n\n5. Implement a measurable landing page\nServer rendering / forms / event contract\n\n6. Plan distinct creative variants\nProduct angle / motion / crop / continuity\n\n7. Build responsive campaign motion\nVertical / square / wide / type-safe area\n\n8. Connect acquisition to follow-up\nWebhook → qualify → score → assign → nurture\n\n9. Read conversion with uncertainty\nControl / treatment / lift / confidence\n\n10. Personalize a lifecycle sequence\nTrigger / segment / frequency / exit rule\n\n11. Verify events before a campaign\nDuplicate events / UTM / form failure\n\n12. Release the full acquisition loop\nLanding → CRM → experiment dashboard"
         },
-        "transcriptSrc": "assets/media/20261123/marketing-demo-15s-v20261123.txt",
+        "transcriptSrc": "assets/media/20261123b/transcripts/marketing-demo-15s-v20261123b.txt",
         "captions": [
           {
-            "src": "assets/media/20261123/marketing-demo-15s-v20261123.vtt",
+            "src": "assets/media/20261123b/captions/marketing-demo-15s-v20261123b.vtt",
             "srclang": "en",
             "label": "English"
           }
@@ -1584,42 +2315,38 @@ window.ACUMELO = {
       },
       "project": {
         "id": "marketing-showcase-15s",
-        "src": "assets/media/20261123/marketing-showcase-15s-v20261123.mp4",
-        "poster": "assets/media/20261123/posters/marketing-showcase-15s-v20261123.jpg",
-        "url": "",
-        "illustrative": true,
-        "exampleCount": 24,
-        "durationSeconds": 15,
-        "description": {
-          "en": "24 concepts spanning audience insights, B2B research, campaigns and welcome journeys.",
-          "ko": "고객 인사이트·B2B 조사·캠페인·신규 고객 여정 등 24개 콘셉트."
-        },
-        "frameworks": [
-          "HubSpot",
-          "Google Sheets",
-          "Miro",
-          "Notion",
-          "Canva",
-          "Mailchimp",
-          "Webflow",
-          "GA4",
-          "Looker Studio",
-          "Salesforce",
-          "n8n",
-          "PowerPoint"
+        "kind": "project",
+        "status": "ready",
+        "scope": "category",
+        "fieldIds": [
+          "marketing"
         ],
-        "transcript": {
-          "en": "1. Audience insight canvas — undefined\nNeeds, barriers and hypotheses\n\n2. B2B account research desk — undefined\nContext for a better conversation\n\n3. Three-message campaign set — undefined\nDistinct value propositions\n\n4. Welcome journey studio — undefined\nA helpful first-week sequence\n\n5. Workshop launch page — undefined\nA focused registration journey\n\n6. Campaign measurement board — undefined\nGoals, events and comparisons\n\n7. Content publishing rhythm — undefined\nOne story across several channels\n\n8. Sales meeting preparation — undefined\nQuestions, context and follow-ups\n\n9. Social story collection — undefined\nA cohesive vertical content set\n\n10. Customer interview synthesis — undefined\nThemes without invented quotes\n\n11. Creative experiment backlog — undefined\nIdeas ranked for learning\n\n12. Channel planning worksheet — undefined\nBudget assumptions and trade-offs\n\n13. Re-engagement draft sequence — undefined\nMessages with clear choices\n\n14. Brand message architecture — undefined\nPromise, evidence and tone\n\n15. Product comparison page — undefined\nUseful differences for buyers\n\n16. Illustrative funnel explorer — undefined\nSee where journeys diverge\n\n17. Partner outreach workspace — undefined\nKeep relationship context\n\n18. Event promotion toolkit — undefined\nAnnouncements and reminder assets\n\n19. Search intent opportunity map — undefined\nQuestions worth answering\n\n20. Lead qualification handoff — undefined\nA transparent review process\n\n21. Sales enablement deck — undefined\nA clear customer-focused story\n\n22. Customer feedback microflow — undefined\nCapture the next useful signal\n\n23. Launch coordination calendar — undefined\nCoordinate assets and owners\n\n24. Campaign review notebook — undefined\nInterpret sample data cautiously",
-          "ko": "고객 인사이트·B2B 조사·캠페인·신규 고객 여정 등 24개 콘셉트.\n\n영상에는 아래 도구와 단계가 등장합니다. 자세한 장면 설명과 자막은 영어로 제공됩니다.\nHubSpot · Google Sheets · Miro · Notion · Canva · Mailchimp · Webflow · GA4 · Looker Studio · Salesforce · n8n · PowerPoint"
+        "illustrative": true,
+        "title": {
+          "en": "AI Marketing & Sales / 24 finished project concepts",
+          "ko": "완성 결과물 예시 24선"
         },
-        "transcriptSrc": "assets/media/20261123/marketing-showcase-15s-v20261123.txt",
+        "description": {
+          "en": "24 finished project concepts.",
+          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트."
+        },
+        "src": "assets/media/20261123b/marketing-showcase-15s-v20261123b.mp4",
+        "poster": "assets/media/20261123b/posters/marketing-showcase-15s-v20261123b.jpg",
+        "durationSeconds": 15,
+        "frameworks": [],
+        "transcript": {
+          "en": "1. An offer worth exploring\nA finished campaign landing page\n\n2. From interest to opportunity\nA sales pipeline interface\n\n3. A clear message\nA finished campaign creative\n\n4. Campaign pulse\nA performance overview for a launch\n\n5. A thoughtful welcome\nA customer onboarding email\n\n6. The launch film\nA finished product advertising visual\n\n7. Reserve your place\nAn event registration landing page\n\n8. The customer brief\nAudience insight in a readable report\n\n9. The next best action\nA focused sales follow-up view\n\n10. Make your next move\nA short social campaign animation\n\n11. The product story\nA conversion-focused product page\n\n12. An experiment, explained\nControl and treatment side by side\n\n13. A timely reminder\nA personalized lifecycle message\n\n14. Ideas in motion\nAn event campaign asset\n\n15. A visual hook\nA short-form brand motion piece\n\n16. Join the conversation\nA community campaign page\n\n17. A stronger relationship\nAn account planning interface\n\n18. Launch lessons\nA finished campaign review\n\n19. One message. Many formats.\nA responsive advertising concept\n\n20. The growth view\nAcquisition through retention\n\n21. A useful recommendation\nA product recommendation email\n\n22. A fresh perspective\nA product-focused campaign scene\n\n23. A place to begin\nA polished lead-generation site\n\n24. Campaign in one story\nA finished marketing results deck",
+          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트.\n\n1. An offer worth exploring\nA finished campaign landing page\n\n2. From interest to opportunity\nA sales pipeline interface\n\n3. A clear message\nA finished campaign creative\n\n4. Campaign pulse\nA performance overview for a launch\n\n5. A thoughtful welcome\nA customer onboarding email\n\n6. The launch film\nA finished product advertising visual\n\n7. Reserve your place\nAn event registration landing page\n\n8. The customer brief\nAudience insight in a readable report\n\n9. The next best action\nA focused sales follow-up view\n\n10. Make your next move\nA short social campaign animation\n\n11. The product story\nA conversion-focused product page\n\n12. An experiment, explained\nControl and treatment side by side\n\n13. A timely reminder\nA personalized lifecycle message\n\n14. Ideas in motion\nAn event campaign asset\n\n15. A visual hook\nA short-form brand motion piece\n\n16. Join the conversation\nA community campaign page\n\n17. A stronger relationship\nAn account planning interface\n\n18. Launch lessons\nA finished campaign review\n\n19. One message. Many formats.\nA responsive advertising concept\n\n20. The growth view\nAcquisition through retention\n\n21. A useful recommendation\nA product recommendation email\n\n22. A fresh perspective\nA product-focused campaign scene\n\n23. A place to begin\nA polished lead-generation site\n\n24. Campaign in one story\nA finished marketing results deck"
+        },
+        "transcriptSrc": "assets/media/20261123b/transcripts/marketing-showcase-15s-v20261123b.txt",
         "captions": [
           {
-            "src": "assets/media/20261123/marketing-showcase-15s-v20261123.vtt",
+            "src": "assets/media/20261123b/captions/marketing-showcase-15s-v20261123b.vtt",
             "srclang": "en",
             "label": "English"
           }
-        ]
+        ],
+        "exampleCount": 24
       }
     },
     "development": {
@@ -1632,37 +2359,46 @@ window.ACUMELO = {
       },
       "demo": {
         "id": "development-demo-15s",
-        "src": "assets/media/20261123/development-demo-15s-v20261123.mp4",
-        "poster": "assets/media/20261123/posters/development-demo-15s-v20261123.jpg",
-        "url": "",
+        "kind": "demo",
+        "status": "ready",
+        "scope": "category",
+        "fieldIds": [
+          "development"
+        ],
         "illustrative": true,
-        "durationSeconds": 15,
-        "description": {
-          "en": "Requirements → UI and APIs → data, agents and RAG → tests and deployment.",
-          "ko": "요구사항 → UI·API → 데이터·에이전트·RAG → 테스트와 배포."
+        "title": {
+          "en": "AI Service Development / Frameworks in practice",
+          "ko": "웹·앱·API·지식 서비스 구현"
         },
+        "description": {
+          "en": "System architecture → React + TypeScript → FastAPI → Supabase.",
+          "ko": "웹·앱·API·지식 서비스 구현"
+        },
+        "src": "assets/media/20261123b/development-demo-15s-v20261123b.mp4",
+        "poster": "assets/media/20261123b/posters/development-demo-15s-v20261123b.jpg",
+        "durationSeconds": 15,
         "frameworks": [
-          "Markdown / PRD",
-          "VS Code / TypeScript",
-          "Next.js / React",
+          "System architecture",
+          "React + TypeScript",
           "FastAPI",
-          "PostgreSQL / Supabase",
-          "LangGraph",
-          "LlamaIndex",
-          "Qdrant",
-          "RAG application",
-          "Vitest / Playwright",
-          "Docker",
-          "GitHub Actions"
+          "Supabase",
+          "RAG ingestion",
+          "Hybrid retrieval",
+          "n8n + tools",
+          "FastAPI + streaming",
+          "Unity Shader Graph",
+          "Unreal Engine Niagara",
+          "Three.js + GLSL",
+          "Cloudflare + GitHub"
         ],
         "transcript": {
-          "en": "1. Build requirements — Markdown / PRD\nDefine a narrow user problem\n\n2. Application workspace — VS Code / TypeScript\nReview generated code\n\n3. Working UI — Next.js / React\nConnect input and screen state\n\n4. Service boundary — FastAPI\nTrace requests and responses\n\n5. Data model — PostgreSQL / Supabase\nInspect records and relations\n\n6. Agent state graph — LangGraph\nRoute tool calls and approvals\n\n7. Retrieval pipeline — LlamaIndex\nChunk and retrieve documents\n\n8. Retrieval inspection — Qdrant\nCompare retrieved evidence\n\n9. Grounded answer — RAG application\nShow citations beside the answer\n\n10. Test workspace — Vitest / Playwright\nExercise failure and success cases\n\n11. Deployment layout — Docker\nSeparate services and configuration\n\n12. Release review — GitHub Actions\nInspect checks and release steps",
-          "ko": "요구사항 → UI·API → 데이터·에이전트·RAG → 테스트와 배포.\n\n영상에는 아래 도구와 단계가 등장합니다. 자세한 장면 설명과 자막은 영어로 제공됩니다.\nMarkdown / PRD · VS Code / TypeScript · Next.js / React · FastAPI · PostgreSQL / Supabase · LangGraph · LlamaIndex · Qdrant · RAG application · Vitest / Playwright · Docker · GitHub Actions"
+          "en": "1. One brief. Six connected disciplines.\nData contracts / event boundaries / human approvals\n\n2. Implement a stateful booking flow\nValidation / accessible forms / optimistic update\n\n3. Expose a typed automation endpoint\nPydantic / idempotency / structured errors\n\n4. Model permissions with the product\nBookings / memberships / row-level policy\n\n5. Create a traceable knowledge index\nParse / chunk / metadata / version\n\n6. Retrieve evidence before responding\nBM25 / vector / merge / reranking\n\n7. Separate answers from actions\nIntent → permission → tool → approval → log\n\n8. Serve a responsive assistant\nStreaming / cancellation / structured events\n\n9. Expose a runtime visual parameter\nFresnel / emission / time / property binding\n\n10. Build an event-driven particle effect\nEmitter / spawn rate / vector field / lifetime\n\n11. Move the visual system into the browser\nUniforms / pointer input / render loop\n\n12. Ship a versioned experience\nPreview → checks → production → rollback",
+          "ko": "웹·앱·API·지식 서비스 구현\n\n1. One brief. Six connected disciplines.\nData contracts / event boundaries / human approvals\n\n2. Implement a stateful booking flow\nValidation / accessible forms / optimistic update\n\n3. Expose a typed automation endpoint\nPydantic / idempotency / structured errors\n\n4. Model permissions with the product\nBookings / memberships / row-level policy\n\n5. Create a traceable knowledge index\nParse / chunk / metadata / version\n\n6. Retrieve evidence before responding\nBM25 / vector / merge / reranking\n\n7. Separate answers from actions\nIntent → permission → tool → approval → log\n\n8. Serve a responsive assistant\nStreaming / cancellation / structured events\n\n9. Expose a runtime visual parameter\nFresnel / emission / time / property binding\n\n10. Build an event-driven particle effect\nEmitter / spawn rate / vector field / lifetime\n\n11. Move the visual system into the browser\nUniforms / pointer input / render loop\n\n12. Ship a versioned experience\nPreview → checks → production → rollback"
         },
-        "transcriptSrc": "assets/media/20261123/development-demo-15s-v20261123.txt",
+        "transcriptSrc": "assets/media/20261123b/transcripts/development-demo-15s-v20261123b.txt",
         "captions": [
           {
-            "src": "assets/media/20261123/development-demo-15s-v20261123.vtt",
+            "src": "assets/media/20261123b/captions/development-demo-15s-v20261123b.vtt",
             "srclang": "en",
             "label": "English"
           }
@@ -1670,43 +2406,40 @@ window.ACUMELO = {
       },
       "project": {
         "id": "development-showcase-15s",
-        "src": "assets/media/20261123/development-showcase-15s-v20261123.mp4",
-        "poster": "assets/media/20261123/posters/development-showcase-15s-v20261123.jpg",
-        "url": "",
-        "illustrative": true,
-        "exampleCount": 24,
-        "durationSeconds": 15,
-        "description": {
-          "en": "24 concepts including knowledge assistants, proposal apps, study planners and research tools.",
-          "ko": "지식 도우미·제안서 앱·학습 계획·연구 자료 탐색 등 24개 콘셉트."
-        },
-        "frameworks": [
-          "Markdown / PRD",
-          "VS Code / TypeScript",
-          "Next.js / React",
-          "FastAPI",
-          "PostgreSQL / Supabase",
-          "LangGraph",
-          "LlamaIndex",
-          "Qdrant",
-          "RAG application",
-          "Vitest / Playwright",
-          "Docker",
-          "GitHub Actions"
+        "kind": "project",
+        "status": "ready",
+        "scope": "category",
+        "fieldIds": [
+          "development"
         ],
-        "transcript": {
-          "en": "1. Team knowledge assistant — undefined\nAnswers with visible sources\n\n2. AI proposal drafting app — undefined\nFrom brief to editable outline\n\n3. Study planning companion — undefined\nTurn goals into daily steps\n\n4. Research evidence explorer — undefined\nRead sources beside summaries\n\n5. Document intake application — undefined\nUpload, classify and review\n\n6. Customer context assistant — undefined\nPrepare a useful meeting brief\n\n7. Code review companion — undefined\nExplain changes and test ideas\n\n8. Smart booking prototype — undefined\nConstraints before confirmation\n\n9. Contract clause explorer — undefined\nFind text with clear references\n\n10. Tool-using agent sandbox — undefined\nExplicit permissions and review\n\n11. Travel itinerary builder — undefined\nEditable plans and alternatives\n\n12. Accessible form assistant — undefined\nGuidance without hiding controls\n\n13. Multilingual help prototype — undefined\nSource-linked support replies\n\n14. Project health application — undefined\nTasks, risks and next decisions\n\n15. Dataset exploration app — undefined\nAsk questions of sample tables\n\n16. Approval-aware writing agent — undefined\nDraft, review, revise\n\n17. Personal learning journal — undefined\nCapture practice and reflection\n\n18. Portfolio case-study builder — undefined\nStructure evidence and outcomes\n\n19. Interactive AI character — undefined\nA controlled dialogue state map\n\n20. Retrieval evaluation console — undefined\nCompare answers and sources\n\n21. Community request tracker — undefined\nTriage needs and follow-ups\n\n22. Shared resource planner — undefined\nResolve competing reservations\n\n23. Meeting evidence workspace — undefined\nNotes linked to decisions\n\n24. Creative prompt workbench — undefined\nCompare controlled variations",
-          "ko": "지식 도우미·제안서 앱·학습 계획·연구 자료 탐색 등 24개 콘셉트.\n\n영상에는 아래 도구와 단계가 등장합니다. 자세한 장면 설명과 자막은 영어로 제공됩니다.\nMarkdown / PRD · VS Code / TypeScript · Next.js / React · FastAPI · PostgreSQL / Supabase · LangGraph · LlamaIndex · Qdrant · RAG application · Vitest / Playwright · Docker · GitHub Actions"
+        "illustrative": true,
+        "title": {
+          "en": "AI Service Development / 24 finished project concepts",
+          "ko": "완성 결과물 예시 24선"
         },
-        "transcriptSrc": "assets/media/20261123/development-showcase-15s-v20261123.txt",
+        "description": {
+          "en": "24 finished project concepts.",
+          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트."
+        },
+        "src": "assets/media/20261123b/development-showcase-15s-v20261123b.mp4",
+        "poster": "assets/media/20261123b/posters/development-showcase-15s-v20261123b.jpg",
+        "durationSeconds": 15,
+        "frameworks": [],
+        "transcript": {
+          "en": "1. Fieldnotes\nA responsive publishing interface\n\n2. Ask the knowledge base\nA cited-answer assistant interface\n\n3. Book a session\nA self-service booking application\n\n4. Explore the archipelago\nAn interactive environment concept\n\n5. Project cockpit\nA complete project analytics interface\n\n6. Configure your object\nA product customization concept\n\n7. Work, together\nA collaborative planning application\n\n8. Find your next place\nA location discovery interface\n\n9. Studio directory\nA searchable creative directory\n\n10. Time well spent\nA scheduling service\n\n11. The customer portal\nA unified account and request interface\n\n12. Interactive motion\nA browser-based visual experience\n\n13. A helpful service desk\nA support assistant with evidence\n\n14. A financial companion\nA personal finance application\n\n15. The learning room\nA course discovery interface\n\n16. Pathfinder\nA playful interactive world\n\n17. Document centre\nA searchable document workflow\n\n18. Plan the launch\nA release planning application\n\n19. The object viewer\nA 3D product experience\n\n20. Community connections\nA local discovery application\n\n21. Events made simple\nAn event scheduling tool\n\n22. Live operations\nA finished operations interface\n\n23. Research companion\nA source-aware research assistant\n\n24. Made to be used\nA responsive service landing page",
+          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트.\n\n1. Fieldnotes\nA responsive publishing interface\n\n2. Ask the knowledge base\nA cited-answer assistant interface\n\n3. Book a session\nA self-service booking application\n\n4. Explore the archipelago\nAn interactive environment concept\n\n5. Project cockpit\nA complete project analytics interface\n\n6. Configure your object\nA product customization concept\n\n7. Work, together\nA collaborative planning application\n\n8. Find your next place\nA location discovery interface\n\n9. Studio directory\nA searchable creative directory\n\n10. Time well spent\nA scheduling service\n\n11. The customer portal\nA unified account and request interface\n\n12. Interactive motion\nA browser-based visual experience\n\n13. A helpful service desk\nA support assistant with evidence\n\n14. A financial companion\nA personal finance application\n\n15. The learning room\nA course discovery interface\n\n16. Pathfinder\nA playful interactive world\n\n17. Document centre\nA searchable document workflow\n\n18. Plan the launch\nA release planning application\n\n19. The object viewer\nA 3D product experience\n\n20. Community connections\nA local discovery application\n\n21. Events made simple\nAn event scheduling tool\n\n22. Live operations\nA finished operations interface\n\n23. Research companion\nA source-aware research assistant\n\n24. Made to be used\nA responsive service landing page"
+        },
+        "transcriptSrc": "assets/media/20261123b/transcripts/development-showcase-15s-v20261123b.txt",
         "captions": [
           {
-            "src": "assets/media/20261123/development-showcase-15s-v20261123.vtt",
+            "src": "assets/media/20261123b/captions/development-showcase-15s-v20261123b.vtt",
             "srclang": "en",
             "label": "English"
           }
-        ]
+        ],
+        "exampleCount": 24
       }
     }
-  }
+  },
+  "mediaGallery": "assets/media/20261123b/index.html"
 };

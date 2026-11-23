@@ -1,0 +1,49 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.250
+RAG ingestion — Create a traceable knowledge index
+
+2
+00:00:01.250 --> 00:00:02.500
+Service architecture — Design an assistant with boundaries
+
+3
+00:00:02.500 --> 00:00:03.750
+Python document pipeline — Preserve source structure
+
+4
+00:00:03.750 --> 00:00:05.000
+Hybrid retrieval — Retrieve evidence before responding
+
+5
+00:00:05.000 --> 00:00:06.250
+n8n + tools — Separate answers from actions
+
+6
+00:00:06.250 --> 00:00:07.500
+Service inbox automation — Route and draft with source evidence
+
+7
+00:00:07.500 --> 00:00:08.750
+FastAPI + streaming — Serve a responsive assistant
+
+8
+00:00:08.750 --> 00:00:10.000
+Supabase + access policy — Scope knowledge to the right audience
+
+9
+00:00:10.000 --> 00:00:11.250
+RAG evaluation — Test groundedness and abstention
+
+10
+00:00:11.250 --> 00:00:12.500
+Assistant observability — Inspect the full response trace
+
+11
+00:00:12.500 --> 00:00:13.750
+Service recovery — Handle slow or unavailable tools
+
+12
+00:00:13.750 --> 00:00:15.000
+Knowledge service release — Publish a reviewable assistant

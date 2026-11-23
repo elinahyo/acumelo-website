@@ -1,0 +1,8 @@
+import fs from 'node:fs';
+const p=new URL('./visuals.mjs',import.meta.url);let s=fs.readFileSync(p,'utf8');
+s=s.replace(/\[String\(12400\+v\*137\),\(87\+v%8\)\+'\.4%',\(240\+v\*13\)\+' ms',\(2\+v%5\)\+'\.1%'\]\[i\]/,'metricValues[i]');
+// Use relevant payload descriptions in graph nodes rather than a universal webhook label.
+s=s.replace("['POST /webhook','Schema v2','Typed transform','Human in the loop','Upsert by key','Traceable output'][i]", "(s.type==='rag'?(v===11?['PDF / HTML','Preserve headings','512 tokens / overlap','Source + version','Vector representation','Access-scoped store']:['Question + scope','BM25 candidates','Embedding similarity','Reciprocal rank fusion','Cross-encoder score','Answer with evidence']):s.type==='architecture'?['Contract & boundary','Defined responsibility','Typed interface','Reviewable output','Policy & ownership','Versioned delivery']:['Trigger / input contract','Validation / routing','Transform / typed output','Review / decision','Persist / idempotency','Deliver / trace'])[i]");
+// Variation in final graphic composition is structural, not just a color switch.
+s=s.replace("for(let i=0;i<9;i++){c.save();c.rotate(i*Math.PI/9);rect(-175,-50,350,100,i%2?th[1]:th[2],40);c.restore()}","if(v%3===0){for(let i=0;i<8;i++){c.strokeStyle=i%2?th[1]:th[2];c.lineWidth=15;c.beginPath();c.ellipse(0,0,40+i*22,170-i*8,i*.2+t*.3,0,7);c.stroke()}}else if(v%3===1){for(let i=0;i<5;i++)for(let j=0;j<5;j++){const size=20+(i+j)*4;rect(-160+i*67,-160+j*67,size,size,(i+j)%2?th[1]:th[2],size/3)}}else{for(let i=0;i<9;i++){c.save();c.rotate(i*Math.PI/9);rect(-175,-50,350,100,i%2?th[1]:th[2],40);c.restore()}}");
+fs.writeFileSync(p,s);

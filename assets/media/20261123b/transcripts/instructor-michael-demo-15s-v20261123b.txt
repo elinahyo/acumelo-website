@@ -1,0 +1,51 @@
+Michael / Business intelligence and evidence-led decisions
+
+Original animated workflow reconstructions and generated project concepts. Not recordings of live software sessions or verified student submissions. Tool names identify the illustrated workflows; no endorsement is implied.
+
+00:00:00.000 – 00:00:01.250 | 01 | Power BI
+Design a drillable executive view
+KPIs / comparison / tooltip / drill-through
+
+00:00:01.250 – 00:00:02.500 | 02 | SQL analytics
+Define metrics at the correct grain
+Joins / windows / period comparisons
+
+00:00:02.500 – 00:00:03.750 | 03 | Power BI data model
+Build a clear semantic model
+Star schema / relationships / date table
+
+00:00:03.750 – 00:00:05.000 | 04 | DAX
+Write a context-aware measure
+CALCULATE / filter context / time intelligence
+
+00:00:05.000 – 00:00:06.250 | 05 | Excel Power Query
+Clean the source before analysis
+Type inference / merge rules / missing values
+
+00:00:06.250 – 00:00:07.500 | 06 | Python statistics
+Explain the uncertainty in a result
+Bootstrap / distributions / interval estimates
+
+00:00:07.500 – 00:00:08.750 | 07 | Cohort analysis
+Separate retention from acquisition
+Cohort month / tenure / denominator
+
+00:00:08.750 – 00:00:10.000 | 08 | Location analysis
+Compare regions on equal terms
+Normalization / exposure / region filters
+
+00:00:10.000 – 00:00:11.250 | 09 | Forecast review
+Compare plan with observed outcomes
+Variance / seasonality / sensitivity
+
+00:00:11.250 – 00:00:12.500 | 10 | Analytical QA
+Reconcile the report to its source
+Totals / missing groups / freshness
+
+00:00:12.500 – 00:00:13.750 | 11 | Decision storytelling
+Present a recommendation with evidence
+Finding / caveat / action / follow-up
+
+00:00:13.750 – 00:00:15.000 | 12 | Published analytics
+Deliver a readable decision surface
+Permissions / refresh / mobile view

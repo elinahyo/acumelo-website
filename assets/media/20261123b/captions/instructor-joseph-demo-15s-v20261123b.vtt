@@ -1,0 +1,49 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.250
+PostgreSQL — Design the analytical data contract
+
+2
+00:00:01.250 --> 00:00:02.500
+SQL — Build an incremental revenue model
+
+3
+00:00:02.500 --> 00:00:03.750
+Python + pandas — Validate and transform the source
+
+4
+00:00:03.750 --> 00:00:05.000
+dbt + orchestration — Trace lineage across models
+
+5
+00:00:05.000 --> 00:00:06.250
+Data quality — Locate anomalies before reporting
+
+6
+00:00:06.250 --> 00:00:07.500
+Jupyter — Explain the analytical assumptions
+
+7
+00:00:07.500 --> 00:00:08.750
+FastAPI — Serve the model through a typed API
+
+8
+00:00:08.750 --> 00:00:10.000
+Plotly + Dash — Build a linked analytical interface
+
+9
+00:00:10.000 --> 00:00:11.250
+Data tests — Check the invariants on every run
+
+10
+00:00:11.250 --> 00:00:12.500
+Pipeline monitoring — Recover failed data partitions
+
+11
+00:00:12.500 --> 00:00:13.750
+Query performance — Measure cost before scaling
+
+12
+00:00:13.750 --> 00:00:15.000
+Data service deployment — Ship a versioned analytical service
