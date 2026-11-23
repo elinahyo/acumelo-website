@@ -8,6 +8,18 @@ Do not perform additional browser or native UI operations for now. Continue code
 
 ## Delivery requirements
 
+Latest planned revision: `20261123c`, currently rendering and not publishable. The contract now contains 38 distinct stable media IDs: 26 instructor-field demonstrations, 6 category overview demonstrations, and 6 common project showcases (24 concepts per field). `tools/plan-media-v3.mjs` checks this contract against the confirmed 11 instructors and 26 teaching-field relationships without copying any media or changing website data:
+
+```sh
+node tools/plan-media-v3.mjs intended-delivery.json content.js .local/integration-plan.json
+```
+
+Create the ignored `.local` directory before writing a local plan. The output is explicitly planning-only; its assignments have `status: pending` and must never be copied directly into the active catalogue. Final delivery-map, actual duration metadata, file hashes and audio QA are still required. The final importer must map delivery kind `showcase` to website kind `project`, set `narration: {language: 'en', temporaryVoice: true}` and `hasBgm: true` for these supplied synthetic-voice/music sequences, and activate assignments only after verification. Do not infer these flags for future real instructor footage.
+
+Instructor profiles use a labelled native field selector and show one matching demo player. Changing fields pauses the old player and creates a manually started player with native controls, captions and `preload=none`. Selection survives an in-page language change. The frontend accepts `members[].media.demos[fieldId]` as a media-ID lookup when assignment history is absent; once history exists, active `mediaAssignments` remain authoritative. Common category showcases stay in a separate project-example section. Human lecture slots, transcript data and captions are preserved; removed transcript links are not restored.
+
+Code-only selector checks cover routing, single-player rendering, pause on change, locale selection, superseded history and manual playback. Mobile visual overflow and actual audio/video playback have not been checked for this pending revision because browser/native UI operations are currently disallowed.
+
 The forthcoming package covers 26 instructor–field demonstrations, at least 50 tools, and student project showcases. Both demonstrations and showcases have English narration and BGM. Instructor narration is temporary until real instructor material is supplied. Duration is determined by content and editing rhythm; there is no 15-second cap. Actual official tool UI references, including ChatGPT, Claude, Gemini, Word, PowerPoint, Excel, n8n, Flutter and React, are required. Do not describe the existing v2 silent reconstructions as satisfying these new requirements.
 
 ## Three independent records

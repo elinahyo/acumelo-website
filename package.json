@@ -6,7 +6,7 @@
   "engines": {"node": ">=24 <25"},
   "scripts": {
     "build": "node tools/build-published-site.mjs",
-    "check": "node tools/check-site.mjs && node tools/check-media-assignments.mjs",
+    "check": "node tools/check-site.mjs && node tools/check-media-assignments.mjs && node tools/check-profile-selector.mjs",
     "start": "node tools/serve.mjs"
   }
 }

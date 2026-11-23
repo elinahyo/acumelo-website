@@ -43,10 +43,18 @@
   const instructorAliases = Object.fromEntries(content.members.flatMap(member => (member.legacyIds || []).map(id => [id, member.id])));
   const resolvePage = page => instructorAliases[page] || page;
   const teachingCourses = member => t('courses').filter(course => member.teachingFieldIds.includes(course.id));
+  const profileDemoSelections = new Map();
   function assignedInstructorDemos(member) {
     const history = (content.mediaAssignments || []).filter(a => a.assignedInstructorId === member.id && a.placement === 'profile-demo');
     // Legacy v2 clips are used only until this profile enters the assignment registry.
-    if (!history.length) return member.media?.demo ? [member.media.demo] : [];
+    if (!history.length) {
+      if (member.media?.demos) return member.teachingFieldIds.map(fieldId => {
+        const mediaId = member.media.demos[fieldId];
+        const asset = content.mediaCatalog?.[mediaId];
+        return asset?.fieldId === fieldId ? {...asset,id:asset.mediaId,fieldIds:[fieldId]} : null;
+      }).filter(Boolean);
+      return member.media?.demo ? [member.media.demo] : [];
+    }
     return history.filter(a => a.status === 'active').map(assignment => {
       const asset = content.mediaCatalog?.[assignment.mediaId];
       if (!asset || asset.fieldId !== assignment.fieldId || !member.teachingFieldIds.includes(assignment.fieldId)) return null;
@@ -279,6 +287,9 @@
     if (asset.illustrative) {
       card.append(el('p', 'media-example-label', t(project ? 'mediaProjectExample' : 'mediaDemoExample')));
     }
+    if (asset.narration?.temporaryVoice) {
+      card.append(el('p', 'media-audio-note', t('mediaSyntheticAudio')));
+    }
     if (asset.description?.[lang]) descriptions.push(asset.description[lang]);
     if (descriptions.length) {
       const description = el('p', 'media-description', descriptions.join(' '));
@@ -300,6 +311,40 @@
       return asset?.fieldId === course.id ? {...asset,id:asset.mediaId} : {};
     }
     return content.courseMedia[course.id]?.[kind] || {};
+  }
+  function instructorDemoSection(member) {
+    const section = el('section', 'profile-own-demo');
+    section.dataset.mediaGroup = 'instructor-demo';
+    section.append(el('h2', '', t('profileOwnDemo')), el('p', 'portfolio-note', t('profileOwnDemoNote')));
+    const demos = assignedInstructorDemos(member);
+    const choices = teachingCourses(member).map(course => ({course,demo:demos.find(d => d.fieldId === course.id || (d.fieldIds?.length === 1 && d.fieldIds[0] === course.id))})).filter(choice => choice.demo);
+    const player = el('div', 'profile-demo-player');
+    player.id = member.id + '-demo-player';
+    const show = demo => {
+      player.querySelectorAll('video').forEach(video => video.pause());
+      player.replaceChildren(mediaCard(demo || {}, demo?.title?.[lang] || t('profileOwnDemo')));
+    };
+    if (choices.length) {
+      const label = el('label', 'profile-demo-field-label', t('profileDemoField'));
+      const select = el('select', 'profile-demo-field-select');
+      select.id = member.id + '-demo-field'; label.htmlFor = select.id;
+      select.setAttribute('aria-controls', player.id);
+      for (const {course} of choices) {
+        const option = el('option', '', course.title); option.value = course.id; select.append(option);
+      }
+      const remembered = profileDemoSelections.get(member.id);
+      select.value = choices.some(choice => choice.course.id === remembered) ? remembered : choices[0].course.id;
+      const choose = () => {
+        const choice = choices.find(item => item.course.id === select.value);
+        profileDemoSelections.set(member.id, choice.course.id);
+        show(choice.demo); // Switching fields never starts audio or playback.
+      };
+      select.addEventListener('change', choose);
+      section.append(label, select); choose();
+    } else show(demos[0]);
+    section.append(player);
+    if (!demos.some(demo => demo.src || demo.url)) section.append(el('p', 'profile-pending', t('profileOwnDemoPending')));
+    return section;
   }
   function courseMediaGrid(course) {
     const grid = el('div', 'course-media-grid');
@@ -415,16 +460,7 @@
     });
     if (!courses.length) connection.append(el('p', '', t('profileCoursesPending')));
     // Instructor demos never fall back to the shared field montages.
-    const ownDemo = el('section', 'profile-own-demo');
-    ownDemo.dataset.mediaGroup = 'instructor-demo';
-    ownDemo.append(el('h2', '', t('profileOwnDemo')), el('p', 'portfolio-note', t('profileOwnDemoNote')));
-    const demos = assignedInstructorDemos(member);
-    for (const demo of (demos.length ? demos : [{}])) {
-      const card = mediaCard(demo, demo.title?.[lang] || t('profileOwnDemo'));
-      if (demo.fieldIds?.length && demos.length > 1) card.append(fieldTags(demo.fieldIds, true));
-      ownDemo.append(card);
-    }
-    if (!demos.some(demo => demo.src || demo.url)) ownDemo.append(el('p', 'profile-pending', t('profileOwnDemoPending')));
+    const ownDemo = instructorDemoSection(member);
     const projects = el('section', 'profile-field-projects');
     projects.dataset.mediaGroup = 'field-projects';
     projects.append(el('h2', '', t('profileFieldProjects')), el('p', 'portfolio-note', t('profileFieldProjectsNote')));
