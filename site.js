@@ -276,17 +276,6 @@
       if (player) player.setAttribute('aria-describedby', description.id);
       card.append(description);
     }
-    if (asset.transcript?.[lang]) {
-      const details = el('details', 'media-transcript');
-      details.append(el('summary', '', t('mediaTranscript')), el('p', '', asset.transcript[lang]));
-      card.append(details);
-    }
-    if (asset.transcriptSrc) {
-      const transcript = el('a', 'line-link media-transcript-link', t('mediaFullTranscript'));
-      transcript.href = asset.transcriptSrc;
-      transcript.target = '_blank'; transcript.rel = 'noopener noreferrer';
-      card.append(transcript);
-    }
     if (hasLink) {
       const link = el('a', 'line-link', t(project ? 'projectOpen' : 'mediaOpen') + ' ↗');
       link.href = asset.url; link.target = '_blank'; link.rel = 'noopener noreferrer'; card.append(link);
