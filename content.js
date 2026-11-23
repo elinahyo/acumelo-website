@@ -1451,7 +1451,8 @@ window.ACUMELO = {
       "profileFieldProjects": "분야별 결과물 예시",
       "profileFieldProjectsNote": "담당 분야의 완성 결과물 콘셉트입니다. 실제 수강생·고객의 실적이 아닌 예시 프로젝트입니다.",
       "profileTeachingFilmNote": "실제 강사가 출연하는 강의영상은 별도로 추가합니다.",
-      "mediaGallery": "영상 23편 전체·장면별 보기"
+      "mediaGallery": "영상 23편 전체·장면별 보기",
+      "profileOwnedLibrary": "보관된 시연 라이브러리"
     },
     "en": {
       "title": "Acumelo — AI learning. Human possibility.",
@@ -1891,7 +1892,8 @@ window.ACUMELO = {
       "profileFieldProjects": "Project examples by field",
       "profileFieldProjectsNote": "Finished project concepts for these teaching fields. These are illustrative examples, not actual student or client results.",
       "profileTeachingFilmNote": "A teaching film featuring the instructor will be added separately.",
-      "mediaGallery": "Explore all 23 films & chapters"
+      "mediaGallery": "Explore all 23 films & chapters",
+      "profileOwnedLibrary": "Media library"
     }
   },
   "courseMedia": {
@@ -2441,5 +2443,7 @@ window.ACUMELO = {
       }
     }
   },
-  "mediaGallery": "assets/media/20261123b/index.html"
+  "mediaGallery": "assets/media/20261123b/index.html",
+  "mediaCatalog": {},
+  "mediaAssignments": []
 };

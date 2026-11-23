@@ -379,6 +379,7 @@ a.field-tag:hover{background:#e6dbf5;border-color:var(--teal)}
 .profile-own-demo,.profile-field-projects,.profile-teaching-film{min-width:0;margin:40px 0 56px;padding-top:32px;border-top:1px solid var(--line)}
 .profile-own-demo>h2,.profile-field-projects>h2,.profile-teaching-film>h2{font-size:27px;margin-bottom:18px}
 .profile-own-demo>.media-card,.profile-teaching-film>.media-card{max-width:780px}
+.profile-own-demo>.media-card+.media-card{margin-top:32px}
 .profile-field-projects .portfolio-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
 .profile-field-projects>.media-library-link{margin-top:28px}
 @media(max-width:900px){.profile-field-projects .portfolio-grid{grid-template-columns:1fr}.profile-own-demo>h2,.profile-field-projects>h2,.profile-teaching-film>h2{font-size:25px}}

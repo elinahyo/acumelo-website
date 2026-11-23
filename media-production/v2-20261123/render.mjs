@@ -7,11 +7,11 @@ import {once} from 'node:events';
 import crypto from 'node:crypto';
 import {members,fields,colors,projects,categoryScenes,references} from './blueprint.mjs';
 import {renderFrame,W,H,FPS,DURATION} from './visuals.mjs';
+import {ffmpeg,registerFonts} from './runtime.mjs';
 const root=path.dirname(fileURLToPath(import.meta.url)),out=path.join(root,'output');
 const req=createRequire(import.meta.url);let lib;try{lib=req('@napi-rs/canvas')}catch{lib=req('@napi-rs/canvas')}
 const {createCanvas,loadImage,GlobalFonts}=lib;
-for(const [f,family] of [['arial.ttf','Arial'],['arialbd.ttf','Arial'],['consola.ttf','Consolas']])GlobalFonts.registerFromPath(path.join('C:/Windows/Fonts',f),family);
-const ffmpeg=process.env.FFMPEG_PATH||path.join(root,'../acumelo-media-2026-11-23/video-production/vendor/imageio_ffmpeg/binaries/ffmpeg-win-x86_64-v9.0.2.exe');
+registerFonts(GlobalFonts);
 const arg=(name,def)=>{let i=process.argv.indexOf('--'+name);return i>=0?process.argv[i+1]:def};
 const only=arg('only','all'),kindFilter=arg('kind','all'),proof=process.argv.includes('--proof'),shard=arg('shard','0/1').split('/').map(Number);
 for(const p of [out,path.join(out,'posters'),path.join(out,'captions'),path.join(out,'transcripts'),path.join(root,'proofs'),path.join(root,'logs')])fs.mkdirSync(p,{recursive:true});

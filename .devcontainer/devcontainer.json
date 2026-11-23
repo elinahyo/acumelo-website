@@ -1,0 +1,8 @@
+{
+  "name": "Acumelo website",
+  "image": "node:24.22.3-bookworm",
+  "forwardPorts": [8765],
+  "portsAttributes": {"8765": {"label": "Acumelo local preview", "onAutoForward": "silent"}},
+  "postCreateCommand": "npm ci && npm run check && npm run build",
+  "remoteUser": "node"
+}

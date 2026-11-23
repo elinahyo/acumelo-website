@@ -43,6 +43,16 @@
   const instructorAliases = Object.fromEntries(content.members.flatMap(member => (member.legacyIds || []).map(id => [id, member.id])));
   const resolvePage = page => instructorAliases[page] || page;
   const teachingCourses = member => t('courses').filter(course => member.teachingFieldIds.includes(course.id));
+  function assignedInstructorDemos(member) {
+    const history = (content.mediaAssignments || []).filter(a => a.assignedInstructorId === member.id && a.placement === 'profile-demo');
+    // Legacy v2 clips are used only until this profile enters the assignment registry.
+    if (!history.length) return member.media?.demo ? [member.media.demo] : [];
+    return history.filter(a => a.status === 'active').map(assignment => {
+      const asset = content.mediaCatalog?.[assignment.mediaId];
+      if (!asset || asset.fieldId !== assignment.fieldId || !member.teachingFieldIds.includes(assignment.fieldId)) return null;
+      return {...asset, id:asset.mediaId, fieldIds:[assignment.fieldId]};
+    }).filter(Boolean);
+  }
   let selectedTeachingField = '';
   const pages = ['home', 'lectures', 'people', 'about', 'contact', 'library', ...courseIds, ...instructorIds];
   const library = el('section', 'section media-library');
@@ -283,6 +293,12 @@
     return card;
   }
   function courseMediaAsset(course, kind) {
+    const history = (content.mediaAssignments || []).filter(a => a.fieldId === course.id && a.placement === 'course-' + kind);
+    if (history.length) {
+      const active = history.find(a => a.status === 'active');
+      const asset = active && content.mediaCatalog?.[active.mediaId];
+      return asset?.fieldId === course.id ? {...asset,id:asset.mediaId} : {};
+    }
     return content.courseMedia[course.id]?.[kind] || {};
   }
   function courseMediaGrid(course) {
@@ -402,9 +418,13 @@
     const ownDemo = el('section', 'profile-own-demo');
     ownDemo.dataset.mediaGroup = 'instructor-demo';
     ownDemo.append(el('h2', '', t('profileOwnDemo')), el('p', 'portfolio-note', t('profileOwnDemoNote')));
-    const demo = member.media?.demo || {};
-    ownDemo.append(mediaCard(demo, demo.title?.[lang] || t('profileOwnDemo')));
-    if (!demo.src && !demo.url) ownDemo.append(el('p', 'profile-pending', t('profileOwnDemoPending')));
+    const demos = assignedInstructorDemos(member);
+    for (const demo of (demos.length ? demos : [{}])) {
+      const card = mediaCard(demo, demo.title?.[lang] || t('profileOwnDemo'));
+      if (demo.fieldIds?.length && demos.length > 1) card.append(fieldTags(demo.fieldIds, true));
+      ownDemo.append(card);
+    }
+    if (!demos.some(demo => demo.src || demo.url)) ownDemo.append(el('p', 'profile-pending', t('profileOwnDemoPending')));
     const projects = el('section', 'profile-field-projects');
     projects.dataset.mediaGroup = 'field-projects';
     projects.append(el('h2', '', t('profileFieldProjects')), el('p', 'portfolio-note', t('profileFieldProjectsNote')));
@@ -419,7 +439,17 @@
     lecture.dataset.mediaGroup = 'lecture';
     lecture.append(el('h2', '', t('mediaLecture')), el('p', 'portfolio-note', t('profileTeachingFilmNote')),
       mediaCard(member.media?.lecture || {}, t('mediaLecture')));
-    section.append(breadcrumb, hero, ownDemo, biography, connection, projects, lecture);
+    section.append(breadcrumb, hero, ownDemo, biography, connection, projects);
+    const retained = (content.mediaAssignments || []).filter(a => a.status === 'active' && a.placement === 'owner-library' && a.assignedInstructorId === member.id)
+      .map(a => content.mediaCatalog?.[a.mediaId]).filter(asset => asset?.contentOwnerId === member.id);
+    if (retained.length) {
+      const archive = el('section', 'profile-field-projects'); archive.dataset.mediaGroup = 'owner-library';
+      archive.append(el('h2', '', member.name[lang] + ' · ' + t('profileOwnedLibrary')));
+      const archiveGrid = el('div', 'portfolio-grid');
+      for (const asset of retained) archiveGrid.append(mediaCard({...asset,id:asset.mediaId},asset.title?.[lang] || t('mediaDemo')));
+      archive.append(archiveGrid); section.append(archive);
+    }
+    section.append(lecture);
   }
   function buildDraft() {
     const org = $('#organization').value.trim() || t('notProvided');

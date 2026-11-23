@@ -16,10 +16,10 @@ Four procedural studies were authored and rendered in Blender 4.5 Cycles. Their 
 
 ## Reproduce
 
-Install the pinned Canvas package using Node 22 or newer. Set `FFMPEG_PATH` to an installed FFmpeg executable. On Windows the renderer uses Arial and Consolas from the system fonts folder; update those paths for another operating system.
+Use Node 24.22.3 and pnpm 9 or newer (lockfile format 9). Run these commands inside this directory. Install FFmpeg on PATH or set `FFMPEG_PATH` to its executable. Windows fonts are found through `WINDIR`; Linux uses installed Liberation fonts. For exact typography set `ACUMELO_FONT_REGULAR`, `ACUMELO_FONT_BOLD` and `ACUMELO_FONT_MONO` to licensed font files. Fallback fonts and different FFmpeg versions can change output hashes; archive the originals for exact recovery. This portability update has syntax checks only; it has not rerendered the historical films or started a Linux container.
 
 ```sh
-npm install
+pnpm install --frozen-lockfile
 npm run proof
 npm run render
 npm run validate

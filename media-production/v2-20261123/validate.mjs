@@ -1,8 +1,9 @@
 import fs from 'node:fs';import path from 'node:path';import {spawnSync} from 'node:child_process';import {fileURLToPath} from 'node:url';import {createRequire} from 'node:module';import crypto from 'node:crypto';
 import {members,fields,projects,categoryScenes} from './blueprint.mjs';import {renderFrame,W,H} from './visuals.mjs';
+import {ffmpeg,registerFonts} from './runtime.mjs';
 const root=path.dirname(fileURLToPath(import.meta.url)),out=path.join(root,'output');const manifest=JSON.parse(fs.readFileSync(path.join(out,'media-manifest.json'),'utf8'));
-const ffmpeg=process.env.FFMPEG_PATH||path.join(root,'../acumelo-media-2026-11-23/video-production/vendor/imageio_ffmpeg/binaries/ffmpeg-win-x86_64-v9.0.2.exe');
 const req=createRequire(import.meta.url);let lib;try{lib=req('@napi-rs/canvas')}catch{lib=req('@napi-rs/canvas')};
+registerFonts(lib.GlobalFonts);
 const {createCanvas}=lib,canvas=createCanvas(W,H),ctx=canvas.getContext('2d');const textIssues=[];
 const proxy=new Proxy(ctx,{get(o,key){if(key==='fillText')return (value,...args)=>{if(/undefined|\bNaN\b|\[object Object\]/.test(String(value)))textIssues.push(String(value));return o.fillText(value,...args)};const val=Reflect.get(o,key,o);return typeof val==='function'?val.bind(o):val},set(o,k,val){return Reflect.set(o,k,val,o)}});
 for(const m of manifest.media)for(let i=0;i<m.scenes.length;i++)for(const t of [.18,.81])renderFrame(proxy,m.scenes[i],t,{...m,sceneIndex:i,sceneCount:m.scenes.length},{});

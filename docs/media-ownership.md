@@ -1,0 +1,78 @@
+# V3 media ownership and page assignment
+
+Status: schema and replacement logic prepared on the development branch; not deployed. Public revision remains `872fe6c2e07ff5101d26497f0af2c8af67ccc3b2`. No unfinished media copied.
+
+## Current operating constraints
+
+Do not perform additional browser or native UI operations for now. Continue code-based preparation only. The user does not want every program launched locally for recording. Build accurate UI reconstructions from public references, using original scenarios and project outcomes. Retain only final deliverables and source material needed for revisions; do not create unnecessary Office samples, recordings or temporary files. Existing approved assets are not implicitly authorized for deletion. The overall approved work and separation of Chris's content ownership from temporary page assignments remain valid. Browser QA listed below is deferred while the no-UI instruction remains in effect.
+
+## Delivery requirements
+
+The forthcoming package covers 26 instructor–field demonstrations, at least 50 tools, and student project showcases. Both demonstrations and showcases have English narration and BGM. Instructor narration is temporary until real instructor material is supplied. Duration is determined by content and editing rhythm; there is no 15-second cap. Actual official tool UI references, including ChatGPT, Claude, Gemini, Word, PowerPoint, Excel, n8n, Flutter and React, are required. Do not describe the existing v2 silent reconstructions as satisfying these new requirements.
+
+## Three independent records
+
+1. `content.mediaCatalog[mediaId]`: stable media identity, `contentOwnerId`, `fieldId`, `kind`, actual duration, titles, descriptions, final mixed MP4, poster and captions. Ownership is the supplied content-management designation, independent of where a clip is shown. Today's supplied assets use `contentOwnerId: instructor-chris`.
+2. `content.mediaAssignments[]`: page placement only. Each record has `assignmentId`, `mediaId`, `assignedInstructorId`, `fieldId`, `placement`, `temporaryAssignment` and `status`. Use `profile-demo` for each instructor-field clip, `course-demo` / `course-project` for category slots, and `owner-library` for retained material on its owner's page. Category placements can have no assigned instructor. Keep superseded records instead of deleting history. Enforce one active assignment per profile/field/placement or course/field/placement at import.
+3. Private archive manifest keyed by stable media ID; link its verified remote archive from `media/releases.json`. Store archive-relative original/source paths, hashes, independent narration and BGM stems, generated-file provenance, tool/UI reference sources and final mix hash here. It is not included in website publication. Keep originals and stems even when the published placement changes. Archive paths and audio stems are never implicitly embedded in the public catalogue.
+
+Example public asset (paths remain unset until delivery):
+
+```json
+{
+  "mediaId": "stable-package-media-id",
+  "contentOwnerId": "instructor-chris",
+  "fieldId": "design",
+  "kind": "demo",
+  "title": {"en": "Delivered title", "ko": "확인된 번역"},
+  "durationSeconds": 42,
+  "src": "",
+  "poster": "",
+  "captions": [],
+  "narration": {"language": "en", "temporaryVoice": true},
+  "hasBgm": true
+}
+```
+
+Example assignment:
+
+```json
+{
+  "assignmentId": "stable-assignment-id",
+  "mediaId": "stable-package-media-id",
+  "assignedInstructorId": "instructor-03",
+  "fieldId": "design",
+  "placement": "profile-demo",
+  "temporaryAssignment": true,
+  "status": "active"
+}
+```
+
+Example internal archive entry shape:
+
+```json
+{
+  "mediaId": "stable-package-media-id",
+  "contentOwnerId": "instructor-chris",
+  "original": {"path": "", "sha256": ""},
+  "audioStems": {
+    "narration": {"path": "", "sha256": "", "language": "en", "temporaryVoice": true},
+    "bgm": {"path": "", "sha256": ""}
+  },
+  "finalMix": {"path": "", "sha256": ""},
+  "references": []
+}
+```
+
+## Replacement behaviour
+
+`tools/media-assignments.mjs` exports a pure `replaceAssignment` operation. Register the real instructor's new asset under a new stable ID first. Replacing an active temporary placement marks its old assignment `superseded`, creates the real asset's active placement, and retains the old asset under Chris's `owner-library`. Neither asset is mutated or deleted; the original input registry remains unchanged. `ownedMedia(data, 'instructor-chris')` retrieves all of Chris's assets regardless of their current page placements. The frontend displays owner-library placements in a separate section and resolves each instructor's active field-specific demos without duplicating shared category demonstrations.
+
+Existing v2 display is the fallback only for pages/slots with no registry history. A superseded assignment must never silently reactivate an old v2 clip. Source collection and local review building walk the new catalogue while keeping MP4 external. Current original data, avatars, IDs and instructor order are preserved.
+
+## Checks and next integration
+
+`node tools/check-media-assignments.mjs` passes original preservation, input immutability, history, replacement routing, owner-library retention and non-15-second durations. Existing instructor graph and builds also pass. The empty catalogue does not change current page content. No browser layout claim is made for the new multi-clip layouts yet; validate them with the actual package before publication.
+
+V2-specific importers, validators and gallery scripts still contain their v2 15-second format assumptions. Do not use them unchanged for V3. On receipt, build the V3 importer/gallery against actual per-clip durations, validate final audio tracks and independent stems, map all 26 confirmed instructor-field combinations, verify official UI provenance, then perform browser/mobile playback QA. Keep removed transcript links and expandable descriptions absent. Publish only after the final package is supplied and verified; do not overwrite original files to perform a page reassignment.
+
