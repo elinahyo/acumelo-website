@@ -1,0 +1,7 @@
+numpy==2.5.5
+scipy==1.18.1
+soundfile==0.14.0
+kokoro-onnx==0.6.1
+onnxruntime==1.32.0
+espeakng-loader==0.2.4
+imageio-ffmpeg==0.8.1

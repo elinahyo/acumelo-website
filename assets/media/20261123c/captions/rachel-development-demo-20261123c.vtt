@@ -1,0 +1,37 @@
+WEBVTT
+
+1
+00:00:01.250 --> 00:00:04.092
+Turn campaign experiment into a working product.
+
+2
+00:00:04.092 --> 00:00:10.960
+Start with the interface, the data contract, and the boundaries between the client, the API, and the storage layer.
+
+3
+00:00:11.360 --> 00:00:14.602
+Build an experiment dashboard in React and TypeScript.
+
+4
+00:00:14.602 --> 00:00:18.324
+Keep assignment, exposure, and conversion as separate events.
+
+5
+00:00:18.324 --> 00:00:23.307
+The interface should make the hypothesis and the current evidence easy to compare.
+
+6
+00:00:23.707 --> 00:00:28.650
+Inspect the experiment records in Supabase and test the event endpoint in Postman.
+
+7
+00:00:28.650 --> 00:00:35.400
+Check the analytics naming, connect the review workflow, and keep the release reproducible with GitHub Actions.
+
+8
+00:00:35.800 --> 00:00:39.336
+Test the critical journey and prepare a repeatable release.
+
+9
+00:00:39.336 --> 00:00:46.767
+The result is experiment dashboard: a usable experience with a clear architecture, visible state, and a path to improve it.

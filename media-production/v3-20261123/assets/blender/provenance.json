@@ -1,0 +1,46 @@
+[
+  {
+    "id": "product",
+    "renderer": "Blender 4.5 Cycles",
+    "frames": 24,
+    "resolution": [
+      960,
+      540
+    ],
+    "original": true,
+    "nativeProject": "product.blend"
+  },
+  {
+    "id": "sculpture",
+    "renderer": "Blender 4.5 Cycles",
+    "frames": 24,
+    "resolution": [
+      960,
+      540
+    ],
+    "original": true,
+    "nativeProject": "sculpture.blend"
+  },
+  {
+    "id": "gallery",
+    "renderer": "Blender 4.5 Cycles",
+    "frames": 24,
+    "resolution": [
+      960,
+      540
+    ],
+    "original": true,
+    "nativeProject": "gallery.blend"
+  },
+  {
+    "id": "islands",
+    "renderer": "Blender 4.5 Cycles",
+    "frames": 24,
+    "resolution": [
+      960,
+      540
+    ],
+    "original": true,
+    "nativeProject": "islands.blend"
+  }
+]

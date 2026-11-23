@@ -1,0 +1,17 @@
+{
+  "name": "acumelo-media-production",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare": "node prepare.mjs",
+    "proof": "node render.mjs --proof",
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "0.1.100"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

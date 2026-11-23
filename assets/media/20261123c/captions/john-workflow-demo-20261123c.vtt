@@ -1,0 +1,37 @@
+WEBVTT
+
+1
+00:00:01.250 --> 00:00:03.779
+An invoice workflow starts with the exceptions.
+
+2
+00:00:03.779 --> 00:00:09.915
+Compare the source rows, find duplicates, and separate a missing purchase order from a simple formatting problem.
+
+3
+00:00:10.315 --> 00:00:12.736
+Ask Claude to propose the validation rules.
+
+4
+00:00:12.736 --> 00:00:17.128
+Check those rules in Excel, then put the review requirements in a Word brief.
+
+5
+00:00:17.128 --> 00:00:20.676
+A confident answer is never a substitute for a checked record.
+
+6
+00:00:21.076 --> 00:00:25.992
+Build separate paths in n eight n for matched invoices and records that need attention.
+
+7
+00:00:25.992 --> 00:00:29.891
+Inspect the payload, keep an idempotency key, and make retries safe.
+
+8
+00:00:30.291 --> 00:00:34.889
+Give the reviewer the original record, the reason it was flagged, and the next action.
+
+9
+00:00:34.889 --> 00:00:39.165
+The final queue, email draft, and summary all point to the same approved state.

@@ -1,6 +1,6 @@
 # V3 media ownership and page assignment
 
-Status: schema and replacement logic prepared on the development branch; not deployed. Public revision remains `872fe6c2e07ff5101d26497f0af2c8af67ccc3b2`. No unfinished media copied.
+Status: final v3 delivery has passed production QA and is integrated for publication. The source/master-stem archive remains pending verified company-cloud storage. No original assets have been deleted.
 
 ## Current operating constraints
 
@@ -8,7 +8,7 @@ Do not perform additional browser or native UI operations for now. Continue code
 
 ## Delivery requirements
 
-Latest planned revision: `20261123c`, currently rendering and not publishable. The contract now contains 38 distinct stable media IDs: 26 instructor-field demonstrations, 6 category overview demonstrations, and 6 common project showcases (24 concepts per field). `tools/plan-media-v3.mjs` checks this contract against the confirmed 11 instructors and 26 teaching-field relationships without copying any media or changing website data:
+Latest revision: `20261123c`, final delivery status `qa-passed`. It contains 38 distinct stable media IDs: 26 instructor-field demonstrations, 6 category overview demonstrations, and 6 common project showcases (24 concepts per field). The earlier `tools/plan-media-v3.mjs` planning check validates the intended contract against the confirmed 11 instructors and 26 teaching-field relationships without copying media or changing website data:
 
 ```sh
 node tools/plan-media-v3.mjs intended-delivery.json content.js .local/integration-plan.json
@@ -18,7 +18,7 @@ Create the ignored `.local` directory before writing a local plan. The output is
 
 Instructor profiles use a labelled native field selector and show one matching demo player. Changing fields pauses the old player and creates a manually started player with native controls, captions and `preload=none`. Selection survives an in-page language change. The frontend accepts `members[].media.demos[fieldId]` as a media-ID lookup when assignment history is absent; once history exists, active `mediaAssignments` remain authoritative. Common category showcases stay in a separate project-example section. Human lecture slots, transcript data and captions are preserved; removed transcript links are not restored.
 
-Code-only selector checks cover routing, single-player rendering, pause on change, locale selection, superseded history and manual playback. Mobile visual overflow and actual audio/video playback have not been checked for this pending revision because browser/native UI operations are currently disallowed.
+Selector checks cover routing, single-player rendering, pause on change, locale selection, superseded history and manual playback. Headless automated QA of the final release passed 76 responsive cases at 320/390 pixels in English/Korean and playback, metadata, poster and caption checks for all 38 films. Field changes and navigation stop playback; playing a second video pauses the first. No desktop browser window was opened or controlled.
 
 The forthcoming package covers 26 instructor–field demonstrations, at least 50 tools, and student project showcases. Both demonstrations and showcases have English narration and BGM. Instructor narration is temporary until real instructor material is supplied. Duration is determined by content and editing rhythm; there is no 15-second cap. Actual official tool UI references, including ChatGPT, Claude, Gemini, Word, PowerPoint, Excel, n8n, Flutter and React, are required. Do not describe the existing v2 silent reconstructions as satisfying these new requirements.
 

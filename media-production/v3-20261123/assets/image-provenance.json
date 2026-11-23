@@ -1,0 +1,41 @@
+{
+  "generator": "Built-in image_gen",
+  "externalPaidGeneration": false,
+  "assets": [
+    {
+      "path": "world.png",
+      "prompt": "Create one high-end finished environment artwork for an AI creative education portfolio reel. Wide 16:9 composition. An expansive futuristic botanical research station built into pale sandstone cliffs, hanging gardens, elegant white architecture, luminous turquoise water channels, tiny architectural scale cues but no prominent people, believable physically based surfaces, cinematic Unreal-engine-style environment art, warm late-afternoon sunlight, dramatic atmospheric depth, fine details, art-directed restrained colors. This is the final artwork, no editor UI, no text, no logos, no frames. Intended to be slowly panned in a website portfolio montage.",
+      "originalGeneratedArtwork": true
+    },
+    {
+      "path": "headphones.png",
+      "prompt": "Create one polished finished product campaign artwork for an AI design portfolio reel. Wide 16:9 editorial advertisement, full-bleed image. A sculptural unbranded coral-orange over-ear headphone with realistic anodized aluminum and soft fabric ear cups suspended above a blue sculpted paper pedestal, elegant directional studio lighting, dark cobalt background with a little haze, beautiful realistic material detail, sophisticated asymmetrical composition with negative space, no text, no logo, no human, no UI. Commercial product photography with subtle futuristic art direction.",
+      "originalGeneratedArtwork": true
+    },
+    {
+      "path": "forest.png",
+      "prompt": "Create one finished architectural visualization for an AI design portfolio reel, wide 16:9. A minimalist contemporary reading pavilion in a quiet pine forest, curved pale timber slats, floor-to-ceiling glass, warm glowing interior, reflections on rain-darkened stone terrace, one sculptural chair, calm mist and soft early morning light, photorealistic materials and global illumination, cinematic sophisticated composition. No text, no logos, no people, no editor UI. This is a final portfolio artwork, not a design diagram.",
+      "originalGeneratedArtwork": true
+    },
+    {
+      "path": "coastal.png",
+      "prompt": "Original finished stylized 3D isometric city artwork for a creative education portfolio. Wide 16:9. A delightful coastal town on an island with white cube houses, terracotta roofs, tiny winding streets, a lighthouse, deep turquoise water, one elevated tram, lush plants, carefully modeled tactile materials, beautifully art-directed clean miniature world, soft sunlight, high quality game environment art. No people close-up, no text, no labels, no UI, no logo. Full image, not a mockup.",
+      "originalGeneratedArtwork": true
+    },
+    {
+      "path": "portal.png",
+      "prompt": "Original finished cinematic VFX concept artwork. Wide 16:9. A luminous circular portal made from thousands of fine blue and violet glass particles hovering in a monumental dark concrete hall, ribbons of coral light spiraling into its centre, atmospheric haze, dramatic reflections on wet black floor, professional cinematic compositing, elegant restrained lighting, realistic complex particle detail. No text, logos, people or editor UI. Final portfolio artwork.",
+      "originalGeneratedArtwork": true
+    },
+    {
+      "path": "desert.png",
+      "prompt": "Original finished architectural visualization for a creative education portfolio. Wide 16:9. A striking brutalist desert art museum, monolithic ivory concrete volumes around a perfectly still cobalt blue reflecting pool, sculptural stairway, ochre dunes beyond, crisp late-afternoon shadows, atmospheric distant mountains, photorealistic material detail and global illumination. Sophisticated architectural photography composition, no people, no text, no logo, no UI.",
+      "originalGeneratedArtwork": true
+    },
+    {
+      "path": "watch.png",
+      "prompt": "Original finished product advertising still for a creative education portfolio, wide 16:9. A beautifully machined unbranded silver wristwatch with deep forest-green dial and soft tan leather strap arranged on a folded cream paper sculpture, close editorial studio shot, exquisite brushed metal detail and realistic glass reflection, warm directional sunlight against a pale sage green background. No visible text anywhere, no brand, no numerals or logo on the watch, no UI, no people. Full-bleed commercial artwork.",
+      "originalGeneratedArtwork": true
+    }
+  ]
+}

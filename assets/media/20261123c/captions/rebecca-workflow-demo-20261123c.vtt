@@ -1,0 +1,41 @@
+WEBVTT
+
+1
+00:00:01.250 --> 00:00:04.882
+Start with a real business process: employee onboarding.
+
+2
+00:00:04.882 --> 00:00:10.850
+We turn scattered inputs into a controlled workflow, then make every result easy to review.
+
+3
+00:00:11.250 --> 00:00:16.232
+Ask ChatGPT to turn the onboarding request into a structured checklist.
+
+4
+00:00:16.232 --> 00:00:21.143
+Keep the policy explanation in Word and the approved inputs in Excel.
+
+5
+00:00:21.143 --> 00:00:25.353
+Access requests and personal details need clear boundaries.
+
+6
+00:00:25.753 --> 00:00:29.603
+Build separate approval and provisioning steps in n eight n.
+
+7
+00:00:29.603 --> 00:00:34.800
+Inspect the payload, prevent duplicate requests, and expose missing information.
+
+8
+00:00:34.800 --> 00:00:39.804
+An email draft and a Notion checklist should reflect the same approved state.
+
+9
+00:00:40.204 --> 00:00:45.660
+The same checked data becomes a Word brief, a PowerPoint summary, and an email draft.
+
+10
+00:00:45.660 --> 00:00:51.693
+A shared dashboard makes onboarding workspace visible, with an owner and a clear next action.

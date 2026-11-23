@@ -1,0 +1,41 @@
+WEBVTT
+
+1
+00:00:01.250 --> 00:00:04.410
+Turn a demand forecast into a service that a planner can use.
+
+2
+00:00:04.410 --> 00:00:09.797
+Define the prediction horizon, the input contract, and the model version before building the interface.
+
+3
+00:00:10.197 --> 00:00:13.405
+Package the demand model behind a typed FastAPI endpoint.
+
+4
+00:00:13.405 --> 00:00:16.726
+Keep the training notebook separate from the serving code.
+
+5
+00:00:16.726 --> 00:00:20.722
+Use Postman to inspect the forecast, its horizon, and its uncertainty.
+
+6
+00:00:21.122 --> 00:00:24.019
+Store each model version and prediction in Supabase.
+
+7
+00:00:24.019 --> 00:00:28.588
+Package the API and worker with Docker, then check the release in GitHub Actions.
+
+8
+00:00:28.588 --> 00:00:32.098
+A planner needs a stable contract, not access to the notebook.
+
+9
+00:00:32.498 --> 00:00:35.660
+Test the critical journey and prepare a repeatable release.
+
+10
+00:00:35.660 --> 00:00:42.306
+The result is planning application: a usable experience with a clear architecture, visible state, and a path to improve it.

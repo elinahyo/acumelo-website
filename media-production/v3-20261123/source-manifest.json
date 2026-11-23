@@ -1,0 +1,630 @@
+{
+  "distribution": "public-reproducible-source",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 78,
+      "sha256": "f27e6ec6f7f5e36468b73f3d9857cb581028e1f6ff5e7030c2d804499a61f2e3"
+    },
+    {
+      "path": "apps.mjs",
+      "bytes": 81150,
+      "sha256": "0a651fa4b00b00c5987dc3050b73c58015d3c190236968f35b479ddaf6a6fdad"
+    },
+    {
+      "path": "assets/blender/gallery/000.jpg",
+      "bytes": 38544,
+      "sha256": "86c5b0f9cd4d527a2c728749acefffe055a56f5ff342cbb0b4800f6c2b79311d"
+    },
+    {
+      "path": "assets/blender/gallery/001.jpg",
+      "bytes": 39258,
+      "sha256": "93961c45b0a580f0a2670834f807256319eef9637bfea5e26d923b7001d366e0"
+    },
+    {
+      "path": "assets/blender/gallery/002.jpg",
+      "bytes": 39650,
+      "sha256": "79051aa8e4e9f2df4cdf9fd0bb2af1e3783d861250bc0f08c77ba43a59417699"
+    },
+    {
+      "path": "assets/blender/gallery/003.jpg",
+      "bytes": 39575,
+      "sha256": "a98c8f3dc81bacd712ca8bbb34a4bdefdaaa6d9d7af4e7de6fe0838f105a6d8c"
+    },
+    {
+      "path": "assets/blender/gallery/004.jpg",
+      "bytes": 38895,
+      "sha256": "d38c259a3c799b553aa93727d179d7c640ee4ccb6026ae0226247255201015bc"
+    },
+    {
+      "path": "assets/blender/gallery/005.jpg",
+      "bytes": 38147,
+      "sha256": "738352ad5b904829972ff5414161304484036a00cdc5629d8d65aed792c54b98"
+    },
+    {
+      "path": "assets/blender/gallery/006.jpg",
+      "bytes": 37267,
+      "sha256": "9e9f6a64a9a1906c15f3718c3f54ebd9e5d6564e8a8ccff9d27ff70bc697988c"
+    },
+    {
+      "path": "assets/blender/gallery/007.jpg",
+      "bytes": 36630,
+      "sha256": "25267eba323ef00f9d377e50001d07e3030d235e3206c5cb675558d99fa39a0d"
+    },
+    {
+      "path": "assets/blender/gallery/008.jpg",
+      "bytes": 35702,
+      "sha256": "d8842efccd150f412ac873b9edde9f1767dc1504c109c49858962990aa029f96"
+    },
+    {
+      "path": "assets/blender/gallery/009.jpg",
+      "bytes": 34041,
+      "sha256": "2ef7df3a43ab145b782a1327d4489aa0a2332a0a9fa3d861e8d0497eeb5f8d07"
+    },
+    {
+      "path": "assets/blender/gallery/010.jpg",
+      "bytes": 32370,
+      "sha256": "53d88d0417534e1d203bf4410f56ea8d35270da4f1161efb3e351597c0a16049"
+    },
+    {
+      "path": "assets/blender/gallery/011.jpg",
+      "bytes": 31659,
+      "sha256": "dd77f712e3b08adf5d83125feb9b6ca1026e221a889e7072ce69569c2e9552c1"
+    },
+    {
+      "path": "assets/blender/gallery/012.jpg",
+      "bytes": 30789,
+      "sha256": "7061083fbb4d84eaf6a98e0c11570b38d5a3ab4c7a89df63c9b97fd9d2e86479"
+    },
+    {
+      "path": "assets/blender/gallery/013.jpg",
+      "bytes": 29342,
+      "sha256": "53ec187525629f54b532578d1184f5cd8bf8a9d7540db80f7a85a2fa0941eec6"
+    },
+    {
+      "path": "assets/blender/gallery/014.jpg",
+      "bytes": 29019,
+      "sha256": "b05f0a46a3365b4746c0b85e7f8f7062303e0657b727a03f4e7cee56e9435599"
+    },
+    {
+      "path": "assets/blender/gallery/015.jpg",
+      "bytes": 29387,
+      "sha256": "c581860b758818a49283c85b88929c4983cf7c0d247d7575c08fa8949290aab3"
+    },
+    {
+      "path": "assets/blender/gallery/016.jpg",
+      "bytes": 29582,
+      "sha256": "f7ca923636bed46417eb9b3911e538e29e6cb9bc9afba8c3499f0af9fa0bfa66"
+    },
+    {
+      "path": "assets/blender/gallery/017.jpg",
+      "bytes": 29546,
+      "sha256": "9bed59ffdaf7cf335838a849927c128a70f02ffbb51ed505b36c5005021aff08"
+    },
+    {
+      "path": "assets/blender/gallery/018.jpg",
+      "bytes": 29565,
+      "sha256": "b844ba7911f67430ea9213ed7106d1e7b85fad10a745a2ebc12eb79958233965"
+    },
+    {
+      "path": "assets/blender/gallery/019.jpg",
+      "bytes": 30026,
+      "sha256": "5fff57f7a8020c3b5d0b9182f2710be36bfc1d8ef56baa2507ea5db41039fbce"
+    },
+    {
+      "path": "assets/blender/gallery/020.jpg",
+      "bytes": 30537,
+      "sha256": "2ced55c69c89dabbf32073aeb2fa207e5b237ca02c7419e2da12104768626b87"
+    },
+    {
+      "path": "assets/blender/gallery/021.jpg",
+      "bytes": 31408,
+      "sha256": "570d5b490f4251eb205d8d1960c9ff17babee5db5880980faf099ca536e7d2b8"
+    },
+    {
+      "path": "assets/blender/gallery/022.jpg",
+      "bytes": 31938,
+      "sha256": "ef0a53ae3e2faef4b5cfb83abe68dea4f364855eeaffa5a997f3715c351ffcad"
+    },
+    {
+      "path": "assets/blender/gallery/023.jpg",
+      "bytes": 32431,
+      "sha256": "0dadf4bf9c6d1f1a7fbe0c45b9d4d3caaadcd58d062cef520f34cb7ecedc0c54"
+    },
+    {
+      "path": "assets/blender/islands/000.jpg",
+      "bytes": 71128,
+      "sha256": "133a96f95ef7a2150d19d99d3b3b5ca782687ea450ec30f3aab23f415ba76404"
+    },
+    {
+      "path": "assets/blender/islands/001.jpg",
+      "bytes": 70983,
+      "sha256": "1bd1d8acc53eca49aff15b8321209ded662886c2aed4914f525b75a92bc40d87"
+    },
+    {
+      "path": "assets/blender/islands/002.jpg",
+      "bytes": 71005,
+      "sha256": "2f43b68d4b3829ba3fbcc78c0e5779e56f0eb608aa3d9445b5dcd22794018e18"
+    },
+    {
+      "path": "assets/blender/islands/003.jpg",
+      "bytes": 70671,
+      "sha256": "237372f93d031e3715e53b9deb0ca9999e227220c62da81817db14698a46a9d6"
+    },
+    {
+      "path": "assets/blender/islands/004.jpg",
+      "bytes": 70875,
+      "sha256": "09394f6c6ac1785da97e8bd6ecf4f3b1c2f83e7ccccd72a670c3191284001ca9"
+    },
+    {
+      "path": "assets/blender/islands/005.jpg",
+      "bytes": 70736,
+      "sha256": "690891f569686e06754a8f9908c55eaa858f3bbbcd066b07981f47f976e60a86"
+    },
+    {
+      "path": "assets/blender/islands/006.jpg",
+      "bytes": 70315,
+      "sha256": "d169d4e4addbed8d1125001dc5b14082b2697ba3c9675d7af7fc20e1f12524ea"
+    },
+    {
+      "path": "assets/blender/islands/007.jpg",
+      "bytes": 70594,
+      "sha256": "394e6cf994427d9a6139c403ba5a2111e6172b25aa60fb7ea0b41d59fa7a3937"
+    },
+    {
+      "path": "assets/blender/islands/008.jpg",
+      "bytes": 70252,
+      "sha256": "23d11f12e20a3b3b84a75348ef3ad2c34a6d14249afb61f2099e772331e55c7e"
+    },
+    {
+      "path": "assets/blender/islands/009.jpg",
+      "bytes": 70224,
+      "sha256": "31a840913ab0dac9ce00176ca0869b4330aebbf9ea66588f6c207153e1949e95"
+    },
+    {
+      "path": "assets/blender/islands/010.jpg",
+      "bytes": 69840,
+      "sha256": "04560e920f8d575cbaf023ed470b0e2c581b41cab75fb47d7fd36663da584c4f"
+    },
+    {
+      "path": "assets/blender/islands/011.jpg",
+      "bytes": 69937,
+      "sha256": "66119c39278bfc14158a7ddbdfd1fdf6f71d5b672b0f5b1a5fbf7964c8bdb957"
+    },
+    {
+      "path": "assets/blender/islands/012.jpg",
+      "bytes": 69885,
+      "sha256": "9fd2737ccf83d28faf08f9ffe4980b126bfb87bb05391ea7446f3420914fbe28"
+    },
+    {
+      "path": "assets/blender/islands/013.jpg",
+      "bytes": 69513,
+      "sha256": "59838fe5265fbaeab9485c6f9d6899d947f0e4fd20cf75d1cbe58ebb5688f2f1"
+    },
+    {
+      "path": "assets/blender/islands/014.jpg",
+      "bytes": 69300,
+      "sha256": "5dcf20bd557316b67810f2e6ee42693a71169cd819415fb73b794855e244fc03"
+    },
+    {
+      "path": "assets/blender/islands/015.jpg",
+      "bytes": 69680,
+      "sha256": "e5d78ed8c9d1331f971cfc16848f2faf5e50834c52bbaa490b0662a329d58ce7"
+    },
+    {
+      "path": "assets/blender/islands/016.jpg",
+      "bytes": 69329,
+      "sha256": "8b44d8b532fbb88aa62c5e913d0c99e3716fc6d96ffe425d5d8f8099cdd0a64d"
+    },
+    {
+      "path": "assets/blender/islands/017.jpg",
+      "bytes": 69498,
+      "sha256": "0cd20d8c0c877e1b44292bfdb4e0911cd1b2cc8f3ee861d3848548d81a00c33c"
+    },
+    {
+      "path": "assets/blender/islands/018.jpg",
+      "bytes": 69219,
+      "sha256": "492dda72aa0930aaa13514aa07d6a6be7226b3c3ac13de80e634df570f06be31"
+    },
+    {
+      "path": "assets/blender/islands/019.jpg",
+      "bytes": 69092,
+      "sha256": "e0a0c816a68f56575b78ddb296a4a19a3be88d0c84cb37a74773795c40fa69ab"
+    },
+    {
+      "path": "assets/blender/islands/020.jpg",
+      "bytes": 69040,
+      "sha256": "7b2d3894527f5a4f5c0d092885f31916fc35492103b70ed3e7d20baf178257c1"
+    },
+    {
+      "path": "assets/blender/islands/021.jpg",
+      "bytes": 69268,
+      "sha256": "719e8fa6baa9fcd446ac4e6726ab7d83981b4278a43a62ba36582cd15d7ad293"
+    },
+    {
+      "path": "assets/blender/islands/022.jpg",
+      "bytes": 69332,
+      "sha256": "6080829e47bd80f0a9d33cbd6faf7b3993d765ab3a076c882c2a4b8c9334d671"
+    },
+    {
+      "path": "assets/blender/islands/023.jpg",
+      "bytes": 69322,
+      "sha256": "d46949cc2db743ef1f02c277d36f988b99b2204d02e1f92c7c19aa9baf358cf5"
+    },
+    {
+      "path": "assets/blender/product/000.jpg",
+      "bytes": 32611,
+      "sha256": "c400f570fd4eecabd6245e582c5611436430b7fc4da1b42b23abf1ef28c675aa"
+    },
+    {
+      "path": "assets/blender/product/001.jpg",
+      "bytes": 32599,
+      "sha256": "ed34fcfe660919a650aa0371d6d88eaad288c2d2fb564a70be004d1fdd5db002"
+    },
+    {
+      "path": "assets/blender/product/002.jpg",
+      "bytes": 32435,
+      "sha256": "b5ab353066f5f6b0fde94dbed857a3c9bf813c3dfc86702b1f2391664e61c4d4"
+    },
+    {
+      "path": "assets/blender/product/003.jpg",
+      "bytes": 32439,
+      "sha256": "013774f08c5067568fc0751319fad8c47192b7a43fe5a0d1f49af9a95335be92"
+    },
+    {
+      "path": "assets/blender/product/004.jpg",
+      "bytes": 32605,
+      "sha256": "81193851ff4c55b54eae0a869da23e049c1dfb9f2c681052c6bd6f47ceba3447"
+    },
+    {
+      "path": "assets/blender/product/005.jpg",
+      "bytes": 32953,
+      "sha256": "d790cf41616dc2d2d7f3f5e594b072e9e81d09592cdbf1cfd4d6f0b5a1493923"
+    },
+    {
+      "path": "assets/blender/product/006.jpg",
+      "bytes": 33120,
+      "sha256": "299de66a35c0a69dc569eba18944ce663e47f0908d5cd68b9d0c0e180e2be2a5"
+    },
+    {
+      "path": "assets/blender/product/007.jpg",
+      "bytes": 33280,
+      "sha256": "40a894f603721481480d419e7317c7cd089c41b11f5cf9aeece0658dceff185e"
+    },
+    {
+      "path": "assets/blender/product/008.jpg",
+      "bytes": 33261,
+      "sha256": "f9a6b46ab16d6af353ca4418919219d2b26d169e615b352d1ff2a85f597c7ce3"
+    },
+    {
+      "path": "assets/blender/product/009.jpg",
+      "bytes": 33356,
+      "sha256": "ce27ed35a1c103abb6f0dfd01892d85d92064e1f5b9e856ad05dad6bfc2a4d53"
+    },
+    {
+      "path": "assets/blender/product/010.jpg",
+      "bytes": 33244,
+      "sha256": "77d32e538aea86095de3f46bbe02aa0174a6f514730c9cfbda2eb78204e3e316"
+    },
+    {
+      "path": "assets/blender/product/011.jpg",
+      "bytes": 33393,
+      "sha256": "4891d363074c59443768a22e9eb6a45c0fe347fcfc4c268ece67d530afb1f14b"
+    },
+    {
+      "path": "assets/blender/product/012.jpg",
+      "bytes": 33253,
+      "sha256": "e779b2a0a72ffdb33cf229b1204b00aaa0c12b4a571aae658fa8d802808a7fdd"
+    },
+    {
+      "path": "assets/blender/product/013.jpg",
+      "bytes": 33315,
+      "sha256": "b01c4ed79c52cc8fa82910b6955eb321607a7e30dc544c01866e8980af203236"
+    },
+    {
+      "path": "assets/blender/product/014.jpg",
+      "bytes": 33308,
+      "sha256": "41c8ae1f196cb4f149b5585b4909f410858ed2dc62f2b19bc87e397fce33ced5"
+    },
+    {
+      "path": "assets/blender/product/015.jpg",
+      "bytes": 33255,
+      "sha256": "66c5af91f1a8c77fbb3b6f7c66097bdd5819b186faea430dd98d7d4248a2f6bd"
+    },
+    {
+      "path": "assets/blender/product/016.jpg",
+      "bytes": 33355,
+      "sha256": "bc637d41bd789565cf33bd87ae9fd49f84f7284f8aaec8d63c510d1d65a560e4"
+    },
+    {
+      "path": "assets/blender/product/017.jpg",
+      "bytes": 33689,
+      "sha256": "a746004faa9dc7e003e20122a01f30b53ae5e1db21f6f3da8084a90bd1b3b9a7"
+    },
+    {
+      "path": "assets/blender/product/018.jpg",
+      "bytes": 33695,
+      "sha256": "faa57d52f744ad4be26aa0a809ff56a451d48d44a5dc09913477b255887b6bab"
+    },
+    {
+      "path": "assets/blender/product/019.jpg",
+      "bytes": 33951,
+      "sha256": "8edd02c8e95fff4d2a41d706862faafd9c0ea44f07af74262f136f2fc6d0992f"
+    },
+    {
+      "path": "assets/blender/product/020.jpg",
+      "bytes": 33952,
+      "sha256": "214d3d9170cf4e8fef5181051e041cc11e1f86b2e9719f110e248801cb9358b4"
+    },
+    {
+      "path": "assets/blender/product/021.jpg",
+      "bytes": 34279,
+      "sha256": "5dbe7ad53c925b13f7be7b100d26ed43a0d9c77ec2a9323b9c3789dd8e0009ae"
+    },
+    {
+      "path": "assets/blender/product/022.jpg",
+      "bytes": 34640,
+      "sha256": "6688ecddad9cd110dc3c7d110d9946a201e887ca5b51cdcd8b7d7601c3242dcd"
+    },
+    {
+      "path": "assets/blender/product/023.jpg",
+      "bytes": 35242,
+      "sha256": "94448336875e9985df20c9736d0245bd78b01c1833c30020894ed93a0f3f31e5"
+    },
+    {
+      "path": "assets/blender/provenance.json",
+      "bytes": 823,
+      "sha256": "30c76c15a759d9cf1fd38866d80c86ac678322d5426654f8aeeeaeb09c3a3e07"
+    },
+    {
+      "path": "assets/blender/sculpture/000.jpg",
+      "bytes": 42782,
+      "sha256": "0312c3a3fcac654801a46b7b59f5cfb0a704ba737086712588cec6832e6b2e03"
+    },
+    {
+      "path": "assets/blender/sculpture/001.jpg",
+      "bytes": 44361,
+      "sha256": "bf4278e686b7891667c82c0cf2e6de23d0852aac26dda23f9c710378f2deb29b"
+    },
+    {
+      "path": "assets/blender/sculpture/002.jpg",
+      "bytes": 45720,
+      "sha256": "3e432a2c95bd378613e15ef0214a95a768065e3907994add4fee54c3e8010c0d"
+    },
+    {
+      "path": "assets/blender/sculpture/003.jpg",
+      "bytes": 46912,
+      "sha256": "cd839376cab00a5fe59ee26d17aa5e2474df2ab5927ea0a414e49b88a0f18032"
+    },
+    {
+      "path": "assets/blender/sculpture/004.jpg",
+      "bytes": 48426,
+      "sha256": "015ed8c45327ec464f183b5c2f0118be882abc7ececf066d7735ccbbdada9ff1"
+    },
+    {
+      "path": "assets/blender/sculpture/005.jpg",
+      "bytes": 49306,
+      "sha256": "b5c70a5cf4cf49fad54c6a61d832433d7ee84ad16833d34d5fa925ce681e1d43"
+    },
+    {
+      "path": "assets/blender/sculpture/006.jpg",
+      "bytes": 50630,
+      "sha256": "8ce60f039c67004127b3ba5b3ebf942825d5575dac17ff5c99da13fe106572c6"
+    },
+    {
+      "path": "assets/blender/sculpture/007.jpg",
+      "bytes": 51870,
+      "sha256": "15323fc6a378137d95ed2a0956f947542fddde77223ff6a83a9dc1a0c22d40b6"
+    },
+    {
+      "path": "assets/blender/sculpture/008.jpg",
+      "bytes": 52968,
+      "sha256": "ce4ab7d32d409b374b42e0b7fda7446b9564202cb446c30a96e58fe86aaca2da"
+    },
+    {
+      "path": "assets/blender/sculpture/009.jpg",
+      "bytes": 53673,
+      "sha256": "c996a2b56314459feafede4870e9746e742f517cb7cf3fa94ef7ff7090ca363c"
+    },
+    {
+      "path": "assets/blender/sculpture/010.jpg",
+      "bytes": 53527,
+      "sha256": "5dffb5ab3c5a685cf407a0edbe7d5ee1408cd11f6d038f5322ee69fc100125de"
+    },
+    {
+      "path": "assets/blender/sculpture/011.jpg",
+      "bytes": 53287,
+      "sha256": "c1c4d8b8333398440b237125ff69ffa783449a24c826021fd02ec954dfca11bb"
+    },
+    {
+      "path": "assets/blender/sculpture/012.jpg",
+      "bytes": 52512,
+      "sha256": "90fa86306c503409e577090e66b6ccb80e2fe368e3493e971817a446b6097aa4"
+    },
+    {
+      "path": "assets/blender/sculpture/013.jpg",
+      "bytes": 51771,
+      "sha256": "182585160ade02abac8172acbd8ce661acaeff5e157343f32098efd47909f143"
+    },
+    {
+      "path": "assets/blender/sculpture/014.jpg",
+      "bytes": 50797,
+      "sha256": "2e34509a90334b9a9f62ac553aa1b7b7cc568efb76010670fac9cb1bd293018a"
+    },
+    {
+      "path": "assets/blender/sculpture/015.jpg",
+      "bytes": 49962,
+      "sha256": "41d75bdb36864cc58b065ac025ca9034e590bab3bb861d6fd1c9b5b531c7afd9"
+    },
+    {
+      "path": "assets/blender/sculpture/016.jpg",
+      "bytes": 48625,
+      "sha256": "c24003d117c8932b97249344d1f1b049befd5466ba1f785e5289b23be7098734"
+    },
+    {
+      "path": "assets/blender/sculpture/017.jpg",
+      "bytes": 47065,
+      "sha256": "fef9abbd2ad3432b8120fa6ee8419dc3eb0f0a6f5480aa6b0a49d0f1a291044f"
+    },
+    {
+      "path": "assets/blender/sculpture/018.jpg",
+      "bytes": 45965,
+      "sha256": "ff8df0484715d0ee0600e82f287ea6307022943cba63860dea2212d21290187a"
+    },
+    {
+      "path": "assets/blender/sculpture/019.jpg",
+      "bytes": 44577,
+      "sha256": "e1ef9cc302d3b3a7c7d0143702db9eaa42a3dee98606edc2ab603184f9fe2c50"
+    },
+    {
+      "path": "assets/blender/sculpture/020.jpg",
+      "bytes": 42805,
+      "sha256": "e95568e0bbe8dd2e754aa2bf5c4dc3216555498b70e7ab5427fa8e5fbc39d4c0"
+    },
+    {
+      "path": "assets/blender/sculpture/021.jpg",
+      "bytes": 41574,
+      "sha256": "aacf38a5b013cfc5967fba26161275e5df0a3fa0049f42ea2ed3d449db451409"
+    },
+    {
+      "path": "assets/blender/sculpture/022.jpg",
+      "bytes": 39983,
+      "sha256": "c8a8ffcf5d5002e59d13dd2bcccd6731c4601a69d917513a85c08828190c2c31"
+    },
+    {
+      "path": "assets/blender/sculpture/023.jpg",
+      "bytes": 38893,
+      "sha256": "8d36d2d7f6c88b3983014cabcfbb4d1082c6f4602222c92f9385cdb95c944b01"
+    },
+    {
+      "path": "assets/coastal.png",
+      "bytes": 3521968,
+      "sha256": "cb807f26b955ca2a4ab5c15ce795a7344ac3eed3ba920ae5377073c232283156"
+    },
+    {
+      "path": "assets/desert.png",
+      "bytes": 2373901,
+      "sha256": "431490656144685849a6037ac896b581a349749ebb54354631094c03b786bf77"
+    },
+    {
+      "path": "assets/forest.png",
+      "bytes": 2908443,
+      "sha256": "c9a3c019ca58cec6f2e8f513281be45df6c725100874f632034fd58de56c875d"
+    },
+    {
+      "path": "assets/headphones.png",
+      "bytes": 1943660,
+      "sha256": "66c83549a6264a38a5bfa0ae72f2fc2d8e138c4a5cafe81696e7ae4df692832a"
+    },
+    {
+      "path": "assets/image-provenance.json",
+      "bytes": 4490,
+      "sha256": "298d8d83b2eb6e18bf2db62b4b16c5b01c4f2a527a4eadf1fb5b062367767c4f"
+    },
+    {
+      "path": "assets/portal.png",
+      "bytes": 2788812,
+      "sha256": "95252ec3b5dec878dd4209360c3df3ee314c342c6d630bf8d4a0a923dd55cb09"
+    },
+    {
+      "path": "assets/watch.png",
+      "bytes": 2240943,
+      "sha256": "44fa3c7895b5f2b0cdff532591c9aee6d18efdafed7df8412732959b494bdbb1"
+    },
+    {
+      "path": "assets/world.png",
+      "bytes": 3170686,
+      "sha256": "31c3f703a4d84b13f4b1dd301631f3148b9c62ea48b4acf703c673c266606591"
+    },
+    {
+      "path": "audio.py",
+      "bytes": 6408,
+      "sha256": "b54ee8aa6efbba4d97554e981963a850bf7d1dbf3088efeb606c2a37ac3aa3b3"
+    },
+    {
+      "path": "base-blueprint.mjs",
+      "bytes": 34162,
+      "sha256": "49f9f0b9b2dbd2820bec57d23b36965f8397d1f1d3fe61b4f88641517ca96352"
+    },
+    {
+      "path": "blueprint.mjs",
+      "bytes": 17744,
+      "sha256": "51cf6615cba691f53cd8db607f072943ce986f02556c6566a61f2a5759a5919a"
+    },
+    {
+      "path": "case-direction.mjs",
+      "bytes": 18391,
+      "sha256": "7d6783de73ce9c8c45363391ebe7c92b4e431b257f85b667332344f8b0f8cd30"
+    },
+    {
+      "path": "models.json",
+      "bytes": 534,
+      "sha256": "48728e4726d46a9ea842e90f7074829445e5bb8892bd4da699cc3493aac2281c"
+    },
+    {
+      "path": "native/blender_studio.py",
+      "bytes": 5797,
+      "sha256": "77e16d5c7503f4dfc6fb673b344cb20666347eb703c6fa0056f8cd63ad8bdee7"
+    },
+    {
+      "path": "package-media.mjs",
+      "bytes": 7635,
+      "sha256": "7fd7e0d4683afe4ed57bfd1e20c2d673af36488e0a05bb994c156714a8f85b70"
+    },
+    {
+      "path": "package.json",
+      "bytes": 341,
+      "sha256": "9891713632223c6dc9b7b6ed12f6889439a02417bcd64a19a78c44974fe7fe9b"
+    },
+    {
+      "path": "prepare.mjs",
+      "bytes": 345,
+      "sha256": "c42ff29e4ec9bc3ff8eeb3c642dcc1903108aa978a90a4aa3e1639cb4c5558d7"
+    },
+    {
+      "path": "production.json",
+      "bytes": 272348,
+      "sha256": "7db6a2a890b033e72b71d7378faa145a3cf9dd553908076cf74323c93df2d40f"
+    },
+    {
+      "path": "project-visuals.mjs",
+      "bytes": 61213,
+      "sha256": "76d361dae24dd8a9661f3a8ba1b293d4a09edd759989537ea94295a9396d4c19"
+    },
+    {
+      "path": "qa.py",
+      "bytes": 2718,
+      "sha256": "fb9bf9200ee8886d41ed01bf8e0a921296e190c61901b8f32a8b28bd44e61606"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4163,
+      "sha256": "c930ae973d46ae9dfc830961e6c6616cc99ab1b0409e7da14ad0dc515c26f696"
+    },
+    {
+      "path": "REFERENCES.json",
+      "bytes": 423,
+      "sha256": "c3eddd551647e4a6a115419833f09a895a344e2e129f122136842bdddb147d3a"
+    },
+    {
+      "path": "render.mjs",
+      "bytes": 11102,
+      "sha256": "0607331a0abe7111dbfd7232bbc96c15d4153f9808026a941468686dc78192bb"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 136,
+      "sha256": "e67ac78104c1025c4357ba69fdb05ff70db9dcb66af3b8c163f356673d024b00"
+    },
+    {
+      "path": "setup_audio.py",
+      "bytes": 832,
+      "sha256": "9b75032a74c9abd8e862b1ec606f0b44d1d89fcbdfba833d3f2aae82f44d95ba"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "bytes": 4352,
+      "sha256": "0c049adaf1d95ec709774cd3417d7ac8eae29ad582c64dae692cf1bff2db1449"
+    }
+  ]
+}

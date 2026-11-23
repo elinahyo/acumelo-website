@@ -3,14 +3,14 @@
 Canonical remote: [elinahyo/acumelo-website](https://github.com/elinahyo/acumelo-website).
 Published preview: [GitHub Pages](https://elinahyo.github.io/acumelo-website/).
 
-`main` is the published site. `codex/remote-development` backs up pending media-ownership work and portable development setup. The new narrated media is not finished. Current published media is the earlier silent v2 collection. Domain, DNS and email settings are outside this change.
+`main` is the publication branch. The current release contains 38 narrated illustrative films: 26 instructor-field demonstrations, six category overviews and six common project showcases. `codex/remote-development` retains the development history. Media identity and Chris's original content ownership are separate from temporary instructor assignments. Domain, DNS and email settings are outside this change.
 
 ## Resume on any PC
 
 Install Git and Node **24.22.3** (with bundled npm), then:
 
 ```sh
-git clone --branch codex/remote-development https://github.com/elinahyo/acumelo-website.git
+git clone --branch main https://github.com/elinahyo/acumelo-website.git
 cd acumelo-website
 npm ci
 npm run check
@@ -41,7 +41,7 @@ Keep media identity and content ownership separate from page placement. New asse
 
 ## Original media and remote recovery
 
-The forthcoming narrated media, separate narration/BGM stems and editable originals have not been delivered or archived yet. `media/releases.json` must stay empty until real uploads are verified. Published v2 files and supplied renderer sources already exist in Git; they do not substitute for upcoming originals.
+The final narrated web media and reproducible renderer sources have been delivered. Independent narration/BGM WAV stems and the complete editable master archive still await verified company-cloud storage. `media/releases.json` stays empty until those archive uploads are verified. The web MP4s and Git renderer source do not substitute for the complete original archive.
 
 Use versioned GitHub Releases for public, approved archives, or access-controlled cloud storage for private originals. Record each archive's version, immutable URL, SHA-256, byte size, contained media IDs and access classification. Keep an internal source/stem hash manifest inside each archive. Do not commit credentials or temporary signed URLs.
 
@@ -51,6 +51,6 @@ Before any local cleanup: upload the complete archive, download it independently
 
 ## Release process
 
-Run checks and build, review the diff and commit to a development branch. `main` is the Pages publication branch. Do not merge unfinished media integration. After final delivery, validate all 26 instructor-field mappings, audio/stems, durations, captions, single-player behaviour, navigation stops and mobile layouts before publication. Browser/mobile QA of pending multi-video layouts is deferred under the current no-UI instruction.
+Run checks and build, review the diff and commit to a development branch. `main` is the Pages publication branch. Validate all 26 instructor-field mappings, audio, durations, captions, single-player behaviour, navigation stops and mobile layouts before publication. `tools/check-media-browser.mjs` supports headless checks without controlling desktop windows: provide `PLAYWRIGHT_MODULE`, `QA_BROWSER_EXECUTABLE`, optional `QA_BASE_URL` and `QA_REPORT` for the current environment. Desktop browser windows are not opened by this check.
 
-The historical `media-production/v2-20261123` renderer has its own lockfile and README. Its silent, 15-second rules apply only to v2; do not use them unchanged for new media.
+The current renderer is in `media-production/v3-20261123`, with a separate pinned Canvas lockfile, model download URLs/hashes and original visual example assets. Historical v2 silent, 15-second validators do not apply to v3. The current example films use temporary synthetic English narration and original procedural music; they are not actual instructor voices, live application recordings or verified student work.

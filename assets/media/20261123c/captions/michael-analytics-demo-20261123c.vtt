@@ -1,0 +1,37 @@
+WEBVTT
+
+1
+00:00:01.250 --> 00:00:03.675
+The question comes first: sales performance.
+
+2
+00:00:03.675 --> 00:00:08.635
+Check the grain of the data and its definitions before you draw a chart or build a model.
+
+3
+00:00:09.035 --> 00:00:12.365
+Start in Excel and reconcile revenue, target, and margin.
+
+4
+00:00:12.365 --> 00:00:19.786
+Build explicit measures in Power BI, then use Tableau to compare regions and products without mixing incompatible definitions.
+
+5
+00:00:20.186 --> 00:00:23.461
+Inspect an unusual movement in Jupyter and check its source.
+
+6
+00:00:23.461 --> 00:00:30.610
+Bring the verified measures into Looker Studio, then use PowerPoint to explain what changed and which management decision follows.
+
+7
+00:00:31.010 --> 00:00:33.346
+Publish the story as management scorecard.
+
+8
+00:00:33.346 --> 00:00:37.908
+Let people filter the view, inspect the evidence, and understand the next action.
+
+9
+00:00:37.908 --> 00:00:41.858
+The presentation should remain clear when the underlying data changes.

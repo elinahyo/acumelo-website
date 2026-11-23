@@ -1,0 +1,41 @@
+WEBVTT
+
+1
+00:00:01.250 --> 00:00:04.019
+The question comes first: revenue quality.
+
+2
+00:00:04.019 --> 00:00:09.954
+Check the grain of the data and its definitions before you draw a chart or build a model.
+
+3
+00:00:10.354 --> 00:00:13.007
+Reconcile the source totals in Excel.
+
+4
+00:00:13.007 --> 00:00:17.667
+In a notebook, inspect missing values and revenue distributions.
+
+5
+00:00:17.667 --> 00:00:23.474
+Use Python and SQL to separate a true business change from a data-quality issue.
+
+6
+00:00:23.874 --> 00:00:31.651
+Model the measures in Power BI, compare segments in Tableau, and inspect the operational signal in Grafana.
+
+7
+00:00:31.651 --> 00:00:36.811
+Trace each metric back to its definition before presenting the result.
+
+8
+00:00:37.211 --> 00:00:39.977
+Publish the story as executive dashboard.
+
+9
+00:00:39.977 --> 00:00:45.508
+Let people filter the view, inspect the evidence, and understand the next action.
+
+10
+00:00:45.508 --> 00:00:50.298
+The presentation should remain clear when the underlying data changes.

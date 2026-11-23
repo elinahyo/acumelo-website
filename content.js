@@ -117,6 +117,14 @@ window.ACUMELO = {
           "src": "",
           "poster": "",
           "captions": []
+        },
+        "demos": {
+          "workflow": "acumelo-chris-workflow-demo-20261123c",
+          "strategy": "acumelo-chris-strategy-demo-20261123c",
+          "design": "acumelo-chris-design-demo-20261123c",
+          "analytics": "acumelo-chris-analytics-demo-20261123c",
+          "marketing": "acumelo-chris-marketing-demo-20261123c",
+          "development": "acumelo-chris-development-demo-20261123c"
         }
       }
     },
@@ -208,6 +216,11 @@ window.ACUMELO = {
           "src": "",
           "poster": "",
           "captions": []
+        },
+        "demos": {
+          "strategy": "acumelo-sage-strategy-demo-20261123c",
+          "design": "acumelo-sage-design-demo-20261123c",
+          "development": "acumelo-sage-development-demo-20261123c"
         }
       }
     },
@@ -297,6 +310,10 @@ window.ACUMELO = {
           "src": "",
           "poster": "",
           "captions": []
+        },
+        "demos": {
+          "design": "acumelo-pillow-design-demo-20261123c",
+          "development": "acumelo-pillow-development-demo-20261123c"
         }
       }
     },
@@ -386,6 +403,10 @@ window.ACUMELO = {
           "src": "",
           "poster": "",
           "captions": []
+        },
+        "demos": {
+          "workflow": "acumelo-john-workflow-demo-20261123c",
+          "development": "acumelo-john-development-demo-20261123c"
         }
       }
     },
@@ -475,6 +496,10 @@ window.ACUMELO = {
           "src": "",
           "poster": "",
           "captions": []
+        },
+        "demos": {
+          "strategy": "acumelo-sarah-strategy-demo-20261123c",
+          "design": "acumelo-sarah-design-demo-20261123c"
         }
       }
     },
@@ -565,6 +590,10 @@ window.ACUMELO = {
           "src": "",
           "poster": "",
           "captions": []
+        },
+        "demos": {
+          "analytics": "acumelo-joseph-analytics-demo-20261123c",
+          "development": "acumelo-joseph-development-demo-20261123c"
         }
       }
     },
@@ -654,6 +683,10 @@ window.ACUMELO = {
           "src": "",
           "poster": "",
           "captions": []
+        },
+        "demos": {
+          "marketing": "acumelo-rachel-marketing-demo-20261123c",
+          "development": "acumelo-rachel-development-demo-20261123c"
         }
       }
     },
@@ -743,6 +776,10 @@ window.ACUMELO = {
           "src": "",
           "poster": "",
           "captions": []
+        },
+        "demos": {
+          "analytics": "acumelo-joshua-analytics-demo-20261123c",
+          "development": "acumelo-joshua-development-demo-20261123c"
         }
       }
     },
@@ -832,6 +869,10 @@ window.ACUMELO = {
           "src": "",
           "poster": "",
           "captions": []
+        },
+        "demos": {
+          "workflow": "acumelo-elizabeth-workflow-demo-20261123c",
+          "strategy": "acumelo-elizabeth-strategy-demo-20261123c"
         }
       }
     },
@@ -919,6 +960,9 @@ window.ACUMELO = {
           "src": "",
           "poster": "",
           "captions": []
+        },
+        "demos": {
+          "analytics": "acumelo-michael-analytics-demo-20261123c"
         }
       }
     },
@@ -1008,6 +1052,10 @@ window.ACUMELO = {
           "src": "",
           "poster": "",
           "captions": []
+        },
+        "demos": {
+          "workflow": "acumelo-rebecca-workflow-demo-20261123c",
+          "development": "acumelo-rebecca-development-demo-20261123c"
         }
       }
     }
@@ -1436,7 +1484,7 @@ window.ACUMELO = {
       "mediaFieldLabel": "관련 분야",
       "mediaDemoExample": "UI 재구성",
       "mediaProjectExample": "예시 프로젝트",
-      "mediaExampleNotice": "UI를 재구성한 시연과 완성 결과물 예시입니다. 실제 앱 녹화나 실제 수강생 실적이 아닙니다.",
+      "mediaExampleNotice": "화면을 재구성한 교육용 시연과 공통 프로젝트 예시입니다. 영어 합성 해설과 자체 배경음을 사용하며, 실제 앱 녹화·강사 목소리·수강생 제출물이 아닙니다.",
       "mediaLibraryTitle": "시연·결과물 예시 라이브러리",
       "mediaLibraryExplore": "공통 시연 라이브러리 보기",
       "mediaLibraryIntro": "6개 AI 분야의 심화 시연과 분야별 완성 결과물 콘셉트 24개를 살펴보세요. UI 재구성·예시 프로젝트이며 실제 수강생 실적이 아닙니다.",
@@ -1448,12 +1496,12 @@ window.ACUMELO = {
       "profileOwnDemo": "이 강사의 시연",
       "profileDemoField": "시연 분야 선택",
       "mediaSyntheticAudio": "임시 영어 합성 해설 · 자체 제작 배경음",
-      "profileOwnDemoNote": "구현 과정을 학습할 수 있도록 재구성한 교육용 시연입니다.",
+      "profileOwnDemoNote": "분야별로 재구성한 시연 예시입니다. 임시 영어 합성 해설과 자체 제작 배경음을 사용합니다.",
       "profileOwnDemoPending": "이 강사를 위한 고유 심화 시연을 준비하고 있습니다.",
       "profileFieldProjects": "분야별 결과물 예시",
-      "profileFieldProjectsNote": "담당 분야의 완성 결과물 콘셉트입니다. 실제 수강생·고객의 실적이 아닌 예시 프로젝트입니다.",
+      "profileFieldProjectsNote": "담당 분야의 공통 프로젝트 콘셉트입니다. 이 강사의 실제 수강생 제출물이나 고객 실적이 아닙니다.",
       "profileTeachingFilmNote": "실제 강사가 출연하는 강의영상은 별도로 추가합니다.",
-      "mediaGallery": "영상 23편 전체·장면별 보기",
+      "mediaGallery": "전체 영상 38편 보기",
       "profileOwnedLibrary": "보관된 시연 라이브러리"
     },
     "en": {
@@ -1879,7 +1927,7 @@ window.ACUMELO = {
       "mediaFieldLabel": "Related fields",
       "mediaDemoExample": "UI reconstruction",
       "mediaProjectExample": "Illustrative project",
-      "mediaExampleNotice": "Reconstructed workflows and illustrative finished projects, not live app recordings or actual student results.",
+      "mediaExampleNotice": "Reconstructed training examples and shared project concepts. Synthetic English narration and original music; not live software recordings, real instructor voices or student submissions.",
       "mediaLibraryTitle": "Example library",
       "mediaLibraryExplore": "Explore the example library",
       "mediaLibraryIntro": "Explore six AI fields through in-depth demonstrations and 24 finished project concepts per field. These are UI reconstructions and illustrative projects, not actual student results.",
@@ -1891,12 +1939,12 @@ window.ACUMELO = {
       "profileOwnDemo": "This instructor’s demo",
       "profileDemoField": "Choose a demonstration field",
       "mediaSyntheticAudio": "Temporary synthetic English narration · original music",
-      "profileOwnDemoNote": "An illustrative walkthrough of the build process, reconstructed for learning.",
+      "profileOwnDemoNote": "Field-specific reconstructed examples with temporary synthetic English narration and original music.",
       "profileOwnDemoPending": "A dedicated in-depth demo is being prepared for this instructor.",
       "profileFieldProjects": "Project examples by field",
-      "profileFieldProjectsNote": "Finished project concepts for these teaching fields. These are illustrative examples, not actual student or client results.",
+      "profileFieldProjectsNote": "Shared project concepts for these fields, not this instructor’s actual student submissions or client work.",
       "profileTeachingFilmNote": "A teaching film featuring the instructor will be added separately.",
-      "mediaGallery": "Explore all 23 films & chapters",
+      "mediaGallery": "Explore all 38 films",
       "profileOwnedLibrary": "Media library"
     }
   },
@@ -1910,86 +1958,68 @@ window.ACUMELO = {
         "captions": []
       },
       "demo": {
-        "id": "workflow-demo-15s",
+        "mediaId": "acumelo-workflow-overview-20261123c",
+        "id": "acumelo-workflow-overview-20261123c",
+        "contentOwnerId": "instructor-chris",
+        "fieldId": "workflow",
         "kind": "demo",
-        "status": "ready",
         "scope": "category",
-        "fieldIds": [
-          "workflow"
-        ],
+        "status": "ready",
         "illustrative": true,
         "title": {
-          "en": "AI Workflow & Automation / Frameworks in practice",
-          "ko": "데이터 정리·보고서·이메일·승인 자동화"
+          "en": "AI Workflow & Automation",
+          "ko": "AI 업무혁신·자동화 · 시연"
         },
-        "description": {
-          "en": "Excel Power Query → Office Scripts → PowerPoint → Outlook + email rules.",
-          "ko": "데이터 정리·보고서·이메일·승인 자동화"
-        },
-        "src": "assets/media/20261123b/workflow-demo-15s-v20261123b.mp4",
-        "poster": "assets/media/20261123b/posters/workflow-demo-15s-v20261123b.jpg",
-        "durationSeconds": 15,
-        "frameworks": [
-          "Excel Power Query",
-          "Office Scripts",
-          "PowerPoint",
-          "Outlook + email rules",
-          "n8n",
-          "n8n approval workflows",
-          "Service inbox automation",
-          "FastAPI",
-          "Queues + workers",
-          "Escalation automation",
-          "Operations telemetry",
-          "Operational handover"
-        ],
-        "transcript": {
-          "en": "1. Normalize messy operational exports\nUnpivot / type rules / duplicate keys\n\n2. Generate a repeatable report\nNamed tables / formulas / workbook validation\n\n3. Produce a data-linked executive deck\nTemplate slots / charts / speaker notes\n\n4. Route messages with confidence\nClassify / redact / approval / draft\n\n5. Connect Excel, email and reporting\nSchedule → transform → report → approval → send\n\n6. Automate the human decision points\nRequest → policy → owner → approve → audit\n\n7. Route and draft with source evidence\nClassification / retrieval / draft / review\n\n8. Expose a typed automation endpoint\nPydantic / idempotency / structured errors\n\n9. Handle retries without duplicates\nBackoff / dead letters / correlation ID\n\n10. Handle exceptions explicitly\nTimeout / fallback owner / audit events\n\n11. Trace one job across services\nLatency / run history / failure reasons\n\n12. Transfer a maintainable workflow\nRunbook / support owner / change process",
-          "ko": "데이터 정리·보고서·이메일·승인 자동화\n\n1. Normalize messy operational exports\nUnpivot / type rules / duplicate keys\n\n2. Generate a repeatable report\nNamed tables / formulas / workbook validation\n\n3. Produce a data-linked executive deck\nTemplate slots / charts / speaker notes\n\n4. Route messages with confidence\nClassify / redact / approval / draft\n\n5. Connect Excel, email and reporting\nSchedule → transform → report → approval → send\n\n6. Automate the human decision points\nRequest → policy → owner → approve → audit\n\n7. Route and draft with source evidence\nClassification / retrieval / draft / review\n\n8. Expose a typed automation endpoint\nPydantic / idempotency / structured errors\n\n9. Handle retries without duplicates\nBackoff / dead letters / correlation ID\n\n10. Handle exceptions explicitly\nTimeout / fallback owner / audit events\n\n11. Trace one job across services\nLatency / run history / failure reasons\n\n12. Transfer a maintainable workflow\nRunbook / support owner / change process"
-        },
-        "transcriptSrc": "assets/media/20261123b/transcripts/workflow-demo-15s-v20261123b.txt",
+        "src": "assets/media/20261123c/workflow-overview-20261123c.mp4",
+        "poster": "assets/media/20261123c/posters/workflow-overview-20261123c.jpg",
         "captions": [
           {
-            "src": "assets/media/20261123b/captions/workflow-demo-15s-v20261123b.vtt",
+            "src": "assets/media/20261123c/captions/workflow-overview-20261123c.vtt",
             "srclang": "en",
             "label": "English"
           }
-        ]
+        ],
+        "durationSeconds": 50.93333333333333,
+        "narration": {
+          "language": "en",
+          "temporaryVoice": true
+        },
+        "hasBgm": true,
+        "projectCount": 0,
+        "sha256": "bdfb3d3a771390104e629e4b57627e3b449e6ade7104079d7e16b53c853a8239",
+        "bytes": 6171269
       },
       "project": {
-        "id": "workflow-showcase-15s",
+        "mediaId": "acumelo-workflow-showcase-20261123c",
+        "id": "acumelo-workflow-showcase-20261123c",
+        "contentOwnerId": "instructor-chris",
+        "fieldId": "workflow",
         "kind": "project",
-        "status": "ready",
         "scope": "category",
-        "fieldIds": [
-          "workflow"
-        ],
+        "status": "ready",
         "illustrative": true,
         "title": {
-          "en": "AI Workflow & Automation / 24 finished project concepts",
-          "ko": "완성 결과물 예시 24선"
+          "en": "AI Workflow & Automation / Project possibilities",
+          "ko": "AI 업무혁신·자동화 · 결과물 예시"
         },
-        "description": {
-          "en": "24 finished project concepts.",
-          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트."
-        },
-        "src": "assets/media/20261123b/workflow-showcase-15s-v20261123b.mp4",
-        "poster": "assets/media/20261123b/posters/workflow-showcase-15s-v20261123b.jpg",
-        "durationSeconds": 15,
-        "frameworks": [],
-        "transcript": {
-          "en": "1. Monthly operations brief\nAn automatically assembled management summary\n\n2. Finance pulse\nRevenue, spend and cash position\n\n3. A calm, organized inbox\nPriority messages with suggested next actions\n\n4. The weekly briefing\nA finished executive slide deck\n\n5. A week that fits\nScheduling and capacity at a glance\n\n6. Invoice ready\nA clean, generated customer document\n\n7. Leave, without the paperwork\nA self-service request portal\n\n8. Inventory watch\nStock levels and reorder alerts\n\n9. Supplier comparison\nA side-by-side purchasing report\n\n10. Approval desk\nRequests grouped by decision stage\n\n11. Sales in one story\nA finished data-led presentation\n\n12. The team knowledge desk\nA searchable internal help experience\n\n13. Team availability\nA shared planning calendar\n\n14. Customer meeting notes\nDecisions, actions and owners\n\n15. Project spend monitor\nBudget and actuals in one view\n\n16. Travel request\nA simple end-to-end request interface\n\n17. A helpful follow-up\nA personalized, reviewable email draft\n\n18. Purchase order\nA generated purchasing document\n\n19. Onboarding checklist\nA clear path from offer to first day\n\n20. Expense summary\nReceipts organized into a readable report\n\n21. Service queue\nRequests, response times and trends\n\n22. Quarterly review\nA concise leadership-ready deck\n\n23. Delivery schedule\nMilestones and responsible teams\n\n24. Operations home\nOne front door for everyday work",
-          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트.\n\n1. Monthly operations brief\nAn automatically assembled management summary\n\n2. Finance pulse\nRevenue, spend and cash position\n\n3. A calm, organized inbox\nPriority messages with suggested next actions\n\n4. The weekly briefing\nA finished executive slide deck\n\n5. A week that fits\nScheduling and capacity at a glance\n\n6. Invoice ready\nA clean, generated customer document\n\n7. Leave, without the paperwork\nA self-service request portal\n\n8. Inventory watch\nStock levels and reorder alerts\n\n9. Supplier comparison\nA side-by-side purchasing report\n\n10. Approval desk\nRequests grouped by decision stage\n\n11. Sales in one story\nA finished data-led presentation\n\n12. The team knowledge desk\nA searchable internal help experience\n\n13. Team availability\nA shared planning calendar\n\n14. Customer meeting notes\nDecisions, actions and owners\n\n15. Project spend monitor\nBudget and actuals in one view\n\n16. Travel request\nA simple end-to-end request interface\n\n17. A helpful follow-up\nA personalized, reviewable email draft\n\n18. Purchase order\nA generated purchasing document\n\n19. Onboarding checklist\nA clear path from offer to first day\n\n20. Expense summary\nReceipts organized into a readable report\n\n21. Service queue\nRequests, response times and trends\n\n22. Quarterly review\nA concise leadership-ready deck\n\n23. Delivery schedule\nMilestones and responsible teams\n\n24. Operations home\nOne front door for everyday work"
-        },
-        "transcriptSrc": "assets/media/20261123b/transcripts/workflow-showcase-15s-v20261123b.txt",
+        "src": "assets/media/20261123c/workflow-showcase-20261123c.mp4",
+        "poster": "assets/media/20261123c/posters/workflow-showcase-20261123c.jpg",
         "captions": [
           {
-            "src": "assets/media/20261123b/captions/workflow-showcase-15s-v20261123b.vtt",
+            "src": "assets/media/20261123c/captions/workflow-showcase-20261123c.vtt",
             "srclang": "en",
             "label": "English"
           }
         ],
-        "exampleCount": 24
+        "durationSeconds": 31.633333333333333,
+        "narration": {
+          "language": "en",
+          "temporaryVoice": true
+        },
+        "hasBgm": true,
+        "projectCount": 24,
+        "sha256": "c27b2b771003fb60f8c66cc2601d2f39fbeb82284b2648771cb246838221e134",
+        "bytes": 3315182
       }
     },
     "strategy": {
@@ -2001,86 +2031,68 @@ window.ACUMELO = {
         "captions": []
       },
       "demo": {
-        "id": "strategy-demo-15s",
+        "mediaId": "acumelo-strategy-overview-20261123c",
+        "id": "acumelo-strategy-overview-20261123c",
+        "contentOwnerId": "instructor-chris",
+        "fieldId": "strategy",
         "kind": "demo",
-        "status": "ready",
         "scope": "category",
-        "fieldIds": [
-          "strategy"
-        ],
+        "status": "ready",
         "illustrative": true,
         "title": {
-          "en": "AI Strategy & Project Management / Frameworks in practice",
-          "ko": "문제 정의·우선순위·프로젝트 계획과 실행"
+          "en": "AI Strategy & Project Management",
+          "ko": "AI 기획·프로젝트 관리 · 시연"
         },
-        "description": {
-          "en": "Product strategy → Discovery research → Programme planning → Production planning.",
-          "ko": "문제 정의·우선순위·프로젝트 계획과 실행"
-        },
-        "src": "assets/media/20261123b/strategy-demo-15s-v20261123b.mp4",
-        "poster": "assets/media/20261123b/posters/strategy-demo-15s-v20261123b.jpg",
-        "durationSeconds": 15,
-        "frameworks": [
-          "Product strategy",
-          "Discovery research",
-          "Programme planning",
-          "Production planning",
-          "Jira + delivery planning",
-          "Risk register",
-          "Excel + planning models",
-          "Notion + production board",
-          "Project management",
-          "Programme health",
-          "Release readiness",
-          "Operational handover"
-        ],
-        "transcript": {
-          "en": "1. Map the hypothesis to a measurable outcome\nProblem statement / experiment / decision rule\n\n2. Synthesize the evidence\nInterview themes / opportunity scores / assumptions\n\n3. Connect outcomes to milestones\nBenefits / owners / dependencies / gates\n\n4. Plan dependencies before production\nStoryboard → 3D → compositing → QA\n\n5. Convert ideas into testable stories\nAcceptance criteria / dependencies / capacity\n\n6. Make operational risks actionable\nLikelihood / impact / mitigation / owner\n\n7. Build a capacity and budget model\nWorkload / allocation / forecast / variance\n\n8. Route creative reviews\nOwner / version / comments / approval\n\n9. Manage changes without losing scope\nImpact / budget / contingency / sign-off\n\n10. Detect delivery risk early\nFlow time / blocked work / forecast drift\n\n11. Make the launch decision explicit\nOwner / evidence / fallback / decision log\n\n12. Transfer a maintainable workflow\nRunbook / support owner / change process",
-          "ko": "문제 정의·우선순위·프로젝트 계획과 실행\n\n1. Map the hypothesis to a measurable outcome\nProblem statement / experiment / decision rule\n\n2. Synthesize the evidence\nInterview themes / opportunity scores / assumptions\n\n3. Connect outcomes to milestones\nBenefits / owners / dependencies / gates\n\n4. Plan dependencies before production\nStoryboard → 3D → compositing → QA\n\n5. Convert ideas into testable stories\nAcceptance criteria / dependencies / capacity\n\n6. Make operational risks actionable\nLikelihood / impact / mitigation / owner\n\n7. Build a capacity and budget model\nWorkload / allocation / forecast / variance\n\n8. Route creative reviews\nOwner / version / comments / approval\n\n9. Manage changes without losing scope\nImpact / budget / contingency / sign-off\n\n10. Detect delivery risk early\nFlow time / blocked work / forecast drift\n\n11. Make the launch decision explicit\nOwner / evidence / fallback / decision log\n\n12. Transfer a maintainable workflow\nRunbook / support owner / change process"
-        },
-        "transcriptSrc": "assets/media/20261123b/transcripts/strategy-demo-15s-v20261123b.txt",
+        "src": "assets/media/20261123c/strategy-overview-20261123c.mp4",
+        "poster": "assets/media/20261123c/posters/strategy-overview-20261123c.jpg",
         "captions": [
           {
-            "src": "assets/media/20261123b/captions/strategy-demo-15s-v20261123b.vtt",
+            "src": "assets/media/20261123c/captions/strategy-overview-20261123c.vtt",
             "srclang": "en",
             "label": "English"
           }
-        ]
+        ],
+        "durationSeconds": 50.36666666666667,
+        "narration": {
+          "language": "en",
+          "temporaryVoice": true
+        },
+        "hasBgm": true,
+        "projectCount": 0,
+        "sha256": "05aa61f2f28254fd34aac28a884c570e1cbf820224ffef952444f2dc50ec53b3",
+        "bytes": 5209150
       },
       "project": {
-        "id": "strategy-showcase-15s",
+        "mediaId": "acumelo-strategy-showcase-20261123c",
+        "id": "acumelo-strategy-showcase-20261123c",
+        "contentOwnerId": "instructor-chris",
+        "fieldId": "strategy",
         "kind": "project",
-        "status": "ready",
         "scope": "category",
-        "fieldIds": [
-          "strategy"
-        ],
+        "status": "ready",
         "illustrative": true,
         "title": {
-          "en": "AI Strategy & Project Management / 24 finished project concepts",
-          "ko": "완성 결과물 예시 24선"
+          "en": "AI Strategy & Project Management / Project possibilities",
+          "ko": "AI 기획·프로젝트 관리 · 결과물 예시"
         },
-        "description": {
-          "en": "24 finished project concepts.",
-          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트."
-        },
-        "src": "assets/media/20261123b/strategy-showcase-15s-v20261123b.mp4",
-        "poster": "assets/media/20261123b/posters/strategy-showcase-15s-v20261123b.jpg",
-        "durationSeconds": 15,
-        "frameworks": [],
-        "transcript": {
-          "en": "1. A strategy made tangible\nA concise AI adoption proposal\n\n2. The next ninety days\nA milestone-based delivery roadmap\n\n3. Project brief\nGoals, scope and success criteria\n\n4. Launch room\nA shared view of work and ownership\n\n5. Opportunity assessment\nUse cases ranked by value and feasibility\n\n6. Programme pulse\nHealth, capacity and delivery outlook\n\n7. Decision day\nA steering committee decision pack\n\n8. Creative production plan\nFrom brief to final delivery\n\n9. Research library\nEvidence organized around decisions\n\n10. Risk and response\nA readable risk review\n\n11. Release calendar\nLaunches and review windows\n\n12. Benefits tracker\nA view of intended and observed value\n\n13. The product story\nProblem, prototype and next steps\n\n14. Review and approve\nA clear creative approval workflow\n\n15. Resource plan\nCapacity, allocation and constraints\n\n16. AI pilot journey\nA staged learning and validation plan\n\n17. Stakeholder hub\nUpdates, decisions and shared context\n\n18. Portfolio view\nProjects compared on consistent criteria\n\n19. Workshop outcomes\nA finished facilitation summary\n\n20. Production schedule\nPeople, dates and review checkpoints\n\n21. Launch readiness\nA completed release review pack\n\n22. Sprint review\nA visible record of completed work\n\n23. Scale with evidence\nA rollout plan with decision gates\n\n24. Programme home\nA usable centre for delivery information",
-          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트.\n\n1. A strategy made tangible\nA concise AI adoption proposal\n\n2. The next ninety days\nA milestone-based delivery roadmap\n\n3. Project brief\nGoals, scope and success criteria\n\n4. Launch room\nA shared view of work and ownership\n\n5. Opportunity assessment\nUse cases ranked by value and feasibility\n\n6. Programme pulse\nHealth, capacity and delivery outlook\n\n7. Decision day\nA steering committee decision pack\n\n8. Creative production plan\nFrom brief to final delivery\n\n9. Research library\nEvidence organized around decisions\n\n10. Risk and response\nA readable risk review\n\n11. Release calendar\nLaunches and review windows\n\n12. Benefits tracker\nA view of intended and observed value\n\n13. The product story\nProblem, prototype and next steps\n\n14. Review and approve\nA clear creative approval workflow\n\n15. Resource plan\nCapacity, allocation and constraints\n\n16. AI pilot journey\nA staged learning and validation plan\n\n17. Stakeholder hub\nUpdates, decisions and shared context\n\n18. Portfolio view\nProjects compared on consistent criteria\n\n19. Workshop outcomes\nA finished facilitation summary\n\n20. Production schedule\nPeople, dates and review checkpoints\n\n21. Launch readiness\nA completed release review pack\n\n22. Sprint review\nA visible record of completed work\n\n23. Scale with evidence\nA rollout plan with decision gates\n\n24. Programme home\nA usable centre for delivery information"
-        },
-        "transcriptSrc": "assets/media/20261123b/transcripts/strategy-showcase-15s-v20261123b.txt",
+        "src": "assets/media/20261123c/strategy-showcase-20261123c.mp4",
+        "poster": "assets/media/20261123c/posters/strategy-showcase-20261123c.jpg",
         "captions": [
           {
-            "src": "assets/media/20261123b/captions/strategy-showcase-15s-v20261123b.vtt",
+            "src": "assets/media/20261123c/captions/strategy-showcase-20261123c.vtt",
             "srclang": "en",
             "label": "English"
           }
         ],
-        "exampleCount": 24
+        "durationSeconds": 32.2,
+        "narration": {
+          "language": "en",
+          "temporaryVoice": true
+        },
+        "hasBgm": true,
+        "projectCount": 24,
+        "sha256": "3a0ef60b0d67a1cba52fc8e61f3f4db7b3dcffbcc9d592d0fc7900667e98068f",
+        "bytes": 3416718
       }
     },
     "design": {
@@ -2092,85 +2104,68 @@ window.ACUMELO = {
         "captions": []
       },
       "demo": {
-        "id": "design-demo-15s",
+        "mediaId": "acumelo-design-overview-20261123c",
+        "id": "acumelo-design-overview-20261123c",
+        "contentOwnerId": "instructor-chris",
+        "fieldId": "design",
         "kind": "demo",
-        "status": "ready",
         "scope": "category",
-        "fieldIds": [
-          "design"
-        ],
+        "status": "ready",
         "illustrative": true,
         "title": {
-          "en": "AI Design & Content / Frameworks in practice",
-          "ko": "모션·3D·VFX·AI 영상 제작"
+          "en": "AI Design & Content",
+          "ko": "AI 디자인·콘텐츠 · 시연"
         },
-        "description": {
-          "en": "After Effects → After Effects expressions → VFX compositing → Cinema 4D MoGraph.",
-          "ko": "모션·3D·VFX·AI 영상 제작"
-        },
-        "src": "assets/media/20261123b/design-demo-15s-v20261123b.mp4",
-        "poster": "assets/media/20261123b/posters/design-demo-15s-v20261123b.jpg",
-        "durationSeconds": 15,
-        "frameworks": [
-          "After Effects",
-          "After Effects expressions",
-          "VFX compositing",
-          "Cinema 4D MoGraph",
-          "Cinema 4D materials",
-          "Higgsfield",
-          "Cinema 4D",
-          "Unity Shader Graph",
-          "Unreal Engine Niagara",
-          "Three.js + GLSL",
-          "After Effects render pipeline"
-        ],
-        "transcript": {
-          "en": "1. Shape movement with the graph editor\nVelocity curves / keyframe interpolation / timing\n\n2. Drive motion with a reusable controller\nSlider control / time remap / responsive title\n\n3. Rebuild the image in layers\nDepth / matte / emission / color matching\n\n4. Make variation procedural\nCloner / radial distribution / Fields falloff\n\n5. Design a controllable surface\nNoise → ramp → roughness → layered material\n\n6. Plan continuity across AI shots\nLens / camera direction / subject consistency\n\n7. Construct the campaign master template\nNested comps / expressions / essential controls\n\n8. Plan the 3D product stage\nCamera / light rig / material variations\n\n9. Expose a runtime visual parameter\nFresnel / emission / time / property binding\n\n10. Build an event-driven particle effect\nEmitter / spawn rate / vector field / lifetime\n\n11. Move the visual system into the browser\nUniforms / pointer input / render loop\n\n12. Prepare multi-format motion assets\nComposition variants / alpha / delivery settings",
-          "ko": "모션·3D·VFX·AI 영상 제작\n\n1. Shape movement with the graph editor\nVelocity curves / keyframe interpolation / timing\n\n2. Drive motion with a reusable controller\nSlider control / time remap / responsive title\n\n3. Rebuild the image in layers\nDepth / matte / emission / color matching\n\n4. Make variation procedural\nCloner / radial distribution / Fields falloff\n\n5. Design a controllable surface\nNoise → ramp → roughness → layered material\n\n6. Plan continuity across AI shots\nLens / camera direction / subject consistency\n\n7. Construct the campaign master template\nNested comps / expressions / essential controls\n\n8. Plan the 3D product stage\nCamera / light rig / material variations\n\n9. Expose a runtime visual parameter\nFresnel / emission / time / property binding\n\n10. Build an event-driven particle effect\nEmitter / spawn rate / vector field / lifetime\n\n11. Move the visual system into the browser\nUniforms / pointer input / render loop\n\n12. Prepare multi-format motion assets\nComposition variants / alpha / delivery settings"
-        },
-        "transcriptSrc": "assets/media/20261123b/transcripts/design-demo-15s-v20261123b.txt",
+        "src": "assets/media/20261123c/design-overview-20261123c.mp4",
+        "poster": "assets/media/20261123c/posters/design-overview-20261123c.jpg",
         "captions": [
           {
-            "src": "assets/media/20261123b/captions/design-demo-15s-v20261123b.vtt",
+            "src": "assets/media/20261123c/captions/design-overview-20261123c.vtt",
             "srclang": "en",
             "label": "English"
           }
-        ]
+        ],
+        "durationSeconds": 53.8,
+        "narration": {
+          "language": "en",
+          "temporaryVoice": true
+        },
+        "hasBgm": true,
+        "projectCount": 0,
+        "sha256": "ef72f39f81dec1d46d70ce3d97cceccb35aaf56faf90f88e3f98fd8178dd9cca",
+        "bytes": 7885166
       },
       "project": {
-        "id": "design-showcase-15s",
+        "mediaId": "acumelo-design-showcase-20261123c",
+        "id": "acumelo-design-showcase-20261123c",
+        "contentOwnerId": "instructor-chris",
+        "fieldId": "design",
         "kind": "project",
-        "status": "ready",
         "scope": "category",
-        "fieldIds": [
-          "design"
-        ],
+        "status": "ready",
         "illustrative": true,
         "title": {
-          "en": "AI Design & Content / 24 finished project concepts",
-          "ko": "완성 결과물 예시 24선"
+          "en": "AI Design & Content / Project possibilities",
+          "ko": "AI 디자인·콘텐츠 · 결과물 예시"
         },
-        "description": {
-          "en": "24 finished project concepts.",
-          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트."
-        },
-        "src": "assets/media/20261123b/design-showcase-15s-v20261123b.mp4",
-        "poster": "assets/media/20261123b/posters/design-showcase-15s-v20261123b.jpg",
-        "durationSeconds": 15,
-        "frameworks": [],
-        "transcript": {
-          "en": "1. Sculptural motion\nA finished abstract motion loop\n\n2. Object / 01\nA polished product visual\n\n3. MAKE / CREATE\nA kinetic typography poster\n\n4. Quiet architecture\nA rendered gallery space\n\n5. Beyond the horizon\nA cinematic environment study\n\n6. Studio Forma\nA finished creative portfolio\n\n7. Better together\nA responsive brand motion system\n\n8. New perspectives\nAn editorial campaign poster\n\n9. Material matters\nA product finish exploration\n\n10. Orbit study\nAn abstract VFX composition\n\n11. The exhibition\nA digital exhibition landing page\n\n12. Shape the future\nAn animated identity study\n\n13. Light and structure\nAn architectural mood film\n\n14. The creative week\nAn event identity\n\n15. Floating worlds\nA stylized environment artwork\n\n16. A new point of view\nA product campaign composition\n\n17. Object collection\nA digital product gallery\n\n18. Particles in motion\nA luminous VFX study\n\n19. Sound / space\nA music event visual\n\n20. Small ideas. Big moves.\nA typographic social film\n\n21. The living gallery\nA spatial design visualization\n\n22. Motion archive\nA responsive motion portfolio\n\n23. Neon pathways\nAn interactive-world concept\n\n24. A world of possibilities\nA final creative montage",
-          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트.\n\n1. Sculptural motion\nA finished abstract motion loop\n\n2. Object / 01\nA polished product visual\n\n3. MAKE / CREATE\nA kinetic typography poster\n\n4. Quiet architecture\nA rendered gallery space\n\n5. Beyond the horizon\nA cinematic environment study\n\n6. Studio Forma\nA finished creative portfolio\n\n7. Better together\nA responsive brand motion system\n\n8. New perspectives\nAn editorial campaign poster\n\n9. Material matters\nA product finish exploration\n\n10. Orbit study\nAn abstract VFX composition\n\n11. The exhibition\nA digital exhibition landing page\n\n12. Shape the future\nAn animated identity study\n\n13. Light and structure\nAn architectural mood film\n\n14. The creative week\nAn event identity\n\n15. Floating worlds\nA stylized environment artwork\n\n16. A new point of view\nA product campaign composition\n\n17. Object collection\nA digital product gallery\n\n18. Particles in motion\nA luminous VFX study\n\n19. Sound / space\nA music event visual\n\n20. Small ideas. Big moves.\nA typographic social film\n\n21. The living gallery\nA spatial design visualization\n\n22. Motion archive\nA responsive motion portfolio\n\n23. Neon pathways\nAn interactive-world concept\n\n24. A world of possibilities\nA final creative montage"
-        },
-        "transcriptSrc": "assets/media/20261123b/transcripts/design-showcase-15s-v20261123b.txt",
+        "src": "assets/media/20261123c/design-showcase-20261123c.mp4",
+        "poster": "assets/media/20261123c/posters/design-showcase-20261123c.jpg",
         "captions": [
           {
-            "src": "assets/media/20261123b/captions/design-showcase-15s-v20261123b.vtt",
+            "src": "assets/media/20261123c/captions/design-showcase-20261123c.vtt",
             "srclang": "en",
             "label": "English"
           }
         ],
-        "exampleCount": 24
+        "durationSeconds": 31.333333333333332,
+        "narration": {
+          "language": "en",
+          "temporaryVoice": true
+        },
+        "hasBgm": true,
+        "projectCount": 24,
+        "sha256": "8adbc37614bc1eae1b907dd0dbf46af42a8d257ad9091247f3ce262727c40f0f",
+        "bytes": 7842569
       }
     },
     "analytics": {
@@ -2182,86 +2177,68 @@ window.ACUMELO = {
         "captions": []
       },
       "demo": {
-        "id": "analytics-demo-15s",
+        "mediaId": "acumelo-analytics-overview-20261123c",
+        "id": "acumelo-analytics-overview-20261123c",
+        "contentOwnerId": "instructor-chris",
+        "fieldId": "analytics",
         "kind": "demo",
-        "status": "ready",
         "scope": "category",
-        "fieldIds": [
-          "analytics"
-        ],
+        "status": "ready",
         "illustrative": true,
         "title": {
-          "en": "AI Data Analytics / Frameworks in practice",
-          "ko": "데이터 파이프라인·분석·대시보드"
+          "en": "AI Data Analytics",
+          "ko": "AI 데이터 분석 · 시연"
         },
-        "description": {
-          "en": "Excel Power Query → PostgreSQL → SQL → Python + pandas.",
-          "ko": "데이터 파이프라인·분석·대시보드"
-        },
-        "src": "assets/media/20261123b/analytics-demo-15s-v20261123b.mp4",
-        "poster": "assets/media/20261123b/posters/analytics-demo-15s-v20261123b.jpg",
-        "durationSeconds": 15,
-        "frameworks": [
-          "Excel Power Query",
-          "PostgreSQL",
-          "SQL",
-          "Python + pandas",
-          "dbt + orchestration",
-          "DAX",
-          "Power BI",
-          "Cohort analysis",
-          "Python forecasting",
-          "GeoPandas",
-          "Streamlit",
-          "Decision storytelling"
-        ],
-        "transcript": {
-          "en": "1. Clean the source before analysis\nType inference / merge rules / missing values\n\n2. Design the analytical data contract\nFact grain / keys / dimensional model\n\n3. Build an incremental revenue model\nWatermarks / joins / late-arriving records\n\n4. Validate and transform the source\nNullable types / schema assertions / profiling\n\n5. Trace lineage across models\nSources → staging → marts → metrics\n\n6. Write a context-aware measure\nCALCULATE / filter context / time intelligence\n\n7. Design a drillable executive view\nKPIs / comparison / tooltip / drill-through\n\n8. Separate retention from acquisition\nCohort month / tenure / denominator\n\n9. Separate signal from seasonality\nBaseline / rolling validation / residuals\n\n10. Connect performance to geography\nSpatial join / projection / aggregation\n\n11. Build an interactive scenario model\nAssumptions / sliders / forecast bands\n\n12. Present a recommendation with evidence\nFinding / caveat / action / follow-up",
-          "ko": "데이터 파이프라인·분석·대시보드\n\n1. Clean the source before analysis\nType inference / merge rules / missing values\n\n2. Design the analytical data contract\nFact grain / keys / dimensional model\n\n3. Build an incremental revenue model\nWatermarks / joins / late-arriving records\n\n4. Validate and transform the source\nNullable types / schema assertions / profiling\n\n5. Trace lineage across models\nSources → staging → marts → metrics\n\n6. Write a context-aware measure\nCALCULATE / filter context / time intelligence\n\n7. Design a drillable executive view\nKPIs / comparison / tooltip / drill-through\n\n8. Separate retention from acquisition\nCohort month / tenure / denominator\n\n9. Separate signal from seasonality\nBaseline / rolling validation / residuals\n\n10. Connect performance to geography\nSpatial join / projection / aggregation\n\n11. Build an interactive scenario model\nAssumptions / sliders / forecast bands\n\n12. Present a recommendation with evidence\nFinding / caveat / action / follow-up"
-        },
-        "transcriptSrc": "assets/media/20261123b/transcripts/analytics-demo-15s-v20261123b.txt",
+        "src": "assets/media/20261123c/analytics-overview-20261123c.mp4",
+        "poster": "assets/media/20261123c/posters/analytics-overview-20261123c.jpg",
         "captions": [
           {
-            "src": "assets/media/20261123b/captions/analytics-demo-15s-v20261123b.vtt",
+            "src": "assets/media/20261123c/captions/analytics-overview-20261123c.vtt",
             "srclang": "en",
             "label": "English"
           }
-        ]
+        ],
+        "durationSeconds": 51.53333333333333,
+        "narration": {
+          "language": "en",
+          "temporaryVoice": true
+        },
+        "hasBgm": true,
+        "projectCount": 0,
+        "sha256": "ba7a734ed4177ba85ff555b3affd38d01a6b833b72101e91a24d1986678af2eb",
+        "bytes": 5459942
       },
       "project": {
-        "id": "analytics-showcase-15s",
+        "mediaId": "acumelo-analytics-showcase-20261123c",
+        "id": "acumelo-analytics-showcase-20261123c",
+        "contentOwnerId": "instructor-chris",
+        "fieldId": "analytics",
         "kind": "project",
-        "status": "ready",
         "scope": "category",
-        "fieldIds": [
-          "analytics"
-        ],
+        "status": "ready",
         "illustrative": true,
         "title": {
-          "en": "AI Data Analytics / 24 finished project concepts",
-          "ko": "완성 결과물 예시 24선"
+          "en": "AI Data Analytics / Project possibilities",
+          "ko": "AI 데이터 분석 · 결과물 예시"
         },
-        "description": {
-          "en": "24 finished project concepts.",
-          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트."
-        },
-        "src": "assets/media/20261123b/analytics-showcase-15s-v20261123b.mp4",
-        "poster": "assets/media/20261123b/posters/analytics-showcase-15s-v20261123b.jpg",
-        "durationSeconds": 15,
-        "frameworks": [],
-        "transcript": {
-          "en": "1. Revenue, explained\nA finished executive analytics view\n\n2. Customers who stay\nA cohort retention report\n\n3. The regional picture\nA location-based performance map\n\n4. What comes next\nA forecast with visible uncertainty\n\n5. The insight brief\nA concise analytical recommendation\n\n6. Product adoption\nActivation and engagement trends\n\n7. When customers return\nPatterns by day and hour\n\n8. Delivery coverage\nA service-area planning view\n\n9. Demand outlook\nA seasonal demand comparison\n\n10. The data story\nA finished decision-making deck\n\n11. Marketing efficiency\nSpend, conversion and return\n\n12. Quality scorecard\nData completeness and freshness\n\n13. Market opportunity\nRegions compared on equal terms\n\n14. Channel cohorts\nRetention across acquisition channels\n\n15. Inventory scenarios\nA comparison of planning assumptions\n\n16. Service performance\nQueue, volume and response signals\n\n17. Pricing evidence\nA readable price sensitivity study\n\n18. Quarterly intelligence\nA business review with evidence\n\n19. Site selection\nA location comparison interface\n\n20. Cash flow outlook\nA range of financial scenarios\n\n21. Learning impact\nEngagement and completion patterns\n\n22. Portfolio correlations\nA matrix of related signals\n\n23. Experiment readout\nResults with caveats and next steps\n\n24. Decision centre\nA linked view of the business",
-          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트.\n\n1. Revenue, explained\nA finished executive analytics view\n\n2. Customers who stay\nA cohort retention report\n\n3. The regional picture\nA location-based performance map\n\n4. What comes next\nA forecast with visible uncertainty\n\n5. The insight brief\nA concise analytical recommendation\n\n6. Product adoption\nActivation and engagement trends\n\n7. When customers return\nPatterns by day and hour\n\n8. Delivery coverage\nA service-area planning view\n\n9. Demand outlook\nA seasonal demand comparison\n\n10. The data story\nA finished decision-making deck\n\n11. Marketing efficiency\nSpend, conversion and return\n\n12. Quality scorecard\nData completeness and freshness\n\n13. Market opportunity\nRegions compared on equal terms\n\n14. Channel cohorts\nRetention across acquisition channels\n\n15. Inventory scenarios\nA comparison of planning assumptions\n\n16. Service performance\nQueue, volume and response signals\n\n17. Pricing evidence\nA readable price sensitivity study\n\n18. Quarterly intelligence\nA business review with evidence\n\n19. Site selection\nA location comparison interface\n\n20. Cash flow outlook\nA range of financial scenarios\n\n21. Learning impact\nEngagement and completion patterns\n\n22. Portfolio correlations\nA matrix of related signals\n\n23. Experiment readout\nResults with caveats and next steps\n\n24. Decision centre\nA linked view of the business"
-        },
-        "transcriptSrc": "assets/media/20261123b/transcripts/analytics-showcase-15s-v20261123b.txt",
+        "src": "assets/media/20261123c/analytics-showcase-20261123c.mp4",
+        "poster": "assets/media/20261123c/posters/analytics-showcase-20261123c.jpg",
         "captions": [
           {
-            "src": "assets/media/20261123b/captions/analytics-showcase-15s-v20261123b.vtt",
+            "src": "assets/media/20261123c/captions/analytics-showcase-20261123c.vtt",
             "srclang": "en",
             "label": "English"
           }
         ],
-        "exampleCount": 24
+        "durationSeconds": 31.133333333333333,
+        "narration": {
+          "language": "en",
+          "temporaryVoice": true
+        },
+        "hasBgm": true,
+        "projectCount": 24,
+        "sha256": "96944d40d82383fc6b9be7d3a1a4076616a8f0d51d7a714b539fe33777a148d1",
+        "bytes": 3364247
       }
     },
     "marketing": {
@@ -2273,86 +2250,68 @@ window.ACUMELO = {
         "captions": []
       },
       "demo": {
-        "id": "marketing-demo-15s",
+        "mediaId": "acumelo-marketing-overview-20261123c",
+        "id": "acumelo-marketing-overview-20261123c",
+        "contentOwnerId": "instructor-chris",
+        "fieldId": "marketing",
         "kind": "demo",
-        "status": "ready",
         "scope": "category",
-        "fieldIds": [
-          "marketing"
-        ],
+        "status": "ready",
         "illustrative": true,
         "title": {
-          "en": "AI Marketing & Sales / Frameworks in practice",
-          "ko": "고객 조사·캠페인·실험·성과 분석"
+          "en": "AI Marketing & Sales",
+          "ko": "AI 마케팅·세일즈 · 시연"
         },
-        "description": {
-          "en": "GA4 + events → SQL segmentation → CRM → Landing page design.",
-          "ko": "고객 조사·캠페인·실험·성과 분석"
-        },
-        "src": "assets/media/20261123b/marketing-demo-15s-v20261123b.mp4",
-        "poster": "assets/media/20261123b/posters/marketing-demo-15s-v20261123b.jpg",
-        "durationSeconds": 15,
-        "frameworks": [
-          "GA4 + events",
-          "SQL segmentation",
-          "CRM",
-          "Landing page design",
-          "Next.js",
-          "Higgsfield campaign shots",
-          "After Effects ad variants",
-          "n8n + CRM",
-          "Experiment design",
-          "Email journeys",
-          "Analytics QA",
-          "Growth service delivery"
-        ],
-        "transcript": {
-          "en": "1. Define the acquisition measurement plan\nEvents / properties / consent / attribution\n\n2. Build actionable customer segments\nRecency / frequency / value / lifecycle\n\n3. Model the sales lifecycle\nLead score / owner / next action / evidence\n\n4. Design an experiment-ready offer\nMessage hierarchy / CTA / variant states\n\n5. Implement a measurable landing page\nServer rendering / forms / event contract\n\n6. Plan distinct creative variants\nProduct angle / motion / crop / continuity\n\n7. Build responsive campaign motion\nVertical / square / wide / type-safe area\n\n8. Connect acquisition to follow-up\nWebhook → qualify → score → assign → nurture\n\n9. Read conversion with uncertainty\nControl / treatment / lift / confidence\n\n10. Personalize a lifecycle sequence\nTrigger / segment / frequency / exit rule\n\n11. Verify events before a campaign\nDuplicate events / UTM / form failure\n\n12. Release the full acquisition loop\nLanding → CRM → experiment dashboard",
-          "ko": "고객 조사·캠페인·실험·성과 분석\n\n1. Define the acquisition measurement plan\nEvents / properties / consent / attribution\n\n2. Build actionable customer segments\nRecency / frequency / value / lifecycle\n\n3. Model the sales lifecycle\nLead score / owner / next action / evidence\n\n4. Design an experiment-ready offer\nMessage hierarchy / CTA / variant states\n\n5. Implement a measurable landing page\nServer rendering / forms / event contract\n\n6. Plan distinct creative variants\nProduct angle / motion / crop / continuity\n\n7. Build responsive campaign motion\nVertical / square / wide / type-safe area\n\n8. Connect acquisition to follow-up\nWebhook → qualify → score → assign → nurture\n\n9. Read conversion with uncertainty\nControl / treatment / lift / confidence\n\n10. Personalize a lifecycle sequence\nTrigger / segment / frequency / exit rule\n\n11. Verify events before a campaign\nDuplicate events / UTM / form failure\n\n12. Release the full acquisition loop\nLanding → CRM → experiment dashboard"
-        },
-        "transcriptSrc": "assets/media/20261123b/transcripts/marketing-demo-15s-v20261123b.txt",
+        "src": "assets/media/20261123c/marketing-overview-20261123c.mp4",
+        "poster": "assets/media/20261123c/posters/marketing-overview-20261123c.jpg",
         "captions": [
           {
-            "src": "assets/media/20261123b/captions/marketing-demo-15s-v20261123b.vtt",
+            "src": "assets/media/20261123c/captions/marketing-overview-20261123c.vtt",
             "srclang": "en",
             "label": "English"
           }
-        ]
+        ],
+        "durationSeconds": 54.06666666666667,
+        "narration": {
+          "language": "en",
+          "temporaryVoice": true
+        },
+        "hasBgm": true,
+        "projectCount": 0,
+        "sha256": "b9486c353e24103cf3055817a3e3e7fcee00dab2607f6c7b8017234378977ecb",
+        "bytes": 5581478
       },
       "project": {
-        "id": "marketing-showcase-15s",
+        "mediaId": "acumelo-marketing-showcase-20261123c",
+        "id": "acumelo-marketing-showcase-20261123c",
+        "contentOwnerId": "instructor-chris",
+        "fieldId": "marketing",
         "kind": "project",
-        "status": "ready",
         "scope": "category",
-        "fieldIds": [
-          "marketing"
-        ],
+        "status": "ready",
         "illustrative": true,
         "title": {
-          "en": "AI Marketing & Sales / 24 finished project concepts",
-          "ko": "완성 결과물 예시 24선"
+          "en": "AI Marketing & Sales / Project possibilities",
+          "ko": "AI 마케팅·세일즈 · 결과물 예시"
         },
-        "description": {
-          "en": "24 finished project concepts.",
-          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트."
-        },
-        "src": "assets/media/20261123b/marketing-showcase-15s-v20261123b.mp4",
-        "poster": "assets/media/20261123b/posters/marketing-showcase-15s-v20261123b.jpg",
-        "durationSeconds": 15,
-        "frameworks": [],
-        "transcript": {
-          "en": "1. An offer worth exploring\nA finished campaign landing page\n\n2. From interest to opportunity\nA sales pipeline interface\n\n3. A clear message\nA finished campaign creative\n\n4. Campaign pulse\nA performance overview for a launch\n\n5. A thoughtful welcome\nA customer onboarding email\n\n6. The launch film\nA finished product advertising visual\n\n7. Reserve your place\nAn event registration landing page\n\n8. The customer brief\nAudience insight in a readable report\n\n9. The next best action\nA focused sales follow-up view\n\n10. Make your next move\nA short social campaign animation\n\n11. The product story\nA conversion-focused product page\n\n12. An experiment, explained\nControl and treatment side by side\n\n13. A timely reminder\nA personalized lifecycle message\n\n14. Ideas in motion\nAn event campaign asset\n\n15. A visual hook\nA short-form brand motion piece\n\n16. Join the conversation\nA community campaign page\n\n17. A stronger relationship\nAn account planning interface\n\n18. Launch lessons\nA finished campaign review\n\n19. One message. Many formats.\nA responsive advertising concept\n\n20. The growth view\nAcquisition through retention\n\n21. A useful recommendation\nA product recommendation email\n\n22. A fresh perspective\nA product-focused campaign scene\n\n23. A place to begin\nA polished lead-generation site\n\n24. Campaign in one story\nA finished marketing results deck",
-          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트.\n\n1. An offer worth exploring\nA finished campaign landing page\n\n2. From interest to opportunity\nA sales pipeline interface\n\n3. A clear message\nA finished campaign creative\n\n4. Campaign pulse\nA performance overview for a launch\n\n5. A thoughtful welcome\nA customer onboarding email\n\n6. The launch film\nA finished product advertising visual\n\n7. Reserve your place\nAn event registration landing page\n\n8. The customer brief\nAudience insight in a readable report\n\n9. The next best action\nA focused sales follow-up view\n\n10. Make your next move\nA short social campaign animation\n\n11. The product story\nA conversion-focused product page\n\n12. An experiment, explained\nControl and treatment side by side\n\n13. A timely reminder\nA personalized lifecycle message\n\n14. Ideas in motion\nAn event campaign asset\n\n15. A visual hook\nA short-form brand motion piece\n\n16. Join the conversation\nA community campaign page\n\n17. A stronger relationship\nAn account planning interface\n\n18. Launch lessons\nA finished campaign review\n\n19. One message. Many formats.\nA responsive advertising concept\n\n20. The growth view\nAcquisition through retention\n\n21. A useful recommendation\nA product recommendation email\n\n22. A fresh perspective\nA product-focused campaign scene\n\n23. A place to begin\nA polished lead-generation site\n\n24. Campaign in one story\nA finished marketing results deck"
-        },
-        "transcriptSrc": "assets/media/20261123b/transcripts/marketing-showcase-15s-v20261123b.txt",
+        "src": "assets/media/20261123c/marketing-showcase-20261123c.mp4",
+        "poster": "assets/media/20261123c/posters/marketing-showcase-20261123c.jpg",
         "captions": [
           {
-            "src": "assets/media/20261123b/captions/marketing-showcase-15s-v20261123b.vtt",
+            "src": "assets/media/20261123c/captions/marketing-showcase-20261123c.vtt",
             "srclang": "en",
             "label": "English"
           }
         ],
-        "exampleCount": 24
+        "durationSeconds": 31.333333333333332,
+        "narration": {
+          "language": "en",
+          "temporaryVoice": true
+        },
+        "hasBgm": true,
+        "projectCount": 24,
+        "sha256": "5093a45cf34b57906bb6c7df52045c9fcf0efab6071e5db27ff6afe87772cca6",
+        "bytes": 4848518
       }
     },
     "development": {
@@ -2364,90 +2323,1632 @@ window.ACUMELO = {
         "captions": []
       },
       "demo": {
-        "id": "development-demo-15s",
+        "mediaId": "acumelo-development-overview-20261123c",
+        "id": "acumelo-development-overview-20261123c",
+        "contentOwnerId": "instructor-chris",
+        "fieldId": "development",
         "kind": "demo",
-        "status": "ready",
         "scope": "category",
-        "fieldIds": [
-          "development"
-        ],
+        "status": "ready",
         "illustrative": true,
         "title": {
-          "en": "AI Service Development / Frameworks in practice",
-          "ko": "웹·앱·API·지식 서비스 구현"
+          "en": "AI Service Development",
+          "ko": "AI 서비스 개발 · 시연"
         },
-        "description": {
-          "en": "System architecture → React + TypeScript → FastAPI → Supabase.",
-          "ko": "웹·앱·API·지식 서비스 구현"
-        },
-        "src": "assets/media/20261123b/development-demo-15s-v20261123b.mp4",
-        "poster": "assets/media/20261123b/posters/development-demo-15s-v20261123b.jpg",
-        "durationSeconds": 15,
-        "frameworks": [
-          "System architecture",
-          "React + TypeScript",
-          "FastAPI",
-          "Supabase",
-          "RAG ingestion",
-          "Hybrid retrieval",
-          "n8n + tools",
-          "FastAPI + streaming",
-          "Unity Shader Graph",
-          "Unreal Engine Niagara",
-          "Three.js + GLSL",
-          "Cloudflare + GitHub"
-        ],
-        "transcript": {
-          "en": "1. One brief. Six connected disciplines.\nData contracts / event boundaries / human approvals\n\n2. Implement a stateful booking flow\nValidation / accessible forms / optimistic update\n\n3. Expose a typed automation endpoint\nPydantic / idempotency / structured errors\n\n4. Model permissions with the product\nBookings / memberships / row-level policy\n\n5. Create a traceable knowledge index\nParse / chunk / metadata / version\n\n6. Retrieve evidence before responding\nBM25 / vector / merge / reranking\n\n7. Separate answers from actions\nIntent → permission → tool → approval → log\n\n8. Serve a responsive assistant\nStreaming / cancellation / structured events\n\n9. Expose a runtime visual parameter\nFresnel / emission / time / property binding\n\n10. Build an event-driven particle effect\nEmitter / spawn rate / vector field / lifetime\n\n11. Move the visual system into the browser\nUniforms / pointer input / render loop\n\n12. Ship a versioned experience\nPreview → checks → production → rollback",
-          "ko": "웹·앱·API·지식 서비스 구현\n\n1. One brief. Six connected disciplines.\nData contracts / event boundaries / human approvals\n\n2. Implement a stateful booking flow\nValidation / accessible forms / optimistic update\n\n3. Expose a typed automation endpoint\nPydantic / idempotency / structured errors\n\n4. Model permissions with the product\nBookings / memberships / row-level policy\n\n5. Create a traceable knowledge index\nParse / chunk / metadata / version\n\n6. Retrieve evidence before responding\nBM25 / vector / merge / reranking\n\n7. Separate answers from actions\nIntent → permission → tool → approval → log\n\n8. Serve a responsive assistant\nStreaming / cancellation / structured events\n\n9. Expose a runtime visual parameter\nFresnel / emission / time / property binding\n\n10. Build an event-driven particle effect\nEmitter / spawn rate / vector field / lifetime\n\n11. Move the visual system into the browser\nUniforms / pointer input / render loop\n\n12. Ship a versioned experience\nPreview → checks → production → rollback"
-        },
-        "transcriptSrc": "assets/media/20261123b/transcripts/development-demo-15s-v20261123b.txt",
+        "src": "assets/media/20261123c/development-overview-20261123c.mp4",
+        "poster": "assets/media/20261123c/posters/development-overview-20261123c.jpg",
         "captions": [
           {
-            "src": "assets/media/20261123b/captions/development-demo-15s-v20261123b.vtt",
+            "src": "assets/media/20261123c/captions/development-overview-20261123c.vtt",
             "srclang": "en",
             "label": "English"
           }
-        ]
+        ],
+        "durationSeconds": 54.86666666666667,
+        "narration": {
+          "language": "en",
+          "temporaryVoice": true
+        },
+        "hasBgm": true,
+        "projectCount": 0,
+        "sha256": "7986a95cb141293425fbb1fc50c3e4be98ac1a61180f2583ce7b4294dbbb1c6a",
+        "bytes": 7325952
       },
       "project": {
-        "id": "development-showcase-15s",
+        "mediaId": "acumelo-development-showcase-20261123c",
+        "id": "acumelo-development-showcase-20261123c",
+        "contentOwnerId": "instructor-chris",
+        "fieldId": "development",
         "kind": "project",
-        "status": "ready",
         "scope": "category",
-        "fieldIds": [
-          "development"
-        ],
+        "status": "ready",
         "illustrative": true,
         "title": {
-          "en": "AI Service Development / 24 finished project concepts",
-          "ko": "완성 결과물 예시 24선"
+          "en": "AI Service Development / Project possibilities",
+          "ko": "AI 서비스 개발 · 결과물 예시"
         },
-        "description": {
-          "en": "24 finished project concepts.",
-          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트."
-        },
-        "src": "assets/media/20261123b/development-showcase-15s-v20261123b.mp4",
-        "poster": "assets/media/20261123b/posters/development-showcase-15s-v20261123b.jpg",
-        "durationSeconds": 15,
-        "frameworks": [],
-        "transcript": {
-          "en": "1. Fieldnotes\nA responsive publishing interface\n\n2. Ask the knowledge base\nA cited-answer assistant interface\n\n3. Book a session\nA self-service booking application\n\n4. Explore the archipelago\nAn interactive environment concept\n\n5. Project cockpit\nA complete project analytics interface\n\n6. Configure your object\nA product customization concept\n\n7. Work, together\nA collaborative planning application\n\n8. Find your next place\nA location discovery interface\n\n9. Studio directory\nA searchable creative directory\n\n10. Time well spent\nA scheduling service\n\n11. The customer portal\nA unified account and request interface\n\n12. Interactive motion\nA browser-based visual experience\n\n13. A helpful service desk\nA support assistant with evidence\n\n14. A financial companion\nA personal finance application\n\n15. The learning room\nA course discovery interface\n\n16. Pathfinder\nA playful interactive world\n\n17. Document centre\nA searchable document workflow\n\n18. Plan the launch\nA release planning application\n\n19. The object viewer\nA 3D product experience\n\n20. Community connections\nA local discovery application\n\n21. Events made simple\nAn event scheduling tool\n\n22. Live operations\nA finished operations interface\n\n23. Research companion\nA source-aware research assistant\n\n24. Made to be used\nA responsive service landing page",
-          "ko": "완성 결과물의 형태를 살펴보는 24개 예시 프로젝트.\n\n1. Fieldnotes\nA responsive publishing interface\n\n2. Ask the knowledge base\nA cited-answer assistant interface\n\n3. Book a session\nA self-service booking application\n\n4. Explore the archipelago\nAn interactive environment concept\n\n5. Project cockpit\nA complete project analytics interface\n\n6. Configure your object\nA product customization concept\n\n7. Work, together\nA collaborative planning application\n\n8. Find your next place\nA location discovery interface\n\n9. Studio directory\nA searchable creative directory\n\n10. Time well spent\nA scheduling service\n\n11. The customer portal\nA unified account and request interface\n\n12. Interactive motion\nA browser-based visual experience\n\n13. A helpful service desk\nA support assistant with evidence\n\n14. A financial companion\nA personal finance application\n\n15. The learning room\nA course discovery interface\n\n16. Pathfinder\nA playful interactive world\n\n17. Document centre\nA searchable document workflow\n\n18. Plan the launch\nA release planning application\n\n19. The object viewer\nA 3D product experience\n\n20. Community connections\nA local discovery application\n\n21. Events made simple\nAn event scheduling tool\n\n22. Live operations\nA finished operations interface\n\n23. Research companion\nA source-aware research assistant\n\n24. Made to be used\nA responsive service landing page"
-        },
-        "transcriptSrc": "assets/media/20261123b/transcripts/development-showcase-15s-v20261123b.txt",
+        "src": "assets/media/20261123c/development-showcase-20261123c.mp4",
+        "poster": "assets/media/20261123c/posters/development-showcase-20261123c.jpg",
         "captions": [
           {
-            "src": "assets/media/20261123b/captions/development-showcase-15s-v20261123b.vtt",
+            "src": "assets/media/20261123c/captions/development-showcase-20261123c.vtt",
             "srclang": "en",
             "label": "English"
           }
         ],
-        "exampleCount": 24
+        "durationSeconds": 31.466666666666665,
+        "narration": {
+          "language": "en",
+          "temporaryVoice": true
+        },
+        "hasBgm": true,
+        "projectCount": 24,
+        "sha256": "5d6189e2cd17f632162b27bbd80504323d97c6bff763304b90ad5f952b14860a",
+        "bytes": 5503184
       }
     }
   },
-  "mediaGallery": "assets/media/20261123b/index.html",
-  "mediaCatalog": {},
-  "mediaAssignments": []
+  "mediaGallery": "assets/media/20261123c/index.html",
+  "mediaCatalog": {
+    "acumelo-chris-workflow-demo-20261123c": {
+      "mediaId": "acumelo-chris-workflow-demo-20261123c",
+      "id": "acumelo-chris-workflow-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "workflow",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "Weekly reporting, connected",
+        "ko": "Chris · AI 업무혁신·자동화 · 시연"
+      },
+      "src": "assets/media/20261123c/chris-workflow-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/chris-workflow-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/chris-workflow-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 51,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "396039fdeedeaf5249011fbe60d0ed94feebb657f47cdac5acae619396efec1b",
+      "bytes": 6030589
+    },
+    "acumelo-chris-strategy-demo-20261123c": {
+      "mediaId": "acumelo-chris-strategy-demo-20261123c",
+      "id": "acumelo-chris-strategy-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "strategy",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "An AI operating model",
+        "ko": "Chris · AI 기획·프로젝트 관리 · 시연"
+      },
+      "src": "assets/media/20261123c/chris-strategy-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/chris-strategy-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/chris-strategy-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 50.4,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "1456f91e3142133e21a789f04ba8005b50653b1ca6f14d9684e6543d674c063b",
+      "bytes": 4902352
+    },
+    "acumelo-chris-design-demo-20261123c": {
+      "mediaId": "acumelo-chris-design-demo-20261123c",
+      "id": "acumelo-chris-design-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "design",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "From direction to motion",
+        "ko": "Chris · AI 디자인·콘텐츠 · 시연"
+      },
+      "src": "assets/media/20261123c/chris-design-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/chris-design-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/chris-design-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 53.8,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "1d07c995efd55bef076e152ed4daea18a06d130b55ed001bfd83d601fecdd428",
+      "bytes": 7884096
+    },
+    "acumelo-chris-analytics-demo-20261123c": {
+      "mediaId": "acumelo-chris-analytics-demo-20261123c",
+      "id": "acumelo-chris-analytics-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "analytics",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "From raw data to a decision",
+        "ko": "Chris · AI 데이터 분석 · 시연"
+      },
+      "src": "assets/media/20261123c/chris-analytics-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/chris-analytics-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/chris-analytics-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 51.56666666666667,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "57b933d672c50b589bbd627470957d7780d2f5f5c4e46c3c10d7c082936cb3fb",
+      "bytes": 5460879
+    },
+    "acumelo-chris-marketing-demo-20261123c": {
+      "mediaId": "acumelo-chris-marketing-demo-20261123c",
+      "id": "acumelo-chris-marketing-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "marketing",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "A campaign with a feedback loop",
+        "ko": "Chris · AI 마케팅·세일즈 · 시연"
+      },
+      "src": "assets/media/20261123c/chris-marketing-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/chris-marketing-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/chris-marketing-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 54.06666666666667,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "9f5b21321cbc941f6b934a570701ae4a2cecc49141c26e5b08c3c181690a0156",
+      "bytes": 5415338
+    },
+    "acumelo-chris-development-demo-20261123c": {
+      "mediaId": "acumelo-chris-development-demo-20261123c",
+      "id": "acumelo-chris-development-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "development",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "One service, many surfaces",
+        "ko": "Chris · AI 서비스 개발 · 시연"
+      },
+      "src": "assets/media/20261123c/chris-development-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/chris-development-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/chris-development-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 55,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "f4e7cb567d30227151adc5196d8cc169519ae711d448d25fddec92cef9406cb3",
+      "bytes": 7395296
+    },
+    "acumelo-sage-strategy-demo-20261123c": {
+      "mediaId": "acumelo-sage-strategy-demo-20261123c",
+      "id": "acumelo-sage-strategy-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "strategy",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "Find the right product to build",
+        "ko": "Sage · AI 기획·프로젝트 관리 · 시연"
+      },
+      "src": "assets/media/20261123c/sage-strategy-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/sage-strategy-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/sage-strategy-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 46.96666666666667,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "41403240ba178af4b990ee9ed9a4037886a71f0f73d94a73dd5a5b8da34adfc4",
+      "bytes": 4358011
+    },
+    "acumelo-sage-design-demo-20261123c": {
+      "mediaId": "acumelo-sage-design-demo-20261123c",
+      "id": "acumelo-sage-design-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "design",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "Design the complete journey",
+        "ko": "Sage · AI 디자인·콘텐츠 · 시연"
+      },
+      "src": "assets/media/20261123c/sage-design-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/sage-design-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/sage-design-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 51.06666666666667,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "60f5829ab7c3e03b37697a3fbd664ddc329f662d5514b45ffe280f04535c9c67",
+      "bytes": 7325983
+    },
+    "acumelo-sage-development-demo-20261123c": {
+      "mediaId": "acumelo-sage-development-demo-20261123c",
+      "id": "acumelo-sage-development-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "development",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "A booking flow that feels effortless",
+        "ko": "Sage · AI 서비스 개발 · 시연"
+      },
+      "src": "assets/media/20261123c/sage-development-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/sage-development-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/sage-development-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 48.63333333333333,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "b49432a1add6c1965e48d6e62505f0be7d5990a1feb35aa061c7a0dc5a78967f",
+      "bytes": 5560134
+    },
+    "acumelo-pillow-design-demo-20261123c": {
+      "mediaId": "acumelo-pillow-design-demo-20261123c",
+      "id": "acumelo-pillow-design-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "design",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "Make a visual system move",
+        "ko": "Pillow · AI 디자인·콘텐츠 · 시연"
+      },
+      "src": "assets/media/20261123c/pillow-design-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/pillow-design-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/pillow-design-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 74.1,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "ee1f681d55e55fbce59862b31380316cdbc12d813a5e899393d52b9bbfe70406",
+      "bytes": 9173704
+    },
+    "acumelo-pillow-development-demo-20261123c": {
+      "mediaId": "acumelo-pillow-development-demo-20261123c",
+      "id": "acumelo-pillow-development-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "development",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "Turn a scene into an experience",
+        "ko": "Pillow · AI 서비스 개발 · 시연"
+      },
+      "src": "assets/media/20261123c/pillow-development-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/pillow-development-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/pillow-development-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 74.43333333333334,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "ac6fc56af2915924754a8e6410452657db86b75abbcbd94650f1dd46e720a0b0",
+      "bytes": 9605528
+    },
+    "acumelo-john-workflow-demo-20261123c": {
+      "mediaId": "acumelo-john-workflow-demo-20261123c",
+      "id": "acumelo-john-workflow-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "workflow",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "Invoice exceptions, under control",
+        "ko": "John · AI 업무혁신·자동화 · 시연"
+      },
+      "src": "assets/media/20261123c/john-workflow-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/john-workflow-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/john-workflow-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 40.4,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "447d4c08e513f65eb53b84d88f980f1240bc24faa2ba56d1afdb8f3fc914cee3",
+      "bytes": 4912479
+    },
+    "acumelo-john-development-demo-20261123c": {
+      "mediaId": "acumelo-john-development-demo-20261123c",
+      "id": "acumelo-john-development-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "development",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "Build a dependable integration",
+        "ko": "John · AI 서비스 개발 · 시연"
+      },
+      "src": "assets/media/20261123c/john-development-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/john-development-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/john-development-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 46.63333333333333,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "838997b95b2a64ab59547f131ec18b7418d6666d41d19cfbcd5c6e7d0c662f61",
+      "bytes": 5055254
+    },
+    "acumelo-sarah-strategy-demo-20261123c": {
+      "mediaId": "acumelo-sarah-strategy-demo-20261123c",
+      "id": "acumelo-sarah-strategy-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "strategy",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "A creative project that stays on track",
+        "ko": "Sarah · AI 기획·프로젝트 관리 · 시연"
+      },
+      "src": "assets/media/20261123c/sarah-strategy-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/sarah-strategy-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/sarah-strategy-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 40.766666666666666,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "88bffcc6e00914a41fc5455addd41d5ec6234616896835cef0a992a77d2a194c",
+      "bytes": 4344898
+    },
+    "acumelo-sarah-design-demo-20261123c": {
+      "mediaId": "acumelo-sarah-design-demo-20261123c",
+      "id": "acumelo-sarah-design-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "design",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "One campaign, every format",
+        "ko": "Sarah · AI 디자인·콘텐츠 · 시연"
+      },
+      "src": "assets/media/20261123c/sarah-design-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/sarah-design-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/sarah-design-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 45.2,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "0ed2936959542efb6e3041d19e80e5f99336ca68a4d4f7a1120566a60aac61d9",
+      "bytes": 5389805
+    },
+    "acumelo-joseph-analytics-demo-20261123c": {
+      "mediaId": "acumelo-joseph-analytics-demo-20261123c",
+      "id": "acumelo-joseph-analytics-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "analytics",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "Forecast demand, explain the uncertainty",
+        "ko": "Joseph · AI 데이터 분석 · 시연"
+      },
+      "src": "assets/media/20261123c/joseph-analytics-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/joseph-analytics-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/joseph-analytics-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 41.7,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "58fab4e11af78801916cf6a9b08ad0901a02d2560a89178590e33b6fb3f38170",
+      "bytes": 4681843
+    },
+    "acumelo-joseph-development-demo-20261123c": {
+      "mediaId": "acumelo-joseph-development-demo-20261123c",
+      "id": "acumelo-joseph-development-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "development",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "Make a forecast usable",
+        "ko": "Joseph · AI 서비스 개발 · 시연"
+      },
+      "src": "assets/media/20261123c/joseph-development-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/joseph-development-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/joseph-development-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 43.56666666666667,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "260c7417685235ce960f862f17c6062eac46deabf346cd5c8f56a8173e636130",
+      "bytes": 4487924
+    },
+    "acumelo-rachel-marketing-demo-20261123c": {
+      "mediaId": "acumelo-rachel-marketing-demo-20261123c",
+      "id": "acumelo-rachel-marketing-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "marketing",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "A customer journey worth measuring",
+        "ko": "Rachel · AI 마케팅·세일즈 · 시연"
+      },
+      "src": "assets/media/20261123c/rachel-marketing-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/rachel-marketing-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/rachel-marketing-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 50.333333333333336,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "8dcdb695b0284e616e00ba5a4b1be0e3e9eff83940fb5c363d9a297a933d2ce5",
+      "bytes": 5306433
+    },
+    "acumelo-rachel-development-demo-20261123c": {
+      "mediaId": "acumelo-rachel-development-demo-20261123c",
+      "id": "acumelo-rachel-development-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "development",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "Build the feedback loop",
+        "ko": "Rachel · AI 서비스 개발 · 시연"
+      },
+      "src": "assets/media/20261123c/rachel-development-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/rachel-development-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/rachel-development-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 48.03333333333333,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "3c28457ad0da8a90154f9141b0ae88b77bcbbf20075444d3c5a007f98debd1b3",
+      "bytes": 5889066
+    },
+    "acumelo-joshua-analytics-demo-20261123c": {
+      "mediaId": "acumelo-joshua-analytics-demo-20261123c",
+      "id": "acumelo-joshua-analytics-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "analytics",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "Understand retention by cohort",
+        "ko": "Joshua · AI 데이터 분석 · 시연"
+      },
+      "src": "assets/media/20261123c/joshua-analytics-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/joshua-analytics-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/joshua-analytics-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 53.733333333333334,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "9364679d10c8811c7cddb99d785b7c9fa1271ace9d75c6bf7c285db1b661bbb8",
+      "bytes": 5957185
+    },
+    "acumelo-joshua-development-demo-20261123c": {
+      "mediaId": "acumelo-joshua-development-demo-20261123c",
+      "id": "acumelo-joshua-development-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "development",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "Ship a useful analytics product",
+        "ko": "Joshua · AI 서비스 개발 · 시연"
+      },
+      "src": "assets/media/20261123c/joshua-development-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/joshua-development-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/joshua-development-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 52.3,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "32620275636fcb4395e3b4a9d41275b20ca0b46945eec0959cc777de4b40768e",
+      "bytes": 6345717
+    },
+    "acumelo-elizabeth-workflow-demo-20261123c": {
+      "mediaId": "acumelo-elizabeth-workflow-demo-20261123c",
+      "id": "acumelo-elizabeth-workflow-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "workflow",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "From meeting notes to accountable action",
+        "ko": "Elizabeth · AI 업무혁신·자동화 · 시연"
+      },
+      "src": "assets/media/20261123c/elizabeth-workflow-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/elizabeth-workflow-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/elizabeth-workflow-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 46.63333333333333,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "99defc7d8c3ff194900f184356e61db785a5229e775e7e39f63ac46869e52415",
+      "bytes": 5050326
+    },
+    "acumelo-elizabeth-strategy-demo-20261123c": {
+      "mediaId": "acumelo-elizabeth-strategy-demo-20261123c",
+      "id": "acumelo-elizabeth-strategy-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "strategy",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "Keep an AI delivery portfolio visible",
+        "ko": "Elizabeth · AI 기획·프로젝트 관리 · 시연"
+      },
+      "src": "assets/media/20261123c/elizabeth-strategy-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/elizabeth-strategy-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/elizabeth-strategy-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 43.833333333333336,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "c7c36a40802861a132ebf31df54e6ad24e219d70cbfd60f35ba5d5aeee400ee7",
+      "bytes": 4592224
+    },
+    "acumelo-michael-analytics-demo-20261123c": {
+      "mediaId": "acumelo-michael-analytics-demo-20261123c",
+      "id": "acumelo-michael-analytics-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "analytics",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "Make the numbers tell a clear story",
+        "ko": "Michael · AI 데이터 분석 · 시연"
+      },
+      "src": "assets/media/20261123c/michael-analytics-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/michael-analytics-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/michael-analytics-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 43.1,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "b66e894a7e364ec868c952d15d1751d0d0d50222dcde38525a7e08bf7798ed31",
+      "bytes": 4887528
+    },
+    "acumelo-rebecca-workflow-demo-20261123c": {
+      "mediaId": "acumelo-rebecca-workflow-demo-20261123c",
+      "id": "acumelo-rebecca-workflow-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "workflow",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "Turn a request into a controlled process",
+        "ko": "Rebecca · AI 업무혁신·자동화 · 시연"
+      },
+      "src": "assets/media/20261123c/rebecca-workflow-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/rebecca-workflow-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/rebecca-workflow-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 52.93333333333333,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "d331c9c74f7adf727048053d3796b2b3d56e48ab753fd800ef9628f66ed73c0e",
+      "bytes": 5487492
+    },
+    "acumelo-rebecca-development-demo-20261123c": {
+      "mediaId": "acumelo-rebecca-development-demo-20261123c",
+      "id": "acumelo-rebecca-development-demo-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "development",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "A knowledge assistant with boundaries",
+        "ko": "Rebecca · AI 서비스 개발 · 시연"
+      },
+      "src": "assets/media/20261123c/rebecca-development-demo-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/rebecca-development-demo-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/rebecca-development-demo-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 52.56666666666667,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "c8a636b39ad4e69abe67571435959abc64a68bb37ed9e84a5fde8690eaf6e0f9",
+      "bytes": 5436507
+    },
+    "acumelo-workflow-overview-20261123c": {
+      "mediaId": "acumelo-workflow-overview-20261123c",
+      "id": "acumelo-workflow-overview-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "workflow",
+      "kind": "demo",
+      "scope": "category",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "AI Workflow & Automation",
+        "ko": "AI 업무혁신·자동화 · 시연"
+      },
+      "src": "assets/media/20261123c/workflow-overview-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/workflow-overview-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/workflow-overview-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 50.93333333333333,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "bdfb3d3a771390104e629e4b57627e3b449e6ade7104079d7e16b53c853a8239",
+      "bytes": 6171269
+    },
+    "acumelo-workflow-showcase-20261123c": {
+      "mediaId": "acumelo-workflow-showcase-20261123c",
+      "id": "acumelo-workflow-showcase-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "workflow",
+      "kind": "project",
+      "scope": "category",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "AI Workflow & Automation / Project possibilities",
+        "ko": "AI 업무혁신·자동화 · 결과물 예시"
+      },
+      "src": "assets/media/20261123c/workflow-showcase-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/workflow-showcase-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/workflow-showcase-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 31.633333333333333,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 24,
+      "sha256": "c27b2b771003fb60f8c66cc2601d2f39fbeb82284b2648771cb246838221e134",
+      "bytes": 3315182
+    },
+    "acumelo-strategy-overview-20261123c": {
+      "mediaId": "acumelo-strategy-overview-20261123c",
+      "id": "acumelo-strategy-overview-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "strategy",
+      "kind": "demo",
+      "scope": "category",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "AI Strategy & Project Management",
+        "ko": "AI 기획·프로젝트 관리 · 시연"
+      },
+      "src": "assets/media/20261123c/strategy-overview-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/strategy-overview-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/strategy-overview-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 50.36666666666667,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "05aa61f2f28254fd34aac28a884c570e1cbf820224ffef952444f2dc50ec53b3",
+      "bytes": 5209150
+    },
+    "acumelo-strategy-showcase-20261123c": {
+      "mediaId": "acumelo-strategy-showcase-20261123c",
+      "id": "acumelo-strategy-showcase-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "strategy",
+      "kind": "project",
+      "scope": "category",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "AI Strategy & Project Management / Project possibilities",
+        "ko": "AI 기획·프로젝트 관리 · 결과물 예시"
+      },
+      "src": "assets/media/20261123c/strategy-showcase-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/strategy-showcase-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/strategy-showcase-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 32.2,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 24,
+      "sha256": "3a0ef60b0d67a1cba52fc8e61f3f4db7b3dcffbcc9d592d0fc7900667e98068f",
+      "bytes": 3416718
+    },
+    "acumelo-design-overview-20261123c": {
+      "mediaId": "acumelo-design-overview-20261123c",
+      "id": "acumelo-design-overview-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "design",
+      "kind": "demo",
+      "scope": "category",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "AI Design & Content",
+        "ko": "AI 디자인·콘텐츠 · 시연"
+      },
+      "src": "assets/media/20261123c/design-overview-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/design-overview-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/design-overview-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 53.8,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "ef72f39f81dec1d46d70ce3d97cceccb35aaf56faf90f88e3f98fd8178dd9cca",
+      "bytes": 7885166
+    },
+    "acumelo-design-showcase-20261123c": {
+      "mediaId": "acumelo-design-showcase-20261123c",
+      "id": "acumelo-design-showcase-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "design",
+      "kind": "project",
+      "scope": "category",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "AI Design & Content / Project possibilities",
+        "ko": "AI 디자인·콘텐츠 · 결과물 예시"
+      },
+      "src": "assets/media/20261123c/design-showcase-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/design-showcase-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/design-showcase-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 31.333333333333332,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 24,
+      "sha256": "8adbc37614bc1eae1b907dd0dbf46af42a8d257ad9091247f3ce262727c40f0f",
+      "bytes": 7842569
+    },
+    "acumelo-analytics-overview-20261123c": {
+      "mediaId": "acumelo-analytics-overview-20261123c",
+      "id": "acumelo-analytics-overview-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "analytics",
+      "kind": "demo",
+      "scope": "category",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "AI Data Analytics",
+        "ko": "AI 데이터 분석 · 시연"
+      },
+      "src": "assets/media/20261123c/analytics-overview-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/analytics-overview-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/analytics-overview-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 51.53333333333333,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "ba7a734ed4177ba85ff555b3affd38d01a6b833b72101e91a24d1986678af2eb",
+      "bytes": 5459942
+    },
+    "acumelo-analytics-showcase-20261123c": {
+      "mediaId": "acumelo-analytics-showcase-20261123c",
+      "id": "acumelo-analytics-showcase-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "analytics",
+      "kind": "project",
+      "scope": "category",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "AI Data Analytics / Project possibilities",
+        "ko": "AI 데이터 분석 · 결과물 예시"
+      },
+      "src": "assets/media/20261123c/analytics-showcase-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/analytics-showcase-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/analytics-showcase-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 31.133333333333333,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 24,
+      "sha256": "96944d40d82383fc6b9be7d3a1a4076616a8f0d51d7a714b539fe33777a148d1",
+      "bytes": 3364247
+    },
+    "acumelo-marketing-overview-20261123c": {
+      "mediaId": "acumelo-marketing-overview-20261123c",
+      "id": "acumelo-marketing-overview-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "marketing",
+      "kind": "demo",
+      "scope": "category",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "AI Marketing & Sales",
+        "ko": "AI 마케팅·세일즈 · 시연"
+      },
+      "src": "assets/media/20261123c/marketing-overview-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/marketing-overview-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/marketing-overview-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 54.06666666666667,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "b9486c353e24103cf3055817a3e3e7fcee00dab2607f6c7b8017234378977ecb",
+      "bytes": 5581478
+    },
+    "acumelo-marketing-showcase-20261123c": {
+      "mediaId": "acumelo-marketing-showcase-20261123c",
+      "id": "acumelo-marketing-showcase-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "marketing",
+      "kind": "project",
+      "scope": "category",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "AI Marketing & Sales / Project possibilities",
+        "ko": "AI 마케팅·세일즈 · 결과물 예시"
+      },
+      "src": "assets/media/20261123c/marketing-showcase-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/marketing-showcase-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/marketing-showcase-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 31.333333333333332,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 24,
+      "sha256": "5093a45cf34b57906bb6c7df52045c9fcf0efab6071e5db27ff6afe87772cca6",
+      "bytes": 4848518
+    },
+    "acumelo-development-overview-20261123c": {
+      "mediaId": "acumelo-development-overview-20261123c",
+      "id": "acumelo-development-overview-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "development",
+      "kind": "demo",
+      "scope": "category",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "AI Service Development",
+        "ko": "AI 서비스 개발 · 시연"
+      },
+      "src": "assets/media/20261123c/development-overview-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/development-overview-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/development-overview-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 54.86666666666667,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "7986a95cb141293425fbb1fc50c3e4be98ac1a61180f2583ce7b4294dbbb1c6a",
+      "bytes": 7325952
+    },
+    "acumelo-development-showcase-20261123c": {
+      "mediaId": "acumelo-development-showcase-20261123c",
+      "id": "acumelo-development-showcase-20261123c",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "development",
+      "kind": "project",
+      "scope": "category",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "AI Service Development / Project possibilities",
+        "ko": "AI 서비스 개발 · 결과물 예시"
+      },
+      "src": "assets/media/20261123c/development-showcase-20261123c.mp4",
+      "poster": "assets/media/20261123c/posters/development-showcase-20261123c.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261123c/captions/development-showcase-20261123c.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 31.466666666666665,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true
+      },
+      "hasBgm": true,
+      "projectCount": 24,
+      "sha256": "5d6189e2cd17f632162b27bbd80504323d97c6bff763304b90ad5f952b14860a",
+      "bytes": 5503184
+    }
+  },
+  "mediaAssignments": [
+    {
+      "assignmentId": "assignment-chris-workflow-demo",
+      "mediaId": "acumelo-chris-workflow-demo-20261123c",
+      "assignedInstructorId": "instructor-chris",
+      "fieldId": "workflow",
+      "placement": "profile-demo",
+      "temporaryAssignment": false,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-chris-strategy-demo",
+      "mediaId": "acumelo-chris-strategy-demo-20261123c",
+      "assignedInstructorId": "instructor-chris",
+      "fieldId": "strategy",
+      "placement": "profile-demo",
+      "temporaryAssignment": false,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-chris-design-demo",
+      "mediaId": "acumelo-chris-design-demo-20261123c",
+      "assignedInstructorId": "instructor-chris",
+      "fieldId": "design",
+      "placement": "profile-demo",
+      "temporaryAssignment": false,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-chris-analytics-demo",
+      "mediaId": "acumelo-chris-analytics-demo-20261123c",
+      "assignedInstructorId": "instructor-chris",
+      "fieldId": "analytics",
+      "placement": "profile-demo",
+      "temporaryAssignment": false,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-chris-marketing-demo",
+      "mediaId": "acumelo-chris-marketing-demo-20261123c",
+      "assignedInstructorId": "instructor-chris",
+      "fieldId": "marketing",
+      "placement": "profile-demo",
+      "temporaryAssignment": false,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-chris-development-demo",
+      "mediaId": "acumelo-chris-development-demo-20261123c",
+      "assignedInstructorId": "instructor-chris",
+      "fieldId": "development",
+      "placement": "profile-demo",
+      "temporaryAssignment": false,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-sage-strategy-demo",
+      "mediaId": "acumelo-sage-strategy-demo-20261123c",
+      "assignedInstructorId": "instructor-sage",
+      "fieldId": "strategy",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-sage-design-demo",
+      "mediaId": "acumelo-sage-design-demo-20261123c",
+      "assignedInstructorId": "instructor-sage",
+      "fieldId": "design",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-sage-development-demo",
+      "mediaId": "acumelo-sage-development-demo-20261123c",
+      "assignedInstructorId": "instructor-sage",
+      "fieldId": "development",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-pillow-design-demo",
+      "mediaId": "acumelo-pillow-design-demo-20261123c",
+      "assignedInstructorId": "instructor-03",
+      "fieldId": "design",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-pillow-development-demo",
+      "mediaId": "acumelo-pillow-development-demo-20261123c",
+      "assignedInstructorId": "instructor-03",
+      "fieldId": "development",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-john-workflow-demo",
+      "mediaId": "acumelo-john-workflow-demo-20261123c",
+      "assignedInstructorId": "instructor-04",
+      "fieldId": "workflow",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-john-development-demo",
+      "mediaId": "acumelo-john-development-demo-20261123c",
+      "assignedInstructorId": "instructor-04",
+      "fieldId": "development",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-sarah-strategy-demo",
+      "mediaId": "acumelo-sarah-strategy-demo-20261123c",
+      "assignedInstructorId": "instructor-05",
+      "fieldId": "strategy",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-sarah-design-demo",
+      "mediaId": "acumelo-sarah-design-demo-20261123c",
+      "assignedInstructorId": "instructor-05",
+      "fieldId": "design",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-joseph-analytics-demo",
+      "mediaId": "acumelo-joseph-analytics-demo-20261123c",
+      "assignedInstructorId": "instructor-06",
+      "fieldId": "analytics",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-joseph-development-demo",
+      "mediaId": "acumelo-joseph-development-demo-20261123c",
+      "assignedInstructorId": "instructor-06",
+      "fieldId": "development",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-rachel-marketing-demo",
+      "mediaId": "acumelo-rachel-marketing-demo-20261123c",
+      "assignedInstructorId": "instructor-07",
+      "fieldId": "marketing",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-rachel-development-demo",
+      "mediaId": "acumelo-rachel-development-demo-20261123c",
+      "assignedInstructorId": "instructor-07",
+      "fieldId": "development",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-joshua-analytics-demo",
+      "mediaId": "acumelo-joshua-analytics-demo-20261123c",
+      "assignedInstructorId": "instructor-08",
+      "fieldId": "analytics",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-joshua-development-demo",
+      "mediaId": "acumelo-joshua-development-demo-20261123c",
+      "assignedInstructorId": "instructor-08",
+      "fieldId": "development",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-elizabeth-workflow-demo",
+      "mediaId": "acumelo-elizabeth-workflow-demo-20261123c",
+      "assignedInstructorId": "instructor-09",
+      "fieldId": "workflow",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-elizabeth-strategy-demo",
+      "mediaId": "acumelo-elizabeth-strategy-demo-20261123c",
+      "assignedInstructorId": "instructor-09",
+      "fieldId": "strategy",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-michael-analytics-demo",
+      "mediaId": "acumelo-michael-analytics-demo-20261123c",
+      "assignedInstructorId": "instructor-10",
+      "fieldId": "analytics",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-rebecca-workflow-demo",
+      "mediaId": "acumelo-rebecca-workflow-demo-20261123c",
+      "assignedInstructorId": "instructor-11",
+      "fieldId": "workflow",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-rebecca-development-demo",
+      "mediaId": "acumelo-rebecca-development-demo-20261123c",
+      "assignedInstructorId": "instructor-11",
+      "fieldId": "development",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-workflow-overview",
+      "mediaId": "acumelo-workflow-overview-20261123c",
+      "assignedInstructorId": null,
+      "fieldId": "workflow",
+      "placement": "course-demo",
+      "temporaryAssignment": false,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-workflow-showcase",
+      "mediaId": "acumelo-workflow-showcase-20261123c",
+      "assignedInstructorId": null,
+      "fieldId": "workflow",
+      "placement": "course-project",
+      "temporaryAssignment": false,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-strategy-overview",
+      "mediaId": "acumelo-strategy-overview-20261123c",
+      "assignedInstructorId": null,
+      "fieldId": "strategy",
+      "placement": "course-demo",
+      "temporaryAssignment": false,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-strategy-showcase",
+      "mediaId": "acumelo-strategy-showcase-20261123c",
+      "assignedInstructorId": null,
+      "fieldId": "strategy",
+      "placement": "course-project",
+      "temporaryAssignment": false,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-design-overview",
+      "mediaId": "acumelo-design-overview-20261123c",
+      "assignedInstructorId": null,
+      "fieldId": "design",
+      "placement": "course-demo",
+      "temporaryAssignment": false,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-design-showcase",
+      "mediaId": "acumelo-design-showcase-20261123c",
+      "assignedInstructorId": null,
+      "fieldId": "design",
+      "placement": "course-project",
+      "temporaryAssignment": false,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-analytics-overview",
+      "mediaId": "acumelo-analytics-overview-20261123c",
+      "assignedInstructorId": null,
+      "fieldId": "analytics",
+      "placement": "course-demo",
+      "temporaryAssignment": false,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-analytics-showcase",
+      "mediaId": "acumelo-analytics-showcase-20261123c",
+      "assignedInstructorId": null,
+      "fieldId": "analytics",
+      "placement": "course-project",
+      "temporaryAssignment": false,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-marketing-overview",
+      "mediaId": "acumelo-marketing-overview-20261123c",
+      "assignedInstructorId": null,
+      "fieldId": "marketing",
+      "placement": "course-demo",
+      "temporaryAssignment": false,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-marketing-showcase",
+      "mediaId": "acumelo-marketing-showcase-20261123c",
+      "assignedInstructorId": null,
+      "fieldId": "marketing",
+      "placement": "course-project",
+      "temporaryAssignment": false,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-development-overview",
+      "mediaId": "acumelo-development-overview-20261123c",
+      "assignedInstructorId": null,
+      "fieldId": "development",
+      "placement": "course-demo",
+      "temporaryAssignment": false,
+      "status": "active"
+    },
+    {
+      "assignmentId": "assignment-development-showcase",
+      "mediaId": "acumelo-development-showcase-20261123c",
+      "assignedInstructorId": null,
+      "fieldId": "development",
+      "placement": "course-project",
+      "temporaryAssignment": false,
+      "status": "active"
+    }
+  ]
 };

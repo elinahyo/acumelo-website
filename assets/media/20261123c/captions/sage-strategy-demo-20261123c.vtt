@@ -1,0 +1,41 @@
+WEBVTT
+
+1
+00:00:01.250 --> 00:00:06.318
+Before building booking experience, define the problem and the decision it will support.
+
+2
+00:00:06.318 --> 00:00:10.811
+Make the expected outcome measurable, and record what is still an assumption.
+
+3
+00:00:11.211 --> 00:00:13.234
+Map the booking journey in Miro.
+
+4
+00:00:13.234 --> 00:00:18.673
+Ask Gemini to challenge the research assumptions, then record the evidence in Notion.
+
+5
+00:00:18.673 --> 00:00:23.415
+Distinguish a customer problem from a feature that only sounds attractive.
+
+6
+00:00:23.815 --> 00:00:26.997
+Translate the opportunity into a small experiment.
+
+7
+00:00:26.997 --> 00:00:31.769
+Use Jira for acceptance criteria and Figma for the interaction hypothesis.
+
+8
+00:00:31.769 --> 00:00:36.414
+Compare the proposal with the evidence before choosing the next release.
+
+9
+00:00:36.814 --> 00:00:41.197
+Bring the evidence, cost, and next decision into validated product brief.
+
+10
+00:00:41.197 --> 00:00:45.701
+The output is a shared direction, with clear ownership and a review point.

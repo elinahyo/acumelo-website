@@ -1,0 +1,37 @@
+WEBVTT
+
+1
+00:00:01.250 --> 00:00:05.975
+Before building campaign production, define the problem and the decision it will support.
+
+2
+00:00:05.975 --> 00:00:10.115
+Make the expected outcome measurable, and record what is still an assumption.
+
+3
+00:00:10.515 --> 00:00:14.723
+Use Notion for the production brief and Miro for the sequence of decisions.
+
+4
+00:00:14.723 --> 00:00:20.053
+Separate creative exploration from approved scope, then assign a named owner to every handoff.
+
+5
+00:00:20.453 --> 00:00:23.079
+Track dependencies and review gates in Jira.
+
+6
+00:00:23.079 --> 00:00:27.674
+Use Claude to challenge the plan, then compare effort and capacity in Excel.
+
+7
+00:00:27.674 --> 00:00:31.314
+A change request must show its effect on timing and quality.
+
+8
+00:00:31.714 --> 00:00:35.337
+Bring the evidence, cost, and next decision into production plan.
+
+9
+00:00:35.337 --> 00:00:39.517
+The output is a shared direction, with clear ownership and a review point.

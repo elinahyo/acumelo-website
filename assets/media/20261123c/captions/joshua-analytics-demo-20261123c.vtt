@@ -1,0 +1,41 @@
+WEBVTT
+
+1
+00:00:01.250 --> 00:00:04.112
+The question comes first: product retention.
+
+2
+00:00:04.112 --> 00:00:09.966
+Check the grain of the data and its definitions before you draw a chart or build a model.
+
+3
+00:00:10.366 --> 00:00:14.716
+Use SQL to define the first active period for each customer.
+
+4
+00:00:14.716 --> 00:00:23.925
+In Jupyter, build a retention matrix and check that each row uses the same cohort definition before comparing the percentages.
+
+5
+00:00:24.325 --> 00:00:28.814
+Compare the cohort heatmap in Tableau with a Power BI summary.
+
+6
+00:00:28.814 --> 00:00:35.332
+Inspect the operational signal in Grafana, then reconcile the underlying totals in Excel.
+
+7
+00:00:35.332 --> 00:00:39.677
+The cohort definition must remain consistent in every view.
+
+8
+00:00:40.077 --> 00:00:42.491
+Publish the story as cohort explorer.
+
+9
+00:00:42.491 --> 00:00:47.841
+Let people filter the view, inspect the evidence, and understand the next action.
+
+10
+00:00:47.841 --> 00:00:52.473
+The presentation should remain clear when the underlying data changes.

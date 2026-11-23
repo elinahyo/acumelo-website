@@ -1,0 +1,41 @@
+WEBVTT
+
+1
+00:00:01.250 --> 00:00:03.634
+The question comes first: inventory planning.
+
+2
+00:00:03.634 --> 00:00:08.403
+Check the grain of the data and its definitions before you draw a chart or build a model.
+
+3
+00:00:08.803 --> 00:00:13.572
+In Jupyter, check missing periods and separate training data from the validation window.
+
+4
+00:00:13.572 --> 00:00:18.992
+Inspect seasonality and demand in Excel, then compare a simple baseline with a time-aware forecast.
+
+5
+00:00:19.392 --> 00:00:22.134
+Show the forecast and its uncertainty in Power BI.
+
+6
+00:00:22.134 --> 00:00:24.108
+In Tableau, compare product groups.
+
+7
+00:00:24.108 --> 00:00:29.701
+Use Grafana for the operational signal, keeping the model error visible beside the planning decision.
+
+8
+00:00:30.101 --> 00:00:32.249
+Publish the story as forecast dashboard.
+
+9
+00:00:32.249 --> 00:00:36.651
+Let people filter the view, inspect the evidence, and understand the next action.
+
+10
+00:00:36.651 --> 00:00:40.463
+The presentation should remain clear when the underlying data changes.

@@ -1,0 +1,33 @@
+WEBVTT
+
+1
+00:00:01.250 --> 00:00:04.199
+Turn cohort explorer into a working product.
+
+2
+00:00:04.199 --> 00:00:11.973
+Start with the interface, the data contract, and the boundaries between the client, the API, and the storage layer.
+
+3
+00:00:12.373 --> 00:00:17.758
+Build the cohort explorer in React and compare its mobile navigation in Flutter.
+
+4
+00:00:17.758 --> 00:00:25.634
+Make the date window, segment filter, and cohort definition visible so a user understands what the chart represents.
+
+5
+00:00:26.034 --> 00:00:31.843
+Inspect the query and access rules in Supabase, then compare the result with the notebook.
+
+6
+00:00:31.843 --> 00:00:38.815
+Use Docker for a repeatable stack and GitHub Actions to test the critical filtering journey before release.
+
+7
+00:00:39.215 --> 00:00:43.115
+Test the critical journey and prepare a repeatable release.
+
+8
+00:00:43.115 --> 00:00:51.047
+The result is analytics portal: a usable experience with a clear architecture, visible state, and a path to improve it.

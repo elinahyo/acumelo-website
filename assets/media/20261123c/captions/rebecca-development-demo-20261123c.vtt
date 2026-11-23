@@ -1,0 +1,37 @@
+WEBVTT
+
+1
+00:00:01.250 --> 00:00:05.100
+Build an internal knowledge assistant that knows its boundaries.
+
+2
+00:00:05.100 --> 00:00:10.936
+Start with the question, the permitted sources, and the evidence required for a useful response.
+
+3
+00:00:11.336 --> 00:00:15.923
+Build a cited knowledge assistant with a small, typed service boundary.
+
+4
+00:00:15.923 --> 00:00:20.703
+In Langflow, inspect the query, retrieved passages, prompt, and response.
+
+5
+00:00:20.703 --> 00:00:24.773
+An answer without supporting evidence needs a different state.
+
+6
+00:00:25.173 --> 00:00:29.708
+Check the source records and access policies in Supabase and Firebase.
+
+7
+00:00:29.708 --> 00:00:39.232
+Test an empty retrieval and an unauthorized request in Postman, then run the release checks in GitHub Actions before expanding the knowledge base.
+
+8
+00:00:39.632 --> 00:00:43.341
+Test the critical journey and prepare a repeatable release.
+
+9
+00:00:43.341 --> 00:00:51.325
+The result is cited knowledge service: a usable experience with a clear architecture, visible state, and a path to improve it.

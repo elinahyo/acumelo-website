@@ -1,0 +1,41 @@
+WEBVTT
+
+1
+00:00:01.250 --> 00:00:03.917
+Build a dependable invoice-processing service.
+
+2
+00:00:03.917 --> 00:00:10.179
+Define the request, the validation rules, and the state change before connecting the API to another system.
+
+3
+00:00:10.579 --> 00:00:14.871
+Define the invoice contract in FastAPI and validate it with typed models.
+
+4
+00:00:14.871 --> 00:00:19.808
+Use Postman to send a correct request, an invalid request, and a duplicate request.
+
+5
+00:00:19.808 --> 00:00:22.336
+Each response should have a clear meaning.
+
+6
+00:00:22.736 --> 00:00:27.558
+Inspect the transaction in Supabase and connect the downstream step in n eight n.
+
+7
+00:00:27.558 --> 00:00:29.940
+Add an idempotency key before retrying.
+
+8
+00:00:29.940 --> 00:00:34.643
+Use Grafana to review failures and GitHub Actions to keep releases repeatable.
+
+9
+00:00:35.043 --> 00:00:38.414
+Test the critical journey and prepare a repeatable release.
+
+10
+00:00:38.414 --> 00:00:45.383
+The result is operations service: a usable experience with a clear architecture, visible state, and a path to improve it.
