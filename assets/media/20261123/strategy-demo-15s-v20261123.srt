@@ -1,0 +1,47 @@
+1
+00:00:00,000 --> 00:00:01,250
+Problem brief — Notion
+
+2
+00:00:01,250 --> 00:00:02,500
+Opportunity map — Miro
+
+3
+00:00:02,500 --> 00:00:03,750
+Weighted shortlist — Microsoft Excel
+
+4
+00:00:03,750 --> 00:00:05,000
+Scenario view — Power BI
+
+5
+00:00:05,000 --> 00:00:06,250
+Discovery backlog — Jira
+
+6
+00:00:06,250 --> 00:00:07,500
+Requirements page — Confluence
+
+7
+00:00:07,500 --> 00:00:08,750
+Delivery roadmap — Microsoft Project
+
+8
+00:00:08,750 --> 00:00:10,000
+Decision architecture — Mermaid
+
+9
+00:00:10,000 --> 00:00:11,250
+Pilot sprint — Linear
+
+10
+00:00:11,250 --> 00:00:12,500
+Review cadence — Asana
+
+11
+00:00:12,500 --> 00:00:13,750
+Steering presentation — PowerPoint
+
+12
+00:00:13,750 --> 00:00:15,000
+Go / revise / stop — Google Docs

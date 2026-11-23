@@ -1,0 +1,95 @@
+1
+00:00:00,000 --> 00:00:00,625
+Audience insight canvas
+
+2
+00:00:00,625 --> 00:00:01,250
+B2B account research desk
+
+3
+00:00:01,250 --> 00:00:01,875
+Three-message campaign set
+
+4
+00:00:01,875 --> 00:00:02,500
+Welcome journey studio
+
+5
+00:00:02,500 --> 00:00:03,125
+Workshop launch page
+
+6
+00:00:03,125 --> 00:00:03,750
+Campaign measurement board
+
+7
+00:00:03,750 --> 00:00:04,375
+Content publishing rhythm
+
+8
+00:00:04,375 --> 00:00:05,000
+Sales meeting preparation
+
+9
+00:00:05,000 --> 00:00:05,625
+Social story collection
+
+10
+00:00:05,625 --> 00:00:06,250
+Customer interview synthesis
+
+11
+00:00:06,250 --> 00:00:06,875
+Creative experiment backlog
+
+12
+00:00:06,875 --> 00:00:07,500
+Channel planning worksheet
+
+13
+00:00:07,500 --> 00:00:08,125
+Re-engagement draft sequence
+
+14
+00:00:08,125 --> 00:00:08,750
+Brand message architecture
+
+15
+00:00:08,750 --> 00:00:09,375
+Product comparison page
+
+16
+00:00:09,375 --> 00:00:10,000
+Illustrative funnel explorer
+
+17
+00:00:10,000 --> 00:00:10,625
+Partner outreach workspace
+
+18
+00:00:10,625 --> 00:00:11,250
+Event promotion toolkit
+
+19
+00:00:11,250 --> 00:00:11,875
+Search intent opportunity map
+
+20
+00:00:11,875 --> 00:00:12,500
+Lead qualification handoff
+
+21
+00:00:12,500 --> 00:00:13,125
+Sales enablement deck
+
+22
+00:00:13,125 --> 00:00:13,750
+Customer feedback microflow
+
+23
+00:00:13,750 --> 00:00:14,375
+Launch coordination calendar
+
+24
+00:00:14,375 --> 00:00:15,000
+Campaign review notebook

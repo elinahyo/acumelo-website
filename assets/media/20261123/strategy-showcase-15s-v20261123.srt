@@ -1,0 +1,95 @@
+1
+00:00:00,000 --> 00:00:00,625
+AI opportunity radar
+
+2
+00:00:00,625 --> 00:00:01,250
+Six-week pilot roadmap
+
+3
+00:00:01,250 --> 00:00:01,875
+Value-feasibility map
+
+4
+00:00:01,875 --> 00:00:02,500
+Cost scenario planner
+
+5
+00:00:02,500 --> 00:00:03,125
+Responsible AI risk register
+
+6
+00:00:03,125 --> 00:00:03,750
+One-page project charter
+
+7
+00:00:03,750 --> 00:00:04,375
+Stakeholder decision map
+
+8
+00:00:04,375 --> 00:00:05,000
+Discovery sprint backlog
+
+9
+00:00:05,000 --> 00:00:05,625
+AI adoption journey
+
+10
+00:00:05,625 --> 00:00:06,250
+Governance review calendar
+
+11
+00:00:06,250 --> 00:00:06,875
+Board proposal deck
+
+12
+00:00:06,875 --> 00:00:07,500
+Service blueprint
+
+13
+00:00:07,500 --> 00:00:08,125
+Weighted vendor comparison
+
+14
+00:00:08,125 --> 00:00:08,750
+Pilot acceptance checklist
+
+15
+00:00:08,750 --> 00:00:09,375
+Portfolio health view
+
+16
+00:00:09,375 --> 00:00:10,000
+Change request desk
+
+17
+00:00:10,000 --> 00:00:10,625
+Human approval boundaries
+
+18
+00:00:10,625 --> 00:00:11,250
+Data readiness assessment
+
+19
+00:00:11,250 --> 00:00:11,875
+Dependency delivery map
+
+20
+00:00:11,875 --> 00:00:12,500
+Project retrospective
+
+21
+00:00:12,500 --> 00:00:13,125
+Assumption test log
+
+22
+00:00:13,125 --> 00:00:13,750
+Stakeholder engagement plan
+
+23
+00:00:13,750 --> 00:00:14,375
+Internal AI launch hub
+
+24
+00:00:14,375 --> 00:00:15,000
+Project check-in companion

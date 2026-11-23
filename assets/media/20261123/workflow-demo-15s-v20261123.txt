@@ -1,0 +1,81 @@
+AI Workflow & Automation — Illustrative screen demonstration
+
+These are code-animated interface illustrations and synthetic examples. They are not live software recordings or verified student submissions. Tool names describe indicative stacks.
+
+00:00:00.000–00:00:01.250 | 1. Source workbook / Microsoft Excel
+Inspect duplicate requests
+  • Requests arrive from three teams
+  • Flag duplicate request IDs
+  • Assign one accountable owner
+
+00:00:01.250–00:00:02.500 | 2. Clean data view / Google Sheets
+Normalize source fields
+  • Normalize dates and names
+  • Use a shared status vocabulary
+  • Keep original records intact
+
+00:00:02.500–00:00:03.750 | 3. Validation notebook / Python / pandas
+Flag missing values
+  • Find missing owner fields
+  • Remove exact duplicate records
+  • Write exceptions to a review table
+Illustrative python source:
+import pandas as pd
+df = pd.read_csv('requests.csv')
+issues = df[df.isna().any(axis=1)]
+clean = df.drop_duplicates()
+issues.to_csv('review.csv', index=False)
+
+00:00:03.750–00:00:05.000 | 4. Weekly briefing / PowerPoint
+Build a report deck
+  • Summarize this week's requests
+  • Show open actions and blockers
+  • Create an editable briefing deck
+
+00:00:05.000–00:00:06.250 | 5. Follow-up drafts / Outlook
+Draft recipient-specific replies
+  • Draft a tailored follow-up
+  • Include the request and next step
+  • Require approval before delivery
+
+00:00:06.250–00:00:07.500 | 6. Team schedule / Google Calendar
+Check availability
+  • Read shared availability
+  • Protect existing commitments
+  • Propose two open meeting slots
+
+00:00:07.500–00:00:08.750 | 7. Automation canvas / n8n
+Connect trigger and actions
+  • Receive the intake event
+  • Validate and route by request type
+  • Deliver only approved outputs
+
+00:00:08.750–00:00:10.000 | 8. Exception route / Make
+Handle failed delivery
+  • Inspect the failed action
+  • Retry within a bounded limit
+  • Escalate unresolved exceptions
+
+00:00:10.000–00:00:11.250 | 9. Approval channel / Slack
+Request owner sign-off
+  • Review the proposed response
+  • Approve or return with comments
+  • Keep a visible decision record
+
+00:00:11.250–00:00:12.500 | 10. Action board / Notion
+Assign approved tasks
+  • Convert approvals to tasks
+  • Assign owner and due date
+  • Track work through completion
+
+00:00:12.500–00:00:13.750 | 11. Execution monitor / Power Automate
+Inspect the run log
+  • Inspect completed runs
+  • Separate retries from failures
+  • Open the human review queue
+
+00:00:13.750–00:00:15.000 | 12. Delivery report / Apps Script
+Publish an audit summary
+  • List delivered outputs
+  • Link every item to approval
+  • Export a concise audit summary

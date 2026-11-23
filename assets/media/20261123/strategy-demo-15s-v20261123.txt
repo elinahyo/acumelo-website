@@ -1,0 +1,75 @@
+AI Strategy & Project Management — Illustrative screen demonstration
+
+These are code-animated interface illustrations and synthetic examples. They are not live software recordings or verified student submissions. Tool names describe indicative stacks.
+
+00:00:00.000–00:00:01.250 | 1. Problem brief / Notion
+Define the business problem
+  • Name one operational problem
+  • Define the affected users
+  • Set scope and explicit exclusions
+
+00:00:01.250–00:00:02.500 | 2. Opportunity map / Miro
+Cluster possible AI uses
+  • Collect possible AI use cases
+  • Cluster value and feasibility
+  • Identify evidence still missing
+
+00:00:02.500–00:00:03.750 | 3. Weighted shortlist / Microsoft Excel
+Adjust decision weights
+  • Set transparent decision weights
+  • Compare candidate initiatives
+  • Record uncertain assumptions
+
+00:00:03.750–00:00:05.000 | 4. Scenario view / Power BI
+Compare cost scenarios
+  • Change cost and adoption inputs
+  • Compare conservative and stretch cases
+  • Keep assumptions beside the chart
+
+00:00:05.000–00:00:06.250 | 5. Discovery backlog / Jira
+Separate ideas from commitments
+  • Write testable hypotheses
+  • Separate discovery from delivery
+  • Prioritize the smallest useful test
+
+00:00:06.250–00:00:07.500 | 6. Requirements page / Confluence
+Trace needs to tests
+  • Connect user needs to requirements
+  • Define observable acceptance tests
+  • Trace each decision to evidence
+
+00:00:07.500–00:00:08.750 | 7. Delivery roadmap / Microsoft Project
+Sequence dependencies
+  • Order dependent milestones
+  • Include review and rework time
+  • Make decision gates visible
+
+00:00:08.750–00:00:10.000 | 8. Decision architecture / Mermaid
+Map approval boundaries
+  • Map people, data and services
+  • Mark human approval boundaries
+  • Name the accountable owner
+
+00:00:10.000–00:00:11.250 | 9. Pilot sprint / Linear
+Prioritize a small vertical slice
+  • Select a small vertical slice
+  • Limit work in progress
+  • Review evidence at sprint end
+
+00:00:11.250–00:00:12.500 | 10. Review cadence / Asana
+Schedule stakeholder reviews
+  • Schedule stakeholder decisions
+  • Assign preparation owners
+  • Keep a predictable review rhythm
+
+00:00:12.500–00:00:13.750 | 11. Steering presentation / PowerPoint
+Explain options and trade-offs
+  • Explain the recommended option
+  • Show costs, benefits and limits
+  • Ask for a specific next decision
+
+00:00:13.750–00:00:15.000 | 12. Go / revise / stop / Google Docs
+Record the next decision
+  • Compare evidence with criteria
+  • Choose go, revise or stop
+  • Record owner and next review date

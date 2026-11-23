@@ -1,0 +1,153 @@
+AI Workflow & Automation — 24 illustrative project concepts
+
+These are code-animated interface illustrations and synthetic examples. They are not live software recordings or verified student submissions. Tool names describe indicative stacks.
+
+00:00:00.000–00:00:00.625 | 1. Invoice intake
+Extract, validate, route
+  • Read invoice fields
+  • Check totals and supplier IDs
+  • Route exceptions for approval
+
+00:00:00.625–00:00:01.250 | 2. Expense approvals
+Receipts to reviewer queues
+  • Attach a receipt to each claim
+  • Check policy and spending category
+  • Send flagged claims to a reviewer
+
+00:00:01.250–00:00:01.875 | 3. Meeting action planner
+Notes become scheduled tasks
+  • Extract decisions from notes
+  • Assign owners and deadlines
+  • Place follow-ups in the calendar
+
+00:00:01.875–00:00:02.500 | 4. Lead routing desk
+Match enquiries to owners
+  • Classify incoming enquiries
+  • Match skills and availability
+  • Notify the responsible owner
+
+00:00:02.500–00:00:03.125 | 5. Policy answer assistant
+Answers linked to source files
+  • Ask about the leave policy
+  • Answer from approved policy text
+  • Open the cited paragraph
+
+00:00:03.125–00:00:03.750 | 6. Weekly executive digest
+Six teams, one concise briefing
+  • Collect six team updates
+  • Separate decisions from FYIs
+  • Send a draft for leadership review
+
+00:00:03.750–00:00:04.375 | 7. Capacity scheduler
+Balance meetings and focus time
+  • Compare team availability
+  • Protect focus blocks
+  • Resolve overlapping requests
+
+00:00:04.375–00:00:05.000 | 8. New starter journey
+A coordinated first week
+  • Prepare access before day one
+  • Schedule the first-week meetings
+  • Track manager and buddy actions
+
+00:00:05.000–00:00:05.625 | 9. Support triage inbox
+Drafts sorted by intent
+  • Group messages by intent
+  • Draft a relevant first response
+  • Escalate sensitive requests
+
+00:00:05.625–00:00:06.250 | 10. Renewal watchlist
+See contracts nearing renewal
+  • Read contract renewal dates
+  • Flag approaching review windows
+  • Assign the next negotiation step
+
+00:00:06.250–00:00:06.875 | 11. Stock alert workbook
+Track reorder thresholds
+  • Compare stock with reorder levels
+  • Highlight items below threshold
+  • Prepare a purchase request
+
+00:00:06.875–00:00:07.500 | 12. Monthly operations brief
+Turn tables into talking points
+  • Review monthly operating signals
+  • Explain the three main changes
+  • Assign next month's priorities
+
+00:00:07.500–00:00:08.125 | 13. Leave approval calendar
+Resolve coverage conflicts
+  • Check leave requests by date
+  • Compare remaining team coverage
+  • Approve or propose another slot
+
+00:00:08.125–00:00:08.750 | 14. Purchase order checker
+Match orders and line items
+  • Match order IDs and line items
+  • Flag quantity or price differences
+  • Queue unmatched records
+
+00:00:08.750–00:00:09.375 | 15. Shipment exception desk
+Highlight delayed deliveries
+  • Identify late shipment events
+  • Show affected delivery windows
+  • Draft a customer update
+
+00:00:09.375–00:00:10.000 | 16. Workshop enrolment hub
+Forms to confirmed places
+  • Collect participant preferences
+  • Confirm places and prerequisites
+  • Send the workshop preparation pack
+
+00:00:10.000–00:00:10.625 | 17. Vendor review pack
+Evidence and approval notes
+  • Gather supplier documents
+  • Record missing evidence
+  • Prepare an approval recommendation
+
+00:00:10.625–00:00:11.250 | 18. Survey theme collector
+Group responses by topic
+  • Group open-text responses
+  • Attach representative excerpts
+  • List themes for review
+Illustrative python source:
+from collections import Counter
+responses = ['schedule', 'support', 'schedule', 'content']
+themes = Counter(responses)
+for theme, count in themes.most_common():
+    print(theme, count)
+
+00:00:11.250–00:00:11.875 | 19. Compliance task board
+Owners and evidence links
+  • Assign each control to an owner
+  • Track supporting evidence
+  • Show overdue review tasks
+
+00:00:11.875–00:00:12.500 | 20. Document filing pipeline
+Classify, rename, archive
+  • Read incoming document types
+  • Apply clear file naming rules
+  • Archive with searchable metadata
+
+00:00:12.500–00:00:13.125 | 21. Event follow-up studio
+Personalized draft sequences
+  • Group attendees by interest
+  • Prepare a useful next-step message
+  • Approve drafts before outreach
+
+00:00:13.125–00:00:13.750 | 22. Shift coverage planner
+Fill staffing gaps
+  • Show shifts needing coverage
+  • Match availability and skills
+  • Confirm the selected replacement
+
+00:00:13.750–00:00:14.375 | 23. Knowledge publishing kit
+Turn approved notes into guides
+  • Turn reviewed notes into a guide
+  • Apply a shared content structure
+  • Publish only approved revisions
+
+00:00:14.375–00:00:15.000 | 24. Field request assistant
+Capture requests on the move
+  • Capture a request on site
+  • Attach a photo and location
+  • Route it to the right team

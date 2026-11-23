@@ -1,0 +1,100 @@
+AI Data Analytics — Illustrative screen demonstration
+
+These are code-animated interface illustrations and synthetic examples. They are not live software recordings or verified student submissions. Tool names describe indicative stacks.
+
+00:00:00.000–00:00:01.250 | 1. Raw source table / Microsoft Excel
+Inspect rows and units
+  • Inspect fields, dates and units
+  • Find duplicated transaction IDs
+  • Preserve the unmodified source
+
+00:00:01.250–00:00:02.500 | 2. Data dictionary / Google Sheets
+Define fields and missing values
+  • Define each field consistently
+  • Record units and missing-value meaning
+  • Make the dictionary shareable
+
+00:00:02.500–00:00:03.750 | 3. Cleaning notebook / Jupyter / pandas
+Deduplicate and normalize
+  • Normalize date and text fields
+  • Flag incomplete rows for review
+  • Retain a clean transformation trail
+Illustrative python source:
+import pandas as pd
+df = pd.read_csv('orders.csv')
+df['date'] = pd.to_datetime(df['date'], errors='coerce')
+issues = df[df['date'].isna()]
+clean = df.drop_duplicates('order_id')
+
+00:00:03.750–00:00:05.000 | 4. Query workspace / SQL / DuckDB
+Join and aggregate data
+  • Join orders to line items
+  • Aggregate by month and category
+  • Inspect the resulting query table
+Illustrative sql source:
+SELECT category,
+       SUM(quantity * unit_price) AS total
+FROM order_items
+GROUP BY category
+ORDER BY total DESC;
+
+00:00:05.000–00:00:06.250 | 5. Grouped analysis / Polars
+Compare segments efficiently
+  • Group observations by segment
+  • Compare totals and variation
+  • Check what the aggregates hide
+Illustrative python source:
+import polars as pl
+df = pl.read_csv('sample.csv')
+summary = df.group_by('segment').agg(
+    pl.col('value').sum().alias('total')
+)
+
+00:00:06.250–00:00:07.500 | 6. Quality checks / Great Expectations
+Test ranges and uniqueness
+  • Check required fields and types
+  • Test uniqueness and value ranges
+  • Inspect failed expectations
+Illustrative python source:
+import great_expectations as gx
+# batch: configured sample data
+rule = gx.expectations.ExpectColumnValuesToNotBeNull(
+    column='order_id')
+result = batch.validate(rule)
+print(result.success)
+
+00:00:07.500–00:00:08.750 | 7. Exploratory charts / Plotly
+Link filters to charts
+  • Compare distributions and outliers
+  • Filter by a meaningful segment
+  • Look for alternative explanations
+
+00:00:08.750–00:00:10.000 | 8. Decision dashboard / Power BI
+Compare time and categories
+  • Show units and reporting periods
+  • Connect summary to detail
+  • Make comparison baselines explicit
+
+00:00:10.000–00:00:11.250 | 9. Visual exploration / Tableau
+Drill into a selected segment
+  • Drill into a selected region
+  • Compare a second explanatory factor
+  • Avoid confusing correlation with cause
+
+00:00:11.250–00:00:12.500 | 10. Analytical app / Streamlit
+Expose useful controls
+  • Expose useful analysis controls
+  • Validate input selections
+  • Make the same analysis repeatable
+
+00:00:12.500–00:00:13.750 | 11. Decision report / Quarto
+Explain findings and caveats
+  • Explain findings and uncertainty
+  • Link evidence to each observation
+  • Separate assumptions from results
+
+00:00:13.750–00:00:15.000 | 12. Evidence briefing / PowerPoint
+Present the decision question
+  • State the decision question
+  • Present the most relevant evidence
+  • Recommend the next check

@@ -1,0 +1,1 @@
+{"name":"acumelo-screen-montages","version":"1.0.0","private":true,"type":"module","scripts":{"render":"node render.mjs","validate":"node validate.mjs"},"dependencies":{"@napi-rs/canvas":"0.1.100"},"engines":{"node":">=22"}}

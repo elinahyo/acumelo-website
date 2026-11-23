@@ -1,0 +1,159 @@
+AI Service Development — 24 illustrative project concepts
+
+These are code-animated interface illustrations and synthetic examples. They are not live software recordings or verified student submissions. Tool names describe indicative stacks.
+
+00:00:00.000–00:00:00.625 | 1. Team knowledge assistant
+Answers with visible sources
+  • Search approved team documents
+  • Draft an answer from evidence
+  • Show the source beside each claim
+
+00:00:00.625–00:00:01.250 | 2. AI proposal drafting app
+From brief to editable outline
+  • Capture the customer's brief
+  • Build an editable proposal outline
+  • Require a final human review
+
+00:00:01.250–00:00:01.875 | 3. Study planning companion
+Turn goals into daily steps
+  • Turn a goal into small study steps
+  • Adapt the weekly practice plan
+  • Reflect on progress and blockers
+
+00:00:01.875–00:00:02.500 | 4. Research evidence explorer
+Read sources beside summaries
+  • Collect sources for a question
+  • Read evidence beside summaries
+  • Keep conflicting findings visible
+
+00:00:02.500–00:00:03.125 | 5. Document intake application
+Upload, classify and review
+  • Upload a sample document
+  • Extract and validate key fields
+  • Route uncertain records for review
+
+00:00:03.125–00:00:03.750 | 6. Customer context assistant
+Prepare a useful meeting brief
+  • Summarize customer context
+  • Prepare relevant meeting questions
+  • Keep original notes accessible
+
+00:00:03.750–00:00:04.375 | 7. Code review companion
+Explain changes and test ideas
+  • Explain the code change
+  • Suggest focused test cases
+  • Flag uncertainty for the reviewer
+Illustrative typescript source:
+type Item = { quantity: number; price: number };
+const total = (items: Item[]): number =>
+  items.reduce((sum, item) => sum + item.quantity * item.price, 0);
+const example = total([{ quantity: 2, price: 15 }]);
+console.assert(example === 30);
+
+00:00:04.375–00:00:05.000 | 8. Smart booking prototype
+Constraints before confirmation
+  • Collect booking constraints
+  • Check conflicting reservations
+  • Request confirmation before writing
+
+00:00:05.000–00:00:05.625 | 9. Contract clause explorer
+Find text with clear references
+  • Find a relevant clause
+  • Show the original text in context
+  • Avoid an unsupported legal conclusion
+
+00:00:05.625–00:00:06.250 | 10. Tool-using agent sandbox
+Explicit permissions and review
+  • Choose a permitted tool action
+  • Show the proposed execution step
+  • Require approval when needed
+
+00:00:06.250–00:00:06.875 | 11. Travel itinerary builder
+Editable plans and alternatives
+  • Collect travel preferences
+  • Build an editable day-by-day plan
+  • Keep alternatives easy to compare
+
+00:00:06.875–00:00:07.500 | 12. Accessible form assistant
+Guidance without hiding controls
+  • Explain each form requirement
+  • Preserve visible input controls
+  • Show helpful validation feedback
+
+00:00:07.500–00:00:08.125 | 13. Multilingual help prototype
+Source-linked support replies
+  • Read the user's support question
+  • Retrieve approved help content
+  • Reply with clear source links
+
+00:00:08.125–00:00:08.750 | 14. Project health application
+Tasks, risks and next decisions
+  • Connect tasks, risks and milestones
+  • Surface decisions needed soon
+  • Link status to supporting evidence
+
+00:00:08.750–00:00:09.375 | 15. Dataset exploration app
+Ask questions of sample tables
+  • Inspect a sample data table
+  • Choose a meaningful analysis
+  • Show query results with definitions
+Illustrative python source:
+import pandas as pd
+df = pd.read_csv('sample.csv')
+print(df.dtypes)
+summary = df.groupby('category')['value'].agg(['count', 'mean'])
+print(summary)
+
+00:00:09.375–00:00:10.000 | 16. Approval-aware writing agent
+Draft, review, revise
+  • Draft from a specific brief
+  • Collect reviewer comments
+  • Revise with an explicit approval step
+
+00:00:10.000–00:00:10.625 | 17. Personal learning journal
+Capture practice and reflection
+  • Capture a practice session
+  • Record what worked and failed
+  • Choose the next small learning step
+
+00:00:10.625–00:00:11.250 | 18. Portfolio case-study builder
+Structure evidence and outcomes
+  • Describe the project's context
+  • Organize process and evidence
+  • Publish a clear case-study outline
+
+00:00:11.250–00:00:11.875 | 19. Interactive AI character
+A controlled dialogue state map
+  • Define dialogue states and tone
+  • Connect approved knowledge sources
+  • Provide a safe fallback response
+
+00:00:11.875–00:00:12.500 | 20. Retrieval evaluation console
+Compare answers and sources
+  • Compare retrieval against a test set
+  • Inspect answer citations
+  • Record failures and next checks
+
+00:00:12.500–00:00:13.125 | 21. Community request tracker
+Triage needs and follow-ups
+  • Capture a community request
+  • Route it to an accountable team
+  • Keep the requester updated
+
+00:00:13.125–00:00:13.750 | 22. Shared resource planner
+Resolve competing reservations
+  • Compare resource availability
+  • Identify reservation conflicts
+  • Confirm the selected time slot
+
+00:00:13.750–00:00:14.375 | 23. Meeting evidence workspace
+Notes linked to decisions
+  • Link meeting notes to decisions
+  • Record owners and due dates
+  • Retain the original evidence
+
+00:00:14.375–00:00:15.000 | 24. Creative prompt workbench
+Compare controlled variations
+  • Vary one prompt condition at a time
+  • Compare outputs side by side
+  • Save the selected creative recipe

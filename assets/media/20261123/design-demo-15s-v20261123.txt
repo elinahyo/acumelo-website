@@ -1,0 +1,89 @@
+AI Design & Content — Illustrative screen demonstration
+
+These are code-animated interface illustrations and synthetic examples. They are not live software recordings or verified student submissions. Tool names describe indicative stacks.
+
+00:00:00.000–00:00:01.250 | 1. Creative direction / Figma
+Arrange mood and visual references
+  • Collect visual references
+  • Define audience and emotional tone
+  • Choose a coherent creative direction
+
+00:00:01.250–00:00:02.500 | 2. Creative brief / Notion
+Connect intent to deliverables
+  • State the intended audience
+  • Specify formats and constraints
+  • Define a clear review checklist
+
+00:00:02.500–00:00:03.750 | 3. Image studies / Adobe Firefly
+Compare illustrative directions
+  • Compare lighting and composition
+  • Select a promising image direction
+  • Record the next visual revision
+
+00:00:03.750–00:00:05.000 | 4. Generation workflow / ComfyUI
+Inspect conditioning and revisions
+  • Trace conditioning to output
+  • Compare controlled variations
+  • Keep the chosen settings visible
+
+00:00:05.000–00:00:06.250 | 5. Token system / Design Tokens
+Set color and type variables
+  • Define color and typography tokens
+  • Reuse spacing and corner values
+  • Check readable foreground contrast
+Illustrative css source:
+:root {
+  --ink: #172248;
+  --surface: #edf0ff;
+  --space-card: 1.5rem;
+  --radius-card: 0.75rem;
+}
+
+00:00:06.250–00:00:07.500 | 6. Landing composition / Framer
+Build a clear visual hierarchy
+  • Build a strong visual hierarchy
+  • Connect navigation to clear actions
+  • Preview an editorial landing page
+
+00:00:07.500–00:00:08.750 | 7. Responsive screen / Figma Auto Layout
+Reflow content for mobile
+  • Reflow cards on a narrow screen
+  • Check text wrapping and spacing
+  • Keep touch targets comfortable
+
+00:00:08.750–00:00:10.000 | 8. 3D scene study / Blender
+Inspect forms and lighting
+  • Block out the main 3D forms
+  • Adjust the key and fill lights
+  • Inspect a clean product composition
+
+00:00:10.000–00:00:11.250 | 9. Sequence timeline / DaVinci Resolve
+Arrange shots and transitions
+  • Arrange shots into a sequence
+  • Set transitions and pacing
+  • Review titles against the edit
+
+00:00:11.250–00:00:12.500 | 10. Audio motif sketch / Sonic Pi
+Sequence a short pattern
+  • Sequence a short note pattern
+  • Adjust tempo and rests
+  • Listen for a repeatable motif
+Illustrative ruby source:
+use_bpm 96
+use_synth :sine
+[60, 64, 67, 64].each do |note|
+  play note, release: 0.3
+  sleep 0.5
+end
+
+00:00:12.500–00:00:13.750 | 11. Campaign artwork / Adobe Illustrator
+Compose type and geometry
+  • Balance image, geometry and type
+  • Compare the three artwork formats
+  • Prepare a consistent final direction
+
+00:00:13.750–00:00:15.000 | 12. Component review / Storybook
+Check states and consistency
+  • Compare default and active states
+  • Check responsive component behavior
+  • Review the shared design language

@@ -1,0 +1,47 @@
+1
+00:00:00,000 --> 00:00:01,250
+Raw source table — Microsoft Excel
+
+2
+00:00:01,250 --> 00:00:02,500
+Data dictionary — Google Sheets
+
+3
+00:00:02,500 --> 00:00:03,750
+Cleaning notebook — Jupyter / pandas
+
+4
+00:00:03,750 --> 00:00:05,000
+Query workspace — SQL / DuckDB
+
+5
+00:00:05,000 --> 00:00:06,250
+Grouped analysis — Polars
+
+6
+00:00:06,250 --> 00:00:07,500
+Quality checks — Great Expectations
+
+7
+00:00:07,500 --> 00:00:08,750
+Exploratory charts — Plotly
+
+8
+00:00:08,750 --> 00:00:10,000
+Decision dashboard — Power BI
+
+9
+00:00:10,000 --> 00:00:11,250
+Visual exploration — Tableau
+
+10
+00:00:11,250 --> 00:00:12,500
+Analytical app — Streamlit
+
+11
+00:00:12,500 --> 00:00:13,750
+Decision report — Quarto
+
+12
+00:00:13,750 --> 00:00:15,000
+Evidence briefing — PowerPoint

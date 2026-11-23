@@ -1,0 +1,170 @@
+AI Data Analytics — 24 illustrative project concepts
+
+These are code-animated interface illustrations and synthetic examples. They are not live software recordings or verified student submissions. Tool names describe indicative stacks.
+
+00:00:00.000–00:00:00.625 | 1. Retail category explorer
+Compare seasonal demand
+  • Compare monthly category demand
+  • Inspect unusual peaks
+  • Check the chosen reporting period
+
+00:00:00.625–00:00:01.250 | 2. Energy usage calendar
+Find daily consumption patterns
+  • View daily energy consumption
+  • Compare weekdays and weekends
+  • Flag unusual high-use days
+
+00:00:01.250–00:00:01.875 | 3. Public transport pulse
+Ridership across routes and times
+  • Compare routes and time bands
+  • Inspect peak ridership patterns
+  • Document sample coverage
+
+00:00:01.875–00:00:02.500 | 4. Event attendance study
+What registration data suggests
+  • Compare registration with attendance
+  • Explore patterns by session
+  • State the limits of the sample
+
+00:00:02.500–00:00:03.125 | 5. Data quality scorecard
+Missing values and duplicates
+  • Count missing and duplicated fields
+  • Prioritize critical data issues
+  • Track the next cleanup actions
+
+00:00:03.125–00:00:03.750 | 6. Support response analysis
+Compare queues and response times
+  • Compare response-time distributions
+  • Inspect urgent and routine queues
+  • Check volume alongside speed
+Illustrative python source:
+import pandas as pd
+df = pd.read_csv('support_sample.csv')
+summary = df.groupby('queue')['minutes'].agg(
+    ['count', 'median', 'min', 'max']
+)
+
+00:00:03.750–00:00:04.375 | 7. Learning progress explorer
+Sample activity across modules
+  • Compare activity across modules
+  • Inspect completion and practice patterns
+  • Avoid equating activity with learning
+
+00:00:04.375–00:00:05.000 | 8. Regional service access
+Compare coverage and limitations
+  • Compare service coverage by region
+  • Show population and access context
+  • Explain missing or uncertain areas
+
+00:00:05.000–00:00:05.625 | 9. Inventory ageing view
+Spot slow-moving items
+  • Group stock by age range
+  • Highlight slow-moving categories
+  • Prepare a focused review list
+
+00:00:05.625–00:00:06.250 | 10. Customer cohort notebook
+Retention by signup group
+  • Group users by signup month
+  • Compare later activity periods
+  • Make cohort sizes visible
+Illustrative python source:
+df['signup_month'] = df['signup_date'].dt.to_period('M')
+cohort = df.groupby(['signup_month', 'period'])
+active = cohort['user_id'].nunique()
+print(active.unstack(fill_value=0))
+
+00:00:06.250–00:00:06.875 | 11. Household budget analysis
+Categorize a sample spending log
+  • Group a sample spending log
+  • Compare planned and actual categories
+  • Flag unusually large items
+
+00:00:06.875–00:00:07.500 | 12. Website journey explorer
+From arrival to key actions
+  • Map arrival to key actions
+  • Compare device and source segments
+  • Check where journeys diverge
+
+00:00:07.500–00:00:08.125 | 13. Project delivery trends
+Lead time and blocked work
+  • Compare lead-time distributions
+  • Inspect blocked-work periods
+  • Identify a process question to test
+
+00:00:08.125–00:00:08.750 | 14. Survey insight narrative
+Themes with supporting evidence
+  • Group responses into clear themes
+  • Attach evidence to each observation
+  • Include disagreement and limits
+
+00:00:08.750–00:00:09.375 | 15. Workforce capacity view
+Demand, availability and gaps
+  • Compare demand with availability
+  • Show coverage gaps by week
+  • Identify the next staffing decision
+
+00:00:09.375–00:00:10.000 | 16. Text feedback explorer
+Cluster sample comments
+  • Group comments by recurring topic
+  • Review examples in context
+  • Keep human interpretation visible
+Illustrative python source:
+from collections import Counter
+comments = ['clear guide', 'helpful examples', 'more practice']
+tokens = ' '.join(comments).lower().split()
+counts = Counter(tokens)
+print(counts.most_common(5))
+
+00:00:10.000–00:00:10.625 | 17. Booking demand calendar
+Find busy and quiet periods
+  • Show busy and quiet booking days
+  • Compare booking lead times
+  • Plan a small scheduling experiment
+
+00:00:10.625–00:00:11.250 | 18. Food waste monitor
+Waste by station and time
+  • Compare waste by station and time
+  • Inspect portion and service context
+  • Choose an area for closer observation
+
+00:00:11.250–00:00:11.875 | 19. Procurement price study
+Comparable items and caveats
+  • Compare like-for-like purchases
+  • Explain unit and quantity differences
+  • Flag unusual price movements
+
+00:00:11.875–00:00:12.500 | 20. Research dataset audit
+Variables, units and exclusions
+  • Review variable definitions
+  • Check exclusions and missing values
+  • Keep an auditable cleaning record
+
+00:00:12.500–00:00:13.125 | 21. City mobility dashboard
+Compare illustrative route patterns
+  • Compare route and time patterns
+  • Show illustrative trip volumes
+  • State what the data cannot explain
+
+00:00:13.125–00:00:13.750 | 22. Forecast scenario notebook
+Ranges rather than one promise
+  • Set transparent scenario assumptions
+  • Show a range of possible outcomes
+  • Avoid a single-point promise
+Illustrative python source:
+base = 120
+growth_rates = [0.02, 0.05, 0.08]
+scenarios = [base * (1 + rate) ** 6
+             for rate in growth_rates]
+print({'low': scenarios[0], 'high': scenarios[-1]})
+
+00:00:13.750–00:00:14.375 | 23. Executive data briefing
+A visual case for the next check
+  • Start with the decision question
+  • Explain one visual finding at a time
+  • End with a testable next step
+
+00:00:14.375–00:00:15.000 | 24. Open data explorer
+Search, filter and explain
+  • Search and filter an open dataset
+  • Inspect definitions and source notes
+  • Export a transparent result

@@ -1,0 +1,95 @@
+1
+00:00:00,000 --> 00:00:00,625
+Retail category explorer
+
+2
+00:00:00,625 --> 00:00:01,250
+Energy usage calendar
+
+3
+00:00:01,250 --> 00:00:01,875
+Public transport pulse
+
+4
+00:00:01,875 --> 00:00:02,500
+Event attendance study
+
+5
+00:00:02,500 --> 00:00:03,125
+Data quality scorecard
+
+6
+00:00:03,125 --> 00:00:03,750
+Support response analysis
+
+7
+00:00:03,750 --> 00:00:04,375
+Learning progress explorer
+
+8
+00:00:04,375 --> 00:00:05,000
+Regional service access
+
+9
+00:00:05,000 --> 00:00:05,625
+Inventory ageing view
+
+10
+00:00:05,625 --> 00:00:06,250
+Customer cohort notebook
+
+11
+00:00:06,250 --> 00:00:06,875
+Household budget analysis
+
+12
+00:00:06,875 --> 00:00:07,500
+Website journey explorer
+
+13
+00:00:07,500 --> 00:00:08,125
+Project delivery trends
+
+14
+00:00:08,125 --> 00:00:08,750
+Survey insight narrative
+
+15
+00:00:08,750 --> 00:00:09,375
+Workforce capacity view
+
+16
+00:00:09,375 --> 00:00:10,000
+Text feedback explorer
+
+17
+00:00:10,000 --> 00:00:10,625
+Booking demand calendar
+
+18
+00:00:10,625 --> 00:00:11,250
+Food waste monitor
+
+19
+00:00:11,250 --> 00:00:11,875
+Procurement price study
+
+20
+00:00:11,875 --> 00:00:12,500
+Research dataset audit
+
+21
+00:00:12,500 --> 00:00:13,125
+City mobility dashboard
+
+22
+00:00:13,125 --> 00:00:13,750
+Forecast scenario notebook
+
+23
+00:00:13,750 --> 00:00:14,375
+Executive data briefing
+
+24
+00:00:14,375 --> 00:00:15,000
+Open data explorer

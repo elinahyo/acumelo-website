@@ -1,0 +1,95 @@
+1
+00:00:00,000 --> 00:00:00,625
+Coffee brand universe
+
+2
+00:00:00,625 --> 00:00:01,250
+Future learning poster
+
+3
+00:00:01,250 --> 00:00:01,875
+Wellbeing app concept
+
+4
+00:00:01,875 --> 00:00:02,500
+Cultural festival website
+
+5
+00:00:02,500 --> 00:00:03,125
+Character expression sheet
+
+6
+00:00:03,125 --> 00:00:03,750
+Modular lamp concept
+
+7
+00:00:03,750 --> 00:00:04,375
+Short-film storyboard
+
+8
+00:00:04,375 --> 00:00:05,000
+Editorial presentation kit
+
+9
+00:00:05,000 --> 00:00:05,625
+Independent album artwork
+
+10
+00:00:05,625 --> 00:00:06,250
+Sustainable package studies
+
+11
+00:00:06,250 --> 00:00:06,875
+Museum guide interface
+
+12
+00:00:06,875 --> 00:00:07,500
+Creative portfolio system
+
+13
+00:00:07,500 --> 00:00:08,125
+Community wayfinding set
+
+14
+00:00:08,125 --> 00:00:08,750
+Magazine feature spread
+
+15
+00:00:08,750 --> 00:00:09,375
+Motion title collection
+
+16
+00:00:09,375 --> 00:00:10,000
+Product launch teaser
+
+17
+00:00:10,000 --> 00:00:10,625
+Exhibition spatial concept
+
+18
+00:00:10,625 --> 00:00:11,250
+Travel journal interface
+
+19
+00:00:11,250 --> 00:00:11,875
+Data storytelling infographic
+
+20
+00:00:11,875 --> 00:00:12,500
+Icon and component family
+
+21
+00:00:12,500 --> 00:00:13,125
+Story pitch deck
+
+22
+00:00:13,125 --> 00:00:13,750
+Boutique studio homepage
+
+23
+00:00:13,750 --> 00:00:14,375
+Music visualizer concept
+
+24
+00:00:14,375 --> 00:00:15,000
+Creative process case study

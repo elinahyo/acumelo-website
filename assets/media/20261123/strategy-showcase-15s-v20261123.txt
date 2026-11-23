@@ -1,0 +1,152 @@
+AI Strategy & Project Management — 24 illustrative project concepts
+
+These are code-animated interface illustrations and synthetic examples. They are not live software recordings or verified student submissions. Tool names describe indicative stacks.
+
+00:00:00.000–00:00:00.625 | 1. AI opportunity radar
+Compare candidate initiatives
+  • List candidate initiatives
+  • Compare value and feasibility
+  • Highlight the next test to run
+
+00:00:00.625–00:00:01.250 | 2. Six-week pilot roadmap
+Milestones and dependencies
+  • Plan discovery and prototype work
+  • Show review gates across six weeks
+  • Expose dependencies and owners
+
+00:00:01.250–00:00:01.875 | 3. Value-feasibility map
+Find practical starting points
+  • Place ideas on two clear axes
+  • Discuss uncertain estimates
+  • Select feasible high-value tests
+
+00:00:01.875–00:00:02.500 | 4. Cost scenario planner
+Change assumptions visibly
+  • Change volume and adoption inputs
+  • Compare operating-cost scenarios
+  • Keep uncertain inputs visible
+
+00:00:02.500–00:00:03.125 | 5. Responsible AI risk register
+Controls, owners and open risks
+  • Record risk and possible impact
+  • Assign mitigations and owners
+  • Track unresolved review actions
+
+00:00:03.125–00:00:03.750 | 6. One-page project charter
+Purpose, scope and success tests
+  • State the problem and audience
+  • Define scope and acceptance criteria
+  • Name the accountable sponsor
+
+00:00:03.750–00:00:04.375 | 7. Stakeholder decision map
+Who advises and who approves
+  • Map influence and decision rights
+  • Separate advice from approval
+  • Record the escalation route
+
+00:00:04.375–00:00:05.000 | 8. Discovery sprint backlog
+Questions before commitments
+  • Turn unknowns into research tasks
+  • Prioritize learning value
+  • Define evidence for each answer
+
+00:00:05.000–00:00:05.625 | 9. AI adoption journey
+From pilot to team practice
+  • Sequence pilot, training and rollout
+  • Assign support responsibilities
+  • Review adoption signals
+
+00:00:05.625–00:00:06.250 | 10. Governance review calendar
+Decision gates and evidence
+  • Schedule control reviews
+  • State evidence due at each gate
+  • Record decisions and follow-ups
+
+00:00:06.250–00:00:06.875 | 11. Board proposal deck
+A concise investment narrative
+  • Present the decision required
+  • Explain options and trade-offs
+  • Propose a bounded first investment
+
+00:00:06.875–00:00:07.500 | 12. Service blueprint
+Connect user and team actions
+  • Map the user-facing journey
+  • Show supporting team activity
+  • Identify handoffs and friction
+
+00:00:07.500–00:00:08.125 | 13. Weighted vendor comparison
+Criteria with documented weights
+  • Set criteria and weights
+  • Record comparable evidence
+  • Document the selection rationale
+
+00:00:08.125–00:00:08.750 | 14. Pilot acceptance checklist
+Evidence required to progress
+  • Define acceptance criteria
+  • Link each test to evidence
+  • Record pass, revise or stop
+
+00:00:08.750–00:00:09.375 | 15. Portfolio health view
+Scope, risks and next decisions
+  • Compare delivery confidence
+  • Show scope and dependency risks
+  • Identify decisions needed this week
+
+00:00:09.375–00:00:10.000 | 16. Change request desk
+Assess scope and cost impact
+  • Describe the proposed change
+  • Assess schedule and scope impact
+  • Record the approval decision
+
+00:00:10.000–00:00:10.625 | 17. Human approval boundaries
+Where automated actions stop
+  • Map permitted automated actions
+  • Require review for sensitive steps
+  • Record the final accountable owner
+
+00:00:10.625–00:00:11.250 | 18. Data readiness assessment
+Access, quality and ownership
+  • Assess access and data quality
+  • List ownership gaps
+  • Prioritize readiness fixes
+
+00:00:11.250–00:00:11.875 | 19. Dependency delivery map
+Make blockers visible early
+  • Connect tasks to prerequisites
+  • Show the critical blocked work
+  • Assign dependency owners
+
+00:00:11.875–00:00:12.500 | 20. Project retrospective
+Lessons and concrete next steps
+  • Compare intent with observed results
+  • Identify what helped and failed
+  • Commit to three concrete changes
+
+00:00:12.500–00:00:13.125 | 21. Assumption test log
+Record hypotheses and outcomes
+  • State the current hypothesis
+  • Record a small test and result
+  • Choose the next learning step
+Illustrative python source:
+records = ['State the current hypothesis',
+           'Record a small test and result']
+for index, note in enumerate(records, start=1):
+    print(index, note)
+
+00:00:13.125–00:00:13.750 | 22. Stakeholder engagement plan
+Needs, concerns and follow-ups
+  • Capture stakeholder concerns
+  • Plan useful engagement moments
+  • Record actions and responses
+
+00:00:13.750–00:00:14.375 | 23. Internal AI launch hub
+Guidance, training and support
+  • Explain available AI guidance
+  • Link training and support routes
+  • Publish clear usage boundaries
+
+00:00:14.375–00:00:15.000 | 24. Project check-in companion
+Weekly questions for teams
+  • Collect a weekly team check-in
+  • Surface blockers early
+  • Confirm the next committed action

@@ -1,0 +1,2749 @@
+{
+  "version": 1,
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "duration": 15,
+  "createdAt": "2026-11-23T03:53:21.482Z",
+  "renderer": "Code-driven Canvas timeline + FFmpeg H.264",
+  "disclosure": "Illustrative screens. Tool names indicate relevant example stacks; no live external execution is claimed.",
+  "media": [
+    {
+      "id": "workflow-demo-15s",
+      "version": "2026-11-23",
+      "category": "workflow",
+      "kind": "demo",
+      "type": "demo",
+      "title": "AI Workflow & Automation / tools in motion",
+      "path": "workflow-demo-15s-v20261123.mp4",
+      "poster": "posters/workflow-demo-15s-v20261123.jpg",
+      "durationSeconds": 15,
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "silent": true,
+      "sceneCount": 12,
+      "projectCount": 0,
+      "frameworks": [
+        "Microsoft Excel",
+        "Google Sheets",
+        "Python / pandas",
+        "PowerPoint",
+        "Outlook",
+        "Google Calendar",
+        "n8n",
+        "Make",
+        "Slack",
+        "Notion",
+        "Power Automate",
+        "Apps Script"
+      ],
+      "label": "Illustrative screen demo",
+      "subtitlePath": "workflow-demo-15s-v20261123.vtt",
+      "srtPath": "workflow-demo-15s-v20261123.srt",
+      "transcriptPath": "workflow-demo-15s-v20261123.txt",
+      "bytes": 1067281,
+      "sha256": "298a602242e1ec6f8b80de6978f9c34c0dc4ba2601f459e703fbfae156f65037",
+      "scenes": [
+        {
+          "title": "Source workbook",
+          "archetype": "spreadsheet",
+          "tool": "Microsoft Excel",
+          "action": "Inspect duplicate requests",
+          "bullets": [
+            "Requests arrive from three teams",
+            "Flag duplicate request IDs",
+            "Assign one accountable owner"
+          ]
+        },
+        {
+          "title": "Clean data view",
+          "archetype": "spreadsheet",
+          "tool": "Google Sheets",
+          "action": "Normalize source fields",
+          "bullets": [
+            "Normalize dates and names",
+            "Use a shared status vocabulary",
+            "Keep original records intact"
+          ]
+        },
+        {
+          "title": "Validation notebook",
+          "archetype": "notebook",
+          "tool": "Python / pandas",
+          "action": "Flag missing values",
+          "bullets": [
+            "Find missing owner fields",
+            "Remove exact duplicate records",
+            "Write exceptions to a review table"
+          ]
+        },
+        {
+          "title": "Weekly briefing",
+          "archetype": "slides",
+          "tool": "PowerPoint",
+          "action": "Build a report deck",
+          "bullets": [
+            "Summarize this week's requests",
+            "Show open actions and blockers",
+            "Create an editable briefing deck"
+          ]
+        },
+        {
+          "title": "Follow-up drafts",
+          "archetype": "email",
+          "tool": "Outlook",
+          "action": "Draft recipient-specific replies",
+          "bullets": [
+            "Draft a tailored follow-up",
+            "Include the request and next step",
+            "Require approval before delivery"
+          ]
+        },
+        {
+          "title": "Team schedule",
+          "archetype": "calendar",
+          "tool": "Google Calendar",
+          "action": "Check availability",
+          "bullets": [
+            "Read shared availability",
+            "Protect existing commitments",
+            "Propose two open meeting slots"
+          ]
+        },
+        {
+          "title": "Automation canvas",
+          "archetype": "workflow",
+          "tool": "n8n",
+          "action": "Connect trigger and actions",
+          "bullets": [
+            "Receive the intake event",
+            "Validate and route by request type",
+            "Deliver only approved outputs"
+          ]
+        },
+        {
+          "title": "Exception route",
+          "archetype": "workflow",
+          "tool": "Make",
+          "action": "Handle failed delivery",
+          "bullets": [
+            "Inspect the failed action",
+            "Retry within a bounded limit",
+            "Escalate unresolved exceptions"
+          ]
+        },
+        {
+          "title": "Approval channel",
+          "archetype": "chat",
+          "tool": "Slack",
+          "action": "Request owner sign-off",
+          "bullets": [
+            "Review the proposed response",
+            "Approve or return with comments",
+            "Keep a visible decision record"
+          ]
+        },
+        {
+          "title": "Action board",
+          "archetype": "kanban",
+          "tool": "Notion",
+          "action": "Assign approved tasks",
+          "bullets": [
+            "Convert approvals to tasks",
+            "Assign owner and due date",
+            "Track work through completion"
+          ]
+        },
+        {
+          "title": "Execution monitor",
+          "archetype": "dashboard",
+          "tool": "Power Automate",
+          "action": "Inspect the run log",
+          "bullets": [
+            "Inspect completed runs",
+            "Separate retries from failures",
+            "Open the human review queue"
+          ]
+        },
+        {
+          "title": "Delivery report",
+          "archetype": "report",
+          "tool": "Apps Script",
+          "action": "Publish an audit summary",
+          "bullets": [
+            "List delivered outputs",
+            "Link every item to approval",
+            "Export a concise audit summary"
+          ]
+        }
+      ],
+      "renderSeconds": 9
+    },
+    {
+      "id": "workflow-showcase-15s",
+      "version": "2026-11-23",
+      "category": "workflow",
+      "kind": "showcase",
+      "type": "showcase",
+      "title": "AI Workflow & Automation / 24 project concepts",
+      "path": "workflow-showcase-15s-v20261123.mp4",
+      "poster": "posters/workflow-showcase-15s-v20261123.jpg",
+      "durationSeconds": 15,
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "silent": true,
+      "sceneCount": 24,
+      "projectCount": 24,
+      "frameworks": [
+        "Microsoft Excel",
+        "Google Sheets",
+        "Python / pandas",
+        "PowerPoint",
+        "Outlook",
+        "Google Calendar",
+        "n8n",
+        "Make",
+        "Slack",
+        "Notion",
+        "Power Automate",
+        "Apps Script"
+      ],
+      "label": "Illustrative student project examples",
+      "subtitlePath": "workflow-showcase-15s-v20261123.vtt",
+      "srtPath": "workflow-showcase-15s-v20261123.srt",
+      "transcriptPath": "workflow-showcase-15s-v20261123.txt",
+      "bytes": 1442569,
+      "sha256": "86fa026d3e17b6fda536dac9814d6bc013762f1d5cc2fd482d871a5a908ad1d5",
+      "scenes": [
+        {
+          "title": "Invoice intake",
+          "archetype": "workflow",
+          "action": "Extract, validate, route",
+          "bullets": [
+            "Read invoice fields",
+            "Check totals and supplier IDs",
+            "Route exceptions for approval"
+          ]
+        },
+        {
+          "title": "Expense approvals",
+          "archetype": "kanban",
+          "action": "Receipts to reviewer queues",
+          "bullets": [
+            "Attach a receipt to each claim",
+            "Check policy and spending category",
+            "Send flagged claims to a reviewer"
+          ]
+        },
+        {
+          "title": "Meeting action planner",
+          "archetype": "calendar",
+          "action": "Notes become scheduled tasks",
+          "bullets": [
+            "Extract decisions from notes",
+            "Assign owners and deadlines",
+            "Place follow-ups in the calendar"
+          ]
+        },
+        {
+          "title": "Lead routing desk",
+          "archetype": "crm",
+          "action": "Match enquiries to owners",
+          "bullets": [
+            "Classify incoming enquiries",
+            "Match skills and availability",
+            "Notify the responsible owner"
+          ]
+        },
+        {
+          "title": "Policy answer assistant",
+          "archetype": "chat",
+          "action": "Answers linked to source files",
+          "bullets": [
+            "Ask about the leave policy",
+            "Answer from approved policy text",
+            "Open the cited paragraph"
+          ]
+        },
+        {
+          "title": "Weekly executive digest",
+          "archetype": "report",
+          "action": "Six teams, one concise briefing",
+          "bullets": [
+            "Collect six team updates",
+            "Separate decisions from FYIs",
+            "Send a draft for leadership review"
+          ]
+        },
+        {
+          "title": "Capacity scheduler",
+          "archetype": "calendar",
+          "action": "Balance meetings and focus time",
+          "bullets": [
+            "Compare team availability",
+            "Protect focus blocks",
+            "Resolve overlapping requests"
+          ]
+        },
+        {
+          "title": "New starter journey",
+          "archetype": "timeline",
+          "action": "A coordinated first week",
+          "bullets": [
+            "Prepare access before day one",
+            "Schedule the first-week meetings",
+            "Track manager and buddy actions"
+          ]
+        },
+        {
+          "title": "Support triage inbox",
+          "archetype": "email",
+          "action": "Drafts sorted by intent",
+          "bullets": [
+            "Group messages by intent",
+            "Draft a relevant first response",
+            "Escalate sensitive requests"
+          ]
+        },
+        {
+          "title": "Renewal watchlist",
+          "archetype": "dashboard",
+          "action": "See contracts nearing renewal",
+          "bullets": [
+            "Read contract renewal dates",
+            "Flag approaching review windows",
+            "Assign the next negotiation step"
+          ]
+        },
+        {
+          "title": "Stock alert workbook",
+          "archetype": "spreadsheet",
+          "action": "Track reorder thresholds",
+          "bullets": [
+            "Compare stock with reorder levels",
+            "Highlight items below threshold",
+            "Prepare a purchase request"
+          ]
+        },
+        {
+          "title": "Monthly operations brief",
+          "archetype": "slides",
+          "action": "Turn tables into talking points",
+          "bullets": [
+            "Review monthly operating signals",
+            "Explain the three main changes",
+            "Assign next month's priorities"
+          ]
+        },
+        {
+          "title": "Leave approval calendar",
+          "archetype": "calendar",
+          "action": "Resolve coverage conflicts",
+          "bullets": [
+            "Check leave requests by date",
+            "Compare remaining team coverage",
+            "Approve or propose another slot"
+          ]
+        },
+        {
+          "title": "Purchase order checker",
+          "archetype": "spreadsheet",
+          "action": "Match orders and line items",
+          "bullets": [
+            "Match order IDs and line items",
+            "Flag quantity or price differences",
+            "Queue unmatched records"
+          ]
+        },
+        {
+          "title": "Shipment exception desk",
+          "archetype": "dashboard",
+          "action": "Highlight delayed deliveries",
+          "bullets": [
+            "Identify late shipment events",
+            "Show affected delivery windows",
+            "Draft a customer update"
+          ]
+        },
+        {
+          "title": "Workshop enrolment hub",
+          "archetype": "landing",
+          "action": "Forms to confirmed places",
+          "bullets": [
+            "Collect participant preferences",
+            "Confirm places and prerequisites",
+            "Send the workshop preparation pack"
+          ]
+        },
+        {
+          "title": "Vendor review pack",
+          "archetype": "report",
+          "action": "Evidence and approval notes",
+          "bullets": [
+            "Gather supplier documents",
+            "Record missing evidence",
+            "Prepare an approval recommendation"
+          ]
+        },
+        {
+          "title": "Survey theme collector",
+          "archetype": "notebook",
+          "action": "Group responses by topic",
+          "bullets": [
+            "Group open-text responses",
+            "Attach representative excerpts",
+            "List themes for review"
+          ]
+        },
+        {
+          "title": "Compliance task board",
+          "archetype": "kanban",
+          "action": "Owners and evidence links",
+          "bullets": [
+            "Assign each control to an owner",
+            "Track supporting evidence",
+            "Show overdue review tasks"
+          ]
+        },
+        {
+          "title": "Document filing pipeline",
+          "archetype": "workflow",
+          "action": "Classify, rename, archive",
+          "bullets": [
+            "Read incoming document types",
+            "Apply clear file naming rules",
+            "Archive with searchable metadata"
+          ]
+        },
+        {
+          "title": "Event follow-up studio",
+          "archetype": "email",
+          "action": "Personalized draft sequences",
+          "bullets": [
+            "Group attendees by interest",
+            "Prepare a useful next-step message",
+            "Approve drafts before outreach"
+          ]
+        },
+        {
+          "title": "Shift coverage planner",
+          "archetype": "calendar",
+          "action": "Fill staffing gaps",
+          "bullets": [
+            "Show shifts needing coverage",
+            "Match availability and skills",
+            "Confirm the selected replacement"
+          ]
+        },
+        {
+          "title": "Knowledge publishing kit",
+          "archetype": "designboard",
+          "action": "Turn approved notes into guides",
+          "bullets": [
+            "Turn reviewed notes into a guide",
+            "Apply a shared content structure",
+            "Publish only approved revisions"
+          ]
+        },
+        {
+          "title": "Field request assistant",
+          "archetype": "mobile",
+          "action": "Capture requests on the move",
+          "bullets": [
+            "Capture a request on site",
+            "Attach a photo and location",
+            "Route it to the right team"
+          ]
+        }
+      ],
+      "renderSeconds": 9
+    },
+    {
+      "id": "strategy-demo-15s",
+      "version": "2026-11-23",
+      "category": "strategy",
+      "kind": "demo",
+      "type": "demo",
+      "title": "AI Strategy & Project Management / tools in motion",
+      "path": "strategy-demo-15s-v20261123.mp4",
+      "poster": "posters/strategy-demo-15s-v20261123.jpg",
+      "durationSeconds": 15,
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "silent": true,
+      "sceneCount": 12,
+      "projectCount": 0,
+      "frameworks": [
+        "Notion",
+        "Miro",
+        "Microsoft Excel",
+        "Power BI",
+        "Jira",
+        "Confluence",
+        "Microsoft Project",
+        "Mermaid",
+        "Linear",
+        "Asana",
+        "PowerPoint",
+        "Google Docs"
+      ],
+      "label": "Illustrative screen demo",
+      "subtitlePath": "strategy-demo-15s-v20261123.vtt",
+      "srtPath": "strategy-demo-15s-v20261123.srt",
+      "transcriptPath": "strategy-demo-15s-v20261123.txt",
+      "bytes": 1013939,
+      "sha256": "73833d1d45054e1a95718dea8fba90bb2493079e20a15e2c0a998d8319b13a6d",
+      "scenes": [
+        {
+          "title": "Problem brief",
+          "archetype": "report",
+          "tool": "Notion",
+          "action": "Define the business problem",
+          "bullets": [
+            "Name one operational problem",
+            "Define the affected users",
+            "Set scope and explicit exclusions"
+          ]
+        },
+        {
+          "title": "Opportunity map",
+          "archetype": "designboard",
+          "tool": "Miro",
+          "action": "Cluster possible AI uses",
+          "bullets": [
+            "Collect possible AI use cases",
+            "Cluster value and feasibility",
+            "Identify evidence still missing"
+          ]
+        },
+        {
+          "title": "Weighted shortlist",
+          "archetype": "spreadsheet",
+          "tool": "Microsoft Excel",
+          "action": "Adjust decision weights",
+          "bullets": [
+            "Set transparent decision weights",
+            "Compare candidate initiatives",
+            "Record uncertain assumptions"
+          ]
+        },
+        {
+          "title": "Scenario view",
+          "archetype": "dashboard",
+          "tool": "Power BI",
+          "action": "Compare cost scenarios",
+          "bullets": [
+            "Change cost and adoption inputs",
+            "Compare conservative and stretch cases",
+            "Keep assumptions beside the chart"
+          ]
+        },
+        {
+          "title": "Discovery backlog",
+          "archetype": "kanban",
+          "tool": "Jira",
+          "action": "Separate ideas from commitments",
+          "bullets": [
+            "Write testable hypotheses",
+            "Separate discovery from delivery",
+            "Prioritize the smallest useful test"
+          ]
+        },
+        {
+          "title": "Requirements page",
+          "archetype": "report",
+          "tool": "Confluence",
+          "action": "Trace needs to tests",
+          "bullets": [
+            "Connect user needs to requirements",
+            "Define observable acceptance tests",
+            "Trace each decision to evidence"
+          ]
+        },
+        {
+          "title": "Delivery roadmap",
+          "archetype": "timeline",
+          "tool": "Microsoft Project",
+          "action": "Sequence dependencies",
+          "bullets": [
+            "Order dependent milestones",
+            "Include review and rework time",
+            "Make decision gates visible"
+          ]
+        },
+        {
+          "title": "Decision architecture",
+          "archetype": "architecture",
+          "tool": "Mermaid",
+          "action": "Map approval boundaries",
+          "bullets": [
+            "Map people, data and services",
+            "Mark human approval boundaries",
+            "Name the accountable owner"
+          ]
+        },
+        {
+          "title": "Pilot sprint",
+          "archetype": "kanban",
+          "tool": "Linear",
+          "action": "Prioritize a small vertical slice",
+          "bullets": [
+            "Select a small vertical slice",
+            "Limit work in progress",
+            "Review evidence at sprint end"
+          ]
+        },
+        {
+          "title": "Review cadence",
+          "archetype": "calendar",
+          "tool": "Asana",
+          "action": "Schedule stakeholder reviews",
+          "bullets": [
+            "Schedule stakeholder decisions",
+            "Assign preparation owners",
+            "Keep a predictable review rhythm"
+          ]
+        },
+        {
+          "title": "Steering presentation",
+          "archetype": "slides",
+          "tool": "PowerPoint",
+          "action": "Explain options and trade-offs",
+          "bullets": [
+            "Explain the recommended option",
+            "Show costs, benefits and limits",
+            "Ask for a specific next decision"
+          ]
+        },
+        {
+          "title": "Go / revise / stop",
+          "archetype": "report",
+          "tool": "Google Docs",
+          "action": "Record the next decision",
+          "bullets": [
+            "Compare evidence with criteria",
+            "Choose go, revise or stop",
+            "Record owner and next review date"
+          ]
+        }
+      ],
+      "renderSeconds": 9
+    },
+    {
+      "id": "strategy-showcase-15s",
+      "version": "2026-11-23",
+      "category": "strategy",
+      "kind": "showcase",
+      "type": "showcase",
+      "title": "AI Strategy & Project Management / 24 project concepts",
+      "path": "strategy-showcase-15s-v20261123.mp4",
+      "poster": "posters/strategy-showcase-15s-v20261123.jpg",
+      "durationSeconds": 15,
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "silent": true,
+      "sceneCount": 24,
+      "projectCount": 24,
+      "frameworks": [
+        "Notion",
+        "Miro",
+        "Microsoft Excel",
+        "Power BI",
+        "Jira",
+        "Confluence",
+        "Microsoft Project",
+        "Mermaid",
+        "Linear",
+        "Asana",
+        "PowerPoint",
+        "Google Docs"
+      ],
+      "label": "Illustrative student project examples",
+      "subtitlePath": "strategy-showcase-15s-v20261123.vtt",
+      "srtPath": "strategy-showcase-15s-v20261123.srt",
+      "transcriptPath": "strategy-showcase-15s-v20261123.txt",
+      "bytes": 1412772,
+      "sha256": "ccb1ba943339212df7b2b301e5a7ec7d435725c8f6e4b6be0825b2d366afe798",
+      "scenes": [
+        {
+          "title": "AI opportunity radar",
+          "archetype": "dashboard",
+          "action": "Compare candidate initiatives",
+          "bullets": [
+            "List candidate initiatives",
+            "Compare value and feasibility",
+            "Highlight the next test to run"
+          ]
+        },
+        {
+          "title": "Six-week pilot roadmap",
+          "archetype": "timeline",
+          "action": "Milestones and dependencies",
+          "bullets": [
+            "Plan discovery and prototype work",
+            "Show review gates across six weeks",
+            "Expose dependencies and owners"
+          ]
+        },
+        {
+          "title": "Value-feasibility map",
+          "archetype": "designboard",
+          "action": "Find practical starting points",
+          "bullets": [
+            "Place ideas on two clear axes",
+            "Discuss uncertain estimates",
+            "Select feasible high-value tests"
+          ]
+        },
+        {
+          "title": "Cost scenario planner",
+          "archetype": "spreadsheet",
+          "action": "Change assumptions visibly",
+          "bullets": [
+            "Change volume and adoption inputs",
+            "Compare operating-cost scenarios",
+            "Keep uncertain inputs visible"
+          ]
+        },
+        {
+          "title": "Responsible AI risk register",
+          "archetype": "report",
+          "action": "Controls, owners and open risks",
+          "bullets": [
+            "Record risk and possible impact",
+            "Assign mitigations and owners",
+            "Track unresolved review actions"
+          ]
+        },
+        {
+          "title": "One-page project charter",
+          "archetype": "report",
+          "action": "Purpose, scope and success tests",
+          "bullets": [
+            "State the problem and audience",
+            "Define scope and acceptance criteria",
+            "Name the accountable sponsor"
+          ]
+        },
+        {
+          "title": "Stakeholder decision map",
+          "archetype": "architecture",
+          "action": "Who advises and who approves",
+          "bullets": [
+            "Map influence and decision rights",
+            "Separate advice from approval",
+            "Record the escalation route"
+          ]
+        },
+        {
+          "title": "Discovery sprint backlog",
+          "archetype": "kanban",
+          "action": "Questions before commitments",
+          "bullets": [
+            "Turn unknowns into research tasks",
+            "Prioritize learning value",
+            "Define evidence for each answer"
+          ]
+        },
+        {
+          "title": "AI adoption journey",
+          "archetype": "timeline",
+          "action": "From pilot to team practice",
+          "bullets": [
+            "Sequence pilot, training and rollout",
+            "Assign support responsibilities",
+            "Review adoption signals"
+          ]
+        },
+        {
+          "title": "Governance review calendar",
+          "archetype": "calendar",
+          "action": "Decision gates and evidence",
+          "bullets": [
+            "Schedule control reviews",
+            "State evidence due at each gate",
+            "Record decisions and follow-ups"
+          ]
+        },
+        {
+          "title": "Board proposal deck",
+          "archetype": "slides",
+          "action": "A concise investment narrative",
+          "bullets": [
+            "Present the decision required",
+            "Explain options and trade-offs",
+            "Propose a bounded first investment"
+          ]
+        },
+        {
+          "title": "Service blueprint",
+          "archetype": "designboard",
+          "action": "Connect user and team actions",
+          "bullets": [
+            "Map the user-facing journey",
+            "Show supporting team activity",
+            "Identify handoffs and friction"
+          ]
+        },
+        {
+          "title": "Weighted vendor comparison",
+          "archetype": "spreadsheet",
+          "action": "Criteria with documented weights",
+          "bullets": [
+            "Set criteria and weights",
+            "Record comparable evidence",
+            "Document the selection rationale"
+          ]
+        },
+        {
+          "title": "Pilot acceptance checklist",
+          "archetype": "report",
+          "action": "Evidence required to progress",
+          "bullets": [
+            "Define acceptance criteria",
+            "Link each test to evidence",
+            "Record pass, revise or stop"
+          ]
+        },
+        {
+          "title": "Portfolio health view",
+          "archetype": "dashboard",
+          "action": "Scope, risks and next decisions",
+          "bullets": [
+            "Compare delivery confidence",
+            "Show scope and dependency risks",
+            "Identify decisions needed this week"
+          ]
+        },
+        {
+          "title": "Change request desk",
+          "archetype": "kanban",
+          "action": "Assess scope and cost impact",
+          "bullets": [
+            "Describe the proposed change",
+            "Assess schedule and scope impact",
+            "Record the approval decision"
+          ]
+        },
+        {
+          "title": "Human approval boundaries",
+          "archetype": "architecture",
+          "action": "Where automated actions stop",
+          "bullets": [
+            "Map permitted automated actions",
+            "Require review for sensitive steps",
+            "Record the final accountable owner"
+          ]
+        },
+        {
+          "title": "Data readiness assessment",
+          "archetype": "report",
+          "action": "Access, quality and ownership",
+          "bullets": [
+            "Assess access and data quality",
+            "List ownership gaps",
+            "Prioritize readiness fixes"
+          ]
+        },
+        {
+          "title": "Dependency delivery map",
+          "archetype": "timeline",
+          "action": "Make blockers visible early",
+          "bullets": [
+            "Connect tasks to prerequisites",
+            "Show the critical blocked work",
+            "Assign dependency owners"
+          ]
+        },
+        {
+          "title": "Project retrospective",
+          "archetype": "slides",
+          "action": "Lessons and concrete next steps",
+          "bullets": [
+            "Compare intent with observed results",
+            "Identify what helped and failed",
+            "Commit to three concrete changes"
+          ]
+        },
+        {
+          "title": "Assumption test log",
+          "archetype": "notebook",
+          "action": "Record hypotheses and outcomes",
+          "bullets": [
+            "State the current hypothesis",
+            "Record a small test and result",
+            "Choose the next learning step"
+          ]
+        },
+        {
+          "title": "Stakeholder engagement plan",
+          "archetype": "crm",
+          "action": "Needs, concerns and follow-ups",
+          "bullets": [
+            "Capture stakeholder concerns",
+            "Plan useful engagement moments",
+            "Record actions and responses"
+          ]
+        },
+        {
+          "title": "Internal AI launch hub",
+          "archetype": "landing",
+          "action": "Guidance, training and support",
+          "bullets": [
+            "Explain available AI guidance",
+            "Link training and support routes",
+            "Publish clear usage boundaries"
+          ]
+        },
+        {
+          "title": "Project check-in companion",
+          "archetype": "mobile",
+          "action": "Weekly questions for teams",
+          "bullets": [
+            "Collect a weekly team check-in",
+            "Surface blockers early",
+            "Confirm the next committed action"
+          ]
+        }
+      ],
+      "renderSeconds": 9
+    },
+    {
+      "id": "design-demo-15s",
+      "version": "2026-11-23",
+      "category": "design",
+      "kind": "demo",
+      "type": "demo",
+      "title": "AI Design & Content / tools in motion",
+      "path": "design-demo-15s-v20261123.mp4",
+      "poster": "posters/design-demo-15s-v20261123.jpg",
+      "durationSeconds": 15,
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "silent": true,
+      "sceneCount": 12,
+      "projectCount": 0,
+      "frameworks": [
+        "Figma",
+        "Notion",
+        "Adobe Firefly",
+        "ComfyUI",
+        "Design Tokens",
+        "Framer",
+        "Figma Auto Layout",
+        "Blender",
+        "DaVinci Resolve",
+        "Sonic Pi",
+        "Adobe Illustrator",
+        "Storybook"
+      ],
+      "label": "Illustrative screen demo",
+      "subtitlePath": "design-demo-15s-v20261123.vtt",
+      "srtPath": "design-demo-15s-v20261123.srt",
+      "transcriptPath": "design-demo-15s-v20261123.txt",
+      "bytes": 1056645,
+      "sha256": "99320a776aca18ca537b67c601e6681d3599623d4c9dfbcd30199cedbf1cbafd",
+      "scenes": [
+        {
+          "title": "Creative direction",
+          "archetype": "designboard",
+          "tool": "Figma",
+          "action": "Arrange mood and visual references",
+          "bullets": [
+            "Collect visual references",
+            "Define audience and emotional tone",
+            "Choose a coherent creative direction"
+          ]
+        },
+        {
+          "title": "Creative brief",
+          "archetype": "report",
+          "tool": "Notion",
+          "action": "Connect intent to deliverables",
+          "bullets": [
+            "State the intended audience",
+            "Specify formats and constraints",
+            "Define a clear review checklist"
+          ]
+        },
+        {
+          "title": "Image studies",
+          "archetype": "designboard",
+          "tool": "Adobe Firefly",
+          "action": "Compare illustrative directions",
+          "bullets": [
+            "Compare lighting and composition",
+            "Select a promising image direction",
+            "Record the next visual revision"
+          ]
+        },
+        {
+          "title": "Generation workflow",
+          "archetype": "designboard",
+          "tool": "ComfyUI",
+          "action": "Inspect conditioning and revisions",
+          "bullets": [
+            "Trace conditioning to output",
+            "Compare controlled variations",
+            "Keep the chosen settings visible"
+          ]
+        },
+        {
+          "title": "Token system",
+          "archetype": "code",
+          "tool": "Design Tokens",
+          "action": "Set color and type variables",
+          "bullets": [
+            "Define color and typography tokens",
+            "Reuse spacing and corner values",
+            "Check readable foreground contrast"
+          ]
+        },
+        {
+          "title": "Landing composition",
+          "archetype": "landing",
+          "tool": "Framer",
+          "action": "Build a clear visual hierarchy",
+          "bullets": [
+            "Build a strong visual hierarchy",
+            "Connect navigation to clear actions",
+            "Preview an editorial landing page"
+          ]
+        },
+        {
+          "title": "Responsive screen",
+          "archetype": "mobile",
+          "tool": "Figma Auto Layout",
+          "action": "Reflow content for mobile",
+          "bullets": [
+            "Reflow cards on a narrow screen",
+            "Check text wrapping and spacing",
+            "Keep touch targets comfortable"
+          ]
+        },
+        {
+          "title": "3D scene study",
+          "archetype": "architecture",
+          "tool": "Blender",
+          "action": "Inspect forms and lighting",
+          "bullets": [
+            "Block out the main 3D forms",
+            "Adjust the key and fill lights",
+            "Inspect a clean product composition"
+          ]
+        },
+        {
+          "title": "Sequence timeline",
+          "archetype": "timeline",
+          "tool": "DaVinci Resolve",
+          "action": "Arrange shots and transitions",
+          "bullets": [
+            "Arrange shots into a sequence",
+            "Set transitions and pacing",
+            "Review titles against the edit"
+          ]
+        },
+        {
+          "title": "Audio motif sketch",
+          "archetype": "notebook",
+          "tool": "Sonic Pi",
+          "action": "Sequence a short pattern",
+          "bullets": [
+            "Sequence a short note pattern",
+            "Adjust tempo and rests",
+            "Listen for a repeatable motif"
+          ]
+        },
+        {
+          "title": "Campaign artwork",
+          "archetype": "poster",
+          "tool": "Adobe Illustrator",
+          "action": "Compose type and geometry",
+          "bullets": [
+            "Balance image, geometry and type",
+            "Compare the three artwork formats",
+            "Prepare a consistent final direction"
+          ]
+        },
+        {
+          "title": "Component review",
+          "archetype": "designboard",
+          "tool": "Storybook",
+          "action": "Check states and consistency",
+          "bullets": [
+            "Compare default and active states",
+            "Check responsive component behavior",
+            "Review the shared design language"
+          ]
+        }
+      ],
+      "renderSeconds": 9
+    },
+    {
+      "id": "design-showcase-15s",
+      "version": "2026-11-23",
+      "category": "design",
+      "kind": "showcase",
+      "type": "showcase",
+      "title": "AI Design & Content / 24 project concepts",
+      "path": "design-showcase-15s-v20261123.mp4",
+      "poster": "posters/design-showcase-15s-v20261123.jpg",
+      "durationSeconds": 15,
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "silent": true,
+      "sceneCount": 24,
+      "projectCount": 24,
+      "frameworks": [
+        "Figma",
+        "Notion",
+        "Adobe Firefly",
+        "ComfyUI",
+        "Design Tokens",
+        "Framer",
+        "Figma Auto Layout",
+        "Blender",
+        "DaVinci Resolve",
+        "Sonic Pi",
+        "Adobe Illustrator",
+        "Storybook"
+      ],
+      "label": "Illustrative student project examples",
+      "subtitlePath": "design-showcase-15s-v20261123.vtt",
+      "srtPath": "design-showcase-15s-v20261123.srt",
+      "transcriptPath": "design-showcase-15s-v20261123.txt",
+      "bytes": 1463529,
+      "sha256": "8a0871df78e896d948df0835f298f08a69b563c5c6d6985fff21143ed6421207",
+      "scenes": [
+        {
+          "title": "Coffee brand universe",
+          "archetype": "designboard",
+          "action": "Palette, type and packaging",
+          "bullets": [
+            "Pair earthy color with clear type",
+            "Explore cup and bag treatments",
+            "Keep the identity consistent"
+          ]
+        },
+        {
+          "title": "Future learning poster",
+          "archetype": "poster",
+          "action": "Bold type and geometric motion",
+          "bullets": [
+            "Use bold type and moving geometry",
+            "Create one strong focal point",
+            "Adapt the poster to three ratios"
+          ]
+        },
+        {
+          "title": "Wellbeing app concept",
+          "archetype": "mobile",
+          "action": "A calm daily check-in flow",
+          "bullets": [
+            "Design a gentle daily check-in",
+            "Show a small, useful next step",
+            "Use calm color and spacing"
+          ]
+        },
+        {
+          "title": "Cultural festival website",
+          "archetype": "landing",
+          "action": "An expressive event identity",
+          "bullets": [
+            "Introduce the festival story",
+            "Organize acts and event times",
+            "Create a clear ticket journey"
+          ]
+        },
+        {
+          "title": "Character expression sheet",
+          "archetype": "designboard",
+          "action": "One character, varied emotions",
+          "bullets": [
+            "Keep facial features consistent",
+            "Explore five readable expressions",
+            "Compare silhouette and gesture"
+          ]
+        },
+        {
+          "title": "Modular lamp concept",
+          "archetype": "architecture",
+          "action": "Form, materials and light",
+          "bullets": [
+            "Explore the lamp's modular parts",
+            "Compare material and light studies",
+            "Show a clear assembled form"
+          ]
+        },
+        {
+          "title": "Short-film storyboard",
+          "archetype": "timeline",
+          "action": "Six connected story moments",
+          "bullets": [
+            "Set up the opening situation",
+            "Build toward one turning point",
+            "Resolve the final story beat"
+          ]
+        },
+        {
+          "title": "Editorial presentation kit",
+          "archetype": "slides",
+          "action": "A consistent slide family",
+          "bullets": [
+            "Build title, data and closing slides",
+            "Use one consistent type scale",
+            "Keep content editable"
+          ]
+        },
+        {
+          "title": "Independent album artwork",
+          "archetype": "poster",
+          "action": "Visual rhythm for music",
+          "bullets": [
+            "Translate musical mood into shapes",
+            "Create a clear album title hierarchy",
+            "Compare square and vertical crops"
+          ]
+        },
+        {
+          "title": "Sustainable package studies",
+          "archetype": "designboard",
+          "action": "Three material-led directions",
+          "bullets": [
+            "Explore recycled material surfaces",
+            "Test labels at real proportions",
+            "Compare three package directions"
+          ]
+        },
+        {
+          "title": "Museum guide interface",
+          "archetype": "mobile",
+          "action": "Accessible routes and stories",
+          "bullets": [
+            "Introduce a museum route",
+            "Make exhibits easy to discover",
+            "Offer clear accessibility choices"
+          ]
+        },
+        {
+          "title": "Creative portfolio system",
+          "archetype": "landing",
+          "action": "Show work with clear hierarchy",
+          "bullets": [
+            "Lead with selected creative work",
+            "Explain the role and process",
+            "Let visitors explore case studies"
+          ]
+        },
+        {
+          "title": "Community wayfinding set",
+          "archetype": "poster",
+          "action": "Readable signs and symbols",
+          "bullets": [
+            "Pair symbols with plain language",
+            "Check signs at a distance",
+            "Keep the route hierarchy clear"
+          ]
+        },
+        {
+          "title": "Magazine feature spread",
+          "archetype": "report",
+          "action": "Typography and image pacing",
+          "bullets": [
+            "Create a strong opening spread",
+            "Balance type and photography",
+            "Use pacing across the article"
+          ]
+        },
+        {
+          "title": "Motion title collection",
+          "archetype": "designboard",
+          "action": "Three distinct title treatments",
+          "bullets": [
+            "Explore three motion rhythms",
+            "Keep letterforms readable",
+            "Resolve each title cleanly"
+          ]
+        },
+        {
+          "title": "Product launch teaser",
+          "archetype": "timeline",
+          "action": "A sequence of reveal shots",
+          "bullets": [
+            "Reveal form, detail and benefit",
+            "Connect the three shots",
+            "End with one clear brand moment"
+          ]
+        },
+        {
+          "title": "Exhibition spatial concept",
+          "archetype": "architecture",
+          "action": "A connected visitor journey",
+          "bullets": [
+            "Map arrival and key exhibits",
+            "Balance circulation and resting space",
+            "Create a coherent visitor route"
+          ]
+        },
+        {
+          "title": "Travel journal interface",
+          "archetype": "mobile",
+          "action": "Places, notes and memories",
+          "bullets": [
+            "Capture places and short notes",
+            "Build a visual travel timeline",
+            "Return to memorable moments"
+          ]
+        },
+        {
+          "title": "Data storytelling infographic",
+          "archetype": "poster",
+          "action": "One insight, clear visual order",
+          "bullets": [
+            "Choose one central data insight",
+            "Use scale and annotation carefully",
+            "Explain the source and limits"
+          ]
+        },
+        {
+          "title": "Icon and component family",
+          "archetype": "designboard",
+          "action": "A reusable visual vocabulary",
+          "bullets": [
+            "Use a consistent icon grid",
+            "Compare filled and outlined states",
+            "Build matching component families"
+          ]
+        },
+        {
+          "title": "Story pitch deck",
+          "archetype": "slides",
+          "action": "World, characters and tone",
+          "bullets": [
+            "Introduce the story's central idea",
+            "Show character and world references",
+            "Explain the visual tone"
+          ]
+        },
+        {
+          "title": "Boutique studio homepage",
+          "archetype": "landing",
+          "action": "Editorial type with rich color",
+          "bullets": [
+            "Create an editorial opening",
+            "Show selected work with generous space",
+            "Make contact easy to find"
+          ]
+        },
+        {
+          "title": "Music visualizer concept",
+          "archetype": "designboard",
+          "action": "Color responding to rhythm",
+          "bullets": [
+            "Map rhythm to shape changes",
+            "Use a controlled color sequence",
+            "Keep motion synchronized"
+          ]
+        },
+        {
+          "title": "Creative process case study",
+          "archetype": "report",
+          "action": "Brief, exploration and refinement",
+          "bullets": [
+            "Describe the original brief",
+            "Show the key visual iterations",
+            "Explain the selected direction"
+          ]
+        }
+      ],
+      "renderSeconds": 9
+    },
+    {
+      "id": "analytics-demo-15s",
+      "version": "2026-11-23",
+      "category": "analytics",
+      "kind": "demo",
+      "type": "demo",
+      "title": "AI Data Analytics / tools in motion",
+      "path": "analytics-demo-15s-v20261123.mp4",
+      "poster": "posters/analytics-demo-15s-v20261123.jpg",
+      "durationSeconds": 15,
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "silent": true,
+      "sceneCount": 12,
+      "projectCount": 0,
+      "frameworks": [
+        "Microsoft Excel",
+        "Google Sheets",
+        "Jupyter / pandas",
+        "SQL / DuckDB",
+        "Polars",
+        "Great Expectations",
+        "Plotly",
+        "Power BI",
+        "Tableau",
+        "Streamlit",
+        "Quarto",
+        "PowerPoint"
+      ],
+      "label": "Illustrative screen demo",
+      "subtitlePath": "analytics-demo-15s-v20261123.vtt",
+      "srtPath": "analytics-demo-15s-v20261123.srt",
+      "transcriptPath": "analytics-demo-15s-v20261123.txt",
+      "bytes": 1067892,
+      "sha256": "7ffcbd34bfd4e25f9a15bb90ad83aff6698f9f75bc7ecfdd50837f296d7d2e8d",
+      "scenes": [
+        {
+          "title": "Raw source table",
+          "archetype": "spreadsheet",
+          "tool": "Microsoft Excel",
+          "action": "Inspect rows and units",
+          "bullets": [
+            "Inspect fields, dates and units",
+            "Find duplicated transaction IDs",
+            "Preserve the unmodified source"
+          ]
+        },
+        {
+          "title": "Data dictionary",
+          "archetype": "spreadsheet",
+          "tool": "Google Sheets",
+          "action": "Define fields and missing values",
+          "bullets": [
+            "Define each field consistently",
+            "Record units and missing-value meaning",
+            "Make the dictionary shareable"
+          ]
+        },
+        {
+          "title": "Cleaning notebook",
+          "archetype": "notebook",
+          "tool": "Jupyter / pandas",
+          "action": "Deduplicate and normalize",
+          "bullets": [
+            "Normalize date and text fields",
+            "Flag incomplete rows for review",
+            "Retain a clean transformation trail"
+          ]
+        },
+        {
+          "title": "Query workspace",
+          "archetype": "code",
+          "tool": "SQL / DuckDB",
+          "action": "Join and aggregate data",
+          "bullets": [
+            "Join orders to line items",
+            "Aggregate by month and category",
+            "Inspect the resulting query table"
+          ]
+        },
+        {
+          "title": "Grouped analysis",
+          "archetype": "notebook",
+          "tool": "Polars",
+          "action": "Compare segments efficiently",
+          "bullets": [
+            "Group observations by segment",
+            "Compare totals and variation",
+            "Check what the aggregates hide"
+          ]
+        },
+        {
+          "title": "Quality checks",
+          "archetype": "code",
+          "tool": "Great Expectations",
+          "action": "Test ranges and uniqueness",
+          "bullets": [
+            "Check required fields and types",
+            "Test uniqueness and value ranges",
+            "Inspect failed expectations"
+          ]
+        },
+        {
+          "title": "Exploratory charts",
+          "archetype": "dashboard",
+          "tool": "Plotly",
+          "action": "Link filters to charts",
+          "bullets": [
+            "Compare distributions and outliers",
+            "Filter by a meaningful segment",
+            "Look for alternative explanations"
+          ]
+        },
+        {
+          "title": "Decision dashboard",
+          "archetype": "dashboard",
+          "tool": "Power BI",
+          "action": "Compare time and categories",
+          "bullets": [
+            "Show units and reporting periods",
+            "Connect summary to detail",
+            "Make comparison baselines explicit"
+          ]
+        },
+        {
+          "title": "Visual exploration",
+          "archetype": "dashboard",
+          "tool": "Tableau",
+          "action": "Drill into a selected segment",
+          "bullets": [
+            "Drill into a selected region",
+            "Compare a second explanatory factor",
+            "Avoid confusing correlation with cause"
+          ]
+        },
+        {
+          "title": "Analytical app",
+          "archetype": "landing",
+          "tool": "Streamlit",
+          "action": "Expose useful controls",
+          "bullets": [
+            "Expose useful analysis controls",
+            "Validate input selections",
+            "Make the same analysis repeatable"
+          ]
+        },
+        {
+          "title": "Decision report",
+          "archetype": "report",
+          "tool": "Quarto",
+          "action": "Explain findings and caveats",
+          "bullets": [
+            "Explain findings and uncertainty",
+            "Link evidence to each observation",
+            "Separate assumptions from results"
+          ]
+        },
+        {
+          "title": "Evidence briefing",
+          "archetype": "slides",
+          "tool": "PowerPoint",
+          "action": "Present the decision question",
+          "bullets": [
+            "State the decision question",
+            "Present the most relevant evidence",
+            "Recommend the next check"
+          ]
+        }
+      ],
+      "renderSeconds": 9
+    },
+    {
+      "id": "analytics-showcase-15s",
+      "version": "2026-11-23",
+      "category": "analytics",
+      "kind": "showcase",
+      "type": "showcase",
+      "title": "AI Data Analytics / 24 project concepts",
+      "path": "analytics-showcase-15s-v20261123.mp4",
+      "poster": "posters/analytics-showcase-15s-v20261123.jpg",
+      "durationSeconds": 15,
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "silent": true,
+      "sceneCount": 24,
+      "projectCount": 24,
+      "frameworks": [
+        "Microsoft Excel",
+        "Google Sheets",
+        "Jupyter / pandas",
+        "SQL / DuckDB",
+        "Polars",
+        "Great Expectations",
+        "Plotly",
+        "Power BI",
+        "Tableau",
+        "Streamlit",
+        "Quarto",
+        "PowerPoint"
+      ],
+      "label": "Illustrative student project examples",
+      "subtitlePath": "analytics-showcase-15s-v20261123.vtt",
+      "srtPath": "analytics-showcase-15s-v20261123.srt",
+      "transcriptPath": "analytics-showcase-15s-v20261123.txt",
+      "bytes": 1431216,
+      "sha256": "3be0c126a3bae8b9ad2845efa1468fd9ca0bdd9f4c0d773ff2fab4004ae57e95",
+      "scenes": [
+        {
+          "title": "Retail category explorer",
+          "archetype": "dashboard",
+          "action": "Compare seasonal demand",
+          "bullets": [
+            "Compare monthly category demand",
+            "Inspect unusual peaks",
+            "Check the chosen reporting period"
+          ]
+        },
+        {
+          "title": "Energy usage calendar",
+          "archetype": "calendar",
+          "action": "Find daily consumption patterns",
+          "bullets": [
+            "View daily energy consumption",
+            "Compare weekdays and weekends",
+            "Flag unusual high-use days"
+          ]
+        },
+        {
+          "title": "Public transport pulse",
+          "archetype": "dashboard",
+          "action": "Ridership across routes and times",
+          "bullets": [
+            "Compare routes and time bands",
+            "Inspect peak ridership patterns",
+            "Document sample coverage"
+          ]
+        },
+        {
+          "title": "Event attendance study",
+          "archetype": "report",
+          "action": "What registration data suggests",
+          "bullets": [
+            "Compare registration with attendance",
+            "Explore patterns by session",
+            "State the limits of the sample"
+          ]
+        },
+        {
+          "title": "Data quality scorecard",
+          "archetype": "spreadsheet",
+          "action": "Missing values and duplicates",
+          "bullets": [
+            "Count missing and duplicated fields",
+            "Prioritize critical data issues",
+            "Track the next cleanup actions"
+          ]
+        },
+        {
+          "title": "Support response analysis",
+          "archetype": "notebook",
+          "action": "Compare queues and response times",
+          "bullets": [
+            "Compare response-time distributions",
+            "Inspect urgent and routine queues",
+            "Check volume alongside speed"
+          ]
+        },
+        {
+          "title": "Learning progress explorer",
+          "archetype": "dashboard",
+          "action": "Sample activity across modules",
+          "bullets": [
+            "Compare activity across modules",
+            "Inspect completion and practice patterns",
+            "Avoid equating activity with learning"
+          ]
+        },
+        {
+          "title": "Regional service access",
+          "archetype": "report",
+          "action": "Compare coverage and limitations",
+          "bullets": [
+            "Compare service coverage by region",
+            "Show population and access context",
+            "Explain missing or uncertain areas"
+          ]
+        },
+        {
+          "title": "Inventory ageing view",
+          "archetype": "dashboard",
+          "action": "Spot slow-moving items",
+          "bullets": [
+            "Group stock by age range",
+            "Highlight slow-moving categories",
+            "Prepare a focused review list"
+          ]
+        },
+        {
+          "title": "Customer cohort notebook",
+          "archetype": "notebook",
+          "action": "Retention by signup group",
+          "bullets": [
+            "Group users by signup month",
+            "Compare later activity periods",
+            "Make cohort sizes visible"
+          ]
+        },
+        {
+          "title": "Household budget analysis",
+          "archetype": "spreadsheet",
+          "action": "Categorize a sample spending log",
+          "bullets": [
+            "Group a sample spending log",
+            "Compare planned and actual categories",
+            "Flag unusually large items"
+          ]
+        },
+        {
+          "title": "Website journey explorer",
+          "archetype": "dashboard",
+          "action": "From arrival to key actions",
+          "bullets": [
+            "Map arrival to key actions",
+            "Compare device and source segments",
+            "Check where journeys diverge"
+          ]
+        },
+        {
+          "title": "Project delivery trends",
+          "archetype": "timeline",
+          "action": "Lead time and blocked work",
+          "bullets": [
+            "Compare lead-time distributions",
+            "Inspect blocked-work periods",
+            "Identify a process question to test"
+          ]
+        },
+        {
+          "title": "Survey insight narrative",
+          "archetype": "report",
+          "action": "Themes with supporting evidence",
+          "bullets": [
+            "Group responses into clear themes",
+            "Attach evidence to each observation",
+            "Include disagreement and limits"
+          ]
+        },
+        {
+          "title": "Workforce capacity view",
+          "archetype": "dashboard",
+          "action": "Demand, availability and gaps",
+          "bullets": [
+            "Compare demand with availability",
+            "Show coverage gaps by week",
+            "Identify the next staffing decision"
+          ]
+        },
+        {
+          "title": "Text feedback explorer",
+          "archetype": "notebook",
+          "action": "Cluster sample comments",
+          "bullets": [
+            "Group comments by recurring topic",
+            "Review examples in context",
+            "Keep human interpretation visible"
+          ]
+        },
+        {
+          "title": "Booking demand calendar",
+          "archetype": "calendar",
+          "action": "Find busy and quiet periods",
+          "bullets": [
+            "Show busy and quiet booking days",
+            "Compare booking lead times",
+            "Plan a small scheduling experiment"
+          ]
+        },
+        {
+          "title": "Food waste monitor",
+          "archetype": "dashboard",
+          "action": "Waste by station and time",
+          "bullets": [
+            "Compare waste by station and time",
+            "Inspect portion and service context",
+            "Choose an area for closer observation"
+          ]
+        },
+        {
+          "title": "Procurement price study",
+          "archetype": "report",
+          "action": "Comparable items and caveats",
+          "bullets": [
+            "Compare like-for-like purchases",
+            "Explain unit and quantity differences",
+            "Flag unusual price movements"
+          ]
+        },
+        {
+          "title": "Research dataset audit",
+          "archetype": "spreadsheet",
+          "action": "Variables, units and exclusions",
+          "bullets": [
+            "Review variable definitions",
+            "Check exclusions and missing values",
+            "Keep an auditable cleaning record"
+          ]
+        },
+        {
+          "title": "City mobility dashboard",
+          "archetype": "dashboard",
+          "action": "Compare illustrative route patterns",
+          "bullets": [
+            "Compare route and time patterns",
+            "Show illustrative trip volumes",
+            "State what the data cannot explain"
+          ]
+        },
+        {
+          "title": "Forecast scenario notebook",
+          "archetype": "notebook",
+          "action": "Ranges rather than one promise",
+          "bullets": [
+            "Set transparent scenario assumptions",
+            "Show a range of possible outcomes",
+            "Avoid a single-point promise"
+          ]
+        },
+        {
+          "title": "Executive data briefing",
+          "archetype": "slides",
+          "action": "A visual case for the next check",
+          "bullets": [
+            "Start with the decision question",
+            "Explain one visual finding at a time",
+            "End with a testable next step"
+          ]
+        },
+        {
+          "title": "Open data explorer",
+          "archetype": "landing",
+          "action": "Search, filter and explain",
+          "bullets": [
+            "Search and filter an open dataset",
+            "Inspect definitions and source notes",
+            "Export a transparent result"
+          ]
+        }
+      ],
+      "renderSeconds": 9
+    },
+    {
+      "id": "marketing-demo-15s",
+      "version": "2026-11-23",
+      "category": "marketing",
+      "kind": "demo",
+      "type": "demo",
+      "title": "AI Marketing & Sales / tools in motion",
+      "path": "marketing-demo-15s-v20261123.mp4",
+      "poster": "posters/marketing-demo-15s-v20261123.jpg",
+      "durationSeconds": 15,
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "silent": true,
+      "sceneCount": 12,
+      "projectCount": 0,
+      "frameworks": [
+        "HubSpot",
+        "Google Sheets",
+        "Miro",
+        "Notion",
+        "Canva",
+        "Mailchimp",
+        "Webflow",
+        "GA4",
+        "Looker Studio",
+        "Salesforce",
+        "n8n",
+        "PowerPoint"
+      ],
+      "label": "Illustrative screen demo",
+      "subtitlePath": "marketing-demo-15s-v20261123.vtt",
+      "srtPath": "marketing-demo-15s-v20261123.srt",
+      "transcriptPath": "marketing-demo-15s-v20261123.txt",
+      "bytes": 1105587,
+      "sha256": "e93f5f77672dedc87bb0ec8ea86d70a18e39b4ba82b3e9e737f5448953cde923",
+      "scenes": [
+        {
+          "title": "Customer evidence",
+          "archetype": "crm",
+          "tool": "HubSpot",
+          "action": "Review sample customer records",
+          "bullets": [
+            "Read sample customer context",
+            "Separate needs from assumptions",
+            "Prepare useful discovery questions"
+          ]
+        },
+        {
+          "title": "Segment worksheet",
+          "archetype": "spreadsheet",
+          "tool": "Google Sheets",
+          "action": "Define useful audience groups",
+          "bullets": [
+            "Group customers by relevant need",
+            "Write a testable audience hypothesis",
+            "Avoid unsupported personal profiling"
+          ]
+        },
+        {
+          "title": "Customer journey",
+          "archetype": "designboard",
+          "tool": "Miro",
+          "action": "Connect questions to touchpoints",
+          "bullets": [
+            "Map questions at each touchpoint",
+            "Identify the most useful content",
+            "Connect marketing to service"
+          ]
+        },
+        {
+          "title": "Campaign brief",
+          "archetype": "report",
+          "tool": "Notion",
+          "action": "Align goal, message and channel",
+          "bullets": [
+            "Set a clear learning objective",
+            "Align message and channel",
+            "Define a useful next action"
+          ]
+        },
+        {
+          "title": "Creative variations",
+          "archetype": "poster",
+          "tool": "Canva",
+          "action": "Compare visual message concepts",
+          "bullets": [
+            "Compare three visual messages",
+            "Keep the core offer consistent",
+            "Record what each variant tests"
+          ]
+        },
+        {
+          "title": "Email sequence",
+          "archetype": "email",
+          "tool": "Mailchimp",
+          "action": "Review messages by audience",
+          "bullets": [
+            "Draft a helpful welcome sequence",
+            "Adapt context without overclaiming",
+            "Review before sending"
+          ]
+        },
+        {
+          "title": "Landing page",
+          "archetype": "landing",
+          "tool": "Webflow",
+          "action": "Align headline and next action",
+          "bullets": [
+            "Match headline to campaign promise",
+            "Make the next step clear",
+            "Check the mobile experience"
+          ]
+        },
+        {
+          "title": "Measurement plan",
+          "archetype": "dashboard",
+          "tool": "GA4",
+          "action": "Inspect event definitions",
+          "bullets": [
+            "Define the events to observe",
+            "Map each event to a decision",
+            "Document illustrative reporting data"
+          ]
+        },
+        {
+          "title": "Experiment readout",
+          "archetype": "dashboard",
+          "tool": "Looker Studio",
+          "action": "Compare sample variants carefully",
+          "bullets": [
+            "Compare variants and context",
+            "Separate observation from causation",
+            "Choose the next experiment"
+          ]
+        },
+        {
+          "title": "Sales workspace",
+          "archetype": "crm",
+          "tool": "Salesforce",
+          "action": "Prepare context and next steps",
+          "bullets": [
+            "Prepare relevant account context",
+            "Capture meeting notes and questions",
+            "Agree on the next useful step"
+          ]
+        },
+        {
+          "title": "CRM handoff",
+          "archetype": "workflow",
+          "tool": "n8n",
+          "action": "Route approved follow-up tasks",
+          "bullets": [
+            "Route qualified enquiries",
+            "Require review before outreach",
+            "Keep consent and context visible"
+          ]
+        },
+        {
+          "title": "Campaign review",
+          "archetype": "slides",
+          "tool": "PowerPoint",
+          "action": "Explain what to test next",
+          "bullets": [
+            "Review what the evidence suggests",
+            "Explain uncertainty and trade-offs",
+            "Decide what to test next"
+          ]
+        }
+      ],
+      "renderSeconds": 9
+    },
+    {
+      "id": "marketing-showcase-15s",
+      "version": "2026-11-23",
+      "category": "marketing",
+      "kind": "showcase",
+      "type": "showcase",
+      "title": "AI Marketing & Sales / 24 project concepts",
+      "path": "marketing-showcase-15s-v20261123.mp4",
+      "poster": "posters/marketing-showcase-15s-v20261123.jpg",
+      "durationSeconds": 15,
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "silent": true,
+      "sceneCount": 24,
+      "projectCount": 24,
+      "frameworks": [
+        "HubSpot",
+        "Google Sheets",
+        "Miro",
+        "Notion",
+        "Canva",
+        "Mailchimp",
+        "Webflow",
+        "GA4",
+        "Looker Studio",
+        "Salesforce",
+        "n8n",
+        "PowerPoint"
+      ],
+      "label": "Illustrative student project examples",
+      "subtitlePath": "marketing-showcase-15s-v20261123.vtt",
+      "srtPath": "marketing-showcase-15s-v20261123.srt",
+      "transcriptPath": "marketing-showcase-15s-v20261123.txt",
+      "bytes": 1541923,
+      "sha256": "cb1de6602801cac49cebcb504d5982a650294d0ee45f980d72636db25971a55d",
+      "scenes": [
+        {
+          "title": "Audience insight canvas",
+          "archetype": "designboard",
+          "action": "Needs, barriers and hypotheses",
+          "bullets": [
+            "Capture audience needs and barriers",
+            "Separate evidence from hypotheses",
+            "Choose useful questions to test"
+          ]
+        },
+        {
+          "title": "B2B account research desk",
+          "archetype": "crm",
+          "action": "Context for a better conversation",
+          "bullets": [
+            "Summarize account context",
+            "Prepare three discovery questions",
+            "Record the next relationship step"
+          ]
+        },
+        {
+          "title": "Three-message campaign set",
+          "archetype": "poster",
+          "action": "Distinct value propositions",
+          "bullets": [
+            "Compare three value propositions",
+            "Keep format and audience consistent",
+            "Record the learning goal"
+          ]
+        },
+        {
+          "title": "Welcome journey studio",
+          "archetype": "email",
+          "action": "A helpful first-week sequence",
+          "bullets": [
+            "Welcome a new subscriber",
+            "Offer a useful first resource",
+            "Invite a clear next step"
+          ]
+        },
+        {
+          "title": "Workshop launch page",
+          "archetype": "landing",
+          "action": "A focused registration journey",
+          "bullets": [
+            "Explain who the workshop serves",
+            "Show outcomes and prerequisites",
+            "Make registration straightforward"
+          ]
+        },
+        {
+          "title": "Campaign measurement board",
+          "archetype": "dashboard",
+          "action": "Goals, events and comparisons",
+          "bullets": [
+            "Map goals to measurable events",
+            "Compare observations over time",
+            "Record interpretation limits"
+          ]
+        },
+        {
+          "title": "Content publishing rhythm",
+          "archetype": "timeline",
+          "action": "One story across several channels",
+          "bullets": [
+            "Connect a central story to channels",
+            "Plan useful publishing moments",
+            "Assign asset and review owners"
+          ]
+        },
+        {
+          "title": "Sales meeting preparation",
+          "archetype": "crm",
+          "action": "Questions, context and follow-ups",
+          "bullets": [
+            "Summarize the customer's context",
+            "Prepare open-ended questions",
+            "Capture agreed follow-ups"
+          ]
+        },
+        {
+          "title": "Social story collection",
+          "archetype": "mobile",
+          "action": "A cohesive vertical content set",
+          "bullets": [
+            "Create three connected story frames",
+            "Use readable short captions",
+            "End with a useful next action"
+          ]
+        },
+        {
+          "title": "Customer interview synthesis",
+          "archetype": "report",
+          "action": "Themes without invented quotes",
+          "bullets": [
+            "Group interview notes by theme",
+            "Separate direct evidence and inference",
+            "Keep contradictory feedback visible"
+          ]
+        },
+        {
+          "title": "Creative experiment backlog",
+          "archetype": "kanban",
+          "action": "Ideas ranked for learning",
+          "bullets": [
+            "Write clear creative hypotheses",
+            "Prioritize what can be learned",
+            "Define a simple comparison"
+          ]
+        },
+        {
+          "title": "Channel planning worksheet",
+          "archetype": "spreadsheet",
+          "action": "Budget assumptions and trade-offs",
+          "bullets": [
+            "Set channel and budget assumptions",
+            "Compare allocations and trade-offs",
+            "Keep a review reserve"
+          ]
+        },
+        {
+          "title": "Re-engagement draft sequence",
+          "archetype": "email",
+          "action": "Messages with clear choices",
+          "bullets": [
+            "Remind recipients of useful value",
+            "Offer a clear preference choice",
+            "Review eligibility before sending"
+          ]
+        },
+        {
+          "title": "Brand message architecture",
+          "archetype": "designboard",
+          "action": "Promise, evidence and tone",
+          "bullets": [
+            "Define the central brand promise",
+            "Connect it to concrete evidence",
+            "Keep tone consistent"
+          ]
+        },
+        {
+          "title": "Product comparison page",
+          "archetype": "landing",
+          "action": "Useful differences for buyers",
+          "bullets": [
+            "Explain useful product differences",
+            "Show comparable criteria",
+            "Help the buyer make a choice"
+          ]
+        },
+        {
+          "title": "Illustrative funnel explorer",
+          "archetype": "dashboard",
+          "action": "See where journeys diverge",
+          "bullets": [
+            "Compare arrival and action stages",
+            "Inspect segment differences",
+            "Avoid claiming a proven cause"
+          ]
+        },
+        {
+          "title": "Partner outreach workspace",
+          "archetype": "crm",
+          "action": "Keep relationship context",
+          "bullets": [
+            "Record shared interests and context",
+            "Plan a relevant introduction",
+            "Track responses respectfully"
+          ]
+        },
+        {
+          "title": "Event promotion toolkit",
+          "archetype": "poster",
+          "action": "Announcements and reminder assets",
+          "bullets": [
+            "Create an announcement asset",
+            "Prepare a useful reminder",
+            "Keep time and location consistent"
+          ]
+        },
+        {
+          "title": "Search intent opportunity map",
+          "archetype": "report",
+          "action": "Questions worth answering",
+          "bullets": [
+            "Group real customer questions",
+            "Prioritize helpful content gaps",
+            "Avoid invented search-volume claims"
+          ]
+        },
+        {
+          "title": "Lead qualification handoff",
+          "archetype": "workflow",
+          "action": "A transparent review process",
+          "bullets": [
+            "Capture enquiry context",
+            "Route for human qualification",
+            "Assign a responsible follow-up owner"
+          ]
+        },
+        {
+          "title": "Sales enablement deck",
+          "archetype": "slides",
+          "action": "A clear customer-focused story",
+          "bullets": [
+            "Lead with the customer's problem",
+            "Show a relevant solution example",
+            "Propose an agreed next step"
+          ]
+        },
+        {
+          "title": "Customer feedback microflow",
+          "archetype": "mobile",
+          "action": "Capture the next useful signal",
+          "bullets": [
+            "Ask one focused feedback question",
+            "Keep the response flow short",
+            "Explain how the answer is used"
+          ]
+        },
+        {
+          "title": "Launch coordination calendar",
+          "archetype": "calendar",
+          "action": "Coordinate assets and owners",
+          "bullets": [
+            "Coordinate content and approvals",
+            "Show dependencies across teams",
+            "Protect the launch review window"
+          ]
+        },
+        {
+          "title": "Campaign review notebook",
+          "archetype": "notebook",
+          "action": "Interpret sample data cautiously",
+          "bullets": [
+            "Inspect illustrative campaign data",
+            "Record uncertainty and confounders",
+            "Choose a better next test"
+          ]
+        }
+      ],
+      "renderSeconds": 9
+    },
+    {
+      "id": "development-demo-15s",
+      "version": "2026-11-23",
+      "category": "development",
+      "kind": "demo",
+      "type": "demo",
+      "title": "AI Service Development / tools in motion",
+      "path": "development-demo-15s-v20261123.mp4",
+      "poster": "posters/development-demo-15s-v20261123.jpg",
+      "durationSeconds": 15,
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "silent": true,
+      "sceneCount": 12,
+      "projectCount": 0,
+      "frameworks": [
+        "Markdown / PRD",
+        "VS Code / TypeScript",
+        "Next.js / React",
+        "FastAPI",
+        "PostgreSQL / Supabase",
+        "LangGraph",
+        "LlamaIndex",
+        "Qdrant",
+        "RAG application",
+        "Vitest / Playwright",
+        "Docker",
+        "GitHub Actions"
+      ],
+      "label": "Illustrative screen demo",
+      "subtitlePath": "development-demo-15s-v20261123.vtt",
+      "srtPath": "development-demo-15s-v20261123.srt",
+      "transcriptPath": "development-demo-15s-v20261123.txt",
+      "bytes": 1062831,
+      "sha256": "4810163ff6ab2607e0cdebfd057c5ab884999241c8c371cec854a75e09f18c67",
+      "scenes": [
+        {
+          "title": "Build requirements",
+          "archetype": "report",
+          "tool": "Markdown / PRD",
+          "action": "Define a narrow user problem",
+          "bullets": [
+            "Define a narrow user problem",
+            "Write observable acceptance criteria",
+            "Choose a small first build"
+          ]
+        },
+        {
+          "title": "Application workspace",
+          "archetype": "code",
+          "tool": "VS Code / TypeScript",
+          "action": "Review generated code",
+          "bullets": [
+            "Review a generated component",
+            "Check types and empty states",
+            "Keep each change understandable"
+          ]
+        },
+        {
+          "title": "Working UI",
+          "archetype": "landing",
+          "tool": "Next.js / React",
+          "action": "Connect input and screen state",
+          "bullets": [
+            "Connect input to interface state",
+            "Show loading and error behavior",
+            "Build a usable application shell"
+          ]
+        },
+        {
+          "title": "Service boundary",
+          "archetype": "architecture",
+          "tool": "FastAPI",
+          "action": "Trace requests and responses",
+          "bullets": [
+            "Define the request schema",
+            "Keep service responsibilities clear",
+            "Return useful validation errors"
+          ]
+        },
+        {
+          "title": "Data model",
+          "archetype": "spreadsheet",
+          "tool": "PostgreSQL / Supabase",
+          "action": "Inspect records and relations",
+          "bullets": [
+            "Map records and relationships",
+            "Inspect access boundaries",
+            "Keep ownership explicit"
+          ]
+        },
+        {
+          "title": "Agent state graph",
+          "archetype": "workflow",
+          "tool": "LangGraph",
+          "action": "Route tool calls and approvals",
+          "bullets": [
+            "Define agent state transitions",
+            "Bound tool actions and retries",
+            "Add a human review route"
+          ]
+        },
+        {
+          "title": "Retrieval pipeline",
+          "archetype": "code",
+          "tool": "LlamaIndex",
+          "action": "Chunk and retrieve documents",
+          "bullets": [
+            "Chunk approved reference documents",
+            "Retrieve relevant passages",
+            "Carry source metadata forward"
+          ]
+        },
+        {
+          "title": "Retrieval inspection",
+          "archetype": "dashboard",
+          "tool": "Qdrant",
+          "action": "Compare retrieved evidence",
+          "bullets": [
+            "Inspect retrieved passages",
+            "Compare relevance and coverage",
+            "Record what evidence is missing"
+          ]
+        },
+        {
+          "title": "Grounded answer",
+          "archetype": "chat",
+          "tool": "RAG application",
+          "action": "Show citations beside the answer",
+          "bullets": [
+            "Answer from the provided passages",
+            "Show citations beside claims",
+            "State when sources are insufficient"
+          ]
+        },
+        {
+          "title": "Test workspace",
+          "archetype": "code",
+          "tool": "Vitest / Playwright",
+          "action": "Exercise failure and success cases",
+          "bullets": [
+            "Test success and failure paths",
+            "Exercise empty and invalid inputs",
+            "Keep regressions visible"
+          ]
+        },
+        {
+          "title": "Deployment layout",
+          "archetype": "architecture",
+          "tool": "Docker",
+          "action": "Separate services and configuration",
+          "bullets": [
+            "Separate application and data services",
+            "Load configuration outside source",
+            "Inspect health and startup behavior"
+          ]
+        },
+        {
+          "title": "Release review",
+          "archetype": "dashboard",
+          "tool": "GitHub Actions",
+          "action": "Inspect checks and release steps",
+          "bullets": [
+            "Run checks before packaging",
+            "Inspect failed steps and logs",
+            "Release only the reviewed artifact"
+          ]
+        }
+      ],
+      "renderSeconds": 9
+    },
+    {
+      "id": "development-showcase-15s",
+      "version": "2026-11-23",
+      "category": "development",
+      "kind": "showcase",
+      "type": "showcase",
+      "title": "AI Service Development / 24 project concepts",
+      "path": "development-showcase-15s-v20261123.mp4",
+      "poster": "posters/development-showcase-15s-v20261123.jpg",
+      "durationSeconds": 15,
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "silent": true,
+      "sceneCount": 24,
+      "projectCount": 24,
+      "frameworks": [
+        "Markdown / PRD",
+        "VS Code / TypeScript",
+        "Next.js / React",
+        "FastAPI",
+        "PostgreSQL / Supabase",
+        "LangGraph",
+        "LlamaIndex",
+        "Qdrant",
+        "RAG application",
+        "Vitest / Playwright",
+        "Docker",
+        "GitHub Actions"
+      ],
+      "label": "Illustrative student project examples",
+      "subtitlePath": "development-showcase-15s-v20261123.vtt",
+      "srtPath": "development-showcase-15s-v20261123.srt",
+      "transcriptPath": "development-showcase-15s-v20261123.txt",
+      "bytes": 1446615,
+      "sha256": "ce9218c0d3dab8348bc0eab61fa65450d9e6b5546655d9749e6f1573f97aaedc",
+      "scenes": [
+        {
+          "title": "Team knowledge assistant",
+          "archetype": "chat",
+          "action": "Answers with visible sources",
+          "bullets": [
+            "Search approved team documents",
+            "Draft an answer from evidence",
+            "Show the source beside each claim"
+          ]
+        },
+        {
+          "title": "AI proposal drafting app",
+          "archetype": "landing",
+          "action": "From brief to editable outline",
+          "bullets": [
+            "Capture the customer's brief",
+            "Build an editable proposal outline",
+            "Require a final human review"
+          ]
+        },
+        {
+          "title": "Study planning companion",
+          "archetype": "mobile",
+          "action": "Turn goals into daily steps",
+          "bullets": [
+            "Turn a goal into small study steps",
+            "Adapt the weekly practice plan",
+            "Reflect on progress and blockers"
+          ]
+        },
+        {
+          "title": "Research evidence explorer",
+          "archetype": "dashboard",
+          "action": "Read sources beside summaries",
+          "bullets": [
+            "Collect sources for a question",
+            "Read evidence beside summaries",
+            "Keep conflicting findings visible"
+          ]
+        },
+        {
+          "title": "Document intake application",
+          "archetype": "workflow",
+          "action": "Upload, classify and review",
+          "bullets": [
+            "Upload a sample document",
+            "Extract and validate key fields",
+            "Route uncertain records for review"
+          ]
+        },
+        {
+          "title": "Customer context assistant",
+          "archetype": "crm",
+          "action": "Prepare a useful meeting brief",
+          "bullets": [
+            "Summarize customer context",
+            "Prepare relevant meeting questions",
+            "Keep original notes accessible"
+          ]
+        },
+        {
+          "title": "Code review companion",
+          "archetype": "code",
+          "action": "Explain changes and test ideas",
+          "bullets": [
+            "Explain the code change",
+            "Suggest focused test cases",
+            "Flag uncertainty for the reviewer"
+          ]
+        },
+        {
+          "title": "Smart booking prototype",
+          "archetype": "calendar",
+          "action": "Constraints before confirmation",
+          "bullets": [
+            "Collect booking constraints",
+            "Check conflicting reservations",
+            "Request confirmation before writing"
+          ]
+        },
+        {
+          "title": "Contract clause explorer",
+          "archetype": "report",
+          "action": "Find text with clear references",
+          "bullets": [
+            "Find a relevant clause",
+            "Show the original text in context",
+            "Avoid an unsupported legal conclusion"
+          ]
+        },
+        {
+          "title": "Tool-using agent sandbox",
+          "archetype": "architecture",
+          "action": "Explicit permissions and review",
+          "bullets": [
+            "Choose a permitted tool action",
+            "Show the proposed execution step",
+            "Require approval when needed"
+          ]
+        },
+        {
+          "title": "Travel itinerary builder",
+          "archetype": "mobile",
+          "action": "Editable plans and alternatives",
+          "bullets": [
+            "Collect travel preferences",
+            "Build an editable day-by-day plan",
+            "Keep alternatives easy to compare"
+          ]
+        },
+        {
+          "title": "Accessible form assistant",
+          "archetype": "landing",
+          "action": "Guidance without hiding controls",
+          "bullets": [
+            "Explain each form requirement",
+            "Preserve visible input controls",
+            "Show helpful validation feedback"
+          ]
+        },
+        {
+          "title": "Multilingual help prototype",
+          "archetype": "chat",
+          "action": "Source-linked support replies",
+          "bullets": [
+            "Read the user's support question",
+            "Retrieve approved help content",
+            "Reply with clear source links"
+          ]
+        },
+        {
+          "title": "Project health application",
+          "archetype": "dashboard",
+          "action": "Tasks, risks and next decisions",
+          "bullets": [
+            "Connect tasks, risks and milestones",
+            "Surface decisions needed soon",
+            "Link status to supporting evidence"
+          ]
+        },
+        {
+          "title": "Dataset exploration app",
+          "archetype": "notebook",
+          "action": "Ask questions of sample tables",
+          "bullets": [
+            "Inspect a sample data table",
+            "Choose a meaningful analysis",
+            "Show query results with definitions"
+          ]
+        },
+        {
+          "title": "Approval-aware writing agent",
+          "archetype": "workflow",
+          "action": "Draft, review, revise",
+          "bullets": [
+            "Draft from a specific brief",
+            "Collect reviewer comments",
+            "Revise with an explicit approval step"
+          ]
+        },
+        {
+          "title": "Personal learning journal",
+          "archetype": "mobile",
+          "action": "Capture practice and reflection",
+          "bullets": [
+            "Capture a practice session",
+            "Record what worked and failed",
+            "Choose the next small learning step"
+          ]
+        },
+        {
+          "title": "Portfolio case-study builder",
+          "archetype": "landing",
+          "action": "Structure evidence and outcomes",
+          "bullets": [
+            "Describe the project's context",
+            "Organize process and evidence",
+            "Publish a clear case-study outline"
+          ]
+        },
+        {
+          "title": "Interactive AI character",
+          "archetype": "architecture",
+          "action": "A controlled dialogue state map",
+          "bullets": [
+            "Define dialogue states and tone",
+            "Connect approved knowledge sources",
+            "Provide a safe fallback response"
+          ]
+        },
+        {
+          "title": "Retrieval evaluation console",
+          "archetype": "dashboard",
+          "action": "Compare answers and sources",
+          "bullets": [
+            "Compare retrieval against a test set",
+            "Inspect answer citations",
+            "Record failures and next checks"
+          ]
+        },
+        {
+          "title": "Community request tracker",
+          "archetype": "crm",
+          "action": "Triage needs and follow-ups",
+          "bullets": [
+            "Capture a community request",
+            "Route it to an accountable team",
+            "Keep the requester updated"
+          ]
+        },
+        {
+          "title": "Shared resource planner",
+          "archetype": "calendar",
+          "action": "Resolve competing reservations",
+          "bullets": [
+            "Compare resource availability",
+            "Identify reservation conflicts",
+            "Confirm the selected time slot"
+          ]
+        },
+        {
+          "title": "Meeting evidence workspace",
+          "archetype": "report",
+          "action": "Notes linked to decisions",
+          "bullets": [
+            "Link meeting notes to decisions",
+            "Record owners and due dates",
+            "Retain the original evidence"
+          ]
+        },
+        {
+          "title": "Creative prompt workbench",
+          "archetype": "designboard",
+          "action": "Compare controlled variations",
+          "bullets": [
+            "Vary one prompt condition at a time",
+            "Compare outputs side by side",
+            "Save the selected creative recipe"
+          ]
+        }
+      ],
+      "renderSeconds": 9
+    }
+  ],
+  "pathBase": "Paths are relative to this manifest directory."
+}

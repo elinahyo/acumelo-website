@@ -1,0 +1,49 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.250
+Build requirements — Markdown / PRD
+
+2
+00:00:01.250 --> 00:00:02.500
+Application workspace — VS Code / TypeScript
+
+3
+00:00:02.500 --> 00:00:03.750
+Working UI — Next.js / React
+
+4
+00:00:03.750 --> 00:00:05.000
+Service boundary — FastAPI
+
+5
+00:00:05.000 --> 00:00:06.250
+Data model — PostgreSQL / Supabase
+
+6
+00:00:06.250 --> 00:00:07.500
+Agent state graph — LangGraph
+
+7
+00:00:07.500 --> 00:00:08.750
+Retrieval pipeline — LlamaIndex
+
+8
+00:00:08.750 --> 00:00:10.000
+Retrieval inspection — Qdrant
+
+9
+00:00:10.000 --> 00:00:11.250
+Grounded answer — RAG application
+
+10
+00:00:11.250 --> 00:00:12.500
+Test workspace — Vitest / Playwright
+
+11
+00:00:12.500 --> 00:00:13.750
+Deployment layout — Docker
+
+12
+00:00:13.750 --> 00:00:15.000
+Release review — GitHub Actions

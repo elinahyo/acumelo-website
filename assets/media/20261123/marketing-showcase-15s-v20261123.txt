@@ -1,0 +1,153 @@
+AI Marketing & Sales — 24 illustrative project concepts
+
+These are code-animated interface illustrations and synthetic examples. They are not live software recordings or verified student submissions. Tool names describe indicative stacks.
+
+00:00:00.000–00:00:00.625 | 1. Audience insight canvas
+Needs, barriers and hypotheses
+  • Capture audience needs and barriers
+  • Separate evidence from hypotheses
+  • Choose useful questions to test
+
+00:00:00.625–00:00:01.250 | 2. B2B account research desk
+Context for a better conversation
+  • Summarize account context
+  • Prepare three discovery questions
+  • Record the next relationship step
+
+00:00:01.250–00:00:01.875 | 3. Three-message campaign set
+Distinct value propositions
+  • Compare three value propositions
+  • Keep format and audience consistent
+  • Record the learning goal
+
+00:00:01.875–00:00:02.500 | 4. Welcome journey studio
+A helpful first-week sequence
+  • Welcome a new subscriber
+  • Offer a useful first resource
+  • Invite a clear next step
+
+00:00:02.500–00:00:03.125 | 5. Workshop launch page
+A focused registration journey
+  • Explain who the workshop serves
+  • Show outcomes and prerequisites
+  • Make registration straightforward
+
+00:00:03.125–00:00:03.750 | 6. Campaign measurement board
+Goals, events and comparisons
+  • Map goals to measurable events
+  • Compare observations over time
+  • Record interpretation limits
+
+00:00:03.750–00:00:04.375 | 7. Content publishing rhythm
+One story across several channels
+  • Connect a central story to channels
+  • Plan useful publishing moments
+  • Assign asset and review owners
+
+00:00:04.375–00:00:05.000 | 8. Sales meeting preparation
+Questions, context and follow-ups
+  • Summarize the customer's context
+  • Prepare open-ended questions
+  • Capture agreed follow-ups
+
+00:00:05.000–00:00:05.625 | 9. Social story collection
+A cohesive vertical content set
+  • Create three connected story frames
+  • Use readable short captions
+  • End with a useful next action
+
+00:00:05.625–00:00:06.250 | 10. Customer interview synthesis
+Themes without invented quotes
+  • Group interview notes by theme
+  • Separate direct evidence and inference
+  • Keep contradictory feedback visible
+
+00:00:06.250–00:00:06.875 | 11. Creative experiment backlog
+Ideas ranked for learning
+  • Write clear creative hypotheses
+  • Prioritize what can be learned
+  • Define a simple comparison
+
+00:00:06.875–00:00:07.500 | 12. Channel planning worksheet
+Budget assumptions and trade-offs
+  • Set channel and budget assumptions
+  • Compare allocations and trade-offs
+  • Keep a review reserve
+
+00:00:07.500–00:00:08.125 | 13. Re-engagement draft sequence
+Messages with clear choices
+  • Remind recipients of useful value
+  • Offer a clear preference choice
+  • Review eligibility before sending
+
+00:00:08.125–00:00:08.750 | 14. Brand message architecture
+Promise, evidence and tone
+  • Define the central brand promise
+  • Connect it to concrete evidence
+  • Keep tone consistent
+
+00:00:08.750–00:00:09.375 | 15. Product comparison page
+Useful differences for buyers
+  • Explain useful product differences
+  • Show comparable criteria
+  • Help the buyer make a choice
+
+00:00:09.375–00:00:10.000 | 16. Illustrative funnel explorer
+See where journeys diverge
+  • Compare arrival and action stages
+  • Inspect segment differences
+  • Avoid claiming a proven cause
+
+00:00:10.000–00:00:10.625 | 17. Partner outreach workspace
+Keep relationship context
+  • Record shared interests and context
+  • Plan a relevant introduction
+  • Track responses respectfully
+
+00:00:10.625–00:00:11.250 | 18. Event promotion toolkit
+Announcements and reminder assets
+  • Create an announcement asset
+  • Prepare a useful reminder
+  • Keep time and location consistent
+
+00:00:11.250–00:00:11.875 | 19. Search intent opportunity map
+Questions worth answering
+  • Group real customer questions
+  • Prioritize helpful content gaps
+  • Avoid invented search-volume claims
+
+00:00:11.875–00:00:12.500 | 20. Lead qualification handoff
+A transparent review process
+  • Capture enquiry context
+  • Route for human qualification
+  • Assign a responsible follow-up owner
+
+00:00:12.500–00:00:13.125 | 21. Sales enablement deck
+A clear customer-focused story
+  • Lead with the customer's problem
+  • Show a relevant solution example
+  • Propose an agreed next step
+
+00:00:13.125–00:00:13.750 | 22. Customer feedback microflow
+Capture the next useful signal
+  • Ask one focused feedback question
+  • Keep the response flow short
+  • Explain how the answer is used
+
+00:00:13.750–00:00:14.375 | 23. Launch coordination calendar
+Coordinate assets and owners
+  • Coordinate content and approvals
+  • Show dependencies across teams
+  • Protect the launch review window
+
+00:00:14.375–00:00:15.000 | 24. Campaign review notebook
+Interpret sample data cautiously
+  • Inspect illustrative campaign data
+  • Record uncertainty and confounders
+  • Choose a better next test
+Illustrative python source:
+import pandas as pd
+df = pd.read_csv('campaign_sample.csv')
+summary = df.groupby('variant')[['visits', 'actions']].sum()
+summary['observed_rate'] = summary['actions'] / summary['visits']
+print(summary)

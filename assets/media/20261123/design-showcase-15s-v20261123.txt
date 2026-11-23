@@ -1,0 +1,147 @@
+AI Design & Content — 24 illustrative project concepts
+
+These are code-animated interface illustrations and synthetic examples. They are not live software recordings or verified student submissions. Tool names describe indicative stacks.
+
+00:00:00.000–00:00:00.625 | 1. Coffee brand universe
+Palette, type and packaging
+  • Pair earthy color with clear type
+  • Explore cup and bag treatments
+  • Keep the identity consistent
+
+00:00:00.625–00:00:01.250 | 2. Future learning poster
+Bold type and geometric motion
+  • Use bold type and moving geometry
+  • Create one strong focal point
+  • Adapt the poster to three ratios
+
+00:00:01.250–00:00:01.875 | 3. Wellbeing app concept
+A calm daily check-in flow
+  • Design a gentle daily check-in
+  • Show a small, useful next step
+  • Use calm color and spacing
+
+00:00:01.875–00:00:02.500 | 4. Cultural festival website
+An expressive event identity
+  • Introduce the festival story
+  • Organize acts and event times
+  • Create a clear ticket journey
+
+00:00:02.500–00:00:03.125 | 5. Character expression sheet
+One character, varied emotions
+  • Keep facial features consistent
+  • Explore five readable expressions
+  • Compare silhouette and gesture
+
+00:00:03.125–00:00:03.750 | 6. Modular lamp concept
+Form, materials and light
+  • Explore the lamp's modular parts
+  • Compare material and light studies
+  • Show a clear assembled form
+
+00:00:03.750–00:00:04.375 | 7. Short-film storyboard
+Six connected story moments
+  • Set up the opening situation
+  • Build toward one turning point
+  • Resolve the final story beat
+
+00:00:04.375–00:00:05.000 | 8. Editorial presentation kit
+A consistent slide family
+  • Build title, data and closing slides
+  • Use one consistent type scale
+  • Keep content editable
+
+00:00:05.000–00:00:05.625 | 9. Independent album artwork
+Visual rhythm for music
+  • Translate musical mood into shapes
+  • Create a clear album title hierarchy
+  • Compare square and vertical crops
+
+00:00:05.625–00:00:06.250 | 10. Sustainable package studies
+Three material-led directions
+  • Explore recycled material surfaces
+  • Test labels at real proportions
+  • Compare three package directions
+
+00:00:06.250–00:00:06.875 | 11. Museum guide interface
+Accessible routes and stories
+  • Introduce a museum route
+  • Make exhibits easy to discover
+  • Offer clear accessibility choices
+
+00:00:06.875–00:00:07.500 | 12. Creative portfolio system
+Show work with clear hierarchy
+  • Lead with selected creative work
+  • Explain the role and process
+  • Let visitors explore case studies
+
+00:00:07.500–00:00:08.125 | 13. Community wayfinding set
+Readable signs and symbols
+  • Pair symbols with plain language
+  • Check signs at a distance
+  • Keep the route hierarchy clear
+
+00:00:08.125–00:00:08.750 | 14. Magazine feature spread
+Typography and image pacing
+  • Create a strong opening spread
+  • Balance type and photography
+  • Use pacing across the article
+
+00:00:08.750–00:00:09.375 | 15. Motion title collection
+Three distinct title treatments
+  • Explore three motion rhythms
+  • Keep letterforms readable
+  • Resolve each title cleanly
+
+00:00:09.375–00:00:10.000 | 16. Product launch teaser
+A sequence of reveal shots
+  • Reveal form, detail and benefit
+  • Connect the three shots
+  • End with one clear brand moment
+
+00:00:10.000–00:00:10.625 | 17. Exhibition spatial concept
+A connected visitor journey
+  • Map arrival and key exhibits
+  • Balance circulation and resting space
+  • Create a coherent visitor route
+
+00:00:10.625–00:00:11.250 | 18. Travel journal interface
+Places, notes and memories
+  • Capture places and short notes
+  • Build a visual travel timeline
+  • Return to memorable moments
+
+00:00:11.250–00:00:11.875 | 19. Data storytelling infographic
+One insight, clear visual order
+  • Choose one central data insight
+  • Use scale and annotation carefully
+  • Explain the source and limits
+
+00:00:11.875–00:00:12.500 | 20. Icon and component family
+A reusable visual vocabulary
+  • Use a consistent icon grid
+  • Compare filled and outlined states
+  • Build matching component families
+
+00:00:12.500–00:00:13.125 | 21. Story pitch deck
+World, characters and tone
+  • Introduce the story's central idea
+  • Show character and world references
+  • Explain the visual tone
+
+00:00:13.125–00:00:13.750 | 22. Boutique studio homepage
+Editorial type with rich color
+  • Create an editorial opening
+  • Show selected work with generous space
+  • Make contact easy to find
+
+00:00:13.750–00:00:14.375 | 23. Music visualizer concept
+Color responding to rhythm
+  • Map rhythm to shape changes
+  • Use a controlled color sequence
+  • Keep motion synchronized
+
+00:00:14.375–00:00:15.000 | 24. Creative process case study
+Brief, exploration and refinement
+  • Describe the original brief
+  • Show the key visual iterations
+  • Explain the selected direction

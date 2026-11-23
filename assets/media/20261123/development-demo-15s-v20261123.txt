@@ -1,0 +1,94 @@
+AI Service Development — Illustrative screen demonstration
+
+These are code-animated interface illustrations and synthetic examples. They are not live software recordings or verified student submissions. Tool names describe indicative stacks.
+
+00:00:00.000–00:00:01.250 | 1. Build requirements / Markdown / PRD
+Define a narrow user problem
+  • Define a narrow user problem
+  • Write observable acceptance criteria
+  • Choose a small first build
+
+00:00:01.250–00:00:02.500 | 2. Application workspace / VS Code / TypeScript
+Review generated code
+  • Review a generated component
+  • Check types and empty states
+  • Keep each change understandable
+Illustrative typescript source:
+type WorkshopRequest = { title: string; approved: boolean };
+const canSubmit = (item: WorkshopRequest): boolean =>
+  item.title.trim().length > 0 && item.approved;
+const draft: WorkshopRequest = { title: '', approved: false };
+const ready = canSubmit(draft);
+
+00:00:02.500–00:00:03.750 | 3. Working UI / Next.js / React
+Connect input and screen state
+  • Connect input to interface state
+  • Show loading and error behavior
+  • Build a usable application shell
+
+00:00:03.750–00:00:05.000 | 4. Service boundary / FastAPI
+Trace requests and responses
+  • Define the request schema
+  • Keep service responsibilities clear
+  • Return useful validation errors
+
+00:00:05.000–00:00:06.250 | 5. Data model / PostgreSQL / Supabase
+Inspect records and relations
+  • Map records and relationships
+  • Inspect access boundaries
+  • Keep ownership explicit
+
+00:00:06.250–00:00:07.500 | 6. Agent state graph / LangGraph
+Route tool calls and approvals
+  • Define agent state transitions
+  • Bound tool actions and retries
+  • Add a human review route
+
+00:00:07.500–00:00:08.750 | 7. Retrieval pipeline / LlamaIndex
+Chunk and retrieve documents
+  • Chunk approved reference documents
+  • Retrieve relevant passages
+  • Carry source metadata forward
+Illustrative python source:
+from llama_index.core import VectorStoreIndex
+index = VectorStoreIndex.from_documents(documents)
+retriever = index.as_retriever(similarity_top_k=5)
+nodes = retriever.retrieve(question)
+sources = [node.metadata for node in nodes]
+
+00:00:08.750–00:00:10.000 | 8. Retrieval inspection / Qdrant
+Compare retrieved evidence
+  • Inspect retrieved passages
+  • Compare relevance and coverage
+  • Record what evidence is missing
+
+00:00:10.000–00:00:11.250 | 9. Grounded answer / RAG application
+Show citations beside the answer
+  • Answer from the provided passages
+  • Show citations beside claims
+  • State when sources are insufficient
+
+00:00:11.250–00:00:12.500 | 10. Test workspace / Vitest / Playwright
+Exercise failure and success cases
+  • Test success and failure paths
+  • Exercise empty and invalid inputs
+  • Keep regressions visible
+Illustrative typescript source:
+import { test, expect } from '@playwright/test';
+test('empty request shows guidance', async ({ page }) => {
+  await page.goto('/request');
+  await page.getByRole('button', { name: 'Submit' }).click();
+  await expect(page.getByRole('alert')).toBeVisible();
+});
+
+00:00:12.500–00:00:13.750 | 11. Deployment layout / Docker
+Separate services and configuration
+  • Separate application and data services
+  • Load configuration outside source
+  • Inspect health and startup behavior
+
+00:00:13.750–00:00:15.000 | 12. Release review / GitHub Actions
+Inspect checks and release steps
+  • Run checks before packaging
+  • Inspect failed steps and logs
+  • Release only the reviewed artifact

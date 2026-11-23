@@ -1,0 +1,75 @@
+AI Marketing & Sales — Illustrative screen demonstration
+
+These are code-animated interface illustrations and synthetic examples. They are not live software recordings or verified student submissions. Tool names describe indicative stacks.
+
+00:00:00.000–00:00:01.250 | 1. Customer evidence / HubSpot
+Review sample customer records
+  • Read sample customer context
+  • Separate needs from assumptions
+  • Prepare useful discovery questions
+
+00:00:01.250–00:00:02.500 | 2. Segment worksheet / Google Sheets
+Define useful audience groups
+  • Group customers by relevant need
+  • Write a testable audience hypothesis
+  • Avoid unsupported personal profiling
+
+00:00:02.500–00:00:03.750 | 3. Customer journey / Miro
+Connect questions to touchpoints
+  • Map questions at each touchpoint
+  • Identify the most useful content
+  • Connect marketing to service
+
+00:00:03.750–00:00:05.000 | 4. Campaign brief / Notion
+Align goal, message and channel
+  • Set a clear learning objective
+  • Align message and channel
+  • Define a useful next action
+
+00:00:05.000–00:00:06.250 | 5. Creative variations / Canva
+Compare visual message concepts
+  • Compare three visual messages
+  • Keep the core offer consistent
+  • Record what each variant tests
+
+00:00:06.250–00:00:07.500 | 6. Email sequence / Mailchimp
+Review messages by audience
+  • Draft a helpful welcome sequence
+  • Adapt context without overclaiming
+  • Review before sending
+
+00:00:07.500–00:00:08.750 | 7. Landing page / Webflow
+Align headline and next action
+  • Match headline to campaign promise
+  • Make the next step clear
+  • Check the mobile experience
+
+00:00:08.750–00:00:10.000 | 8. Measurement plan / GA4
+Inspect event definitions
+  • Define the events to observe
+  • Map each event to a decision
+  • Document illustrative reporting data
+
+00:00:10.000–00:00:11.250 | 9. Experiment readout / Looker Studio
+Compare sample variants carefully
+  • Compare variants and context
+  • Separate observation from causation
+  • Choose the next experiment
+
+00:00:11.250–00:00:12.500 | 10. Sales workspace / Salesforce
+Prepare context and next steps
+  • Prepare relevant account context
+  • Capture meeting notes and questions
+  • Agree on the next useful step
+
+00:00:12.500–00:00:13.750 | 11. CRM handoff / n8n
+Route approved follow-up tasks
+  • Route qualified enquiries
+  • Require review before outreach
+  • Keep consent and context visible
+
+00:00:13.750–00:00:15.000 | 12. Campaign review / PowerPoint
+Explain what to test next
+  • Review what the evidence suggests
+  • Explain uncertainty and trade-offs
+  • Decide what to test next
