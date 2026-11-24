@@ -1,0 +1,555 @@
+{
+  "id": "chris-workflow-demo",
+  "mediaId": "acumelo-chris-workflow-demo-20261124d",
+  "stem": "chris-workflow-demo-20261124d",
+  "kind": "demo",
+  "scope": "instructor",
+  "name": "Chris",
+  "instructorId": "instructor-chris",
+  "fieldId": "workflow",
+  "title": "Weekly reporting, connected",
+  "topic": "weekly operations",
+  "result": "board-ready report",
+  "apps": [
+    "excel",
+    "chatgpt",
+    "n8n",
+    "powerpoint",
+    "word",
+    "outlook"
+  ],
+  "variant": 0,
+  "color": "#5ad5b1",
+  "voice": "am_michael",
+  "bpm": 104,
+  "beats": [
+    {
+      "text": "A weekly report should be a connected process. Start in Excel, check the data, and turn a plain language request into a precise reporting brief.",
+      "shots": [
+        {
+          "app": "excel",
+          "title": "Validate the source table",
+          "tool": "Microsoft Excel",
+          "weight": 1.6
+        },
+        {
+          "app": "chatgpt",
+          "title": "Turn intent into a reporting brief",
+          "tool": "ChatGPT",
+          "weight": 1.4
+        },
+        {
+          "app": "excel",
+          "title": "Inspect the calculation",
+          "tool": "Microsoft Excel",
+          "weight": 0.9,
+          "stage": 1,
+          "camera": "detail"
+        }
+      ]
+    },
+    {
+      "text": "Use ChatGPT to structure the task. In Excel, clean the table and inspect the formula. Word carries the explanation, while PowerPoint turns the same evidence into a clear story.",
+      "shots": [
+        {
+          "app": "chatgpt",
+          "title": "A structured request",
+          "tool": "ChatGPT",
+          "weight": 1,
+          "stage": 1
+        },
+        {
+          "app": "excel",
+          "title": "From table to evidence",
+          "tool": "Microsoft Excel",
+          "weight": 1.5,
+          "stage": 2
+        },
+        {
+          "app": "word",
+          "title": "A reviewable explanation",
+          "tool": "Microsoft Word",
+          "weight": 1.1,
+          "stage": 1
+        },
+        {
+          "app": "powerpoint",
+          "title": "The same evidence, clearly presented",
+          "tool": "Microsoft PowerPoint",
+          "weight": 1.3,
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Now connect the steps in n eight n. Follow the data through the nodes. Inspect the structured output, require approval, and route a failed step into a visible recovery path.",
+      "shots": [
+        {
+          "app": "n8n",
+          "title": "Connect the reporting workflow",
+          "tool": "n8n",
+          "weight": 1.4
+        },
+        {
+          "app": "n8n",
+          "title": "Inspect the JSON contract",
+          "tool": "n8n",
+          "weight": 1.8,
+          "stage": 1,
+          "camera": "detail"
+        },
+        {
+          "app": "n8n",
+          "title": "Approval and recovery paths",
+          "tool": "n8n",
+          "weight": 1.3,
+          "stage": 2
+        },
+        {
+          "app": "n8n",
+          "title": "Execution trace",
+          "tool": "n8n",
+          "weight": 1,
+          "stage": 3,
+          "split": "excel"
+        }
+      ]
+    },
+    {
+      "text": "Preview the report beside the source. Prepare the email draft, schedule the next run, and surface the result in a team dashboard. Every decision stays connected to its evidence.",
+      "shots": [
+        {
+          "app": "excel",
+          "title": "Source and report, side by side",
+          "tool": "Microsoft Excel",
+          "weight": 1.4,
+          "split": "powerpoint",
+          "stage": 2
+        },
+        {
+          "app": "outlook",
+          "title": "A draft ready for human review",
+          "tool": "Microsoft Outlook",
+          "weight": 1.1,
+          "stage": 1
+        },
+        {
+          "app": "n8n",
+          "title": "Schedule the next run",
+          "tool": "n8n",
+          "weight": 0.9,
+          "stage": 3
+        },
+        {
+          "app": "result",
+          "title": "The team sees the next action",
+          "tool": "result",
+          "weight": 1.5
+        }
+      ]
+    }
+  ],
+  "contentOwnerId": "instructor-chris",
+  "temporaryAssignment": false,
+  "sourceHash": "4bbed912e7861077ca2cae005ad5587433e6a9d27a89ae7deb8b0340610dc839",
+  "durationSeconds": 51,
+  "shots": [
+    {
+      "app": "excel",
+      "title": "Validate the source table",
+      "tool": "Microsoft Excel",
+      "weight": 1.6,
+      "start": 1.17,
+      "duration": 2.784369523809523,
+      "beat": 0,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "excel",
+      "title": "Validate the source table",
+      "tool": "Microsoft Excel",
+      "weight": 1.6,
+      "start": 3.954369523809523,
+      "duration": 1.1255961904761902,
+      "beat": 0,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "excel",
+      "title": "Validate the source table",
+      "tool": "Microsoft Excel",
+      "weight": 1.6,
+      "start": 5.079965714285713,
+      "duration": 2.0142247619047615,
+      "beat": 0,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "chatgpt",
+      "title": "Turn intent into a reporting brief",
+      "tool": "ChatGPT",
+      "weight": 1.4,
+      "start": 7.094190476190475,
+      "duration": 1.7089010989010986,
+      "beat": 0,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "excel",
+      "title": "Inspect the calculation",
+      "tool": "Microsoft Excel",
+      "weight": 0.9,
+      "stage": 1,
+      "camera": "detail",
+      "start": 8.803091575091573,
+      "duration": 2.7342417582417577,
+      "beat": 0,
+      "editorialMode": "pip",
+      "transition": "cut"
+    },
+    {
+      "app": "chatgpt",
+      "title": "A structured request",
+      "tool": "ChatGPT",
+      "weight": 1,
+      "stage": 1,
+      "start": 11.537333333333333,
+      "duration": 2.6197627296587926,
+      "beat": 1,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "chatgpt",
+      "title": "A structured request",
+      "tool": "ChatGPT",
+      "weight": 1,
+      "stage": 1,
+      "start": 14.157096062992125,
+      "duration": 1.0590530183727034,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "chatgpt",
+      "title": "A structured request",
+      "tool": "ChatGPT",
+      "weight": 1,
+      "stage": 1,
+      "start": 15.216149081364827,
+      "duration": 1.8951475065616799,
+      "beat": 1,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "excel",
+      "title": "From table to evidence",
+      "tool": "Microsoft Excel",
+      "weight": 1.5,
+      "stage": 2,
+      "start": 17.11129658792651,
+      "duration": 1.6078740157480318,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "word",
+      "title": "A reviewable explanation",
+      "tool": "Microsoft Word",
+      "weight": 1.1,
+      "stage": 1,
+      "start": 18.71917060367454,
+      "duration": 2.5725984251968503,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "powerpoint",
+      "title": "The same evidence, clearly presented",
+      "tool": "Microsoft PowerPoint",
+      "weight": 1.3,
+      "stage": 1,
+      "start": 21.291769028871393,
+      "duration": 3.858897637795276,
+      "beat": 1,
+      "editorialMode": "pip",
+      "transition": "cut"
+    },
+    {
+      "app": "n8n",
+      "title": "Connect the reporting workflow",
+      "tool": "n8n",
+      "weight": 1.4,
+      "start": 25.150666666666666,
+      "duration": 2.440664356955381,
+      "beat": 2,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "n8n",
+      "title": "Connect the reporting workflow",
+      "tool": "n8n",
+      "weight": 1.4,
+      "start": 27.591331023622047,
+      "duration": 0.9866515485564307,
+      "beat": 2,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "n8n",
+      "title": "Connect the reporting workflow",
+      "tool": "n8n",
+      "weight": 1.4,
+      "start": 28.577982572178477,
+      "duration": 1.765586981627297,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "n8n",
+      "title": "Inspect the JSON contract",
+      "tool": "n8n",
+      "weight": 1.8,
+      "stage": 1,
+      "camera": "detail",
+      "start": 30.343569553805775,
+      "duration": 1.497952755905512,
+      "beat": 2,
+      "editorialMode": "detail",
+      "transition": "cut"
+    },
+    {
+      "app": "n8n",
+      "title": "Approval and recovery paths",
+      "tool": "n8n",
+      "weight": 1.3,
+      "stage": 2,
+      "start": 31.841522309711287,
+      "duration": 2.396724409448819,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "n8n",
+      "title": "Execution trace",
+      "tool": "n8n",
+      "weight": 1,
+      "stage": 3,
+      "split": "excel",
+      "start": 34.23824671916011,
+      "duration": 3.5950866141732285,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "slide"
+    },
+    {
+      "app": "excel",
+      "title": "Source and report, side by side",
+      "tool": "Microsoft Excel",
+      "weight": 1.4,
+      "split": "powerpoint",
+      "stage": 2,
+      "start": 37.833333333333336,
+      "duration": 2.3547074015748026,
+      "beat": 3,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "excel",
+      "title": "Source and report, side by side",
+      "tool": "Microsoft Excel",
+      "weight": 1.4,
+      "split": "powerpoint",
+      "stage": 2,
+      "start": 40.188040734908135,
+      "duration": 0.9519029921259842,
+      "beat": 3,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "excel",
+      "title": "Source and report, side by side",
+      "tool": "Microsoft Excel",
+      "weight": 1.4,
+      "split": "powerpoint",
+      "stage": 2,
+      "start": 41.13994372703412,
+      "duration": 1.7034053543307086,
+      "beat": 3,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "outlook",
+      "title": "A draft ready for human review",
+      "tool": "Microsoft Outlook",
+      "weight": 1.1,
+      "stage": 1,
+      "start": 42.843349081364835,
+      "duration": 1.4451968503937007,
+      "beat": 3,
+      "editorialMode": "detail",
+      "transition": "cut"
+    },
+    {
+      "app": "n8n",
+      "title": "Schedule the next run",
+      "tool": "n8n",
+      "weight": 0.9,
+      "stage": 3,
+      "start": 44.288545931758534,
+      "duration": 2.312314960629921,
+      "beat": 3,
+      "editorialMode": "full",
+      "transition": "slide"
+    },
+    {
+      "app": "result",
+      "title": "The team sees the next action",
+      "tool": "result",
+      "weight": 1.5,
+      "start": 46.600860892388454,
+      "duration": 3.4684724409448817,
+      "beat": 3,
+      "editorialMode": "pip",
+      "transition": "cut"
+    }
+  ],
+  "captions": [
+    {
+      "start": 1.25,
+      "end": 11.217333333333332,
+      "text": "A weekly report should be a connected process. Start in Excel, check the data, and turn a plain language request into a precise reporting brief."
+    },
+    {
+      "start": 11.617333333333333,
+      "end": 24.830666666666666,
+      "text": "Use ChatGPT to structure the task. In Excel, clean the table and inspect the formula. Word carries the explanation, while PowerPoint turns the same evidence into a clear story."
+    },
+    {
+      "start": 25.230666666666664,
+      "end": 37.513333333333335,
+      "text": "Now connect the steps in n eight n. Follow the data through the nodes. Inspect the structured output, require approval, and route a failed step into a visible recovery path."
+    },
+    {
+      "start": 37.913333333333334,
+      "end": 49.74933333333333,
+      "text": "Preview the report beside the source. Prepare the email draft, schedule the next run, and surface the result in a team dashboard. Every decision stays connected to its evidence."
+    }
+  ],
+  "audio": {
+    "sampleRate": 24000,
+    "voiceEngine": "Kokoro-82M ONNX",
+    "musicType": "Original procedural composition",
+    "peak": 0.7235064506530762,
+    "voiceId": "am_michael",
+    "voicePath": "audio/chris-workflow-demo-voice.wav",
+    "musicPath": "audio/chris-workflow-demo-music.wav",
+    "mixPath": "audio/chris-workflow-demo-mix.wav"
+  },
+  "editing": {
+    "revision": "20261124d",
+    "cutSeconds": [
+      2.784,
+      1.126,
+      2.014,
+      1.709,
+      2.734,
+      2.62,
+      1.059,
+      1.895,
+      1.608,
+      2.573,
+      3.859,
+      2.441,
+      0.987,
+      1.766,
+      1.498,
+      2.397,
+      3.595,
+      2.355,
+      0.952,
+      1.703,
+      1.445,
+      2.312,
+      3.468
+    ],
+    "splitFrames": 5,
+    "pictureInPictureFrames": 3,
+    "transitions": [
+      "dissolve",
+      "slide",
+      "cut",
+      "fade-in",
+      "fade-out"
+    ],
+    "particles": "subtle brand accents on concept/result shots",
+    "status": "editorial-review-required"
+  },
+  "revision": "20261124d",
+  "assignedInstructorId": "instructor-chris",
+  "sourceVideoSha256": "396039fdeedeaf5249011fbe60d0ed94feebb657f47cdac5acae619396efec1b",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "src": "assets/media/20261124d/chris-workflow-demo-20261124d.mp4",
+  "path": "chris-workflow-demo-20261124d.mp4",
+  "poster": "posters/chris-workflow-demo-20261124d.jpg",
+  "subtitlePath": "captions/chris-workflow-demo-20261124d.vtt",
+  "hasNarration": true,
+  "hasMusic": true,
+  "voiceId": "am_michael",
+  "speakerId": "instructor-chris",
+  "audioRole": "instructor-demonstration",
+  "voiceProvenance": "Existing verified temporary synthetic voice; encoded audio copied unchanged from v3",
+  "illustrative": true,
+  "disclosure": "Illustrative interface reconstructions and project concepts. Temporary synthetic instructor voices; project concepts use music only.",
+  "status": "technical-qa-passed-editorial-review-required",
+  "bytes": 5113179,
+  "sha256": "5e12e7d128f72f492849cccfea457a771ebc199031d80470d1159e687e74086f",
+  "audioStreamSha256": "SHA256=5ed533762a4d8310e4899dacfa4a75f056b191234451567a59332d140afc1c2b",
+  "audioCopiedVerified": true,
+  "technicalQa": {
+    "passed": true,
+    "fullDecode": true,
+    "peakDb": -2.7
+  }
+}

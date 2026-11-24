@@ -1,0 +1,497 @@
+{
+  "id": "sage-design-demo",
+  "mediaId": "acumelo-sage-design-demo-20261124d",
+  "stem": "sage-design-demo-20261124d",
+  "kind": "demo",
+  "scope": "instructor",
+  "name": "Sage",
+  "instructorId": "instructor-sage",
+  "fieldId": "design",
+  "title": "Design the complete journey",
+  "topic": "booking interface",
+  "result": "responsive design system",
+  "apps": [
+    "figma",
+    "claude",
+    "aftereffects",
+    "canva",
+    "blender",
+    "resolve"
+  ],
+  "variant": 1,
+  "color": "#bca0fa",
+  "voice": "af_heart",
+  "bpm": 110,
+  "beats": [
+    {
+      "text": "Let us build booking interface as a coherent visual system. Start with composition and reusable components, then move into motion, materials, and controlled variation.",
+      "shots": [
+        {
+          "app": "figma",
+          "title": "Build reusable interface components",
+          "tool": "Figma",
+          "weight": 1.1
+        },
+        {
+          "app": "claude",
+          "title": "Challenge the rules with Claude",
+          "tool": "Claude",
+          "weight": 1.35
+        },
+        {
+          "app": "figma",
+          "title": "Build reusable interface components",
+          "tool": "Figma",
+          "weight": 0.7,
+          "camera": "detail"
+        }
+      ]
+    },
+    {
+      "text": "In Figma, build the booking flow from reusable components and responsive frames. Use Claude to explore clearer interface copy, then test a transition in After Effects without hiding the important state change.",
+      "shots": [
+        {
+          "app": "figma",
+          "stage": 1,
+          "weight": 1.5,
+          "title": "Inspect layout, spacing, and states"
+        },
+        {
+          "app": "claude",
+          "stage": 1,
+          "weight": 0.9,
+          "title": "Review the artifact and its assumptions"
+        },
+        {
+          "app": "figma",
+          "stage": 2,
+          "weight": 0.8,
+          "title": "Compare responsive surfaces"
+        },
+        {
+          "app": "aftereffects",
+          "stage": 2,
+          "weight": 1.5,
+          "title": "Inspect the graph editor"
+        }
+      ]
+    },
+    {
+      "text": "Adapt the concept in Canva and build a simple spatial treatment in Blender. Review the motion and format in Resolve, keeping typography, contrast, and interaction feedback consistent across surfaces.",
+      "shots": [
+        {
+          "app": "canva",
+          "stage": 1,
+          "weight": 1,
+          "title": "Review layout and type at delivery size"
+        },
+        {
+          "app": "blender",
+          "stage": 1,
+          "weight": 1.2,
+          "title": "Review geometry, lighting, and render"
+        },
+        {
+          "app": "blender",
+          "stage": 2,
+          "weight": 0.9,
+          "title": "Inspect the scene and asset structure"
+        },
+        {
+          "app": "resolve",
+          "stage": 2,
+          "weight": 1.5,
+          "title": "Edit the sequence and sound",
+          "split": "figma"
+        }
+      ]
+    },
+    {
+      "text": "Adapt the work into responsive design system. Compare formats side by side, preview the movement, and review the final experience at the size people will actually see.",
+      "shots": [
+        {
+          "app": "resolve",
+          "stage": 2,
+          "weight": 1.4,
+          "title": "Edit the sequence and sound"
+        },
+        {
+          "app": "figma",
+          "stage": 2,
+          "weight": 0.9,
+          "title": "Compare responsive surfaces",
+          "split": "canva"
+        },
+        {
+          "app": "resolve",
+          "stage": 3,
+          "weight": 1.2,
+          "title": "Review timing, color, and the final frame",
+          "split": "result"
+        },
+        {
+          "app": "result",
+          "stage": 3,
+          "weight": 1.8,
+          "title": "The finished experience"
+        }
+      ]
+    }
+  ],
+  "contentOwnerId": "instructor-chris",
+  "temporaryAssignment": true,
+  "sourceHash": "3d6e303e978f0a53b8405e219029cfa1b1dd25f55da51c58a4e7f95ae6844856",
+  "durationSeconds": 51.06666666666667,
+  "shots": [
+    {
+      "app": "figma",
+      "title": "Build reusable interface components",
+      "tool": "Figma",
+      "weight": 1.1,
+      "start": 1.17,
+      "duration": 2.4811576470588235,
+      "beat": 0,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "figma",
+      "title": "Build reusable interface components",
+      "tool": "Figma",
+      "weight": 1.1,
+      "start": 3.6511576470588234,
+      "duration": 1.0030211764705883,
+      "beat": 0,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "figma",
+      "title": "Build reusable interface components",
+      "tool": "Figma",
+      "weight": 1.1,
+      "start": 4.654178823529412,
+      "duration": 1.7948800000000003,
+      "beat": 0,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "claude",
+      "title": "Challenge the rules with Claude",
+      "tool": "Claude",
+      "weight": 1.35,
+      "start": 6.449058823529412,
+      "duration": 2.3095882352941177,
+      "beat": 0,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "figma",
+      "title": "Build reusable interface components",
+      "tool": "Figma",
+      "weight": 0.7,
+      "camera": "detail",
+      "start": 8.758647058823529,
+      "duration": 3.6293529411764704,
+      "beat": 0,
+      "editorialMode": "pip",
+      "transition": "cut"
+    },
+    {
+      "app": "figma",
+      "stage": 1,
+      "weight": 1.5,
+      "title": "Inspect layout, spacing, and states",
+      "start": 12.388,
+      "duration": 2.5341146666666665,
+      "beat": 1,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "figma",
+      "stage": 1,
+      "weight": 1.5,
+      "title": "Inspect layout, spacing, and states",
+      "start": 14.922114666666666,
+      "duration": 1.0244293333333334,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "figma",
+      "stage": 1,
+      "weight": 1.5,
+      "title": "Inspect layout, spacing, and states",
+      "start": 15.946544,
+      "duration": 1.8331893333333336,
+      "beat": 1,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "claude",
+      "stage": 1,
+      "weight": 0.9,
+      "title": "Review the artifact and its assumptions",
+      "start": 17.779733333333333,
+      "duration": 2.3588833333333334,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "figma",
+      "stage": 2,
+      "weight": 0.8,
+      "title": "Compare responsive surfaces",
+      "start": 20.138616666666667,
+      "duration": 3.7068166666666666,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "aftereffects",
+      "stage": 2,
+      "weight": 1.5,
+      "title": "Inspect the graph editor",
+      "start": 23.845433333333332,
+      "duration": 2.0219,
+      "beat": 1,
+      "editorialMode": "pip",
+      "transition": "cut"
+    },
+    {
+      "app": "canva",
+      "stage": 1,
+      "weight": 1,
+      "title": "Review layout and type at delivery size",
+      "start": 25.867333333333335,
+      "duration": 2.514061333333333,
+      "beat": 2,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "canva",
+      "stage": 1,
+      "weight": 1,
+      "title": "Review layout and type at delivery size",
+      "start": 28.38139466666667,
+      "duration": 1.0163226666666665,
+      "beat": 2,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "canva",
+      "stage": 1,
+      "weight": 1,
+      "title": "Review layout and type at delivery size",
+      "start": 29.397717333333336,
+      "duration": 1.8186826666666664,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "blender",
+      "stage": 1,
+      "weight": 1.2,
+      "title": "Review geometry, lighting, and render",
+      "start": 31.2164,
+      "duration": 2.340216666666666,
+      "beat": 2,
+      "editorialMode": "detail",
+      "transition": "cut"
+    },
+    {
+      "app": "blender",
+      "stage": 2,
+      "weight": 0.9,
+      "title": "Inspect the scene and asset structure",
+      "start": 33.55661666666666,
+      "duration": 3.6774833333333325,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "resolve",
+      "stage": 2,
+      "weight": 1.5,
+      "title": "Edit the sequence and sound",
+      "split": "figma",
+      "start": 37.2341,
+      "duration": 2.0058999999999996,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "slide"
+    },
+    {
+      "app": "resolve",
+      "stage": 2,
+      "weight": 1.4,
+      "title": "Edit the sequence and sound",
+      "start": 39.24,
+      "duration": 4.363733333333333,
+      "beat": 3,
+      "editorialMode": "establish",
+      "transition": "dissolve"
+    },
+    {
+      "app": "figma",
+      "stage": 2,
+      "weight": 0.9,
+      "title": "Compare responsive surfaces",
+      "split": "canva",
+      "start": 43.60373333333334,
+      "duration": 1.9091333333333338,
+      "beat": 3,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "resolve",
+      "stage": 3,
+      "weight": 1.2,
+      "title": "Review timing, color, and the final frame",
+      "split": "result",
+      "start": 45.512866666666675,
+      "duration": 3.000066666666667,
+      "beat": 3,
+      "editorialMode": "split",
+      "transition": "slide"
+    },
+    {
+      "app": "result",
+      "stage": 3,
+      "weight": 1.8,
+      "title": "The finished experience",
+      "start": 48.51293333333334,
+      "duration": 1.6364,
+      "beat": 3,
+      "editorialMode": "pip",
+      "transition": "cut"
+    }
+  ],
+  "captions": [
+    {
+      "start": 1.25,
+      "end": 12.068,
+      "text": "Let us build booking interface as a coherent visual system. Start with composition and reusable components, then move into motion, materials, and controlled variation."
+    },
+    {
+      "start": 12.468,
+      "end": 25.547333333333334,
+      "text": "In Figma, build the booking flow from reusable components and responsive frames. Use Claude to explore clearer interface copy, then test a transition in After Effects without hiding the important state change."
+    },
+    {
+      "start": 25.947333333333333,
+      "end": 38.92,
+      "text": "Adapt the concept in Canva and build a simple spatial treatment in Blender. Review the motion and format in Resolve, keeping typography, contrast, and interaction feedback consistent across surfaces."
+    },
+    {
+      "start": 39.32,
+      "end": 49.82933333333334,
+      "text": "Adapt the work into responsive design system. Compare formats side by side, preview the movement, and review the final experience at the size people will actually see."
+    }
+  ],
+  "audio": {
+    "sampleRate": 24000,
+    "voicePath": "audio/sage-design-demo-voice.wav",
+    "musicPath": "audio/sage-design-demo-music.wav",
+    "mixPath": "audio/sage-design-demo-mix.wav",
+    "voiceEngine": "Kokoro-82M ONNX",
+    "voiceId": "af_heart",
+    "musicType": "Original procedural composition",
+    "peak": 0.7382705211639404
+  },
+  "editing": {
+    "revision": "20261124d",
+    "cutSeconds": [
+      2.481,
+      1.003,
+      1.795,
+      2.31,
+      3.629,
+      2.534,
+      1.024,
+      1.833,
+      2.359,
+      3.707,
+      2.022,
+      2.514,
+      1.016,
+      1.819,
+      2.34,
+      3.677,
+      2.006,
+      4.364,
+      1.909,
+      3,
+      1.636
+    ],
+    "splitFrames": 6,
+    "pictureInPictureFrames": 3,
+    "transitions": [
+      "dissolve",
+      "slide",
+      "cut",
+      "fade-in",
+      "fade-out"
+    ],
+    "particles": "subtle brand accents on concept/result shots",
+    "status": "editorial-review-required"
+  },
+  "revision": "20261124d",
+  "assignedInstructorId": "instructor-sage",
+  "sourceVideoSha256": "60f5829ab7c3e03b37697a3fbd664ddc329f662d5514b45ffe280f04535c9c67",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "src": "assets/media/20261124d/sage-design-demo-20261124d.mp4",
+  "path": "sage-design-demo-20261124d.mp4",
+  "poster": "posters/sage-design-demo-20261124d.jpg",
+  "subtitlePath": "captions/sage-design-demo-20261124d.vtt",
+  "hasNarration": true,
+  "hasMusic": true,
+  "voiceId": "af_heart",
+  "speakerId": "instructor-sage",
+  "audioRole": "instructor-demonstration",
+  "voiceProvenance": "Existing verified temporary synthetic voice; encoded audio copied unchanged from v3",
+  "illustrative": true,
+  "disclosure": "Illustrative interface reconstructions and project concepts. Temporary synthetic instructor voices; project concepts use music only.",
+  "status": "technical-qa-passed-editorial-review-required",
+  "bytes": 5602473,
+  "sha256": "8e56a1c188d1bafa89179662ca1288616e1e747ffde8c2c73668e56cc94ee83d",
+  "audioStreamSha256": "SHA256=84973e28c64ffa5e82060be196da8f7e0f99b645d2e399712ae30997410b2032",
+  "audioCopiedVerified": true,
+  "technicalQa": {
+    "passed": true,
+    "fullDecode": true,
+    "peakDb": -2.6
+  }
+}

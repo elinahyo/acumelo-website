@@ -1,0 +1,529 @@
+{
+  "id": "chris-strategy-demo",
+  "mediaId": "acumelo-chris-strategy-demo-20261124d",
+  "stem": "chris-strategy-demo-20261124d",
+  "kind": "demo",
+  "scope": "instructor",
+  "name": "Chris",
+  "instructorId": "instructor-chris",
+  "fieldId": "strategy",
+  "title": "An AI operating model",
+  "topic": "AI adoption roadmap",
+  "result": "decision brief",
+  "apps": [
+    "notion",
+    "claude",
+    "miro",
+    "jira",
+    "excel",
+    "powerpoint"
+  ],
+  "variant": 0,
+  "color": "#e8b769",
+  "voice": "am_michael",
+  "bpm": 104,
+  "beats": [
+    {
+      "text": "Before building AI adoption roadmap, define the problem and the decision it will support. Make the expected outcome measurable, and record what is still an assumption.",
+      "shots": [
+        {
+          "app": "notion",
+          "title": "Maintain the shared decision brief",
+          "tool": "Notion",
+          "weight": 1.1
+        },
+        {
+          "app": "claude",
+          "title": "Challenge the rules with Claude",
+          "tool": "Claude",
+          "weight": 1.35
+        },
+        {
+          "app": "notion",
+          "title": "Maintain the shared decision brief",
+          "tool": "Notion",
+          "weight": 0.7,
+          "camera": "detail"
+        }
+      ]
+    },
+    {
+      "text": "Use Claude to challenge the proposed operating model. Separate assistive tasks from decisions that need approval. In Miro, map the owner, the evidence, and the handoff before choosing a tool.",
+      "shots": [
+        {
+          "app": "notion",
+          "title": "Track owners and next actions",
+          "tool": "Notion",
+          "weight": 1.25,
+          "stage": 1
+        },
+        {
+          "app": "claude",
+          "title": "Review the artifact and its assumptions",
+          "tool": "Claude",
+          "weight": 0.8,
+          "stage": 1
+        },
+        {
+          "app": "miro",
+          "title": "Connect the opportunity to an experiment",
+          "tool": "Miro",
+          "weight": 1.55,
+          "stage": 1
+        },
+        {
+          "app": "notion",
+          "title": "Maintain the shared decision brief",
+          "tool": "Notion",
+          "weight": 1,
+          "split": "jira",
+          "stage": 2
+        }
+      ]
+    },
+    {
+      "text": "Turn that map into a delivery backlog. Record acceptance criteria, access requirements, and a stop condition in Jira. Compare cost and expected value in Excel before expanding the pilot.",
+      "shots": [
+        {
+          "app": "miro",
+          "title": "Map evidence, dependencies, and decisions",
+          "tool": "Miro",
+          "weight": 1.8,
+          "stage": 2,
+          "camera": "detail"
+        },
+        {
+          "app": "excel",
+          "title": "Check the formula and exceptions",
+          "tool": "Microsoft Excel",
+          "weight": 1.2,
+          "stage": 1
+        },
+        {
+          "app": "powerpoint",
+          "title": "Review the slide structure",
+          "tool": "Microsoft PowerPoint",
+          "weight": 0.7,
+          "stage": 1
+        },
+        {
+          "app": "miro",
+          "title": "Connect the opportunity to an experiment",
+          "tool": "Miro",
+          "weight": 1.4,
+          "split": "excel",
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "text": "Bring the evidence, cost, and next decision into decision brief. The output is a shared direction, with clear ownership and a review point.",
+      "shots": [
+        {
+          "app": "jira",
+          "title": "Track delivery and acceptance criteria",
+          "tool": "Jira",
+          "weight": 1.5,
+          "stage": 2
+        },
+        {
+          "app": "excel",
+          "title": "Reconcile the source and report",
+          "tool": "Microsoft Excel",
+          "weight": 1,
+          "stage": 2
+        },
+        {
+          "app": "powerpoint",
+          "title": "Turn evidence into a clear story",
+          "tool": "Microsoft PowerPoint",
+          "weight": 1.6,
+          "split": "result",
+          "stage": 3
+        },
+        {
+          "app": "result",
+          "title": "The finished experience",
+          "tool": "result",
+          "weight": 1.15,
+          "stage": 3
+        }
+      ]
+    }
+  ],
+  "contentOwnerId": "instructor-chris",
+  "temporaryAssignment": false,
+  "sourceHash": "1c66efbadc96a4b317b31959d7696e72bab02c0f291a4aa4419eb53d724439a2",
+  "durationSeconds": 50.4,
+  "shots": [
+    {
+      "app": "notion",
+      "title": "Maintain the shared decision brief",
+      "tool": "Notion",
+      "weight": 1.1,
+      "start": 1.17,
+      "duration": 3.140674285714286,
+      "beat": 0,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "notion",
+      "title": "Maintain the shared decision brief",
+      "tool": "Notion",
+      "weight": 1.1,
+      "start": 4.310674285714287,
+      "duration": 1.269634285714286,
+      "beat": 0,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "notion",
+      "title": "Maintain the shared decision brief",
+      "tool": "Notion",
+      "weight": 1.1,
+      "start": 5.5803085714285725,
+      "duration": 2.271977142857143,
+      "beat": 0,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "claude",
+      "title": "Challenge the rules with Claude",
+      "tool": "Claude",
+      "weight": 1.35,
+      "start": 7.852285714285715,
+      "duration": 1.9275824175824177,
+      "beat": 0,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "notion",
+      "title": "Maintain the shared decision brief",
+      "tool": "Notion",
+      "weight": 0.7,
+      "camera": "detail",
+      "start": 9.779868131868133,
+      "duration": 3.0841318681318683,
+      "beat": 0,
+      "editorialMode": "pip",
+      "transition": "cut"
+    },
+    {
+      "app": "notion",
+      "title": "Track owners and next actions",
+      "tool": "Notion",
+      "weight": 1.25,
+      "stage": 1,
+      "start": 12.864,
+      "duration": 2.564852913385827,
+      "beat": 1,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "notion",
+      "title": "Track owners and next actions",
+      "tool": "Notion",
+      "weight": 1.25,
+      "stage": 1,
+      "start": 15.428852913385828,
+      "duration": 1.0368554330708664,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "notion",
+      "title": "Track owners and next actions",
+      "tool": "Notion",
+      "weight": 1.25,
+      "stage": 1,
+      "start": 16.465708346456694,
+      "duration": 1.8554255118110243,
+      "beat": 1,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "claude",
+      "title": "Review the artifact and its assumptions",
+      "tool": "Claude",
+      "weight": 0.8,
+      "stage": 1,
+      "start": 18.321133858267718,
+      "duration": 1.5741732283464571,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "miro",
+      "title": "Connect the opportunity to an experiment",
+      "tool": "Miro",
+      "weight": 1.55,
+      "stage": 1,
+      "start": 19.895307086614174,
+      "duration": 2.5186771653543314,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "notion",
+      "title": "Maintain the shared decision brief",
+      "tool": "Notion",
+      "weight": 1,
+      "split": "jira",
+      "stage": 2,
+      "start": 22.413984251968508,
+      "duration": 3.778015748031497,
+      "beat": 1,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "miro",
+      "title": "Map evidence, dependencies, and decisions",
+      "tool": "Miro",
+      "weight": 1.8,
+      "stage": 2,
+      "camera": "detail",
+      "start": 26.192000000000004,
+      "duration": 2.679291128608924,
+      "beat": 2,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "miro",
+      "title": "Map evidence, dependencies, and decisions",
+      "tool": "Miro",
+      "weight": 1.8,
+      "stage": 2,
+      "camera": "detail",
+      "start": 28.871291128608927,
+      "duration": 1.083117690288714,
+      "beat": 2,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "miro",
+      "title": "Map evidence, dependencies, and decisions",
+      "tool": "Miro",
+      "weight": 1.8,
+      "stage": 2,
+      "camera": "detail",
+      "start": 29.95440881889764,
+      "duration": 1.9382106036745412,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "excel",
+      "title": "Check the formula and exceptions",
+      "tool": "Microsoft Excel",
+      "weight": 1.2,
+      "stage": 1,
+      "start": 31.89261942257218,
+      "duration": 1.6444094488188978,
+      "beat": 2,
+      "editorialMode": "detail",
+      "transition": "cut"
+    },
+    {
+      "app": "powerpoint",
+      "title": "Review the slide structure",
+      "tool": "Microsoft PowerPoint",
+      "weight": 0.7,
+      "stage": 1,
+      "start": 33.53702887139108,
+      "duration": 2.6310551181102366,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "miro",
+      "title": "Connect the opportunity to an experiment",
+      "tool": "Miro",
+      "weight": 1.4,
+      "split": "excel",
+      "stage": 3,
+      "start": 36.16808398950132,
+      "duration": 3.946582677165355,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "slide"
+    },
+    {
+      "app": "jira",
+      "title": "Track delivery and acceptance criteria",
+      "tool": "Jira",
+      "weight": 1.5,
+      "stage": 2,
+      "start": 40.11466666666667,
+      "duration": 3.8338057742782157,
+      "beat": 3,
+      "editorialMode": "establish",
+      "transition": "dissolve"
+    },
+    {
+      "app": "excel",
+      "title": "Reconcile the source and report",
+      "tool": "Microsoft Excel",
+      "weight": 1,
+      "stage": 2,
+      "start": 43.94847244094489,
+      "duration": 1.1059055118110237,
+      "beat": 3,
+      "editorialMode": "detail",
+      "transition": "cut"
+    },
+    {
+      "app": "powerpoint",
+      "title": "Turn evidence into a clear story",
+      "tool": "Microsoft PowerPoint",
+      "weight": 1.6,
+      "split": "result",
+      "stage": 3,
+      "start": 45.054377952755914,
+      "duration": 1.7694488188976376,
+      "beat": 3,
+      "editorialMode": "split",
+      "transition": "slide"
+    },
+    {
+      "app": "result",
+      "title": "The finished experience",
+      "tool": "result",
+      "weight": 1.15,
+      "stage": 3,
+      "start": 46.82382677165355,
+      "duration": 2.6541732283464565,
+      "beat": 3,
+      "editorialMode": "pip",
+      "transition": "cut"
+    }
+  ],
+  "captions": [
+    {
+      "start": 1.25,
+      "end": 12.544,
+      "text": "Before building AI adoption roadmap, define the problem and the decision it will support. Make the expected outcome measurable, and record what is still an assumption."
+    },
+    {
+      "start": 12.944,
+      "end": 25.872,
+      "text": "Use Claude to challenge the proposed operating model. Separate assistive tasks from decisions that need approval. In Miro, map the owner, the evidence, and the handoff before choosing a tool."
+    },
+    {
+      "start": 26.272000000000002,
+      "end": 39.79466666666667,
+      "text": "Turn that map into a delivery backlog. Record acceptance criteria, access requirements, and a stop condition in Jira. Compare cost and expected value in Excel before expanding the pilot."
+    },
+    {
+      "start": 40.19466666666667,
+      "end": 49.158,
+      "text": "Bring the evidence, cost, and next decision into decision brief. The output is a shared direction, with clear ownership and a review point."
+    }
+  ],
+  "audio": {
+    "sampleRate": 24000,
+    "voicePath": "audio/chris-strategy-demo-voice.wav",
+    "musicPath": "audio/chris-strategy-demo-music.wav",
+    "mixPath": "audio/chris-strategy-demo-mix.wav",
+    "voiceEngine": "Kokoro-82M ONNX",
+    "voiceId": "am_michael",
+    "musicType": "Original procedural composition",
+    "peak": 0.7307061553001404
+  },
+  "editing": {
+    "revision": "20261124d",
+    "cutSeconds": [
+      3.141,
+      1.27,
+      2.272,
+      1.928,
+      3.084,
+      2.565,
+      1.037,
+      1.855,
+      1.574,
+      2.519,
+      3.778,
+      2.679,
+      1.083,
+      1.938,
+      1.644,
+      2.631,
+      3.947,
+      3.834,
+      1.106,
+      1.769,
+      2.654
+    ],
+    "splitFrames": 6,
+    "pictureInPictureFrames": 2,
+    "transitions": [
+      "dissolve",
+      "slide",
+      "cut",
+      "fade-in",
+      "fade-out"
+    ],
+    "particles": "subtle brand accents on concept/result shots",
+    "status": "editorial-review-required"
+  },
+  "revision": "20261124d",
+  "assignedInstructorId": "instructor-chris",
+  "sourceVideoSha256": "1456f91e3142133e21a789f04ba8005b50653b1ca6f14d9684e6543d674c063b",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "src": "assets/media/20261124d/chris-strategy-demo-20261124d.mp4",
+  "path": "chris-strategy-demo-20261124d.mp4",
+  "poster": "posters/chris-strategy-demo-20261124d.jpg",
+  "subtitlePath": "captions/chris-strategy-demo-20261124d.vtt",
+  "hasNarration": true,
+  "hasMusic": true,
+  "voiceId": "am_michael",
+  "speakerId": "instructor-chris",
+  "audioRole": "instructor-demonstration",
+  "voiceProvenance": "Existing verified temporary synthetic voice; encoded audio copied unchanged from v3",
+  "illustrative": true,
+  "disclosure": "Illustrative interface reconstructions and project concepts. Temporary synthetic instructor voices; project concepts use music only.",
+  "status": "technical-qa-passed-editorial-review-required",
+  "bytes": 4410441,
+  "sha256": "6fbee0282d02d4c281fb91ca2f3386dfe9d734768954b85669f953d9e4a04d7f",
+  "audioStreamSha256": "SHA256=e28a98c102cdab1b692bf7e745ba16508d061c26dc5123962499d1007085e7e0",
+  "audioCopiedVerified": true,
+  "technicalQa": {
+    "passed": true,
+    "fullDecode": true,
+    "peakDb": -2.7
+  }
+}

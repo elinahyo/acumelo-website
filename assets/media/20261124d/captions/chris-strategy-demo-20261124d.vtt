@@ -1,0 +1,41 @@
+WEBVTT
+
+1
+00:00:01.250 --> 00:00:07.269
+Before building AI adoption roadmap, define the problem and the decision it will support.
+
+2
+00:00:07.269 --> 00:00:12.544
+Make the expected outcome measurable, and record what is still an assumption.
+
+3
+00:00:12.944 --> 00:00:16.531
+Use Claude to challenge the proposed operating model.
+
+4
+00:00:16.531 --> 00:00:20.593
+Separate assistive tasks from decisions that need approval.
+
+5
+00:00:20.593 --> 00:00:25.872
+In Miro, map the owner, the evidence, and the handoff before choosing a tool.
+
+6
+00:00:26.272 --> 00:00:29.035
+Turn that map into a delivery backlog.
+
+7
+00:00:29.035 --> 00:00:34.778
+Record acceptance criteria, access requirements, and a stop condition in Jira.
+
+8
+00:00:34.778 --> 00:00:39.795
+Compare cost and expected value in Excel before expanding the pilot.
+
+9
+00:00:40.195 --> 00:00:44.322
+Bring the evidence, cost, and next decision into decision brief.
+
+10
+00:00:44.322 --> 00:00:49.158
+The output is a shared direction, with clear ownership and a review point.

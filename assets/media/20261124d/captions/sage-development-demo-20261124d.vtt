@@ -1,0 +1,33 @@
+WEBVTT
+
+1
+00:00:01.250 --> 00:00:04.077
+Turn appointment booking into a working product.
+
+2
+00:00:04.077 --> 00:00:10.907
+Start with the interface, the data contract, and the boundaries between the client, the API, and the storage layer.
+
+3
+00:00:11.307 --> 00:00:16.497
+Build the appointment journey in React, then compare the mobile version in Flutter.
+
+4
+00:00:16.497 --> 00:00:23.187
+Handle an unavailable slot, an incomplete form, and a successful reservation as separate, testable states.
+
+5
+00:00:23.587 --> 00:00:27.296
+Use Supabase to inspect booking records and access policies.
+
+6
+00:00:27.296 --> 00:00:35.642
+Review the interface beside the Figma flow, then check the Firebase configuration and a repeatable release pipeline in GitHub Actions.
+
+7
+00:00:36.042 --> 00:00:39.715
+Test the critical journey and prepare a repeatable release.
+
+8
+00:00:39.715 --> 00:00:47.373
+The result is booking application: a usable experience with a clear architecture, visible state, and a path to improve it.

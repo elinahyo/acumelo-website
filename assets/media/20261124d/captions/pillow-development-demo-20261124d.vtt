@@ -1,0 +1,37 @@
+WEBVTT
+
+1
+00:00:01.250 --> 00:00:05.687
+Turn interactive gallery into a working product.
+
+2
+00:00:05.687 --> 00:00:16.411
+Start with the interface, the data contract, and the boundaries between the client, the API, and the storage layer.
+
+3
+00:00:16.811 --> 00:00:21.684
+Build the browser scene with Three dot js and React.
+
+4
+00:00:21.684 --> 00:00:27.025
+Separate the camera, scene state, and interaction logic.
+
+5
+00:00:27.025 --> 00:00:35.365
+A visitor should understand how to move and what can be selected without an explanation.
+
+6
+00:00:35.765 --> 00:00:44.984
+Compare the scene in Unity and Unreal, then inspect the Blender asset and Firebase content model.
+
+7
+00:00:44.984 --> 00:00:54.678
+Test selection and loading before sending the browser experience through a repeatable GitHub release.
+
+8
+00:00:55.078 --> 00:01:00.703
+Test the critical journey and prepare a repeatable release.
+
+9
+00:01:00.703 --> 00:01:13.193
+The result is interactive browser gallery: a usable experience with a clear architecture, visible state, and a path to improve it.

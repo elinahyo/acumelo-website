@@ -1,0 +1,489 @@
+{
+  "id": "chris-development-demo",
+  "mediaId": "acumelo-chris-development-demo-20261124d",
+  "stem": "chris-development-demo-20261124d",
+  "kind": "demo",
+  "scope": "instructor",
+  "name": "Chris",
+  "instructorId": "instructor-chris",
+  "fieldId": "development",
+  "title": "One service, many surfaces",
+  "topic": "knowledge workspace",
+  "result": "web and mobile service",
+  "apps": [
+    "vscode",
+    "flutter",
+    "firebase",
+    "langflow",
+    "unity",
+    "unreal"
+  ],
+  "variant": 0,
+  "color": "#8d9eff",
+  "voice": "am_michael",
+  "bpm": 104,
+  "beats": [
+    {
+      "text": "Turn knowledge workspace into a working product. Start with the interface, the data contract, and the boundaries between the client, the API, and the storage layer.",
+      "shots": [
+        {
+          "app": "vscode",
+          "title": "Inspect the architecture and source",
+          "tool": "Visual Studio Code",
+          "weight": 1.1
+        },
+        {
+          "app": "flutter",
+          "title": "Build the Flutter interface in Dart",
+          "tool": "Flutter / Dart",
+          "weight": 1.35
+        },
+        {
+          "app": "vscode",
+          "title": "Inspect the architecture and source",
+          "tool": "Visual Studio Code",
+          "weight": 0.7,
+          "camera": "detail"
+        }
+      ]
+    },
+    {
+      "text": "Use React and TypeScript for the web workspace, then inspect the Flutter and Dart mobile flow. Keep loading, error, and success states explicit, with a shared contract for the underlying data.",
+      "shots": [
+        {
+          "app": "vscode",
+          "stage": 1,
+          "weight": 1.5,
+          "title": "Trace data and interface state"
+        },
+        {
+          "app": "flutter",
+          "stage": 1,
+          "weight": 1.4,
+          "title": "Compare the mobile state and source"
+        },
+        {
+          "app": "vscode",
+          "stage": 2,
+          "weight": 1.1,
+          "title": "Review a testable service boundary",
+          "split": "flutter"
+        }
+      ]
+    },
+    {
+      "text": "Inspect Firestore access rules and trace retrieval in Langflow. Explore the same knowledge experience in Unity and Unreal. The interface changes, while sources, permissions, and the service boundary stay visible.",
+      "shots": [
+        {
+          "app": "firebase",
+          "stage": 2,
+          "weight": 1.2,
+          "title": "Check the access rules"
+        },
+        {
+          "app": "langflow",
+          "stage": 2,
+          "weight": 1.5,
+          "title": "Trace retrieval through the flow"
+        },
+        {
+          "app": "unity",
+          "stage": 0,
+          "weight": 1.1,
+          "title": "Work in the Unity scene and Inspector"
+        },
+        {
+          "app": "unreal",
+          "stage": 2,
+          "weight": 1.2,
+          "title": "Trace the Blueprint event graph"
+        }
+      ]
+    },
+    {
+      "text": "Test the critical journey and prepare a repeatable release. The result is web and mobile service: a usable experience with a clear architecture, visible state, and a path to improve it.",
+      "shots": [
+        {
+          "app": "github",
+          "stage": 1,
+          "weight": 1.2,
+          "title": "Check tests before publishing"
+        },
+        {
+          "app": "result",
+          "stage": 3,
+          "weight": 1.7,
+          "title": "The finished experience",
+          "split": "vscode"
+        },
+        {
+          "app": "result",
+          "stage": 3,
+          "weight": 2.1,
+          "title": "The finished experience"
+        }
+      ]
+    }
+  ],
+  "contentOwnerId": "instructor-chris",
+  "temporaryAssignment": false,
+  "sourceHash": "449c5fff9071f941d187a8ab9c0a41231ae1043ffa5fdff223d125ed05a9bac4",
+  "durationSeconds": 55,
+  "shots": [
+    {
+      "app": "vscode",
+      "title": "Inspect the architecture and source",
+      "tool": "Visual Studio Code",
+      "weight": 1.1,
+      "start": 1.17,
+      "duration": 3.0375428571428573,
+      "beat": 0,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "vscode",
+      "title": "Inspect the architecture and source",
+      "tool": "Visual Studio Code",
+      "weight": 1.1,
+      "start": 4.207542857142857,
+      "duration": 1.2279428571428572,
+      "beat": 0,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "vscode",
+      "title": "Inspect the architecture and source",
+      "tool": "Visual Studio Code",
+      "weight": 1.1,
+      "start": 5.435485714285715,
+      "duration": 2.197371428571429,
+      "beat": 0,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "flutter",
+      "title": "Build the Flutter interface in Dart",
+      "tool": "Flutter / Dart",
+      "weight": 1.35,
+      "start": 7.6328571428571435,
+      "duration": 1.8642857142857143,
+      "beat": 0,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "vscode",
+      "title": "Inspect the architecture and source",
+      "tool": "Visual Studio Code",
+      "weight": 0.7,
+      "camera": "detail",
+      "start": 9.497142857142858,
+      "duration": 2.982857142857143,
+      "beat": 0,
+      "editorialMode": "pip",
+      "transition": "cut"
+    },
+    {
+      "app": "vscode",
+      "stage": 1,
+      "weight": 1.5,
+      "title": "Trace data and interface state",
+      "start": 12.48,
+      "duration": 3.5696723809523814,
+      "beat": 1,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "vscode",
+      "stage": 1,
+      "weight": 1.5,
+      "title": "Trace data and interface state",
+      "start": 16.04967238095238,
+      "duration": 1.443059047619048,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "vscode",
+      "stage": 1,
+      "weight": 1.5,
+      "title": "Trace data and interface state",
+      "start": 17.492731428571428,
+      "duration": 2.5823161904761913,
+      "beat": 1,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "flutter",
+      "stage": 1,
+      "weight": 1.4,
+      "title": "Compare the mobile state and source",
+      "start": 20.07504761904762,
+      "duration": 2.190879120879121,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "vscode",
+      "stage": 2,
+      "weight": 1.1,
+      "title": "Review a testable service boundary",
+      "split": "flutter",
+      "start": 22.26592673992674,
+      "duration": 3.5054065934065934,
+      "beat": 1,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "firebase",
+      "stage": 2,
+      "weight": 1.2,
+      "title": "Check the access rules",
+      "start": 25.771333333333338,
+      "duration": 2.955508031496063,
+      "beat": 2,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "firebase",
+      "stage": 2,
+      "weight": 1.2,
+      "title": "Check the access rules",
+      "start": 28.7268413648294,
+      "duration": 1.1947798425196852,
+      "beat": 2,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "firebase",
+      "stage": 2,
+      "weight": 1.2,
+      "title": "Check the access rules",
+      "start": 29.921621207349087,
+      "duration": 2.1380270866141737,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "langflow",
+      "stage": 2,
+      "weight": 1.5,
+      "title": "Trace retrieval through the flow",
+      "start": 32.059648293963264,
+      "duration": 1.8139370078740158,
+      "beat": 2,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "unity",
+      "stage": 0,
+      "weight": 1.1,
+      "title": "Work in the Unity scene and Inspector",
+      "start": 33.87358530183728,
+      "duration": 2.9022992125984253,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "unreal",
+      "stage": 2,
+      "weight": 1.2,
+      "title": "Trace the Blueprint event graph",
+      "start": 36.7758845144357,
+      "duration": 4.353448818897638,
+      "beat": 2,
+      "editorialMode": "pip",
+      "transition": "cut"
+    },
+    {
+      "app": "github",
+      "stage": 1,
+      "weight": 1.2,
+      "title": "Check tests before publishing",
+      "start": 41.129333333333335,
+      "duration": 3.4790630952380956,
+      "beat": 3,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "github",
+      "stage": 1,
+      "weight": 1.2,
+      "title": "Check tests before publishing",
+      "start": 44.60839642857143,
+      "duration": 1.406429761904762,
+      "beat": 3,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "github",
+      "stage": 1,
+      "weight": 1.2,
+      "title": "Check tests before publishing",
+      "start": 46.01482619047619,
+      "duration": 2.5167690476190483,
+      "beat": 3,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "result",
+      "stage": 3,
+      "weight": 1.7,
+      "title": "The finished experience",
+      "split": "vscode",
+      "start": 48.53159523809524,
+      "duration": 2.135267857142857,
+      "beat": 3,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "result",
+      "stage": 3,
+      "weight": 2.1,
+      "title": "The finished experience",
+      "start": 50.6668630952381,
+      "duration": 3.4164285714285714,
+      "beat": 3,
+      "editorialMode": "pip",
+      "transition": "cut"
+    }
+  ],
+  "captions": [
+    {
+      "start": 1.25,
+      "end": 12.16,
+      "text": "Turn knowledge workspace into a working product. Start with the interface, the data contract, and the boundaries between the client, the API, and the storage layer."
+    },
+    {
+      "start": 12.56,
+      "end": 25.451333333333334,
+      "text": "Use React and TypeScript for the web workspace, then inspect the Flutter and Dart mobile flow. Keep loading, error, and success states explicit, with a shared contract for the underlying data."
+    },
+    {
+      "start": 25.851333333333336,
+      "end": 40.809333333333335,
+      "text": "Inspect Firestore access rules and trace retrieval in Langflow. Explore the same knowledge experience in Unity and Unreal. The interface changes, while sources, permissions, and the service boundary stay visible."
+    },
+    {
+      "start": 41.20933333333333,
+      "end": 53.76329166666667,
+      "text": "Test the critical journey and prepare a repeatable release. The result is web and mobile service: a usable experience with a clear architecture, visible state, and a path to improve it."
+    }
+  ],
+  "audio": {
+    "sampleRate": 24000,
+    "voicePath": "audio/chris-development-demo-voice.wav",
+    "musicPath": "audio/chris-development-demo-music.wav",
+    "mixPath": "audio/chris-development-demo-mix.wav",
+    "voiceEngine": "Kokoro-82M ONNX",
+    "voiceId": "am_michael",
+    "musicType": "Original procedural composition",
+    "peak": 0.7304223775863647
+  },
+  "editing": {
+    "revision": "20261124d",
+    "cutSeconds": [
+      3.038,
+      1.228,
+      2.197,
+      1.864,
+      2.983,
+      3.57,
+      1.443,
+      2.582,
+      2.191,
+      3.505,
+      2.956,
+      1.195,
+      2.138,
+      1.814,
+      2.902,
+      4.353,
+      3.479,
+      1.406,
+      2.517,
+      2.135,
+      3.416
+    ],
+    "splitFrames": 6,
+    "pictureInPictureFrames": 3,
+    "transitions": [
+      "dissolve",
+      "slide",
+      "cut",
+      "fade-in",
+      "fade-out"
+    ],
+    "particles": "subtle brand accents on concept/result shots",
+    "status": "editorial-review-required"
+  },
+  "revision": "20261124d",
+  "assignedInstructorId": "instructor-chris",
+  "sourceVideoSha256": "f4e7cb567d30227151adc5196d8cc169519ae711d448d25fddec92cef9406cb3",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "src": "assets/media/20261124d/chris-development-demo-20261124d.mp4",
+  "path": "chris-development-demo-20261124d.mp4",
+  "poster": "posters/chris-development-demo-20261124d.jpg",
+  "subtitlePath": "captions/chris-development-demo-20261124d.vtt",
+  "hasNarration": true,
+  "hasMusic": true,
+  "voiceId": "am_michael",
+  "speakerId": "instructor-chris",
+  "audioRole": "instructor-demonstration",
+  "voiceProvenance": "Existing verified temporary synthetic voice; encoded audio copied unchanged from v3",
+  "illustrative": true,
+  "disclosure": "Illustrative interface reconstructions and project concepts. Temporary synthetic instructor voices; project concepts use music only.",
+  "status": "technical-qa-passed-editorial-review-required",
+  "bytes": 5339318,
+  "sha256": "8f7255e0d1af11680ea16ab13d82feadf0e7602541ee7a601da9fda2f20a08cb",
+  "audioStreamSha256": "SHA256=9ea51a01b7c8bc2ffa591104a8db047c4f84801a148e350b6362ab788e061699",
+  "audioCopiedVerified": true,
+  "technicalQa": {
+    "passed": true,
+    "fullDecode": true,
+    "peakDb": -2.8
+  }
+}

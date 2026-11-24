@@ -1,0 +1,625 @@
+{
+  "id": "pillow-design-demo",
+  "mediaId": "acumelo-pillow-design-demo-20261124d",
+  "stem": "pillow-design-demo-20261124d",
+  "kind": "demo",
+  "scope": "instructor",
+  "name": "Pillow",
+  "instructorId": "instructor-03",
+  "fieldId": "design",
+  "title": "Make a visual system move",
+  "topic": "interactive exhibition",
+  "result": "generative installation",
+  "apps": [
+    "aftereffects",
+    "cinema4d",
+    "comfyui",
+    "higgsfield",
+    "blender",
+    "resolve"
+  ],
+  "variant": 2,
+  "color": "#bca0fa",
+  "voice": "af_nicole",
+  "bpm": 116,
+  "beats": [
+    {
+      "text": "Let us build interactive exhibition as a coherent visual system. Start with composition and reusable components, then move into motion, materials, and controlled variation.",
+      "shots": [
+        {
+          "app": "aftereffects",
+          "title": "Shape the timing and composition",
+          "tool": "Adobe After Effects",
+          "weight": 1.1
+        },
+        {
+          "app": "cinema4d",
+          "title": "Build the camera and material system",
+          "tool": "Cinema 4D",
+          "weight": 1.35
+        },
+        {
+          "app": "aftereffects",
+          "title": "Shape the timing and composition",
+          "tool": "Adobe After Effects",
+          "weight": 0.7,
+          "camera": "detail"
+        }
+      ]
+    },
+    {
+      "text": "Begin with timing in After Effects and a spatial composition in Cinema 4D. Animate the reveal, inspect the graph editor, and adjust the camera so the installation has a clear focal point.",
+      "shots": [
+        {
+          "app": "aftereffects",
+          "stage": 1,
+          "weight": 1.2,
+          "title": "Animate the layers and keyframes"
+        },
+        {
+          "app": "aftereffects",
+          "stage": 2,
+          "weight": 0.9,
+          "title": "Inspect the graph editor",
+          "camera": "detail"
+        },
+        {
+          "app": "cinema4d",
+          "stage": 1,
+          "weight": 1.2,
+          "title": "Inspect the cloner and geometry"
+        },
+        {
+          "app": "cinema4d",
+          "stage": 2,
+          "weight": 1.4,
+          "title": "Review lighting and the rendered scene",
+          "split": "aftereffects"
+        }
+      ]
+    },
+    {
+      "text": "Trace a visual variation through ComfyUI, plan a restrained shot in Higgsfield, and refine the scene in Blender. Resolve connects the cuts and color into one continuous exhibition experience.",
+      "shots": [
+        {
+          "app": "higgsfield",
+          "stage": 1,
+          "weight": 1.4,
+          "title": "Compare camera, lens, and movement"
+        },
+        {
+          "app": "comfyui",
+          "stage": 2,
+          "weight": 1.7,
+          "title": "Trace the generation graph",
+          "camera": "detail"
+        },
+        {
+          "app": "blender",
+          "stage": 2,
+          "weight": 0.9,
+          "title": "Inspect the scene and asset structure"
+        },
+        {
+          "app": "resolve",
+          "stage": 2,
+          "weight": 1.2,
+          "title": "Edit the sequence and sound"
+        }
+      ]
+    },
+    {
+      "text": "Adapt the work into generative installation. Compare formats side by side, preview the movement, and review the final experience at the size people will actually see.",
+      "shots": [
+        {
+          "app": "resolve",
+          "stage": 2,
+          "weight": 1.4,
+          "title": "Edit the sequence and sound"
+        },
+        {
+          "app": "figma",
+          "stage": 2,
+          "weight": 0.9,
+          "title": "Compare responsive surfaces",
+          "split": "canva"
+        },
+        {
+          "app": "resolve",
+          "stage": 3,
+          "weight": 1.2,
+          "title": "Review timing, color, and the final frame",
+          "split": "result"
+        },
+        {
+          "app": "result",
+          "stage": 3,
+          "weight": 1.8,
+          "title": "The finished experience"
+        }
+      ]
+    }
+  ],
+  "contentOwnerId": "instructor-chris",
+  "temporaryAssignment": true,
+  "sourceHash": "a1bde249f16ae8dc7d3722c525418ed7c20630eb86dab26da1233ff261c897f8",
+  "durationSeconds": 74.1,
+  "shots": [
+    {
+      "app": "aftereffects",
+      "title": "Shape the timing and composition",
+      "tool": "Adobe After Effects",
+      "weight": 1.1,
+      "start": 1.17,
+      "duration": 3.946382647058823,
+      "beat": 0,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "aftereffects",
+      "title": "Shape the timing and composition",
+      "tool": "Adobe After Effects",
+      "weight": 1.1,
+      "start": 5.116382647058822,
+      "duration": 1.595346176470588,
+      "beat": 0,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "aftereffects",
+      "title": "Shape the timing and composition",
+      "tool": "Adobe After Effects",
+      "weight": 1.1,
+      "start": 6.711728823529411,
+      "duration": 2.8548299999999998,
+      "beat": 0,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "cinema4d",
+      "title": "Build the camera and material system",
+      "tool": "Cinema 4D",
+      "weight": 1.35,
+      "start": 9.56655882352941,
+      "duration": 3.307735294117647,
+      "beat": 0,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "aftereffects",
+      "title": "Shape the timing and composition",
+      "tool": "Adobe After Effects",
+      "weight": 0.7,
+      "camera": "detail",
+      "start": 12.874294117647057,
+      "duration": 2.6309217647058825,
+      "beat": 0,
+      "editorialMode": "pip",
+      "transition": "cut",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "aftereffects",
+      "title": "Shape the timing and composition",
+      "tool": "Adobe After Effects",
+      "weight": 0.7,
+      "camera": "detail",
+      "start": 15.505215882352939,
+      "duration": 1.063564117647059,
+      "beat": 0,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "aftereffects",
+      "title": "Shape the timing and composition",
+      "tool": "Adobe After Effects",
+      "weight": 0.7,
+      "camera": "detail",
+      "start": 16.568779999999997,
+      "duration": 1.9032200000000001,
+      "beat": 0,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "aftereffects",
+      "stage": 1,
+      "weight": 1.2,
+      "title": "Animate the layers and keyframes",
+      "start": 18.472,
+      "duration": 2.4770433898305075,
+      "beat": 1,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "aftereffects",
+      "stage": 1,
+      "weight": 1.2,
+      "title": "Animate the layers and keyframes",
+      "start": 20.949043389830507,
+      "duration": 1.0013579661016947,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "aftereffects",
+      "stage": 1,
+      "weight": 1.2,
+      "title": "Animate the layers and keyframes",
+      "start": 21.9504013559322,
+      "duration": 1.7919037288135589,
+      "beat": 1,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "aftereffects",
+      "stage": 2,
+      "weight": 0.9,
+      "title": "Inspect the graph editor",
+      "camera": "detail",
+      "start": 23.742305084745762,
+      "duration": 2.0761807909604517,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "cinema4d",
+      "stage": 1,
+      "weight": 1.2,
+      "title": "Inspect the cloner and geometry",
+      "start": 25.818485875706216,
+      "duration": 3.513536723163841,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "cinema4d",
+      "stage": 2,
+      "weight": 1.4,
+      "title": "Review lighting and the rendered scene",
+      "split": "aftereffects",
+      "start": 29.332022598870058,
+      "duration": 3.7530960451977387,
+      "beat": 1,
+      "editorialMode": "split",
+      "transition": "cut",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "cinema4d",
+      "stage": 2,
+      "weight": 1.4,
+      "title": "Review lighting and the rendered scene",
+      "split": "aftereffects",
+      "start": 33.0851186440678,
+      "duration": 1.5172090395480222,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "cinema4d",
+      "stage": 2,
+      "weight": 1.4,
+      "title": "Review lighting and the rendered scene",
+      "split": "aftereffects",
+      "start": 34.60232768361582,
+      "duration": 2.7150056497175137,
+      "beat": 1,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "higgsfield",
+      "stage": 1,
+      "weight": 1.4,
+      "title": "Compare camera, lens, and movement",
+      "start": 37.31733333333334,
+      "duration": 2.598932711864406,
+      "beat": 2,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "higgsfield",
+      "stage": 1,
+      "weight": 1.4,
+      "title": "Compare camera, lens, and movement",
+      "start": 39.916266045197744,
+      "duration": 1.0506323728813558,
+      "beat": 2,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "higgsfield",
+      "stage": 1,
+      "weight": 1.4,
+      "title": "Compare camera, lens, and movement",
+      "start": 40.9668984180791,
+      "duration": 1.8800789830508473,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "comfyui",
+      "stage": 2,
+      "weight": 1.7,
+      "title": "Trace the generation graph",
+      "camera": "detail",
+      "start": 42.84697740112995,
+      "duration": 2.1783446327683613,
+      "beat": 2,
+      "editorialMode": "detail",
+      "transition": "cut"
+    },
+    {
+      "app": "blender",
+      "stage": 2,
+      "weight": 0.9,
+      "title": "Inspect the scene and asset structure",
+      "start": 45.025322033898306,
+      "duration": 3.6864293785310736,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "resolve",
+      "stage": 2,
+      "weight": 1.2,
+      "title": "Edit the sequence and sound",
+      "start": 48.71175141242938,
+      "duration": 3.9377768361581915,
+      "beat": 2,
+      "editorialMode": "pip",
+      "transition": "slide",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "resolve",
+      "stage": 2,
+      "weight": 1.2,
+      "title": "Edit the sequence and sound",
+      "start": 52.64952824858757,
+      "duration": 1.591867231638418,
+      "beat": 2,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "resolve",
+      "stage": 2,
+      "weight": 1.2,
+      "title": "Edit the sequence and sound",
+      "start": 54.24139548022599,
+      "duration": 2.8486045197740113,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "resolve",
+      "stage": 2,
+      "weight": 1.4,
+      "title": "Edit the sequence and sound",
+      "start": 57.09,
+      "duration": 4.497881355932202,
+      "beat": 3,
+      "editorialMode": "establish",
+      "transition": "dissolve"
+    },
+    {
+      "app": "figma",
+      "stage": 2,
+      "weight": 0.9,
+      "title": "Compare responsive surfaces",
+      "split": "canva",
+      "start": 61.587881355932204,
+      "duration": 1.7718926553672314,
+      "beat": 3,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "resolve",
+      "stage": 3,
+      "weight": 1.2,
+      "title": "Review timing, color, and the final frame",
+      "split": "result",
+      "start": 63.359774011299436,
+      "duration": 2.998587570621469,
+      "beat": 3,
+      "editorialMode": "split",
+      "transition": "slide"
+    },
+    {
+      "app": "result",
+      "stage": 3,
+      "weight": 1.8,
+      "title": "The finished experience",
+      "start": 66.3583615819209,
+      "duration": 3.2030367231638412,
+      "beat": 3,
+      "editorialMode": "pip",
+      "transition": "cut",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "result",
+      "stage": 3,
+      "weight": 1.8,
+      "title": "The finished experience",
+      "start": 69.56139830508475,
+      "duration": 1.2948446327683614,
+      "beat": 3,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "result",
+      "stage": 3,
+      "weight": 1.8,
+      "title": "The finished experience",
+      "start": 70.85624293785311,
+      "duration": 2.3170903954802258,
+      "beat": 3,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    }
+  ],
+  "captions": [
+    {
+      "start": 1.25,
+      "end": 18.152,
+      "text": "Let us build interactive exhibition as a coherent visual system. Start with composition and reusable components, then move into motion, materials, and controlled variation."
+    },
+    {
+      "start": 18.552,
+      "end": 36.99733333333333,
+      "text": "Begin with timing in After Effects and a spatial composition in Cinema 4D. Animate the reveal, inspect the graph editor, and adjust the camera so the installation has a clear focal point."
+    },
+    {
+      "start": 37.397333333333336,
+      "end": 56.77,
+      "text": "Trace a visual variation through ComfyUI, plan a restrained shot in Higgsfield, and refine the scene in Blender. Resolve connects the cuts and color into one continuous exhibition experience."
+    },
+    {
+      "start": 57.17,
+      "end": 72.85333333333334,
+      "text": "Adapt the work into generative installation. Compare formats side by side, preview the movement, and review the final experience at the size people will actually see."
+    }
+  ],
+  "audio": {
+    "sampleRate": 24000,
+    "voicePath": "audio/pillow-design-demo-voice.wav",
+    "musicPath": "audio/pillow-design-demo-music.wav",
+    "mixPath": "audio/pillow-design-demo-mix.wav",
+    "voiceEngine": "Kokoro-82M ONNX",
+    "voiceId": "af_nicole",
+    "musicType": "Original procedural composition",
+    "peak": 0.7207392454147339
+  },
+  "editing": {
+    "revision": "20261124d",
+    "cutSeconds": [
+      3.946,
+      1.595,
+      2.855,
+      3.308,
+      2.631,
+      1.064,
+      1.903,
+      2.477,
+      1.001,
+      1.792,
+      2.076,
+      3.514,
+      3.753,
+      1.517,
+      2.715,
+      2.599,
+      1.051,
+      1.88,
+      2.178,
+      3.686,
+      3.938,
+      1.592,
+      2.849,
+      4.498,
+      1.772,
+      2.999,
+      3.203,
+      1.295,
+      2.317
+    ],
+    "splitFrames": 10,
+    "pictureInPictureFrames": 3,
+    "transitions": [
+      "dissolve",
+      "slide",
+      "cut",
+      "fade-in",
+      "fade-out"
+    ],
+    "particles": "subtle brand accents on concept/result shots",
+    "status": "editorial-review-required"
+  },
+  "revision": "20261124d",
+  "assignedInstructorId": "instructor-03",
+  "sourceVideoSha256": "ee1f681d55e55fbce59862b31380316cdbc12d813a5e899393d52b9bbfe70406",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "src": "assets/media/20261124d/pillow-design-demo-20261124d.mp4",
+  "path": "pillow-design-demo-20261124d.mp4",
+  "poster": "posters/pillow-design-demo-20261124d.jpg",
+  "subtitlePath": "captions/pillow-design-demo-20261124d.vtt",
+  "hasNarration": true,
+  "hasMusic": true,
+  "voiceId": "af_nicole",
+  "speakerId": "instructor-03",
+  "audioRole": "instructor-demonstration",
+  "voiceProvenance": "Existing verified temporary synthetic voice; encoded audio copied unchanged from v3",
+  "illustrative": true,
+  "disclosure": "Illustrative interface reconstructions and project concepts. Temporary synthetic instructor voices; project concepts use music only.",
+  "status": "technical-qa-passed-editorial-review-required",
+  "bytes": 8388831,
+  "sha256": "61b77041431a08272bcb45e9b8ff0603e582a7bb000119252a759b04063fe68d",
+  "audioStreamSha256": "SHA256=bb2bbf28c7f477a65dcd8e1579d3d1a12d48be9fe1eef32125fb42923b54515e",
+  "audioCopiedVerified": true,
+  "technicalQa": {
+    "passed": true,
+    "fullDecode": true,
+    "peakDb": -2.9
+  }
+}
