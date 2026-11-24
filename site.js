@@ -319,35 +319,94 @@
   function instructorDemoSection(member) {
     const section = el('section', 'profile-own-demo');
     section.dataset.mediaGroup = 'instructor-demo';
-    section.append(el('h2', '', t('profileOwnDemo')), el('p', 'portfolio-note', t('profileOwnDemoNote')));
-    const demos = assignedInstructorDemos(member);
-    const choices = teachingCourses(member).map(course => ({course,demo:demos.find(d => d.fieldId === course.id || (d.fieldIds?.length === 1 && d.fieldIds[0] === course.id))}));
+    const heading = el('h2', '', t('profileOwnDemo'));
+    heading.id = member.id + '-demo-heading'; section.setAttribute('aria-labelledby', heading.id);
+    section.append(heading, el('p', 'demo-help', t('profileDemoHelp')));
+    const demos = assignedInstructorDemos(member).filter(d => d.src || d.url);
+    const courses = teachingCourses(member);
+    const remembered = profileDemoSelections.get(member.id) || {};
+    const state = {field:courses.some(c => c.id === remembered.field) ? remembered.field : '', query:remembered.query || '', selected:remembered.selected || ''};
+    const controls = el('div', 'demo-controls');
+    const label = el('label', 'demo-search-label', t('profileDemoSearch'));
+    const searchRow = el('div', 'demo-search-row');
+    const searchBox = el('div', 'demo-search-box');
+    const icon = el('span', 'demo-search-icon'); icon.setAttribute('aria-hidden', 'true');
+    const input = el('input', 'demo-search'); input.type = 'search';
+    input.id = member.id + '-demo-search'; label.htmlFor = input.id;
+    input.placeholder = t('profileDemoSearchPlaceholder'); input.value = state.query;
+    input.autocomplete = 'off'; input.maxLength = 160;
+    const clear = el('button', 'demo-clear', t('profileDemoClear')); clear.type = 'button';
+    const reset = el('button', 'demo-reset', t('profileDemoReset')); reset.type = 'button';
+    searchBox.append(icon, input); searchRow.append(searchBox, clear);
+    const filters = el('div', 'demo-filters'); filters.setAttribute('role', 'group'); filters.setAttribute('aria-label', t('profileDemoField'));
+    const count = el('p', 'demo-result-count'); count.setAttribute('role', 'status'); count.setAttribute('aria-live', 'polite'); count.setAttribute('aria-atomic', 'true');
+    const summary = el('div', 'demo-summary'); summary.append(count, reset);
+    controls.append(label, searchRow, filters, summary);
+    const body = el('div', 'demo-browser');
+    const results = el('div', 'demo-results'); results.id = member.id + '-demo-results';
+    results.setAttribute('role', 'group'); results.setAttribute('aria-label', t('profileDemoResults'));
+    input.setAttribute('aria-controls', results.id);
     const player = el('div', 'profile-demo-player');
     player.id = member.id + '-demo-player';
-    const show = demo => {
-      player.querySelectorAll('video').forEach(video => video.pause());
-      player.replaceChildren(mediaCard(demo || {}, demo?.title?.[lang] || t('profileOwnDemo')));
+    const strings = value => typeof value === 'string' ? value : value && typeof value === 'object' ? Object.values(value).map(strings).join(' ') : '';
+    const normalize = value => value.normalize('NFKC').toLocaleLowerCase().trim();
+    const matches = demo => {
+      const course = courses.find(c => c.id === demo.fieldId);
+      const haystack = normalize(strings([demo.title, demo.description, demo.searchKeywords, demo.tools, course?.title]));
+      return normalize(state.query).split(/\s+/).filter(Boolean).every(word => haystack.includes(word));
     };
-    if (choices.length) {
-      const label = el('label', 'profile-demo-field-label', t('profileDemoField'));
-      const select = el('select', 'profile-demo-field-select');
-      select.id = member.id + '-demo-field'; label.htmlFor = select.id;
-      select.setAttribute('aria-controls', player.id);
-      for (const {course} of choices) {
-        const option = el('option', '', course.title); option.value = course.id; select.append(option);
+    let displayed = null;
+    const save = () => profileDemoSelections.set(member.id, {...state});
+    const show = demo => {
+      if (displayed !== demo?.id) {
+        player.querySelectorAll('video').forEach(video => video.pause());
+        player.replaceChildren(...(demo ? [mediaCard(demo, demo.title?.[lang] || t('profileOwnDemo'))] : []));
+        displayed = demo?.id;
       }
-      const remembered = profileDemoSelections.get(member.id);
-      select.value = choices.some(choice => choice.course.id === remembered) ? remembered : choices[0].course.id;
-      const choose = () => {
-        const choice = choices.find(item => item.course.id === select.value);
-        profileDemoSelections.set(member.id, choice.course.id);
-        show(choice.demo); // Switching fields never starts audio or playback.
-      };
-      select.addEventListener('change', choose);
-      section.append(label, select); choose();
-    } else show(demos[0]);
-    section.append(player);
-    if (!demos.some(demo => demo.src || demo.url)) section.append(el('p', 'profile-pending', t('profileOwnDemoPending')));
+      player.hidden = !demo;
+    };
+    const chips = [{id:'', title:t('profileDemoAll')}, ...courses].map(course => {
+      const button = el('button', 'demo-filter'); button.type = 'button'; button.dataset.fieldId = course.id;
+      button.setAttribute('aria-controls', results.id);
+      button.addEventListener('click', () => {state.field = course.id; pauseVideos(); update();});
+      filters.append(button); return {course, button};
+    });
+    function update() {
+      const queried = demos.filter(matches);
+      const visible = queried.filter(d => !state.field || d.fieldId === state.field);
+      for (const {course, button} of chips) {
+        const n = queried.filter(d => !course.id || d.fieldId === course.id).length;
+        button.textContent = course.title + ' · ' + n;
+        button.setAttribute('aria-pressed', String(state.field === course.id));
+      }
+      clear.disabled = !state.query;
+      reset.disabled = !state.query && !state.field;
+      count.textContent = t('profileDemoCount').replace('{count}', visible.length).replace('{total}', demos.length);
+      results.replaceChildren();
+      if (!visible.length) {
+        results.append(el('p', 'demo-empty', t(state.query ? 'profileDemoNoResults' : 'profileOwnDemoPending')));
+        show(null); save(); return;
+      }
+      const selected = visible.find(d => d.id === state.selected) || visible[0];
+      state.selected = selected.id;
+      for (const demo of visible) {
+        const button = el('button', 'demo-result'); button.type = 'button'; button.dataset.mediaId = demo.id;
+        button.setAttribute('aria-pressed', String(demo.id === selected.id)); button.setAttribute('aria-controls', player.id);
+        button.append(el('span', 'demo-result-field', courses.find(c => c.id === demo.fieldId)?.title), el('span', 'demo-result-title', demo.title?.[lang]));
+        if (demo.tools?.length) button.append(el('span', 'demo-result-tools', demo.tools.join(' · ')));
+        button.addEventListener('click', () => {
+          state.selected = demo.id; save(); show(demo);
+          results.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.mediaId === demo.id)));
+        });
+        results.append(button);
+      }
+      show(selected); save();
+    }
+    input.addEventListener('input', () => {state.query = input.value; update();});
+    clear.addEventListener('click', () => {state.query = ''; input.value = ''; update(); input.focus();});
+    reset.addEventListener('click', () => {state.query = ''; state.field = ''; input.value = ''; pauseVideos(); update(); input.focus();});
+    body.append(results, player); section.append(controls, body, el('p', 'demo-provenance', t('profileOwnDemoNote')));
+    update();
     return section;
   }
   function courseMediaGrid(course) {
