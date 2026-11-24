@@ -125,7 +125,8 @@ window.ACUMELO = {
           "analytics": "acumelo-chris-analytics-demo-20261123c",
           "marketing": "acumelo-chris-marketing-demo-20261123c",
           "development": "acumelo-chris-development-demo-20261123c"
-        }
+        },
+        "voiceId": "am_michael"
       }
     },
     {
@@ -221,7 +222,8 @@ window.ACUMELO = {
           "strategy": "acumelo-sage-strategy-demo-20261123c",
           "design": "acumelo-sage-design-demo-20261123c",
           "development": "acumelo-sage-development-demo-20261123c"
-        }
+        },
+        "voiceId": "af_heart"
       }
     },
     {
@@ -314,7 +316,8 @@ window.ACUMELO = {
         "demos": {
           "design": "acumelo-pillow-design-demo-20261123c",
           "development": "acumelo-pillow-development-demo-20261123c"
-        }
+        },
+        "voiceId": "af_nicole"
       }
     },
     {
@@ -407,7 +410,8 @@ window.ACUMELO = {
         "demos": {
           "workflow": "acumelo-john-workflow-demo-20261123c",
           "development": "acumelo-john-development-demo-20261123c"
-        }
+        },
+        "voiceId": "bm_daniel"
       }
     },
     {
@@ -500,7 +504,8 @@ window.ACUMELO = {
         "demos": {
           "strategy": "acumelo-sarah-strategy-demo-20261123c",
           "design": "acumelo-sarah-design-demo-20261123c"
-        }
+        },
+        "voiceId": "bf_emma"
       }
     },
     {
@@ -594,7 +599,8 @@ window.ACUMELO = {
         "demos": {
           "analytics": "acumelo-joseph-analytics-demo-20261123c",
           "development": "acumelo-joseph-development-demo-20261123c"
-        }
+        },
+        "voiceId": "am_eric"
       }
     },
     {
@@ -687,7 +693,8 @@ window.ACUMELO = {
         "demos": {
           "marketing": "acumelo-rachel-marketing-demo-20261123c",
           "development": "acumelo-rachel-development-demo-20261123c"
-        }
+        },
+        "voiceId": "af_sarah"
       }
     },
     {
@@ -780,7 +787,8 @@ window.ACUMELO = {
         "demos": {
           "analytics": "acumelo-joshua-analytics-demo-20261123c",
           "development": "acumelo-joshua-development-demo-20261123c"
-        }
+        },
+        "voiceId": "bm_george"
       }
     },
     {
@@ -873,7 +881,8 @@ window.ACUMELO = {
         "demos": {
           "workflow": "acumelo-elizabeth-workflow-demo-20261123c",
           "strategy": "acumelo-elizabeth-strategy-demo-20261123c"
-        }
+        },
+        "voiceId": "bf_lily"
       }
     },
     {
@@ -963,7 +972,8 @@ window.ACUMELO = {
         },
         "demos": {
           "analytics": "acumelo-michael-analytics-demo-20261123c"
-        }
+        },
+        "voiceId": "am_liam"
       }
     },
     {
@@ -1056,7 +1066,8 @@ window.ACUMELO = {
         "demos": {
           "workflow": "acumelo-rebecca-workflow-demo-20261123c",
           "development": "acumelo-rebecca-development-demo-20261123c"
-        }
+        },
+        "voiceId": "af_bella"
       }
     }
   ],
@@ -1502,7 +1513,11 @@ window.ACUMELO = {
       "profileFieldProjectsNote": "담당 분야의 공통 프로젝트 콘셉트입니다. 이 강사의 실제 수강생 제출물이나 고객 실적이 아닙니다.",
       "profileTeachingFilmNote": "실제 강사가 출연하는 강의영상은 별도로 추가합니다.",
       "mediaGallery": "전체 영상 38편 보기",
-      "profileOwnedLibrary": "보관된 시연 라이브러리"
+      "profileOwnedLibrary": "보관된 시연 라이브러리",
+      "mediaInstructorAudio": "{name} 시연 · 임시 합성 음성과 배경음",
+      "mediaSharedProjectAudio": "공통 결과물 예시 · 합성 내레이션과 배경음",
+      "mediaSharedOverviewAudio": "공통 교육 소개 · 합성 내레이션과 배경음",
+      "mediaProjectBgmOnly": "공통 결과물 예시 · 배경음만 사용"
     },
     "en": {
       "title": "Acumelo — AI learning. Human possibility.",
@@ -1945,7 +1960,11 @@ window.ACUMELO = {
       "profileFieldProjectsNote": "Shared project concepts for these fields, not this instructor’s actual student submissions or client work.",
       "profileTeachingFilmNote": "A teaching film featuring the instructor will be added separately.",
       "mediaGallery": "Explore all 38 films",
-      "profileOwnedLibrary": "Media library"
+      "profileOwnedLibrary": "Media library",
+      "mediaInstructorAudio": "{name} demonstration · temporary synthetic voice + music",
+      "mediaSharedProjectAudio": "Shared project example · synthetic narrator + music",
+      "mediaSharedOverviewAudio": "Common course overview · synthetic narrator + music",
+      "mediaProjectBgmOnly": "Shared project example · music only"
     }
   },
   "courseMedia": {
@@ -1982,12 +2001,16 @@ window.ACUMELO = {
         "durationSeconds": 50.93333333333333,
         "narration": {
           "language": "en",
-          "temporaryVoice": true
+          "temporaryVoice": true,
+          "voiceId": "am_michael"
         },
         "hasBgm": true,
         "projectCount": 0,
         "sha256": "bdfb3d3a771390104e629e4b57627e3b449e6ade7104079d7e16b53c853a8239",
-        "bytes": 6171269
+        "bytes": 6171269,
+        "assignedInstructorId": null,
+        "voiceId": "am_michael",
+        "voiceRole": "shared-overview"
       },
       "project": {
         "mediaId": "acumelo-workflow-showcase-20261123c",
@@ -2014,12 +2037,16 @@ window.ACUMELO = {
         "durationSeconds": 31.633333333333333,
         "narration": {
           "language": "en",
-          "temporaryVoice": true
+          "temporaryVoice": true,
+          "voiceId": "af_heart"
         },
         "hasBgm": true,
         "projectCount": 24,
         "sha256": "c27b2b771003fb60f8c66cc2601d2f39fbeb82284b2648771cb246838221e134",
-        "bytes": 3315182
+        "bytes": 3315182,
+        "assignedInstructorId": null,
+        "voiceId": "af_heart",
+        "voiceRole": "shared-project-narration"
       }
     },
     "strategy": {
@@ -2055,12 +2082,16 @@ window.ACUMELO = {
         "durationSeconds": 50.36666666666667,
         "narration": {
           "language": "en",
-          "temporaryVoice": true
+          "temporaryVoice": true,
+          "voiceId": "am_michael"
         },
         "hasBgm": true,
         "projectCount": 0,
         "sha256": "05aa61f2f28254fd34aac28a884c570e1cbf820224ffef952444f2dc50ec53b3",
-        "bytes": 5209150
+        "bytes": 5209150,
+        "assignedInstructorId": null,
+        "voiceId": "am_michael",
+        "voiceRole": "shared-overview"
       },
       "project": {
         "mediaId": "acumelo-strategy-showcase-20261123c",
@@ -2087,12 +2118,16 @@ window.ACUMELO = {
         "durationSeconds": 32.2,
         "narration": {
           "language": "en",
-          "temporaryVoice": true
+          "temporaryVoice": true,
+          "voiceId": "af_heart"
         },
         "hasBgm": true,
         "projectCount": 24,
         "sha256": "3a0ef60b0d67a1cba52fc8e61f3f4db7b3dcffbcc9d592d0fc7900667e98068f",
-        "bytes": 3416718
+        "bytes": 3416718,
+        "assignedInstructorId": null,
+        "voiceId": "af_heart",
+        "voiceRole": "shared-project-narration"
       }
     },
     "design": {
@@ -2128,12 +2163,16 @@ window.ACUMELO = {
         "durationSeconds": 53.8,
         "narration": {
           "language": "en",
-          "temporaryVoice": true
+          "temporaryVoice": true,
+          "voiceId": "am_michael"
         },
         "hasBgm": true,
         "projectCount": 0,
         "sha256": "ef72f39f81dec1d46d70ce3d97cceccb35aaf56faf90f88e3f98fd8178dd9cca",
-        "bytes": 7885166
+        "bytes": 7885166,
+        "assignedInstructorId": null,
+        "voiceId": "am_michael",
+        "voiceRole": "shared-overview"
       },
       "project": {
         "mediaId": "acumelo-design-showcase-20261123c",
@@ -2160,12 +2199,16 @@ window.ACUMELO = {
         "durationSeconds": 31.333333333333332,
         "narration": {
           "language": "en",
-          "temporaryVoice": true
+          "temporaryVoice": true,
+          "voiceId": "af_heart"
         },
         "hasBgm": true,
         "projectCount": 24,
         "sha256": "8adbc37614bc1eae1b907dd0dbf46af42a8d257ad9091247f3ce262727c40f0f",
-        "bytes": 7842569
+        "bytes": 7842569,
+        "assignedInstructorId": null,
+        "voiceId": "af_heart",
+        "voiceRole": "shared-project-narration"
       }
     },
     "analytics": {
@@ -2201,12 +2244,16 @@ window.ACUMELO = {
         "durationSeconds": 51.53333333333333,
         "narration": {
           "language": "en",
-          "temporaryVoice": true
+          "temporaryVoice": true,
+          "voiceId": "am_michael"
         },
         "hasBgm": true,
         "projectCount": 0,
         "sha256": "ba7a734ed4177ba85ff555b3affd38d01a6b833b72101e91a24d1986678af2eb",
-        "bytes": 5459942
+        "bytes": 5459942,
+        "assignedInstructorId": null,
+        "voiceId": "am_michael",
+        "voiceRole": "shared-overview"
       },
       "project": {
         "mediaId": "acumelo-analytics-showcase-20261123c",
@@ -2233,12 +2280,16 @@ window.ACUMELO = {
         "durationSeconds": 31.133333333333333,
         "narration": {
           "language": "en",
-          "temporaryVoice": true
+          "temporaryVoice": true,
+          "voiceId": "af_heart"
         },
         "hasBgm": true,
         "projectCount": 24,
         "sha256": "96944d40d82383fc6b9be7d3a1a4076616a8f0d51d7a714b539fe33777a148d1",
-        "bytes": 3364247
+        "bytes": 3364247,
+        "assignedInstructorId": null,
+        "voiceId": "af_heart",
+        "voiceRole": "shared-project-narration"
       }
     },
     "marketing": {
@@ -2274,12 +2325,16 @@ window.ACUMELO = {
         "durationSeconds": 54.06666666666667,
         "narration": {
           "language": "en",
-          "temporaryVoice": true
+          "temporaryVoice": true,
+          "voiceId": "am_michael"
         },
         "hasBgm": true,
         "projectCount": 0,
         "sha256": "b9486c353e24103cf3055817a3e3e7fcee00dab2607f6c7b8017234378977ecb",
-        "bytes": 5581478
+        "bytes": 5581478,
+        "assignedInstructorId": null,
+        "voiceId": "am_michael",
+        "voiceRole": "shared-overview"
       },
       "project": {
         "mediaId": "acumelo-marketing-showcase-20261123c",
@@ -2306,12 +2361,16 @@ window.ACUMELO = {
         "durationSeconds": 31.333333333333332,
         "narration": {
           "language": "en",
-          "temporaryVoice": true
+          "temporaryVoice": true,
+          "voiceId": "af_heart"
         },
         "hasBgm": true,
         "projectCount": 24,
         "sha256": "5093a45cf34b57906bb6c7df52045c9fcf0efab6071e5db27ff6afe87772cca6",
-        "bytes": 4848518
+        "bytes": 4848518,
+        "assignedInstructorId": null,
+        "voiceId": "af_heart",
+        "voiceRole": "shared-project-narration"
       }
     },
     "development": {
@@ -2347,12 +2406,16 @@ window.ACUMELO = {
         "durationSeconds": 54.86666666666667,
         "narration": {
           "language": "en",
-          "temporaryVoice": true
+          "temporaryVoice": true,
+          "voiceId": "am_michael"
         },
         "hasBgm": true,
         "projectCount": 0,
         "sha256": "7986a95cb141293425fbb1fc50c3e4be98ac1a61180f2583ce7b4294dbbb1c6a",
-        "bytes": 7325952
+        "bytes": 7325952,
+        "assignedInstructorId": null,
+        "voiceId": "am_michael",
+        "voiceRole": "shared-overview"
       },
       "project": {
         "mediaId": "acumelo-development-showcase-20261123c",
@@ -2379,12 +2442,16 @@ window.ACUMELO = {
         "durationSeconds": 31.466666666666665,
         "narration": {
           "language": "en",
-          "temporaryVoice": true
+          "temporaryVoice": true,
+          "voiceId": "af_heart"
         },
         "hasBgm": true,
         "projectCount": 24,
         "sha256": "5d6189e2cd17f632162b27bbd80504323d97c6bff763304b90ad5f952b14860a",
-        "bytes": 5503184
+        "bytes": 5503184,
+        "assignedInstructorId": null,
+        "voiceId": "af_heart",
+        "voiceRole": "shared-project-narration"
       }
     }
   },
@@ -2415,12 +2482,16 @@ window.ACUMELO = {
       "durationSeconds": 51,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "am_michael"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "396039fdeedeaf5249011fbe60d0ed94feebb657f47cdac5acae619396efec1b",
-      "bytes": 6030589
+      "bytes": 6030589,
+      "assignedInstructorId": "instructor-chris",
+      "voiceId": "am_michael",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-chris-strategy-demo-20261123c": {
       "mediaId": "acumelo-chris-strategy-demo-20261123c",
@@ -2447,12 +2518,16 @@ window.ACUMELO = {
       "durationSeconds": 50.4,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "am_michael"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "1456f91e3142133e21a789f04ba8005b50653b1ca6f14d9684e6543d674c063b",
-      "bytes": 4902352
+      "bytes": 4902352,
+      "assignedInstructorId": "instructor-chris",
+      "voiceId": "am_michael",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-chris-design-demo-20261123c": {
       "mediaId": "acumelo-chris-design-demo-20261123c",
@@ -2479,12 +2554,16 @@ window.ACUMELO = {
       "durationSeconds": 53.8,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "am_michael"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "1d07c995efd55bef076e152ed4daea18a06d130b55ed001bfd83d601fecdd428",
-      "bytes": 7884096
+      "bytes": 7884096,
+      "assignedInstructorId": "instructor-chris",
+      "voiceId": "am_michael",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-chris-analytics-demo-20261123c": {
       "mediaId": "acumelo-chris-analytics-demo-20261123c",
@@ -2511,12 +2590,16 @@ window.ACUMELO = {
       "durationSeconds": 51.56666666666667,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "am_michael"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "57b933d672c50b589bbd627470957d7780d2f5f5c4e46c3c10d7c082936cb3fb",
-      "bytes": 5460879
+      "bytes": 5460879,
+      "assignedInstructorId": "instructor-chris",
+      "voiceId": "am_michael",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-chris-marketing-demo-20261123c": {
       "mediaId": "acumelo-chris-marketing-demo-20261123c",
@@ -2543,12 +2626,16 @@ window.ACUMELO = {
       "durationSeconds": 54.06666666666667,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "am_michael"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "9f5b21321cbc941f6b934a570701ae4a2cecc49141c26e5b08c3c181690a0156",
-      "bytes": 5415338
+      "bytes": 5415338,
+      "assignedInstructorId": "instructor-chris",
+      "voiceId": "am_michael",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-chris-development-demo-20261123c": {
       "mediaId": "acumelo-chris-development-demo-20261123c",
@@ -2575,12 +2662,16 @@ window.ACUMELO = {
       "durationSeconds": 55,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "am_michael"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "f4e7cb567d30227151adc5196d8cc169519ae711d448d25fddec92cef9406cb3",
-      "bytes": 7395296
+      "bytes": 7395296,
+      "assignedInstructorId": "instructor-chris",
+      "voiceId": "am_michael",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-sage-strategy-demo-20261123c": {
       "mediaId": "acumelo-sage-strategy-demo-20261123c",
@@ -2607,12 +2698,16 @@ window.ACUMELO = {
       "durationSeconds": 46.96666666666667,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "af_heart"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "41403240ba178af4b990ee9ed9a4037886a71f0f73d94a73dd5a5b8da34adfc4",
-      "bytes": 4358011
+      "bytes": 4358011,
+      "assignedInstructorId": "instructor-sage",
+      "voiceId": "af_heart",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-sage-design-demo-20261123c": {
       "mediaId": "acumelo-sage-design-demo-20261123c",
@@ -2639,12 +2734,16 @@ window.ACUMELO = {
       "durationSeconds": 51.06666666666667,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "af_heart"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "60f5829ab7c3e03b37697a3fbd664ddc329f662d5514b45ffe280f04535c9c67",
-      "bytes": 7325983
+      "bytes": 7325983,
+      "assignedInstructorId": "instructor-sage",
+      "voiceId": "af_heart",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-sage-development-demo-20261123c": {
       "mediaId": "acumelo-sage-development-demo-20261123c",
@@ -2671,12 +2770,16 @@ window.ACUMELO = {
       "durationSeconds": 48.63333333333333,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "af_heart"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "b49432a1add6c1965e48d6e62505f0be7d5990a1feb35aa061c7a0dc5a78967f",
-      "bytes": 5560134
+      "bytes": 5560134,
+      "assignedInstructorId": "instructor-sage",
+      "voiceId": "af_heart",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-pillow-design-demo-20261123c": {
       "mediaId": "acumelo-pillow-design-demo-20261123c",
@@ -2703,12 +2806,16 @@ window.ACUMELO = {
       "durationSeconds": 74.1,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "af_nicole"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "ee1f681d55e55fbce59862b31380316cdbc12d813a5e899393d52b9bbfe70406",
-      "bytes": 9173704
+      "bytes": 9173704,
+      "assignedInstructorId": "instructor-03",
+      "voiceId": "af_nicole",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-pillow-development-demo-20261123c": {
       "mediaId": "acumelo-pillow-development-demo-20261123c",
@@ -2735,12 +2842,16 @@ window.ACUMELO = {
       "durationSeconds": 74.43333333333334,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "af_nicole"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "ac6fc56af2915924754a8e6410452657db86b75abbcbd94650f1dd46e720a0b0",
-      "bytes": 9605528
+      "bytes": 9605528,
+      "assignedInstructorId": "instructor-03",
+      "voiceId": "af_nicole",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-john-workflow-demo-20261123c": {
       "mediaId": "acumelo-john-workflow-demo-20261123c",
@@ -2767,12 +2878,16 @@ window.ACUMELO = {
       "durationSeconds": 40.4,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "bm_daniel"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "447d4c08e513f65eb53b84d88f980f1240bc24faa2ba56d1afdb8f3fc914cee3",
-      "bytes": 4912479
+      "bytes": 4912479,
+      "assignedInstructorId": "instructor-04",
+      "voiceId": "bm_daniel",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-john-development-demo-20261123c": {
       "mediaId": "acumelo-john-development-demo-20261123c",
@@ -2799,12 +2914,16 @@ window.ACUMELO = {
       "durationSeconds": 46.63333333333333,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "bm_daniel"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "838997b95b2a64ab59547f131ec18b7418d6666d41d19cfbcd5c6e7d0c662f61",
-      "bytes": 5055254
+      "bytes": 5055254,
+      "assignedInstructorId": "instructor-04",
+      "voiceId": "bm_daniel",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-sarah-strategy-demo-20261123c": {
       "mediaId": "acumelo-sarah-strategy-demo-20261123c",
@@ -2831,12 +2950,16 @@ window.ACUMELO = {
       "durationSeconds": 40.766666666666666,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "bf_emma"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "88bffcc6e00914a41fc5455addd41d5ec6234616896835cef0a992a77d2a194c",
-      "bytes": 4344898
+      "bytes": 4344898,
+      "assignedInstructorId": "instructor-05",
+      "voiceId": "bf_emma",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-sarah-design-demo-20261123c": {
       "mediaId": "acumelo-sarah-design-demo-20261123c",
@@ -2863,12 +2986,16 @@ window.ACUMELO = {
       "durationSeconds": 45.2,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "bf_emma"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "0ed2936959542efb6e3041d19e80e5f99336ca68a4d4f7a1120566a60aac61d9",
-      "bytes": 5389805
+      "bytes": 5389805,
+      "assignedInstructorId": "instructor-05",
+      "voiceId": "bf_emma",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-joseph-analytics-demo-20261123c": {
       "mediaId": "acumelo-joseph-analytics-demo-20261123c",
@@ -2895,12 +3022,16 @@ window.ACUMELO = {
       "durationSeconds": 41.7,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "am_eric"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "58fab4e11af78801916cf6a9b08ad0901a02d2560a89178590e33b6fb3f38170",
-      "bytes": 4681843
+      "bytes": 4681843,
+      "assignedInstructorId": "instructor-06",
+      "voiceId": "am_eric",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-joseph-development-demo-20261123c": {
       "mediaId": "acumelo-joseph-development-demo-20261123c",
@@ -2927,12 +3058,16 @@ window.ACUMELO = {
       "durationSeconds": 43.56666666666667,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "am_eric"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "260c7417685235ce960f862f17c6062eac46deabf346cd5c8f56a8173e636130",
-      "bytes": 4487924
+      "bytes": 4487924,
+      "assignedInstructorId": "instructor-06",
+      "voiceId": "am_eric",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-rachel-marketing-demo-20261123c": {
       "mediaId": "acumelo-rachel-marketing-demo-20261123c",
@@ -2959,12 +3094,16 @@ window.ACUMELO = {
       "durationSeconds": 50.333333333333336,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "af_sarah"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "8dcdb695b0284e616e00ba5a4b1be0e3e9eff83940fb5c363d9a297a933d2ce5",
-      "bytes": 5306433
+      "bytes": 5306433,
+      "assignedInstructorId": "instructor-07",
+      "voiceId": "af_sarah",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-rachel-development-demo-20261123c": {
       "mediaId": "acumelo-rachel-development-demo-20261123c",
@@ -2991,12 +3130,16 @@ window.ACUMELO = {
       "durationSeconds": 48.03333333333333,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "af_sarah"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "3c28457ad0da8a90154f9141b0ae88b77bcbbf20075444d3c5a007f98debd1b3",
-      "bytes": 5889066
+      "bytes": 5889066,
+      "assignedInstructorId": "instructor-07",
+      "voiceId": "af_sarah",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-joshua-analytics-demo-20261123c": {
       "mediaId": "acumelo-joshua-analytics-demo-20261123c",
@@ -3023,12 +3166,16 @@ window.ACUMELO = {
       "durationSeconds": 53.733333333333334,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "bm_george"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "9364679d10c8811c7cddb99d785b7c9fa1271ace9d75c6bf7c285db1b661bbb8",
-      "bytes": 5957185
+      "bytes": 5957185,
+      "assignedInstructorId": "instructor-08",
+      "voiceId": "bm_george",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-joshua-development-demo-20261123c": {
       "mediaId": "acumelo-joshua-development-demo-20261123c",
@@ -3055,12 +3202,16 @@ window.ACUMELO = {
       "durationSeconds": 52.3,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "bm_george"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "32620275636fcb4395e3b4a9d41275b20ca0b46945eec0959cc777de4b40768e",
-      "bytes": 6345717
+      "bytes": 6345717,
+      "assignedInstructorId": "instructor-08",
+      "voiceId": "bm_george",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-elizabeth-workflow-demo-20261123c": {
       "mediaId": "acumelo-elizabeth-workflow-demo-20261123c",
@@ -3087,12 +3238,16 @@ window.ACUMELO = {
       "durationSeconds": 46.63333333333333,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "bf_lily"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "99defc7d8c3ff194900f184356e61db785a5229e775e7e39f63ac46869e52415",
-      "bytes": 5050326
+      "bytes": 5050326,
+      "assignedInstructorId": "instructor-09",
+      "voiceId": "bf_lily",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-elizabeth-strategy-demo-20261123c": {
       "mediaId": "acumelo-elizabeth-strategy-demo-20261123c",
@@ -3119,12 +3274,16 @@ window.ACUMELO = {
       "durationSeconds": 43.833333333333336,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "bf_lily"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "c7c36a40802861a132ebf31df54e6ad24e219d70cbfd60f35ba5d5aeee400ee7",
-      "bytes": 4592224
+      "bytes": 4592224,
+      "assignedInstructorId": "instructor-09",
+      "voiceId": "bf_lily",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-michael-analytics-demo-20261123c": {
       "mediaId": "acumelo-michael-analytics-demo-20261123c",
@@ -3151,12 +3310,16 @@ window.ACUMELO = {
       "durationSeconds": 43.1,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "am_liam"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "b66e894a7e364ec868c952d15d1751d0d0d50222dcde38525a7e08bf7798ed31",
-      "bytes": 4887528
+      "bytes": 4887528,
+      "assignedInstructorId": "instructor-10",
+      "voiceId": "am_liam",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-rebecca-workflow-demo-20261123c": {
       "mediaId": "acumelo-rebecca-workflow-demo-20261123c",
@@ -3183,12 +3346,16 @@ window.ACUMELO = {
       "durationSeconds": 52.93333333333333,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "af_bella"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "d331c9c74f7adf727048053d3796b2b3d56e48ab753fd800ef9628f66ed73c0e",
-      "bytes": 5487492
+      "bytes": 5487492,
+      "assignedInstructorId": "instructor-11",
+      "voiceId": "af_bella",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-rebecca-development-demo-20261123c": {
       "mediaId": "acumelo-rebecca-development-demo-20261123c",
@@ -3215,12 +3382,16 @@ window.ACUMELO = {
       "durationSeconds": 52.56666666666667,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "af_bella"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "c8a636b39ad4e69abe67571435959abc64a68bb37ed9e84a5fde8690eaf6e0f9",
-      "bytes": 5436507
+      "bytes": 5436507,
+      "assignedInstructorId": "instructor-11",
+      "voiceId": "af_bella",
+      "voiceRole": "instructor-demo"
     },
     "acumelo-workflow-overview-20261123c": {
       "mediaId": "acumelo-workflow-overview-20261123c",
@@ -3247,12 +3418,16 @@ window.ACUMELO = {
       "durationSeconds": 50.93333333333333,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "am_michael"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "bdfb3d3a771390104e629e4b57627e3b449e6ade7104079d7e16b53c853a8239",
-      "bytes": 6171269
+      "bytes": 6171269,
+      "assignedInstructorId": null,
+      "voiceId": "am_michael",
+      "voiceRole": "shared-overview"
     },
     "acumelo-workflow-showcase-20261123c": {
       "mediaId": "acumelo-workflow-showcase-20261123c",
@@ -3279,12 +3454,16 @@ window.ACUMELO = {
       "durationSeconds": 31.633333333333333,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "af_heart"
       },
       "hasBgm": true,
       "projectCount": 24,
       "sha256": "c27b2b771003fb60f8c66cc2601d2f39fbeb82284b2648771cb246838221e134",
-      "bytes": 3315182
+      "bytes": 3315182,
+      "assignedInstructorId": null,
+      "voiceId": "af_heart",
+      "voiceRole": "shared-project-narration"
     },
     "acumelo-strategy-overview-20261123c": {
       "mediaId": "acumelo-strategy-overview-20261123c",
@@ -3311,12 +3490,16 @@ window.ACUMELO = {
       "durationSeconds": 50.36666666666667,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "am_michael"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "05aa61f2f28254fd34aac28a884c570e1cbf820224ffef952444f2dc50ec53b3",
-      "bytes": 5209150
+      "bytes": 5209150,
+      "assignedInstructorId": null,
+      "voiceId": "am_michael",
+      "voiceRole": "shared-overview"
     },
     "acumelo-strategy-showcase-20261123c": {
       "mediaId": "acumelo-strategy-showcase-20261123c",
@@ -3343,12 +3526,16 @@ window.ACUMELO = {
       "durationSeconds": 32.2,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "af_heart"
       },
       "hasBgm": true,
       "projectCount": 24,
       "sha256": "3a0ef60b0d67a1cba52fc8e61f3f4db7b3dcffbcc9d592d0fc7900667e98068f",
-      "bytes": 3416718
+      "bytes": 3416718,
+      "assignedInstructorId": null,
+      "voiceId": "af_heart",
+      "voiceRole": "shared-project-narration"
     },
     "acumelo-design-overview-20261123c": {
       "mediaId": "acumelo-design-overview-20261123c",
@@ -3375,12 +3562,16 @@ window.ACUMELO = {
       "durationSeconds": 53.8,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "am_michael"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "ef72f39f81dec1d46d70ce3d97cceccb35aaf56faf90f88e3f98fd8178dd9cca",
-      "bytes": 7885166
+      "bytes": 7885166,
+      "assignedInstructorId": null,
+      "voiceId": "am_michael",
+      "voiceRole": "shared-overview"
     },
     "acumelo-design-showcase-20261123c": {
       "mediaId": "acumelo-design-showcase-20261123c",
@@ -3407,12 +3598,16 @@ window.ACUMELO = {
       "durationSeconds": 31.333333333333332,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "af_heart"
       },
       "hasBgm": true,
       "projectCount": 24,
       "sha256": "8adbc37614bc1eae1b907dd0dbf46af42a8d257ad9091247f3ce262727c40f0f",
-      "bytes": 7842569
+      "bytes": 7842569,
+      "assignedInstructorId": null,
+      "voiceId": "af_heart",
+      "voiceRole": "shared-project-narration"
     },
     "acumelo-analytics-overview-20261123c": {
       "mediaId": "acumelo-analytics-overview-20261123c",
@@ -3439,12 +3634,16 @@ window.ACUMELO = {
       "durationSeconds": 51.53333333333333,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "am_michael"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "ba7a734ed4177ba85ff555b3affd38d01a6b833b72101e91a24d1986678af2eb",
-      "bytes": 5459942
+      "bytes": 5459942,
+      "assignedInstructorId": null,
+      "voiceId": "am_michael",
+      "voiceRole": "shared-overview"
     },
     "acumelo-analytics-showcase-20261123c": {
       "mediaId": "acumelo-analytics-showcase-20261123c",
@@ -3471,12 +3670,16 @@ window.ACUMELO = {
       "durationSeconds": 31.133333333333333,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "af_heart"
       },
       "hasBgm": true,
       "projectCount": 24,
       "sha256": "96944d40d82383fc6b9be7d3a1a4076616a8f0d51d7a714b539fe33777a148d1",
-      "bytes": 3364247
+      "bytes": 3364247,
+      "assignedInstructorId": null,
+      "voiceId": "af_heart",
+      "voiceRole": "shared-project-narration"
     },
     "acumelo-marketing-overview-20261123c": {
       "mediaId": "acumelo-marketing-overview-20261123c",
@@ -3503,12 +3706,16 @@ window.ACUMELO = {
       "durationSeconds": 54.06666666666667,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "am_michael"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "b9486c353e24103cf3055817a3e3e7fcee00dab2607f6c7b8017234378977ecb",
-      "bytes": 5581478
+      "bytes": 5581478,
+      "assignedInstructorId": null,
+      "voiceId": "am_michael",
+      "voiceRole": "shared-overview"
     },
     "acumelo-marketing-showcase-20261123c": {
       "mediaId": "acumelo-marketing-showcase-20261123c",
@@ -3535,12 +3742,16 @@ window.ACUMELO = {
       "durationSeconds": 31.333333333333332,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "af_heart"
       },
       "hasBgm": true,
       "projectCount": 24,
       "sha256": "5093a45cf34b57906bb6c7df52045c9fcf0efab6071e5db27ff6afe87772cca6",
-      "bytes": 4848518
+      "bytes": 4848518,
+      "assignedInstructorId": null,
+      "voiceId": "af_heart",
+      "voiceRole": "shared-project-narration"
     },
     "acumelo-development-overview-20261123c": {
       "mediaId": "acumelo-development-overview-20261123c",
@@ -3567,12 +3778,16 @@ window.ACUMELO = {
       "durationSeconds": 54.86666666666667,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "am_michael"
       },
       "hasBgm": true,
       "projectCount": 0,
       "sha256": "7986a95cb141293425fbb1fc50c3e4be98ac1a61180f2583ce7b4294dbbb1c6a",
-      "bytes": 7325952
+      "bytes": 7325952,
+      "assignedInstructorId": null,
+      "voiceId": "am_michael",
+      "voiceRole": "shared-overview"
     },
     "acumelo-development-showcase-20261123c": {
       "mediaId": "acumelo-development-showcase-20261123c",
@@ -3599,12 +3814,16 @@ window.ACUMELO = {
       "durationSeconds": 31.466666666666665,
       "narration": {
         "language": "en",
-        "temporaryVoice": true
+        "temporaryVoice": true,
+        "voiceId": "af_heart"
       },
       "hasBgm": true,
       "projectCount": 24,
       "sha256": "5d6189e2cd17f632162b27bbd80504323d97c6bff763304b90ad5f952b14860a",
-      "bytes": 5503184
+      "bytes": 5503184,
+      "assignedInstructorId": null,
+      "voiceId": "af_heart",
+      "voiceRole": "shared-project-narration"
     }
   },
   "mediaAssignments": [

@@ -46,18 +46,12 @@
   const profileDemoSelections = new Map();
   function assignedInstructorDemos(member) {
     const history = (content.mediaAssignments || []).filter(a => a.assignedInstructorId === member.id && a.placement === 'profile-demo');
-    // Legacy v2 clips are used only until this profile enters the assignment registry.
-    if (!history.length) {
-      if (member.media?.demos) return member.teachingFieldIds.map(fieldId => {
-        const mediaId = member.media.demos[fieldId];
-        const asset = content.mediaCatalog?.[mediaId];
-        return asset?.fieldId === fieldId ? {...asset,id:asset.mediaId,fieldIds:[fieldId]} : null;
-      }).filter(Boolean);
-      return member.media?.demo ? [member.media.demo] : [];
-    }
+    // Ownership does not identify the presenter. Missing/invalid assignments stay empty.
     return history.filter(a => a.status === 'active').map(assignment => {
       const asset = content.mediaCatalog?.[assignment.mediaId];
-      if (!asset || asset.fieldId !== assignment.fieldId || !member.teachingFieldIds.includes(assignment.fieldId)) return null;
+      if (!asset || asset.scope !== 'instructor' || asset.kind !== 'demo' || asset.assignedInstructorId !== member.id ||
+          asset.fieldId !== assignment.fieldId || !member.teachingFieldIds.includes(assignment.fieldId) ||
+          !member.media?.voiceId || asset.voiceId !== member.media.voiceId) return null;
       return {...asset, id:asset.mediaId, fieldIds:[assignment.fieldId]};
     }).filter(Boolean);
   }
@@ -254,6 +248,9 @@
   function mediaCard(asset = {}, label, project = false, headingTag = 'h3') {
     const card = el('article', 'media-card');
     if (asset.id) card.dataset.mediaId = asset.id;
+    for (const key of ['scope','kind','contentOwnerId','assignedInstructorId','voiceId','voiceRole']) {
+      if (asset[key]) card.dataset[key] = asset[key];
+    }
     const visual = el('div', 'media-visual');
     const hasLink = /^https?:\/\//i.test(asset.url || '');
     let player;
@@ -288,7 +285,12 @@
       card.append(el('p', 'media-example-label', t(project ? 'mediaProjectExample' : 'mediaDemoExample')));
     }
     if (asset.narration?.temporaryVoice) {
-      card.append(el('p', 'media-audio-note', t('mediaSyntheticAudio')));
+      const member = content.members.find(m => m.id === asset.assignedInstructorId);
+      const note = asset.scope === 'category' ? t(project ? 'mediaSharedProjectAudio' : 'mediaSharedOverviewAudio') :
+        member ? t('mediaInstructorAudio').replace('{name}', member.name[lang]) : t('mediaSyntheticAudio');
+      card.append(el('p', 'media-audio-note', note));
+    } else if (project && asset.hasBgm) {
+      card.append(el('p', 'media-audio-note', t('mediaProjectBgmOnly')));
     }
     if (asset.description?.[lang]) descriptions.push(asset.description[lang]);
     if (descriptions.length) {
@@ -308,16 +310,18 @@
     if (history.length) {
       const active = history.find(a => a.status === 'active');
       const asset = active && content.mediaCatalog?.[active.mediaId];
-      return asset?.fieldId === course.id ? {...asset,id:asset.mediaId} : {};
+      return asset?.fieldId === course.id && asset.scope === 'category' && asset.kind === kind && !asset.assignedInstructorId ? {...asset,id:asset.mediaId} : {};
     }
-    return content.courseMedia[course.id]?.[kind] || {};
+    const asset = content.courseMedia[course.id]?.[kind];
+    if (kind === 'lecture') return asset || {};
+    return asset?.scope === 'category' && asset.kind === kind && asset.fieldId === course.id && !asset.assignedInstructorId ? asset : {};
   }
   function instructorDemoSection(member) {
     const section = el('section', 'profile-own-demo');
     section.dataset.mediaGroup = 'instructor-demo';
     section.append(el('h2', '', t('profileOwnDemo')), el('p', 'portfolio-note', t('profileOwnDemoNote')));
     const demos = assignedInstructorDemos(member);
-    const choices = teachingCourses(member).map(course => ({course,demo:demos.find(d => d.fieldId === course.id || (d.fieldIds?.length === 1 && d.fieldIds[0] === course.id))})).filter(choice => choice.demo);
+    const choices = teachingCourses(member).map(course => ({course,demo:demos.find(d => d.fieldId === course.id || (d.fieldIds?.length === 1 && d.fieldIds[0] === course.id))}));
     const player = el('div', 'profile-demo-player');
     player.id = member.id + '-demo-player';
     const show = demo => {

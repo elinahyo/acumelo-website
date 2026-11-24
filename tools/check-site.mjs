@@ -38,7 +38,14 @@ for(const a of data.mediaAssignments||[]){
   assert.equal(a.fieldId,asset.fieldId);
   assert(['active','superseded'].includes(a.status));
   assert(['profile-demo','course-demo','course-project','owner-library'].includes(a.placement));
-  if(a.placement==='profile-demo')assert(members.get(a.assignedInstructorId)?.teachingFieldIds.includes(a.fieldId));
+  if(a.placement==='profile-demo'){
+    const member=members.get(a.assignedInstructorId);assert(member?.teachingFieldIds.includes(a.fieldId));
+    assert.equal(asset.scope,'instructor');assert.equal(asset.kind,'demo');assert.equal(asset.assignedInstructorId,member.id);
+    assert(member.media.voiceId);assert.equal(asset.voiceId,member.media.voiceId);
+  }
+  if(a.placement==='course-demo'||a.placement==='course-project'){
+    assert.equal(asset.scope,'category');assert(!asset.assignedInstructorId);assert.equal(asset.kind,a.placement.slice(7));
+  }
   if(a.placement==='owner-library')assert.equal(a.assignedInstructorId,asset.contentOwnerId);
   if(a.status==='active'){
     const key=JSON.stringify([a.placement,a.assignedInstructorId||'',a.fieldId,a.placement==='owner-library'?a.mediaId:'']);
