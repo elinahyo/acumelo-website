@@ -1,0 +1,66 @@
+{
+  "status": "published-and-verified",
+  "pr": "https://github.com/elinahyo/acumelo-website/pull/4",
+  "approvedByUser": true,
+  "baseline": "4db46a928963d4dede0139623a12783476fb0c78",
+  "head": "714089d02711a4f8fab3bc02fa9c03d2c361cd68",
+  "merge": "ce1d215bb5b5af01627fac96c7960372e4da4265",
+  "pages": {
+    "id": 45318046165,
+    "status": "success",
+    "url": "https://github.com/elinahyo/acumelo-website/actions/runs/45318046165"
+  },
+  "public": {
+    "education": "https://elinahyo.github.io/acumelo-website/?page=lectures",
+    "instructor": "https://elinahyo.github.io/acumelo-website/?page=instructor-chris&field=workflow&tab=curriculum",
+    "indexGitBlob": "af4bed1ef52a6a5f9f330c4299cb52d749469dcc",
+    "localNavigationCases": 337,
+    "publicNavigationCases": 62,
+    "publicPlaybackGroups": 7
+  },
+  "preservedData": [
+    {
+      "key": "members",
+      "unchanged": true
+    },
+    {
+      "key": "mediaCatalog",
+      "unchanged": true
+    },
+    {
+      "key": "mediaAssignments",
+      "unchanged": true
+    },
+    {
+      "key": "courseMedia",
+      "unchanged": true
+    },
+    {
+      "key": "assets",
+      "unchanged": true
+    },
+    {
+      "key": "mediaGallery",
+      "unchanged": true
+    },
+    {
+      "key": "originalCopy",
+      "unchanged": true
+    }
+  ],
+  "preservedDirectories": [
+    {
+      "path": "assets",
+      "before": "b97ad2434c2aef823af224f35815bee6e1247272",
+      "after": "b97ad2434c2aef823af224f35815bee6e1247272"
+    },
+    {
+      "path": "media-production",
+      "before": "a50453161c872d095b65ee5b4491da56b33d8b13",
+      "after": "a50453161c872d095b65ee5b4491da56b33d8b13"
+    }
+  ],
+  "mediaEditing": "paused; no media or production files modified or deleted",
+  "localPreview": "http://127.0.0.1:8792/?page=lectures",
+  "remainingWork": []
+}

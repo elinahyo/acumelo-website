@@ -1,0 +1,392 @@
+{
+  "passed": true,
+  "base": "https://elinahyo.github.io/acumelo-website/",
+  "commit": "ce1d215bb5b5af01627fac96c7960372e4da4265",
+  "expectedBlob": "af4bed1ef52a6a5f9f330c4299cb52d749469dcc",
+  "publicBlob": "af4bed1ef52a6a5f9f330c4299cb52d749469dcc",
+  "cases": [
+    {
+      "lang": "en",
+      "width": 320,
+      "comparisonToInstructor": true,
+      "history": true,
+      "overflow": false
+    },
+    {
+      "lang": "en",
+      "width": 360,
+      "comparisonToInstructor": true,
+      "history": true,
+      "overflow": false
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "comparisonToInstructor": true,
+      "history": true,
+      "overflow": false
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "comparisonToInstructor": true,
+      "history": true,
+      "overflow": false
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "comparisonToInstructor": true,
+      "history": true,
+      "overflow": false
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-chris",
+      "field": "workflow",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-chris",
+      "field": "strategy",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-chris",
+      "field": "design",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-chris",
+      "field": "analytics",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-chris",
+      "field": "marketing",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-chris",
+      "field": "development",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-sage",
+      "field": "strategy",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-sage",
+      "field": "design",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-sage",
+      "field": "development",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-03",
+      "field": "design",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-03",
+      "field": "development",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-04",
+      "field": "workflow",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-04",
+      "field": "development",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-05",
+      "field": "strategy",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-05",
+      "field": "design",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-06",
+      "field": "analytics",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-06",
+      "field": "development",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-07",
+      "field": "marketing",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-07",
+      "field": "development",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-08",
+      "field": "analytics",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-08",
+      "field": "development",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-09",
+      "field": "workflow",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-09",
+      "field": "strategy",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-10",
+      "field": "analytics",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-11",
+      "field": "workflow",
+      "correctMapping": true
+    },
+    {
+      "lang": "en",
+      "instructor": "instructor-11",
+      "field": "development",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "width": 320,
+      "comparisonToInstructor": true,
+      "history": true,
+      "overflow": false
+    },
+    {
+      "lang": "ko",
+      "width": 360,
+      "comparisonToInstructor": true,
+      "history": true,
+      "overflow": false
+    },
+    {
+      "lang": "ko",
+      "width": 390,
+      "comparisonToInstructor": true,
+      "history": true,
+      "overflow": false
+    },
+    {
+      "lang": "ko",
+      "width": 768,
+      "comparisonToInstructor": true,
+      "history": true,
+      "overflow": false
+    },
+    {
+      "lang": "ko",
+      "width": 1440,
+      "comparisonToInstructor": true,
+      "history": true,
+      "overflow": false
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-chris",
+      "field": "workflow",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-chris",
+      "field": "strategy",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-chris",
+      "field": "design",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-chris",
+      "field": "analytics",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-chris",
+      "field": "marketing",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-chris",
+      "field": "development",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-sage",
+      "field": "strategy",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-sage",
+      "field": "design",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-sage",
+      "field": "development",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-03",
+      "field": "design",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-03",
+      "field": "development",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-04",
+      "field": "workflow",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-04",
+      "field": "development",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-05",
+      "field": "strategy",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-05",
+      "field": "design",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-06",
+      "field": "analytics",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-06",
+      "field": "development",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-07",
+      "field": "marketing",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-07",
+      "field": "development",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-08",
+      "field": "analytics",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-08",
+      "field": "development",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-09",
+      "field": "workflow",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-09",
+      "field": "strategy",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-10",
+      "field": "analytics",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-11",
+      "field": "workflow",
+      "correctMapping": true
+    },
+    {
+      "lang": "ko",
+      "instructor": "instructor-11",
+      "field": "development",
+      "correctMapping": true
+    }
+  ],
+  "errors": []
+}
