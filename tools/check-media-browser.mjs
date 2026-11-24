@@ -11,7 +11,7 @@ try{
  const url=pageId=>new URL('?page='+pageId,result.baseUrl).href;
  await page.goto(url('home'));
  const data=await page.evaluate(()=>window.ACUMELO);
- assert.equal(Object.keys(data.mediaCatalog).length,38);assert.equal(data.mediaAssignments.filter(a=>a.placement==='profile-demo').length,26);
+ const activeMedia=[...new Set(data.mediaAssignments.filter(a=>a.status==='active'&&a.placement!=='owner-library').map(a=>a.mediaId))].map(id=>data.mediaCatalog[id]);assert.equal(activeMedia.length,38);assert.equal(data.mediaAssignments.filter(a=>a.status==='active'&&a.placement==='profile-demo').length,26);
  for(const width of [320,390])for(const language of ['en','ko']){
   await page.setViewportSize({width,height:844});await page.goto(url('home'));
   if(!await page.locator('[data-lang="'+language+'"]').isVisible())await page.locator('#menu-toggle').click();
@@ -20,9 +20,9 @@ try{
    await page.goto(url(id));await page.waitForFunction(()=>document.body.dataset.page===new URL(location.href).searchParams.get('page'));
    const measurement=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth}));assert(measurement.scroll<=width+1,JSON.stringify({id,language,...measurement}));
    if(id.startsWith('instructor-')){
-    const member=data.members.find(m=>m.id===id),selector=page.locator('#'+id+' .profile-demo-field-select');
-    assert.equal(await selector.locator('option').count(),member.teachingFieldIds.length);
-    for(const field of member.teachingFieldIds){await selector.selectOption(field);const actual=await page.locator('#'+id+' .profile-demo-player .media-card').getAttribute('data-media-id');assert.equal(actual,member.media.demos[field]);assert.equal(await page.locator('#'+id+' .profile-demo-player video').count(),1);}
+    const member=data.members.find(m=>m.id===id),selector=page.locator('#'+id+' .demo-filters');
+    assert.equal(await selector.locator('button').count(),member.teachingFieldIds.length+1);
+    for(const field of member.teachingFieldIds){await selector.locator('[data-field-id="'+field+'"]').click();const actual=await page.locator('#'+id+' .profile-demo-player .media-card').getAttribute('data-media-id');assert.equal(actual,member.media.demos[field]);assert.equal(await page.locator('#'+id+' .profile-demo-player video').count(),1);}
     assert.equal(await page.locator('#'+id+' [data-media-group="lecture"] video').count(),0);
    }
    result.responsive.push({id,width,language,passed:true});
@@ -30,12 +30,12 @@ try{
  }
  await page.goto(url('instructor-chris'));
  await page.evaluate(async()=>{window.qaOld=document.querySelector('#instructor-chris .profile-demo-player video');await window.qaOld.play();});
- await page.locator('#instructor-chris .profile-demo-field-select').selectOption('development');assert(await page.evaluate(()=>window.qaOld.paused));
+ await page.locator('#instructor-chris .demo-filter[data-field-id="development"]').click();assert(await page.evaluate(()=>window.qaOld.paused));
  await page.evaluate(async()=>{const a=document.querySelector('#instructor-chris .profile-demo-player video');await a.play();const b=document.querySelector('#instructor-chris [data-media-group="field-projects"] video');await b.play();window.qaSecond=b;});
  assert(await page.evaluate(()=>document.querySelector('#instructor-chris .profile-demo-player video').paused));
  await page.locator('#instructor-chris a[data-page-link="development"]').first().click();assert(await page.evaluate(()=>window.qaSecond.paused));
  result.singlePlayback=true;result.fieldChangePauses=true;result.navigationPauses=true;
- const gallery=new URL('assets/media/20261123c/index.html',result.baseUrl).href;
+ const gallery=new URL(data.mediaGallery,result.baseUrl).href;
  for(const width of [320,390])for(const language of ['en','ko']){
   await page.setViewportSize({width,height:844});await page.goto(gallery);await page.locator('[data-language="'+language+'"]').click();
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));assert.equal(await page.locator('video').count(),38);
@@ -43,18 +43,18 @@ try{
   result.responsive.push({id:'gallery',width,language,passed:true});
  }
  await page.goto(gallery);
- for(const media of Object.values(data.mediaCatalog)){
+ for(const media of activeMedia){
   const file=media.src.split('/').pop();
   const info=await page.evaluate(async filename=>{
-   const video=[...document.querySelectorAll('video')].find(v=>v.querySelector('source')?.getAttribute('src')===filename);
+   const video=[...document.querySelectorAll('video')].find(v=>v.querySelector('source')?.getAttribute('src').split('/').pop()===filename);
    if(!video)throw Error('Missing gallery video '+filename);
    video.load();await Promise.race([new Promise((resolve,reject)=>{if(video.readyState>=1)return resolve();video.addEventListener('loadedmetadata',resolve,{once:true});video.addEventListener('error',()=>reject(Error('Video failed '+filename)),{once:true});}),new Promise((_,reject)=>setTimeout(()=>reject(Error('Metadata timeout '+filename)),20000))]);
    await video.play();await new Promise(resolve=>setTimeout(resolve,80));video.pause();
-   const track=video.querySelector('track'),caption=await fetch(track.src);const text=await caption.text();
-   const poster=await fetch(video.poster);const info={duration:video.duration,width:video.videoWidth,height:video.videoHeight,autoplay:video.autoplay,controls:video.controls,playsInline:video.playsInline,caption:caption.ok&&text.startsWith('WEBVTT'),poster:poster.ok};
+   const track=video.querySelector('track');let captionOk=!track;if(track){const caption=await fetch(track.src);captionOk=caption.ok&&(await caption.text()).startsWith('WEBVTT');}
+   const poster=await fetch(video.poster);const info={duration:video.duration,width:video.videoWidth,height:video.videoHeight,autoplay:video.autoplay,controls:video.controls,playsInline:video.playsInline,caption:captionOk,captionTracks:video.querySelectorAll('track').length,poster:poster.ok};
    video.preload='none';return info;
   },file);
-  assert(Math.abs(info.duration-media.durationSeconds)<0.6);assert.equal(info.width,1280);assert.equal(info.height,720);assert(info.caption&&info.poster&&info.controls&&info.playsInline&&!info.autoplay);
+  assert.equal(info.captionTracks,(media.captions||[]).length);assert(Math.abs(info.duration-media.durationSeconds)<0.6);assert.equal(info.width,1280);assert.equal(info.height,720);assert(info.caption&&info.poster&&info.controls&&info.playsInline&&!info.autoplay);
   result.playback.push({mediaId:media.mediaId,...info});
  }
  assert.equal(result.errors.length,0);result.passed=true;

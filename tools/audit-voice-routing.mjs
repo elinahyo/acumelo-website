@@ -12,15 +12,15 @@ try{
  for(const member of data.members){
   await page.goto(new URL('?page='+member.id,base).href);
   for(const field of member.teachingFieldIds){
-   await page.locator('#'+member.id+' .profile-demo-field-select').selectOption(field);
+   await page.locator('#'+member.id+' .demo-filter[data-field-id="'+field+'"]').click();
    const card=await page.locator('#'+member.id+' .profile-demo-player .media-card').evaluate(el=>({mediaId:el.dataset.mediaId,publicUrl:el.querySelector('video')?.src||null}));
    const asset=data.mediaCatalog[card.mediaId],assignment=data.mediaAssignments.find(a=>a.status==='active'&&a.placement==='profile-demo'&&a.assignedInstructorId===member.id&&a.fieldId===field);
-   const film=production.films.find(f=>f.mediaId===card.mediaId);assert(film);assert.equal(assignment.mediaId,card.mediaId);assert.equal(film.instructorId,member.id);assert.equal(film.scope,'instructor');
-   report.instructorCards.push({...card,member:member.name.en,assignedInstructorId:assignment.assignedInstructorId,contentOwnerId:asset.contentOwnerId,scope:asset.scope,kind:asset.kind,fieldId:field,voiceId:film.voice,expectedSha256:asset.sha256,expectedBytes:asset.bytes});
+   const film=production.films.find(f=>f.id===asset.src.split("/").pop().replace(/-2026112[34][cd]\.mp4$/, ""));assert(film);assert.equal(assignment.mediaId,card.mediaId);assert.equal(film.instructorId,member.id);assert.equal(film.scope,'instructor');assert.equal(asset.voiceId,film.voice);
+   report.instructorCards.push({...card,member:member.name.en,assignedInstructorId:assignment.assignedInstructorId,contentOwnerId:asset.contentOwnerId,scope:asset.scope,kind:asset.kind,fieldId:field,voiceId:asset.voiceId,expectedSha256:asset.sha256,expectedBytes:asset.bytes});
   }
   if(member.id==='instructor-chris'){
    const cards=await page.locator('#'+member.id+' [data-media-group="field-projects"] .media-card').evaluateAll(cards=>cards.map(el=>({mediaId:el.dataset.mediaId,publicUrl:el.querySelector('video')?.src})));
-   for(const card of cards){const asset=data.mediaCatalog[card.mediaId],film=production.films.find(f=>f.mediaId===card.mediaId);report.sharedProjectCards.push({...card,assignedInstructorId:null,contentOwnerId:asset.contentOwnerId,scope:asset.scope,kind:asset.kind,fieldId:asset.fieldId,voiceId:film.voice,expectedSha256:asset.sha256,expectedBytes:asset.bytes});}
+   for(const card of cards){const asset=data.mediaCatalog[card.mediaId],film=production.films.find(f=>f.id===asset.src.split("/").pop().replace(/-2026112[34][cd]\.mp4$/, ""));report.sharedProjectCards.push({...card,assignedInstructorId:null,contentOwnerId:asset.contentOwnerId,scope:asset.scope,kind:asset.kind,fieldId:asset.fieldId,voiceId:asset.voiceId,expectedSha256:asset.sha256,expectedBytes:asset.bytes});}
   }
  }
  for(let i=0;i<report.instructorCards.length+report.sharedProjectCards.length;i+=3){
