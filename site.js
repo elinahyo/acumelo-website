@@ -43,7 +43,6 @@
   const instructorAliases = Object.fromEntries(content.members.flatMap(member => (member.legacyIds || []).map(id => [id, member.id])));
   const resolvePage = page => instructorAliases[page] || page;
   const teachingCourses = member => t('courses').filter(course => member.teachingFieldIds.includes(course.id));
-  const profileDemoSelections = new Map();
   function assignedInstructorDemos(member) {
     const history = (content.mediaAssignments || []).filter(a => a.assignedInstructorId === member.id && a.placement === 'profile-demo');
     // Ownership does not identify the presenter. Missing/invalid assignments stay empty.
@@ -60,7 +59,6 @@
   const library = el('section', 'section media-library');
   library.id = 'library'; library.hidden = true;
   $('#lectures').after(library);
-  const mediaKinds = [['lecture', 'mediaLecture'], ['demo', 'mediaDemo'], ['project', 'mediaProject']];
   function pauseVideos(except) {
     document.querySelectorAll('video').forEach(video => { if (video !== except) video.pause(); });
   }
@@ -83,6 +81,7 @@
     const url = new URL(location.href);
     url.hash = '';
     url.searchParams.set('page', page);
+    url.searchParams.delete('field'); url.searchParams.delete('tab');
     return url.pathname + url.search;
   }
   function updatePageTitle() {
@@ -100,10 +99,23 @@
       else link.removeAttribute('aria-current');
     });
   }
-  function showPage(page, focus = false) {
+  function showPage(page, focus = false, resetScroll = true) {
     pauseVideos();
     activePage = pages.includes(page) ? page : 'home';
     toggleMenu(false);
+    renderActivePage();
+    if (activePage === 'contact') {
+      const requested = new URL(location.href).searchParams;
+      const field = requested.get('field');
+      const member = content.members.find(m => m.id === requested.get('instructor'));
+      if (courseIds.includes(field) && (!member || member.teachingFieldIds.includes(field))) $('#topic').value = field;
+      document.getElementById('enquiry-context')?.remove();
+      if (member && member.teachingFieldIds.includes(field)) {
+        const note = el('p', 'learning-note', member.name[lang] + ' · ' + t('courses').find(c => c.id === field).title);
+        note.id = 'enquiry-context'; form.prepend(note);
+      }
+      if (!$('#enquiry-result').hidden) $('#enquiry-draft').value = buildDraft();
+    }
     document.body.dataset.page = activePage;
     document.querySelectorAll('main > section').forEach(section => {
       section.hidden = section.id !== activePage && !(activePage === 'about' && section.classList.contains('expertise'));
@@ -115,7 +127,7 @@
     const heading = section.querySelector('h1, h2');
     if (heading) heading.setAttribute('aria-level', '1');
     updatePageTitle();
-    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+    if (resetScroll) window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
     if (focus && heading) {
       heading.setAttribute('tabindex', '-1');
       heading.focus({ preventScroll: true });
@@ -138,13 +150,18 @@
         if (!$('#enquiry-result').hidden) $('#enquiry-draft').value = buildDraft();
         $('#form-status').textContent = '';
       }
-      if (activePage !== page) {
-        try { history.pushState({ page }, '', pageUrl(page)); }
+      const samePage = activePage === page;
+      const target = new URL(link.href, location.href);
+      if (target.href !== location.href) {
+        try { history.pushState({ page }, '', target.pathname + target.search); }
         catch { location.href = link.href; return; }
       }
-      showPage(page, true);
+      showPage(page, true, !samePage);
   });
-  window.addEventListener('popstate', () => showPage(pageFromLocation(), true));
+  window.addEventListener('popstate', () => {
+    const page = pageFromLocation();
+    showPage(page, false, page !== activePage);
+  });
   function pageLink(page, text, className = '') {
     const link = el('a', className, text);
     link.href = '?page=' + page;
@@ -154,78 +171,201 @@
   function renderCourses() {
     const list = $('#course-list');
     list.replaceChildren();
+    const labels = el('div', 'course-comparison-labels'); labels.setAttribute('aria-hidden', 'true');
+    const copy = content.copy[lang].learning;
+    labels.append(el('span', '', copy.field), el('span', '', copy.audience), el('span', '', copy.outcome)); list.append(labels);
     t('courses').forEach((c, i) => {
       const article = el('article', 'course');
       article.dataset.courseId = c.id;
-      const link = pageLink(c.id, undefined, 'course-link');
+      const link = contextLink(c.id, c.id, 'curriculum', undefined, 'course-link comparison-link');
       const number = el('span', 'course-number', String(i + 1).padStart(2, '0'));
       number.setAttribute('aria-hidden', 'true');
       const title = el('div', 'course-title');
       title.append(el('span', 'small-caps', c.tag), el('h2', '', c.title), el('span', 'course-view', t('courseView')));
       const arrow = el('span', 'course-arrow', '→'); arrow.setAttribute('aria-hidden', 'true');
-      const summary = el('div', 'course-summary');
-      summary.append(el('p', '', c.problem), el('span', 'course-output-label', t('courseRepresentativeOutput')), el('p', 'course-output-short', c.shortOutput));
-      link.append(number, title, summary, arrow);
+      const audience = el('div', 'comparison-cell');
+      const output = el('div', 'comparison-cell');
+      audience.append(el('span', 'comparison-mobile-label', copy.audience), el('p', '', c.comparison.audience));
+      output.append(el('span', 'comparison-mobile-label', copy.outcome), el('p', '', c.comparison.output));
+      title.prepend(number); title.append(arrow);
+      link.append(title, audience, output);
       article.append(link); list.append(article);
     });
-    renderCoursePages();
     updatePageLinks();
   }
-  function renderCoursePages() {
-    t('courses').forEach((c, i) => {
-      const section = document.getElementById(c.id);
-      section.replaceChildren();
-      const breadcrumb = el('div', 'section-heading');
-      breadcrumb.append(pageLink('lectures', t('courseBack'), 'course-back'), el('span', 'small-caps', c.tag));
-      const header = el('header', 'course-header');
-      const heading = el('h1', 'page-title', c.title);
-      heading.id = c.id + '-title'; section.setAttribute('aria-labelledby', heading.id);
-      header.append(el('p', 'small-caps', t('courseProposal') + ' / ' + String(i + 1).padStart(2, '0')), heading, el('p', 'course-lead', c.subtitle), el('p', 'course-description', c.body));
-      const intro = el('div', 'course-overview');
-      const learning = el('div'), goals = el('ul', 'course-goals');
-      c.learning.forEach(goal => goals.append(el('li', '', goal)));
-      learning.append(el('h2', '', t('courseLearning')), goals);
-      const audience = el('aside', 'course-audience');
-      audience.append(el('h2', '', t('courseAudience')), el('p', '', c.audience), el('h2', 'prerequisite-title', t('coursePrerequisites')), el('p', '', c.prerequisites));
-      intro.append(learning, audience);
-      const curriculum = el('div', 'curriculum');
-      curriculum.append(el('h2', '', t('courseCurriculum')), el('p', 'curriculum-note', t('curriculumNote')));
-      const modules = el('ol', 'curriculum-list');
-      c.curriculum.forEach((step, index) => {
-        const item = el('li', 'curriculum-module'), body = el('div');
-        const number = el('span', 'module-number', String(index + 1).padStart(2, '0')); number.setAttribute('aria-hidden', 'true');
-        const practice = el('p', 'module-practice');
-        practice.append(el('span', '', t('coursePractice')), document.createTextNode(step[2]));
-        body.append(el('h3', '', step[0]), el('p', '', step[1]), practice);
-        item.append(number, body); modules.append(item);
-      });
-      curriculum.append(modules);
-      const outcome = el('div', 'course-outcome');
-      outcome.append(el('p', 'small-caps', t('outputLabel')), el('p', '', c.output));
-      section.append(breadcrumb, header, intro, curriculum, outcome);
-      if (c.id === 'development') {
-        const extension = el('div', 'course-extension');
-        extension.append(el('p', 'small-caps', 'UNITY · UNREAL ENGINE'), el('h2', '', t('courseExtension')), el('p', '', t('courseExtensionBody')));
-        section.append(extension);
-      }
-      const format = el('div', 'course-format');
-      const enquiry = pageLink('contact', t('courseEnquiry') + ' →', 'line-link');
-      enquiry.dataset.course = c.id;
-      format.append(el('h2', '', t('courseFormat')), el('p', '', t('courseFormatBody')), enquiry);
-      const instructors = content.members.filter(member => member.teachingFieldIds.includes(c.id));
-      const connection = el('div', 'course-instructor');
-      connection.append(el('h2', 'small-caps', t('courseInstructorConfirmed')));
-      const instructorLinks = el('div', 'course-instructor-links');
-      instructors.forEach(member => instructorLinks.append(pageLink(member.id, (member.name[lang] || t('memberPending')) + ' →', 'line-link')));
-      if (!instructors.length) instructorLinks.append(el('p', 'small', t('filterEmpty')));
-      connection.append(instructorLinks);
-      const film = el('div', 'course-film');
-      film.append(el('h2', '', t('courseVideo')), el('p', 'portfolio-note', t('mediaExampleNotice')), courseMediaGrid(c), pageLink('library', t('mediaLibraryExplore'), 'line-link'));
-      const other = el('nav', 'course-related'); other.setAttribute('aria-label', t('courseOther'));
-      other.append(el('p', 'small-caps', t('courseOther')));
-      t('courses').filter(course => course.id !== c.id).forEach(course => other.append(pageLink(course.id, course.title + ' →')));
-      section.append(format, connection, film, other);
+  function contextLink(page, field, tab, label, className = '') {
+    const link = pageLink(page, label, className);
+    link.href += '&field=' + encodeURIComponent(field) + '&tab=' + tab;
+    return link;
+  }
+  function renderActivePage() {
+    // Unmounted contexts contain no hidden media, captions or stale playback.
+    pauseVideos();
+    [...courseIds, ...instructorIds, 'library'].forEach(id => document.getElementById(id).replaceChildren());
+    const member = content.members.find(m => m.id === activePage);
+    const course = t('courses').find(c => c.id === activePage);
+    if (member) renderInstructorPage(member, content.members.indexOf(member));
+    else if (course) renderCoursePage(course);
+    else if (activePage === 'library') renderMediaLibrary();
+  }
+  function renderCoursePage(course) {
+    const section = document.getElementById(course.id);
+    const breadcrumb = el('div', 'section-heading');
+    breadcrumb.append(pageLink('lectures', t('courseBack'), 'course-back'), el('span', 'small-caps', course.tag));
+    const header = el('header', 'course-header learning-header');
+    const heading = el('h1', 'page-title', course.title);
+    heading.id = course.id + '-title'; section.setAttribute('aria-labelledby', heading.id);
+    header.append(heading, el('p', 'course-lead', course.subtitle));
+    const summary = el('dl', 'learning-field-summary');
+    summary.append(el('dt', '', content.copy[lang].learning.audience), el('dd', '', course.comparison.audience), el('dt', '', content.copy[lang].learning.outcome), el('dd', '', course.comparison.output));
+    header.append(summary);
+    section.append(breadcrumb, header, learningWorkspace(null, course.id));
+  }
+  function curriculumModules(modules) {
+    const list = el('div', 'learning-modules');
+    modules.forEach((step, index) => {
+      const item = el('details', 'learning-module');
+      item.append(el('summary', '', String(index + 1).padStart(2, '0') + ' · ' + step[0]));
+      const body = el('div'); body.append(el('p', '', step[1]), el('p', 'module-practice', t('coursePractice') + ' ' + step[2]));
+      item.append(body); list.append(item);
     });
+    return list;
+  }
+  function learningWorkspace(member, defaultField) {
+    const copy = content.copy[lang].learning;
+    const courses = member ? teachingCourses(member) : t('courses');
+    const requested = new URL(location.href).searchParams;
+    const isLibrary = activePage === 'library';
+    const initialField = member || isLibrary ? courses.find(c => c.id === requested.get('field'))?.id || courses[0]?.id : defaultField;
+    const tabs = ['curriculum', 'lecture', 'demo', 'project'];
+    const state = {field: initialField, tab: tabs.includes(requested.get('tab')) ? requested.get('tab') : 'curriculum'};
+    const workspace = el('section', 'learning-workspace');
+    const prefix = member?.id || (isLibrary ? 'library' : defaultField);
+    workspace.dataset.instructorId = member?.id || '';
+    const heading = el('h2', 'learning-title', member ? copy.instructorTitle : copy.fieldTitle);
+    heading.id = prefix + '-learning-title'; workspace.setAttribute('aria-labelledby', heading.id);
+    const help = el('p', 'learning-help', copy.help);
+    const fieldLabel = el('label', 'learning-field-label', copy.field);
+    const select = el('select', 'learning-field-select'); select.id = prefix + '-field'; fieldLabel.htmlFor = select.id;
+    const fieldButtons = el('div', 'learning-fields'); fieldButtons.setAttribute('role', 'group'); fieldButtons.setAttribute('aria-label', copy.field);
+    const fieldControls = courses.map(course => {
+      const option = el('option', '', course.title); option.value = course.id; select.append(option);
+      const button = el('button', 'learning-field-button', course.title); button.type = 'button'; button.dataset.fieldId = course.id;
+      button.addEventListener('click', () => changeField(course.id)); fieldButtons.append(button);
+      return button;
+    });
+    select.addEventListener('change', () => changeField(select.value));
+    const tablist = el('div', 'learning-tabs'); tablist.setAttribute('role', 'tablist'); tablist.setAttribute('aria-label', copy.contents);
+    const tabButtons = tabs.map(id => {
+      const button = el('button', 'learning-tab', copy[id]); button.type = 'button'; button.dataset.tab = id;
+      button.id = prefix + '-tab-' + id; button.setAttribute('role', 'tab'); button.setAttribute('aria-controls', prefix + '-panel');
+      button.addEventListener('click', () => {state.tab = id; writeRoute(); update();});
+      button.addEventListener('keydown', event => {
+        let next;
+        const index = tabs.indexOf(id);
+        if (event.key === 'ArrowRight') next = (index + 1) % tabs.length;
+        if (event.key === 'ArrowLeft') next = (index + tabs.length - 1) % tabs.length;
+        if (event.key === 'Home') next = 0;
+        if (event.key === 'End') next = tabs.length - 1;
+        if (next !== undefined) {event.preventDefault(); tabButtons[next].focus({preventScroll:true}); tabButtons[next].click();}
+      });
+      tablist.append(button); return button;
+    });
+    const panel = el('div', 'learning-panel'); panel.setAttribute('role', 'tabpanel'); panel.tabIndex = 0;
+    const notice = el('p', 'sr-only'); notice.setAttribute('role', 'status'); notice.setAttribute('aria-live', 'polite');
+    workspace.append(heading, help, fieldLabel, select, fieldButtons, tablist, notice, panel);
+    function writeRoute(replace = false) {
+      const url = new URL(location.href);
+      url.hash = ''; url.searchParams.set('page', member?.id || (isLibrary ? 'library' : state.field));
+      url.searchParams.set('field', state.field); url.searchParams.set('tab', state.tab);
+      if (url.href !== location.href) history[replace ? 'replaceState' : 'pushState']({page:member?.id || state.field, ...state}, '', url.pathname + url.search);
+    }
+    function changeField(field) {
+      if (!courses.some(c => c.id === field) || state.field === field) return;
+      state.field = field; writeRoute();
+      if (!member && !isLibrary) {
+        const y = window.scrollY;
+        showPage(field, false, false);
+        const target = media.matches ? document.querySelector('#' + field + ' .learning-field-select') : document.querySelector('#' + field + ' .learning-field-button[aria-pressed=true]');
+        target?.focus({preventScroll:true}); window.scrollTo({top:y,behavior:'instant'});
+      } else update();
+    }
+    function update() {
+      pauseVideos();
+      select.value = state.field;
+      fieldControls.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.fieldId === state.field)));
+      tabButtons.forEach(button => {const chosen = button.dataset.tab === state.tab; button.setAttribute('aria-selected', String(chosen)); button.tabIndex = chosen ? 0 : -1;});
+      workspace.dataset.fieldId = state.field; workspace.dataset.tab = state.tab;
+      panel.id = prefix + '-panel'; panel.setAttribute('aria-labelledby', prefix + '-tab-' + state.tab);
+      panel.replaceChildren();
+      const course = courses.find(c => c.id === state.field);
+      if (!course) {panel.append(el('p', 'learning-pending', t('teachingFieldsPending'))); return;}
+      notice.textContent = course.title + ' · ' + copy[state.tab];
+      panel.append(el('h3', 'learning-panel-title', course.title + ' · ' + copy[state.tab]));
+      if (state.tab === 'curriculum') {
+        if (member) {
+          const program = content.instructorPrograms?.find(p => p.instructorId === member.id && p.fieldId === course.id);
+          panel.dataset.curriculumId = program?.curriculumId || '';
+          if (program?.status === 'published' && program.modules?.[lang]?.length) {
+            panel.append(curriculumModules(program.modules[lang]));
+          } else panel.append(el('p', 'learning-pending', copy.curriculumPending.replace('{name}', member.name[lang])));
+        } else {
+          panel.dataset.curriculumId = 'field-' + course.id;
+          panel.append(el('p', 'learning-note', t('curriculumNote')), curriculumModules(course.curriculum));
+          const details = el('details', 'learning-course-details'); details.append(el('summary', '', copy.courseDetails));
+          const goals = el('ul'); course.learning.forEach(goal => goals.append(el('li', '', goal)));
+          details.append(el('p', '', course.body), el('h4', '', t('courseLearning')), goals, el('h4', '', t('courseAudience')), el('p', '', course.audience), el('h4', '', t('coursePrerequisites')), el('p', '', course.prerequisites), el('h4', '', t('outputLabel')), el('p', '', course.output), el('h4', '', t('courseFormat')), el('p', '', t('courseFormatBody')));
+          if (course.id === 'development') details.append(el('h4', '', t('courseExtension')), el('p', '', t('courseExtensionBody')));
+          panel.append(details);
+          const links = el('nav', 'learning-instructors'); links.setAttribute('aria-label', copy.instructorCurricula);
+          links.append(el('h4', '', copy.instructorCurricula));
+          content.members.filter(m => m.teachingFieldIds.includes(course.id)).forEach(m => links.append(contextLink(m.id, course.id, 'curriculum', m.name[lang] + ' →', 'line-link')));
+          panel.append(links);
+        }
+        const enquiry = pageLink('contact', t('courseEnquiry') + ' →', 'line-link');
+        enquiry.href += '&field=' + course.id + (member ? '&instructor=' + member.id : '');
+        enquiry.dataset.course = course.id; panel.append(enquiry);
+      } else if (state.tab === 'lecture') {
+        // A profile-wide film is not assumed to belong to every teaching field.
+        const asset = member ? member.media?.lectures?.[course.id] : courseMediaAsset(course, 'lecture');
+        const valid = !member || (asset?.fieldId === course.id && asset?.instructorId === member.id);
+        if (valid && (asset?.src || asset?.url)) panel.append(mediaCard(asset, asset.title?.[lang] || copy.lecture));
+        else panel.append(el('p', 'learning-pending', copy.lecturePending));
+      } else {
+        const assets = state.tab === 'demo' && member ? assignedInstructorDemos(member).filter(d => d.fieldId === course.id) : [courseMediaAsset(course, state.tab)].filter(d => d.src || d.url);
+        panel.append(el('p', 'learning-note', state.tab === 'project' ? t('profileFieldProjectsNote') : member ? t('profileOwnDemoNote') : t('mediaExampleNotice')));
+        appendScopedMedia(panel, assets, state.tab === 'project', prefix + '-' + state.field + '-' + state.tab);
+      }
+      if (state.tab !== 'curriculum') delete panel.dataset.curriculumId;
+    }
+    writeRoute(true); update(); return workspace;
+  }
+  function appendScopedMedia(panel, assets, project, id) {
+    const copy = content.copy[lang].learning;
+    if (!assets.length) {panel.append(el('p', 'learning-pending', t('mediaPending'))); return;}
+    const search = el('details', 'learning-search'); search.append(el('summary', '', copy.search));
+    const label = el('label', 'demo-search-label', t('profileDemoSearch')); label.htmlFor = id + '-search';
+    const row = el('div', 'demo-search-row'), box = el('div', 'demo-search-box');
+    const icon = el('span', 'demo-search-icon'); icon.setAttribute('aria-hidden', 'true');
+    const input = el('input', 'demo-search'); input.type = 'search'; input.id = label.htmlFor; input.placeholder = t('profileDemoSearchPlaceholder'); input.maxLength = 160;
+    const clear = el('button', 'demo-clear', t('profileDemoClear')); clear.type = 'button';
+    const count = el('p', 'learning-result-count'); count.setAttribute('role', 'status');
+    box.append(icon, input); row.append(box, clear); search.append(label, row, count);
+    const results = el('div', 'learning-media'); results.id = id + '-results'; input.setAttribute('aria-controls', results.id);
+    const strings = v => typeof v === 'string' ? v : v && typeof v === 'object' ? Object.values(v).map(strings).join(' ') : '';
+    const normalize = v => v.normalize('NFKC').toLocaleLowerCase().trim();
+    function update() {
+      pauseVideos();
+      const terms = normalize(input.value).split(/\s+/).filter(Boolean);
+      const visible = assets.filter(a => terms.every(term => normalize(strings([a.title, a.description, a.tools, a.searchKeywords])).includes(term)));
+      clear.disabled = !input.value;
+      count.textContent = t('profileDemoCount').replace('{count}', visible.length).replace('{total}', assets.length);
+      results.replaceChildren(...visible.map(asset => mediaCard(asset, asset.title?.[lang] || t(project ? 'mediaProject' : 'mediaDemo'), project)));
+      if (!visible.length) results.append(el('p', 'learning-pending', t('profileDemoNoResults')));
+    }
+    input.addEventListener('input', update);
+    clear.addEventListener('click', () => {input.value = ''; update(); input.focus({preventScroll:true});});
+    panel.append(search, results); update();
   }
   function renderSequences() {
     const steps = $('#vibe-steps'), process = $('#process-list');
@@ -316,114 +456,6 @@
     if (kind === 'lecture') return asset || {};
     return asset?.scope === 'category' && asset.kind === kind && asset.fieldId === course.id && !asset.assignedInstructorId ? asset : {};
   }
-  function instructorDemoSection(member) {
-    const section = el('section', 'profile-own-demo');
-    section.dataset.mediaGroup = 'instructor-demo';
-    const heading = el('h2', '', t('profileOwnDemo'));
-    heading.id = member.id + '-demo-heading'; section.setAttribute('aria-labelledby', heading.id);
-    section.append(heading, el('p', 'demo-help', t('profileDemoHelp')));
-    const demos = assignedInstructorDemos(member).filter(d => d.src || d.url);
-    const courses = teachingCourses(member);
-    const remembered = profileDemoSelections.get(member.id) || {};
-    const state = {field:courses.some(c => c.id === remembered.field) ? remembered.field : '', query:remembered.query || '', selected:remembered.selected || ''};
-    const controls = el('div', 'demo-controls');
-    const label = el('label', 'demo-search-label', t('profileDemoSearch'));
-    const searchRow = el('div', 'demo-search-row');
-    const searchBox = el('div', 'demo-search-box');
-    const icon = el('span', 'demo-search-icon'); icon.setAttribute('aria-hidden', 'true');
-    const input = el('input', 'demo-search'); input.type = 'search';
-    input.id = member.id + '-demo-search'; label.htmlFor = input.id;
-    input.placeholder = t('profileDemoSearchPlaceholder'); input.value = state.query;
-    input.autocomplete = 'off'; input.maxLength = 160;
-    const clear = el('button', 'demo-clear', t('profileDemoClear')); clear.type = 'button';
-    const reset = el('button', 'demo-reset', t('profileDemoReset')); reset.type = 'button';
-    searchBox.append(icon, input); searchRow.append(searchBox, clear);
-    const filters = el('div', 'demo-filters'); filters.setAttribute('role', 'group'); filters.setAttribute('aria-label', t('profileDemoField'));
-    const count = el('p', 'demo-result-count'); count.setAttribute('role', 'status'); count.setAttribute('aria-live', 'polite'); count.setAttribute('aria-atomic', 'true');
-    const summary = el('div', 'demo-summary'); summary.append(count, reset);
-    controls.append(label, searchRow, filters, summary);
-    const body = el('div', 'demo-browser');
-    const results = el('div', 'demo-results'); results.id = member.id + '-demo-results';
-    results.setAttribute('role', 'group'); results.setAttribute('aria-label', t('profileDemoResults'));
-    input.setAttribute('aria-controls', results.id);
-    const player = el('div', 'profile-demo-player');
-    player.id = member.id + '-demo-player';
-    player.tabIndex = -1;
-    const strings = value => typeof value === 'string' ? value : value && typeof value === 'object' ? Object.values(value).map(strings).join(' ') : '';
-    const normalize = value => value.normalize('NFKC').toLocaleLowerCase().trim();
-    const matches = demo => {
-      const course = courses.find(c => c.id === demo.fieldId);
-      const haystack = normalize(strings([demo.title, demo.description, demo.searchKeywords, demo.tools, course?.title]));
-      return normalize(state.query).split(/\s+/).filter(Boolean).every(word => haystack.includes(word));
-    };
-    let displayed = null;
-    const save = () => profileDemoSelections.set(member.id, {...state});
-    const show = demo => {
-      if (displayed !== demo?.id) {
-        player.querySelectorAll('video').forEach(video => video.pause());
-        player.replaceChildren(...(demo ? [mediaCard(demo, demo.title?.[lang] || t('profileOwnDemo'))] : []));
-        displayed = demo?.id;
-      }
-      player.hidden = !demo;
-    };
-    const chips = [{id:'', title:t('profileDemoAll')}, ...courses].map(course => {
-      const button = el('button', 'demo-filter'); button.type = 'button'; button.dataset.fieldId = course.id;
-      button.setAttribute('aria-controls', results.id);
-      button.addEventListener('click', () => {state.field = course.id; pauseVideos(); update();});
-      filters.append(button); return {course, button};
-    });
-    function update() {
-      const queried = demos.filter(matches);
-      const visible = queried.filter(d => !state.field || d.fieldId === state.field);
-      for (const {course, button} of chips) {
-        const n = queried.filter(d => !course.id || d.fieldId === course.id).length;
-        button.textContent = course.title + ' · ' + n;
-        button.setAttribute('aria-pressed', String(state.field === course.id));
-      }
-      clear.disabled = !state.query;
-      reset.disabled = !state.query && !state.field;
-      count.textContent = t('profileDemoCount').replace('{count}', visible.length).replace('{total}', demos.length);
-      results.replaceChildren();
-      if (!visible.length) {
-        results.append(el('p', 'demo-empty', t(state.query ? 'profileDemoNoResults' : 'profileOwnDemoPending')));
-        show(null); save(); return;
-      }
-      const selected = visible.find(d => d.id === state.selected) || visible[0];
-      state.selected = selected.id;
-      for (const demo of visible) {
-        const button = el('button', 'demo-result'); button.type = 'button'; button.dataset.mediaId = demo.id;
-        button.setAttribute('aria-pressed', String(demo.id === selected.id)); button.setAttribute('aria-controls', player.id);
-        button.append(el('span', 'demo-result-field', courses.find(c => c.id === demo.fieldId)?.title), el('span', 'demo-result-title', demo.title?.[lang]));
-        if (demo.tools?.length) button.append(el('span', 'demo-result-tools', demo.tools.join(' · ')));
-        button.addEventListener('click', () => {
-          state.selected = demo.id; save(); show(demo);
-          results.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.mediaId === demo.id)));
-          // An explicit mobile result selection reveals the player; typing never scrolls.
-          if (matchMedia('(max-width: 900px)').matches) {
-            player.focus({preventScroll:true});
-            player.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
-          }
-        });
-        results.append(button);
-      }
-      show(selected); save();
-    }
-    input.addEventListener('input', () => {state.query = input.value; update();});
-    clear.addEventListener('click', () => {state.query = ''; input.value = ''; update(); input.focus();});
-    reset.addEventListener('click', () => {state.query = ''; state.field = ''; input.value = ''; pauseVideos(); update(); input.focus();});
-    body.append(results, player); section.append(controls, body, el('p', 'demo-provenance', t('profileOwnDemoNote')));
-    update();
-    return section;
-  }
-  function courseMediaGrid(course) {
-    const grid = el('div', 'course-media-grid');
-    for (const [kind, label] of mediaKinds) {
-      const asset = courseMediaAsset(course, kind);
-      const card = mediaCard(asset, asset.title?.[lang] || t(label), kind === 'project');
-      card.dataset.mediaKind = kind; grid.append(card);
-    }
-    return grid;
-  }
   function renderMediaLibrary() {
     library.replaceChildren();
     const heading = el('h1', 'page-title', t('mediaLibraryTitle'));
@@ -434,11 +466,7 @@
       galleryLink.href = content.mediaGallery;
       library.append(galleryLink);
     }
-    for (const course of t('courses')) {
-      const group = el('section', 'library-field'); group.dataset.fieldId = course.id;
-      const title = el('h2'); title.append(pageLink(course.id, course.title));
-      group.append(title, courseMediaGrid(course)); library.append(group);
-    }
+    library.append(learningWorkspace(null, courseIds[0]));
   }
   function memberVisual(member) {
     const visual = el('div', 'member-visual');
@@ -467,7 +495,7 @@
       const article = el('article', 'member'); article.dataset.memberId = member.id;
       // Keep each avatar's presentation attached to its identity while filtering.
       article.dataset.avatarIndex = i + 1;
-      const link = pageLink(member.id, undefined, 'member-link');
+      const link = selectedTeachingField ? contextLink(member.id, selectedTeachingField, 'curriculum', undefined, 'member-link') : pageLink(member.id, undefined, 'member-link');
       const visual = memberVisual(member);
       visual.append(el('span', 'member-index', String(i + 1).padStart(2, '0')));
       const details = el('div', 'member-details');
@@ -496,7 +524,6 @@
       filters.append(button);
     });
     renderPeopleList();
-    content.members.forEach((member, i) => renderInstructorPage(member, i));
     $('#intro-media').replaceChildren(mediaCard(content.assets.intro, t('mediaIntro')));
   }
   function renderInstructorPage(member, i) {
@@ -510,57 +537,33 @@
     heading.id = member.id + '-title'; section.setAttribute('aria-labelledby', heading.id);
     text.append(el('p', 'small-caps', t('profileLabel')), heading);
     if (member.role[lang]) text.append(el('p', 'profile-field', member.role[lang]));
-    text.append(el('h2', 'profile-fields-title', t('profileSpecialty')));
-    text.append(courses.length ? fieldTags(member.teachingFieldIds, true) : el('p', 'profile-pending', t('teachingFieldsPending')));
-    if (!member.name[lang]) text.append(el('p', 'profile-pending', t('profilePendingNote')));
     hero.append(memberVisual(member), text);
-    const biography = el('div', 'profile-biography');
-    const bio = el('div'), career = el('div');
-    bio.append(el('h2', '', t('profileAbout')), el('p', '', member.bio[lang] || t('profileAboutPending')));
-    career.append(el('h2', '', t('profileCareer')), el('p', '', member.career[lang] || t('profileCareerPending')));
-    biography.append(bio, career);
-    const connection = el('div', 'profile-programme');
-    connection.append(el('h2', '', t('profileCourse')));
-    courses.forEach(course => {
-      const item = el('article', 'profile-programme-item');
-      const title = el('h3'); title.append(pageLink(course.id, course.title + ' →', 'profile-course-link'));
-      const enquiry = pageLink('contact', t('courseEnquiry') + ' →', 'line-link'); enquiry.dataset.course = course.id;
-      item.append(title, el('p', '', course.problem), enquiry); connection.append(item);
-    });
-    if (!courses.length) connection.append(el('p', '', t('profileCoursesPending')));
-    // Instructor demos never fall back to the shared field montages.
-    const ownDemo = instructorDemoSection(member);
-    const projects = el('section', 'profile-field-projects');
-    projects.dataset.mediaGroup = 'field-projects';
-    projects.append(el('h2', '', t('profileFieldProjects')), el('p', 'portfolio-note', t('profileFieldProjectsNote')));
-    const grid = el('div', 'portfolio-grid');
-    courses.forEach(course => {
-      const asset = courseMediaAsset(course, 'project');
-      const card = mediaCard(asset, course.title + ' · ' + t('mediaProject'), true);
-      card.append(fieldTags([course.id], true)); grid.append(card);
-    });
-    projects.append(grid, pageLink('library', t('mediaLibraryExplore'), 'line-link media-library-link'));
-    const lecture = el('section', 'profile-teaching-film');
-    lecture.dataset.mediaGroup = 'lecture';
-    lecture.append(el('h2', '', t('mediaLecture')), el('p', 'portfolio-note', t('profileTeachingFilmNote')),
-      mediaCard(member.media?.lecture || {}, t('mediaLecture')));
-    section.append(breadcrumb, hero, ownDemo, biography, connection, projects);
+    section.append(breadcrumb, hero, learningWorkspace(member));
+    // Preserve original profile data without two empty, full-height sections.
+    const biography = el('details', 'learning-biography');
+    biography.append(el('summary', '', t('profileAbout') + ' / ' + t('profileCareer')));
+    biography.append(el('h3', '', t('profileAbout')), el('p', '', member.bio[lang] || t('profileAboutPending')),
+      el('h3', '', t('profileCareer')), el('p', '', member.career[lang] || t('profileCareerPending')));
+    section.append(biography);
     const retained = (content.mediaAssignments || []).filter(a => a.status === 'active' && a.placement === 'owner-library' && a.assignedInstructorId === member.id)
-      .map(a => content.mediaCatalog?.[a.mediaId]).filter(asset => asset?.contentOwnerId === member.id);
+      .map(a => content.mediaCatalog?.[a.mediaId]).filter(a => a?.contentOwnerId === member.id);
     if (retained.length) {
-      const archive = el('section', 'profile-field-projects'); archive.dataset.mediaGroup = 'owner-library';
-      archive.append(el('h2', '', member.name[lang] + ' · ' + t('profileOwnedLibrary')));
-      const archiveGrid = el('div', 'portfolio-grid');
-      for (const asset of retained) archiveGrid.append(mediaCard({...asset,id:asset.mediaId},asset.title?.[lang] || t('mediaDemo')));
-      archive.append(archiveGrid); section.append(archive);
+      const archive = el('details', 'learning-biography');
+      archive.append(el('summary', '', t('profileOwnedLibrary')));
+      for (const asset of retained) {
+        const link = el('a', 'line-link', asset.title?.[lang] || t('mediaDemo'));
+        link.href = asset.src || asset.url; archive.append(link);
+      }
+      section.append(archive);
     }
-    section.append(lecture);
   }
   function buildDraft() {
     const org = $('#organization').value.trim() || t('notProvided');
     const selected = t('courses').find(c => c.id === $('#topic').value);
     const topic = selected ? selected.title + ' / ' + selected.subtitle : t('topicAny');
-    return [t('subject'), '', t('formOrganization') + ': ' + org, t('formTopic') + ': ' + topic, '', t('draftBodyLabel'), $('#enquiry').value.trim()].join('\n');
+    const member = content.members.find(m => m.id === new URL(location.href).searchParams.get('instructor') && m.teachingFieldIds.includes(selected?.id));
+    return [t('subject'), '', t('formOrganization') + ': ' + org, t('formTopic') + ': ' + topic,
+      ...(member ? [t('profileLabel') + ': ' + member.name[lang]] : []), '', t('draftBodyLabel'), $('#enquiry').value.trim()].join('\n');
   }
   function setLanguage(next, save = true) {
     pauseVideos();
@@ -579,7 +582,7 @@
     $('.languages').setAttribute('aria-label', t('language'));
     menuButton.querySelector('[data-i18n]').textContent = t(menuOpen ? 'menuClose' : 'menu');
     mediaDescriptionId = 0;
-    renderCourses(); renderSequences(); renderPeople(); renderMediaLibrary();
+    renderCourses(); renderSequences(); renderPeople(); renderActivePage();
     const selected = $('#topic').value;
     $('#topic').replaceChildren();
     const first = el('option', '', t('topicAny')); first.value = ''; $('#topic').append(first);

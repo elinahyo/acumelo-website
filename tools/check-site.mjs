@@ -18,6 +18,14 @@ data.members.forEach((m,i)=>{
   assert.deepEqual(m.teachingFieldIds,expected[i][1]);
 });
 assert.equal(data.members[0].image,'assets/instructors/avatar-01-20261114-final-v5.webp');
+assert.equal(data.instructorPrograms.length,26);
+assert.equal(new Set(data.instructorPrograms.map(p=>p.curriculumId)).size,26);
+for(const member of data.members)for(const field of member.teachingFieldIds){
+ const matches=data.instructorPrograms.filter(p=>p.instructorId===member.id&&p.fieldId===field);
+ assert.equal(matches.length,1,'Each instructor-field pair has an independent curriculum record');
+ const program=matches[0];assert(['pending','published'].includes(program.status));
+ for(const lang of ['en','ko'])assert(Array.isArray(program.modules[lang]));
+}
 const paths=new Set();
 function walk(value){
   if(typeof value==='string'&&value.startsWith('assets/')) paths.add(value.split(/[?#]/)[0]);

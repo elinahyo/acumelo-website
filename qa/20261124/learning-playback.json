@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "person": "instructor-chris",
+      "field": "workflow",
+      "tab": "demo",
+      "src": "http://127.0.0.1:8792/assets/media/20261124d/chris-workflow-demo-20261124d.mp4",
+      "time": 0.138686,
+      "duration": 51,
+      "paused": false,
+      "tracks": [
+        "http://127.0.0.1:8792/assets/media/20261124d/captions/chris-workflow-demo-20261124d.vtt"
+      ],
+      "tabChangeStopped": true
+    },
+    {
+      "person": "instructor-sage",
+      "field": "design",
+      "tab": "demo",
+      "src": "http://127.0.0.1:8792/assets/media/20261124d/sage-design-demo-20261124d.mp4",
+      "time": 0.116147,
+      "duration": 51.066667,
+      "paused": false,
+      "tracks": [
+        "http://127.0.0.1:8792/assets/media/20261124d/captions/sage-design-demo-20261124d.vtt"
+      ],
+      "tabChangeStopped": true
+    },
+    {
+      "person": "instructor-03",
+      "field": "development",
+      "tab": "demo",
+      "src": "http://127.0.0.1:8792/assets/media/20261124d/pillow-development-demo-20261124d.mp4",
+      "time": 0.1412,
+      "duration": 74.433333,
+      "paused": false,
+      "tracks": [
+        "http://127.0.0.1:8792/assets/media/20261124d/captions/pillow-development-demo-20261124d.vtt"
+      ],
+      "tabChangeStopped": true
+    },
+    {
+      "person": "instructor-04",
+      "field": "workflow",
+      "tab": "demo",
+      "src": "http://127.0.0.1:8792/assets/media/20261123c/john-workflow-demo-20261123c.mp4",
+      "time": 0.131015,
+      "duration": 40.4,
+      "paused": false,
+      "tracks": [
+        "http://127.0.0.1:8792/assets/media/20261123c/captions/john-workflow-demo-20261123c.vtt"
+      ],
+      "tabChangeStopped": true
+    },
+    {
+      "person": "instructor-chris",
+      "field": "design",
+      "tab": "project",
+      "src": "http://127.0.0.1:8792/assets/media/20261124d/design-showcase-20261124d.mp4",
+      "time": 0.121153,
+      "duration": 31.333333,
+      "paused": false,
+      "tracks": [],
+      "tabChangeStopped": true
+    },
+    {
+      "name": "field-page-single-player-stop",
+      "passed": true
+    },
+    {
+      "name": "aria-idrefs-and-enquiry-draft",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

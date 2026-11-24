@@ -51,7 +51,7 @@ Local retention is coordinated with the archive owner. This website chat perform
 
 ## Release process
 
-Run checks and build, review the diff and commit to a development branch. `main` is the Pages publication branch. Validate all 26 instructor-field mappings, audio, durations, captions, single-player behaviour, navigation stops and mobile layouts before publication. `tools/check-media-browser.mjs` supports headless checks without controlling desktop windows: provide `PLAYWRIGHT_MODULE`, `QA_BROWSER_EXECUTABLE`, optional `QA_BASE_URL` and `QA_REPORT` for the current environment. Desktop browser windows are not opened by this check.
+Run checks and build, review the diff and commit to a development branch. `main` is the Pages publication branch. The field-scoped tabs and personal curriculum records are documented in [learning navigation](docs/learning-navigation.md). Use `tools/check-learning-navigation.mjs` and `tools/check-learning-playback.mjs` for the current interface; historical search tests describe the previous stacked interface. Provide `PLAYWRIGHT_MODULE`, `QA_BROWSER_EXECUTABLE`, optional `QA_BASE_URL` and `QA_REPORT`. These checks do not open desktop browser windows. Validate media technical properties separately when media files actually change; this navigation revision preserves existing video/audio files.
 
 The current renderer is in `media-production/v3-20261123`, with a separate pinned Canvas lockfile, model download URLs/hashes and original visual example assets. Historical v2 silent, 15-second validators do not apply to v3. The current example films use temporary synthetic English narration and original procedural music; they are not actual instructor voices, live application recordings or verified student work.
 

@@ -1,0 +1,35 @@
+{
+  "baseline": "4db46a928963d4dede0139623a12783476fb0c78",
+  "dataChecks": [
+    {
+      "key": "members",
+      "unchanged": true
+    },
+    {
+      "key": "mediaCatalog",
+      "unchanged": true
+    },
+    {
+      "key": "mediaAssignments",
+      "unchanged": true
+    },
+    {
+      "key": "courseMedia",
+      "unchanged": true
+    },
+    {
+      "key": "assets",
+      "unchanged": true
+    },
+    {
+      "key": "mediaGallery",
+      "unchanged": true
+    },
+    {
+      "key": "originalCopy",
+      "unchanged": true
+    }
+  ],
+  "mediaFilesChanged": 0,
+  "scope": "Only learning navigation, comparison copy, independent pending curricula, tests and documentation. No video/audio generation, replacement or deletion."
+}
