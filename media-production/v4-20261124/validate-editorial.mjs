@@ -32,6 +32,7 @@ for(const f of records){
   assert(fs.readFileSync(path.join(out,f.subtitlePath),'utf8').startsWith('WEBVTT'));
  }else{
   assert.equal(f.kind,'showcase');assert.equal(f.hasNarration,false);assert.equal(f.voiceId,null);assert.equal(f.speakerId,null);assert.equal(f.audioRole,'music-only');assert.equal(f.subtitlePath,null);
+  assert.equal(f.voice,null);assert.equal(f.audio.voiceId,null);assert.equal(f.audio.voicePath,null);assert.equal(f.captions.length,0);assert.equal(f.beats,undefined);
   f.voice=null;f.assignedInstructorId=null;f.narration=null;
  }
  f.status='technical-qa-passed-editorial-review-required';
