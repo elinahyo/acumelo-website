@@ -1,0 +1,459 @@
+{
+  "id": "sage-development-demo",
+  "mediaId": "acumelo-sage-development-demo-20261124d",
+  "stem": "sage-development-demo-20261124d",
+  "kind": "demo",
+  "scope": "instructor",
+  "name": "Sage",
+  "instructorId": "instructor-sage",
+  "fieldId": "development",
+  "title": "A booking flow that feels effortless",
+  "topic": "appointment booking",
+  "result": "booking application",
+  "apps": [
+    "vscode",
+    "flutter",
+    "supabase",
+    "figma",
+    "firebase",
+    "github"
+  ],
+  "variant": 1,
+  "color": "#8d9eff",
+  "voice": "af_heart",
+  "bpm": 110,
+  "beats": [
+    {
+      "text": "Turn appointment booking into a working product. Start with the interface, the data contract, and the boundaries between the client, the API, and the storage layer.",
+      "shots": [
+        {
+          "app": "vscode",
+          "title": "Inspect the architecture and source",
+          "tool": "Visual Studio Code",
+          "weight": 1.1
+        },
+        {
+          "app": "flutter",
+          "title": "Build the Flutter interface in Dart",
+          "tool": "Flutter / Dart",
+          "weight": 1.35
+        },
+        {
+          "app": "vscode",
+          "title": "Inspect the architecture and source",
+          "tool": "Visual Studio Code",
+          "weight": 0.7,
+          "camera": "detail"
+        }
+      ]
+    },
+    {
+      "text": "Build the appointment journey in React, then compare the mobile version in Flutter. Handle an unavailable slot, an incomplete form, and a successful reservation as separate, testable states.",
+      "shots": [
+        {
+          "app": "vscode",
+          "stage": 1,
+          "weight": 1.5,
+          "title": "Trace data and interface state"
+        },
+        {
+          "app": "flutter",
+          "stage": 1,
+          "weight": 1.4,
+          "title": "Compare the mobile state and source"
+        },
+        {
+          "app": "flutter",
+          "stage": 2,
+          "weight": 1.2,
+          "title": "Build the Flutter interface in Dart",
+          "split": "result"
+        }
+      ]
+    },
+    {
+      "text": "Use Supabase to inspect booking records and access policies. Review the interface beside the Figma flow, then check the Firebase configuration and a repeatable release pipeline in GitHub Actions.",
+      "shots": [
+        {
+          "app": "supabase",
+          "stage": 2,
+          "weight": 1.3,
+          "title": "Trace the query and access boundary"
+        },
+        {
+          "app": "figma",
+          "stage": 2,
+          "weight": 0.9,
+          "title": "Compare responsive surfaces"
+        },
+        {
+          "app": "firebase",
+          "stage": 2,
+          "weight": 1.1,
+          "title": "Check the access rules"
+        },
+        {
+          "app": "github",
+          "stage": 1,
+          "weight": 1.4,
+          "title": "Check tests before publishing"
+        }
+      ]
+    },
+    {
+      "text": "Test the critical journey and prepare a repeatable release. The result is booking application: a usable experience with a clear architecture, visible state, and a path to improve it.",
+      "shots": [
+        {
+          "app": "github",
+          "stage": 1,
+          "weight": 1.2,
+          "title": "Check tests before publishing"
+        },
+        {
+          "app": "result",
+          "stage": 3,
+          "weight": 1.7,
+          "title": "The finished experience",
+          "split": "vscode"
+        },
+        {
+          "app": "result",
+          "stage": 3,
+          "weight": 2.1,
+          "title": "The finished experience"
+        }
+      ]
+    }
+  ],
+  "contentOwnerId": "instructor-chris",
+  "temporaryAssignment": true,
+  "sourceHash": "45fc5a4d93ab9fbdec19d73086859930ba5039f5dda77cc5fb553da53d73e3ee",
+  "durationSeconds": 48.63333333333333,
+  "shots": [
+    {
+      "app": "vscode",
+      "title": "Inspect the architecture and source",
+      "tool": "Visual Studio Code",
+      "weight": 1.1,
+      "start": 1.17,
+      "duration": 4.732862745098038,
+      "beat": 0,
+      "editorialMode": "establish",
+      "transition": "dissolve"
+    },
+    {
+      "app": "flutter",
+      "title": "Build the Flutter interface in Dart",
+      "tool": "Flutter / Dart",
+      "weight": 1.35,
+      "start": 5.902862745098038,
+      "duration": 2.070627450980392,
+      "beat": 0,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "vscode",
+      "title": "Inspect the architecture and source",
+      "tool": "Visual Studio Code",
+      "weight": 0.7,
+      "camera": "detail",
+      "start": 7.97349019607843,
+      "duration": 3.2538431372549015,
+      "beat": 0,
+      "editorialMode": "pip",
+      "transition": "cut"
+    },
+    {
+      "app": "vscode",
+      "stage": 1,
+      "weight": 1.5,
+      "title": "Trace data and interface state",
+      "start": 11.227333333333334,
+      "duration": 2.7158996078431374,
+      "beat": 1,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "vscode",
+      "stage": 1,
+      "weight": 1.5,
+      "title": "Trace data and interface state",
+      "start": 13.943232941176472,
+      "duration": 1.0979168627450981,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "vscode",
+      "stage": 1,
+      "weight": 1.5,
+      "title": "Trace data and interface state",
+      "start": 15.04114980392157,
+      "duration": 1.9646933333333336,
+      "beat": 1,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "flutter",
+      "stage": 1,
+      "weight": 1.4,
+      "title": "Compare the mobile state and source",
+      "start": 17.005843137254903,
+      "duration": 2.5280980392156867,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "flutter",
+      "stage": 2,
+      "weight": 1.2,
+      "title": "Build the Flutter interface in Dart",
+      "split": "result",
+      "start": 19.53394117647059,
+      "duration": 3.9727254901960785,
+      "beat": 1,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "supabase",
+      "stage": 2,
+      "weight": 1.3,
+      "title": "Trace the query and access boundary",
+      "start": 23.506666666666668,
+      "duration": 2.3416026666666663,
+      "beat": 2,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "supabase",
+      "stage": 2,
+      "weight": 1.3,
+      "title": "Trace the query and access boundary",
+      "start": 25.848269333333334,
+      "duration": 0.9466053333333332,
+      "beat": 2,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "supabase",
+      "stage": 2,
+      "weight": 1.3,
+      "title": "Trace the query and access boundary",
+      "start": 26.79487466666667,
+      "duration": 1.6939253333333333,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "figma",
+      "stage": 2,
+      "weight": 0.9,
+      "title": "Compare responsive surfaces",
+      "start": 28.4888,
+      "duration": 2.179683333333333,
+      "beat": 2,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "firebase",
+      "stage": 2,
+      "weight": 1.1,
+      "title": "Check the access rules",
+      "start": 30.668483333333334,
+      "duration": 3.425216666666666,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "github",
+      "stage": 1,
+      "weight": 1.4,
+      "title": "Check tests before publishing",
+      "start": 34.0937,
+      "duration": 1.8682999999999998,
+      "beat": 2,
+      "editorialMode": "pip",
+      "transition": "cut"
+    },
+    {
+      "app": "github",
+      "stage": 1,
+      "weight": 1.2,
+      "title": "Check tests before publishing",
+      "start": 35.962,
+      "duration": 2.5946949019607843,
+      "beat": 3,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "github",
+      "stage": 1,
+      "weight": 1.2,
+      "title": "Check tests before publishing",
+      "start": 38.55669490196079,
+      "duration": 1.0489192156862746,
+      "beat": 3,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "github",
+      "stage": 1,
+      "weight": 1.2,
+      "title": "Check tests before publishing",
+      "start": 39.605614117647065,
+      "duration": 1.8770133333333336,
+      "beat": 3,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "result",
+      "stage": 3,
+      "weight": 1.7,
+      "title": "The finished experience",
+      "split": "vscode",
+      "start": 41.482627450980395,
+      "duration": 2.415274509803922,
+      "beat": 3,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "result",
+      "stage": 3,
+      "weight": 2.1,
+      "title": "The finished experience",
+      "start": 43.89790196078432,
+      "duration": 3.79543137254902,
+      "beat": 3,
+      "editorialMode": "pip",
+      "transition": "cut"
+    }
+  ],
+  "captions": [
+    {
+      "start": 1.25,
+      "end": 10.907333333333334,
+      "text": "Turn appointment booking into a working product. Start with the interface, the data contract, and the boundaries between the client, the API, and the storage layer."
+    },
+    {
+      "start": 11.307333333333334,
+      "end": 23.186666666666667,
+      "text": "Build the appointment journey in React, then compare the mobile version in Flutter. Handle an unavailable slot, an incomplete form, and a successful reservation as separate, testable states."
+    },
+    {
+      "start": 23.586666666666666,
+      "end": 35.641999999999996,
+      "text": "Use Supabase to inspect booking records and access policies. Review the interface beside the Figma flow, then check the Firebase configuration and a repeatable release pipeline in GitHub Actions."
+    },
+    {
+      "start": 36.042,
+      "end": 47.373333333333335,
+      "text": "Test the critical journey and prepare a repeatable release. The result is booking application: a usable experience with a clear architecture, visible state, and a path to improve it."
+    }
+  ],
+  "audio": {
+    "sampleRate": 24000,
+    "voicePath": "audio/sage-development-demo-voice.wav",
+    "musicPath": "audio/sage-development-demo-music.wav",
+    "mixPath": "audio/sage-development-demo-mix.wav",
+    "voiceEngine": "Kokoro-82M ONNX",
+    "voiceId": "af_heart",
+    "musicType": "Original procedural composition",
+    "peak": 0.7334864139556885
+  },
+  "editing": {
+    "revision": "20261124d",
+    "cutSeconds": [
+      4.733,
+      2.071,
+      3.254,
+      2.716,
+      1.098,
+      1.965,
+      2.528,
+      3.973,
+      2.342,
+      0.947,
+      1.694,
+      2.18,
+      3.425,
+      1.868,
+      2.595,
+      1.049,
+      1.877,
+      2.415,
+      3.795
+    ],
+    "splitFrames": 5,
+    "pictureInPictureFrames": 3,
+    "transitions": [
+      "dissolve",
+      "slide",
+      "cut",
+      "fade-in",
+      "fade-out"
+    ],
+    "particles": "subtle brand accents on concept/result shots",
+    "status": "editorial-review-required"
+  },
+  "revision": "20261124d",
+  "assignedInstructorId": "instructor-sage",
+  "sourceVideoSha256": "b49432a1add6c1965e48d6e62505f0be7d5990a1feb35aa061c7a0dc5a78967f",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "src": "assets/media/20261124d/sage-development-demo-20261124d.mp4",
+  "path": "sage-development-demo-20261124d.mp4",
+  "poster": "posters/sage-development-demo-20261124d.jpg",
+  "subtitlePath": "captions/sage-development-demo-20261124d.vtt",
+  "hasNarration": true,
+  "hasMusic": true,
+  "voiceId": "af_heart",
+  "speakerId": "instructor-sage",
+  "audioRole": "instructor-demonstration",
+  "voiceProvenance": "Existing verified temporary synthetic voice; encoded audio copied unchanged from v3",
+  "illustrative": true,
+  "disclosure": "Illustrative interface reconstructions and project concepts. Temporary synthetic instructor voices; project concepts use music only.",
+  "status": "technical-qa-passed-editorial-review-required",
+  "bytes": 4534069,
+  "sha256": "1ec62017c65b989e6e270eb180d7b7385c08c6fa5aa764fead4d52b05c4082b4",
+  "audioStreamSha256": "SHA256=b09be621a1b869848a5c9c5bae31c6f1ef6551d597ead002040ef2a3ff8a2ddb",
+  "audioCopiedVerified": true,
+  "technicalQa": {
+    "passed": true,
+    "fullDecode": true,
+    "peakDb": -2.7
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "id": "pillow-design-demo",
+  "mediaId": "acumelo-pillow-design-demo-20261123c",
+  "stem": "pillow-design-demo-20261123c",
+  "kind": "demo",
+  "scope": "instructor",
+  "name": "Pillow",
+  "instructorId": "instructor-03",
+  "fieldId": "design",
+  "title": "Make a visual system move",
+  "topic": "interactive exhibition",
+  "result": "generative installation",
+  "apps": [
+    "aftereffects",
+    "cinema4d",
+    "comfyui",
+    "higgsfield",
+    "blender",
+    "resolve"
+  ],
+  "variant": 2,
+  "color": "#bca0fa",
+  "voice": "af_nicole",
+  "bpm": 116,
+  "beats": [
+    {
+      "text": "Let us build interactive exhibition as a coherent visual system. Start with composition and reusable components, then move into motion, materials, and controlled variation.",
+      "shots": [
+        {
+          "app": "aftereffects",
+          "title": "Shape the timing and composition",
+          "tool": "Adobe After Effects",
+          "weight": 1.1
+        },
+        {
+          "app": "cinema4d",
+          "title": "Build the camera and material system",
+          "tool": "Cinema 4D",
+          "weight": 1.35
+        },
+        {
+          "app": "aftereffects",
+          "title": "Shape the timing and composition",
+          "tool": "Adobe After Effects",
+          "weight": 0.7,
+          "camera": "detail"
+        }
+      ]
+    },
+    {
+      "text": "Begin with timing in After Effects and a spatial composition in Cinema 4D. Animate the reveal, inspect the graph editor, and adjust the camera so the installation has a clear focal point.",
+      "shots": [
+        {
+          "app": "aftereffects",
+          "stage": 1,
+          "weight": 1.2,
+          "title": "Animate the layers and keyframes"
+        },
+        {
+          "app": "aftereffects",
+          "stage": 2,
+          "weight": 0.9,
+          "title": "Inspect the graph editor",
+          "camera": "detail"
+        },
+        {
+          "app": "cinema4d",
+          "stage": 1,
+          "weight": 1.2,
+          "title": "Inspect the cloner and geometry"
+        },
+        {
+          "app": "cinema4d",
+          "stage": 2,
+          "weight": 1.4,
+          "title": "Review lighting and the rendered scene",
+          "split": "aftereffects"
+        }
+      ]
+    },
+    {
+      "text": "Trace a visual variation through ComfyUI, plan a restrained shot in Higgsfield, and refine the scene in Blender. Resolve connects the cuts and color into one continuous exhibition experience.",
+      "shots": [
+        {
+          "app": "higgsfield",
+          "stage": 1,
+          "weight": 1.4,
+          "title": "Compare camera, lens, and movement"
+        },
+        {
+          "app": "comfyui",
+          "stage": 2,
+          "weight": 1.7,
+          "title": "Trace the generation graph",
+          "camera": "detail"
+        },
+        {
+          "app": "blender",
+          "stage": 2,
+          "weight": 0.9,
+          "title": "Inspect the scene and asset structure"
+        },
+        {
+          "app": "resolve",
+          "stage": 2,
+          "weight": 1.2,
+          "title": "Edit the sequence and sound"
+        }
+      ]
+    },
+    {
+      "text": "Adapt the work into generative installation. Compare formats side by side, preview the movement, and review the final experience at the size people will actually see.",
+      "shots": [
+        {
+          "app": "resolve",
+          "stage": 2,
+          "weight": 1.4,
+          "title": "Edit the sequence and sound"
+        },
+        {
+          "app": "figma",
+          "stage": 2,
+          "weight": 0.9,
+          "title": "Compare responsive surfaces",
+          "split": "canva"
+        },
+        {
+          "app": "resolve",
+          "stage": 3,
+          "weight": 1.2,
+          "title": "Review timing, color, and the final frame",
+          "split": "result"
+        },
+        {
+          "app": "result",
+          "stage": 3,
+          "weight": 1.8,
+          "title": "The finished experience"
+        }
+      ]
+    }
+  ],
+  "contentOwnerId": "instructor-chris",
+  "temporaryAssignment": true,
+  "sourceHash": "a1bde249f16ae8dc7d3722c525418ed7c20630eb86dab26da1233ff261c897f8",
+  "durationSeconds": 74.1,
+  "shots": [
+    {
+      "app": "aftereffects",
+      "title": "Shape the timing and composition",
+      "tool": "Adobe After Effects",
+      "weight": 1.1,
+      "start": 1.17,
+      "duration": 6.041968253968253,
+      "beat": 0
+    },
+    {
+      "app": "cinema4d",
+      "title": "Build the camera and material system",
+      "tool": "Cinema 4D",
+      "weight": 1.35,
+      "start": 7.211968253968253,
+      "duration": 7.415142857142857,
+      "beat": 0
+    },
+    {
+      "app": "aftereffects",
+      "title": "Shape the timing and composition",
+      "tool": "Adobe After Effects",
+      "weight": 0.7,
+      "camera": "detail",
+      "start": 14.627111111111109,
+      "duration": 3.8448888888888884,
+      "beat": 0
+    },
+    {
+      "app": "aftereffects",
+      "stage": 1,
+      "weight": 1.2,
+      "title": "Animate the layers and keyframes",
+      "start": 18.472,
+      "duration": 4.811574468085106,
+      "beat": 1
+    },
+    {
+      "app": "aftereffects",
+      "stage": 2,
+      "weight": 0.9,
+      "title": "Inspect the graph editor",
+      "camera": "detail",
+      "start": 23.283574468085106,
+      "duration": 3.6086808510638293,
+      "beat": 1
+    },
+    {
+      "app": "cinema4d",
+      "stage": 1,
+      "weight": 1.2,
+      "title": "Inspect the cloner and geometry",
+      "start": 26.892255319148937,
+      "duration": 4.811574468085106,
+      "beat": 1
+    },
+    {
+      "app": "cinema4d",
+      "stage": 2,
+      "weight": 1.4,
+      "title": "Review lighting and the rendered scene",
+      "split": "aftereffects",
+      "start": 31.703829787234042,
+      "duration": 5.61350354609929,
+      "beat": 1
+    },
+    {
+      "app": "higgsfield",
+      "stage": 1,
+      "weight": 1.4,
+      "title": "Compare camera, lens, and movement",
+      "start": 37.31733333333334,
+      "duration": 5.323410256410256,
+      "beat": 2
+    },
+    {
+      "app": "comfyui",
+      "stage": 2,
+      "weight": 1.7,
+      "title": "Trace the generation graph",
+      "camera": "detail",
+      "start": 42.64074358974359,
+      "duration": 6.464141025641025,
+      "beat": 2
+    },
+    {
+      "app": "blender",
+      "stage": 2,
+      "weight": 0.9,
+      "title": "Inspect the scene and asset structure",
+      "start": 49.10488461538462,
+      "duration": 3.4221923076923075,
+      "beat": 2
+    },
+    {
+      "app": "resolve",
+      "stage": 2,
+      "weight": 1.2,
+      "title": "Edit the sequence and sound",
+      "start": 52.527076923076926,
+      "duration": 4.562923076923076,
+      "beat": 2
+    },
+    {
+      "app": "resolve",
+      "stage": 2,
+      "weight": 1.4,
+      "title": "Edit the sequence and sound",
+      "start": 57.09,
+      "duration": 4.248427672955974,
+      "beat": 3
+    },
+    {
+      "app": "figma",
+      "stage": 2,
+      "weight": 0.9,
+      "title": "Compare responsive surfaces",
+      "split": "canva",
+      "start": 61.33842767295598,
+      "duration": 2.7311320754716983,
+      "beat": 3
+    },
+    {
+      "app": "resolve",
+      "stage": 3,
+      "weight": 1.2,
+      "title": "Review timing, color, and the final frame",
+      "split": "result",
+      "start": 64.06955974842768,
+      "duration": 3.6415094339622636,
+      "beat": 3
+    },
+    {
+      "app": "result",
+      "stage": 3,
+      "weight": 1.8,
+      "title": "The finished experience",
+      "start": 67.71106918238995,
+      "duration": 5.462264150943397,
+      "beat": 3
+    }
+  ],
+  "captions": [
+    {
+      "start": 1.25,
+      "end": 18.152,
+      "text": "Let us build interactive exhibition as a coherent visual system. Start with composition and reusable components, then move into motion, materials, and controlled variation."
+    },
+    {
+      "start": 18.552,
+      "end": 36.99733333333333,
+      "text": "Begin with timing in After Effects and a spatial composition in Cinema 4D. Animate the reveal, inspect the graph editor, and adjust the camera so the installation has a clear focal point."
+    },
+    {
+      "start": 37.397333333333336,
+      "end": 56.77,
+      "text": "Trace a visual variation through ComfyUI, plan a restrained shot in Higgsfield, and refine the scene in Blender. Resolve connects the cuts and color into one continuous exhibition experience."
+    },
+    {
+      "start": 57.17,
+      "end": 72.85333333333334,
+      "text": "Adapt the work into generative installation. Compare formats side by side, preview the movement, and review the final experience at the size people will actually see."
+    }
+  ],
+  "audio": {
+    "sampleRate": 24000,
+    "voicePath": "audio/pillow-design-demo-voice.wav",
+    "musicPath": "audio/pillow-design-demo-music.wav",
+    "mixPath": "audio/pillow-design-demo-mix.wav",
+    "voiceEngine": "Kokoro-82M ONNX",
+    "voiceId": "af_nicole",
+    "musicType": "Original procedural composition",
+    "peak": 0.7207392454147339
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "id": "sage-design-demo",
+  "mediaId": "acumelo-sage-design-demo-20261123c",
+  "stem": "sage-design-demo-20261123c",
+  "kind": "demo",
+  "scope": "instructor",
+  "name": "Sage",
+  "instructorId": "instructor-sage",
+  "fieldId": "design",
+  "title": "Design the complete journey",
+  "topic": "booking interface",
+  "result": "responsive design system",
+  "apps": [
+    "figma",
+    "claude",
+    "aftereffects",
+    "canva",
+    "blender",
+    "resolve"
+  ],
+  "variant": 1,
+  "color": "#bca0fa",
+  "voice": "af_heart",
+  "bpm": 110,
+  "beats": [
+    {
+      "text": "Let us build booking interface as a coherent visual system. Start with composition and reusable components, then move into motion, materials, and controlled variation.",
+      "shots": [
+        {
+          "app": "figma",
+          "title": "Build reusable interface components",
+          "tool": "Figma",
+          "weight": 1.1
+        },
+        {
+          "app": "claude",
+          "title": "Challenge the rules with Claude",
+          "tool": "Claude",
+          "weight": 1.35
+        },
+        {
+          "app": "figma",
+          "title": "Build reusable interface components",
+          "tool": "Figma",
+          "weight": 0.7,
+          "camera": "detail"
+        }
+      ]
+    },
+    {
+      "text": "In Figma, build the booking flow from reusable components and responsive frames. Use Claude to explore clearer interface copy, then test a transition in After Effects without hiding the important state change.",
+      "shots": [
+        {
+          "app": "figma",
+          "stage": 1,
+          "weight": 1.5,
+          "title": "Inspect layout, spacing, and states"
+        },
+        {
+          "app": "claude",
+          "stage": 1,
+          "weight": 0.9,
+          "title": "Review the artifact and its assumptions"
+        },
+        {
+          "app": "figma",
+          "stage": 2,
+          "weight": 0.8,
+          "title": "Compare responsive surfaces"
+        },
+        {
+          "app": "aftereffects",
+          "stage": 2,
+          "weight": 1.5,
+          "title": "Inspect the graph editor"
+        }
+      ]
+    },
+    {
+      "text": "Adapt the concept in Canva and build a simple spatial treatment in Blender. Review the motion and format in Resolve, keeping typography, contrast, and interaction feedback consistent across surfaces.",
+      "shots": [
+        {
+          "app": "canva",
+          "stage": 1,
+          "weight": 1,
+          "title": "Review layout and type at delivery size"
+        },
+        {
+          "app": "blender",
+          "stage": 1,
+          "weight": 1.2,
+          "title": "Review geometry, lighting, and render"
+        },
+        {
+          "app": "blender",
+          "stage": 2,
+          "weight": 0.9,
+          "title": "Inspect the scene and asset structure"
+        },
+        {
+          "app": "resolve",
+          "stage": 2,
+          "weight": 1.5,
+          "title": "Edit the sequence and sound",
+          "split": "figma"
+        }
+      ]
+    },
+    {
+      "text": "Adapt the work into responsive design system. Compare formats side by side, preview the movement, and review the final experience at the size people will actually see.",
+      "shots": [
+        {
+          "app": "resolve",
+          "stage": 2,
+          "weight": 1.4,
+          "title": "Edit the sequence and sound"
+        },
+        {
+          "app": "figma",
+          "stage": 2,
+          "weight": 0.9,
+          "title": "Compare responsive surfaces",
+          "split": "canva"
+        },
+        {
+          "app": "resolve",
+          "stage": 3,
+          "weight": 1.2,
+          "title": "Review timing, color, and the final frame",
+          "split": "result"
+        },
+        {
+          "app": "result",
+          "stage": 3,
+          "weight": 1.8,
+          "title": "The finished experience"
+        }
+      ]
+    }
+  ],
+  "contentOwnerId": "instructor-chris",
+  "temporaryAssignment": true,
+  "sourceHash": "3d6e303e978f0a53b8405e219029cfa1b1dd25f55da51c58a4e7f95ae6844856",
+  "durationSeconds": 51.06666666666667,
+  "shots": [
+    {
+      "app": "figma",
+      "title": "Build reusable interface components",
+      "tool": "Figma",
+      "weight": 1.1,
+      "start": 1.17,
+      "duration": 3.917396825396825,
+      "beat": 0
+    },
+    {
+      "app": "claude",
+      "title": "Challenge the rules with Claude",
+      "tool": "Claude",
+      "weight": 1.35,
+      "start": 5.087396825396825,
+      "duration": 4.807714285714286,
+      "beat": 0
+    },
+    {
+      "app": "figma",
+      "title": "Build reusable interface components",
+      "tool": "Figma",
+      "weight": 0.7,
+      "camera": "detail",
+      "start": 9.89511111111111,
+      "duration": 2.4928888888888885,
+      "beat": 0
+    },
+    {
+      "app": "figma",
+      "stage": 1,
+      "weight": 1.5,
+      "title": "Inspect layout, spacing, and states",
+      "start": 12.388,
+      "duration": 4.301914893617021,
+      "beat": 1
+    },
+    {
+      "app": "claude",
+      "stage": 1,
+      "weight": 0.9,
+      "title": "Review the artifact and its assumptions",
+      "start": 16.689914893617022,
+      "duration": 2.5811489361702127,
+      "beat": 1
+    },
+    {
+      "app": "figma",
+      "stage": 2,
+      "weight": 0.8,
+      "title": "Compare responsive surfaces",
+      "start": 19.271063829787234,
+      "duration": 2.294354609929078,
+      "beat": 1
+    },
+    {
+      "app": "aftereffects",
+      "stage": 2,
+      "weight": 1.5,
+      "title": "Inspect the graph editor",
+      "start": 21.56541843971631,
+      "duration": 4.301914893617021,
+      "beat": 1
+    },
+    {
+      "app": "canva",
+      "stage": 1,
+      "weight": 1,
+      "title": "Review layout and type at delivery size",
+      "start": 25.867333333333335,
+      "duration": 2.907101449275362,
+      "beat": 2
+    },
+    {
+      "app": "blender",
+      "stage": 1,
+      "weight": 1.2,
+      "title": "Review geometry, lighting, and render",
+      "start": 28.774434782608697,
+      "duration": 3.4885217391304346,
+      "beat": 2
+    },
+    {
+      "app": "blender",
+      "stage": 2,
+      "weight": 0.9,
+      "title": "Inspect the scene and asset structure",
+      "start": 32.262956521739135,
+      "duration": 2.616391304347826,
+      "beat": 2
+    },
+    {
+      "app": "resolve",
+      "stage": 2,
+      "weight": 1.5,
+      "title": "Edit the sequence and sound",
+      "split": "figma",
+      "start": 34.87934782608696,
+      "duration": 4.360652173913043,
+      "beat": 2
+    },
+    {
+      "app": "resolve",
+      "stage": 2,
+      "weight": 1.4,
+      "title": "Edit the sequence and sound",
+      "start": 39.24,
+      "duration": 2.8817106918238995,
+      "beat": 3
+    },
+    {
+      "app": "figma",
+      "stage": 2,
+      "weight": 0.9,
+      "title": "Compare responsive surfaces",
+      "split": "canva",
+      "start": 42.1217106918239,
+      "duration": 1.8525283018867926,
+      "beat": 3
+    },
+    {
+      "app": "resolve",
+      "stage": 3,
+      "weight": 1.2,
+      "title": "Review timing, color, and the final frame",
+      "split": "result",
+      "start": 43.97423899371069,
+      "duration": 2.470037735849057,
+      "beat": 3
+    },
+    {
+      "app": "result",
+      "stage": 3,
+      "weight": 1.8,
+      "title": "The finished experience",
+      "start": 46.444276729559746,
+      "duration": 3.7050566037735853,
+      "beat": 3
+    }
+  ],
+  "captions": [
+    {
+      "start": 1.25,
+      "end": 12.068,
+      "text": "Let us build booking interface as a coherent visual system. Start with composition and reusable components, then move into motion, materials, and controlled variation."
+    },
+    {
+      "start": 12.468,
+      "end": 25.547333333333334,
+      "text": "In Figma, build the booking flow from reusable components and responsive frames. Use Claude to explore clearer interface copy, then test a transition in After Effects without hiding the important state change."
+    },
+    {
+      "start": 25.947333333333333,
+      "end": 38.92,
+      "text": "Adapt the concept in Canva and build a simple spatial treatment in Blender. Review the motion and format in Resolve, keeping typography, contrast, and interaction feedback consistent across surfaces."
+    },
+    {
+      "start": 39.32,
+      "end": 49.82933333333334,
+      "text": "Adapt the work into responsive design system. Compare formats side by side, preview the movement, and review the final experience at the size people will actually see."
+    }
+  ],
+  "audio": {
+    "sampleRate": 24000,
+    "voicePath": "audio/sage-design-demo-voice.wav",
+    "musicPath": "audio/sage-design-demo-music.wav",
+    "mixPath": "audio/sage-design-demo-mix.wav",
+    "voiceEngine": "Kokoro-82M ONNX",
+    "voiceId": "af_heart",
+    "musicType": "Original procedural composition",
+    "peak": 0.7382705211639404
+  }
+}

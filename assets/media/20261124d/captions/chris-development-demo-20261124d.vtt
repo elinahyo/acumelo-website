@@ -1,0 +1,37 @@
+WEBVTT
+
+1
+00:00:01.250 --> 00:00:04.443
+Turn knowledge workspace into a working product.
+
+2
+00:00:04.443 --> 00:00:12.160
+Start with the interface, the data contract, and the boundaries between the client, the API, and the storage layer.
+
+3
+00:00:12.560 --> 00:00:18.871
+Use React and TypeScript for the web workspace, then inspect the Flutter and Dart mobile flow.
+
+4
+00:00:18.871 --> 00:00:25.451
+Keep loading, error, and success states explicit, with a shared contract for the underlying data.
+
+5
+00:00:25.851 --> 00:00:30.296
+Inspect Firestore access rules and trace retrieval in Langflow.
+
+6
+00:00:30.296 --> 00:00:34.459
+Explore the same knowledge experience in Unity and Unreal.
+
+7
+00:00:34.459 --> 00:00:40.809
+The interface changes, while sources, permissions, and the service boundary stay visible.
+
+8
+00:00:41.209 --> 00:00:45.213
+Test the critical journey and prepare a repeatable release.
+
+9
+00:00:45.213 --> 00:00:53.763
+The result is web and mobile service: a usable experience with a clear architecture, visible state, and a path to improve it.

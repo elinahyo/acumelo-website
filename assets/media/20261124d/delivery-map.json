@@ -1,0 +1,411 @@
+{
+  "status": "technical-qa-passed-editorial-review-required",
+  "revision": "20261124d",
+  "files": [
+    {
+      "path": "assets/media/20261124d/editorial-manifest.json",
+      "bytes": 317848,
+      "sha256": "18244286dee353f2b3159cba2ec2a4bcb3074f1543c1f42fe0dd2ce3d698a90c"
+    },
+    {
+      "path": "assets/media/20261124d/validation-report.json",
+      "bytes": 5087,
+      "sha256": "a8d5e2ce2d386e7141cc4795d22967797d4e160e7294240c9cfc4706884805ab"
+    },
+    {
+      "path": "assets/media/20261124d/analytics-showcase-20261124d.mp4",
+      "bytes": 2549903,
+      "sha256": "017e40580fe7222d6fae6ed9bc04ce74d1ee6123a19d551d8d1f1b54f18f8d79"
+    },
+    {
+      "path": "assets/media/20261124d/posters/analytics-showcase-20261124d.jpg",
+      "bytes": 63708,
+      "sha256": "ccda1af81ab5202154a3925dc369d204dc5a77cc88ba3853113a330d72ffa95e"
+    },
+    {
+      "path": "assets/media/20261124d/metadata/analytics-showcase-20261124d.json",
+      "bytes": 18481,
+      "sha256": "de8e1f7f071a8d486f8e98e6b8860b85c80c757fa28d90483e266d622384f80d"
+    },
+    {
+      "path": "assets/media/20261124d/proofs/analytics-showcase.jpg",
+      "bytes": 154556,
+      "sha256": "91bd633128fbf4e8fe4c1fc2286a77c299cb4f7cd95bfa3f002c09d17f3ef199"
+    },
+    {
+      "path": "assets/media/20261124d/chris-analytics-demo-20261124d.mp4",
+      "bytes": 5007323,
+      "sha256": "cc9ff87f4e6cb04583aeefef7da0c382379db593cb863e900ddf66e8bd618e34"
+    },
+    {
+      "path": "assets/media/20261124d/posters/chris-analytics-demo-20261124d.jpg",
+      "bytes": 109541,
+      "sha256": "6bd0fd4ee2e9dbe36a57c698c6b436e9cb5122e1cea78142753093d2182bca9b"
+    },
+    {
+      "path": "assets/media/20261124d/metadata/chris-analytics-demo-20261124d.json",
+      "bytes": 14551,
+      "sha256": "cb616af79ed8488a6a0d5e1e8fc7c050f2461e5c3aa1ce8a10ca07deca7d9f6e"
+    },
+    {
+      "path": "assets/media/20261124d/proofs/chris-analytics-demo.jpg",
+      "bytes": 183904,
+      "sha256": "1e3e04724bc1f51e0ad65a3f68f9fb6870e18aadb6b142136936afd7ae028599"
+    },
+    {
+      "path": "assets/media/20261124d/captions/chris-analytics-demo-20261124d.vtt",
+      "bytes": 1029,
+      "sha256": "3e61d829683012985963078711ad7efc2bc13663c46d0f4dbe25e65827c39a91"
+    },
+    {
+      "path": "assets/media/20261124d/chris-design-demo-20261124d.mp4",
+      "bytes": 6868113,
+      "sha256": "f66e4c117170ff3d904e677f6876439872b0fa0ae78918857ec21a8e40ae7c1d"
+    },
+    {
+      "path": "assets/media/20261124d/posters/chris-design-demo-20261124d.jpg",
+      "bytes": 96737,
+      "sha256": "24c3efe9731376ae532bc54c6413ccb9bb3e2ec9197c866035851252f1f33e5b"
+    },
+    {
+      "path": "assets/media/20261124d/metadata/chris-design-demo-20261124d.json",
+      "bytes": 13947,
+      "sha256": "eca2bd2e4db3c59ca917dd22b74fbac2db9898c011de8185a34cd9743dabba19"
+    },
+    {
+      "path": "assets/media/20261124d/proofs/chris-design-demo.jpg",
+      "bytes": 200558,
+      "sha256": "c260fc684434dc0b3f6d37971034cb9b8c4207356a016231e6d429558c2ef399"
+    },
+    {
+      "path": "assets/media/20261124d/captions/chris-design-demo-20261124d.vtt",
+      "bytes": 1016,
+      "sha256": "be37d836cde31c8ae1316e5f4fdb866b6722b08a6bf4f44d99826a4ad440b95c"
+    },
+    {
+      "path": "assets/media/20261124d/chris-development-demo-20261124d.mp4",
+      "bytes": 5339318,
+      "sha256": "8f7255e0d1af11680ea16ab13d82feadf0e7602541ee7a601da9fda2f20a08cb"
+    },
+    {
+      "path": "assets/media/20261124d/posters/chris-development-demo-20261124d.jpg",
+      "bytes": 105711,
+      "sha256": "de4a73aa8cae1eb42a7deadd2c789037d6f69f7f3d2d0090f1a299418d8be857"
+    },
+    {
+      "path": "assets/media/20261124d/metadata/chris-development-demo-20261124d.json",
+      "bytes": 13747,
+      "sha256": "1c2e14acb1f4eb425957ad6d22a57b674113de20c5d1a9602e96ec540c451aaf"
+    },
+    {
+      "path": "assets/media/20261124d/proofs/chris-development-demo.jpg",
+      "bytes": 185479,
+      "sha256": "f87e506a72489e425a3155c7ae65b56870c39dbfc5ede6e1cc4b3526ebe47870"
+    },
+    {
+      "path": "assets/media/20261124d/captions/chris-development-demo-20261124d.vtt",
+      "bytes": 1061,
+      "sha256": "0e98180b5acd3360ae3aae3beec34af89785579ec2a9ac0cdfe0b85af0f47230"
+    },
+    {
+      "path": "assets/media/20261124d/chris-marketing-demo-20261124d.mp4",
+      "bytes": 4538750,
+      "sha256": "ba1b5456c257e52ce275517ebdcec5a7f6599d6c8111e4998d4da1248481efe0"
+    },
+    {
+      "path": "assets/media/20261124d/posters/chris-marketing-demo-20261124d.jpg",
+      "bytes": 68543,
+      "sha256": "22b0b27883c958ceab92edb981c41072e1c6fa33d82572c9e24048c98afee38d"
+    },
+    {
+      "path": "assets/media/20261124d/metadata/chris-marketing-demo-20261124d.json",
+      "bytes": 14674,
+      "sha256": "8c2659a0510a7b76bf0ddfcd5e0222499a5d2b92b8bab75c0ac234b026a89cf3"
+    },
+    {
+      "path": "assets/media/20261124d/proofs/chris-marketing-demo.jpg",
+      "bytes": 167714,
+      "sha256": "5f750434c0039508308a24555ae897678dc990c099e8d28b7dfc1443271e72c6"
+    },
+    {
+      "path": "assets/media/20261124d/captions/chris-marketing-demo-20261124d.vtt",
+      "bytes": 1058,
+      "sha256": "9b3892e29a6522849fb9ef01198aed5debc2fde809f941dcbbaa2128d1498a0f"
+    },
+    {
+      "path": "assets/media/20261124d/chris-strategy-demo-20261124d.mp4",
+      "bytes": 4410441,
+      "sha256": "6fbee0282d02d4c281fb91ca2f3386dfe9d734768954b85669f953d9e4a04d7f"
+    },
+    {
+      "path": "assets/media/20261124d/posters/chris-strategy-demo-20261124d.jpg",
+      "bytes": 68605,
+      "sha256": "612807bd9e961e9ba3bff784479ef73ef133e15c959c0e84fd74a99ccd619c81"
+    },
+    {
+      "path": "assets/media/20261124d/metadata/chris-strategy-demo-20261124d.json",
+      "bytes": 14629,
+      "sha256": "557813511895b915ec37286219907db2b0514882d522f5f5bd8e16b86bd1a02d"
+    },
+    {
+      "path": "assets/media/20261124d/proofs/chris-strategy-demo.jpg",
+      "bytes": 174842,
+      "sha256": "0c1f59d0a36c077ab6d188da5ef58e92596bdbd14f8a4c4f4440a4abc6c80e66"
+    },
+    {
+      "path": "assets/media/20261124d/captions/chris-strategy-demo-20261124d.vtt",
+      "bytes": 1025,
+      "sha256": "739f0a8e3b3efd779564b6db45970b917bbb70a585eea3a7b585ef730ae46f4c"
+    },
+    {
+      "path": "assets/media/20261124d/chris-workflow-demo-20261124d.mp4",
+      "bytes": 5113179,
+      "sha256": "5e12e7d128f72f492849cccfea457a771ebc199031d80470d1159e687e74086f"
+    },
+    {
+      "path": "assets/media/20261124d/posters/chris-workflow-demo-20261124d.jpg",
+      "bytes": 116207,
+      "sha256": "2ee342392af7b21f8cc3c6df86f9fbe13a934df50115c3b51ee279b7c9961152"
+    },
+    {
+      "path": "assets/media/20261124d/metadata/chris-workflow-demo-20261124d.json",
+      "bytes": 15097,
+      "sha256": "5d11b32534f3970ad6f2e08efb08644b2bec5c30a47e166e84544d70e0c32aeb"
+    },
+    {
+      "path": "assets/media/20261124d/proofs/chris-workflow-demo.jpg",
+      "bytes": 179898,
+      "sha256": "2658897a16476e31e052b9bf61e4108b3f58a6fd97ca93a1f2a7d19d00ecac1e"
+    },
+    {
+      "path": "assets/media/20261124d/captions/chris-workflow-demo-20261124d.vtt",
+      "bytes": 1046,
+      "sha256": "03c6622c4941b8d245c6c4ef84a7f8f157bc375c480eeaf358f43561f6dcb292"
+    },
+    {
+      "path": "assets/media/20261124d/design-showcase-20261124d.mp4",
+      "bytes": 6236065,
+      "sha256": "eb68261a12bb3e2862ac0a7c2012e1148c1f6c194b116058a8a1ad8dc92b5600"
+    },
+    {
+      "path": "assets/media/20261124d/posters/design-showcase-20261124d.jpg",
+      "bytes": 173636,
+      "sha256": "0429a23603caac76e0964792ef912a21e6af8f66af78f08b51fc0ac65eb22d38"
+    },
+    {
+      "path": "assets/media/20261124d/metadata/design-showcase-20261124d.json",
+      "bytes": 20621,
+      "sha256": "ac7a9cd1883ed62516bface15011e9d242db05c9ff202c50bdd4eaf74dfaecdf"
+    },
+    {
+      "path": "assets/media/20261124d/proofs/design-showcase.jpg",
+      "bytes": 223749,
+      "sha256": "531f9376dd9a380138757c03f5d3bd2b77e6871914477df4a49f48a40c5802f0"
+    },
+    {
+      "path": "assets/media/20261124d/development-showcase-20261124d.mp4",
+      "bytes": 5055849,
+      "sha256": "bf643db15809aaa6d874ad8bfb61c450e9ec446adfcb476b26a26a9720239828"
+    },
+    {
+      "path": "assets/media/20261124d/posters/development-showcase-20261124d.jpg",
+      "bytes": 184478,
+      "sha256": "87cbc62238c807dac26690b59e248b5cdf9250e4aee6eca13976d2b2b02a976b"
+    },
+    {
+      "path": "assets/media/20261124d/metadata/development-showcase-20261124d.json",
+      "bytes": 19387,
+      "sha256": "4966323af2b38fbb011c050cac72cf1728cfb80e635b30c07aac73e514aee486"
+    },
+    {
+      "path": "assets/media/20261124d/proofs/development-showcase.jpg",
+      "bytes": 156968,
+      "sha256": "d586b5c32ecaf7e03b6d89493bb7c9a874ce79a3c18153d0dfb5c3ef8f7abc34"
+    },
+    {
+      "path": "assets/media/20261124d/marketing-showcase-20261124d.mp4",
+      "bytes": 3850991,
+      "sha256": "96e0de8a281c263a372f4e89a0060257c80bb7dd224ff9382ec2541a7059f923"
+    },
+    {
+      "path": "assets/media/20261124d/posters/marketing-showcase-20261124d.jpg",
+      "bytes": 78062,
+      "sha256": "4110aeadba57807cff79ca32bd28fd82ea39647a1f298486e685985df4914b10"
+    },
+    {
+      "path": "assets/media/20261124d/metadata/marketing-showcase-20261124d.json",
+      "bytes": 19774,
+      "sha256": "a5b909c42e3c3af8767a42b00ff4e8ab428c8ce4e4e67e533e02bafcf21c0526"
+    },
+    {
+      "path": "assets/media/20261124d/proofs/marketing-showcase.jpg",
+      "bytes": 152531,
+      "sha256": "c6bb518db673a9943b9921a77717b9a6c00c8bbed3b5f885a4feaa8efaed3a2b"
+    },
+    {
+      "path": "assets/media/20261124d/pillow-design-demo-20261124d.mp4",
+      "bytes": 8388831,
+      "sha256": "61b77041431a08272bcb45e9b8ff0603e582a7bb000119252a759b04063fe68d"
+    },
+    {
+      "path": "assets/media/20261124d/posters/pillow-design-demo-20261124d.jpg",
+      "bytes": 93330,
+      "sha256": "ce7b2046b588422090b36e5364b6c34a4697e992c806c86dea7cad03a44f63b2"
+    },
+    {
+      "path": "assets/media/20261124d/metadata/pillow-design-demo-20261124d.json",
+      "bytes": 17147,
+      "sha256": "beed82751a46faf8e11bf89df51b5475c00dc7ee7acad5fe5aa62a5f003fb9f6"
+    },
+    {
+      "path": "assets/media/20261124d/proofs/pillow-design-demo.jpg",
+      "bytes": 190052,
+      "sha256": "c0f2d787cbdaa1db096756000b5b3d066859415721bd7cbb73360d6d8f69be92"
+    },
+    {
+      "path": "assets/media/20261124d/captions/pillow-design-demo-20261124d.vtt",
+      "bytes": 991,
+      "sha256": "62b0f2fc19d2c229ab4c97c65bd1c13787603ac4eec94c66ae99c98056a3cc17"
+    },
+    {
+      "path": "assets/media/20261124d/pillow-development-demo-20261124d.mp4",
+      "bytes": 8605192,
+      "sha256": "47d59bbf13fabad1a31935028214a25d8b629e0bf47136608b46ab2703fedac4"
+    },
+    {
+      "path": "assets/media/20261124d/posters/pillow-development-demo-20261124d.jpg",
+      "bytes": 103711,
+      "sha256": "885d99aad162d3b3099995fdc7f64352a76e259e5ee8990194f8eb2f99cd2359"
+    },
+    {
+      "path": "assets/media/20261124d/metadata/pillow-development-demo-20261124d.json",
+      "bytes": 16913,
+      "sha256": "4c31a09069dfbffb9c0eca75a60a25898686405b30898961f71ac48d0b18cb73"
+    },
+    {
+      "path": "assets/media/20261124d/proofs/pillow-development-demo.jpg",
+      "bytes": 196013,
+      "sha256": "f41dc7e6e3909e1815f382f198ff18426d6b7d941b6b24b75161d1c44a63fbb1"
+    },
+    {
+      "path": "assets/media/20261124d/captions/pillow-development-demo-20261124d.vtt",
+      "bytes": 1059,
+      "sha256": "3b42cab1a609c9a9db1c9051ebb306d4e79e33eeb5f24ecbdbd9bbe7cc2d4c07"
+    },
+    {
+      "path": "assets/media/20261124d/sage-design-demo-20261124d.mp4",
+      "bytes": 5602473,
+      "sha256": "8e56a1c188d1bafa89179662ca1288616e1e747ffde8c2c73668e56cc94ee83d"
+    },
+    {
+      "path": "assets/media/20261124d/posters/sage-design-demo-20261124d.jpg",
+      "bytes": 110721,
+      "sha256": "0c50f6fafe8e01375684e70d5bc6f4173f71a0fe62249c803a416aa794058700"
+    },
+    {
+      "path": "assets/media/20261124d/metadata/sage-design-demo-20261124d.json",
+      "bytes": 13738,
+      "sha256": "15e5e83929864d83a51378ce4f92834a9f90e717b9cbb81635e10b514a8f907a"
+    },
+    {
+      "path": "assets/media/20261124d/proofs/sage-design-demo.jpg",
+      "bytes": 197828,
+      "sha256": "a8accd04d3ccb0d00f9982eeaf359f15da7fd7957f45ba86196c3a4245a9583e"
+    },
+    {
+      "path": "assets/media/20261124d/captions/sage-design-demo-20261124d.vtt",
+      "bytes": 1017,
+      "sha256": "51780b666845b17b54cbb610541dde1fc590889c06e81401e36e9ecfaff562eb"
+    },
+    {
+      "path": "assets/media/20261124d/sage-development-demo-20261124d.mp4",
+      "bytes": 4534069,
+      "sha256": "1ec62017c65b989e6e270eb180d7b7385c08c6fa5aa764fead4d52b05c4082b4"
+    },
+    {
+      "path": "assets/media/20261124d/posters/sage-development-demo-20261124d.jpg",
+      "bytes": 102133,
+      "sha256": "ead83fbaea9059fec28cf309f6d59e83c79c9b8113b2bb516c8e1f5ef4fda639"
+    },
+    {
+      "path": "assets/media/20261124d/metadata/sage-development-demo-20261124d.json",
+      "bytes": 12932,
+      "sha256": "facae8692c1489c2706373a088e8093c11a1a1866adb3565d2809cd49d7d9202"
+    },
+    {
+      "path": "assets/media/20261124d/proofs/sage-development-demo.jpg",
+      "bytes": 170975,
+      "sha256": "dc07f11f7200d3303906bc69dadc7437a3735631fdb8f4533b8c1c9c9f56716a"
+    },
+    {
+      "path": "assets/media/20261124d/captions/sage-development-demo-20261124d.vtt",
+      "bytes": 1006,
+      "sha256": "78c04ae84041b3a1eace71790d85d7f29c50805e17e0f8e70d596cca8140c83f"
+    },
+    {
+      "path": "assets/media/20261124d/sage-strategy-demo-20261124d.mp4",
+      "bytes": 3871756,
+      "sha256": "04794714fdd7d9db615edcf22239054aee87b9b99ca756e6ce16169e22975775"
+    },
+    {
+      "path": "assets/media/20261124d/posters/sage-strategy-demo-20261124d.jpg",
+      "bytes": 65685,
+      "sha256": "7233f5ea8654762f8d5dca9d95ac163015347c27ea3add2880455e4412ea7c79"
+    },
+    {
+      "path": "assets/media/20261124d/metadata/sage-strategy-demo-20261124d.json",
+      "bytes": 13852,
+      "sha256": "8d8768d157fff26b4319af2ab17dfe10d3cc01a2227ba1e83e10198511b55a57"
+    },
+    {
+      "path": "assets/media/20261124d/proofs/sage-strategy-demo.jpg",
+      "bytes": 151439,
+      "sha256": "365da776cc73f10f9ec10533dd54589881a989ac424908f4568dd62a55ce5ef0"
+    },
+    {
+      "path": "assets/media/20261124d/captions/sage-strategy-demo-20261124d.vtt",
+      "bytes": 1047,
+      "sha256": "23f9ffbb30cc4bb8f5c5be62ecb4987b5237fb37f83f0c91fbd3bd9188a75e1c"
+    },
+    {
+      "path": "assets/media/20261124d/strategy-showcase-20261124d.mp4",
+      "bytes": 2528303,
+      "sha256": "4b6d039740aef3b73abb9d36037afe45df675433902d77bcc025b8d173253bbd"
+    },
+    {
+      "path": "assets/media/20261124d/posters/strategy-showcase-20261124d.jpg",
+      "bytes": 88051,
+      "sha256": "c20e4ef569457f00aa8d776671e53623659c63a9f927859e97a67f81cb703c0f"
+    },
+    {
+      "path": "assets/media/20261124d/metadata/strategy-showcase-20261124d.json",
+      "bytes": 18587,
+      "sha256": "addb5015d046024d9a7ce2a3239c2778b288421bdda5284fb86d3d639cac8cdc"
+    },
+    {
+      "path": "assets/media/20261124d/proofs/strategy-showcase.jpg",
+      "bytes": 157211,
+      "sha256": "94ab06c97f693fcea2ae0f821b6581157ab13226e7a6978f8ead02849d6e8af8"
+    },
+    {
+      "path": "assets/media/20261124d/workflow-showcase-20261124d.mp4",
+      "bytes": 2466008,
+      "sha256": "dd2eb43679f8c7c11cb7286b342058dfbd20ad79a08083ac2db2598183dcef0d"
+    },
+    {
+      "path": "assets/media/20261124d/posters/workflow-showcase-20261124d.jpg",
+      "bytes": 64920,
+      "sha256": "f4a7b4cd92be7a7b1452eef554eb0440afb9719a586f3ed9b42f692e190c72b9"
+    },
+    {
+      "path": "assets/media/20261124d/metadata/workflow-showcase-20261124d.json",
+      "bytes": 18649,
+      "sha256": "d30f8d7f17e518611f6ed6206e548e1133c6247e24b82ae9f79b5739d371be86"
+    },
+    {
+      "path": "assets/media/20261124d/proofs/workflow-showcase.jpg",
+      "bytes": 149523,
+      "sha256": "d19934c9c89b3adc941e766baea13e140627c6060c3f1654244dddb56bc80146"
+    }
+  ]
+}

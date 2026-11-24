@@ -3,7 +3,7 @@
 Canonical remote: [elinahyo/acumelo-website](https://github.com/elinahyo/acumelo-website).
 Published preview: [GitHub Pages](https://elinahyo.github.io/acumelo-website/).
 
-`main` is the publication branch. The current release contains 38 narrated illustrative films: 26 instructor-field demonstrations, six category overviews and six common project showcases. `codex/remote-development` retains the development history. Media identity and Chris's original content ownership are separate from temporary instructor assignments. Domain, DNS and email settings are outside this change.
+`main` is the publication branch. The current release contains 38 illustrative films: 26 instructor-field demonstrations and six category overviews with temporary synthetic narration, plus six shared project showcases with original music only. Chris/Sage/Pillow use 11 revised films; the other 15 instructor films and six overviews retain v3. `codex/remote-development` retains the development history. Media identity and Chris's original content ownership are separate from temporary instructor assignments. Domain, DNS and email settings are outside this change.
 
 ## Resume on any PC
 
@@ -41,7 +41,7 @@ Keep media identity and content ownership separate from page placement. New asse
 
 ## Original media and remote recovery
 
-The company archive owner has verified 16 ZIPs in private company Google Drive: one production-source bundle, six field audio/music bundles, six field final-video bundles and three historical-design bundles. The private archive ledger records authenticated re-downloads with matching SHA-256 and byte counts. The website chat reviewed that ledger; it did not repeat the uploads or delete originals.
+The company archive owner has verified the source and media ZIP archives in private company Google Drive, including production sources, field audio/music, final videos, historical designs and subsequent revision packages. The private archive ledger records authenticated re-downloads with matching SHA-256 and byte counts. The website chat reviewed that ledger; it did not repeat the uploads or delete originals.
 
 Private company Drive is the source/master/stem archive. Git is the canonical home for public web masters, the website, reproducible production code and lightweight configuration. Keep the private folder address, file IDs, download links, ZIPs and full private hash inventory in the restricted company archive ledger, never in this public repository or website. `media/releases.json` intentionally contains status and coverage only. Authorized maintainers obtain access through the company's private archive inventory.
 
@@ -54,3 +54,7 @@ Local retention is coordinated with the archive owner. This website chat perform
 Run checks and build, review the diff and commit to a development branch. `main` is the Pages publication branch. Validate all 26 instructor-field mappings, audio, durations, captions, single-player behaviour, navigation stops and mobile layouts before publication. `tools/check-media-browser.mjs` supports headless checks without controlling desktop windows: provide `PLAYWRIGHT_MODULE`, `QA_BROWSER_EXECUTABLE`, optional `QA_BASE_URL` and `QA_REPORT` for the current environment. Desktop browser windows are not opened by this check.
 
 The current renderer is in `media-production/v3-20261123`, with a separate pinned Canvas lockfile, model download URLs/hashes and original visual example assets. Historical v2 silent, 15-second validators do not apply to v3. The current example films use temporary synthetic English narration and original procedural music; they are not actual instructor voices, live application recordings or verified student work.
+
+## Editorial revision
+
+See [the review record](docs/editorial-v4-review.md) and [the media gallery](https://elinahyo.github.io/acumelo-website/assets/media/20261124d/index.html). Technical and representative-frame checks passed; they do not imply that the user approved every edit or the audible character of each synthetic voice. Historical v3 assets remain in Git.

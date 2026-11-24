@@ -1,0 +1,741 @@
+{
+  "id": "development-showcase",
+  "mediaId": "acumelo-development-showcase-20261124d",
+  "stem": "development-showcase-20261124d",
+  "kind": "showcase",
+  "scope": "category",
+  "name": "Acumelo",
+  "fieldId": "development",
+  "title": "AI Service Development / Project possibilities",
+  "topic": "AI Service Development",
+  "result": "24 original project concepts",
+  "variant": 18,
+  "color": "#8d9eff",
+  "voice": null,
+  "bpm": 120,
+  "contentOwnerId": "instructor-chris",
+  "temporaryAssignment": false,
+  "sourceHash": "602ce6e846a807ac774ccb50a89c37c704761700e4e5c0022c26cd8bb3389df1",
+  "durationSeconds": 31.466666666666665,
+  "shots": [
+    {
+      "app": "project",
+      "title": "Fieldnotes",
+      "weight": 1.2,
+      "project": {
+        "type": "website",
+        "title": "Fieldnotes",
+        "detail": "A responsive publishing interface",
+        "asset": "gallery",
+        "theme": "cream",
+        "variant": 11,
+        "weight": 1.2
+      },
+      "projectIndex": 0,
+      "secondProject": {
+        "type": "chat",
+        "title": "Ask the knowledge base",
+        "detail": "A cited-answer assistant interface",
+        "variant": 12,
+        "weight": 0.55
+      },
+      "start": 1.17,
+      "duration": 2.1620762852404645,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "dissolve"
+    },
+    {
+      "app": "project",
+      "title": "Ask the knowledge base",
+      "weight": 0.55,
+      "project": {
+        "type": "chat",
+        "title": "Ask the knowledge base",
+        "detail": "A cited-answer assistant interface",
+        "variant": 12,
+        "weight": 0.55
+      },
+      "projectIndex": 1,
+      "secondProject": {
+        "type": "portal",
+        "title": "Book a session",
+        "detail": "A self-service booking application",
+        "variant": 13,
+        "weight": 1.7
+      },
+      "start": 3.3320762852404644,
+      "duration": 0.6110215588723052,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Book a session",
+      "weight": 1.7,
+      "project": {
+        "type": "portal",
+        "title": "Book a session",
+        "detail": "A self-service booking application",
+        "variant": 13,
+        "weight": 1.7
+      },
+      "projectIndex": 2,
+      "secondProject": {
+        "type": "game",
+        "title": "Explore the archipelago",
+        "detail": "An interactive environment concept",
+        "asset": "world",
+        "theme": "dark",
+        "variant": 14,
+        "weight": 0.8
+      },
+      "start": 3.9430978441127698,
+      "duration": 0.799028192371476,
+      "beat": 0,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Explore the archipelago",
+      "weight": 0.8,
+      "project": {
+        "type": "game",
+        "title": "Explore the archipelago",
+        "detail": "An interactive environment concept",
+        "asset": "world",
+        "theme": "dark",
+        "variant": 14,
+        "weight": 0.8
+      },
+      "projectIndex": 3,
+      "split": "project",
+      "secondProject": {
+        "type": "dashboard",
+        "title": "Project cockpit",
+        "detail": "A complete project analytics interface",
+        "variant": 15,
+        "weight": 1
+      },
+      "start": 4.742126036484246,
+      "duration": 1.5510547263681593,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Project cockpit",
+      "weight": 1,
+      "project": {
+        "type": "dashboard",
+        "title": "Project cockpit",
+        "detail": "A complete project analytics interface",
+        "variant": 15,
+        "weight": 1
+      },
+      "projectIndex": 4,
+      "secondProject": {
+        "type": "product",
+        "title": "Configure your object",
+        "detail": "A product customization concept",
+        "asset": "headphones",
+        "theme": "cream",
+        "variant": 16,
+        "weight": 0.65
+      },
+      "start": 6.293180762852405,
+      "duration": 0.5170182421227197,
+      "beat": 0,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Configure your object",
+      "weight": 0.65,
+      "project": {
+        "type": "product",
+        "title": "Configure your object",
+        "detail": "A product customization concept",
+        "asset": "headphones",
+        "theme": "cream",
+        "variant": 16,
+        "weight": 0.65
+      },
+      "projectIndex": 5,
+      "secondProject": {
+        "type": "kanban",
+        "title": "Work, together",
+        "detail": "A collaborative planning application",
+        "variant": 17,
+        "weight": 1.4
+      },
+      "start": 6.810199004975124,
+      "duration": 1.2220431177446105,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Work, together",
+      "weight": 1.4,
+      "project": {
+        "type": "kanban",
+        "title": "Work, together",
+        "detail": "A collaborative planning application",
+        "variant": 17,
+        "weight": 1.4
+      },
+      "projectIndex": 6,
+      "split": "project",
+      "secondProject": {
+        "type": "map",
+        "title": "Find your next place",
+        "detail": "A location discovery interface",
+        "variant": 18,
+        "weight": 0.7
+      },
+      "start": 8.032242122719735,
+      "duration": 0.7050248756218906,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Find your next place",
+      "weight": 0.7,
+      "project": {
+        "type": "map",
+        "title": "Find your next place",
+        "detail": "A location discovery interface",
+        "variant": 18,
+        "weight": 0.7
+      },
+      "projectIndex": 7,
+      "secondProject": {
+        "type": "website",
+        "title": "Studio directory",
+        "detail": "A searchable creative directory",
+        "asset": "sculpture",
+        "theme": "dark",
+        "variant": 19,
+        "weight": 1.2
+      },
+      "start": 8.737266998341626,
+      "duration": 1.8800663349917082,
+      "beat": 0,
+      "editorialMode": "split",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Studio directory",
+      "weight": 1.2,
+      "project": {
+        "type": "website",
+        "title": "Studio directory",
+        "detail": "A searchable creative directory",
+        "asset": "sculpture",
+        "theme": "dark",
+        "variant": 19,
+        "weight": 1.2
+      },
+      "projectIndex": 8,
+      "secondProject": {
+        "type": "calendar",
+        "title": "Time well spent",
+        "detail": "A scheduling service",
+        "variant": 20,
+        "weight": 0.55
+      },
+      "start": 10.617333333333333,
+      "duration": 2.3697247097844114,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "dissolve"
+    },
+    {
+      "app": "project",
+      "title": "Time well spent",
+      "weight": 0.55,
+      "project": {
+        "type": "calendar",
+        "title": "Time well spent",
+        "detail": "A scheduling service",
+        "variant": 20,
+        "weight": 0.55
+      },
+      "projectIndex": 9,
+      "secondProject": {
+        "type": "portal",
+        "title": "The customer portal",
+        "detail": "A unified account and request interface",
+        "variant": 21,
+        "weight": 1.7
+      },
+      "start": 12.987058043117745,
+      "duration": 0.6697048092868989,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "The customer portal",
+      "weight": 1.7,
+      "project": {
+        "type": "portal",
+        "title": "The customer portal",
+        "detail": "A unified account and request interface",
+        "variant": 21,
+        "weight": 1.7
+      },
+      "projectIndex": 10,
+      "secondProject": {
+        "type": "film",
+        "title": "Interactive motion",
+        "detail": "A browser-based visual experience",
+        "asset": "sculpture",
+        "theme": "dark",
+        "variant": 22,
+        "weight": 0.8
+      },
+      "start": 13.656762852404643,
+      "duration": 0.8757678275290216,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Interactive motion",
+      "weight": 0.8,
+      "project": {
+        "type": "film",
+        "title": "Interactive motion",
+        "detail": "A browser-based visual experience",
+        "asset": "sculpture",
+        "theme": "dark",
+        "variant": 22,
+        "weight": 0.8
+      },
+      "projectIndex": 11,
+      "split": "project",
+      "secondProject": {
+        "type": "chat",
+        "title": "A helpful service desk",
+        "detail": "A support assistant with evidence",
+        "variant": 23,
+        "weight": 1
+      },
+      "start": 14.532530679933664,
+      "duration": 1.7000199004975127,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "A helpful service desk",
+      "weight": 1,
+      "project": {
+        "type": "chat",
+        "title": "A helpful service desk",
+        "detail": "A support assistant with evidence",
+        "variant": 23,
+        "weight": 1
+      },
+      "projectIndex": 12,
+      "secondProject": {
+        "type": "dashboard",
+        "title": "A financial companion",
+        "detail": "A personal finance application",
+        "variant": 24,
+        "weight": 0.65
+      },
+      "start": 16.232550580431177,
+      "duration": 0.5666733001658376,
+      "beat": 1,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "A financial companion",
+      "weight": 0.65,
+      "project": {
+        "type": "dashboard",
+        "title": "A financial companion",
+        "detail": "A personal finance application",
+        "variant": 24,
+        "weight": 0.65
+      },
+      "projectIndex": 13,
+      "secondProject": {
+        "type": "website",
+        "title": "The learning room",
+        "detail": "A course discovery interface",
+        "asset": "forest",
+        "theme": "cream",
+        "variant": 25,
+        "weight": 1.4
+      },
+      "start": 16.799223880597015,
+      "duration": 1.3394096185737978,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "The learning room",
+      "weight": 1.4,
+      "project": {
+        "type": "website",
+        "title": "The learning room",
+        "detail": "A course discovery interface",
+        "asset": "forest",
+        "theme": "cream",
+        "variant": 25,
+        "weight": 1.4
+      },
+      "projectIndex": 14,
+      "split": "project",
+      "secondProject": {
+        "type": "game",
+        "title": "Pathfinder",
+        "detail": "A playful interactive world",
+        "asset": "coastal",
+        "theme": "dark",
+        "variant": 26,
+        "weight": 0.7
+      },
+      "start": 18.138633499170812,
+      "duration": 0.7727363184079603,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Pathfinder",
+      "weight": 0.7,
+      "project": {
+        "type": "game",
+        "title": "Pathfinder",
+        "detail": "A playful interactive world",
+        "asset": "coastal",
+        "theme": "dark",
+        "variant": 26,
+        "weight": 0.7
+      },
+      "projectIndex": 15,
+      "secondProject": {
+        "type": "portal",
+        "title": "Document centre",
+        "detail": "A searchable document workflow",
+        "variant": 27,
+        "weight": 1.2
+      },
+      "start": 18.911369817578773,
+      "duration": 2.0606301824212276,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Document centre",
+      "weight": 1.2,
+      "project": {
+        "type": "portal",
+        "title": "Document centre",
+        "detail": "A searchable document workflow",
+        "variant": 27,
+        "weight": 1.2
+      },
+      "projectIndex": 16,
+      "secondProject": {
+        "type": "kanban",
+        "title": "Plan the launch",
+        "detail": "A release planning application",
+        "variant": 28,
+        "weight": 0.55
+      },
+      "start": 20.972,
+      "duration": 2.190759535655059,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "dissolve"
+    },
+    {
+      "app": "project",
+      "title": "Plan the launch",
+      "weight": 0.55,
+      "project": {
+        "type": "kanban",
+        "title": "Plan the launch",
+        "detail": "A release planning application",
+        "variant": 28,
+        "weight": 0.55
+      },
+      "projectIndex": 17,
+      "secondProject": {
+        "type": "product",
+        "title": "The object viewer",
+        "detail": "A 3D product experience",
+        "asset": "watch",
+        "theme": "dark",
+        "variant": 29,
+        "weight": 1.7
+      },
+      "start": 23.16275953565506,
+      "duration": 0.6191276948590383,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "The object viewer",
+      "weight": 1.7,
+      "project": {
+        "type": "product",
+        "title": "The object viewer",
+        "detail": "A 3D product experience",
+        "asset": "watch",
+        "theme": "dark",
+        "variant": 29,
+        "weight": 1.7
+      },
+      "projectIndex": 18,
+      "secondProject": {
+        "type": "map",
+        "title": "Community connections",
+        "detail": "A local discovery application",
+        "variant": 30,
+        "weight": 0.8
+      },
+      "start": 23.781887230514098,
+      "duration": 0.8096285240464347,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Community connections",
+      "weight": 0.8,
+      "project": {
+        "type": "map",
+        "title": "Community connections",
+        "detail": "A local discovery application",
+        "variant": 30,
+        "weight": 0.8
+      },
+      "projectIndex": 19,
+      "split": "project",
+      "secondProject": {
+        "type": "calendar",
+        "title": "Events made simple",
+        "detail": "An event scheduling tool",
+        "variant": 31,
+        "weight": 1
+      },
+      "start": 24.591515754560533,
+      "duration": 1.5716318407960204,
+      "beat": 2,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Events made simple",
+      "weight": 1,
+      "project": {
+        "type": "calendar",
+        "title": "Events made simple",
+        "detail": "An event scheduling tool",
+        "variant": 31,
+        "weight": 1
+      },
+      "projectIndex": 20,
+      "secondProject": {
+        "type": "dashboard",
+        "title": "Live operations",
+        "detail": "A finished operations interface",
+        "variant": 32,
+        "weight": 0.65
+      },
+      "start": 26.163147595356552,
+      "duration": 0.5238772802653402,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Live operations",
+      "weight": 0.65,
+      "project": {
+        "type": "dashboard",
+        "title": "Live operations",
+        "detail": "A finished operations interface",
+        "variant": 32,
+        "weight": 0.65
+      },
+      "projectIndex": 21,
+      "secondProject": {
+        "type": "chat",
+        "title": "Research companion",
+        "detail": "A source-aware research assistant",
+        "variant": 33,
+        "weight": 1.4
+      },
+      "start": 26.68702487562189,
+      "duration": 1.2382553897180766,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Research companion",
+      "weight": 1.4,
+      "project": {
+        "type": "chat",
+        "title": "Research companion",
+        "detail": "A source-aware research assistant",
+        "variant": 33,
+        "weight": 1.4
+      },
+      "projectIndex": 22,
+      "split": "project",
+      "secondProject": {
+        "type": "website",
+        "title": "Made to be used",
+        "detail": "A responsive service landing page",
+        "asset": "forest",
+        "theme": "cream",
+        "variant": 34,
+        "weight": 0.7
+      },
+      "start": 27.925280265339968,
+      "duration": 0.7143781094527365,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Made to be used",
+      "weight": 0.7,
+      "project": {
+        "type": "website",
+        "title": "Made to be used",
+        "detail": "A responsive service landing page",
+        "asset": "forest",
+        "theme": "cream",
+        "variant": 34,
+        "weight": 0.7
+      },
+      "projectIndex": 23,
+      "secondProject": {
+        "type": "website",
+        "title": "Fieldnotes",
+        "detail": "A responsive publishing interface",
+        "asset": "gallery",
+        "theme": "cream",
+        "variant": 11,
+        "weight": 1.2
+      },
+      "start": 28.639658374792702,
+      "duration": 1.9050082918739641,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    }
+  ],
+  "captions": [],
+  "audio": {
+    "musicType": "Original procedural composition, rebuilt without narration or speech ducking",
+    "voiceEngine": null,
+    "voiceId": null,
+    "voicePath": null,
+    "musicPath": "music/development-showcase.wav",
+    "mixPath": null,
+    "mode": "music-only"
+  },
+  "editing": {
+    "revision": "20261124d",
+    "cutSeconds": [
+      2.162,
+      0.611,
+      0.799,
+      1.551,
+      0.517,
+      1.222,
+      0.705,
+      1.88,
+      2.37,
+      0.67,
+      0.876,
+      1.7,
+      0.567,
+      1.339,
+      0.773,
+      2.061,
+      2.191,
+      0.619,
+      0.81,
+      1.572,
+      0.524,
+      1.238,
+      0.714,
+      1.905
+    ],
+    "splitFrames": 5,
+    "pictureInPictureFrames": 0,
+    "transitions": [
+      "dissolve",
+      "slide",
+      "cut",
+      "fade-in",
+      "fade-out"
+    ],
+    "particles": "subtle brand accents on concept/result shots",
+    "status": "editorial-review-required"
+  },
+  "revision": "20261124d",
+  "assignedInstructorId": null,
+  "sourceVideoSha256": "5d6189e2cd17f632162b27bbd80504323d97c6bff763304b90ad5f952b14860a",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "src": "assets/media/20261124d/development-showcase-20261124d.mp4",
+  "path": "development-showcase-20261124d.mp4",
+  "poster": "posters/development-showcase-20261124d.jpg",
+  "subtitlePath": null,
+  "hasNarration": false,
+  "hasMusic": true,
+  "voiceId": null,
+  "speakerId": null,
+  "audioRole": "music-only",
+  "voiceProvenance": null,
+  "illustrative": true,
+  "disclosure": "Illustrative interface reconstructions and project concepts. Temporary synthetic instructor voices; project concepts use music only.",
+  "status": "technical-qa-passed-editorial-review-required",
+  "bytes": 5055849,
+  "sha256": "bf643db15809aaa6d874ad8bfb61c450e9ec446adfcb476b26a26a9720239828",
+  "technicalQa": {
+    "passed": true,
+    "fullDecode": true,
+    "peakDb": -14.1
+  },
+  "narration": null
+}

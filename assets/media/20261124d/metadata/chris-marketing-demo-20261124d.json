@@ -1,0 +1,529 @@
+{
+  "id": "chris-marketing-demo",
+  "mediaId": "acumelo-chris-marketing-demo-20261124d",
+  "stem": "chris-marketing-demo-20261124d",
+  "kind": "demo",
+  "scope": "instructor",
+  "name": "Chris",
+  "instructorId": "instructor-chris",
+  "fieldId": "marketing",
+  "title": "A campaign with a feedback loop",
+  "topic": "multi-channel launch",
+  "result": "campaign dashboard",
+  "apps": [
+    "chatgpt",
+    "hubspot",
+    "ga4",
+    "figma",
+    "n8n",
+    "looker"
+  ],
+  "variant": 0,
+  "color": "#fb8d8e",
+  "voice": "am_michael",
+  "bpm": 104,
+  "beats": [
+    {
+      "text": "Connect the message to a measurable customer journey: multi-channel launch. Use an AI assistant to explore ideas, then choose a specific audience, offer, and experiment.",
+      "shots": [
+        {
+          "app": "chatgpt",
+          "title": "Structure the task in ChatGPT",
+          "tool": "ChatGPT",
+          "weight": 1.1
+        },
+        {
+          "app": "hubspot",
+          "title": "Connect contacts and lifecycle stages",
+          "tool": "HubSpot",
+          "weight": 1.35
+        },
+        {
+          "app": "chatgpt",
+          "title": "Structure the task in ChatGPT",
+          "tool": "ChatGPT",
+          "weight": 0.7,
+          "camera": "detail"
+        }
+      ]
+    },
+    {
+      "text": "Use ChatGPT to develop distinct messages for one audience. Build the creative variants in Figma and connect them to clean HubSpot segments. Keep the campaign naming and offer consistent.",
+      "shots": [
+        {
+          "app": "chatgpt",
+          "title": "Review the proposed output",
+          "tool": "ChatGPT",
+          "weight": 1.25,
+          "stage": 1
+        },
+        {
+          "app": "hubspot",
+          "title": "Review the segment and follow-up",
+          "tool": "HubSpot",
+          "weight": 0.8,
+          "stage": 1
+        },
+        {
+          "app": "ga4",
+          "title": "Compare the customer journey",
+          "tool": "Google Analytics 4",
+          "weight": 1.55,
+          "stage": 1
+        },
+        {
+          "app": "chatgpt",
+          "title": "Structure the task in ChatGPT",
+          "tool": "ChatGPT",
+          "weight": 1,
+          "split": "figma",
+          "stage": 2
+        }
+      ]
+    },
+    {
+      "text": "In Google Analytics, inspect the acquisition channel and conversion event. Connect the review loop in n eight n, then compare cost and response in Looker Studio before deciding what to test next.",
+      "shots": [
+        {
+          "app": "ga4",
+          "title": "Inspect acquisition and conversion events",
+          "tool": "Google Analytics 4",
+          "weight": 1.8,
+          "stage": 2,
+          "camera": "detail"
+        },
+        {
+          "app": "n8n",
+          "title": "Inspect the input and output contract",
+          "tool": "n8n",
+          "weight": 1.2,
+          "stage": 1
+        },
+        {
+          "app": "looker",
+          "title": "Review the decision dashboard",
+          "tool": "Looker Studio",
+          "weight": 0.7,
+          "stage": 1
+        },
+        {
+          "app": "ga4",
+          "title": "Compare the customer journey",
+          "tool": "Google Analytics 4",
+          "weight": 1.4,
+          "split": "n8n",
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "text": "Bring those signals into campaign dashboard. Show what changed, what it means, and what to test next. Creative production and measurement work as one continuous loop.",
+      "shots": [
+        {
+          "app": "figma",
+          "title": "Compare responsive surfaces",
+          "tool": "Figma",
+          "weight": 1.5,
+          "stage": 2
+        },
+        {
+          "app": "n8n",
+          "title": "Trace approval and recovery paths",
+          "tool": "n8n",
+          "weight": 1,
+          "stage": 2
+        },
+        {
+          "app": "looker",
+          "title": "Review the decision dashboard",
+          "tool": "Looker Studio",
+          "weight": 1.6,
+          "split": "result",
+          "stage": 3
+        },
+        {
+          "app": "result",
+          "title": "The finished experience",
+          "tool": "result",
+          "weight": 1.15,
+          "stage": 3
+        }
+      ]
+    }
+  ],
+  "contentOwnerId": "instructor-chris",
+  "temporaryAssignment": false,
+  "sourceHash": "c1f8dfad28b134c1ece5244e13b9c317285b3a3479ee451d00fc60548f8549c1",
+  "durationSeconds": 54.06666666666667,
+  "shots": [
+    {
+      "app": "chatgpt",
+      "title": "Structure the task in ChatGPT",
+      "tool": "ChatGPT",
+      "weight": 1.1,
+      "start": 1.17,
+      "duration": 3.3904457142857134,
+      "beat": 0,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "chatgpt",
+      "title": "Structure the task in ChatGPT",
+      "tool": "ChatGPT",
+      "weight": 1.1,
+      "start": 4.560445714285713,
+      "duration": 1.3706057142857142,
+      "beat": 0,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "chatgpt",
+      "title": "Structure the task in ChatGPT",
+      "tool": "ChatGPT",
+      "weight": 1.1,
+      "start": 5.931051428571427,
+      "duration": 2.452662857142857,
+      "beat": 0,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "hubspot",
+      "title": "Connect contacts and lifecycle stages",
+      "tool": "HubSpot",
+      "weight": 1.35,
+      "start": 8.383714285714284,
+      "duration": 2.080879120879121,
+      "beat": 0,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "chatgpt",
+      "title": "Structure the task in ChatGPT",
+      "tool": "ChatGPT",
+      "weight": 0.7,
+      "camera": "detail",
+      "start": 10.464593406593405,
+      "duration": 3.329406593406593,
+      "beat": 0,
+      "editorialMode": "pip",
+      "transition": "cut"
+    },
+    {
+      "app": "chatgpt",
+      "title": "Review the proposed output",
+      "tool": "ChatGPT",
+      "weight": 1.25,
+      "stage": 1,
+      "start": 13.794,
+      "duration": 2.667488083989502,
+      "beat": 1,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "chatgpt",
+      "title": "Review the proposed output",
+      "tool": "ChatGPT",
+      "weight": 1.25,
+      "stage": 1,
+      "start": 16.4614880839895,
+      "duration": 1.0783462467191605,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "chatgpt",
+      "title": "Review the proposed output",
+      "tool": "ChatGPT",
+      "weight": 1.25,
+      "stage": 1,
+      "start": 17.53983433070866,
+      "duration": 1.9296722309711294,
+      "beat": 1,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "hubspot",
+      "title": "Review the segment and follow-up",
+      "tool": "HubSpot",
+      "weight": 0.8,
+      "stage": 1,
+      "start": 19.469506561679793,
+      "duration": 1.6371653543307092,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "ga4",
+      "title": "Compare the customer journey",
+      "tool": "Google Analytics 4",
+      "weight": 1.55,
+      "stage": 1,
+      "start": 21.1066719160105,
+      "duration": 2.619464566929134,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "chatgpt",
+      "title": "Structure the task in ChatGPT",
+      "tool": "ChatGPT",
+      "weight": 1,
+      "split": "figma",
+      "stage": 2,
+      "start": 23.726136482939637,
+      "duration": 3.929196850393702,
+      "beat": 1,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "ga4",
+      "title": "Inspect acquisition and conversion events",
+      "tool": "Google Analytics 4",
+      "weight": 1.8,
+      "stage": 2,
+      "camera": "detail",
+      "start": 27.65533333333334,
+      "duration": 2.6880151181102363,
+      "beat": 2,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "ga4",
+      "title": "Inspect acquisition and conversion events",
+      "tool": "Google Analytics 4",
+      "weight": 1.8,
+      "stage": 2,
+      "camera": "detail",
+      "start": 30.343348451443575,
+      "duration": 1.086644409448819,
+      "beat": 2,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "ga4",
+      "title": "Inspect acquisition and conversion events",
+      "tool": "Google Analytics 4",
+      "weight": 1.8,
+      "stage": 2,
+      "camera": "detail",
+      "start": 31.429992860892394,
+      "duration": 1.9445215748031497,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "n8n",
+      "title": "Inspect the input and output contract",
+      "tool": "n8n",
+      "weight": 1.2,
+      "stage": 1,
+      "start": 33.374514435695545,
+      "duration": 1.649763779527559,
+      "beat": 2,
+      "editorialMode": "detail",
+      "transition": "cut"
+    },
+    {
+      "app": "looker",
+      "title": "Review the decision dashboard",
+      "tool": "Looker Studio",
+      "weight": 0.7,
+      "stage": 1,
+      "start": 35.024278215223106,
+      "duration": 2.639622047244094,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "ga4",
+      "title": "Compare the customer journey",
+      "tool": "Google Analytics 4",
+      "weight": 1.4,
+      "split": "n8n",
+      "stage": 3,
+      "start": 37.6639002624672,
+      "duration": 3.9594330708661425,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "slide"
+    },
+    {
+      "app": "figma",
+      "title": "Compare responsive surfaces",
+      "tool": "Figma",
+      "weight": 1.5,
+      "stage": 2,
+      "start": 41.623333333333335,
+      "duration": 4.710026246719161,
+      "beat": 3,
+      "editorialMode": "establish",
+      "transition": "dissolve"
+    },
+    {
+      "app": "n8n",
+      "title": "Trace approval and recovery paths",
+      "tool": "n8n",
+      "weight": 1,
+      "stage": 2,
+      "start": 46.333359580052495,
+      "duration": 1.3586614173228349,
+      "beat": 3,
+      "editorialMode": "detail",
+      "transition": "cut"
+    },
+    {
+      "app": "looker",
+      "title": "Review the decision dashboard",
+      "tool": "Looker Studio",
+      "weight": 1.6,
+      "split": "result",
+      "stage": 3,
+      "start": 47.69202099737533,
+      "duration": 2.1738582677165357,
+      "beat": 3,
+      "editorialMode": "split",
+      "transition": "slide"
+    },
+    {
+      "app": "result",
+      "title": "The finished experience",
+      "tool": "result",
+      "weight": 1.15,
+      "stage": 3,
+      "start": 49.86587926509186,
+      "duration": 3.2607874015748037,
+      "beat": 3,
+      "editorialMode": "pip",
+      "transition": "cut"
+    }
+  ],
+  "captions": [
+    {
+      "start": 1.25,
+      "end": 13.474,
+      "text": "Connect the message to a measurable customer journey: multi-channel launch. Use an AI assistant to explore ideas, then choose a specific audience, offer, and experiment."
+    },
+    {
+      "start": 13.874,
+      "end": 27.335333333333335,
+      "text": "Use ChatGPT to develop distinct messages for one audience. Build the creative variants in Figma and connect them to clean HubSpot segments. Keep the campaign naming and offer consistent."
+    },
+    {
+      "start": 27.735333333333337,
+      "end": 41.303333333333335,
+      "text": "In Google Analytics, inspect the acquisition channel and conversion event. Connect the review loop in n eight n, then compare cost and response in Looker Studio before deciding what to test next."
+    },
+    {
+      "start": 41.70333333333333,
+      "end": 52.806666666666665,
+      "text": "Bring those signals into campaign dashboard. Show what changed, what it means, and what to test next. Creative production and measurement work as one continuous loop."
+    }
+  ],
+  "audio": {
+    "sampleRate": 24000,
+    "voicePath": "audio/chris-marketing-demo-voice.wav",
+    "musicPath": "audio/chris-marketing-demo-music.wav",
+    "mixPath": "audio/chris-marketing-demo-mix.wav",
+    "voiceEngine": "Kokoro-82M ONNX",
+    "voiceId": "am_michael",
+    "musicType": "Original procedural composition",
+    "peak": 0.7367720007896423
+  },
+  "editing": {
+    "revision": "20261124d",
+    "cutSeconds": [
+      3.39,
+      1.371,
+      2.453,
+      2.081,
+      3.329,
+      2.667,
+      1.078,
+      1.93,
+      1.637,
+      2.619,
+      3.929,
+      2.688,
+      1.087,
+      1.945,
+      1.65,
+      2.64,
+      3.959,
+      4.71,
+      1.359,
+      2.174,
+      3.261
+    ],
+    "splitFrames": 6,
+    "pictureInPictureFrames": 2,
+    "transitions": [
+      "dissolve",
+      "slide",
+      "cut",
+      "fade-in",
+      "fade-out"
+    ],
+    "particles": "subtle brand accents on concept/result shots",
+    "status": "editorial-review-required"
+  },
+  "revision": "20261124d",
+  "assignedInstructorId": "instructor-chris",
+  "sourceVideoSha256": "9f5b21321cbc941f6b934a570701ae4a2cecc49141c26e5b08c3c181690a0156",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "src": "assets/media/20261124d/chris-marketing-demo-20261124d.mp4",
+  "path": "chris-marketing-demo-20261124d.mp4",
+  "poster": "posters/chris-marketing-demo-20261124d.jpg",
+  "subtitlePath": "captions/chris-marketing-demo-20261124d.vtt",
+  "hasNarration": true,
+  "hasMusic": true,
+  "voiceId": "am_michael",
+  "speakerId": "instructor-chris",
+  "audioRole": "instructor-demonstration",
+  "voiceProvenance": "Existing verified temporary synthetic voice; encoded audio copied unchanged from v3",
+  "illustrative": true,
+  "disclosure": "Illustrative interface reconstructions and project concepts. Temporary synthetic instructor voices; project concepts use music only.",
+  "status": "technical-qa-passed-editorial-review-required",
+  "bytes": 4538750,
+  "sha256": "ba1b5456c257e52ce275517ebdcec5a7f6599d6c8111e4998d4da1248481efe0",
+  "audioStreamSha256": "SHA256=6c20c1262a656a4d61102d565759e4f74f9ebac7738097232bca604b92a3e6c6",
+  "audioCopiedVerified": true,
+  "technicalQa": {
+    "passed": true,
+    "fullDecode": true,
+    "peakDb": -2.7
+  }
+}

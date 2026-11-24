@@ -1,0 +1,705 @@
+{
+  "id": "workflow-showcase",
+  "mediaId": "acumelo-workflow-showcase-20261124d",
+  "stem": "workflow-showcase-20261124d",
+  "kind": "showcase",
+  "scope": "category",
+  "name": "Acumelo",
+  "fieldId": "workflow",
+  "title": "AI Workflow & Automation / Project possibilities",
+  "topic": "AI Workflow & Automation",
+  "result": "24 original project concepts",
+  "variant": 18,
+  "color": "#5ad5b1",
+  "voice": null,
+  "bpm": 120,
+  "contentOwnerId": "instructor-chris",
+  "temporaryAssignment": false,
+  "sourceHash": "3aa2d082d9b7ff2648f0e67609e48119bf32c07a21c07f234c1d8294a164d733",
+  "durationSeconds": 31.633333333333333,
+  "shots": [
+    {
+      "app": "project",
+      "title": "Monthly operations brief",
+      "weight": 1.2,
+      "project": {
+        "type": "report",
+        "title": "Monthly operations brief",
+        "detail": "An automatically assembled management summary",
+        "variant": 8,
+        "weight": 1.2
+      },
+      "projectIndex": 0,
+      "secondProject": {
+        "type": "dashboard",
+        "title": "Finance pulse",
+        "detail": "Revenue, spend and cash position",
+        "variant": 9,
+        "weight": 0.55
+      },
+      "start": 1.17,
+      "duration": 2.186487562189055,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "dissolve"
+    },
+    {
+      "app": "project",
+      "title": "Finance pulse",
+      "weight": 0.55,
+      "project": {
+        "type": "dashboard",
+        "title": "Finance pulse",
+        "detail": "Revenue, spend and cash position",
+        "variant": 9,
+        "weight": 0.55
+      },
+      "projectIndex": 1,
+      "secondProject": {
+        "type": "inbox",
+        "title": "A calm, organized inbox",
+        "detail": "Priority messages with suggested next actions",
+        "variant": 10,
+        "weight": 1.7
+      },
+      "start": 3.356487562189055,
+      "duration": 0.6179203980099504,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "A calm, organized inbox",
+      "weight": 1.7,
+      "project": {
+        "type": "inbox",
+        "title": "A calm, organized inbox",
+        "detail": "Priority messages with suggested next actions",
+        "variant": 10,
+        "weight": 1.7
+      },
+      "projectIndex": 2,
+      "secondProject": {
+        "type": "presentation",
+        "title": "The weekly briefing",
+        "detail": "A finished executive slide deck",
+        "variant": 11,
+        "weight": 0.8
+      },
+      "start": 3.974407960199005,
+      "duration": 0.8080497512437812,
+      "beat": 0,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "The weekly briefing",
+      "weight": 0.8,
+      "project": {
+        "type": "presentation",
+        "title": "The weekly briefing",
+        "detail": "A finished executive slide deck",
+        "variant": 11,
+        "weight": 0.8
+      },
+      "projectIndex": 3,
+      "split": "project",
+      "secondProject": {
+        "type": "calendar",
+        "title": "A week that fits",
+        "detail": "Scheduling and capacity at a glance",
+        "variant": 12,
+        "weight": 1
+      },
+      "start": 4.782457711442786,
+      "duration": 1.5685671641791046,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "A week that fits",
+      "weight": 1,
+      "project": {
+        "type": "calendar",
+        "title": "A week that fits",
+        "detail": "Scheduling and capacity at a glance",
+        "variant": 12,
+        "weight": 1
+      },
+      "projectIndex": 4,
+      "secondProject": {
+        "type": "invoice",
+        "title": "Invoice ready",
+        "detail": "A clean, generated customer document",
+        "variant": 13,
+        "weight": 0.65
+      },
+      "start": 6.351024875621891,
+      "duration": 0.5228557213930349,
+      "beat": 0,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Invoice ready",
+      "weight": 0.65,
+      "project": {
+        "type": "invoice",
+        "title": "Invoice ready",
+        "detail": "A clean, generated customer document",
+        "variant": 13,
+        "weight": 0.65
+      },
+      "projectIndex": 5,
+      "secondProject": {
+        "type": "portal",
+        "title": "Leave, without the paperwork",
+        "detail": "A self-service request portal",
+        "variant": 14,
+        "weight": 1.4
+      },
+      "start": 6.873880597014926,
+      "duration": 1.2358407960199007,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Leave, without the paperwork",
+      "weight": 1.4,
+      "project": {
+        "type": "portal",
+        "title": "Leave, without the paperwork",
+        "detail": "A self-service request portal",
+        "variant": 14,
+        "weight": 1.4
+      },
+      "projectIndex": 6,
+      "split": "project",
+      "secondProject": {
+        "type": "dashboard",
+        "title": "Inventory watch",
+        "detail": "Stock levels and reorder alerts",
+        "variant": 15,
+        "weight": 0.7
+      },
+      "start": 8.109721393034826,
+      "duration": 0.7129850746268658,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Inventory watch",
+      "weight": 0.7,
+      "project": {
+        "type": "dashboard",
+        "title": "Inventory watch",
+        "detail": "Stock levels and reorder alerts",
+        "variant": 15,
+        "weight": 0.7
+      },
+      "projectIndex": 7,
+      "secondProject": {
+        "type": "report",
+        "title": "Supplier comparison",
+        "detail": "A side-by-side purchasing report",
+        "variant": 16,
+        "weight": 1.2
+      },
+      "start": 8.822706467661693,
+      "duration": 1.9012935323383087,
+      "beat": 0,
+      "editorialMode": "split",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Supplier comparison",
+      "weight": 1.2,
+      "project": {
+        "type": "report",
+        "title": "Supplier comparison",
+        "detail": "A side-by-side purchasing report",
+        "variant": 16,
+        "weight": 1.2
+      },
+      "projectIndex": 8,
+      "secondProject": {
+        "type": "kanban",
+        "title": "Approval desk",
+        "detail": "Requests grouped by decision stage",
+        "variant": 17,
+        "weight": 0.55
+      },
+      "start": 10.724,
+      "duration": 2.3697247097844114,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "dissolve"
+    },
+    {
+      "app": "project",
+      "title": "Approval desk",
+      "weight": 0.55,
+      "project": {
+        "type": "kanban",
+        "title": "Approval desk",
+        "detail": "Requests grouped by decision stage",
+        "variant": 17,
+        "weight": 0.55
+      },
+      "projectIndex": 9,
+      "secondProject": {
+        "type": "presentation",
+        "title": "Sales in one story",
+        "detail": "A finished data-led presentation",
+        "variant": 18,
+        "weight": 1.7
+      },
+      "start": 13.09372470978441,
+      "duration": 0.6697048092868989,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Sales in one story",
+      "weight": 1.7,
+      "project": {
+        "type": "presentation",
+        "title": "Sales in one story",
+        "detail": "A finished data-led presentation",
+        "variant": 18,
+        "weight": 1.7
+      },
+      "projectIndex": 10,
+      "secondProject": {
+        "type": "chat",
+        "title": "The team knowledge desk",
+        "detail": "A searchable internal help experience",
+        "variant": 19,
+        "weight": 0.8
+      },
+      "start": 13.763429519071309,
+      "duration": 0.8757678275290216,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "The team knowledge desk",
+      "weight": 0.8,
+      "project": {
+        "type": "chat",
+        "title": "The team knowledge desk",
+        "detail": "A searchable internal help experience",
+        "variant": 19,
+        "weight": 0.8
+      },
+      "projectIndex": 11,
+      "split": "project",
+      "secondProject": {
+        "type": "calendar",
+        "title": "Team availability",
+        "detail": "A shared planning calendar",
+        "variant": 20,
+        "weight": 1
+      },
+      "start": 14.63919734660033,
+      "duration": 1.7000199004975127,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Team availability",
+      "weight": 1,
+      "project": {
+        "type": "calendar",
+        "title": "Team availability",
+        "detail": "A shared planning calendar",
+        "variant": 20,
+        "weight": 1
+      },
+      "projectIndex": 12,
+      "secondProject": {
+        "type": "report",
+        "title": "Customer meeting notes",
+        "detail": "Decisions, actions and owners",
+        "variant": 21,
+        "weight": 0.65
+      },
+      "start": 16.339217247097842,
+      "duration": 0.5666733001658376,
+      "beat": 1,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Customer meeting notes",
+      "weight": 0.65,
+      "project": {
+        "type": "report",
+        "title": "Customer meeting notes",
+        "detail": "Decisions, actions and owners",
+        "variant": 21,
+        "weight": 0.65
+      },
+      "projectIndex": 13,
+      "secondProject": {
+        "type": "dashboard",
+        "title": "Project spend monitor",
+        "detail": "Budget and actuals in one view",
+        "variant": 22,
+        "weight": 1.4
+      },
+      "start": 16.90589054726368,
+      "duration": 1.3394096185737978,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Project spend monitor",
+      "weight": 1.4,
+      "project": {
+        "type": "dashboard",
+        "title": "Project spend monitor",
+        "detail": "Budget and actuals in one view",
+        "variant": 22,
+        "weight": 1.4
+      },
+      "projectIndex": 14,
+      "split": "project",
+      "secondProject": {
+        "type": "portal",
+        "title": "Travel request",
+        "detail": "A simple end-to-end request interface",
+        "variant": 23,
+        "weight": 0.7
+      },
+      "start": 18.245300165837477,
+      "duration": 0.7727363184079603,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Travel request",
+      "weight": 0.7,
+      "project": {
+        "type": "portal",
+        "title": "Travel request",
+        "detail": "A simple end-to-end request interface",
+        "variant": 23,
+        "weight": 0.7
+      },
+      "projectIndex": 15,
+      "secondProject": {
+        "type": "inbox",
+        "title": "A helpful follow-up",
+        "detail": "A personalized, reviewable email draft",
+        "variant": 24,
+        "weight": 1.2
+      },
+      "start": 19.01803648424544,
+      "duration": 2.0606301824212276,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "A helpful follow-up",
+      "weight": 1.2,
+      "project": {
+        "type": "inbox",
+        "title": "A helpful follow-up",
+        "detail": "A personalized, reviewable email draft",
+        "variant": 24,
+        "weight": 1.2
+      },
+      "projectIndex": 16,
+      "secondProject": {
+        "type": "invoice",
+        "title": "Purchase order",
+        "detail": "A generated purchasing document",
+        "variant": 25,
+        "weight": 0.55
+      },
+      "start": 21.07866666666667,
+      "duration": 2.1999137645107796,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "dissolve"
+    },
+    {
+      "app": "project",
+      "title": "Purchase order",
+      "weight": 0.55,
+      "project": {
+        "type": "invoice",
+        "title": "Purchase order",
+        "detail": "A generated purchasing document",
+        "variant": 25,
+        "weight": 0.55
+      },
+      "projectIndex": 17,
+      "secondProject": {
+        "type": "kanban",
+        "title": "Onboarding checklist",
+        "detail": "A clear path from offer to first day",
+        "variant": 26,
+        "weight": 1.7
+      },
+      "start": 23.27858043117745,
+      "duration": 0.6217147595356552,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Onboarding checklist",
+      "weight": 1.7,
+      "project": {
+        "type": "kanban",
+        "title": "Onboarding checklist",
+        "detail": "A clear path from offer to first day",
+        "variant": 26,
+        "weight": 1.7
+      },
+      "projectIndex": 18,
+      "secondProject": {
+        "type": "report",
+        "title": "Expense summary",
+        "detail": "Receipts organized into a readable report",
+        "variant": 27,
+        "weight": 0.8
+      },
+      "start": 23.900295190713106,
+      "duration": 0.813011608623549,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Expense summary",
+      "weight": 0.8,
+      "project": {
+        "type": "report",
+        "title": "Expense summary",
+        "detail": "Receipts organized into a readable report",
+        "variant": 27,
+        "weight": 0.8
+      },
+      "projectIndex": 19,
+      "split": "project",
+      "secondProject": {
+        "type": "dashboard",
+        "title": "Service queue",
+        "detail": "Requests, response times and trends",
+        "variant": 28,
+        "weight": 1
+      },
+      "start": 24.713306799336653,
+      "duration": 1.5781990049751247,
+      "beat": 2,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Service queue",
+      "weight": 1,
+      "project": {
+        "type": "dashboard",
+        "title": "Service queue",
+        "detail": "Requests, response times and trends",
+        "variant": 28,
+        "weight": 1
+      },
+      "projectIndex": 20,
+      "secondProject": {
+        "type": "presentation",
+        "title": "Quarterly review",
+        "detail": "A concise leadership-ready deck",
+        "variant": 29,
+        "weight": 0.65
+      },
+      "start": 26.29150580431178,
+      "duration": 0.5260663349917083,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Quarterly review",
+      "weight": 0.65,
+      "project": {
+        "type": "presentation",
+        "title": "Quarterly review",
+        "detail": "A concise leadership-ready deck",
+        "variant": 29,
+        "weight": 0.65
+      },
+      "projectIndex": 21,
+      "secondProject": {
+        "type": "calendar",
+        "title": "Delivery schedule",
+        "detail": "Milestones and responsible teams",
+        "variant": 30,
+        "weight": 1.4
+      },
+      "start": 26.817572139303486,
+      "duration": 1.2434295190713105,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Delivery schedule",
+      "weight": 1.4,
+      "project": {
+        "type": "calendar",
+        "title": "Delivery schedule",
+        "detail": "Milestones and responsible teams",
+        "variant": 30,
+        "weight": 1.4
+      },
+      "projectIndex": 22,
+      "split": "project",
+      "secondProject": {
+        "type": "portal",
+        "title": "Operations home",
+        "detail": "One front door for everyday work",
+        "variant": 31,
+        "weight": 0.7
+      },
+      "start": 28.061001658374796,
+      "duration": 0.7173631840796021,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Operations home",
+      "weight": 0.7,
+      "project": {
+        "type": "portal",
+        "title": "Operations home",
+        "detail": "One front door for everyday work",
+        "variant": 31,
+        "weight": 0.7
+      },
+      "projectIndex": 23,
+      "secondProject": {
+        "type": "report",
+        "title": "Monthly operations brief",
+        "detail": "An automatically assembled management summary",
+        "variant": 8,
+        "weight": 1.2
+      },
+      "start": 28.778364842454398,
+      "duration": 1.912968490878939,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    }
+  ],
+  "captions": [],
+  "audio": {
+    "musicType": "Original procedural composition, rebuilt without narration or speech ducking",
+    "voiceEngine": null,
+    "voiceId": null,
+    "voicePath": null,
+    "musicPath": "music/workflow-showcase.wav",
+    "mixPath": null,
+    "mode": "music-only"
+  },
+  "editing": {
+    "revision": "20261124d",
+    "cutSeconds": [
+      2.186,
+      0.618,
+      0.808,
+      1.569,
+      0.523,
+      1.236,
+      0.713,
+      1.901,
+      2.37,
+      0.67,
+      0.876,
+      1.7,
+      0.567,
+      1.339,
+      0.773,
+      2.061,
+      2.2,
+      0.622,
+      0.813,
+      1.578,
+      0.526,
+      1.243,
+      0.717,
+      1.913
+    ],
+    "splitFrames": 5,
+    "pictureInPictureFrames": 0,
+    "transitions": [
+      "dissolve",
+      "slide",
+      "cut",
+      "fade-in",
+      "fade-out"
+    ],
+    "particles": "subtle brand accents on concept/result shots",
+    "status": "editorial-review-required"
+  },
+  "revision": "20261124d",
+  "assignedInstructorId": null,
+  "sourceVideoSha256": "c27b2b771003fb60f8c66cc2601d2f39fbeb82284b2648771cb246838221e134",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "src": "assets/media/20261124d/workflow-showcase-20261124d.mp4",
+  "path": "workflow-showcase-20261124d.mp4",
+  "poster": "posters/workflow-showcase-20261124d.jpg",
+  "subtitlePath": null,
+  "hasNarration": false,
+  "hasMusic": true,
+  "voiceId": null,
+  "speakerId": null,
+  "audioRole": "music-only",
+  "voiceProvenance": null,
+  "illustrative": true,
+  "disclosure": "Illustrative interface reconstructions and project concepts. Temporary synthetic instructor voices; project concepts use music only.",
+  "status": "technical-qa-passed-editorial-review-required",
+  "bytes": 2466008,
+  "sha256": "dd2eb43679f8c7c11cb7286b342058dfbd20ad79a08083ac2db2598183dcef0d",
+  "technicalQa": {
+    "passed": true,
+    "fullDecode": true,
+    "peakDb": -14
+  },
+  "narration": null
+}

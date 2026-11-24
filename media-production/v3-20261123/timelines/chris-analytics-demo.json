@@ -1,0 +1,320 @@
+{
+  "id": "chris-analytics-demo",
+  "mediaId": "acumelo-chris-analytics-demo-20261123c",
+  "stem": "chris-analytics-demo-20261123c",
+  "kind": "demo",
+  "scope": "instructor",
+  "name": "Chris",
+  "instructorId": "instructor-chris",
+  "fieldId": "analytics",
+  "title": "From raw data to a decision",
+  "topic": "revenue quality",
+  "result": "executive dashboard",
+  "apps": [
+    "excel",
+    "jupyter",
+    "vscode",
+    "powerbi",
+    "tableau",
+    "grafana"
+  ],
+  "variant": 0,
+  "color": "#66b8ef",
+  "voice": "am_michael",
+  "bpm": 104,
+  "beats": [
+    {
+      "text": "The question comes first: revenue quality. Check the grain of the data and its definitions before you draw a chart or build a model.",
+      "shots": [
+        {
+          "app": "excel",
+          "title": "Inspect the source table",
+          "tool": "Microsoft Excel",
+          "weight": 1.1
+        },
+        {
+          "app": "jupyter",
+          "title": "Explore the data in a notebook",
+          "tool": "JupyterLab",
+          "weight": 1.35
+        },
+        {
+          "app": "excel",
+          "title": "Inspect the source table",
+          "tool": "Microsoft Excel",
+          "weight": 0.7,
+          "camera": "detail"
+        }
+      ]
+    },
+    {
+      "text": "Reconcile the source totals in Excel. In a notebook, inspect missing values and revenue distributions. Use Python and SQL to separate a true business change from a data-quality issue.",
+      "shots": [
+        {
+          "app": "excel",
+          "stage": 1,
+          "weight": 1.2,
+          "title": "Check the formula and exceptions"
+        },
+        {
+          "app": "jupyter",
+          "stage": 1,
+          "weight": 1.4,
+          "title": "Check assumptions and validation"
+        },
+        {
+          "app": "vscode",
+          "stage": 2,
+          "weight": 1.3,
+          "title": "Review a testable service boundary",
+          "camera": "detail"
+        },
+        {
+          "app": "jupyter",
+          "stage": 2,
+          "weight": 1.2,
+          "title": "Compare the analysis and output",
+          "split": "excel"
+        }
+      ]
+    },
+    {
+      "text": "Model the measures in Power BI, compare segments in Tableau, and inspect the operational signal in Grafana. Trace each metric back to its definition before presenting the result.",
+      "shots": [
+        {
+          "app": "powerbi",
+          "stage": 1,
+          "weight": 1.5,
+          "title": "Inspect the report and filter context"
+        },
+        {
+          "app": "tableau",
+          "stage": 2,
+          "weight": 1.4,
+          "title": "Compare dimensions and measures"
+        },
+        {
+          "app": "grafana",
+          "stage": 1,
+          "weight": 1.3,
+          "title": "Inspect failures and changes over time"
+        },
+        {
+          "app": "tableau",
+          "stage": 1,
+          "weight": 0.9,
+          "title": "Inspect the analytical view",
+          "split": "powerbi"
+        }
+      ]
+    },
+    {
+      "text": "Publish the story as executive dashboard. Let people filter the view, inspect the evidence, and understand the next action. The presentation should remain clear when the underlying data changes.",
+      "shots": [
+        {
+          "app": "powerbi",
+          "stage": 2,
+          "weight": 1.4,
+          "title": "Build explicit dashboard measures"
+        },
+        {
+          "app": "excel",
+          "stage": 2,
+          "weight": 0.9,
+          "title": "Reconcile the source and report"
+        },
+        {
+          "app": "result",
+          "stage": 3,
+          "weight": 1.5,
+          "title": "The finished experience",
+          "split": "tableau"
+        },
+        {
+          "app": "result",
+          "stage": 3,
+          "weight": 1.4,
+          "title": "The finished experience"
+        }
+      ]
+    }
+  ],
+  "contentOwnerId": "instructor-chris",
+  "temporaryAssignment": false,
+  "sourceHash": "a331708945e57b3c014e6f1e870f2eb3fad85a0ce00bf566b60d4c66f37027eb",
+  "durationSeconds": 51.56666666666667,
+  "shots": [
+    {
+      "app": "excel",
+      "title": "Inspect the source table",
+      "tool": "Microsoft Excel",
+      "weight": 1.1,
+      "start": 1.17,
+      "duration": 3.1866243386243385,
+      "beat": 0
+    },
+    {
+      "app": "jupyter",
+      "title": "Explore the data in a notebook",
+      "tool": "JupyterLab",
+      "weight": 1.35,
+      "start": 4.356624338624338,
+      "duration": 3.910857142857143,
+      "beat": 0
+    },
+    {
+      "app": "excel",
+      "title": "Inspect the source table",
+      "tool": "Microsoft Excel",
+      "weight": 0.7,
+      "camera": "detail",
+      "start": 8.267481481481482,
+      "duration": 2.027851851851852,
+      "beat": 0
+    },
+    {
+      "app": "excel",
+      "stage": 1,
+      "weight": 1.2,
+      "title": "Check the formula and exceptions",
+      "start": 10.295333333333334,
+      "duration": 3.1811764705882357,
+      "beat": 1
+    },
+    {
+      "app": "jupyter",
+      "stage": 1,
+      "weight": 1.4,
+      "title": "Check assumptions and validation",
+      "start": 13.47650980392157,
+      "duration": 3.7113725490196074,
+      "beat": 1
+    },
+    {
+      "app": "vscode",
+      "stage": 2,
+      "weight": 1.3,
+      "title": "Review a testable service boundary",
+      "camera": "detail",
+      "start": 17.187882352941177,
+      "duration": 3.446274509803922,
+      "beat": 1
+    },
+    {
+      "app": "jupyter",
+      "stage": 2,
+      "weight": 1.2,
+      "title": "Compare the analysis and output",
+      "split": "excel",
+      "start": 20.634156862745098,
+      "duration": 3.1811764705882357,
+      "beat": 1
+    },
+    {
+      "app": "powerbi",
+      "stage": 1,
+      "weight": 1.5,
+      "title": "Inspect the report and filter context",
+      "start": 23.815333333333335,
+      "duration": 3.922549019607844,
+      "beat": 2
+    },
+    {
+      "app": "tableau",
+      "stage": 2,
+      "weight": 1.4,
+      "title": "Compare dimensions and measures",
+      "start": 27.737882352941178,
+      "duration": 3.661045751633987,
+      "beat": 2
+    },
+    {
+      "app": "grafana",
+      "stage": 1,
+      "weight": 1.3,
+      "title": "Inspect failures and changes over time",
+      "start": 31.398928104575166,
+      "duration": 3.399542483660131,
+      "beat": 2
+    },
+    {
+      "app": "tableau",
+      "stage": 1,
+      "weight": 0.9,
+      "title": "Inspect the analytical view",
+      "split": "powerbi",
+      "start": 34.7984705882353,
+      "duration": 2.3535294117647063,
+      "beat": 2
+    },
+    {
+      "app": "powerbi",
+      "stage": 2,
+      "weight": 1.4,
+      "title": "Build explicit dashboard measures",
+      "start": 37.152,
+      "duration": 3.6304871794871794,
+      "beat": 3
+    },
+    {
+      "app": "excel",
+      "stage": 2,
+      "weight": 0.9,
+      "title": "Reconcile the source and report",
+      "start": 40.78248717948718,
+      "duration": 2.3338846153846156,
+      "beat": 3
+    },
+    {
+      "app": "result",
+      "stage": 3,
+      "weight": 1.5,
+      "title": "The finished experience",
+      "split": "tableau",
+      "start": 43.116371794871796,
+      "duration": 3.8898076923076923,
+      "beat": 3
+    },
+    {
+      "app": "result",
+      "stage": 3,
+      "weight": 1.4,
+      "title": "The finished experience",
+      "start": 47.00617948717949,
+      "duration": 3.6304871794871794,
+      "beat": 3
+    }
+  ],
+  "captions": [
+    {
+      "start": 1.25,
+      "end": 9.975333333333333,
+      "text": "The question comes first: revenue quality. Check the grain of the data and its definitions before you draw a chart or build a model."
+    },
+    {
+      "start": 10.375333333333334,
+      "end": 23.495333333333335,
+      "text": "Reconcile the source totals in Excel. In a notebook, inspect missing values and revenue distributions. Use Python and SQL to separate a true business change from a data-quality issue."
+    },
+    {
+      "start": 23.895333333333333,
+      "end": 36.832,
+      "text": "Model the measures in Power BI, compare segments in Tableau, and inspect the operational signal in Grafana. Trace each metric back to its definition before presenting the result."
+    },
+    {
+      "start": 37.232,
+      "end": 50.31666666666666,
+      "text": "Publish the story as executive dashboard. Let people filter the view, inspect the evidence, and understand the next action. The presentation should remain clear when the underlying data changes."
+    }
+  ],
+  "audio": {
+    "sampleRate": 24000,
+    "voicePath": "audio/chris-analytics-demo-voice.wav",
+    "musicPath": "audio/chris-analytics-demo-music.wav",
+    "mixPath": "audio/chris-analytics-demo-mix.wav",
+    "voiceEngine": "Kokoro-82M ONNX",
+    "voiceId": "am_michael",
+    "musicType": "Original procedural composition",
+    "peak": 0.7252846956253052
+  }
+}
