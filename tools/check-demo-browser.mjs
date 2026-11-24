@@ -34,6 +34,17 @@ try{
   if(member.id==='instructor-chris'&&width===390&&lang==='en'&&process.env.QA_SCREENSHOT)await section.screenshot({path:process.env.QA_SCREENSHOT});
   report.cases.push({instructor:member.id,width,lang,results:mediaIds.length,passed:true});
  }
+ // Mobile result activation reveals the chosen player without scrolling on text input.
+ await page.emulateMedia({reducedMotion:'reduce'});
+ for(const width of [320,390]){
+  await page.setViewportSize({width,height:900});await page.goto(new URL('?page=instructor-chris',base).href);
+  const panel=page.locator('#instructor-chris .profile-own-demo'),input=panel.locator('.demo-search');
+  await input.scrollIntoViewIfNeeded();await input.focus();const before=await page.evaluate(()=>scrollY);await input.fill('Excel');assert(Math.abs((await page.evaluate(()=>scrollY))-before)<2);
+  assert.equal(await input.evaluate(n=>getComputedStyle(n).outlineStyle),'none');
+  await panel.locator('.demo-result').first().click();
+  const position=await panel.locator('.profile-demo-player').evaluate(n=>({top:n.getBoundingClientRect().top,focused:n===document.activeElement}));
+  assert(position.focused&&position.top>=100&&position.top<180);assert.equal(await panel.locator('video').evaluate(n=>n.paused),true);
+ }
  // Manual playback, switch/zero-result pause, and invalid mapping isolation in the actual browser.
  await page.goto(new URL('?page=instructor-chris',base).href);
  const section=page.locator('#instructor-chris .profile-own-demo');
