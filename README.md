@@ -32,7 +32,7 @@ Open `http://127.0.0.1:8765/` when UI review is authorized. Stop the server with
 | `index.html` | Generated site; rebuild and commit with edited sources |
 | `tools/media-assignments.mjs` | Preserve original media when replacing an instructor placement |
 | `docs/media-ownership.md` | Stable identity, ownership and replacement contract |
-| `media/releases.json` | Verified archive locations and hashes; empty pending new media |
+| `media/releases.json` | Public archive-status summary; private locations and inventory stay outside this repository |
 | `media-production/` | Historical renderer sources and required artwork |
 
 There is currently **no server database**. Canonical content and version history live in Git. Do not commit passwords, tokens, customer records or private instructor originals to this public repository. Use repository-relative paths. Introduce a private cloud database only when an actual application feature requires one.
@@ -41,13 +41,13 @@ Keep media identity and content ownership separate from page placement. New asse
 
 ## Original media and remote recovery
 
-The final narrated web media and reproducible renderer sources have been delivered. Independent narration/BGM WAV stems and the complete editable master archive still await verified company-cloud storage. `media/releases.json` stays empty until those archive uploads are verified. The web MP4s and Git renderer source do not substitute for the complete original archive.
+The company archive owner has verified 16 ZIPs in private company Google Drive: one production-source bundle, six field audio/music bundles, six field final-video bundles and three historical-design bundles. The private archive ledger records authenticated re-downloads with matching SHA-256 and byte counts. The website chat reviewed that ledger; it did not repeat the uploads or delete originals.
 
-Use versioned GitHub Releases for public, approved archives, or access-controlled cloud storage for private originals. Record each archive's version, immutable URL, SHA-256, byte size, contained media IDs and access classification. Keep an internal source/stem hash manifest inside each archive. Do not commit credentials or temporary signed URLs.
+Private company Drive is the source/master/stem archive. Git is the canonical home for public web masters, the website, reproducible production code and lightweight configuration. Keep the private folder address, file IDs, download links, ZIPs and full private hash inventory in the restricted company archive ledger, never in this public repository or website. `media/releases.json` intentionally contains status and coverage only. Authorized maintainers obtain access through the company's private archive inventory.
 
-The connected GitHub tool supports Git blobs, trees, commits and branch updates, but does **not** expose Release creation or binary Release upload. No CLI/environment-token/cached Git credential was available on the preparation PC. A separately authenticated `gh release upload` or the [Release asset REST endpoint](https://docs.github.com/en/rest/releases/assets#upload-a-release-asset) is needed for that step. Release files must be [under 2 GiB each](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases). Releases in this public repository are public; private originals need private storage.
+Archive integrity and successful technical playback checks are separate from editorial approval, voice identity approval and visual quality acceptance. Retain versioned originals when correcting a voice or edit; do not treat the archived v3 release as an approved creative final.
 
-Before any local cleanup: upload the complete archive, download it independently, compare archive and internal hashes, open/decode required media and record verification evidence. Only then identify task-created disposable local files. Do not delete user original photos/documents, synced sources, other projects, old history or any source lacking a verified remote copy. No cleanup was performed during this preparation.
+Local retention is coordinated with the archive owner. This website chat performs a read-only audit and does not duplicate another chat's cleanup. Keep the final website working folder, original user attachments/documents, `sources`, OneDrive links and any file whose archive coverage is unconfirmed. A file absent from the current Git tree or supplied archive manifests is unconfirmed, not automatically disposable; older Git history may also retain it.
 
 ## Release process
 
