@@ -348,6 +348,7 @@
     input.setAttribute('aria-controls', results.id);
     const player = el('div', 'profile-demo-player');
     player.id = member.id + '-demo-player';
+    player.tabIndex = -1;
     const strings = value => typeof value === 'string' ? value : value && typeof value === 'object' ? Object.values(value).map(strings).join(' ') : '';
     const normalize = value => value.normalize('NFKC').toLocaleLowerCase().trim();
     const matches = demo => {
@@ -397,6 +398,11 @@
         button.addEventListener('click', () => {
           state.selected = demo.id; save(); show(demo);
           results.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.mediaId === demo.id)));
+          // An explicit mobile result selection reveals the player; typing never scrolls.
+          if (matchMedia('(max-width: 900px)').matches) {
+            player.focus({preventScroll:true});
+            player.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+          }
         });
         results.append(button);
       }
