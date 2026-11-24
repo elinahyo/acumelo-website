@@ -8,10 +8,11 @@ on:
 
 permissions:
   contents: read
+  actions: read
 
 concurrency:
   group: acumelo-editorial-v4
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   render:
@@ -41,23 +42,42 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install public dependencies
+      - name: Read recovery request
+        id: request
+        env:
+          PART: ${{ matrix.part }}
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y ffmpeg fonts-dejavu-core
-          npm install --global pnpm@9.15.9
+          node -e 'const fs=require("fs"),r=JSON.parse(fs.readFileSync("media-production/v4-20261124/render-request.json"));const reuse=Number.isSafeInteger(r.reuseRun)&&r.reuseRun>0&&r.reuseParts?.includes(process.env.PART);fs.appendFileSync(process.env.GITHUB_OUTPUT,"reuse="+Boolean(reuse)+"\nrun="+(reuse?r.reuseRun:0)+"\n")'
+      - name: Reuse already verified films
+        if: steps.request.outputs.reuse == 'true'
+        uses: actions/download-artifact@v4
+        with:
+          name: editorial-${{ matrix.part }}-${{ steps.request.outputs.run }}
+          run-id: ${{ steps.request.outputs.run }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: editorial-output
+      - name: Install public dependencies
+        if: steps.request.outputs.reuse != 'true'
+        timeout-minutes: 6
+        run: |
+          sudo apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=20 -o Acquire::https::Timeout=20 update -qq
+          sudo apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=20 -o Acquire::https::Timeout=20 install -y --no-install-recommends ffmpeg fonts-dejavu-core
+          npm install --global pnpm@9.15.9 --fetch-timeout=30000 --fetch-retries=2
           pnpm --dir media-production/v3-20261123 install --frozen-lockfile --ignore-scripts
-          python -m pip install -r media-production/v4-20261124/requirements-ci.txt
+          python -m pip install --timeout 30 --retries 2 -r media-production/v4-20261124/requirements-ci.txt
       - name: Verify requested source hashes
         run: |
           node -e 'const fs=require("fs"),c=require("crypto"),r=JSON.parse(fs.readFileSync("media-production/v4-20261124/render-request.json"));for(const [p,expected] of Object.entries(r.sourceSha256)){if(c.createHash("sha256").update(fs.readFileSync(p)).digest("hex")!==expected)throw Error("Source hash mismatch: "+p)}'
       - name: Build music without voices
+        if: steps.request.outputs.reuse != 'true'
         run: python media-production/v4-20261124/build-music.py --source media-production/v3-20261123 --output editorial-output
       - name: Render public-source review films
+        if: steps.request.outputs.reuse != 'true'
         env:
           ONLY: ${{ matrix.only }}
         run: node media-production/v4-20261124/render-editorial.mjs --source media-production/v3-20261123 --media assets/media/20261123c --output editorial-output --only "$ONLY"
       - name: Validate films and audio identity
+        if: steps.request.outputs.reuse != 'true'
         env:
           ONLY: ${{ matrix.only }}
         run: node media-production/v4-20261124/validate-editorial.mjs --output editorial-output --only "$ONLY"
@@ -80,6 +100,7 @@ jobs:
     timeout-minutes: 20
     permissions:
       contents: write
+      actions: read
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
