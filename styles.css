@@ -411,6 +411,9 @@ a.field-tag:hover{background:#e6dbf5;border-color:var(--teal)}
 .demo-provenance{font-size:14px;line-height:1.7;color:#574e60;margin:24px 0 0}
 .profile-own-demo :is(button,input):focus-visible{outline:3px solid #265d9b;outline-offset:3px}
 .demo-search-box:focus-within{outline:2px solid #265d9b;outline-offset:2px}
+.profile-own-demo .demo-search:focus-visible{outline:none}
+.profile-demo-player{scroll-margin-top:120px}
+.profile-demo-player:focus-visible{outline:3px solid #265d9b;outline-offset:4px}
 @media(max-width:1250px){.demo-browser{grid-template-columns:1fr}.demo-results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.profile-own-demo{padding:16px}.demo-controls{padding:12px}.demo-results{grid-template-columns:1fr}.demo-filter{width:100%}.demo-search-box{flex-basis:100%}.demo-clear{width:100%}.demo-browser{gap:20px}}
 .media-card .media-audio-note{font-size:12px;line-height:1.7;color:var(--muted)}
