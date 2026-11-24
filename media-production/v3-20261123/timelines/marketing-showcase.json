@@ -1,0 +1,1206 @@
+{
+  "id": "marketing-showcase",
+  "mediaId": "acumelo-marketing-showcase-20261123c",
+  "stem": "marketing-showcase-20261123c",
+  "kind": "showcase",
+  "scope": "category",
+  "name": "Acumelo",
+  "fieldId": "marketing",
+  "title": "AI Marketing & Sales / Project possibilities",
+  "topic": "AI Marketing & Sales",
+  "result": "24 original project concepts",
+  "variant": 18,
+  "color": "#fb8d8e",
+  "voice": "af_heart",
+  "bpm": 120,
+  "contentOwnerId": "instructor-chris",
+  "temporaryAssignment": false,
+  "beats": [
+    {
+      "text": "Explore what learning can become. These original marketing & sales project concepts show different ways to turn an idea into something people can use.",
+      "shots": [
+        {
+          "app": "project",
+          "title": "An offer worth exploring",
+          "weight": 1.2,
+          "project": {
+            "type": "website",
+            "title": "An offer worth exploring",
+            "detail": "A finished campaign landing page",
+            "asset": "product",
+            "theme": "cream",
+            "variant": 9,
+            "weight": 1.2
+          },
+          "projectIndex": 0,
+          "secondProject": {
+            "type": "crm",
+            "title": "From interest to opportunity",
+            "detail": "A sales pipeline interface",
+            "variant": 10,
+            "weight": 0.55
+          }
+        },
+        {
+          "app": "project",
+          "title": "From interest to opportunity",
+          "weight": 0.55,
+          "project": {
+            "type": "crm",
+            "title": "From interest to opportunity",
+            "detail": "A sales pipeline interface",
+            "variant": 10,
+            "weight": 0.55
+          },
+          "projectIndex": 1,
+          "secondProject": {
+            "type": "poster",
+            "title": "A clear message",
+            "detail": "A finished campaign creative",
+            "asset": null,
+            "theme": "coral",
+            "variant": 11,
+            "weight": 1.7
+          }
+        },
+        {
+          "app": "project",
+          "title": "A clear message",
+          "weight": 1.7,
+          "project": {
+            "type": "poster",
+            "title": "A clear message",
+            "detail": "A finished campaign creative",
+            "asset": null,
+            "theme": "coral",
+            "variant": 11,
+            "weight": 1.7
+          },
+          "projectIndex": 2,
+          "secondProject": {
+            "type": "dashboard",
+            "title": "Campaign pulse",
+            "detail": "A performance overview for a launch",
+            "variant": 12,
+            "weight": 0.8
+          }
+        },
+        {
+          "app": "project",
+          "title": "Campaign pulse",
+          "weight": 0.8,
+          "project": {
+            "type": "dashboard",
+            "title": "Campaign pulse",
+            "detail": "A performance overview for a launch",
+            "variant": 12,
+            "weight": 0.8
+          },
+          "projectIndex": 3,
+          "split": "project",
+          "secondProject": {
+            "type": "inbox",
+            "title": "A thoughtful welcome",
+            "detail": "A customer onboarding email",
+            "variant": 13,
+            "weight": 1
+          }
+        },
+        {
+          "app": "project",
+          "title": "A thoughtful welcome",
+          "weight": 1,
+          "project": {
+            "type": "inbox",
+            "title": "A thoughtful welcome",
+            "detail": "A customer onboarding email",
+            "variant": 13,
+            "weight": 1
+          },
+          "projectIndex": 4,
+          "secondProject": {
+            "type": "product",
+            "title": "The launch film",
+            "detail": "A finished product advertising visual",
+            "asset": "headphones",
+            "theme": "dark",
+            "variant": 14,
+            "weight": 0.65
+          }
+        },
+        {
+          "app": "project",
+          "title": "The launch film",
+          "weight": 0.65,
+          "project": {
+            "type": "product",
+            "title": "The launch film",
+            "detail": "A finished product advertising visual",
+            "asset": "headphones",
+            "theme": "dark",
+            "variant": 14,
+            "weight": 0.65
+          },
+          "projectIndex": 5,
+          "secondProject": {
+            "type": "website",
+            "title": "Reserve your place",
+            "detail": "An event registration landing page",
+            "asset": "forest",
+            "theme": "cream",
+            "variant": 15,
+            "weight": 1.4
+          }
+        },
+        {
+          "app": "project",
+          "title": "Reserve your place",
+          "weight": 1.4,
+          "project": {
+            "type": "website",
+            "title": "Reserve your place",
+            "detail": "An event registration landing page",
+            "asset": "forest",
+            "theme": "cream",
+            "variant": 15,
+            "weight": 1.4
+          },
+          "projectIndex": 6,
+          "split": "project",
+          "secondProject": {
+            "type": "report",
+            "title": "The customer brief",
+            "detail": "Audience insight in a readable report",
+            "variant": 16,
+            "weight": 0.7
+          }
+        },
+        {
+          "app": "project",
+          "title": "The customer brief",
+          "weight": 0.7,
+          "project": {
+            "type": "report",
+            "title": "The customer brief",
+            "detail": "Audience insight in a readable report",
+            "variant": 16,
+            "weight": 0.7
+          },
+          "projectIndex": 7,
+          "secondProject": {
+            "type": "crm",
+            "title": "The next best action",
+            "detail": "A focused sales follow-up view",
+            "variant": 17,
+            "weight": 1.2
+          }
+        }
+      ]
+    },
+    {
+      "text": "Some outputs make a decision clearer. Others create a useful interaction, a visual story, or a more connected way of working. Each starts with a different problem.",
+      "shots": [
+        {
+          "app": "project",
+          "title": "The next best action",
+          "weight": 1.2,
+          "project": {
+            "type": "crm",
+            "title": "The next best action",
+            "detail": "A focused sales follow-up view",
+            "variant": 17,
+            "weight": 1.2
+          },
+          "projectIndex": 8,
+          "secondProject": {
+            "type": "motion",
+            "title": "Make your next move",
+            "detail": "A short social campaign animation",
+            "asset": null,
+            "theme": "blue",
+            "variant": 18,
+            "weight": 0.55
+          }
+        },
+        {
+          "app": "project",
+          "title": "Make your next move",
+          "weight": 0.55,
+          "project": {
+            "type": "motion",
+            "title": "Make your next move",
+            "detail": "A short social campaign animation",
+            "asset": null,
+            "theme": "blue",
+            "variant": 18,
+            "weight": 0.55
+          },
+          "projectIndex": 9,
+          "secondProject": {
+            "type": "website",
+            "title": "The product story",
+            "detail": "A conversion-focused product page",
+            "asset": "watch",
+            "theme": "coral",
+            "variant": 19,
+            "weight": 1.7
+          }
+        },
+        {
+          "app": "project",
+          "title": "The product story",
+          "weight": 1.7,
+          "project": {
+            "type": "website",
+            "title": "The product story",
+            "detail": "A conversion-focused product page",
+            "asset": "watch",
+            "theme": "coral",
+            "variant": 19,
+            "weight": 1.7
+          },
+          "projectIndex": 10,
+          "secondProject": {
+            "type": "dashboard",
+            "title": "An experiment, explained",
+            "detail": "Control and treatment side by side",
+            "variant": 20,
+            "weight": 0.8
+          }
+        },
+        {
+          "app": "project",
+          "title": "An experiment, explained",
+          "weight": 0.8,
+          "project": {
+            "type": "dashboard",
+            "title": "An experiment, explained",
+            "detail": "Control and treatment side by side",
+            "variant": 20,
+            "weight": 0.8
+          },
+          "projectIndex": 11,
+          "split": "project",
+          "secondProject": {
+            "type": "inbox",
+            "title": "A timely reminder",
+            "detail": "A personalized lifecycle message",
+            "variant": 21,
+            "weight": 1
+          }
+        },
+        {
+          "app": "project",
+          "title": "A timely reminder",
+          "weight": 1,
+          "project": {
+            "type": "inbox",
+            "title": "A timely reminder",
+            "detail": "A personalized lifecycle message",
+            "variant": 21,
+            "weight": 1
+          },
+          "projectIndex": 12,
+          "secondProject": {
+            "type": "poster",
+            "title": "Ideas in motion",
+            "detail": "An event campaign asset",
+            "asset": null,
+            "theme": "yellow",
+            "variant": 22,
+            "weight": 0.65
+          }
+        },
+        {
+          "app": "project",
+          "title": "Ideas in motion",
+          "weight": 0.65,
+          "project": {
+            "type": "poster",
+            "title": "Ideas in motion",
+            "detail": "An event campaign asset",
+            "asset": null,
+            "theme": "yellow",
+            "variant": 22,
+            "weight": 0.65
+          },
+          "projectIndex": 13,
+          "secondProject": {
+            "type": "film",
+            "title": "A visual hook",
+            "detail": "A short-form brand motion piece",
+            "asset": "portal",
+            "theme": "dark",
+            "variant": 23,
+            "weight": 1.4
+          }
+        },
+        {
+          "app": "project",
+          "title": "A visual hook",
+          "weight": 1.4,
+          "project": {
+            "type": "film",
+            "title": "A visual hook",
+            "detail": "A short-form brand motion piece",
+            "asset": "portal",
+            "theme": "dark",
+            "variant": 23,
+            "weight": 1.4
+          },
+          "projectIndex": 14,
+          "split": "project",
+          "secondProject": {
+            "type": "website",
+            "title": "Join the conversation",
+            "detail": "A community campaign page",
+            "asset": "forest",
+            "theme": "cream",
+            "variant": 24,
+            "weight": 0.7
+          }
+        },
+        {
+          "app": "project",
+          "title": "Join the conversation",
+          "weight": 0.7,
+          "project": {
+            "type": "website",
+            "title": "Join the conversation",
+            "detail": "A community campaign page",
+            "asset": "forest",
+            "theme": "cream",
+            "variant": 24,
+            "weight": 0.7
+          },
+          "projectIndex": 15,
+          "secondProject": {
+            "type": "crm",
+            "title": "A stronger relationship",
+            "detail": "An account planning interface",
+            "variant": 25,
+            "weight": 1.2
+          }
+        }
+      ]
+    },
+    {
+      "text": "Compare the formats, explore the details, and imagine a version for your own team. The next step is to make the result useful in its real context.",
+      "shots": [
+        {
+          "app": "project",
+          "title": "A stronger relationship",
+          "weight": 1.2,
+          "project": {
+            "type": "crm",
+            "title": "A stronger relationship",
+            "detail": "An account planning interface",
+            "variant": 25,
+            "weight": 1.2
+          },
+          "projectIndex": 16,
+          "secondProject": {
+            "type": "report",
+            "title": "Launch lessons",
+            "detail": "A finished campaign review",
+            "variant": 26,
+            "weight": 0.55
+          }
+        },
+        {
+          "app": "project",
+          "title": "Launch lessons",
+          "weight": 0.55,
+          "project": {
+            "type": "report",
+            "title": "Launch lessons",
+            "detail": "A finished campaign review",
+            "variant": 26,
+            "weight": 0.55
+          },
+          "projectIndex": 17,
+          "secondProject": {
+            "type": "motion",
+            "title": "One message. Many formats.",
+            "detail": "A responsive advertising concept",
+            "asset": null,
+            "theme": "coral",
+            "variant": 27,
+            "weight": 1.7
+          }
+        },
+        {
+          "app": "project",
+          "title": "One message. Many formats.",
+          "weight": 1.7,
+          "project": {
+            "type": "motion",
+            "title": "One message. Many formats.",
+            "detail": "A responsive advertising concept",
+            "asset": null,
+            "theme": "coral",
+            "variant": 27,
+            "weight": 1.7
+          },
+          "projectIndex": 18,
+          "secondProject": {
+            "type": "dashboard",
+            "title": "The growth view",
+            "detail": "Acquisition through retention",
+            "variant": 28,
+            "weight": 0.8
+          }
+        },
+        {
+          "app": "project",
+          "title": "The growth view",
+          "weight": 0.8,
+          "project": {
+            "type": "dashboard",
+            "title": "The growth view",
+            "detail": "Acquisition through retention",
+            "variant": 28,
+            "weight": 0.8
+          },
+          "projectIndex": 19,
+          "split": "project",
+          "secondProject": {
+            "type": "inbox",
+            "title": "A useful recommendation",
+            "detail": "A product recommendation email",
+            "variant": 29,
+            "weight": 1
+          }
+        },
+        {
+          "app": "project",
+          "title": "A useful recommendation",
+          "weight": 1,
+          "project": {
+            "type": "inbox",
+            "title": "A useful recommendation",
+            "detail": "A product recommendation email",
+            "variant": 29,
+            "weight": 1
+          },
+          "projectIndex": 20,
+          "secondProject": {
+            "type": "product",
+            "title": "A fresh perspective",
+            "detail": "A product-focused campaign scene",
+            "asset": "headphones",
+            "theme": "blue",
+            "variant": 30,
+            "weight": 0.65
+          }
+        },
+        {
+          "app": "project",
+          "title": "A fresh perspective",
+          "weight": 0.65,
+          "project": {
+            "type": "product",
+            "title": "A fresh perspective",
+            "detail": "A product-focused campaign scene",
+            "asset": "headphones",
+            "theme": "blue",
+            "variant": 30,
+            "weight": 0.65
+          },
+          "projectIndex": 21,
+          "secondProject": {
+            "type": "website",
+            "title": "A place to begin",
+            "detail": "A polished lead-generation site",
+            "asset": "world",
+            "theme": "dark",
+            "variant": 31,
+            "weight": 1.4
+          }
+        },
+        {
+          "app": "project",
+          "title": "A place to begin",
+          "weight": 1.4,
+          "project": {
+            "type": "website",
+            "title": "A place to begin",
+            "detail": "A polished lead-generation site",
+            "asset": "world",
+            "theme": "dark",
+            "variant": 31,
+            "weight": 1.4
+          },
+          "projectIndex": 22,
+          "split": "project",
+          "secondProject": {
+            "type": "presentation",
+            "title": "Campaign in one story",
+            "detail": "A finished marketing results deck",
+            "variant": 32,
+            "weight": 0.7
+          }
+        },
+        {
+          "app": "project",
+          "title": "Campaign in one story",
+          "weight": 0.7,
+          "project": {
+            "type": "presentation",
+            "title": "Campaign in one story",
+            "detail": "A finished marketing results deck",
+            "variant": 32,
+            "weight": 0.7
+          },
+          "projectIndex": 23,
+          "secondProject": {
+            "type": "website",
+            "title": "An offer worth exploring",
+            "detail": "A finished campaign landing page",
+            "asset": "product",
+            "theme": "cream",
+            "variant": 9,
+            "weight": 1.2
+          }
+        }
+      ]
+    }
+  ],
+  "sourceHash": "c679acdc460d5b54ea2bef28c0462b9b3d338d51924194f3c6e09156cf40c473",
+  "durationSeconds": 31.333333333333332,
+  "shots": [
+    {
+      "app": "project",
+      "title": "An offer worth exploring",
+      "weight": 1.2,
+      "project": {
+        "type": "website",
+        "title": "An offer worth exploring",
+        "detail": "A finished campaign landing page",
+        "asset": "product",
+        "theme": "cream",
+        "variant": 9,
+        "weight": 1.2
+      },
+      "projectIndex": 0,
+      "secondProject": {
+        "type": "crm",
+        "title": "From interest to opportunity",
+        "detail": "A sales pipeline interface",
+        "variant": 10,
+        "weight": 0.55
+      },
+      "start": 1.17,
+      "duration": 1.3961999999999999,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "From interest to opportunity",
+      "weight": 0.55,
+      "project": {
+        "type": "crm",
+        "title": "From interest to opportunity",
+        "detail": "A sales pipeline interface",
+        "variant": 10,
+        "weight": 0.55
+      },
+      "projectIndex": 1,
+      "secondProject": {
+        "type": "poster",
+        "title": "A clear message",
+        "detail": "A finished campaign creative",
+        "asset": null,
+        "theme": "coral",
+        "variant": 11,
+        "weight": 1.7
+      },
+      "start": 2.5662,
+      "duration": 0.6399250000000001,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "A clear message",
+      "weight": 1.7,
+      "project": {
+        "type": "poster",
+        "title": "A clear message",
+        "detail": "A finished campaign creative",
+        "asset": null,
+        "theme": "coral",
+        "variant": 11,
+        "weight": 1.7
+      },
+      "projectIndex": 2,
+      "secondProject": {
+        "type": "dashboard",
+        "title": "Campaign pulse",
+        "detail": "A performance overview for a launch",
+        "variant": 12,
+        "weight": 0.8
+      },
+      "start": 3.206125,
+      "duration": 1.9779499999999999,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "Campaign pulse",
+      "weight": 0.8,
+      "project": {
+        "type": "dashboard",
+        "title": "Campaign pulse",
+        "detail": "A performance overview for a launch",
+        "variant": 12,
+        "weight": 0.8
+      },
+      "projectIndex": 3,
+      "split": "project",
+      "secondProject": {
+        "type": "inbox",
+        "title": "A thoughtful welcome",
+        "detail": "A customer onboarding email",
+        "variant": 13,
+        "weight": 1
+      },
+      "start": 5.184075,
+      "duration": 0.9308000000000001,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "A thoughtful welcome",
+      "weight": 1,
+      "project": {
+        "type": "inbox",
+        "title": "A thoughtful welcome",
+        "detail": "A customer onboarding email",
+        "variant": 13,
+        "weight": 1
+      },
+      "projectIndex": 4,
+      "secondProject": {
+        "type": "product",
+        "title": "The launch film",
+        "detail": "A finished product advertising visual",
+        "asset": "headphones",
+        "theme": "dark",
+        "variant": 14,
+        "weight": 0.65
+      },
+      "start": 6.114875,
+      "duration": 1.1635,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "The launch film",
+      "weight": 0.65,
+      "project": {
+        "type": "product",
+        "title": "The launch film",
+        "detail": "A finished product advertising visual",
+        "asset": "headphones",
+        "theme": "dark",
+        "variant": 14,
+        "weight": 0.65
+      },
+      "projectIndex": 5,
+      "secondProject": {
+        "type": "website",
+        "title": "Reserve your place",
+        "detail": "An event registration landing page",
+        "asset": "forest",
+        "theme": "cream",
+        "variant": 15,
+        "weight": 1.4
+      },
+      "start": 7.278375,
+      "duration": 0.756275,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "Reserve your place",
+      "weight": 1.4,
+      "project": {
+        "type": "website",
+        "title": "Reserve your place",
+        "detail": "An event registration landing page",
+        "asset": "forest",
+        "theme": "cream",
+        "variant": 15,
+        "weight": 1.4
+      },
+      "projectIndex": 6,
+      "split": "project",
+      "secondProject": {
+        "type": "report",
+        "title": "The customer brief",
+        "detail": "Audience insight in a readable report",
+        "variant": 16,
+        "weight": 0.7
+      },
+      "start": 8.03465,
+      "duration": 1.6288999999999998,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "The customer brief",
+      "weight": 0.7,
+      "project": {
+        "type": "report",
+        "title": "The customer brief",
+        "detail": "Audience insight in a readable report",
+        "variant": 16,
+        "weight": 0.7
+      },
+      "projectIndex": 7,
+      "secondProject": {
+        "type": "crm",
+        "title": "The next best action",
+        "detail": "A focused sales follow-up view",
+        "variant": 17,
+        "weight": 1.2
+      },
+      "start": 9.663549999999999,
+      "duration": 0.8144499999999999,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "The next best action",
+      "weight": 1.2,
+      "project": {
+        "type": "crm",
+        "title": "The next best action",
+        "detail": "A focused sales follow-up view",
+        "variant": 17,
+        "weight": 1.2
+      },
+      "projectIndex": 8,
+      "secondProject": {
+        "type": "motion",
+        "title": "Make your next move",
+        "detail": "A short social campaign animation",
+        "asset": null,
+        "theme": "blue",
+        "variant": 18,
+        "weight": 0.55
+      },
+      "start": 10.478,
+      "duration": 1.5532,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "Make your next move",
+      "weight": 0.55,
+      "project": {
+        "type": "motion",
+        "title": "Make your next move",
+        "detail": "A short social campaign animation",
+        "asset": null,
+        "theme": "blue",
+        "variant": 18,
+        "weight": 0.55
+      },
+      "projectIndex": 9,
+      "secondProject": {
+        "type": "website",
+        "title": "The product story",
+        "detail": "A conversion-focused product page",
+        "asset": "watch",
+        "theme": "coral",
+        "variant": 19,
+        "weight": 1.7
+      },
+      "start": 12.0312,
+      "duration": 0.7118833333333334,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "The product story",
+      "weight": 1.7,
+      "project": {
+        "type": "website",
+        "title": "The product story",
+        "detail": "A conversion-focused product page",
+        "asset": "watch",
+        "theme": "coral",
+        "variant": 19,
+        "weight": 1.7
+      },
+      "projectIndex": 10,
+      "secondProject": {
+        "type": "dashboard",
+        "title": "An experiment, explained",
+        "detail": "Control and treatment side by side",
+        "variant": 20,
+        "weight": 0.8
+      },
+      "start": 12.743083333333333,
+      "duration": 2.2003666666666666,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "An experiment, explained",
+      "weight": 0.8,
+      "project": {
+        "type": "dashboard",
+        "title": "An experiment, explained",
+        "detail": "Control and treatment side by side",
+        "variant": 20,
+        "weight": 0.8
+      },
+      "projectIndex": 11,
+      "split": "project",
+      "secondProject": {
+        "type": "inbox",
+        "title": "A timely reminder",
+        "detail": "A personalized lifecycle message",
+        "variant": 21,
+        "weight": 1
+      },
+      "start": 14.943449999999999,
+      "duration": 1.0354666666666668,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "A timely reminder",
+      "weight": 1,
+      "project": {
+        "type": "inbox",
+        "title": "A timely reminder",
+        "detail": "A personalized lifecycle message",
+        "variant": 21,
+        "weight": 1
+      },
+      "projectIndex": 12,
+      "secondProject": {
+        "type": "poster",
+        "title": "Ideas in motion",
+        "detail": "An event campaign asset",
+        "asset": null,
+        "theme": "yellow",
+        "variant": 22,
+        "weight": 0.65
+      },
+      "start": 15.978916666666665,
+      "duration": 1.2943333333333333,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "Ideas in motion",
+      "weight": 0.65,
+      "project": {
+        "type": "poster",
+        "title": "Ideas in motion",
+        "detail": "An event campaign asset",
+        "asset": null,
+        "theme": "yellow",
+        "variant": 22,
+        "weight": 0.65
+      },
+      "projectIndex": 13,
+      "secondProject": {
+        "type": "film",
+        "title": "A visual hook",
+        "detail": "A short-form brand motion piece",
+        "asset": "portal",
+        "theme": "dark",
+        "variant": 23,
+        "weight": 1.4
+      },
+      "start": 17.273249999999997,
+      "duration": 0.8413166666666667,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "A visual hook",
+      "weight": 1.4,
+      "project": {
+        "type": "film",
+        "title": "A visual hook",
+        "detail": "A short-form brand motion piece",
+        "asset": "portal",
+        "theme": "dark",
+        "variant": 23,
+        "weight": 1.4
+      },
+      "projectIndex": 14,
+      "split": "project",
+      "secondProject": {
+        "type": "website",
+        "title": "Join the conversation",
+        "detail": "A community campaign page",
+        "asset": "forest",
+        "theme": "cream",
+        "variant": 24,
+        "weight": 0.7
+      },
+      "start": 18.114566666666665,
+      "duration": 1.8120666666666665,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "Join the conversation",
+      "weight": 0.7,
+      "project": {
+        "type": "website",
+        "title": "Join the conversation",
+        "detail": "A community campaign page",
+        "asset": "forest",
+        "theme": "cream",
+        "variant": 24,
+        "weight": 0.7
+      },
+      "projectIndex": 15,
+      "secondProject": {
+        "type": "crm",
+        "title": "A stronger relationship",
+        "detail": "An account planning interface",
+        "variant": 25,
+        "weight": 1.2
+      },
+      "start": 19.92663333333333,
+      "duration": 0.9060333333333332,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "A stronger relationship",
+      "weight": 1.2,
+      "project": {
+        "type": "crm",
+        "title": "A stronger relationship",
+        "detail": "An account planning interface",
+        "variant": 25,
+        "weight": 1.2
+      },
+      "projectIndex": 16,
+      "secondProject": {
+        "type": "report",
+        "title": "Launch lessons",
+        "detail": "A finished campaign review",
+        "variant": 26,
+        "weight": 0.55
+      },
+      "start": 20.832666666666668,
+      "duration": 1.4359,
+      "beat": 2
+    },
+    {
+      "app": "project",
+      "title": "Launch lessons",
+      "weight": 0.55,
+      "project": {
+        "type": "report",
+        "title": "Launch lessons",
+        "detail": "A finished campaign review",
+        "variant": 26,
+        "weight": 0.55
+      },
+      "projectIndex": 17,
+      "secondProject": {
+        "type": "motion",
+        "title": "One message. Many formats.",
+        "detail": "A responsive advertising concept",
+        "asset": null,
+        "theme": "coral",
+        "variant": 27,
+        "weight": 1.7
+      },
+      "start": 22.26856666666667,
+      "duration": 0.6581208333333334,
+      "beat": 2
+    },
+    {
+      "app": "project",
+      "title": "One message. Many formats.",
+      "weight": 1.7,
+      "project": {
+        "type": "motion",
+        "title": "One message. Many formats.",
+        "detail": "A responsive advertising concept",
+        "asset": null,
+        "theme": "coral",
+        "variant": 27,
+        "weight": 1.7
+      },
+      "projectIndex": 18,
+      "secondProject": {
+        "type": "dashboard",
+        "title": "The growth view",
+        "detail": "Acquisition through retention",
+        "variant": 28,
+        "weight": 0.8
+      },
+      "start": 22.926687500000003,
+      "duration": 2.0341916666666666,
+      "beat": 2
+    },
+    {
+      "app": "project",
+      "title": "The growth view",
+      "weight": 0.8,
+      "project": {
+        "type": "dashboard",
+        "title": "The growth view",
+        "detail": "Acquisition through retention",
+        "variant": 28,
+        "weight": 0.8
+      },
+      "projectIndex": 19,
+      "split": "project",
+      "secondProject": {
+        "type": "inbox",
+        "title": "A useful recommendation",
+        "detail": "A product recommendation email",
+        "variant": 29,
+        "weight": 1
+      },
+      "start": 24.960879166666672,
+      "duration": 0.9572666666666667,
+      "beat": 2
+    },
+    {
+      "app": "project",
+      "title": "A useful recommendation",
+      "weight": 1,
+      "project": {
+        "type": "inbox",
+        "title": "A useful recommendation",
+        "detail": "A product recommendation email",
+        "variant": 29,
+        "weight": 1
+      },
+      "projectIndex": 20,
+      "secondProject": {
+        "type": "product",
+        "title": "A fresh perspective",
+        "detail": "A product-focused campaign scene",
+        "asset": "headphones",
+        "theme": "blue",
+        "variant": 30,
+        "weight": 0.65
+      },
+      "start": 25.918145833333337,
+      "duration": 1.1965833333333333,
+      "beat": 2
+    },
+    {
+      "app": "project",
+      "title": "A fresh perspective",
+      "weight": 0.65,
+      "project": {
+        "type": "product",
+        "title": "A fresh perspective",
+        "detail": "A product-focused campaign scene",
+        "asset": "headphones",
+        "theme": "blue",
+        "variant": 30,
+        "weight": 0.65
+      },
+      "projectIndex": 21,
+      "secondProject": {
+        "type": "website",
+        "title": "A place to begin",
+        "detail": "A polished lead-generation site",
+        "asset": "world",
+        "theme": "dark",
+        "variant": 31,
+        "weight": 1.4
+      },
+      "start": 27.11472916666667,
+      "duration": 0.7777791666666667,
+      "beat": 2
+    },
+    {
+      "app": "project",
+      "title": "A place to begin",
+      "weight": 1.4,
+      "project": {
+        "type": "website",
+        "title": "A place to begin",
+        "detail": "A polished lead-generation site",
+        "asset": "world",
+        "theme": "dark",
+        "variant": 31,
+        "weight": 1.4
+      },
+      "projectIndex": 22,
+      "split": "project",
+      "secondProject": {
+        "type": "presentation",
+        "title": "Campaign in one story",
+        "detail": "A finished marketing results deck",
+        "variant": 32,
+        "weight": 0.7
+      },
+      "start": 27.892508333333335,
+      "duration": 1.6752166666666666,
+      "beat": 2
+    },
+    {
+      "app": "project",
+      "title": "Campaign in one story",
+      "weight": 0.7,
+      "project": {
+        "type": "presentation",
+        "title": "Campaign in one story",
+        "detail": "A finished marketing results deck",
+        "variant": 32,
+        "weight": 0.7
+      },
+      "projectIndex": 23,
+      "secondProject": {
+        "type": "website",
+        "title": "An offer worth exploring",
+        "detail": "A finished campaign landing page",
+        "asset": "product",
+        "theme": "cream",
+        "variant": 9,
+        "weight": 1.2
+      },
+      "start": 29.567725000000003,
+      "duration": 0.8376083333333333,
+      "beat": 2
+    }
+  ],
+  "captions": [
+    {
+      "start": 1.25,
+      "end": 10.158,
+      "text": "Explore what learning can become. These original marketing & sales project concepts show different ways to turn an idea into something people can use."
+    },
+    {
+      "start": 10.558,
+      "end": 20.512666666666668,
+      "text": "Some outputs make a decision clearer. Others create a useful interaction, a visual story, or a more connected way of working. Each starts with a different problem."
+    },
+    {
+      "start": 20.912666666666667,
+      "end": 30.08533333333333,
+      "text": "Compare the formats, explore the details, and imagine a version for your own team. The next step is to make the result useful in its real context."
+    }
+  ],
+  "audio": {
+    "sampleRate": 24000,
+    "voiceEngine": "Kokoro-82M ONNX",
+    "musicType": "Original procedural composition",
+    "peak": 0.7228540778160095,
+    "voiceId": "af_heart",
+    "voicePath": "audio/marketing-showcase-voice.wav",
+    "musicPath": "audio/marketing-showcase-music.wav",
+    "mixPath": "audio/marketing-showcase-mix.wav"
+  }
+}

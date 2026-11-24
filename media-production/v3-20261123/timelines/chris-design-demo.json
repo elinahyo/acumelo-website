@@ -1,0 +1,322 @@
+{
+  "id": "chris-design-demo",
+  "mediaId": "acumelo-chris-design-demo-20261123c",
+  "stem": "chris-design-demo-20261123c",
+  "kind": "demo",
+  "scope": "instructor",
+  "name": "Chris",
+  "instructorId": "instructor-chris",
+  "fieldId": "design",
+  "title": "From direction to motion",
+  "topic": "kinetic identity",
+  "result": "motion campaign",
+  "apps": [
+    "figma",
+    "aftereffects",
+    "cinema4d",
+    "higgsfield",
+    "comfyui",
+    "resolve"
+  ],
+  "variant": 0,
+  "color": "#bca0fa",
+  "voice": "am_michael",
+  "bpm": 104,
+  "beats": [
+    {
+      "text": "Let us build kinetic identity as a coherent visual system. Start with composition and reusable components, then move into motion, materials, and controlled variation.",
+      "shots": [
+        {
+          "app": "figma",
+          "title": "Build reusable interface components",
+          "tool": "Figma",
+          "weight": 1.1
+        },
+        {
+          "app": "aftereffects",
+          "title": "Shape the timing and composition",
+          "tool": "Adobe After Effects",
+          "weight": 1.35
+        },
+        {
+          "app": "figma",
+          "title": "Build reusable interface components",
+          "tool": "Figma",
+          "weight": 0.7,
+          "camera": "detail"
+        }
+      ]
+    },
+    {
+      "text": "In After Effects, shape the rhythm with keyframes, expressions, and the graph editor. In Cinema 4D, connect the cloner, materials, lighting, and camera so the visual system stays coherent.",
+      "shots": [
+        {
+          "app": "aftereffects",
+          "stage": 1,
+          "weight": 1.2,
+          "title": "Animate the layers and keyframes"
+        },
+        {
+          "app": "aftereffects",
+          "stage": 2,
+          "weight": 0.9,
+          "title": "Inspect the graph editor",
+          "camera": "detail"
+        },
+        {
+          "app": "cinema4d",
+          "stage": 1,
+          "weight": 1.2,
+          "title": "Inspect the cloner and geometry"
+        },
+        {
+          "app": "cinema4d",
+          "stage": 2,
+          "weight": 1.4,
+          "title": "Review lighting and the rendered scene",
+          "split": "aftereffects"
+        }
+      ]
+    },
+    {
+      "text": "Plan controlled camera movement in Higgsfield, then trace the generation graph in ComfyUI. Keep the prompt, seed, sampler, and reference choices visible. Review the composite and color in Resolve.",
+      "shots": [
+        {
+          "app": "higgsfield",
+          "stage": 1,
+          "weight": 1.4,
+          "title": "Compare camera, lens, and movement"
+        },
+        {
+          "app": "comfyui",
+          "stage": 2,
+          "weight": 1.7,
+          "title": "Trace the generation graph",
+          "camera": "detail"
+        },
+        {
+          "app": "blender",
+          "stage": 2,
+          "weight": 0.9,
+          "title": "Inspect the scene and asset structure"
+        },
+        {
+          "app": "resolve",
+          "stage": 2,
+          "weight": 1.2,
+          "title": "Edit the sequence and sound"
+        }
+      ]
+    },
+    {
+      "text": "Adapt the work into motion campaign. Compare formats side by side, preview the movement, and review the final experience at the size people will actually see.",
+      "shots": [
+        {
+          "app": "resolve",
+          "stage": 2,
+          "weight": 1.4,
+          "title": "Edit the sequence and sound"
+        },
+        {
+          "app": "figma",
+          "stage": 2,
+          "weight": 0.9,
+          "title": "Compare responsive surfaces",
+          "split": "canva"
+        },
+        {
+          "app": "resolve",
+          "stage": 3,
+          "weight": 1.2,
+          "title": "Review timing, color, and the final frame",
+          "split": "result"
+        },
+        {
+          "app": "result",
+          "stage": 3,
+          "weight": 1.8,
+          "title": "The finished experience"
+        }
+      ]
+    }
+  ],
+  "contentOwnerId": "instructor-chris",
+  "temporaryAssignment": false,
+  "sourceHash": "d16165234732c316dbf2d336de5f9abc83a77c6b902d8b5dbab889a042d279ac",
+  "durationSeconds": 53.8,
+  "shots": [
+    {
+      "app": "figma",
+      "title": "Build reusable interface components",
+      "tool": "Figma",
+      "weight": 1.1,
+      "start": 1.17,
+      "duration": 4.2887195767195765,
+      "beat": 0
+    },
+    {
+      "app": "aftereffects",
+      "title": "Shape the timing and composition",
+      "tool": "Adobe After Effects",
+      "weight": 1.35,
+      "start": 5.458719576719576,
+      "duration": 5.263428571428571,
+      "beat": 0
+    },
+    {
+      "app": "figma",
+      "title": "Build reusable interface components",
+      "tool": "Figma",
+      "weight": 0.7,
+      "camera": "detail",
+      "start": 10.722148148148147,
+      "duration": 2.729185185185185,
+      "beat": 0
+    },
+    {
+      "app": "aftereffects",
+      "stage": 1,
+      "weight": 1.2,
+      "title": "Animate the layers and keyframes",
+      "start": 13.451333333333334,
+      "duration": 3.4444255319148938,
+      "beat": 1
+    },
+    {
+      "app": "aftereffects",
+      "stage": 2,
+      "weight": 0.9,
+      "title": "Inspect the graph editor",
+      "camera": "detail",
+      "start": 16.89575886524823,
+      "duration": 2.58331914893617,
+      "beat": 1
+    },
+    {
+      "app": "cinema4d",
+      "stage": 1,
+      "weight": 1.2,
+      "title": "Inspect the cloner and geometry",
+      "start": 19.4790780141844,
+      "duration": 3.4444255319148938,
+      "beat": 1
+    },
+    {
+      "app": "cinema4d",
+      "stage": 2,
+      "weight": 1.4,
+      "title": "Review lighting and the rendered scene",
+      "split": "aftereffects",
+      "start": 22.923503546099294,
+      "duration": 4.01849645390071,
+      "beat": 1
+    },
+    {
+      "app": "higgsfield",
+      "stage": 1,
+      "weight": 1.4,
+      "title": "Compare camera, lens, and movement",
+      "start": 26.942000000000004,
+      "duration": 3.936512820512821,
+      "beat": 2
+    },
+    {
+      "app": "comfyui",
+      "stage": 2,
+      "weight": 1.7,
+      "title": "Trace the generation graph",
+      "camera": "detail",
+      "start": 30.878512820512825,
+      "duration": 4.780051282051282,
+      "beat": 2
+    },
+    {
+      "app": "blender",
+      "stage": 2,
+      "weight": 0.9,
+      "title": "Inspect the scene and asset structure",
+      "start": 35.65856410256411,
+      "duration": 2.5306153846153845,
+      "beat": 2
+    },
+    {
+      "app": "resolve",
+      "stage": 2,
+      "weight": 1.2,
+      "title": "Edit the sequence and sound",
+      "start": 38.189179487179494,
+      "duration": 3.3741538461538463,
+      "beat": 2
+    },
+    {
+      "app": "resolve",
+      "stage": 2,
+      "weight": 1.4,
+      "title": "Edit the sequence and sound",
+      "start": 41.56333333333334,
+      "duration": 2.984553459119497,
+      "beat": 3
+    },
+    {
+      "app": "figma",
+      "stage": 2,
+      "weight": 0.9,
+      "title": "Compare responsive surfaces",
+      "split": "canva",
+      "start": 44.547886792452836,
+      "duration": 1.9186415094339626,
+      "beat": 3
+    },
+    {
+      "app": "resolve",
+      "stage": 3,
+      "weight": 1.2,
+      "title": "Review timing, color, and the final frame",
+      "split": "result",
+      "start": 46.4665283018868,
+      "duration": 2.558188679245283,
+      "beat": 3
+    },
+    {
+      "app": "result",
+      "stage": 3,
+      "weight": 1.8,
+      "title": "The finished experience",
+      "start": 49.02471698113208,
+      "duration": 3.837283018867925,
+      "beat": 3
+    }
+  ],
+  "captions": [
+    {
+      "start": 1.25,
+      "end": 13.131333333333334,
+      "text": "Let us build kinetic identity as a coherent visual system. Start with composition and reusable components, then move into motion, materials, and controlled variation."
+    },
+    {
+      "start": 13.531333333333334,
+      "end": 26.622,
+      "text": "In After Effects, shape the rhythm with keyframes, expressions, and the graph editor. In Cinema 4D, connect the cloner, materials, lighting, and camera so the visual system stays coherent."
+    },
+    {
+      "start": 27.022000000000002,
+      "end": 41.24333333333334,
+      "text": "Plan controlled camera movement in Higgsfield, then trace the generation graph in ComfyUI. Keep the prompt, seed, sampler, and reference choices visible. Review the composite and color in Resolve."
+    },
+    {
+      "start": 41.64333333333334,
+      "end": 52.542,
+      "text": "Adapt the work into motion campaign. Compare formats side by side, preview the movement, and review the final experience at the size people will actually see."
+    }
+  ],
+  "audio": {
+    "sampleRate": 24000,
+    "voicePath": "audio/chris-design-demo-voice.wav",
+    "musicPath": "audio/chris-design-demo-music.wav",
+    "mixPath": "audio/chris-design-demo-mix.wav",
+    "voiceEngine": "Kokoro-82M ONNX",
+    "voiceId": "am_michael",
+    "musicType": "Original procedural composition",
+    "peak": 0.7213008403778076
+  }
+}

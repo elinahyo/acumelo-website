@@ -1,0 +1,288 @@
+{
+  "id": "pillow-development-demo",
+  "mediaId": "acumelo-pillow-development-demo-20261123c",
+  "stem": "pillow-development-demo-20261123c",
+  "kind": "demo",
+  "scope": "instructor",
+  "name": "Pillow",
+  "instructorId": "instructor-03",
+  "fieldId": "development",
+  "title": "Turn a scene into an experience",
+  "topic": "interactive gallery",
+  "result": "interactive browser gallery",
+  "apps": [
+    "vscode",
+    "unity",
+    "unreal",
+    "blender",
+    "firebase",
+    "github"
+  ],
+  "variant": 2,
+  "color": "#8d9eff",
+  "voice": "af_nicole",
+  "bpm": 116,
+  "beats": [
+    {
+      "text": "Turn interactive gallery into a working product. Start with the interface, the data contract, and the boundaries between the client, the API, and the storage layer.",
+      "shots": [
+        {
+          "app": "vscode",
+          "title": "Inspect the architecture and source",
+          "tool": "Visual Studio Code",
+          "weight": 1.1
+        },
+        {
+          "app": "unity",
+          "title": "Work in the Unity scene and Inspector",
+          "tool": "Unity",
+          "weight": 1.35
+        },
+        {
+          "app": "vscode",
+          "title": "Inspect the architecture and source",
+          "tool": "Visual Studio Code",
+          "weight": 0.7,
+          "camera": "detail"
+        }
+      ]
+    },
+    {
+      "text": "Build the browser scene with Three dot js and React. Separate the camera, scene state, and interaction logic. A visitor should understand how to move and what can be selected without an explanation.",
+      "shots": [
+        {
+          "app": "vscode",
+          "stage": 1,
+          "weight": 1.5,
+          "title": "Trace data and interface state"
+        },
+        {
+          "app": "vscode",
+          "stage": 2,
+          "weight": 1.1,
+          "title": "Review a testable service boundary",
+          "camera": "detail"
+        },
+        {
+          "app": "vscode",
+          "stage": 3,
+          "weight": 1.5,
+          "title": "Inspect the architecture and source",
+          "split": "result"
+        }
+      ]
+    },
+    {
+      "text": "Compare the scene in Unity and Unreal, then inspect the Blender asset and Firebase content model. Test selection and loading before sending the browser experience through a repeatable GitHub release.",
+      "shots": [
+        {
+          "app": "unity",
+          "stage": 0,
+          "weight": 1.4,
+          "title": "Work in the Unity scene and Inspector"
+        },
+        {
+          "app": "unreal",
+          "stage": 2,
+          "weight": 1.6,
+          "title": "Trace the Blueprint event graph"
+        },
+        {
+          "app": "blender",
+          "stage": 1,
+          "weight": 1,
+          "title": "Review geometry, lighting, and render"
+        },
+        {
+          "app": "firebase",
+          "stage": 0,
+          "weight": 1,
+          "title": "Inspect Firestore records"
+        }
+      ]
+    },
+    {
+      "text": "Test the critical journey and prepare a repeatable release. The result is interactive browser gallery: a usable experience with a clear architecture, visible state, and a path to improve it.",
+      "shots": [
+        {
+          "app": "github",
+          "stage": 1,
+          "weight": 1.2,
+          "title": "Check tests before publishing"
+        },
+        {
+          "app": "result",
+          "stage": 3,
+          "weight": 1.7,
+          "title": "The finished experience",
+          "split": "vscode"
+        },
+        {
+          "app": "result",
+          "stage": 3,
+          "weight": 2.1,
+          "title": "The finished experience"
+        }
+      ]
+    }
+  ],
+  "contentOwnerId": "instructor-chris",
+  "temporaryAssignment": true,
+  "sourceHash": "fe06540c9b804785c441f20132d341f4a43c78c1feca72b0f19293e35e5cb03b",
+  "durationSeconds": 74.43333333333334,
+  "shots": [
+    {
+      "app": "vscode",
+      "title": "Inspect the architecture and source",
+      "tool": "Visual Studio Code",
+      "weight": 1.1,
+      "start": 1.17,
+      "duration": 5.434116402116402,
+      "beat": 0
+    },
+    {
+      "app": "unity",
+      "title": "Work in the Unity scene and Inspector",
+      "tool": "Unity",
+      "weight": 1.35,
+      "start": 6.604116402116402,
+      "duration": 6.669142857142857,
+      "beat": 0
+    },
+    {
+      "app": "vscode",
+      "title": "Inspect the architecture and source",
+      "tool": "Visual Studio Code",
+      "weight": 0.7,
+      "camera": "detail",
+      "start": 13.273259259259259,
+      "duration": 3.458074074074074,
+      "beat": 0
+    },
+    {
+      "app": "vscode",
+      "stage": 1,
+      "weight": 1.5,
+      "title": "Trace data and interface state",
+      "start": 16.731333333333335,
+      "duration": 6.934146341463415,
+      "beat": 1
+    },
+    {
+      "app": "vscode",
+      "stage": 2,
+      "weight": 1.1,
+      "title": "Review a testable service boundary",
+      "camera": "detail",
+      "start": 23.66547967479675,
+      "duration": 5.085040650406505,
+      "beat": 1
+    },
+    {
+      "app": "vscode",
+      "stage": 3,
+      "weight": 1.5,
+      "title": "Inspect the architecture and source",
+      "split": "result",
+      "start": 28.750520325203254,
+      "duration": 6.934146341463415,
+      "beat": 1
+    },
+    {
+      "app": "unity",
+      "stage": 0,
+      "weight": 1.4,
+      "title": "Work in the Unity scene and Inspector",
+      "start": 35.68466666666667,
+      "duration": 5.407733333333333,
+      "beat": 2
+    },
+    {
+      "app": "unreal",
+      "stage": 2,
+      "weight": 1.6,
+      "title": "Trace the Blueprint event graph",
+      "start": 41.092400000000005,
+      "duration": 6.180266666666666,
+      "beat": 2
+    },
+    {
+      "app": "blender",
+      "stage": 1,
+      "weight": 1,
+      "title": "Review geometry, lighting, and render",
+      "start": 47.27266666666667,
+      "duration": 3.8626666666666667,
+      "beat": 2
+    },
+    {
+      "app": "firebase",
+      "stage": 0,
+      "weight": 1,
+      "title": "Inspect Firestore records",
+      "start": 51.13533333333334,
+      "duration": 3.8626666666666667,
+      "beat": 2
+    },
+    {
+      "app": "github",
+      "stage": 1,
+      "weight": 1.2,
+      "title": "Check tests before publishing",
+      "start": 54.998000000000005,
+      "duration": 4.443679999999999,
+      "beat": 3
+    },
+    {
+      "app": "result",
+      "stage": 3,
+      "weight": 1.7,
+      "title": "The finished experience",
+      "split": "vscode",
+      "start": 59.441680000000005,
+      "duration": 6.295213333333332,
+      "beat": 3
+    },
+    {
+      "app": "result",
+      "stage": 3,
+      "weight": 2.1,
+      "title": "The finished experience",
+      "start": 65.73689333333334,
+      "duration": 7.776439999999999,
+      "beat": 3
+    }
+  ],
+  "captions": [
+    {
+      "start": 1.25,
+      "end": 16.41133333333333,
+      "text": "Turn interactive gallery into a working product. Start with the interface, the data contract, and the boundaries between the client, the API, and the storage layer."
+    },
+    {
+      "start": 16.811333333333334,
+      "end": 35.364666666666665,
+      "text": "Build the browser scene with Three dot js and React. Separate the camera, scene state, and interaction logic. A visitor should understand how to move and what can be selected without an explanation."
+    },
+    {
+      "start": 35.76466666666667,
+      "end": 54.678000000000004,
+      "text": "Compare the scene in Unity and Unreal, then inspect the Blender asset and Firebase content model. Test selection and loading before sending the browser experience through a repeatable GitHub release."
+    },
+    {
+      "start": 55.078,
+      "end": 73.19333333333333,
+      "text": "Test the critical journey and prepare a repeatable release. The result is interactive browser gallery: a usable experience with a clear architecture, visible state, and a path to improve it."
+    }
+  ],
+  "audio": {
+    "sampleRate": 24000,
+    "voicePath": "audio/pillow-development-demo-voice.wav",
+    "musicPath": "audio/pillow-development-demo-music.wav",
+    "mixPath": "audio/pillow-development-demo-mix.wav",
+    "voiceEngine": "Kokoro-82M ONNX",
+    "voiceId": "af_nicole",
+    "musicType": "Original procedural composition",
+    "peak": 0.7274960875511169
+  }
+}

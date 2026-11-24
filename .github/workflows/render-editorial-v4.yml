@@ -1,0 +1,106 @@
+name: Render editorial review v4
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [codex/media-v4-ci]
+    paths: [media-production/v4-20261124/render-request.json]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: acumelo-editorial-v4
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - part: chris
+            only: chris-workflow-demo,chris-strategy-demo,chris-design-demo,chris-analytics-demo,chris-marketing-demo,chris-development-demo
+          - part: sage
+            only: sage-strategy-demo,sage-design-demo,sage-development-demo
+          - part: pillow
+            only: pillow-design-demo,pillow-development-demo
+          - part: projects
+            only: workflow-showcase,strategy-showcase,design-showcase,analytics-showcase,marketing-showcase,development-showcase
+    env:
+      FFMPEG_PATH: ffmpeg
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install public dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+          npm install --global pnpm@9.15.9
+          pnpm --dir media-production/v3-20261123 install --frozen-lockfile --ignore-scripts
+          python -m pip install -r media-production/v4-20261124/requirements-ci.txt
+      - name: Verify requested source hashes
+        run: |
+          node -e 'const fs=require("fs"),c=require("crypto"),r=JSON.parse(fs.readFileSync("media-production/v4-20261124/render-request.json"));for(const [p,expected] of Object.entries(r.sourceSha256)){if(c.createHash("sha256").update(fs.readFileSync(p)).digest("hex")!==expected)throw Error("Source hash mismatch: "+p)}'
+      - name: Build music without voices
+        run: python media-production/v4-20261124/build-music.py --source media-production/v3-20261123 --output editorial-output
+      - name: Render public-source review films
+        env:
+          ONLY: ${{ matrix.only }}
+        run: node media-production/v4-20261124/render-editorial.mjs --source media-production/v3-20261123 --media assets/media/20261123c --output editorial-output --only "$ONLY"
+      - name: Validate films and audio identity
+        env:
+          ONLY: ${{ matrix.only }}
+        run: node media-production/v4-20261124/validate-editorial.mjs --output editorial-output --only "$ONLY"
+      - name: Upload public review material only
+        uses: actions/upload-artifact@v4
+        with:
+          name: editorial-${{ matrix.part }}-${{ github.run_id }}
+          retention-days: 14
+          if-no-files-found: error
+          path: |
+            editorial-output/*.mp4
+            editorial-output/posters/*.jpg
+            editorial-output/captions/*.vtt
+            editorial-output/proofs/*.jpg
+            editorial-output/metadata/*.json
+
+  stage-review:
+    needs: render
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: editorial-*-${{ github.run_id }}
+          path: editorial-output
+          merge-multiple: true
+      - name: Verify complete review collection
+        run: |
+          node media-production/v4-20261124/validate-editorial.mjs --output editorial-output --manifest-only
+          node media-production/v4-20261124/stage-editorial.mjs
+      - name: Commit review branch without changing the website
+        run: |
+          git switch -c "codex/media-v4-render-${GITHUB_RUN_ID}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/media/20261124d
+          git commit -m "Stage v4 editorial review films after technical and audio validation"
+          git push origin "HEAD:refs/heads/codex/media-v4-render-${GITHUB_RUN_ID}"
+          echo "Review branch: codex/media-v4-render-${GITHUB_RUN_ID}" >> "$GITHUB_STEP_SUMMARY"
+          echo "No main update, no automatic website remapping, editorial approval still required." >> "$GITHUB_STEP_SUMMARY"

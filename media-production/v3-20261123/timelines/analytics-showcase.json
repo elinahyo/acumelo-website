@@ -1,0 +1,1110 @@
+{
+  "id": "analytics-showcase",
+  "mediaId": "acumelo-analytics-showcase-20261123c",
+  "stem": "analytics-showcase-20261123c",
+  "kind": "showcase",
+  "scope": "category",
+  "name": "Acumelo",
+  "fieldId": "analytics",
+  "title": "AI Data Analytics / Project possibilities",
+  "topic": "AI Data Analytics",
+  "result": "24 original project concepts",
+  "variant": 18,
+  "color": "#66b8ef",
+  "voice": "af_heart",
+  "bpm": 120,
+  "contentOwnerId": "instructor-chris",
+  "temporaryAssignment": false,
+  "beats": [
+    {
+      "text": "Explore what learning can become. These original data analytics project concepts show different ways to turn an idea into something people can use.",
+      "shots": [
+        {
+          "app": "project",
+          "title": "Revenue, explained",
+          "weight": 1.2,
+          "project": {
+            "type": "dashboard",
+            "title": "Revenue, explained",
+            "detail": "A finished executive analytics view",
+            "variant": 9,
+            "weight": 1.2
+          },
+          "projectIndex": 0,
+          "secondProject": {
+            "type": "heatmap",
+            "title": "Customers who stay",
+            "detail": "A cohort retention report",
+            "variant": 10,
+            "weight": 0.55
+          }
+        },
+        {
+          "app": "project",
+          "title": "Customers who stay",
+          "weight": 0.55,
+          "project": {
+            "type": "heatmap",
+            "title": "Customers who stay",
+            "detail": "A cohort retention report",
+            "variant": 10,
+            "weight": 0.55
+          },
+          "projectIndex": 1,
+          "secondProject": {
+            "type": "map",
+            "title": "The regional picture",
+            "detail": "A location-based performance map",
+            "variant": 11,
+            "weight": 1.7
+          }
+        },
+        {
+          "app": "project",
+          "title": "The regional picture",
+          "weight": 1.7,
+          "project": {
+            "type": "map",
+            "title": "The regional picture",
+            "detail": "A location-based performance map",
+            "variant": 11,
+            "weight": 1.7
+          },
+          "projectIndex": 2,
+          "secondProject": {
+            "type": "forecast",
+            "title": "What comes next",
+            "detail": "A forecast with visible uncertainty",
+            "variant": 12,
+            "weight": 0.8
+          }
+        },
+        {
+          "app": "project",
+          "title": "What comes next",
+          "weight": 0.8,
+          "project": {
+            "type": "forecast",
+            "title": "What comes next",
+            "detail": "A forecast with visible uncertainty",
+            "variant": 12,
+            "weight": 0.8
+          },
+          "projectIndex": 3,
+          "split": "project",
+          "secondProject": {
+            "type": "report",
+            "title": "The insight brief",
+            "detail": "A concise analytical recommendation",
+            "variant": 13,
+            "weight": 1
+          }
+        },
+        {
+          "app": "project",
+          "title": "The insight brief",
+          "weight": 1,
+          "project": {
+            "type": "report",
+            "title": "The insight brief",
+            "detail": "A concise analytical recommendation",
+            "variant": 13,
+            "weight": 1
+          },
+          "projectIndex": 4,
+          "secondProject": {
+            "type": "dashboard",
+            "title": "Product adoption",
+            "detail": "Activation and engagement trends",
+            "variant": 14,
+            "weight": 0.65
+          }
+        },
+        {
+          "app": "project",
+          "title": "Product adoption",
+          "weight": 0.65,
+          "project": {
+            "type": "dashboard",
+            "title": "Product adoption",
+            "detail": "Activation and engagement trends",
+            "variant": 14,
+            "weight": 0.65
+          },
+          "projectIndex": 5,
+          "secondProject": {
+            "type": "heatmap",
+            "title": "When customers return",
+            "detail": "Patterns by day and hour",
+            "variant": 15,
+            "weight": 1.4
+          }
+        },
+        {
+          "app": "project",
+          "title": "When customers return",
+          "weight": 1.4,
+          "project": {
+            "type": "heatmap",
+            "title": "When customers return",
+            "detail": "Patterns by day and hour",
+            "variant": 15,
+            "weight": 1.4
+          },
+          "projectIndex": 6,
+          "split": "project",
+          "secondProject": {
+            "type": "map",
+            "title": "Delivery coverage",
+            "detail": "A service-area planning view",
+            "variant": 16,
+            "weight": 0.7
+          }
+        },
+        {
+          "app": "project",
+          "title": "Delivery coverage",
+          "weight": 0.7,
+          "project": {
+            "type": "map",
+            "title": "Delivery coverage",
+            "detail": "A service-area planning view",
+            "variant": 16,
+            "weight": 0.7
+          },
+          "projectIndex": 7,
+          "secondProject": {
+            "type": "forecast",
+            "title": "Demand outlook",
+            "detail": "A seasonal demand comparison",
+            "variant": 17,
+            "weight": 1.2
+          }
+        }
+      ]
+    },
+    {
+      "text": "Some outputs make a decision clearer. Others create a useful interaction, a visual story, or a more connected way of working. Each starts with a different problem.",
+      "shots": [
+        {
+          "app": "project",
+          "title": "Demand outlook",
+          "weight": 1.2,
+          "project": {
+            "type": "forecast",
+            "title": "Demand outlook",
+            "detail": "A seasonal demand comparison",
+            "variant": 17,
+            "weight": 1.2
+          },
+          "projectIndex": 8,
+          "secondProject": {
+            "type": "presentation",
+            "title": "The data story",
+            "detail": "A finished decision-making deck",
+            "variant": 18,
+            "weight": 0.55
+          }
+        },
+        {
+          "app": "project",
+          "title": "The data story",
+          "weight": 0.55,
+          "project": {
+            "type": "presentation",
+            "title": "The data story",
+            "detail": "A finished decision-making deck",
+            "variant": 18,
+            "weight": 0.55
+          },
+          "projectIndex": 9,
+          "secondProject": {
+            "type": "dashboard",
+            "title": "Marketing efficiency",
+            "detail": "Spend, conversion and return",
+            "variant": 19,
+            "weight": 1.7
+          }
+        },
+        {
+          "app": "project",
+          "title": "Marketing efficiency",
+          "weight": 1.7,
+          "project": {
+            "type": "dashboard",
+            "title": "Marketing efficiency",
+            "detail": "Spend, conversion and return",
+            "variant": 19,
+            "weight": 1.7
+          },
+          "projectIndex": 10,
+          "secondProject": {
+            "type": "report",
+            "title": "Quality scorecard",
+            "detail": "Data completeness and freshness",
+            "variant": 20,
+            "weight": 0.8
+          }
+        },
+        {
+          "app": "project",
+          "title": "Quality scorecard",
+          "weight": 0.8,
+          "project": {
+            "type": "report",
+            "title": "Quality scorecard",
+            "detail": "Data completeness and freshness",
+            "variant": 20,
+            "weight": 0.8
+          },
+          "projectIndex": 11,
+          "split": "project",
+          "secondProject": {
+            "type": "map",
+            "title": "Market opportunity",
+            "detail": "Regions compared on equal terms",
+            "variant": 21,
+            "weight": 1
+          }
+        },
+        {
+          "app": "project",
+          "title": "Market opportunity",
+          "weight": 1,
+          "project": {
+            "type": "map",
+            "title": "Market opportunity",
+            "detail": "Regions compared on equal terms",
+            "variant": 21,
+            "weight": 1
+          },
+          "projectIndex": 12,
+          "secondProject": {
+            "type": "heatmap",
+            "title": "Channel cohorts",
+            "detail": "Retention across acquisition channels",
+            "variant": 22,
+            "weight": 0.65
+          }
+        },
+        {
+          "app": "project",
+          "title": "Channel cohorts",
+          "weight": 0.65,
+          "project": {
+            "type": "heatmap",
+            "title": "Channel cohorts",
+            "detail": "Retention across acquisition channels",
+            "variant": 22,
+            "weight": 0.65
+          },
+          "projectIndex": 13,
+          "secondProject": {
+            "type": "forecast",
+            "title": "Inventory scenarios",
+            "detail": "A comparison of planning assumptions",
+            "variant": 23,
+            "weight": 1.4
+          }
+        },
+        {
+          "app": "project",
+          "title": "Inventory scenarios",
+          "weight": 1.4,
+          "project": {
+            "type": "forecast",
+            "title": "Inventory scenarios",
+            "detail": "A comparison of planning assumptions",
+            "variant": 23,
+            "weight": 1.4
+          },
+          "projectIndex": 14,
+          "split": "project",
+          "secondProject": {
+            "type": "dashboard",
+            "title": "Service performance",
+            "detail": "Queue, volume and response signals",
+            "variant": 24,
+            "weight": 0.7
+          }
+        },
+        {
+          "app": "project",
+          "title": "Service performance",
+          "weight": 0.7,
+          "project": {
+            "type": "dashboard",
+            "title": "Service performance",
+            "detail": "Queue, volume and response signals",
+            "variant": 24,
+            "weight": 0.7
+          },
+          "projectIndex": 15,
+          "secondProject": {
+            "type": "report",
+            "title": "Pricing evidence",
+            "detail": "A readable price sensitivity study",
+            "variant": 25,
+            "weight": 1.2
+          }
+        }
+      ]
+    },
+    {
+      "text": "Compare the formats, explore the details, and imagine a version for your own team. The next step is to make the result useful in its real context.",
+      "shots": [
+        {
+          "app": "project",
+          "title": "Pricing evidence",
+          "weight": 1.2,
+          "project": {
+            "type": "report",
+            "title": "Pricing evidence",
+            "detail": "A readable price sensitivity study",
+            "variant": 25,
+            "weight": 1.2
+          },
+          "projectIndex": 16,
+          "secondProject": {
+            "type": "presentation",
+            "title": "Quarterly intelligence",
+            "detail": "A business review with evidence",
+            "variant": 26,
+            "weight": 0.55
+          }
+        },
+        {
+          "app": "project",
+          "title": "Quarterly intelligence",
+          "weight": 0.55,
+          "project": {
+            "type": "presentation",
+            "title": "Quarterly intelligence",
+            "detail": "A business review with evidence",
+            "variant": 26,
+            "weight": 0.55
+          },
+          "projectIndex": 17,
+          "secondProject": {
+            "type": "map",
+            "title": "Site selection",
+            "detail": "A location comparison interface",
+            "variant": 27,
+            "weight": 1.7
+          }
+        },
+        {
+          "app": "project",
+          "title": "Site selection",
+          "weight": 1.7,
+          "project": {
+            "type": "map",
+            "title": "Site selection",
+            "detail": "A location comparison interface",
+            "variant": 27,
+            "weight": 1.7
+          },
+          "projectIndex": 18,
+          "secondProject": {
+            "type": "forecast",
+            "title": "Cash flow outlook",
+            "detail": "A range of financial scenarios",
+            "variant": 28,
+            "weight": 0.8
+          }
+        },
+        {
+          "app": "project",
+          "title": "Cash flow outlook",
+          "weight": 0.8,
+          "project": {
+            "type": "forecast",
+            "title": "Cash flow outlook",
+            "detail": "A range of financial scenarios",
+            "variant": 28,
+            "weight": 0.8
+          },
+          "projectIndex": 19,
+          "split": "project",
+          "secondProject": {
+            "type": "dashboard",
+            "title": "Learning impact",
+            "detail": "Engagement and completion patterns",
+            "variant": 29,
+            "weight": 1
+          }
+        },
+        {
+          "app": "project",
+          "title": "Learning impact",
+          "weight": 1,
+          "project": {
+            "type": "dashboard",
+            "title": "Learning impact",
+            "detail": "Engagement and completion patterns",
+            "variant": 29,
+            "weight": 1
+          },
+          "projectIndex": 20,
+          "secondProject": {
+            "type": "heatmap",
+            "title": "Portfolio correlations",
+            "detail": "A matrix of related signals",
+            "variant": 30,
+            "weight": 0.65
+          }
+        },
+        {
+          "app": "project",
+          "title": "Portfolio correlations",
+          "weight": 0.65,
+          "project": {
+            "type": "heatmap",
+            "title": "Portfolio correlations",
+            "detail": "A matrix of related signals",
+            "variant": 30,
+            "weight": 0.65
+          },
+          "projectIndex": 21,
+          "secondProject": {
+            "type": "report",
+            "title": "Experiment readout",
+            "detail": "Results with caveats and next steps",
+            "variant": 31,
+            "weight": 1.4
+          }
+        },
+        {
+          "app": "project",
+          "title": "Experiment readout",
+          "weight": 1.4,
+          "project": {
+            "type": "report",
+            "title": "Experiment readout",
+            "detail": "Results with caveats and next steps",
+            "variant": 31,
+            "weight": 1.4
+          },
+          "projectIndex": 22,
+          "split": "project",
+          "secondProject": {
+            "type": "dashboard",
+            "title": "Decision centre",
+            "detail": "A linked view of the business",
+            "variant": 32,
+            "weight": 0.7
+          }
+        },
+        {
+          "app": "project",
+          "title": "Decision centre",
+          "weight": 0.7,
+          "project": {
+            "type": "dashboard",
+            "title": "Decision centre",
+            "detail": "A linked view of the business",
+            "variant": 32,
+            "weight": 0.7
+          },
+          "projectIndex": 23,
+          "secondProject": {
+            "type": "dashboard",
+            "title": "Revenue, explained",
+            "detail": "A finished executive analytics view",
+            "variant": 9,
+            "weight": 1.2
+          }
+        }
+      ]
+    }
+  ],
+  "sourceHash": "4af8ec657db54fe8cfce8589a398bf44ac9640051d9b03e1c054e69c876c6423",
+  "durationSeconds": 31.133333333333333,
+  "shots": [
+    {
+      "app": "project",
+      "title": "Revenue, explained",
+      "weight": 1.2,
+      "project": {
+        "type": "dashboard",
+        "title": "Revenue, explained",
+        "detail": "A finished executive analytics view",
+        "variant": 9,
+        "weight": 1.2
+      },
+      "projectIndex": 0,
+      "secondProject": {
+        "type": "heatmap",
+        "title": "Customers who stay",
+        "detail": "A cohort retention report",
+        "variant": 10,
+        "weight": 0.55
+      },
+      "start": 1.17,
+      "duration": 1.3757,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "Customers who stay",
+      "weight": 0.55,
+      "project": {
+        "type": "heatmap",
+        "title": "Customers who stay",
+        "detail": "A cohort retention report",
+        "variant": 10,
+        "weight": 0.55
+      },
+      "projectIndex": 1,
+      "secondProject": {
+        "type": "map",
+        "title": "The regional picture",
+        "detail": "A location-based performance map",
+        "variant": 11,
+        "weight": 1.7
+      },
+      "start": 2.5457,
+      "duration": 0.6305291666666667,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "The regional picture",
+      "weight": 1.7,
+      "project": {
+        "type": "map",
+        "title": "The regional picture",
+        "detail": "A location-based performance map",
+        "variant": 11,
+        "weight": 1.7
+      },
+      "projectIndex": 2,
+      "secondProject": {
+        "type": "forecast",
+        "title": "What comes next",
+        "detail": "A forecast with visible uncertainty",
+        "variant": 12,
+        "weight": 0.8
+      },
+      "start": 3.176229166666667,
+      "duration": 1.9489083333333332,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "What comes next",
+      "weight": 0.8,
+      "project": {
+        "type": "forecast",
+        "title": "What comes next",
+        "detail": "A forecast with visible uncertainty",
+        "variant": 12,
+        "weight": 0.8
+      },
+      "projectIndex": 3,
+      "split": "project",
+      "secondProject": {
+        "type": "report",
+        "title": "The insight brief",
+        "detail": "A concise analytical recommendation",
+        "variant": 13,
+        "weight": 1
+      },
+      "start": 5.1251375,
+      "duration": 0.9171333333333334,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "The insight brief",
+      "weight": 1,
+      "project": {
+        "type": "report",
+        "title": "The insight brief",
+        "detail": "A concise analytical recommendation",
+        "variant": 13,
+        "weight": 1
+      },
+      "projectIndex": 4,
+      "secondProject": {
+        "type": "dashboard",
+        "title": "Product adoption",
+        "detail": "Activation and engagement trends",
+        "variant": 14,
+        "weight": 0.65
+      },
+      "start": 6.042270833333333,
+      "duration": 1.1464166666666666,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "Product adoption",
+      "weight": 0.65,
+      "project": {
+        "type": "dashboard",
+        "title": "Product adoption",
+        "detail": "Activation and engagement trends",
+        "variant": 14,
+        "weight": 0.65
+      },
+      "projectIndex": 5,
+      "secondProject": {
+        "type": "heatmap",
+        "title": "When customers return",
+        "detail": "Patterns by day and hour",
+        "variant": 15,
+        "weight": 1.4
+      },
+      "start": 7.1886875,
+      "duration": 0.7451708333333333,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "When customers return",
+      "weight": 1.4,
+      "project": {
+        "type": "heatmap",
+        "title": "When customers return",
+        "detail": "Patterns by day and hour",
+        "variant": 15,
+        "weight": 1.4
+      },
+      "projectIndex": 6,
+      "split": "project",
+      "secondProject": {
+        "type": "map",
+        "title": "Delivery coverage",
+        "detail": "A service-area planning view",
+        "variant": 16,
+        "weight": 0.7
+      },
+      "start": 7.933858333333333,
+      "duration": 1.6049833333333332,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "Delivery coverage",
+      "weight": 0.7,
+      "project": {
+        "type": "map",
+        "title": "Delivery coverage",
+        "detail": "A service-area planning view",
+        "variant": 16,
+        "weight": 0.7
+      },
+      "projectIndex": 7,
+      "secondProject": {
+        "type": "forecast",
+        "title": "Demand outlook",
+        "detail": "A seasonal demand comparison",
+        "variant": 17,
+        "weight": 1.2
+      },
+      "start": 9.538841666666666,
+      "duration": 0.8024916666666666,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "Demand outlook",
+      "weight": 1.2,
+      "project": {
+        "type": "forecast",
+        "title": "Demand outlook",
+        "detail": "A seasonal demand comparison",
+        "variant": 17,
+        "weight": 1.2
+      },
+      "projectIndex": 8,
+      "secondProject": {
+        "type": "presentation",
+        "title": "The data story",
+        "detail": "A finished decision-making deck",
+        "variant": 18,
+        "weight": 0.55
+      },
+      "start": 10.341333333333333,
+      "duration": 1.5532,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "The data story",
+      "weight": 0.55,
+      "project": {
+        "type": "presentation",
+        "title": "The data story",
+        "detail": "A finished decision-making deck",
+        "variant": 18,
+        "weight": 0.55
+      },
+      "projectIndex": 9,
+      "secondProject": {
+        "type": "dashboard",
+        "title": "Marketing efficiency",
+        "detail": "Spend, conversion and return",
+        "variant": 19,
+        "weight": 1.7
+      },
+      "start": 11.894533333333333,
+      "duration": 0.7118833333333334,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "Marketing efficiency",
+      "weight": 1.7,
+      "project": {
+        "type": "dashboard",
+        "title": "Marketing efficiency",
+        "detail": "Spend, conversion and return",
+        "variant": 19,
+        "weight": 1.7
+      },
+      "projectIndex": 10,
+      "secondProject": {
+        "type": "report",
+        "title": "Quality scorecard",
+        "detail": "Data completeness and freshness",
+        "variant": 20,
+        "weight": 0.8
+      },
+      "start": 12.606416666666666,
+      "duration": 2.2003666666666666,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "Quality scorecard",
+      "weight": 0.8,
+      "project": {
+        "type": "report",
+        "title": "Quality scorecard",
+        "detail": "Data completeness and freshness",
+        "variant": 20,
+        "weight": 0.8
+      },
+      "projectIndex": 11,
+      "split": "project",
+      "secondProject": {
+        "type": "map",
+        "title": "Market opportunity",
+        "detail": "Regions compared on equal terms",
+        "variant": 21,
+        "weight": 1
+      },
+      "start": 14.806783333333332,
+      "duration": 1.0354666666666668,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "Market opportunity",
+      "weight": 1,
+      "project": {
+        "type": "map",
+        "title": "Market opportunity",
+        "detail": "Regions compared on equal terms",
+        "variant": 21,
+        "weight": 1
+      },
+      "projectIndex": 12,
+      "secondProject": {
+        "type": "heatmap",
+        "title": "Channel cohorts",
+        "detail": "Retention across acquisition channels",
+        "variant": 22,
+        "weight": 0.65
+      },
+      "start": 15.842249999999998,
+      "duration": 1.2943333333333333,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "Channel cohorts",
+      "weight": 0.65,
+      "project": {
+        "type": "heatmap",
+        "title": "Channel cohorts",
+        "detail": "Retention across acquisition channels",
+        "variant": 22,
+        "weight": 0.65
+      },
+      "projectIndex": 13,
+      "secondProject": {
+        "type": "forecast",
+        "title": "Inventory scenarios",
+        "detail": "A comparison of planning assumptions",
+        "variant": 23,
+        "weight": 1.4
+      },
+      "start": 17.13658333333333,
+      "duration": 0.8413166666666667,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "Inventory scenarios",
+      "weight": 1.4,
+      "project": {
+        "type": "forecast",
+        "title": "Inventory scenarios",
+        "detail": "A comparison of planning assumptions",
+        "variant": 23,
+        "weight": 1.4
+      },
+      "projectIndex": 14,
+      "split": "project",
+      "secondProject": {
+        "type": "dashboard",
+        "title": "Service performance",
+        "detail": "Queue, volume and response signals",
+        "variant": 24,
+        "weight": 0.7
+      },
+      "start": 17.977899999999998,
+      "duration": 1.8120666666666665,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "Service performance",
+      "weight": 0.7,
+      "project": {
+        "type": "dashboard",
+        "title": "Service performance",
+        "detail": "Queue, volume and response signals",
+        "variant": 24,
+        "weight": 0.7
+      },
+      "projectIndex": 15,
+      "secondProject": {
+        "type": "report",
+        "title": "Pricing evidence",
+        "detail": "A readable price sensitivity study",
+        "variant": 25,
+        "weight": 1.2
+      },
+      "start": 19.789966666666665,
+      "duration": 0.9060333333333332,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "Pricing evidence",
+      "weight": 1.2,
+      "project": {
+        "type": "report",
+        "title": "Pricing evidence",
+        "detail": "A readable price sensitivity study",
+        "variant": 25,
+        "weight": 1.2
+      },
+      "projectIndex": 16,
+      "secondProject": {
+        "type": "presentation",
+        "title": "Quarterly intelligence",
+        "detail": "A business review with evidence",
+        "variant": 26,
+        "weight": 0.55
+      },
+      "start": 20.696,
+      "duration": 1.4254,
+      "beat": 2
+    },
+    {
+      "app": "project",
+      "title": "Quarterly intelligence",
+      "weight": 0.55,
+      "project": {
+        "type": "presentation",
+        "title": "Quarterly intelligence",
+        "detail": "A business review with evidence",
+        "variant": 26,
+        "weight": 0.55
+      },
+      "projectIndex": 17,
+      "secondProject": {
+        "type": "map",
+        "title": "Site selection",
+        "detail": "A location comparison interface",
+        "variant": 27,
+        "weight": 1.7
+      },
+      "start": 22.1214,
+      "duration": 0.6533083333333334,
+      "beat": 2
+    },
+    {
+      "app": "project",
+      "title": "Site selection",
+      "weight": 1.7,
+      "project": {
+        "type": "map",
+        "title": "Site selection",
+        "detail": "A location comparison interface",
+        "variant": 27,
+        "weight": 1.7
+      },
+      "projectIndex": 18,
+      "secondProject": {
+        "type": "forecast",
+        "title": "Cash flow outlook",
+        "detail": "A range of financial scenarios",
+        "variant": 28,
+        "weight": 0.8
+      },
+      "start": 22.774708333333336,
+      "duration": 2.0193166666666666,
+      "beat": 2
+    },
+    {
+      "app": "project",
+      "title": "Cash flow outlook",
+      "weight": 0.8,
+      "project": {
+        "type": "forecast",
+        "title": "Cash flow outlook",
+        "detail": "A range of financial scenarios",
+        "variant": 28,
+        "weight": 0.8
+      },
+      "projectIndex": 19,
+      "split": "project",
+      "secondProject": {
+        "type": "dashboard",
+        "title": "Learning impact",
+        "detail": "Engagement and completion patterns",
+        "variant": 29,
+        "weight": 1
+      },
+      "start": 24.794025000000005,
+      "duration": 0.9502666666666667,
+      "beat": 2
+    },
+    {
+      "app": "project",
+      "title": "Learning impact",
+      "weight": 1,
+      "project": {
+        "type": "dashboard",
+        "title": "Learning impact",
+        "detail": "Engagement and completion patterns",
+        "variant": 29,
+        "weight": 1
+      },
+      "projectIndex": 20,
+      "secondProject": {
+        "type": "heatmap",
+        "title": "Portfolio correlations",
+        "detail": "A matrix of related signals",
+        "variant": 30,
+        "weight": 0.65
+      },
+      "start": 25.744291666666673,
+      "duration": 1.1878333333333333,
+      "beat": 2
+    },
+    {
+      "app": "project",
+      "title": "Portfolio correlations",
+      "weight": 0.65,
+      "project": {
+        "type": "heatmap",
+        "title": "Portfolio correlations",
+        "detail": "A matrix of related signals",
+        "variant": 30,
+        "weight": 0.65
+      },
+      "projectIndex": 21,
+      "secondProject": {
+        "type": "report",
+        "title": "Experiment readout",
+        "detail": "Results with caveats and next steps",
+        "variant": 31,
+        "weight": 1.4
+      },
+      "start": 26.932125000000006,
+      "duration": 0.7720916666666666,
+      "beat": 2
+    },
+    {
+      "app": "project",
+      "title": "Experiment readout",
+      "weight": 1.4,
+      "project": {
+        "type": "report",
+        "title": "Experiment readout",
+        "detail": "Results with caveats and next steps",
+        "variant": 31,
+        "weight": 1.4
+      },
+      "projectIndex": 22,
+      "split": "project",
+      "secondProject": {
+        "type": "dashboard",
+        "title": "Decision centre",
+        "detail": "A linked view of the business",
+        "variant": 32,
+        "weight": 0.7
+      },
+      "start": 27.704216666666674,
+      "duration": 1.6629666666666665,
+      "beat": 2
+    },
+    {
+      "app": "project",
+      "title": "Decision centre",
+      "weight": 0.7,
+      "project": {
+        "type": "dashboard",
+        "title": "Decision centre",
+        "detail": "A linked view of the business",
+        "variant": 32,
+        "weight": 0.7
+      },
+      "projectIndex": 23,
+      "secondProject": {
+        "type": "dashboard",
+        "title": "Revenue, explained",
+        "detail": "A finished executive analytics view",
+        "variant": 9,
+        "weight": 1.2
+      },
+      "start": 29.36718333333334,
+      "duration": 0.8314833333333332,
+      "beat": 2
+    }
+  ],
+  "captions": [
+    {
+      "start": 1.25,
+      "end": 10.021333333333333,
+      "text": "Explore what learning can become. These original data analytics project concepts show different ways to turn an idea into something people can use."
+    },
+    {
+      "start": 10.421333333333333,
+      "end": 20.375999999999998,
+      "text": "Some outputs make a decision clearer. Others create a useful interaction, a visual story, or a more connected way of working. Each starts with a different problem."
+    },
+    {
+      "start": 20.776,
+      "end": 29.878666666666668,
+      "text": "Compare the formats, explore the details, and imagine a version for your own team. The next step is to make the result useful in its real context."
+    }
+  ],
+  "audio": {
+    "sampleRate": 24000,
+    "voiceEngine": "Kokoro-82M ONNX",
+    "musicType": "Original procedural composition",
+    "peak": 0.717490017414093,
+    "voiceId": "af_heart",
+    "voicePath": "audio/analytics-showcase-voice.wav",
+    "musicPath": "audio/analytics-showcase-music.wav",
+    "mixPath": "audio/analytics-showcase-mix.wav"
+  }
+}

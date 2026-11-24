@@ -1,0 +1,344 @@
+{
+  "id": "sage-strategy-demo",
+  "mediaId": "acumelo-sage-strategy-demo-20261123c",
+  "stem": "sage-strategy-demo-20261123c",
+  "kind": "demo",
+  "scope": "instructor",
+  "name": "Sage",
+  "instructorId": "instructor-sage",
+  "fieldId": "strategy",
+  "title": "Find the right product to build",
+  "topic": "booking experience",
+  "result": "validated product brief",
+  "apps": [
+    "miro",
+    "gemini",
+    "notion",
+    "jira",
+    "figma",
+    "powerpoint"
+  ],
+  "variant": 1,
+  "color": "#e8b769",
+  "voice": "af_heart",
+  "bpm": 110,
+  "beats": [
+    {
+      "text": "Before building booking experience, define the problem and the decision it will support. Make the expected outcome measurable, and record what is still an assumption.",
+      "shots": [
+        {
+          "app": "miro",
+          "title": "Map evidence, dependencies, and decisions",
+          "tool": "Miro",
+          "weight": 1.1
+        },
+        {
+          "app": "gemini",
+          "title": "Structure the evidence with Gemini",
+          "tool": "Gemini",
+          "weight": 1.35
+        },
+        {
+          "app": "miro",
+          "title": "Map evidence, dependencies, and decisions",
+          "tool": "Miro",
+          "weight": 0.7,
+          "camera": "detail"
+        }
+      ]
+    },
+    {
+      "text": "Map the booking journey in Miro. Ask Gemini to challenge the research assumptions, then record the evidence in Notion. Distinguish a customer problem from a feature that only sounds attractive.",
+      "shots": [
+        {
+          "app": "miro",
+          "title": "Connect the opportunity to an experiment",
+          "tool": "Miro",
+          "weight": 1.25,
+          "stage": 1
+        },
+        {
+          "app": "gemini",
+          "title": "Compare the proposed next steps",
+          "tool": "Gemini",
+          "weight": 0.8,
+          "stage": 1
+        },
+        {
+          "app": "notion",
+          "title": "Track owners and next actions",
+          "tool": "Notion",
+          "weight": 1.55,
+          "stage": 1
+        },
+        {
+          "app": "miro",
+          "title": "Map evidence, dependencies, and decisions",
+          "tool": "Miro",
+          "weight": 1,
+          "split": "jira",
+          "stage": 2
+        }
+      ]
+    },
+    {
+      "text": "Translate the opportunity into a small experiment. Use Jira for acceptance criteria and Figma for the interaction hypothesis. Compare the proposal with the evidence before choosing the next release.",
+      "shots": [
+        {
+          "app": "notion",
+          "title": "Maintain the shared decision brief",
+          "tool": "Notion",
+          "weight": 1.8,
+          "stage": 2,
+          "camera": "detail"
+        },
+        {
+          "app": "figma",
+          "title": "Inspect layout, spacing, and states",
+          "tool": "Figma",
+          "weight": 1.2,
+          "stage": 1
+        },
+        {
+          "app": "powerpoint",
+          "title": "Review the slide structure",
+          "tool": "Microsoft PowerPoint",
+          "weight": 0.7,
+          "stage": 1
+        },
+        {
+          "app": "notion",
+          "title": "Track owners and next actions",
+          "tool": "Notion",
+          "weight": 1.4,
+          "split": "figma",
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "text": "Bring the evidence, cost, and next decision into validated product brief. The output is a shared direction, with clear ownership and a review point.",
+      "shots": [
+        {
+          "app": "jira",
+          "title": "Track delivery and acceptance criteria",
+          "tool": "Jira",
+          "weight": 1.5,
+          "stage": 2
+        },
+        {
+          "app": "figma",
+          "title": "Compare responsive surfaces",
+          "tool": "Figma",
+          "weight": 1,
+          "stage": 2
+        },
+        {
+          "app": "powerpoint",
+          "title": "Turn evidence into a clear story",
+          "tool": "Microsoft PowerPoint",
+          "weight": 1.6,
+          "split": "result",
+          "stage": 3
+        },
+        {
+          "app": "result",
+          "title": "The finished experience",
+          "tool": "result",
+          "weight": 1.15,
+          "stage": 3
+        }
+      ]
+    }
+  ],
+  "contentOwnerId": "instructor-chris",
+  "temporaryAssignment": true,
+  "sourceHash": "77514d0374423aa682e650977c845bf357bbf5887da03117d0380e638c516ca4",
+  "durationSeconds": 46.96666666666667,
+  "shots": [
+    {
+      "app": "miro",
+      "title": "Map evidence, dependencies, and decisions",
+      "tool": "Miro",
+      "weight": 1.1,
+      "start": 1.17,
+      "duration": 3.4783280423280423,
+      "beat": 0
+    },
+    {
+      "app": "gemini",
+      "title": "Structure the evidence with Gemini",
+      "tool": "Gemini",
+      "weight": 1.35,
+      "start": 4.648328042328043,
+      "duration": 4.268857142857143,
+      "beat": 0
+    },
+    {
+      "app": "miro",
+      "title": "Map evidence, dependencies, and decisions",
+      "tool": "Miro",
+      "weight": 0.7,
+      "camera": "detail",
+      "start": 8.917185185185186,
+      "duration": 2.213481481481481,
+      "beat": 0
+    },
+    {
+      "app": "miro",
+      "title": "Connect the opportunity to an experiment",
+      "tool": "Miro",
+      "weight": 1.25,
+      "stage": 1,
+      "start": 11.130666666666666,
+      "duration": 3.42518115942029,
+      "beat": 1
+    },
+    {
+      "app": "gemini",
+      "title": "Compare the proposed next steps",
+      "tool": "Gemini",
+      "weight": 0.8,
+      "stage": 1,
+      "start": 14.555847826086957,
+      "duration": 2.192115942028986,
+      "beat": 1
+    },
+    {
+      "app": "notion",
+      "title": "Track owners and next actions",
+      "tool": "Notion",
+      "weight": 1.55,
+      "stage": 1,
+      "start": 16.747963768115945,
+      "duration": 4.2472246376811595,
+      "beat": 1
+    },
+    {
+      "app": "miro",
+      "title": "Map evidence, dependencies, and decisions",
+      "tool": "Miro",
+      "weight": 1,
+      "split": "jira",
+      "stage": 2,
+      "start": 20.995188405797105,
+      "duration": 2.740144927536232,
+      "beat": 1
+    },
+    {
+      "app": "notion",
+      "title": "Maintain the shared decision brief",
+      "tool": "Notion",
+      "weight": 1.8,
+      "stage": 2,
+      "camera": "detail",
+      "start": 23.735333333333337,
+      "duration": 4.587764705882353,
+      "beat": 2
+    },
+    {
+      "app": "figma",
+      "title": "Inspect layout, spacing, and states",
+      "tool": "Figma",
+      "weight": 1.2,
+      "stage": 1,
+      "start": 28.32309803921569,
+      "duration": 3.058509803921569,
+      "beat": 2
+    },
+    {
+      "app": "powerpoint",
+      "title": "Review the slide structure",
+      "tool": "Microsoft PowerPoint",
+      "weight": 0.7,
+      "stage": 1,
+      "start": 31.38160784313726,
+      "duration": 1.7841307189542484,
+      "beat": 2
+    },
+    {
+      "app": "notion",
+      "title": "Track owners and next actions",
+      "tool": "Notion",
+      "weight": 1.4,
+      "split": "figma",
+      "stage": 3,
+      "start": 33.165738562091505,
+      "duration": 3.5682614379084967,
+      "beat": 2
+    },
+    {
+      "app": "jira",
+      "title": "Track delivery and acceptance criteria",
+      "tool": "Jira",
+      "weight": 1.5,
+      "stage": 2,
+      "start": 36.734,
+      "duration": 2.6533333333333333,
+      "beat": 3
+    },
+    {
+      "app": "figma",
+      "title": "Compare responsive surfaces",
+      "tool": "Figma",
+      "weight": 1,
+      "stage": 2,
+      "start": 39.38733333333334,
+      "duration": 1.768888888888889,
+      "beat": 3
+    },
+    {
+      "app": "powerpoint",
+      "title": "Turn evidence into a clear story",
+      "tool": "Microsoft PowerPoint",
+      "weight": 1.6,
+      "split": "result",
+      "stage": 3,
+      "start": 41.156222222222226,
+      "duration": 2.8302222222222224,
+      "beat": 3
+    },
+    {
+      "app": "result",
+      "title": "The finished experience",
+      "tool": "result",
+      "weight": 1.15,
+      "stage": 3,
+      "start": 43.98644444444445,
+      "duration": 2.034222222222222,
+      "beat": 3
+    }
+  ],
+  "captions": [
+    {
+      "start": 1.25,
+      "end": 10.810666666666666,
+      "text": "Before building booking experience, define the problem and the decision it will support. Make the expected outcome measurable, and record what is still an assumption."
+    },
+    {
+      "start": 11.210666666666667,
+      "end": 23.415333333333333,
+      "text": "Map the booking journey in Miro. Ask Gemini to challenge the research assumptions, then record the evidence in Notion. Distinguish a customer problem from a feature that only sounds attractive."
+    },
+    {
+      "start": 23.815333333333335,
+      "end": 36.414,
+      "text": "Translate the opportunity into a small experiment. Use Jira for acceptance criteria and Figma for the interaction hypothesis. Compare the proposal with the evidence before choosing the next release."
+    },
+    {
+      "start": 36.814,
+      "end": 45.70066666666666,
+      "text": "Bring the evidence, cost, and next decision into validated product brief. The output is a shared direction, with clear ownership and a review point."
+    }
+  ],
+  "audio": {
+    "sampleRate": 24000,
+    "voicePath": "audio/sage-strategy-demo-voice.wav",
+    "musicPath": "audio/sage-strategy-demo-music.wav",
+    "mixPath": "audio/sage-strategy-demo-mix.wav",
+    "voiceEngine": "Kokoro-82M ONNX",
+    "voiceId": "af_heart",
+    "musicType": "Original procedural composition",
+    "peak": 0.7210041880607605
+  }
+}

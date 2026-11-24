@@ -625,6 +625,91 @@
       "path": "pnpm-lock.yaml",
       "bytes": 4352,
       "sha256": "0c049adaf1d95ec709774cd3417d7ac8eae29ad582c64dae692cf1bff2db1449"
+    },
+    {
+      "path": "timelines/analytics-showcase.json",
+      "bytes": 32216,
+      "sha256": "03b43245de3ca9a97deaeb0aba3f66421b310ebed75a19e4921c09a00fba0c7b"
+    },
+    {
+      "path": "timelines/chris-analytics-demo.json",
+      "bytes": 9148,
+      "sha256": "63e184c07db96b8be6930db12d428608ada75e56a8b97bdb627cb6d29a3ecfdd"
+    },
+    {
+      "path": "timelines/chris-design-demo.json",
+      "bytes": 9295,
+      "sha256": "4ad28163e381ba21334c2aaa0101d84a4bb7759399b66ec81c2349056b2e0afc"
+    },
+    {
+      "path": "timelines/chris-development-demo.json",
+      "bytes": 8417,
+      "sha256": "8f773cd2c3b2601f6db6d0a99e28c214e549c2ce13eff6c56ebd694b86bef4fd"
+    },
+    {
+      "path": "timelines/chris-marketing-demo.json",
+      "bytes": 9884,
+      "sha256": "953132ecde0c26925bc63793fd20adb469b07c827406065ffd978aacc93a7814"
+    },
+    {
+      "path": "timelines/chris-strategy-demo.json",
+      "bytes": 9851,
+      "sha256": "b5a7837b078cf33c2e875f33092fc10717dcef08239745f22b29ca44b7eeed28"
+    },
+    {
+      "path": "timelines/chris-workflow-demo.json",
+      "bytes": 9587,
+      "sha256": "69b5ebe36c5dc398a9996637938ec778dc719a1589b4c33445beb22c9c067bdb"
+    },
+    {
+      "path": "timelines/design-showcase.json",
+      "bytes": 37087,
+      "sha256": "a02fca81e876b2973ad64ef96df69de11921cf944f41ca0c40f774e73f6fe1d5"
+    },
+    {
+      "path": "timelines/development-showcase.json",
+      "bytes": 34203,
+      "sha256": "1c268b236e491180f5de887c68722f4aff3aa7a62aed974d44b2ca6ca11bfdde"
+    },
+    {
+      "path": "timelines/marketing-showcase.json",
+      "bytes": 35039,
+      "sha256": "85bb7e819af29bb8cc3736a0a907f440731f8854c9a6a703082b8281564d4f81"
+    },
+    {
+      "path": "timelines/pillow-design-demo.json",
+      "bytes": 9332,
+      "sha256": "dfc6b6f64f6696d1763c1a79b6336777049abdd119c3434125388db4e066d1b7"
+    },
+    {
+      "path": "timelines/pillow-development-demo.json",
+      "bytes": 8547,
+      "sha256": "d593bdf8c8b30ea64658cb6ddaafaaabc4f6ea5854a0f45bb56cc1b42e0b9734"
+    },
+    {
+      "path": "timelines/sage-design-demo.json",
+      "bytes": 9146,
+      "sha256": "9c80fc25f85898a593adca25f4c661b7d66dd34e7f35eb12b18a8e013f5e4f47"
+    },
+    {
+      "path": "timelines/sage-development-demo.json",
+      "bytes": 8422,
+      "sha256": "934b614ff7f708bbea624deb042f1769e538aa44ff53554543fb9133d98c26fe"
+    },
+    {
+      "path": "timelines/sage-strategy-demo.json",
+      "bytes": 9881,
+      "sha256": "3becf9072b1cab4b94da76de97b7d73b685e43e4ae46d722427d2fa1dad1ad9b"
+    },
+    {
+      "path": "timelines/strategy-showcase.json",
+      "bytes": 32458,
+      "sha256": "2290c63e075229d852aa9fc30fc4208a7480e465c93bff789b3586f097d69c45"
+    },
+    {
+      "path": "timelines/workflow-showcase.json",
+      "bytes": 32462,
+      "sha256": "3a2f7888b46400f25e764af25a251a2c7670b3d604f0150359b885a61f622c07"
     }
   ]
 }
