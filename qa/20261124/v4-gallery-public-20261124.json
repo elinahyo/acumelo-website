@@ -1,0 +1,362 @@
+{
+  "url": "https://elinahyo.github.io/acumelo-website/assets/media/20261124d/index.html",
+  "editorialApproval": false,
+  "responsive": [
+    {
+      "width": 320,
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "width": 320,
+      "lang": "ko",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "lang": "ko",
+      "passed": true
+    }
+  ],
+  "films": [
+    {
+      "id": "analytics-showcase",
+      "src": "https://elinahyo.github.io/acumelo-website/assets/media/20261124d/analytics-showcase-20261124d.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 31.133333,
+      "controls": true,
+      "playsInline": true,
+      "autoplay": false,
+      "captions": [],
+      "poster": true,
+      "sha256": "017e40580fe7222d6fae6ed9bc04ce74d1ee6123a19d551d8d1f1b54f18f8d79",
+      "bytes": 2549903,
+      "hashMatches": true,
+      "voiceId": null,
+      "speakerId": null,
+      "hasNarration": false
+    },
+    {
+      "id": "chris-analytics-demo",
+      "src": "https://elinahyo.github.io/acumelo-website/assets/media/20261124d/chris-analytics-demo-20261124d.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 51.566667,
+      "controls": true,
+      "playsInline": true,
+      "autoplay": false,
+      "captions": [
+        true
+      ],
+      "poster": true,
+      "sha256": "cc9ff87f4e6cb04583aeefef7da0c382379db593cb863e900ddf66e8bd618e34",
+      "bytes": 5007323,
+      "hashMatches": true,
+      "voiceId": "am_michael",
+      "speakerId": "instructor-chris",
+      "hasNarration": true
+    },
+    {
+      "id": "chris-design-demo",
+      "src": "https://elinahyo.github.io/acumelo-website/assets/media/20261124d/chris-design-demo-20261124d.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 53.8,
+      "controls": true,
+      "playsInline": true,
+      "autoplay": false,
+      "captions": [
+        true
+      ],
+      "poster": true,
+      "sha256": "f66e4c117170ff3d904e677f6876439872b0fa0ae78918857ec21a8e40ae7c1d",
+      "bytes": 6868113,
+      "hashMatches": true,
+      "voiceId": "am_michael",
+      "speakerId": "instructor-chris",
+      "hasNarration": true
+    },
+    {
+      "id": "chris-development-demo",
+      "src": "https://elinahyo.github.io/acumelo-website/assets/media/20261124d/chris-development-demo-20261124d.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 55,
+      "controls": true,
+      "playsInline": true,
+      "autoplay": false,
+      "captions": [
+        true
+      ],
+      "poster": true,
+      "sha256": "8f7255e0d1af11680ea16ab13d82feadf0e7602541ee7a601da9fda2f20a08cb",
+      "bytes": 5339318,
+      "hashMatches": true,
+      "voiceId": "am_michael",
+      "speakerId": "instructor-chris",
+      "hasNarration": true
+    },
+    {
+      "id": "chris-marketing-demo",
+      "src": "https://elinahyo.github.io/acumelo-website/assets/media/20261124d/chris-marketing-demo-20261124d.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 54.066667,
+      "controls": true,
+      "playsInline": true,
+      "autoplay": false,
+      "captions": [
+        true
+      ],
+      "poster": true,
+      "sha256": "ba1b5456c257e52ce275517ebdcec5a7f6599d6c8111e4998d4da1248481efe0",
+      "bytes": 4538750,
+      "hashMatches": true,
+      "voiceId": "am_michael",
+      "speakerId": "instructor-chris",
+      "hasNarration": true
+    },
+    {
+      "id": "chris-strategy-demo",
+      "src": "https://elinahyo.github.io/acumelo-website/assets/media/20261124d/chris-strategy-demo-20261124d.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 50.4,
+      "controls": true,
+      "playsInline": true,
+      "autoplay": false,
+      "captions": [
+        true
+      ],
+      "poster": true,
+      "sha256": "6fbee0282d02d4c281fb91ca2f3386dfe9d734768954b85669f953d9e4a04d7f",
+      "bytes": 4410441,
+      "hashMatches": true,
+      "voiceId": "am_michael",
+      "speakerId": "instructor-chris",
+      "hasNarration": true
+    },
+    {
+      "id": "chris-workflow-demo",
+      "src": "https://elinahyo.github.io/acumelo-website/assets/media/20261124d/chris-workflow-demo-20261124d.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 51,
+      "controls": true,
+      "playsInline": true,
+      "autoplay": false,
+      "captions": [
+        true
+      ],
+      "poster": true,
+      "sha256": "5e12e7d128f72f492849cccfea457a771ebc199031d80470d1159e687e74086f",
+      "bytes": 5113179,
+      "hashMatches": true,
+      "voiceId": "am_michael",
+      "speakerId": "instructor-chris",
+      "hasNarration": true
+    },
+    {
+      "id": "design-showcase",
+      "src": "https://elinahyo.github.io/acumelo-website/assets/media/20261124d/design-showcase-20261124d.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 31.333333,
+      "controls": true,
+      "playsInline": true,
+      "autoplay": false,
+      "captions": [],
+      "poster": true,
+      "sha256": "eb68261a12bb3e2862ac0a7c2012e1148c1f6c194b116058a8a1ad8dc92b5600",
+      "bytes": 6236065,
+      "hashMatches": true,
+      "voiceId": null,
+      "speakerId": null,
+      "hasNarration": false
+    },
+    {
+      "id": "development-showcase",
+      "src": "https://elinahyo.github.io/acumelo-website/assets/media/20261124d/development-showcase-20261124d.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 31.467,
+      "controls": true,
+      "playsInline": true,
+      "autoplay": false,
+      "captions": [],
+      "poster": true,
+      "sha256": "bf643db15809aaa6d874ad8bfb61c450e9ec446adfcb476b26a26a9720239828",
+      "bytes": 5055849,
+      "hashMatches": true,
+      "voiceId": null,
+      "speakerId": null,
+      "hasNarration": false
+    },
+    {
+      "id": "marketing-showcase",
+      "src": "https://elinahyo.github.io/acumelo-website/assets/media/20261124d/marketing-showcase-20261124d.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 31.333333,
+      "controls": true,
+      "playsInline": true,
+      "autoplay": false,
+      "captions": [],
+      "poster": true,
+      "sha256": "96e0de8a281c263a372f4e89a0060257c80bb7dd224ff9382ec2541a7059f923",
+      "bytes": 3850991,
+      "hashMatches": true,
+      "voiceId": null,
+      "speakerId": null,
+      "hasNarration": false
+    },
+    {
+      "id": "pillow-design-demo",
+      "src": "https://elinahyo.github.io/acumelo-website/assets/media/20261124d/pillow-design-demo-20261124d.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 74.1,
+      "controls": true,
+      "playsInline": true,
+      "autoplay": false,
+      "captions": [
+        true
+      ],
+      "poster": true,
+      "sha256": "61b77041431a08272bcb45e9b8ff0603e582a7bb000119252a759b04063fe68d",
+      "bytes": 8388831,
+      "hashMatches": true,
+      "voiceId": "af_nicole",
+      "speakerId": "instructor-03",
+      "hasNarration": true
+    },
+    {
+      "id": "pillow-development-demo",
+      "src": "https://elinahyo.github.io/acumelo-website/assets/media/20261124d/pillow-development-demo-20261124d.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 74.433333,
+      "controls": true,
+      "playsInline": true,
+      "autoplay": false,
+      "captions": [
+        true
+      ],
+      "poster": true,
+      "sha256": "47d59bbf13fabad1a31935028214a25d8b629e0bf47136608b46ab2703fedac4",
+      "bytes": 8605192,
+      "hashMatches": true,
+      "voiceId": "af_nicole",
+      "speakerId": "instructor-03",
+      "hasNarration": true
+    },
+    {
+      "id": "sage-design-demo",
+      "src": "https://elinahyo.github.io/acumelo-website/assets/media/20261124d/sage-design-demo-20261124d.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 51.066667,
+      "controls": true,
+      "playsInline": true,
+      "autoplay": false,
+      "captions": [
+        true
+      ],
+      "poster": true,
+      "sha256": "8e56a1c188d1bafa89179662ca1288616e1e747ffde8c2c73668e56cc94ee83d",
+      "bytes": 5602473,
+      "hashMatches": true,
+      "voiceId": "af_heart",
+      "speakerId": "instructor-sage",
+      "hasNarration": true
+    },
+    {
+      "id": "sage-development-demo",
+      "src": "https://elinahyo.github.io/acumelo-website/assets/media/20261124d/sage-development-demo-20261124d.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 48.633333,
+      "controls": true,
+      "playsInline": true,
+      "autoplay": false,
+      "captions": [
+        true
+      ],
+      "poster": true,
+      "sha256": "1ec62017c65b989e6e270eb180d7b7385c08c6fa5aa764fead4d52b05c4082b4",
+      "bytes": 4534069,
+      "hashMatches": true,
+      "voiceId": "af_heart",
+      "speakerId": "instructor-sage",
+      "hasNarration": true
+    },
+    {
+      "id": "sage-strategy-demo",
+      "src": "https://elinahyo.github.io/acumelo-website/assets/media/20261124d/sage-strategy-demo-20261124d.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 46.966667,
+      "controls": true,
+      "playsInline": true,
+      "autoplay": false,
+      "captions": [
+        true
+      ],
+      "poster": true,
+      "sha256": "04794714fdd7d9db615edcf22239054aee87b9b99ca756e6ce16169e22975775",
+      "bytes": 3871756,
+      "hashMatches": true,
+      "voiceId": "af_heart",
+      "speakerId": "instructor-sage",
+      "hasNarration": true
+    },
+    {
+      "id": "strategy-showcase",
+      "src": "https://elinahyo.github.io/acumelo-website/assets/media/20261124d/strategy-showcase-20261124d.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 32.2,
+      "controls": true,
+      "playsInline": true,
+      "autoplay": false,
+      "captions": [],
+      "poster": true,
+      "sha256": "4b6d039740aef3b73abb9d36037afe45df675433902d77bcc025b8d173253bbd",
+      "bytes": 2528303,
+      "hashMatches": true,
+      "voiceId": null,
+      "speakerId": null,
+      "hasNarration": false
+    },
+    {
+      "id": "workflow-showcase",
+      "src": "https://elinahyo.github.io/acumelo-website/assets/media/20261124d/workflow-showcase-20261124d.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 31.633333,
+      "controls": true,
+      "playsInline": true,
+      "autoplay": false,
+      "captions": [],
+      "poster": true,
+      "sha256": "dd2eb43679f8c7c11cb7286b342058dfbd20ad79a08083ac2db2598183dcef0d",
+      "bytes": 2466008,
+      "hashMatches": true,
+      "voiceId": null,
+      "speakerId": null,
+      "hasNarration": false
+    }
+  ],
+  "errors": [],
+  "singlePlayback": true,
+  "filterPauses": true,
+  "passed": true,
+  "testedSiteCommit": "4db46a928963d4dede0139623a12783476fb0c78",
+  "pagesRun": 45311037540
+}
