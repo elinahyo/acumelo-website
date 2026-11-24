@@ -4,7 +4,7 @@ const base='https://elinahyo.github.io/acumelo-website/';
 const expected=process.env.QA_EXPECTED_BLOB;
 const bytes=Buffer.from(await (await fetch(base+'?release=structure-20261124')).arrayBuffer());
 const blob=crypto.createHash('sha1').update('blob '+bytes.length+'\0').update(bytes).digest('hex');assert.equal(blob,expected,'Public index must match approved Git blob');
-const box={window:{}};vm.runInNewContext(await fs.readFile('publish/github-pages/content.js','utf8'),box);const data=box.window.ACUMELO;
+const box={window:{}};vm.runInNewContext(await fs.readFile(new URL('../content.js',import.meta.url),'utf8'),box);const data=box.window.ACUMELO;
 const browser=await chromium.launch({headless:true,executablePath:process.env.QA_BROWSER_EXECUTABLE,args:['--mute-audio']});
 const page=await browser.newPage(),cases=[],errors=[];
 page.on('pageerror',e=>errors.push(e.message));
@@ -34,4 +34,4 @@ try{
  }
 }catch(e){errors.push(e.stack);}finally{await browser.close();}
 const report={passed:!errors.length,base,commit:process.env.QA_COMMIT,expectedBlob:expected,publicBlob:blob,cases,errors};
-await fs.writeFile('review/learning-public-20261124.json',JSON.stringify(report,null,2));console.log(JSON.stringify({passed:report.passed,cases:cases.length,blob,errors}));if(errors.length)process.exitCode=1;
+await fs.writeFile(process.env.QA_REPORT||'learning-public-qa.json',JSON.stringify(report,null,2));console.log(JSON.stringify({passed:report.passed,cases:cases.length,blob,errors}));if(errors.length)process.exitCode=1;
