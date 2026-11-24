@@ -60,6 +60,17 @@ jobs:
         if: steps.request.outputs.reuse != 'true'
         timeout-minutes: 6
         run: |
+          sudo python3 - <<'PY'
+          import pathlib, re
+          for name in ['/etc/apt/apt-mirrors.txt', '/etc/apt/sources.list', '/etc/apt/sources.list.d/ubuntu.sources']:
+              p = pathlib.Path(name)
+              if p.exists():
+                  old = p.read_text()
+                  new = re.sub(r'https?://[a-z0-9.-]+\.ec2\.archive\.ubuntu\.com/ubuntu', 'http://archive.ubuntu.com/ubuntu', old)
+                  if new != old:
+                      p.write_text(new)
+                      print('Selected official Ubuntu archive for', p.name)
+          PY
           sudo apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=20 -o Acquire::https::Timeout=20 update -qq
           sudo apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=20 -o Acquire::https::Timeout=20 install -y --no-install-recommends ffmpeg fonts-dejavu-core
           npm install --global pnpm@9.15.9 --fetch-timeout=30000 --fetch-retries=2
