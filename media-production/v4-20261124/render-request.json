@@ -7,6 +7,12 @@
     "media-production/v4-20261124/build-music.py": "c92c9a9bd812a4c2582cb8b8ce272b0771085a489bc9d093623b4f55b559b454",
     "media-production/v4-20261124/validate-editorial.mjs": "5e9fe01c2ceecd3506bdddabb04b01bef94bd2439c3e196425ac2688d50b00cb",
     "media-production/v4-20261124/stage-editorial.mjs": "4d9229eba2e1f459555fa36232fa2d4748a0959be14e6daae8eabeb326751604"
-  }
+  },
+  "reuseRun": 45305635351,
+  "reuseParts": [
+    "pillow",
+    "projects"
+  ],
+  "recoveryReason": "Restart two dependency installations stalled for more than 14 minutes; reuse eight technically verified films."
 }
 
