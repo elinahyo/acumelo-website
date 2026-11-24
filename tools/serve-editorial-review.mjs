@@ -13,7 +13,8 @@ http.createServer(async(req,res)=>{try{
  if(!local&&relative.startsWith('assets/media/20261124d/')){
   const upstream=await fetch('https://raw.githubusercontent.com/elinahyo/acumelo-website/'+ref+'/'+relative,{method:req.method,headers:req.headers.range?{Range:req.headers.range}:{}});
   const headers={'Content-Type':types[path.extname(relative)]||'application/octet-stream','Cache-Control':'no-store'};
-  for(const h of ['content-length','content-range','accept-ranges'])if(upstream.headers.has(h))headers[h]=upstream.headers.get(h);
+  // fetch decodes compressed text; its original wire length no longer applies.
+  for(const h of ['content-length','content-range','accept-ranges'])if(upstream.headers.has(h)&&!(h==='content-length'&&upstream.headers.has('content-encoding')))headers[h]=upstream.headers.get(h);
   res.writeHead(upstream.status,headers);if(upstream.body){const stream=Readable.fromWeb(upstream.body);res.on('close',()=>stream.destroy());stream.on('error',()=>res.destroy());stream.pipe(res);}else res.end();return;
  }
  if(!local?.isFile()){res.writeHead(404).end();return;}

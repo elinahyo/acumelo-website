@@ -1184,7 +1184,11 @@ window.ACUMELO = {
           ],
           "problem": "반복되는 문서·메일 업무를 AI 도구와 자동화 흐름으로 연결합니다.",
           "shortOutput": "n8n 업무 자동화 흐름과 에이전트 설정",
-          "prerequisites": "기본적인 문서·스프레드시트 활용 경험을 권장합니다. 코딩 경험 없이 도구 활용부터 시작하며, 실습 계정은 과정에 맞춰 안내합니다."
+          "prerequisites": "기본적인 문서·스프레드시트 활용 경험을 권장합니다. 코딩 경험 없이 도구 활용부터 시작하며, 실습 계정은 과정에 맞춰 안내합니다.",
+          "comparison": {
+            "audience": "운영·인사·재무·행정 담당자",
+            "output": "반복 업무를 연결한 자동화"
+          }
         },
         {
           "id": "strategy",
@@ -1228,7 +1232,11 @@ window.ACUMELO = {
           ],
           "problem": "막연한 AI 도입 아이디어를 실행·검증 가능한 프로젝트로 정리합니다.",
           "shortOutput": "AI 도입 제안서와 프로젝트 실행 계획",
-          "prerequisites": "업무 과제나 프로젝트 경험이 있으면 도움이 됩니다. 코딩 경험 없이 기획·요구사항·검증 설계부터 시작합니다."
+          "prerequisites": "업무 과제나 프로젝트 경험이 있으면 도움이 됩니다. 코딩 경험 없이 기획·요구사항·검증 설계부터 시작합니다.",
+          "comparison": {
+            "audience": "PM·PO·팀장·AI 도입 담당자",
+            "output": "요구사항·검증 계획·실행 로드맵"
+          }
         },
         {
           "id": "design",
@@ -1272,7 +1280,11 @@ window.ACUMELO = {
           ],
           "problem": "아이디어를 일관된 이미지·영상·UI·3D 콘텐츠로 구체화합니다.",
           "shortOutput": "선택한 제작 분야의 콘텐츠 프로젝트",
-          "prerequisites": "기본적인 파일 관리와 콘텐츠 도구 사용 경험을 권장합니다. 3D 등 심화 제작은 참여자의 경험에 맞춰 준비합니다."
+          "prerequisites": "기본적인 파일 관리와 콘텐츠 도구 사용 경험을 권장합니다. 3D 등 심화 제작은 참여자의 경험에 맞춰 준비합니다.",
+          "comparison": {
+            "audience": "디자인·영상·모션·3D 제작자",
+            "output": "이미지·영상·시네마틱"
+          }
         },
         {
           "id": "analytics",
@@ -1316,7 +1328,11 @@ window.ACUMELO = {
           ],
           "problem": "흩어진 데이터에서 의사결정의 근거를 찾고 설명합니다.",
           "shortOutput": "데이터 시각화와 의사결정 보고서",
-          "prerequisites": "스프레드시트의 표와 기본 수식을 이해하면 좋습니다. 입문 과정은 별도 프로그래밍 경험 없이 시작할 수 있습니다."
+          "prerequisites": "스프레드시트의 표와 기본 수식을 이해하면 좋습니다. 입문 과정은 별도 프로그래밍 경험 없이 시작할 수 있습니다.",
+          "comparison": {
+            "audience": "분석·기획·재무·운영 담당자",
+            "output": "분석 보고서·의사결정 대시보드"
+          }
         },
         {
           "id": "marketing",
@@ -1360,7 +1376,11 @@ window.ACUMELO = {
           ],
           "problem": "고객 이해를 캠페인과 영업 실행 계획으로 연결합니다.",
           "shortOutput": "캠페인 기획안과 CRM·영업 지원 자료",
-          "prerequisites": "기본적인 마케팅·영업 업무 흐름에 대한 이해를 권장합니다. 코딩 경험은 필요하지 않습니다."
+          "prerequisites": "기본적인 마케팅·영업 업무 흐름에 대한 이해를 권장합니다. 코딩 경험은 필요하지 않습니다.",
+          "comparison": {
+            "audience": "마케터·CRM·영업 담당자",
+            "output": "캠페인·고객관리·성과 측정"
+          }
         },
         {
           "id": "development",
@@ -1404,7 +1424,11 @@ window.ACUMELO = {
           ],
           "problem": "아이디어와 지식을 실제로 작동하는 AI 웹·앱으로 구현합니다.",
           "shortOutput": "RAG·에이전트를 연결한 웹·앱 시제품",
-          "prerequisites": "바이브코딩 입문은 초보자도 참여할 수 있습니다. RAG·에이전트 구현은 기초 프로그래밍과 API 이해를 권장하며, 심화 과정은 별도 협의합니다."
+          "prerequisites": "바이브코딩 입문은 초보자도 참여할 수 있습니다. RAG·에이전트 구현은 기초 프로그래밍과 API 이해를 권장하며, 심화 과정은 별도 협의합니다.",
+          "comparison": {
+            "audience": "개발자·기술 기반 콘텐츠 제작자",
+            "output": "웹앱·RAG·게임·XR·디지털휴먼"
+          }
         }
       ],
       "vibeSteps": [
@@ -1526,7 +1550,25 @@ window.ACUMELO = {
       "profileDemoAll": "전체 분야",
       "profileDemoResults": "시연 검색 결과",
       "profileDemoCount": "전체 {total}개 중 {count}개",
-      "profileDemoNoResults": "검색 결과가 없습니다. 다른 검색어를 입력하거나 조건을 초기화하세요."
+      "profileDemoNoResults": "검색 결과가 없습니다. 다른 검색어를 입력하거나 조건을 초기화하세요.",
+      "learning": {
+        "instructorTitle": "이 강사와 배우기",
+        "fieldTitle": "이 분야 살펴보기",
+        "help": "분야를 선택한 뒤 원하는 내용을 확인하세요.",
+        "field": "교육 분야",
+        "contents": "교육 콘텐츠",
+        "curriculum": "커리큘럼",
+        "lecture": "강의영상",
+        "demo": "시연영상",
+        "project": "결과물",
+        "curriculumPending": "{name} 강사의 이 분야 커리큘럼은 준비 중입니다. 확인된 내용이 등록되면 안내합니다.",
+        "lecturePending": "이 분야의 실제 강사 강의영상은 아직 등록되지 않았습니다.",
+        "courseDetails": "학습 목표 · 대상 · 진행 방식",
+        "instructorCurricula": "이 분야의 강사별 커리큘럼",
+        "search": "선택한 내용에서 검색",
+        "audience": "이런 분께",
+        "outcome": "만들게 될 결과물"
+      }
     },
     "en": {
       "title": "Acumelo — AI learning. Human possibility.",
@@ -1640,7 +1682,11 @@ window.ACUMELO = {
           ],
           "problem": "Connect recurring document and email tasks with AI tools and automation.",
           "shortOutput": "An n8n workflow and workplace agent configuration",
-          "prerequisites": "Basic document and spreadsheet skills are recommended. Begin with tool configuration without coding; practice accounts are agreed for the programme."
+          "prerequisites": "Basic document and spreadsheet skills are recommended. Begin with tool configuration without coding; practice accounts are agreed for the programme.",
+          "comparison": {
+            "audience": "Operations, HR, finance and administration professionals",
+            "output": "Automation that connects recurring tasks"
+          }
         },
         {
           "id": "strategy",
@@ -1684,7 +1730,11 @@ window.ACUMELO = {
           ],
           "problem": "Turn a broad AI ambition into a project you can deliver and evaluate.",
           "shortOutput": "An AI adoption proposal and delivery plan",
-          "prerequisites": "Experience with a work challenge or project is helpful. Start with planning, requirements and validation without coding experience."
+          "prerequisites": "Experience with a work challenge or project is helpful. Start with planning, requirements and validation without coding experience.",
+          "comparison": {
+            "audience": "PMs, product owners, team leads and AI adoption leads",
+            "output": "Requirements, validation plans and implementation roadmaps"
+          }
         },
         {
           "id": "design",
@@ -1728,7 +1778,11 @@ window.ACUMELO = {
           ],
           "problem": "Turn ideas into coherent images, video, UI and 3D content.",
           "shortOutput": "A project in your chosen creative discipline",
-          "prerequisites": "Basic file management and experience with creative tools are helpful. Advanced disciplines such as 3D are scoped around participants’ experience."
+          "prerequisites": "Basic file management and experience with creative tools are helpful. Advanced disciplines such as 3D are scoped around participants’ experience.",
+          "comparison": {
+            "audience": "Design, video, motion and 3D creators",
+            "output": "Images, videos and cinematics"
+          }
         },
         {
           "id": "analytics",
@@ -1772,7 +1826,11 @@ window.ACUMELO = {
           ],
           "problem": "Turn scattered data into evidence you can explain and act on.",
           "shortOutput": "Data visualisations and a decision report",
-          "prerequisites": "Familiarity with tables and basic spreadsheet formulas is helpful. Introductory programmes do not require programming experience."
+          "prerequisites": "Familiarity with tables and basic spreadsheet formulas is helpful. Introductory programmes do not require programming experience.",
+          "comparison": {
+            "audience": "Analytics, planning, finance and operations professionals",
+            "output": "Analysis reports and decision-making dashboards"
+          }
         },
         {
           "id": "marketing",
@@ -1816,7 +1874,11 @@ window.ACUMELO = {
           ],
           "problem": "Connect customer understanding to campaign and sales planning.",
           "shortOutput": "A campaign plan with CRM and sales materials",
-          "prerequisites": "A basic understanding of marketing or sales workflows is helpful. Coding experience is not required."
+          "prerequisites": "A basic understanding of marketing or sales workflows is helpful. Coding experience is not required.",
+          "comparison": {
+            "audience": "Marketing, CRM and sales professionals",
+            "output": "Campaigns, customer management and performance measurement"
+          }
         },
         {
           "id": "development",
@@ -1860,7 +1922,11 @@ window.ACUMELO = {
           ],
           "problem": "Build a working AI web or mobile prototype from an idea and your knowledge.",
           "shortOutput": "A web or app prototype with RAG or an agent",
-          "prerequisites": "Vibe coding introductions can accommodate beginners. Basic programming and API knowledge are recommended for RAG and agent implementation; advanced topics are agreed separately."
+          "prerequisites": "Vibe coding introductions can accommodate beginners. Basic programming and API knowledge are recommended for RAG and agent implementation; advanced topics are agreed separately.",
+          "comparison": {
+            "audience": "Developers and creators of technology-driven content",
+            "output": "Web apps, RAG, games, XR and digital humans"
+          }
         }
       ],
       "vibeSteps": [
@@ -1982,7 +2048,25 @@ window.ACUMELO = {
       "profileDemoAll": "All fields",
       "profileDemoResults": "Demo results",
       "profileDemoCount": "{count} of {total} demos",
-      "profileDemoNoResults": "No matching demos. Try another keyword or reset the filters."
+      "profileDemoNoResults": "No matching demos. Try another keyword or reset the filters.",
+      "learning": {
+        "instructorTitle": "Learn with this instructor",
+        "fieldTitle": "Explore this field",
+        "help": "Choose a field, then the content you want to explore.",
+        "field": "Teaching field",
+        "contents": "Learning content",
+        "curriculum": "Curriculum",
+        "lecture": "Lectures",
+        "demo": "Demos",
+        "project": "Projects",
+        "curriculumPending": "{name}’s curriculum for this field is being prepared. Details will be added after confirmation.",
+        "lecturePending": "Instructor-led lecture recordings for this field are not available yet.",
+        "courseDetails": "Learning outcomes, audience & format",
+        "instructorCurricula": "Instructor curricula in this field",
+        "search": "Search within this selection",
+        "audience": "Who it is for",
+        "outcome": "What you will create"
+      }
     }
   },
   "courseMedia": {
@@ -6280,6 +6364,268 @@ window.ACUMELO = {
       "temporaryAssignment": false,
       "status": "active",
       "replacesAssignmentId": "assignment-workflow-showcase"
+    }
+  ],
+  "instructorPrograms": [
+    {
+      "curriculumId": "instructor-chris-workflow-curriculum",
+      "instructorId": "instructor-chris",
+      "fieldId": "workflow",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-chris-strategy-curriculum",
+      "instructorId": "instructor-chris",
+      "fieldId": "strategy",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-chris-design-curriculum",
+      "instructorId": "instructor-chris",
+      "fieldId": "design",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-chris-analytics-curriculum",
+      "instructorId": "instructor-chris",
+      "fieldId": "analytics",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-chris-marketing-curriculum",
+      "instructorId": "instructor-chris",
+      "fieldId": "marketing",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-chris-development-curriculum",
+      "instructorId": "instructor-chris",
+      "fieldId": "development",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-sage-strategy-curriculum",
+      "instructorId": "instructor-sage",
+      "fieldId": "strategy",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-sage-design-curriculum",
+      "instructorId": "instructor-sage",
+      "fieldId": "design",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-sage-development-curriculum",
+      "instructorId": "instructor-sage",
+      "fieldId": "development",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-03-design-curriculum",
+      "instructorId": "instructor-03",
+      "fieldId": "design",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-03-development-curriculum",
+      "instructorId": "instructor-03",
+      "fieldId": "development",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-04-workflow-curriculum",
+      "instructorId": "instructor-04",
+      "fieldId": "workflow",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-04-development-curriculum",
+      "instructorId": "instructor-04",
+      "fieldId": "development",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-05-strategy-curriculum",
+      "instructorId": "instructor-05",
+      "fieldId": "strategy",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-05-design-curriculum",
+      "instructorId": "instructor-05",
+      "fieldId": "design",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-06-analytics-curriculum",
+      "instructorId": "instructor-06",
+      "fieldId": "analytics",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-06-development-curriculum",
+      "instructorId": "instructor-06",
+      "fieldId": "development",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-07-marketing-curriculum",
+      "instructorId": "instructor-07",
+      "fieldId": "marketing",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-07-development-curriculum",
+      "instructorId": "instructor-07",
+      "fieldId": "development",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-08-analytics-curriculum",
+      "instructorId": "instructor-08",
+      "fieldId": "analytics",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-08-development-curriculum",
+      "instructorId": "instructor-08",
+      "fieldId": "development",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-09-workflow-curriculum",
+      "instructorId": "instructor-09",
+      "fieldId": "workflow",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-09-strategy-curriculum",
+      "instructorId": "instructor-09",
+      "fieldId": "strategy",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-10-analytics-curriculum",
+      "instructorId": "instructor-10",
+      "fieldId": "analytics",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-11-workflow-curriculum",
+      "instructorId": "instructor-11",
+      "fieldId": "workflow",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
+    },
+    {
+      "curriculumId": "instructor-11-development-curriculum",
+      "instructorId": "instructor-11",
+      "fieldId": "development",
+      "status": "pending",
+      "modules": {
+        "en": [],
+        "ko": []
+      }
     }
   ]
 };
