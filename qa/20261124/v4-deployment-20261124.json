@@ -1,0 +1,61 @@
+{
+  "status": "published-and-verified",
+  "publicationCommit": "4db46a928963d4dede0139623a12783476fb0c78",
+  "pullRequest": 3,
+  "explicitUserApproval": true,
+  "publicUrls": {
+    "instructor": "https://elinahyo.github.io/acumelo-website/?page=instructor-chris",
+    "gallery": "https://elinahyo.github.io/acumelo-website/assets/media/20261124d/index.html"
+  },
+  "pages": {
+    "run": 45311037540,
+    "conclusion": "success",
+    "url": "https://github.com/elinahyo/acumelo-website/actions/runs/45311037540"
+  },
+  "cloudRender": {
+    "run": 45308741904,
+    "conclusion": "success",
+    "url": "https://github.com/elinahyo/acumelo-website/actions/runs/45308741904"
+  },
+  "publicIndexGitBlob": "7dbdec2aef413d61d33c623628182b2333088474",
+  "indexMatches": true,
+  "qa": {
+    "publicPlaybackAndSha256": 17,
+    "publicGalleryResponsiveCases": 4,
+    "publicInstructorMobileCases": 44,
+    "errors": [],
+    "reports": [
+      "v4-gallery-public-20261124.json",
+      "v4-routing-public-20261124.json"
+    ]
+  },
+  "media": {
+    "revisedInstructorDemos": 11,
+    "musicOnlyProjects": 6,
+    "unchangedInstructorDemos": 15,
+    "unchangedCategoryOverviews": 6,
+    "retainedHistoricalAssets": true,
+    "illustrativeReconstruction": true,
+    "temporarySyntheticVoices": true
+  },
+  "unchanged": [
+    "instructor IDs/order/avatars",
+    "six category names",
+    "overall website layout",
+    "operator details",
+    "DNS",
+    "email"
+  ],
+  "storage": {
+    "publicCodeAndMedia": "Git",
+    "privateMastersAndStems": "Company Drive private inventory",
+    "privateArchiveLinksPublished": false
+  },
+  "localRetention": {
+    "websiteWorkingFolder": "Retained for code and reproducible editing; v4 video QA streamed remote assets",
+    "review": "Retained for verification and handoff",
+    "unconfirmedHistoricalAvatarVariants": "Retained; no deletion",
+    "userOriginalFiles": "No changes"
+  },
+  "editorialNote": "Technical playback, byte integrity and representative-frame review do not claim a complete perceptual listening review or that every edit was aesthetically approved."
+}
