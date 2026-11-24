@@ -3,6 +3,8 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import vm from 'node:vm';
 const root=path.resolve(import.meta.dirname,'..');
+// Optional Git tree evidence supports code-only checkouts with media kept in Git/cloud.
+const remoteTree=process.env.QA_ASSET_TREE ? JSON.parse(await fs.readFile(process.env.QA_ASSET_TREE,'utf8')).tree : null;
 const context={window:{}};
 vm.runInNewContext(await fs.readFile(path.join(root,'content.js'),'utf8'),context,{timeout:1000});
 const data=JSON.parse(JSON.stringify(context.window.ACUMELO));
@@ -25,7 +27,8 @@ function walk(value){
 walk(data);
 for(const relative of paths){
   assert(!relative.split('/').includes('..'),'Asset paths must stay inside the repository');
-  assert((await fs.stat(path.join(root,relative))).isFile(),relative);
+  const local=await fs.stat(path.join(root,relative)).catch(()=>null);
+  assert(local?.isFile() || remoteTree?.some(entry=>entry.path===relative&&entry.type==='blob'&&entry.size>0),relative);
 }
 const members=new Map(data.members.map(m=>[m.id,m]));
 const ids=new Set(),active=new Set();

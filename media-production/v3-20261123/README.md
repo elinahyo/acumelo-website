@@ -26,7 +26,7 @@ The program-layout reconstructions simplify interface detail. Software versions 
 
 ## Archive ownership
 
-The generated master source bundle, editable audio/music stems, final-video archives and historical designs are held in private Acumelo company Drive. The archive owner's restricted ledger confirms all 16 ZIPs passed authenticated re-download SHA-256 and byte-count verification. Keep public web masters, reproducible code and lightweight configuration in Git. Private folder addresses, file IDs, archive ZIPs and the full private inventory do not belong in this public repository. Archive verification is not approval of voice identity, editing or visual quality.
+The generated master source bundle, editable audio/music stems, final-video archives and historical designs are held in private Acumelo company Drive. The archive owner's restricted ledger confirms the archived ZIPs listed in the restricted inventory passed authenticated re-download SHA-256 and byte-count verification. Keep public web masters, reproducible code and lightweight configuration in Git. Private folder addresses, file IDs, archive ZIPs and the full private inventory do not belong in this public repository. Archive verification is not approval of voice identity, editing or visual quality.
 
 ## Git source distribution
 

@@ -1,0 +1,753 @@
+{
+  "id": "marketing-showcase",
+  "mediaId": "acumelo-marketing-showcase-20261124d",
+  "stem": "marketing-showcase-20261124d",
+  "kind": "showcase",
+  "scope": "category",
+  "name": "Acumelo",
+  "fieldId": "marketing",
+  "title": "AI Marketing & Sales / Project possibilities",
+  "topic": "AI Marketing & Sales",
+  "result": "24 original project concepts",
+  "variant": 18,
+  "color": "#fb8d8e",
+  "voice": null,
+  "bpm": 120,
+  "contentOwnerId": "instructor-chris",
+  "temporaryAssignment": false,
+  "sourceHash": "c679acdc460d5b54ea2bef28c0462b9b3d338d51924194f3c6e09156cf40c473",
+  "durationSeconds": 31.333333333333332,
+  "shots": [
+    {
+      "app": "project",
+      "title": "An offer worth exploring",
+      "weight": 1.2,
+      "project": {
+        "type": "website",
+        "title": "An offer worth exploring",
+        "detail": "A finished campaign landing page",
+        "asset": "product",
+        "theme": "cream",
+        "variant": 9,
+        "weight": 1.2
+      },
+      "projectIndex": 0,
+      "secondProject": {
+        "type": "crm",
+        "title": "From interest to opportunity",
+        "detail": "A sales pipeline interface",
+        "variant": 10,
+        "weight": 0.55
+      },
+      "start": 1.17,
+      "duration": 2.130189054726368,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "dissolve"
+    },
+    {
+      "app": "project",
+      "title": "From interest to opportunity",
+      "weight": 0.55,
+      "project": {
+        "type": "crm",
+        "title": "From interest to opportunity",
+        "detail": "A sales pipeline interface",
+        "variant": 10,
+        "weight": 0.55
+      },
+      "projectIndex": 1,
+      "secondProject": {
+        "type": "poster",
+        "title": "A clear message",
+        "detail": "A finished campaign creative",
+        "asset": null,
+        "theme": "coral",
+        "variant": 11,
+        "weight": 1.7
+      },
+      "start": 3.300189054726368,
+      "duration": 0.6020099502487563,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "A clear message",
+      "weight": 1.7,
+      "project": {
+        "type": "poster",
+        "title": "A clear message",
+        "detail": "A finished campaign creative",
+        "asset": null,
+        "theme": "coral",
+        "variant": 11,
+        "weight": 1.7
+      },
+      "projectIndex": 2,
+      "secondProject": {
+        "type": "dashboard",
+        "title": "Campaign pulse",
+        "detail": "A performance overview for a launch",
+        "variant": 12,
+        "weight": 0.8
+      },
+      "start": 3.9021990049751243,
+      "duration": 0.7872437810945274,
+      "beat": 0,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Campaign pulse",
+      "weight": 0.8,
+      "project": {
+        "type": "dashboard",
+        "title": "Campaign pulse",
+        "detail": "A performance overview for a launch",
+        "variant": 12,
+        "weight": 0.8
+      },
+      "projectIndex": 3,
+      "split": "project",
+      "secondProject": {
+        "type": "inbox",
+        "title": "A thoughtful welcome",
+        "detail": "A customer onboarding email",
+        "variant": 13,
+        "weight": 1
+      },
+      "start": 4.689442786069652,
+      "duration": 1.5281791044776118,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "A thoughtful welcome",
+      "weight": 1,
+      "project": {
+        "type": "inbox",
+        "title": "A thoughtful welcome",
+        "detail": "A customer onboarding email",
+        "variant": 13,
+        "weight": 1
+      },
+      "projectIndex": 4,
+      "secondProject": {
+        "type": "product",
+        "title": "The launch film",
+        "detail": "A finished product advertising visual",
+        "asset": "headphones",
+        "theme": "dark",
+        "variant": 14,
+        "weight": 0.65
+      },
+      "start": 6.217621890547264,
+      "duration": 0.5093930348258707,
+      "beat": 0,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "The launch film",
+      "weight": 0.65,
+      "project": {
+        "type": "product",
+        "title": "The launch film",
+        "detail": "A finished product advertising visual",
+        "asset": "headphones",
+        "theme": "dark",
+        "variant": 14,
+        "weight": 0.65
+      },
+      "projectIndex": 5,
+      "secondProject": {
+        "type": "website",
+        "title": "Reserve your place",
+        "detail": "An event registration landing page",
+        "asset": "forest",
+        "theme": "cream",
+        "variant": 15,
+        "weight": 1.4
+      },
+      "start": 6.727014925373134,
+      "duration": 1.2040199004975125,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Reserve your place",
+      "weight": 1.4,
+      "project": {
+        "type": "website",
+        "title": "Reserve your place",
+        "detail": "An event registration landing page",
+        "asset": "forest",
+        "theme": "cream",
+        "variant": 15,
+        "weight": 1.4
+      },
+      "projectIndex": 6,
+      "split": "project",
+      "secondProject": {
+        "type": "report",
+        "title": "The customer brief",
+        "detail": "Audience insight in a readable report",
+        "variant": 16,
+        "weight": 0.7
+      },
+      "start": 7.931034825870647,
+      "duration": 0.6946268656716419,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "The customer brief",
+      "weight": 0.7,
+      "project": {
+        "type": "report",
+        "title": "The customer brief",
+        "detail": "Audience insight in a readable report",
+        "variant": 16,
+        "weight": 0.7
+      },
+      "projectIndex": 7,
+      "secondProject": {
+        "type": "crm",
+        "title": "The next best action",
+        "detail": "A focused sales follow-up view",
+        "variant": 17,
+        "weight": 1.2
+      },
+      "start": 8.62566169154229,
+      "duration": 1.8523383084577116,
+      "beat": 0,
+      "editorialMode": "split",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "The next best action",
+      "weight": 1.2,
+      "project": {
+        "type": "crm",
+        "title": "The next best action",
+        "detail": "A focused sales follow-up view",
+        "variant": 17,
+        "weight": 1.2
+      },
+      "projectIndex": 8,
+      "secondProject": {
+        "type": "motion",
+        "title": "Make your next move",
+        "detail": "A short social campaign animation",
+        "asset": null,
+        "theme": "blue",
+        "variant": 18,
+        "weight": 0.55
+      },
+      "start": 10.478,
+      "duration": 2.3697247097844114,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "dissolve"
+    },
+    {
+      "app": "project",
+      "title": "Make your next move",
+      "weight": 0.55,
+      "project": {
+        "type": "motion",
+        "title": "Make your next move",
+        "detail": "A short social campaign animation",
+        "asset": null,
+        "theme": "blue",
+        "variant": 18,
+        "weight": 0.55
+      },
+      "projectIndex": 9,
+      "secondProject": {
+        "type": "website",
+        "title": "The product story",
+        "detail": "A conversion-focused product page",
+        "asset": "watch",
+        "theme": "coral",
+        "variant": 19,
+        "weight": 1.7
+      },
+      "start": 12.847724709784412,
+      "duration": 0.6697048092868989,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "The product story",
+      "weight": 1.7,
+      "project": {
+        "type": "website",
+        "title": "The product story",
+        "detail": "A conversion-focused product page",
+        "asset": "watch",
+        "theme": "coral",
+        "variant": 19,
+        "weight": 1.7
+      },
+      "projectIndex": 10,
+      "secondProject": {
+        "type": "dashboard",
+        "title": "An experiment, explained",
+        "detail": "Control and treatment side by side",
+        "variant": 20,
+        "weight": 0.8
+      },
+      "start": 13.51742951907131,
+      "duration": 0.8757678275290216,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "An experiment, explained",
+      "weight": 0.8,
+      "project": {
+        "type": "dashboard",
+        "title": "An experiment, explained",
+        "detail": "Control and treatment side by side",
+        "variant": 20,
+        "weight": 0.8
+      },
+      "projectIndex": 11,
+      "split": "project",
+      "secondProject": {
+        "type": "inbox",
+        "title": "A timely reminder",
+        "detail": "A personalized lifecycle message",
+        "variant": 21,
+        "weight": 1
+      },
+      "start": 14.393197346600331,
+      "duration": 1.7000199004975127,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "A timely reminder",
+      "weight": 1,
+      "project": {
+        "type": "inbox",
+        "title": "A timely reminder",
+        "detail": "A personalized lifecycle message",
+        "variant": 21,
+        "weight": 1
+      },
+      "projectIndex": 12,
+      "secondProject": {
+        "type": "poster",
+        "title": "Ideas in motion",
+        "detail": "An event campaign asset",
+        "asset": null,
+        "theme": "yellow",
+        "variant": 22,
+        "weight": 0.65
+      },
+      "start": 16.093217247097844,
+      "duration": 0.5666733001658376,
+      "beat": 1,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Ideas in motion",
+      "weight": 0.65,
+      "project": {
+        "type": "poster",
+        "title": "Ideas in motion",
+        "detail": "An event campaign asset",
+        "asset": null,
+        "theme": "yellow",
+        "variant": 22,
+        "weight": 0.65
+      },
+      "projectIndex": 13,
+      "secondProject": {
+        "type": "film",
+        "title": "A visual hook",
+        "detail": "A short-form brand motion piece",
+        "asset": "portal",
+        "theme": "dark",
+        "variant": 23,
+        "weight": 1.4
+      },
+      "start": 16.659890547263682,
+      "duration": 1.3394096185737978,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "A visual hook",
+      "weight": 1.4,
+      "project": {
+        "type": "film",
+        "title": "A visual hook",
+        "detail": "A short-form brand motion piece",
+        "asset": "portal",
+        "theme": "dark",
+        "variant": 23,
+        "weight": 1.4
+      },
+      "projectIndex": 14,
+      "split": "project",
+      "secondProject": {
+        "type": "website",
+        "title": "Join the conversation",
+        "detail": "A community campaign page",
+        "asset": "forest",
+        "theme": "cream",
+        "variant": 24,
+        "weight": 0.7
+      },
+      "start": 17.99930016583748,
+      "duration": 0.7727363184079603,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Join the conversation",
+      "weight": 0.7,
+      "project": {
+        "type": "website",
+        "title": "Join the conversation",
+        "detail": "A community campaign page",
+        "asset": "forest",
+        "theme": "cream",
+        "variant": 24,
+        "weight": 0.7
+      },
+      "projectIndex": 15,
+      "secondProject": {
+        "type": "crm",
+        "title": "A stronger relationship",
+        "detail": "An account planning interface",
+        "variant": 25,
+        "weight": 1.2
+      },
+      "start": 18.77203648424544,
+      "duration": 2.0606301824212276,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "A stronger relationship",
+      "weight": 1.2,
+      "project": {
+        "type": "crm",
+        "title": "A stronger relationship",
+        "detail": "An account planning interface",
+        "variant": 25,
+        "weight": 1.2
+      },
+      "projectIndex": 16,
+      "secondProject": {
+        "type": "report",
+        "title": "Launch lessons",
+        "detail": "A finished campaign review",
+        "variant": 26,
+        "weight": 0.55
+      },
+      "start": 20.832666666666668,
+      "duration": 2.190759535655059,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "dissolve"
+    },
+    {
+      "app": "project",
+      "title": "Launch lessons",
+      "weight": 0.55,
+      "project": {
+        "type": "report",
+        "title": "Launch lessons",
+        "detail": "A finished campaign review",
+        "variant": 26,
+        "weight": 0.55
+      },
+      "projectIndex": 17,
+      "secondProject": {
+        "type": "motion",
+        "title": "One message. Many formats.",
+        "detail": "A responsive advertising concept",
+        "asset": null,
+        "theme": "coral",
+        "variant": 27,
+        "weight": 1.7
+      },
+      "start": 23.023426202321726,
+      "duration": 0.6191276948590383,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "One message. Many formats.",
+      "weight": 1.7,
+      "project": {
+        "type": "motion",
+        "title": "One message. Many formats.",
+        "detail": "A responsive advertising concept",
+        "asset": null,
+        "theme": "coral",
+        "variant": 27,
+        "weight": 1.7
+      },
+      "projectIndex": 18,
+      "secondProject": {
+        "type": "dashboard",
+        "title": "The growth view",
+        "detail": "Acquisition through retention",
+        "variant": 28,
+        "weight": 0.8
+      },
+      "start": 23.642553897180765,
+      "duration": 0.8096285240464347,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "The growth view",
+      "weight": 0.8,
+      "project": {
+        "type": "dashboard",
+        "title": "The growth view",
+        "detail": "Acquisition through retention",
+        "variant": 28,
+        "weight": 0.8
+      },
+      "projectIndex": 19,
+      "split": "project",
+      "secondProject": {
+        "type": "inbox",
+        "title": "A useful recommendation",
+        "detail": "A product recommendation email",
+        "variant": 29,
+        "weight": 1
+      },
+      "start": 24.4521824212272,
+      "duration": 1.5716318407960204,
+      "beat": 2,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "A useful recommendation",
+      "weight": 1,
+      "project": {
+        "type": "inbox",
+        "title": "A useful recommendation",
+        "detail": "A product recommendation email",
+        "variant": 29,
+        "weight": 1
+      },
+      "projectIndex": 20,
+      "secondProject": {
+        "type": "product",
+        "title": "A fresh perspective",
+        "detail": "A product-focused campaign scene",
+        "asset": "headphones",
+        "theme": "blue",
+        "variant": 30,
+        "weight": 0.65
+      },
+      "start": 26.02381426202322,
+      "duration": 0.5238772802653402,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "A fresh perspective",
+      "weight": 0.65,
+      "project": {
+        "type": "product",
+        "title": "A fresh perspective",
+        "detail": "A product-focused campaign scene",
+        "asset": "headphones",
+        "theme": "blue",
+        "variant": 30,
+        "weight": 0.65
+      },
+      "projectIndex": 21,
+      "secondProject": {
+        "type": "website",
+        "title": "A place to begin",
+        "detail": "A polished lead-generation site",
+        "asset": "world",
+        "theme": "dark",
+        "variant": 31,
+        "weight": 1.4
+      },
+      "start": 26.547691542288558,
+      "duration": 1.2382553897180766,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "A place to begin",
+      "weight": 1.4,
+      "project": {
+        "type": "website",
+        "title": "A place to begin",
+        "detail": "A polished lead-generation site",
+        "asset": "world",
+        "theme": "dark",
+        "variant": 31,
+        "weight": 1.4
+      },
+      "projectIndex": 22,
+      "split": "project",
+      "secondProject": {
+        "type": "presentation",
+        "title": "Campaign in one story",
+        "detail": "A finished marketing results deck",
+        "variant": 32,
+        "weight": 0.7
+      },
+      "start": 27.785946932006635,
+      "duration": 0.7143781094527365,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Campaign in one story",
+      "weight": 0.7,
+      "project": {
+        "type": "presentation",
+        "title": "Campaign in one story",
+        "detail": "A finished marketing results deck",
+        "variant": 32,
+        "weight": 0.7
+      },
+      "projectIndex": 23,
+      "secondProject": {
+        "type": "website",
+        "title": "An offer worth exploring",
+        "detail": "A finished campaign landing page",
+        "asset": "product",
+        "theme": "cream",
+        "variant": 9,
+        "weight": 1.2
+      },
+      "start": 28.50032504145937,
+      "duration": 1.9050082918739641,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    }
+  ],
+  "captions": [],
+  "audio": {
+    "musicType": "Original procedural composition, rebuilt without narration or speech ducking",
+    "voiceEngine": null,
+    "voiceId": null,
+    "voicePath": null,
+    "musicPath": "music/marketing-showcase.wav",
+    "mixPath": null,
+    "mode": "music-only"
+  },
+  "editing": {
+    "revision": "20261124d",
+    "cutSeconds": [
+      2.13,
+      0.602,
+      0.787,
+      1.528,
+      0.509,
+      1.204,
+      0.695,
+      1.852,
+      2.37,
+      0.67,
+      0.876,
+      1.7,
+      0.567,
+      1.339,
+      0.773,
+      2.061,
+      2.191,
+      0.619,
+      0.81,
+      1.572,
+      0.524,
+      1.238,
+      0.714,
+      1.905
+    ],
+    "splitFrames": 5,
+    "pictureInPictureFrames": 0,
+    "transitions": [
+      "dissolve",
+      "slide",
+      "cut",
+      "fade-in",
+      "fade-out"
+    ],
+    "particles": "subtle brand accents on concept/result shots",
+    "status": "editorial-review-required"
+  },
+  "revision": "20261124d",
+  "assignedInstructorId": null,
+  "sourceVideoSha256": "5093a45cf34b57906bb6c7df52045c9fcf0efab6071e5db27ff6afe87772cca6",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "src": "assets/media/20261124d/marketing-showcase-20261124d.mp4",
+  "path": "marketing-showcase-20261124d.mp4",
+  "poster": "posters/marketing-showcase-20261124d.jpg",
+  "subtitlePath": null,
+  "hasNarration": false,
+  "hasMusic": true,
+  "voiceId": null,
+  "speakerId": null,
+  "audioRole": "music-only",
+  "voiceProvenance": null,
+  "illustrative": true,
+  "disclosure": "Illustrative interface reconstructions and project concepts. Temporary synthetic instructor voices; project concepts use music only.",
+  "status": "technical-qa-passed-editorial-review-required",
+  "bytes": 3850991,
+  "sha256": "96e0de8a281c263a372f4e89a0060257c80bb7dd224ff9382ec2541a7059f923",
+  "technicalQa": {
+    "passed": true,
+    "fullDecode": true,
+    "peakDb": -14
+  },
+  "narration": null
+}

@@ -1,0 +1,705 @@
+{
+  "id": "strategy-showcase",
+  "mediaId": "acumelo-strategy-showcase-20261124d",
+  "stem": "strategy-showcase-20261124d",
+  "kind": "showcase",
+  "scope": "category",
+  "name": "Acumelo",
+  "fieldId": "strategy",
+  "title": "AI Strategy & Project Management / Project possibilities",
+  "topic": "AI Strategy & Project Management",
+  "result": "24 original project concepts",
+  "variant": 18,
+  "color": "#e8b769",
+  "voice": null,
+  "bpm": 120,
+  "contentOwnerId": "instructor-chris",
+  "temporaryAssignment": false,
+  "sourceHash": "74aff9c7a7eb4041bfd99b4bd94114f14db6c06b391a5465cbefcfea9eff25ad",
+  "durationSeconds": 32.2,
+  "shots": [
+    {
+      "app": "project",
+      "title": "A strategy made tangible",
+      "weight": 1.2,
+      "project": {
+        "type": "presentation",
+        "title": "A strategy made tangible",
+        "detail": "A concise AI adoption proposal",
+        "variant": 8,
+        "weight": 1.2
+      },
+      "projectIndex": 0,
+      "secondProject": {
+        "type": "roadmap",
+        "title": "The next ninety days",
+        "detail": "A milestone-based delivery roadmap",
+        "variant": 9,
+        "weight": 0.55
+      },
+      "start": 1.17,
+      "duration": 2.3280729684908787,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "dissolve"
+    },
+    {
+      "app": "project",
+      "title": "The next ninety days",
+      "weight": 0.55,
+      "project": {
+        "type": "roadmap",
+        "title": "The next ninety days",
+        "detail": "A milestone-based delivery roadmap",
+        "variant": 9,
+        "weight": 0.55
+      },
+      "projectIndex": 1,
+      "secondProject": {
+        "type": "portal",
+        "title": "Project brief",
+        "detail": "Goals, scope and success criteria",
+        "variant": 10,
+        "weight": 1.7
+      },
+      "start": 3.4980729684908787,
+      "duration": 0.657933665008292,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Project brief",
+      "weight": 1.7,
+      "project": {
+        "type": "portal",
+        "title": "Project brief",
+        "detail": "Goals, scope and success criteria",
+        "variant": 10,
+        "weight": 1.7
+      },
+      "projectIndex": 2,
+      "secondProject": {
+        "type": "kanban",
+        "title": "Launch room",
+        "detail": "A shared view of work and ownership",
+        "variant": 11,
+        "weight": 0.8
+      },
+      "start": 4.156006633499171,
+      "duration": 0.860374792703151,
+      "beat": 0,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Launch room",
+      "weight": 0.8,
+      "project": {
+        "type": "kanban",
+        "title": "Launch room",
+        "detail": "A shared view of work and ownership",
+        "variant": 11,
+        "weight": 0.8
+      },
+      "projectIndex": 3,
+      "split": "project",
+      "secondProject": {
+        "type": "report",
+        "title": "Opportunity assessment",
+        "detail": "Use cases ranked by value and feasibility",
+        "variant": 12,
+        "weight": 1
+      },
+      "start": 5.016381426202322,
+      "duration": 1.6701393034825869,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Opportunity assessment",
+      "weight": 1,
+      "project": {
+        "type": "report",
+        "title": "Opportunity assessment",
+        "detail": "Use cases ranked by value and feasibility",
+        "variant": 12,
+        "weight": 1
+      },
+      "projectIndex": 4,
+      "secondProject": {
+        "type": "dashboard",
+        "title": "Programme pulse",
+        "detail": "Health, capacity and delivery outlook",
+        "variant": 13,
+        "weight": 0.65
+      },
+      "start": 6.68652072968491,
+      "duration": 0.5567131011608625,
+      "beat": 0,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Programme pulse",
+      "weight": 0.65,
+      "project": {
+        "type": "dashboard",
+        "title": "Programme pulse",
+        "detail": "Health, capacity and delivery outlook",
+        "variant": 13,
+        "weight": 0.65
+      },
+      "projectIndex": 5,
+      "secondProject": {
+        "type": "presentation",
+        "title": "Decision day",
+        "detail": "A steering committee decision pack",
+        "variant": 14,
+        "weight": 1.4
+      },
+      "start": 7.243233830845772,
+      "duration": 1.315867330016584,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Decision day",
+      "weight": 1.4,
+      "project": {
+        "type": "presentation",
+        "title": "Decision day",
+        "detail": "A steering committee decision pack",
+        "variant": 14,
+        "weight": 1.4
+      },
+      "projectIndex": 6,
+      "split": "project",
+      "secondProject": {
+        "type": "roadmap",
+        "title": "Creative production plan",
+        "detail": "From brief to final delivery",
+        "variant": 15,
+        "weight": 0.7
+      },
+      "start": 8.559101160862356,
+      "duration": 0.7591542288557215,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Creative production plan",
+      "weight": 0.7,
+      "project": {
+        "type": "roadmap",
+        "title": "Creative production plan",
+        "detail": "From brief to final delivery",
+        "variant": 15,
+        "weight": 0.7
+      },
+      "projectIndex": 7,
+      "secondProject": {
+        "type": "portal",
+        "title": "Research library",
+        "detail": "Evidence organized around decisions",
+        "variant": 16,
+        "weight": 1.2
+      },
+      "start": 9.318255389718077,
+      "duration": 2.0244112769485905,
+      "beat": 0,
+      "editorialMode": "split",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Research library",
+      "weight": 1.2,
+      "project": {
+        "type": "portal",
+        "title": "Research library",
+        "detail": "Evidence organized around decisions",
+        "variant": 16,
+        "weight": 1.2
+      },
+      "projectIndex": 8,
+      "secondProject": {
+        "type": "report",
+        "title": "Risk and response",
+        "detail": "A readable risk review",
+        "variant": 17,
+        "weight": 0.55
+      },
+      "start": 11.342666666666666,
+      "duration": 2.3697247097844114,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "dissolve"
+    },
+    {
+      "app": "project",
+      "title": "Risk and response",
+      "weight": 0.55,
+      "project": {
+        "type": "report",
+        "title": "Risk and response",
+        "detail": "A readable risk review",
+        "variant": 17,
+        "weight": 0.55
+      },
+      "projectIndex": 9,
+      "secondProject": {
+        "type": "calendar",
+        "title": "Release calendar",
+        "detail": "Launches and review windows",
+        "variant": 18,
+        "weight": 1.7
+      },
+      "start": 13.712391376451077,
+      "duration": 0.6697048092868989,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Release calendar",
+      "weight": 1.7,
+      "project": {
+        "type": "calendar",
+        "title": "Release calendar",
+        "detail": "Launches and review windows",
+        "variant": 18,
+        "weight": 1.7
+      },
+      "projectIndex": 10,
+      "secondProject": {
+        "type": "dashboard",
+        "title": "Benefits tracker",
+        "detail": "A view of intended and observed value",
+        "variant": 19,
+        "weight": 0.8
+      },
+      "start": 14.382096185737975,
+      "duration": 0.8757678275290216,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Benefits tracker",
+      "weight": 0.8,
+      "project": {
+        "type": "dashboard",
+        "title": "Benefits tracker",
+        "detail": "A view of intended and observed value",
+        "variant": 19,
+        "weight": 0.8
+      },
+      "projectIndex": 11,
+      "split": "project",
+      "secondProject": {
+        "type": "presentation",
+        "title": "The product story",
+        "detail": "Problem, prototype and next steps",
+        "variant": 20,
+        "weight": 1
+      },
+      "start": 15.257864013266996,
+      "duration": 1.7000199004975127,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "The product story",
+      "weight": 1,
+      "project": {
+        "type": "presentation",
+        "title": "The product story",
+        "detail": "Problem, prototype and next steps",
+        "variant": 20,
+        "weight": 1
+      },
+      "projectIndex": 12,
+      "secondProject": {
+        "type": "kanban",
+        "title": "Review and approve",
+        "detail": "A clear creative approval workflow",
+        "variant": 21,
+        "weight": 0.65
+      },
+      "start": 16.95788391376451,
+      "duration": 0.5666733001658376,
+      "beat": 1,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Review and approve",
+      "weight": 0.65,
+      "project": {
+        "type": "kanban",
+        "title": "Review and approve",
+        "detail": "A clear creative approval workflow",
+        "variant": 21,
+        "weight": 0.65
+      },
+      "projectIndex": 13,
+      "secondProject": {
+        "type": "report",
+        "title": "Resource plan",
+        "detail": "Capacity, allocation and constraints",
+        "variant": 22,
+        "weight": 1.4
+      },
+      "start": 17.524557213930347,
+      "duration": 1.3394096185737978,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Resource plan",
+      "weight": 1.4,
+      "project": {
+        "type": "report",
+        "title": "Resource plan",
+        "detail": "Capacity, allocation and constraints",
+        "variant": 22,
+        "weight": 1.4
+      },
+      "projectIndex": 14,
+      "split": "project",
+      "secondProject": {
+        "type": "roadmap",
+        "title": "AI pilot journey",
+        "detail": "A staged learning and validation plan",
+        "variant": 23,
+        "weight": 0.7
+      },
+      "start": 18.863966832504143,
+      "duration": 0.7727363184079603,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "AI pilot journey",
+      "weight": 0.7,
+      "project": {
+        "type": "roadmap",
+        "title": "AI pilot journey",
+        "detail": "A staged learning and validation plan",
+        "variant": 23,
+        "weight": 0.7
+      },
+      "projectIndex": 15,
+      "secondProject": {
+        "type": "portal",
+        "title": "Stakeholder hub",
+        "detail": "Updates, decisions and shared context",
+        "variant": 24,
+        "weight": 1.2
+      },
+      "start": 19.636703150912105,
+      "duration": 2.0606301824212276,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Stakeholder hub",
+      "weight": 1.2,
+      "project": {
+        "type": "portal",
+        "title": "Stakeholder hub",
+        "detail": "Updates, decisions and shared context",
+        "variant": 24,
+        "weight": 1.2
+      },
+      "projectIndex": 16,
+      "secondProject": {
+        "type": "dashboard",
+        "title": "Portfolio view",
+        "detail": "Projects compared on consistent criteria",
+        "variant": 25,
+        "weight": 0.55
+      },
+      "start": 21.697333333333333,
+      "duration": 2.190759535655059,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "dissolve"
+    },
+    {
+      "app": "project",
+      "title": "Portfolio view",
+      "weight": 0.55,
+      "project": {
+        "type": "dashboard",
+        "title": "Portfolio view",
+        "detail": "Projects compared on consistent criteria",
+        "variant": 25,
+        "weight": 0.55
+      },
+      "projectIndex": 17,
+      "secondProject": {
+        "type": "presentation",
+        "title": "Workshop outcomes",
+        "detail": "A finished facilitation summary",
+        "variant": 26,
+        "weight": 1.7
+      },
+      "start": 23.88809286898839,
+      "duration": 0.6191276948590383,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Workshop outcomes",
+      "weight": 1.7,
+      "project": {
+        "type": "presentation",
+        "title": "Workshop outcomes",
+        "detail": "A finished facilitation summary",
+        "variant": 26,
+        "weight": 1.7
+      },
+      "projectIndex": 18,
+      "secondProject": {
+        "type": "calendar",
+        "title": "Production schedule",
+        "detail": "People, dates and review checkpoints",
+        "variant": 27,
+        "weight": 0.8
+      },
+      "start": 24.50722056384743,
+      "duration": 0.8096285240464347,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Production schedule",
+      "weight": 0.8,
+      "project": {
+        "type": "calendar",
+        "title": "Production schedule",
+        "detail": "People, dates and review checkpoints",
+        "variant": 27,
+        "weight": 0.8
+      },
+      "projectIndex": 19,
+      "split": "project",
+      "secondProject": {
+        "type": "report",
+        "title": "Launch readiness",
+        "detail": "A completed release review pack",
+        "variant": 28,
+        "weight": 1
+      },
+      "start": 25.316849087893864,
+      "duration": 1.5716318407960204,
+      "beat": 2,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Launch readiness",
+      "weight": 1,
+      "project": {
+        "type": "report",
+        "title": "Launch readiness",
+        "detail": "A completed release review pack",
+        "variant": 28,
+        "weight": 1
+      },
+      "projectIndex": 20,
+      "secondProject": {
+        "type": "kanban",
+        "title": "Sprint review",
+        "detail": "A visible record of completed work",
+        "variant": 29,
+        "weight": 0.65
+      },
+      "start": 26.888480928689884,
+      "duration": 0.5238772802653402,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Sprint review",
+      "weight": 0.65,
+      "project": {
+        "type": "kanban",
+        "title": "Sprint review",
+        "detail": "A visible record of completed work",
+        "variant": 29,
+        "weight": 0.65
+      },
+      "projectIndex": 21,
+      "secondProject": {
+        "type": "roadmap",
+        "title": "Scale with evidence",
+        "detail": "A rollout plan with decision gates",
+        "variant": 30,
+        "weight": 1.4
+      },
+      "start": 27.412358208955222,
+      "duration": 1.2382553897180766,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Scale with evidence",
+      "weight": 1.4,
+      "project": {
+        "type": "roadmap",
+        "title": "Scale with evidence",
+        "detail": "A rollout plan with decision gates",
+        "variant": 30,
+        "weight": 1.4
+      },
+      "projectIndex": 22,
+      "split": "project",
+      "secondProject": {
+        "type": "portal",
+        "title": "Programme home",
+        "detail": "A usable centre for delivery information",
+        "variant": 31,
+        "weight": 0.7
+      },
+      "start": 28.6506135986733,
+      "duration": 0.7143781094527365,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Programme home",
+      "weight": 0.7,
+      "project": {
+        "type": "portal",
+        "title": "Programme home",
+        "detail": "A usable centre for delivery information",
+        "variant": 31,
+        "weight": 0.7
+      },
+      "projectIndex": 23,
+      "secondProject": {
+        "type": "presentation",
+        "title": "A strategy made tangible",
+        "detail": "A concise AI adoption proposal",
+        "variant": 8,
+        "weight": 1.2
+      },
+      "start": 29.364991708126034,
+      "duration": 1.9050082918739641,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    }
+  ],
+  "captions": [],
+  "audio": {
+    "musicType": "Original procedural composition, rebuilt without narration or speech ducking",
+    "voiceEngine": null,
+    "voiceId": null,
+    "voicePath": null,
+    "musicPath": "music/strategy-showcase.wav",
+    "mixPath": null,
+    "mode": "music-only"
+  },
+  "editing": {
+    "revision": "20261124d",
+    "cutSeconds": [
+      2.328,
+      0.658,
+      0.86,
+      1.67,
+      0.557,
+      1.316,
+      0.759,
+      2.024,
+      2.37,
+      0.67,
+      0.876,
+      1.7,
+      0.567,
+      1.339,
+      0.773,
+      2.061,
+      2.191,
+      0.619,
+      0.81,
+      1.572,
+      0.524,
+      1.238,
+      0.714,
+      1.905
+    ],
+    "splitFrames": 5,
+    "pictureInPictureFrames": 0,
+    "transitions": [
+      "dissolve",
+      "slide",
+      "cut",
+      "fade-in",
+      "fade-out"
+    ],
+    "particles": "subtle brand accents on concept/result shots",
+    "status": "editorial-review-required"
+  },
+  "revision": "20261124d",
+  "assignedInstructorId": null,
+  "sourceVideoSha256": "3a0ef60b0d67a1cba52fc8e61f3f4db7b3dcffbcc9d592d0fc7900667e98068f",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "src": "assets/media/20261124d/strategy-showcase-20261124d.mp4",
+  "path": "strategy-showcase-20261124d.mp4",
+  "poster": "posters/strategy-showcase-20261124d.jpg",
+  "subtitlePath": null,
+  "hasNarration": false,
+  "hasMusic": true,
+  "voiceId": null,
+  "speakerId": null,
+  "audioRole": "music-only",
+  "voiceProvenance": null,
+  "illustrative": true,
+  "disclosure": "Illustrative interface reconstructions and project concepts. Temporary synthetic instructor voices; project concepts use music only.",
+  "status": "technical-qa-passed-editorial-review-required",
+  "bytes": 2528303,
+  "sha256": "4b6d039740aef3b73abb9d36037afe45df675433902d77bcc025b8d173253bbd",
+  "technicalQa": {
+    "passed": true,
+    "fullDecode": true,
+    "peakDb": -14.1
+  },
+  "narration": null
+}

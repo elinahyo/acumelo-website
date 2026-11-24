@@ -1,0 +1,1302 @@
+{
+  "id": "design-showcase",
+  "mediaId": "acumelo-design-showcase-20261123c",
+  "stem": "design-showcase-20261123c",
+  "kind": "showcase",
+  "scope": "category",
+  "name": "Acumelo",
+  "fieldId": "design",
+  "title": "AI Design & Content / Project possibilities",
+  "topic": "AI Design & Content",
+  "result": "24 original project concepts",
+  "variant": 18,
+  "color": "#bca0fa",
+  "voice": "af_heart",
+  "bpm": 120,
+  "contentOwnerId": "instructor-chris",
+  "temporaryAssignment": false,
+  "beats": [
+    {
+      "text": "Explore what learning can become. These original design & content project concepts show different ways to turn an idea into something people can use.",
+      "shots": [
+        {
+          "app": "project",
+          "title": "Sculptural motion",
+          "weight": 1.2,
+          "project": {
+            "type": "film",
+            "title": "Sculptural motion",
+            "detail": "A finished abstract motion loop",
+            "asset": "sculpture",
+            "theme": "dark",
+            "variant": 6,
+            "weight": 1.2
+          },
+          "projectIndex": 0,
+          "secondProject": {
+            "type": "product",
+            "title": "Object / 01",
+            "detail": "A polished product visual",
+            "asset": "product",
+            "theme": "cream",
+            "variant": 7,
+            "weight": 0.55
+          }
+        },
+        {
+          "app": "project",
+          "title": "Object / 01",
+          "weight": 0.55,
+          "project": {
+            "type": "product",
+            "title": "Object / 01",
+            "detail": "A polished product visual",
+            "asset": "product",
+            "theme": "cream",
+            "variant": 7,
+            "weight": 0.55
+          },
+          "projectIndex": 1,
+          "secondProject": {
+            "type": "poster",
+            "title": "MAKE / CREATE",
+            "detail": "A kinetic typography poster",
+            "asset": null,
+            "theme": "violet",
+            "variant": 8,
+            "weight": 1.7
+          }
+        },
+        {
+          "app": "project",
+          "title": "MAKE / CREATE",
+          "weight": 1.7,
+          "project": {
+            "type": "poster",
+            "title": "MAKE / CREATE",
+            "detail": "A kinetic typography poster",
+            "asset": null,
+            "theme": "violet",
+            "variant": 8,
+            "weight": 1.7
+          },
+          "projectIndex": 2,
+          "secondProject": {
+            "type": "architecture",
+            "title": "Quiet architecture",
+            "detail": "A rendered gallery space",
+            "asset": "forest",
+            "theme": "cream",
+            "variant": 9,
+            "weight": 0.8
+          }
+        },
+        {
+          "app": "project",
+          "title": "Quiet architecture",
+          "weight": 0.8,
+          "project": {
+            "type": "architecture",
+            "title": "Quiet architecture",
+            "detail": "A rendered gallery space",
+            "asset": "forest",
+            "theme": "cream",
+            "variant": 9,
+            "weight": 0.8
+          },
+          "projectIndex": 3,
+          "split": "project",
+          "secondProject": {
+            "type": "game",
+            "title": "Beyond the horizon",
+            "detail": "A cinematic environment study",
+            "asset": "world",
+            "theme": "dark",
+            "variant": 10,
+            "weight": 1
+          }
+        },
+        {
+          "app": "project",
+          "title": "Beyond the horizon",
+          "weight": 1,
+          "project": {
+            "type": "game",
+            "title": "Beyond the horizon",
+            "detail": "A cinematic environment study",
+            "asset": "world",
+            "theme": "dark",
+            "variant": 10,
+            "weight": 1
+          },
+          "projectIndex": 4,
+          "secondProject": {
+            "type": "website",
+            "title": "Studio Forma",
+            "detail": "A finished creative portfolio",
+            "asset": "sculpture",
+            "theme": "cream",
+            "variant": 11,
+            "weight": 0.65
+          }
+        },
+        {
+          "app": "project",
+          "title": "Studio Forma",
+          "weight": 0.65,
+          "project": {
+            "type": "website",
+            "title": "Studio Forma",
+            "detail": "A finished creative portfolio",
+            "asset": "sculpture",
+            "theme": "cream",
+            "variant": 11,
+            "weight": 0.65
+          },
+          "projectIndex": 5,
+          "secondProject": {
+            "type": "motion",
+            "title": "Better together",
+            "detail": "A responsive brand motion system",
+            "asset": null,
+            "theme": "blue",
+            "variant": 12,
+            "weight": 1.4
+          }
+        },
+        {
+          "app": "project",
+          "title": "Better together",
+          "weight": 1.4,
+          "project": {
+            "type": "motion",
+            "title": "Better together",
+            "detail": "A responsive brand motion system",
+            "asset": null,
+            "theme": "blue",
+            "variant": 12,
+            "weight": 1.4
+          },
+          "projectIndex": 6,
+          "split": "project",
+          "secondProject": {
+            "type": "poster",
+            "title": "New perspectives",
+            "detail": "An editorial campaign poster",
+            "asset": null,
+            "theme": "coral",
+            "variant": 13,
+            "weight": 0.7
+          }
+        },
+        {
+          "app": "project",
+          "title": "New perspectives",
+          "weight": 0.7,
+          "project": {
+            "type": "poster",
+            "title": "New perspectives",
+            "detail": "An editorial campaign poster",
+            "asset": null,
+            "theme": "coral",
+            "variant": 13,
+            "weight": 0.7
+          },
+          "projectIndex": 7,
+          "secondProject": {
+            "type": "product",
+            "title": "Material matters",
+            "detail": "A product finish exploration",
+            "asset": "headphones",
+            "theme": "dark",
+            "variant": 14,
+            "weight": 1.2
+          }
+        }
+      ]
+    },
+    {
+      "text": "Some outputs make a decision clearer. Others create a useful interaction, a visual story, or a more connected way of working. Each starts with a different problem.",
+      "shots": [
+        {
+          "app": "project",
+          "title": "Material matters",
+          "weight": 1.2,
+          "project": {
+            "type": "product",
+            "title": "Material matters",
+            "detail": "A product finish exploration",
+            "asset": "headphones",
+            "theme": "dark",
+            "variant": 14,
+            "weight": 1.2
+          },
+          "projectIndex": 8,
+          "secondProject": {
+            "type": "film",
+            "title": "Orbit study",
+            "detail": "An abstract VFX composition",
+            "asset": "portal",
+            "theme": "dark",
+            "variant": 15,
+            "weight": 0.55
+          }
+        },
+        {
+          "app": "project",
+          "title": "Orbit study",
+          "weight": 0.55,
+          "project": {
+            "type": "film",
+            "title": "Orbit study",
+            "detail": "An abstract VFX composition",
+            "asset": "portal",
+            "theme": "dark",
+            "variant": 15,
+            "weight": 0.55
+          },
+          "projectIndex": 9,
+          "secondProject": {
+            "type": "website",
+            "title": "The exhibition",
+            "detail": "A digital exhibition landing page",
+            "asset": "forest",
+            "theme": "cream",
+            "variant": 16,
+            "weight": 1.7
+          }
+        },
+        {
+          "app": "project",
+          "title": "The exhibition",
+          "weight": 1.7,
+          "project": {
+            "type": "website",
+            "title": "The exhibition",
+            "detail": "A digital exhibition landing page",
+            "asset": "forest",
+            "theme": "cream",
+            "variant": 16,
+            "weight": 1.7
+          },
+          "projectIndex": 10,
+          "secondProject": {
+            "type": "motion",
+            "title": "Shape the future",
+            "detail": "An animated identity study",
+            "asset": null,
+            "theme": "coral",
+            "variant": 17,
+            "weight": 0.8
+          }
+        },
+        {
+          "app": "project",
+          "title": "Shape the future",
+          "weight": 0.8,
+          "project": {
+            "type": "motion",
+            "title": "Shape the future",
+            "detail": "An animated identity study",
+            "asset": null,
+            "theme": "coral",
+            "variant": 17,
+            "weight": 0.8
+          },
+          "projectIndex": 11,
+          "split": "project",
+          "secondProject": {
+            "type": "architecture",
+            "title": "Light and structure",
+            "detail": "An architectural mood film",
+            "asset": "desert",
+            "theme": "cream",
+            "variant": 18,
+            "weight": 1
+          }
+        },
+        {
+          "app": "project",
+          "title": "Light and structure",
+          "weight": 1,
+          "project": {
+            "type": "architecture",
+            "title": "Light and structure",
+            "detail": "An architectural mood film",
+            "asset": "desert",
+            "theme": "cream",
+            "variant": 18,
+            "weight": 1
+          },
+          "projectIndex": 12,
+          "secondProject": {
+            "type": "poster",
+            "title": "The creative week",
+            "detail": "An event identity",
+            "asset": null,
+            "theme": "yellow",
+            "variant": 19,
+            "weight": 0.65
+          }
+        },
+        {
+          "app": "project",
+          "title": "The creative week",
+          "weight": 0.65,
+          "project": {
+            "type": "poster",
+            "title": "The creative week",
+            "detail": "An event identity",
+            "asset": null,
+            "theme": "yellow",
+            "variant": 19,
+            "weight": 0.65
+          },
+          "projectIndex": 13,
+          "secondProject": {
+            "type": "game",
+            "title": "Floating worlds",
+            "detail": "A stylized environment artwork",
+            "asset": "coastal",
+            "theme": "dark",
+            "variant": 20,
+            "weight": 1.4
+          }
+        },
+        {
+          "app": "project",
+          "title": "Floating worlds",
+          "weight": 1.4,
+          "project": {
+            "type": "game",
+            "title": "Floating worlds",
+            "detail": "A stylized environment artwork",
+            "asset": "coastal",
+            "theme": "dark",
+            "variant": 20,
+            "weight": 1.4
+          },
+          "projectIndex": 14,
+          "split": "project",
+          "secondProject": {
+            "type": "product",
+            "title": "A new point of view",
+            "detail": "A product campaign composition",
+            "asset": "watch",
+            "theme": "blue",
+            "variant": 21,
+            "weight": 0.7
+          }
+        },
+        {
+          "app": "project",
+          "title": "A new point of view",
+          "weight": 0.7,
+          "project": {
+            "type": "product",
+            "title": "A new point of view",
+            "detail": "A product campaign composition",
+            "asset": "watch",
+            "theme": "blue",
+            "variant": 21,
+            "weight": 0.7
+          },
+          "projectIndex": 15,
+          "secondProject": {
+            "type": "website",
+            "title": "Object collection",
+            "detail": "A digital product gallery",
+            "asset": "product",
+            "theme": "cream",
+            "variant": 22,
+            "weight": 1.2
+          }
+        }
+      ]
+    },
+    {
+      "text": "Compare the formats, explore the details, and imagine a version for your own team. The next step is to make the result useful in its real context.",
+      "shots": [
+        {
+          "app": "project",
+          "title": "Object collection",
+          "weight": 1.2,
+          "project": {
+            "type": "website",
+            "title": "Object collection",
+            "detail": "A digital product gallery",
+            "asset": "product",
+            "theme": "cream",
+            "variant": 22,
+            "weight": 1.2
+          },
+          "projectIndex": 16,
+          "secondProject": {
+            "type": "film",
+            "title": "Particles in motion",
+            "detail": "A luminous VFX study",
+            "asset": "portal",
+            "theme": "dark",
+            "variant": 23,
+            "weight": 0.55
+          }
+        },
+        {
+          "app": "project",
+          "title": "Particles in motion",
+          "weight": 0.55,
+          "project": {
+            "type": "film",
+            "title": "Particles in motion",
+            "detail": "A luminous VFX study",
+            "asset": "portal",
+            "theme": "dark",
+            "variant": 23,
+            "weight": 0.55
+          },
+          "projectIndex": 17,
+          "secondProject": {
+            "type": "poster",
+            "title": "Sound / space",
+            "detail": "A music event visual",
+            "asset": null,
+            "theme": "dark",
+            "variant": 24,
+            "weight": 1.7
+          }
+        },
+        {
+          "app": "project",
+          "title": "Sound / space",
+          "weight": 1.7,
+          "project": {
+            "type": "poster",
+            "title": "Sound / space",
+            "detail": "A music event visual",
+            "asset": null,
+            "theme": "dark",
+            "variant": 24,
+            "weight": 1.7
+          },
+          "projectIndex": 18,
+          "secondProject": {
+            "type": "motion",
+            "title": "Small ideas. Big moves.",
+            "detail": "A typographic social film",
+            "asset": null,
+            "theme": "yellow",
+            "variant": 25,
+            "weight": 0.8
+          }
+        },
+        {
+          "app": "project",
+          "title": "Small ideas. Big moves.",
+          "weight": 0.8,
+          "project": {
+            "type": "motion",
+            "title": "Small ideas. Big moves.",
+            "detail": "A typographic social film",
+            "asset": null,
+            "theme": "yellow",
+            "variant": 25,
+            "weight": 0.8
+          },
+          "projectIndex": 19,
+          "split": "project",
+          "secondProject": {
+            "type": "architecture",
+            "title": "The living gallery",
+            "detail": "A spatial design visualization",
+            "asset": "forest",
+            "theme": "dark",
+            "variant": 26,
+            "weight": 1
+          }
+        },
+        {
+          "app": "project",
+          "title": "The living gallery",
+          "weight": 1,
+          "project": {
+            "type": "architecture",
+            "title": "The living gallery",
+            "detail": "A spatial design visualization",
+            "asset": "forest",
+            "theme": "dark",
+            "variant": 26,
+            "weight": 1
+          },
+          "projectIndex": 20,
+          "secondProject": {
+            "type": "website",
+            "title": "Motion archive",
+            "detail": "A responsive motion portfolio",
+            "asset": "sculpture",
+            "theme": "dark",
+            "variant": 27,
+            "weight": 0.65
+          }
+        },
+        {
+          "app": "project",
+          "title": "Motion archive",
+          "weight": 0.65,
+          "project": {
+            "type": "website",
+            "title": "Motion archive",
+            "detail": "A responsive motion portfolio",
+            "asset": "sculpture",
+            "theme": "dark",
+            "variant": 27,
+            "weight": 0.65
+          },
+          "projectIndex": 21,
+          "secondProject": {
+            "type": "game",
+            "title": "Neon pathways",
+            "detail": "An interactive-world concept",
+            "asset": "islands",
+            "theme": "dark",
+            "variant": 28,
+            "weight": 1.4
+          }
+        },
+        {
+          "app": "project",
+          "title": "Neon pathways",
+          "weight": 1.4,
+          "project": {
+            "type": "game",
+            "title": "Neon pathways",
+            "detail": "An interactive-world concept",
+            "asset": "islands",
+            "theme": "dark",
+            "variant": 28,
+            "weight": 1.4
+          },
+          "projectIndex": 22,
+          "split": "project",
+          "secondProject": {
+            "type": "film",
+            "title": "A world of possibilities",
+            "detail": "A final creative montage",
+            "asset": "portal",
+            "theme": "blue",
+            "variant": 29,
+            "weight": 0.7
+          }
+        },
+        {
+          "app": "project",
+          "title": "A world of possibilities",
+          "weight": 0.7,
+          "project": {
+            "type": "film",
+            "title": "A world of possibilities",
+            "detail": "A final creative montage",
+            "asset": "portal",
+            "theme": "blue",
+            "variant": 29,
+            "weight": 0.7
+          },
+          "projectIndex": 23,
+          "secondProject": {
+            "type": "film",
+            "title": "Sculptural motion",
+            "detail": "A finished abstract motion loop",
+            "asset": "sculpture",
+            "theme": "dark",
+            "variant": 6,
+            "weight": 1.2
+          }
+        }
+      ]
+    }
+  ],
+  "sourceHash": "f8cbf39e885d9c7df3830d2da6e67a9183f8d1bb4c6c949f45c80b35880cbc0f",
+  "durationSeconds": 31.333333333333332,
+  "shots": [
+    {
+      "app": "project",
+      "title": "Sculptural motion",
+      "weight": 1.2,
+      "project": {
+        "type": "film",
+        "title": "Sculptural motion",
+        "detail": "A finished abstract motion loop",
+        "asset": "sculpture",
+        "theme": "dark",
+        "variant": 6,
+        "weight": 1.2
+      },
+      "projectIndex": 0,
+      "secondProject": {
+        "type": "product",
+        "title": "Object / 01",
+        "detail": "A polished product visual",
+        "asset": "product",
+        "theme": "cream",
+        "variant": 7,
+        "weight": 0.55
+      },
+      "start": 1.17,
+      "duration": 1.4092,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "Object / 01",
+      "weight": 0.55,
+      "project": {
+        "type": "product",
+        "title": "Object / 01",
+        "detail": "A polished product visual",
+        "asset": "product",
+        "theme": "cream",
+        "variant": 7,
+        "weight": 0.55
+      },
+      "projectIndex": 1,
+      "secondProject": {
+        "type": "poster",
+        "title": "MAKE / CREATE",
+        "detail": "A kinetic typography poster",
+        "asset": null,
+        "theme": "violet",
+        "variant": 8,
+        "weight": 1.7
+      },
+      "start": 2.5792,
+      "duration": 0.6458833333333335,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "MAKE / CREATE",
+      "weight": 1.7,
+      "project": {
+        "type": "poster",
+        "title": "MAKE / CREATE",
+        "detail": "A kinetic typography poster",
+        "asset": null,
+        "theme": "violet",
+        "variant": 8,
+        "weight": 1.7
+      },
+      "projectIndex": 2,
+      "secondProject": {
+        "type": "architecture",
+        "title": "Quiet architecture",
+        "detail": "A rendered gallery space",
+        "asset": "forest",
+        "theme": "cream",
+        "variant": 9,
+        "weight": 0.8
+      },
+      "start": 3.2250833333333335,
+      "duration": 1.9963666666666668,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "Quiet architecture",
+      "weight": 0.8,
+      "project": {
+        "type": "architecture",
+        "title": "Quiet architecture",
+        "detail": "A rendered gallery space",
+        "asset": "forest",
+        "theme": "cream",
+        "variant": 9,
+        "weight": 0.8
+      },
+      "projectIndex": 3,
+      "split": "project",
+      "secondProject": {
+        "type": "game",
+        "title": "Beyond the horizon",
+        "detail": "A cinematic environment study",
+        "asset": "world",
+        "theme": "dark",
+        "variant": 10,
+        "weight": 1
+      },
+      "start": 5.221450000000001,
+      "duration": 0.9394666666666668,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "Beyond the horizon",
+      "weight": 1,
+      "project": {
+        "type": "game",
+        "title": "Beyond the horizon",
+        "detail": "A cinematic environment study",
+        "asset": "world",
+        "theme": "dark",
+        "variant": 10,
+        "weight": 1
+      },
+      "projectIndex": 4,
+      "secondProject": {
+        "type": "website",
+        "title": "Studio Forma",
+        "detail": "A finished creative portfolio",
+        "asset": "sculpture",
+        "theme": "cream",
+        "variant": 11,
+        "weight": 0.65
+      },
+      "start": 6.160916666666668,
+      "duration": 1.1743333333333335,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "Studio Forma",
+      "weight": 0.65,
+      "project": {
+        "type": "website",
+        "title": "Studio Forma",
+        "detail": "A finished creative portfolio",
+        "asset": "sculpture",
+        "theme": "cream",
+        "variant": 11,
+        "weight": 0.65
+      },
+      "projectIndex": 5,
+      "secondProject": {
+        "type": "motion",
+        "title": "Better together",
+        "detail": "A responsive brand motion system",
+        "asset": null,
+        "theme": "blue",
+        "variant": 12,
+        "weight": 1.4
+      },
+      "start": 7.335250000000001,
+      "duration": 0.7633166666666668,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "Better together",
+      "weight": 1.4,
+      "project": {
+        "type": "motion",
+        "title": "Better together",
+        "detail": "A responsive brand motion system",
+        "asset": null,
+        "theme": "blue",
+        "variant": 12,
+        "weight": 1.4
+      },
+      "projectIndex": 6,
+      "split": "project",
+      "secondProject": {
+        "type": "poster",
+        "title": "New perspectives",
+        "detail": "An editorial campaign poster",
+        "asset": null,
+        "theme": "coral",
+        "variant": 13,
+        "weight": 0.7
+      },
+      "start": 8.098566666666668,
+      "duration": 1.6440666666666668,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "New perspectives",
+      "weight": 0.7,
+      "project": {
+        "type": "poster",
+        "title": "New perspectives",
+        "detail": "An editorial campaign poster",
+        "asset": null,
+        "theme": "coral",
+        "variant": 13,
+        "weight": 0.7
+      },
+      "projectIndex": 7,
+      "secondProject": {
+        "type": "product",
+        "title": "Material matters",
+        "detail": "A product finish exploration",
+        "asset": "headphones",
+        "theme": "dark",
+        "variant": 14,
+        "weight": 1.2
+      },
+      "start": 9.742633333333336,
+      "duration": 0.8220333333333334,
+      "beat": 0
+    },
+    {
+      "app": "project",
+      "title": "Material matters",
+      "weight": 1.2,
+      "project": {
+        "type": "product",
+        "title": "Material matters",
+        "detail": "A product finish exploration",
+        "asset": "headphones",
+        "theme": "dark",
+        "variant": 14,
+        "weight": 1.2
+      },
+      "projectIndex": 8,
+      "secondProject": {
+        "type": "film",
+        "title": "Orbit study",
+        "detail": "An abstract VFX composition",
+        "asset": "portal",
+        "theme": "dark",
+        "variant": 15,
+        "weight": 0.55
+      },
+      "start": 10.564666666666668,
+      "duration": 1.5532,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "Orbit study",
+      "weight": 0.55,
+      "project": {
+        "type": "film",
+        "title": "Orbit study",
+        "detail": "An abstract VFX composition",
+        "asset": "portal",
+        "theme": "dark",
+        "variant": 15,
+        "weight": 0.55
+      },
+      "projectIndex": 9,
+      "secondProject": {
+        "type": "website",
+        "title": "The exhibition",
+        "detail": "A digital exhibition landing page",
+        "asset": "forest",
+        "theme": "cream",
+        "variant": 16,
+        "weight": 1.7
+      },
+      "start": 12.117866666666668,
+      "duration": 0.7118833333333334,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "The exhibition",
+      "weight": 1.7,
+      "project": {
+        "type": "website",
+        "title": "The exhibition",
+        "detail": "A digital exhibition landing page",
+        "asset": "forest",
+        "theme": "cream",
+        "variant": 16,
+        "weight": 1.7
+      },
+      "projectIndex": 10,
+      "secondProject": {
+        "type": "motion",
+        "title": "Shape the future",
+        "detail": "An animated identity study",
+        "asset": null,
+        "theme": "coral",
+        "variant": 17,
+        "weight": 0.8
+      },
+      "start": 12.82975,
+      "duration": 2.2003666666666666,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "Shape the future",
+      "weight": 0.8,
+      "project": {
+        "type": "motion",
+        "title": "Shape the future",
+        "detail": "An animated identity study",
+        "asset": null,
+        "theme": "coral",
+        "variant": 17,
+        "weight": 0.8
+      },
+      "projectIndex": 11,
+      "split": "project",
+      "secondProject": {
+        "type": "architecture",
+        "title": "Light and structure",
+        "detail": "An architectural mood film",
+        "asset": "desert",
+        "theme": "cream",
+        "variant": 18,
+        "weight": 1
+      },
+      "start": 15.030116666666668,
+      "duration": 1.0354666666666668,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "Light and structure",
+      "weight": 1,
+      "project": {
+        "type": "architecture",
+        "title": "Light and structure",
+        "detail": "An architectural mood film",
+        "asset": "desert",
+        "theme": "cream",
+        "variant": 18,
+        "weight": 1
+      },
+      "projectIndex": 12,
+      "secondProject": {
+        "type": "poster",
+        "title": "The creative week",
+        "detail": "An event identity",
+        "asset": null,
+        "theme": "yellow",
+        "variant": 19,
+        "weight": 0.65
+      },
+      "start": 16.065583333333336,
+      "duration": 1.2943333333333333,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "The creative week",
+      "weight": 0.65,
+      "project": {
+        "type": "poster",
+        "title": "The creative week",
+        "detail": "An event identity",
+        "asset": null,
+        "theme": "yellow",
+        "variant": 19,
+        "weight": 0.65
+      },
+      "projectIndex": 13,
+      "secondProject": {
+        "type": "game",
+        "title": "Floating worlds",
+        "detail": "A stylized environment artwork",
+        "asset": "coastal",
+        "theme": "dark",
+        "variant": 20,
+        "weight": 1.4
+      },
+      "start": 17.35991666666667,
+      "duration": 0.8413166666666667,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "Floating worlds",
+      "weight": 1.4,
+      "project": {
+        "type": "game",
+        "title": "Floating worlds",
+        "detail": "A stylized environment artwork",
+        "asset": "coastal",
+        "theme": "dark",
+        "variant": 20,
+        "weight": 1.4
+      },
+      "projectIndex": 14,
+      "split": "project",
+      "secondProject": {
+        "type": "product",
+        "title": "A new point of view",
+        "detail": "A product campaign composition",
+        "asset": "watch",
+        "theme": "blue",
+        "variant": 21,
+        "weight": 0.7
+      },
+      "start": 18.201233333333338,
+      "duration": 1.8120666666666665,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "A new point of view",
+      "weight": 0.7,
+      "project": {
+        "type": "product",
+        "title": "A new point of view",
+        "detail": "A product campaign composition",
+        "asset": "watch",
+        "theme": "blue",
+        "variant": 21,
+        "weight": 0.7
+      },
+      "projectIndex": 15,
+      "secondProject": {
+        "type": "website",
+        "title": "Object collection",
+        "detail": "A digital product gallery",
+        "asset": "product",
+        "theme": "cream",
+        "variant": 22,
+        "weight": 1.2
+      },
+      "start": 20.013300000000005,
+      "duration": 0.9060333333333332,
+      "beat": 1
+    },
+    {
+      "app": "project",
+      "title": "Object collection",
+      "weight": 1.2,
+      "project": {
+        "type": "website",
+        "title": "Object collection",
+        "detail": "A digital product gallery",
+        "asset": "product",
+        "theme": "cream",
+        "variant": 22,
+        "weight": 1.2
+      },
+      "projectIndex": 16,
+      "secondProject": {
+        "type": "film",
+        "title": "Particles in motion",
+        "detail": "A luminous VFX study",
+        "asset": "portal",
+        "theme": "dark",
+        "variant": 23,
+        "weight": 0.55
+      },
+      "start": 20.919333333333334,
+      "duration": 1.4239,
+      "beat": 2
+    },
+    {
+      "app": "project",
+      "title": "Particles in motion",
+      "weight": 0.55,
+      "project": {
+        "type": "film",
+        "title": "Particles in motion",
+        "detail": "A luminous VFX study",
+        "asset": "portal",
+        "theme": "dark",
+        "variant": 23,
+        "weight": 0.55
+      },
+      "projectIndex": 17,
+      "secondProject": {
+        "type": "poster",
+        "title": "Sound / space",
+        "detail": "A music event visual",
+        "asset": null,
+        "theme": "dark",
+        "variant": 24,
+        "weight": 1.7
+      },
+      "start": 22.343233333333334,
+      "duration": 0.6526208333333334,
+      "beat": 2
+    },
+    {
+      "app": "project",
+      "title": "Sound / space",
+      "weight": 1.7,
+      "project": {
+        "type": "poster",
+        "title": "Sound / space",
+        "detail": "A music event visual",
+        "asset": null,
+        "theme": "dark",
+        "variant": 24,
+        "weight": 1.7
+      },
+      "projectIndex": 18,
+      "secondProject": {
+        "type": "motion",
+        "title": "Small ideas. Big moves.",
+        "detail": "A typographic social film",
+        "asset": null,
+        "theme": "yellow",
+        "variant": 25,
+        "weight": 0.8
+      },
+      "start": 22.995854166666668,
+      "duration": 2.0171916666666667,
+      "beat": 2
+    },
+    {
+      "app": "project",
+      "title": "Small ideas. Big moves.",
+      "weight": 0.8,
+      "project": {
+        "type": "motion",
+        "title": "Small ideas. Big moves.",
+        "detail": "A typographic social film",
+        "asset": null,
+        "theme": "yellow",
+        "variant": 25,
+        "weight": 0.8
+      },
+      "projectIndex": 19,
+      "split": "project",
+      "secondProject": {
+        "type": "architecture",
+        "title": "The living gallery",
+        "detail": "A spatial design visualization",
+        "asset": "forest",
+        "theme": "dark",
+        "variant": 26,
+        "weight": 1
+      },
+      "start": 25.013045833333333,
+      "duration": 0.9492666666666667,
+      "beat": 2
+    },
+    {
+      "app": "project",
+      "title": "The living gallery",
+      "weight": 1,
+      "project": {
+        "type": "architecture",
+        "title": "The living gallery",
+        "detail": "A spatial design visualization",
+        "asset": "forest",
+        "theme": "dark",
+        "variant": 26,
+        "weight": 1
+      },
+      "projectIndex": 20,
+      "secondProject": {
+        "type": "website",
+        "title": "Motion archive",
+        "detail": "A responsive motion portfolio",
+        "asset": "sculpture",
+        "theme": "dark",
+        "variant": 27,
+        "weight": 0.65
+      },
+      "start": 25.9623125,
+      "duration": 1.1865833333333333,
+      "beat": 2
+    },
+    {
+      "app": "project",
+      "title": "Motion archive",
+      "weight": 0.65,
+      "project": {
+        "type": "website",
+        "title": "Motion archive",
+        "detail": "A responsive motion portfolio",
+        "asset": "sculpture",
+        "theme": "dark",
+        "variant": 27,
+        "weight": 0.65
+      },
+      "projectIndex": 21,
+      "secondProject": {
+        "type": "game",
+        "title": "Neon pathways",
+        "detail": "An interactive-world concept",
+        "asset": "islands",
+        "theme": "dark",
+        "variant": 28,
+        "weight": 1.4
+      },
+      "start": 27.148895833333334,
+      "duration": 0.7712791666666667,
+      "beat": 2
+    },
+    {
+      "app": "project",
+      "title": "Neon pathways",
+      "weight": 1.4,
+      "project": {
+        "type": "game",
+        "title": "Neon pathways",
+        "detail": "An interactive-world concept",
+        "asset": "islands",
+        "theme": "dark",
+        "variant": 28,
+        "weight": 1.4
+      },
+      "projectIndex": 22,
+      "split": "project",
+      "secondProject": {
+        "type": "film",
+        "title": "A world of possibilities",
+        "detail": "A final creative montage",
+        "asset": "portal",
+        "theme": "blue",
+        "variant": 29,
+        "weight": 0.7
+      },
+      "start": 27.920175,
+      "duration": 1.6612166666666666,
+      "beat": 2
+    },
+    {
+      "app": "project",
+      "title": "A world of possibilities",
+      "weight": 0.7,
+      "project": {
+        "type": "film",
+        "title": "A world of possibilities",
+        "detail": "A final creative montage",
+        "asset": "portal",
+        "theme": "blue",
+        "variant": 29,
+        "weight": 0.7
+      },
+      "projectIndex": 23,
+      "secondProject": {
+        "type": "film",
+        "title": "Sculptural motion",
+        "detail": "A finished abstract motion loop",
+        "asset": "sculpture",
+        "theme": "dark",
+        "variant": 6,
+        "weight": 1.2
+      },
+      "start": 29.58139166666667,
+      "duration": 0.8306083333333333,
+      "beat": 2
+    }
+  ],
+  "captions": [
+    {
+      "start": 1.25,
+      "end": 10.244666666666667,
+      "text": "Explore what learning can become. These original design & content project concepts show different ways to turn an idea into something people can use."
+    },
+    {
+      "start": 10.644666666666668,
+      "end": 20.599333333333334,
+      "text": "Some outputs make a decision clearer. Others create a useful interaction, a visual story, or a more connected way of working. Each starts with a different problem."
+    },
+    {
+      "start": 20.999333333333333,
+      "end": 30.092,
+      "text": "Compare the formats, explore the details, and imagine a version for your own team. The next step is to make the result useful in its real context."
+    }
+  ],
+  "audio": {
+    "sampleRate": 24000,
+    "voiceEngine": "Kokoro-82M ONNX",
+    "musicType": "Original procedural composition",
+    "peak": 0.7134321331977844,
+    "voiceId": "af_heart",
+    "voicePath": "audio/design-showcase-voice.wav",
+    "musicPath": "audio/design-showcase-music.wav",
+    "mixPath": "audio/design-showcase-mix.wav"
+  }
+}

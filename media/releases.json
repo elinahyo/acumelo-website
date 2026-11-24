@@ -4,12 +4,31 @@
   "privateArchive": {
     "status": "verified",
     "storage": "private-company-google-drive",
-    "archiveCount": 16,
-    "coverage": {"productionSource": 1, "fieldAudioAndMusic": 6, "fieldFinalVideos": 6, "historicalDesigns": 3},
     "verification": "Archive owner authenticated re-download: SHA-256 and byte counts matched",
     "verificationEvidence": "restricted-company-archive-inventory",
-    "privateLinksPublished": false
+    "privateLinksPublished": false,
+    "inventorySource": "restricted-company-archive-inventory",
+    "coverage": [
+      "production sources",
+      "field narration and music stems",
+      "final videos",
+      "historical designs",
+      "editorial revision archives"
+    ]
   },
   "publicStorage": "Git: public web masters, website and reproducible production sources",
-  "creativeApproval": "Separate from archive integrity and technical playback verification"
+  "creativeApproval": "Separate from archive integrity and technical playback verification",
+  "editorialReview": {
+    "revision": "20261124d",
+    "status": "technical-qa-passed-editorial-review-required",
+    "activeWebsiteMedia": {
+      "instructorDemos": "11 v4 + 15 v3",
+      "categoryOverviews": "6 v3",
+      "sharedProjects": "6 music-only v4"
+    },
+    "cloudRun": 45308741904,
+    "renderCommit": "c590335c0f06d451226f7be255e1a27bbb057622",
+    "films": 17,
+    "privateLinksPublished": false
+  }
 }

@@ -119,12 +119,12 @@ window.ACUMELO = {
           "captions": []
         },
         "demos": {
-          "workflow": "acumelo-chris-workflow-demo-20261123c",
-          "strategy": "acumelo-chris-strategy-demo-20261123c",
-          "design": "acumelo-chris-design-demo-20261123c",
-          "analytics": "acumelo-chris-analytics-demo-20261123c",
-          "marketing": "acumelo-chris-marketing-demo-20261123c",
-          "development": "acumelo-chris-development-demo-20261123c"
+          "workflow": "acumelo-chris-workflow-demo-20261124d",
+          "strategy": "acumelo-chris-strategy-demo-20261124d",
+          "design": "acumelo-chris-design-demo-20261124d",
+          "analytics": "acumelo-chris-analytics-demo-20261124d",
+          "marketing": "acumelo-chris-marketing-demo-20261124d",
+          "development": "acumelo-chris-development-demo-20261124d"
         },
         "voiceId": "am_michael"
       }
@@ -219,9 +219,9 @@ window.ACUMELO = {
           "captions": []
         },
         "demos": {
-          "strategy": "acumelo-sage-strategy-demo-20261123c",
-          "design": "acumelo-sage-design-demo-20261123c",
-          "development": "acumelo-sage-development-demo-20261123c"
+          "strategy": "acumelo-sage-strategy-demo-20261124d",
+          "design": "acumelo-sage-design-demo-20261124d",
+          "development": "acumelo-sage-development-demo-20261124d"
         },
         "voiceId": "af_heart"
       }
@@ -314,8 +314,8 @@ window.ACUMELO = {
           "captions": []
         },
         "demos": {
-          "design": "acumelo-pillow-design-demo-20261123c",
-          "development": "acumelo-pillow-development-demo-20261123c"
+          "design": "acumelo-pillow-design-demo-20261124d",
+          "development": "acumelo-pillow-development-demo-20261124d"
         },
         "voiceId": "af_nicole"
       }
@@ -1495,10 +1495,10 @@ window.ACUMELO = {
       "mediaFieldLabel": "관련 분야",
       "mediaDemoExample": "UI 재구성",
       "mediaProjectExample": "예시 프로젝트",
-      "mediaExampleNotice": "화면을 재구성한 교육용 시연과 공통 프로젝트 예시입니다. 영어 합성 해설과 자체 배경음을 사용하며, 실제 앱 녹화·강사 목소리·수강생 제출물이 아닙니다.",
+      "mediaExampleNotice": "화면 재구성 시연에는 임시 영어 합성 해설과 배경음, 공통 프로젝트 콘셉트에는 배경음만 사용합니다. 실제 앱 녹화·강사 목소리·수강생 제출물이 아닙니다.",
       "mediaLibraryTitle": "시연·결과물 예시 라이브러리",
       "mediaLibraryExplore": "공통 시연 라이브러리 보기",
-      "mediaLibraryIntro": "6개 AI 분야의 심화 시연과 분야별 완성 결과물 콘셉트 24개를 살펴보세요. UI 재구성·예시 프로젝트이며 실제 수강생 실적이 아닙니다.",
+      "mediaLibraryIntro": "강사별·분야별 시연과 공통 프로젝트 콘셉트를 살펴보세요. 시연에는 임시 영어 합성 해설과 자체 배경음, 프로젝트 예시에는 배경음만 사용합니다. 실제 프로그램 녹화나 수강생 제출물이 아닌 재구성 예시입니다.",
       "profileSharedMediaNote": "확정된 담당 교육분야의 공통 UI 예시입니다. 코드로 제작했으며 실제 앱 녹화·강사 개인 실적·실제 수강생 성과를 뜻하지 않습니다.",
       "mediaTranscript": "영상 내용 설명 읽기",
       "mediaVideoFallback": "이 브라우저는 영상을 재생할 수 없습니다. 아래 내용 설명을 확인해 주세요.",
@@ -1507,7 +1507,7 @@ window.ACUMELO = {
       "profileOwnDemo": "이 강사의 시연 둘러보기",
       "profileDemoField": "시연 분야 선택",
       "mediaSyntheticAudio": "임시 영어 합성 해설 · 자체 제작 배경음",
-      "profileOwnDemoNote": "분야별로 재구성한 시연 예시입니다. 임시 영어 합성 해설과 자체 제작 배경음을 사용합니다.",
+      "profileOwnDemoNote": "화면을 재구성한 교육용 예시입니다. 임시 영어 합성 음성과 자체 제작 배경음을 사용합니다.",
       "profileOwnDemoPending": "이 강사를 위한 고유 심화 시연을 준비하고 있습니다.",
       "profileFieldProjects": "분야별 결과물 예시",
       "profileFieldProjectsNote": "담당 분야의 공통 프로젝트 콘셉트입니다. 이 강사의 실제 수강생 제출물이나 고객 실적이 아닙니다.",
@@ -1951,10 +1951,10 @@ window.ACUMELO = {
       "mediaFieldLabel": "Related fields",
       "mediaDemoExample": "UI reconstruction",
       "mediaProjectExample": "Illustrative project",
-      "mediaExampleNotice": "Reconstructed training examples and shared project concepts. Synthetic English narration and original music; not live software recordings, real instructor voices or student submissions.",
+      "mediaExampleNotice": "Illustrative demos use temporary synthetic English voices and music; shared project concepts use music only. These are not live software recordings, real instructor voices or student submissions.",
       "mediaLibraryTitle": "Example library",
       "mediaLibraryExplore": "Explore the example library",
-      "mediaLibraryIntro": "Explore six AI fields through in-depth demonstrations and 24 finished project concepts per field. These are UI reconstructions and illustrative projects, not actual student results.",
+      "mediaLibraryIntro": "Explore instructor demonstrations and shared project concepts. Demos use temporary synthetic English narration and original music; project concepts use music only. These are illustrative reconstructions, not software recordings or student submissions.",
       "profileSharedMediaNote": "Shared code-animated examples for confirmed teaching fields. They are not live app recordings, personal instructor work or actual student results.",
       "mediaTranscript": "Read the video description",
       "mediaVideoFallback": "Your browser cannot play this video. Read the description below.",
@@ -1963,7 +1963,7 @@ window.ACUMELO = {
       "profileOwnDemo": "Explore this instructor’s demos",
       "profileDemoField": "Choose a demonstration field",
       "mediaSyntheticAudio": "Temporary synthetic English narration · original music",
-      "profileOwnDemoNote": "Field-specific reconstructed examples with temporary synthetic English narration and original music.",
+      "profileOwnDemoNote": "Illustrative interface reconstructions with temporary synthetic English voices and original music.",
       "profileOwnDemoPending": "A dedicated in-depth demo is being prepared for this instructor.",
       "profileFieldProjects": "Project examples by field",
       "profileFieldProjectsNote": "Shared project concepts for these fields, not this instructor’s actual student submissions or client work.",
@@ -2031,8 +2031,8 @@ window.ACUMELO = {
         "voiceRole": "shared-overview"
       },
       "project": {
-        "mediaId": "acumelo-workflow-showcase-20261123c",
-        "id": "acumelo-workflow-showcase-20261123c",
+        "mediaId": "acumelo-workflow-showcase-20261124d",
+        "id": "acumelo-workflow-showcase-20261124d",
         "contentOwnerId": "instructor-chris",
         "fieldId": "workflow",
         "kind": "project",
@@ -2043,28 +2043,26 @@ window.ACUMELO = {
           "en": "AI Workflow & Automation / Project possibilities",
           "ko": "AI 업무혁신·자동화 · 결과물 예시"
         },
-        "src": "assets/media/20261123c/workflow-showcase-20261123c.mp4",
-        "poster": "assets/media/20261123c/posters/workflow-showcase-20261123c.jpg",
-        "captions": [
-          {
-            "src": "assets/media/20261123c/captions/workflow-showcase-20261123c.vtt",
-            "srclang": "en",
-            "label": "English"
-          }
-        ],
+        "src": "assets/media/20261124d/workflow-showcase-20261124d.mp4",
+        "poster": "assets/media/20261124d/posters/workflow-showcase-20261124d.jpg",
+        "captions": [],
         "durationSeconds": 31.633333333333333,
-        "narration": {
-          "language": "en",
-          "temporaryVoice": true,
-          "voiceId": "af_heart"
-        },
+        "narration": null,
         "hasBgm": true,
         "projectCount": 24,
-        "sha256": "c27b2b771003fb60f8c66cc2601d2f39fbeb82284b2648771cb246838221e134",
-        "bytes": 3315182,
+        "sha256": "dd2eb43679f8c7c11cb7286b342058dfbd20ad79a08083ac2db2598183dcef0d",
+        "bytes": 2466008,
         "assignedInstructorId": null,
-        "voiceId": "af_heart",
-        "voiceRole": "shared-project-narration"
+        "voiceId": null,
+        "voiceRole": "shared-project-music",
+        "hasNarration": false,
+        "revision": "20261124d",
+        "editorialApproval": false,
+        "technicalQa": {
+          "passed": true,
+          "fullDecode": true,
+          "peakDb": -14
+        }
       }
     },
     "strategy": {
@@ -2112,8 +2110,8 @@ window.ACUMELO = {
         "voiceRole": "shared-overview"
       },
       "project": {
-        "mediaId": "acumelo-strategy-showcase-20261123c",
-        "id": "acumelo-strategy-showcase-20261123c",
+        "mediaId": "acumelo-strategy-showcase-20261124d",
+        "id": "acumelo-strategy-showcase-20261124d",
         "contentOwnerId": "instructor-chris",
         "fieldId": "strategy",
         "kind": "project",
@@ -2124,28 +2122,26 @@ window.ACUMELO = {
           "en": "AI Strategy & Project Management / Project possibilities",
           "ko": "AI 기획·프로젝트 관리 · 결과물 예시"
         },
-        "src": "assets/media/20261123c/strategy-showcase-20261123c.mp4",
-        "poster": "assets/media/20261123c/posters/strategy-showcase-20261123c.jpg",
-        "captions": [
-          {
-            "src": "assets/media/20261123c/captions/strategy-showcase-20261123c.vtt",
-            "srclang": "en",
-            "label": "English"
-          }
-        ],
+        "src": "assets/media/20261124d/strategy-showcase-20261124d.mp4",
+        "poster": "assets/media/20261124d/posters/strategy-showcase-20261124d.jpg",
+        "captions": [],
         "durationSeconds": 32.2,
-        "narration": {
-          "language": "en",
-          "temporaryVoice": true,
-          "voiceId": "af_heart"
-        },
+        "narration": null,
         "hasBgm": true,
         "projectCount": 24,
-        "sha256": "3a0ef60b0d67a1cba52fc8e61f3f4db7b3dcffbcc9d592d0fc7900667e98068f",
-        "bytes": 3416718,
+        "sha256": "4b6d039740aef3b73abb9d36037afe45df675433902d77bcc025b8d173253bbd",
+        "bytes": 2528303,
         "assignedInstructorId": null,
-        "voiceId": "af_heart",
-        "voiceRole": "shared-project-narration"
+        "voiceId": null,
+        "voiceRole": "shared-project-music",
+        "hasNarration": false,
+        "revision": "20261124d",
+        "editorialApproval": false,
+        "technicalQa": {
+          "passed": true,
+          "fullDecode": true,
+          "peakDb": -14.1
+        }
       }
     },
     "design": {
@@ -2193,8 +2189,8 @@ window.ACUMELO = {
         "voiceRole": "shared-overview"
       },
       "project": {
-        "mediaId": "acumelo-design-showcase-20261123c",
-        "id": "acumelo-design-showcase-20261123c",
+        "mediaId": "acumelo-design-showcase-20261124d",
+        "id": "acumelo-design-showcase-20261124d",
         "contentOwnerId": "instructor-chris",
         "fieldId": "design",
         "kind": "project",
@@ -2205,28 +2201,26 @@ window.ACUMELO = {
           "en": "AI Design & Content / Project possibilities",
           "ko": "AI 디자인·콘텐츠 · 결과물 예시"
         },
-        "src": "assets/media/20261123c/design-showcase-20261123c.mp4",
-        "poster": "assets/media/20261123c/posters/design-showcase-20261123c.jpg",
-        "captions": [
-          {
-            "src": "assets/media/20261123c/captions/design-showcase-20261123c.vtt",
-            "srclang": "en",
-            "label": "English"
-          }
-        ],
+        "src": "assets/media/20261124d/design-showcase-20261124d.mp4",
+        "poster": "assets/media/20261124d/posters/design-showcase-20261124d.jpg",
+        "captions": [],
         "durationSeconds": 31.333333333333332,
-        "narration": {
-          "language": "en",
-          "temporaryVoice": true,
-          "voiceId": "af_heart"
-        },
+        "narration": null,
         "hasBgm": true,
         "projectCount": 24,
-        "sha256": "8adbc37614bc1eae1b907dd0dbf46af42a8d257ad9091247f3ce262727c40f0f",
-        "bytes": 7842569,
+        "sha256": "eb68261a12bb3e2862ac0a7c2012e1148c1f6c194b116058a8a1ad8dc92b5600",
+        "bytes": 6236065,
         "assignedInstructorId": null,
-        "voiceId": "af_heart",
-        "voiceRole": "shared-project-narration"
+        "voiceId": null,
+        "voiceRole": "shared-project-music",
+        "hasNarration": false,
+        "revision": "20261124d",
+        "editorialApproval": false,
+        "technicalQa": {
+          "passed": true,
+          "fullDecode": true,
+          "peakDb": -13.7
+        }
       }
     },
     "analytics": {
@@ -2274,8 +2268,8 @@ window.ACUMELO = {
         "voiceRole": "shared-overview"
       },
       "project": {
-        "mediaId": "acumelo-analytics-showcase-20261123c",
-        "id": "acumelo-analytics-showcase-20261123c",
+        "mediaId": "acumelo-analytics-showcase-20261124d",
+        "id": "acumelo-analytics-showcase-20261124d",
         "contentOwnerId": "instructor-chris",
         "fieldId": "analytics",
         "kind": "project",
@@ -2286,28 +2280,26 @@ window.ACUMELO = {
           "en": "AI Data Analytics / Project possibilities",
           "ko": "AI 데이터 분석 · 결과물 예시"
         },
-        "src": "assets/media/20261123c/analytics-showcase-20261123c.mp4",
-        "poster": "assets/media/20261123c/posters/analytics-showcase-20261123c.jpg",
-        "captions": [
-          {
-            "src": "assets/media/20261123c/captions/analytics-showcase-20261123c.vtt",
-            "srclang": "en",
-            "label": "English"
-          }
-        ],
+        "src": "assets/media/20261124d/analytics-showcase-20261124d.mp4",
+        "poster": "assets/media/20261124d/posters/analytics-showcase-20261124d.jpg",
+        "captions": [],
         "durationSeconds": 31.133333333333333,
-        "narration": {
-          "language": "en",
-          "temporaryVoice": true,
-          "voiceId": "af_heart"
-        },
+        "narration": null,
         "hasBgm": true,
         "projectCount": 24,
-        "sha256": "96944d40d82383fc6b9be7d3a1a4076616a8f0d51d7a714b539fe33777a148d1",
-        "bytes": 3364247,
+        "sha256": "017e40580fe7222d6fae6ed9bc04ce74d1ee6123a19d551d8d1f1b54f18f8d79",
+        "bytes": 2549903,
         "assignedInstructorId": null,
-        "voiceId": "af_heart",
-        "voiceRole": "shared-project-narration"
+        "voiceId": null,
+        "voiceRole": "shared-project-music",
+        "hasNarration": false,
+        "revision": "20261124d",
+        "editorialApproval": false,
+        "technicalQa": {
+          "passed": true,
+          "fullDecode": true,
+          "peakDb": -14
+        }
       }
     },
     "marketing": {
@@ -2355,8 +2347,8 @@ window.ACUMELO = {
         "voiceRole": "shared-overview"
       },
       "project": {
-        "mediaId": "acumelo-marketing-showcase-20261123c",
-        "id": "acumelo-marketing-showcase-20261123c",
+        "mediaId": "acumelo-marketing-showcase-20261124d",
+        "id": "acumelo-marketing-showcase-20261124d",
         "contentOwnerId": "instructor-chris",
         "fieldId": "marketing",
         "kind": "project",
@@ -2367,28 +2359,26 @@ window.ACUMELO = {
           "en": "AI Marketing & Sales / Project possibilities",
           "ko": "AI 마케팅·세일즈 · 결과물 예시"
         },
-        "src": "assets/media/20261123c/marketing-showcase-20261123c.mp4",
-        "poster": "assets/media/20261123c/posters/marketing-showcase-20261123c.jpg",
-        "captions": [
-          {
-            "src": "assets/media/20261123c/captions/marketing-showcase-20261123c.vtt",
-            "srclang": "en",
-            "label": "English"
-          }
-        ],
+        "src": "assets/media/20261124d/marketing-showcase-20261124d.mp4",
+        "poster": "assets/media/20261124d/posters/marketing-showcase-20261124d.jpg",
+        "captions": [],
         "durationSeconds": 31.333333333333332,
-        "narration": {
-          "language": "en",
-          "temporaryVoice": true,
-          "voiceId": "af_heart"
-        },
+        "narration": null,
         "hasBgm": true,
         "projectCount": 24,
-        "sha256": "5093a45cf34b57906bb6c7df52045c9fcf0efab6071e5db27ff6afe87772cca6",
-        "bytes": 4848518,
+        "sha256": "96e0de8a281c263a372f4e89a0060257c80bb7dd224ff9382ec2541a7059f923",
+        "bytes": 3850991,
         "assignedInstructorId": null,
-        "voiceId": "af_heart",
-        "voiceRole": "shared-project-narration"
+        "voiceId": null,
+        "voiceRole": "shared-project-music",
+        "hasNarration": false,
+        "revision": "20261124d",
+        "editorialApproval": false,
+        "technicalQa": {
+          "passed": true,
+          "fullDecode": true,
+          "peakDb": -14
+        }
       }
     },
     "development": {
@@ -2436,8 +2426,8 @@ window.ACUMELO = {
         "voiceRole": "shared-overview"
       },
       "project": {
-        "mediaId": "acumelo-development-showcase-20261123c",
-        "id": "acumelo-development-showcase-20261123c",
+        "mediaId": "acumelo-development-showcase-20261124d",
+        "id": "acumelo-development-showcase-20261124d",
         "contentOwnerId": "instructor-chris",
         "fieldId": "development",
         "kind": "project",
@@ -2448,32 +2438,30 @@ window.ACUMELO = {
           "en": "AI Service Development / Project possibilities",
           "ko": "AI 서비스 개발 · 결과물 예시"
         },
-        "src": "assets/media/20261123c/development-showcase-20261123c.mp4",
-        "poster": "assets/media/20261123c/posters/development-showcase-20261123c.jpg",
-        "captions": [
-          {
-            "src": "assets/media/20261123c/captions/development-showcase-20261123c.vtt",
-            "srclang": "en",
-            "label": "English"
-          }
-        ],
+        "src": "assets/media/20261124d/development-showcase-20261124d.mp4",
+        "poster": "assets/media/20261124d/posters/development-showcase-20261124d.jpg",
+        "captions": [],
         "durationSeconds": 31.466666666666665,
-        "narration": {
-          "language": "en",
-          "temporaryVoice": true,
-          "voiceId": "af_heart"
-        },
+        "narration": null,
         "hasBgm": true,
         "projectCount": 24,
-        "sha256": "5d6189e2cd17f632162b27bbd80504323d97c6bff763304b90ad5f952b14860a",
-        "bytes": 5503184,
+        "sha256": "bf643db15809aaa6d874ad8bfb61c450e9ec446adfcb476b26a26a9720239828",
+        "bytes": 5055849,
         "assignedInstructorId": null,
-        "voiceId": "af_heart",
-        "voiceRole": "shared-project-narration"
+        "voiceId": null,
+        "voiceRole": "shared-project-music",
+        "hasNarration": false,
+        "revision": "20261124d",
+        "editorialApproval": false,
+        "technicalQa": {
+          "passed": true,
+          "fullDecode": true,
+          "peakDb": -14.1
+        }
       }
     }
   },
-  "mediaGallery": "assets/media/20261123c/index.html",
+  "mediaGallery": "assets/media/20261124d/index.html",
   "mediaCatalog": {
     "acumelo-chris-workflow-demo-20261123c": {
       "mediaId": "acumelo-chris-workflow-demo-20261123c",
@@ -4715,6 +4703,1069 @@ window.ACUMELO = {
       "assignedInstructorId": null,
       "voiceId": "af_heart",
       "voiceRole": "shared-project-narration"
+    },
+    "acumelo-analytics-showcase-20261124d": {
+      "mediaId": "acumelo-analytics-showcase-20261124d",
+      "id": "acumelo-analytics-showcase-20261124d",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "analytics",
+      "kind": "project",
+      "scope": "category",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "AI Data Analytics / Project possibilities",
+        "ko": "AI 데이터 분석 · 결과물 예시"
+      },
+      "src": "assets/media/20261124d/analytics-showcase-20261124d.mp4",
+      "poster": "assets/media/20261124d/posters/analytics-showcase-20261124d.jpg",
+      "captions": [],
+      "durationSeconds": 31.133333333333333,
+      "narration": null,
+      "hasBgm": true,
+      "projectCount": 24,
+      "sha256": "017e40580fe7222d6fae6ed9bc04ce74d1ee6123a19d551d8d1f1b54f18f8d79",
+      "bytes": 2549903,
+      "assignedInstructorId": null,
+      "voiceId": null,
+      "voiceRole": "shared-project-music",
+      "hasNarration": false,
+      "revision": "20261124d",
+      "editorialApproval": false,
+      "technicalQa": {
+        "passed": true,
+        "fullDecode": true,
+        "peakDb": -14
+      }
+    },
+    "acumelo-chris-analytics-demo-20261124d": {
+      "mediaId": "acumelo-chris-analytics-demo-20261124d",
+      "id": "acumelo-chris-analytics-demo-20261124d",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "analytics",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "From raw data to a decision",
+        "ko": "Chris · AI 데이터 분석 · 시연"
+      },
+      "src": "assets/media/20261124d/chris-analytics-demo-20261124d.mp4",
+      "poster": "assets/media/20261124d/posters/chris-analytics-demo-20261124d.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261124d/captions/chris-analytics-demo-20261124d.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 51.56666666666667,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true,
+        "voiceId": "am_michael"
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "cc9ff87f4e6cb04583aeefef7da0c382379db593cb863e900ddf66e8bd618e34",
+      "bytes": 5007323,
+      "assignedInstructorId": "instructor-chris",
+      "voiceId": "am_michael",
+      "voiceRole": "instructor-demo",
+      "tools": [
+        "Microsoft Excel",
+        "JupyterLab"
+      ],
+      "searchKeywords": [
+        "revenue quality",
+        "executive dashboard",
+        "excel",
+        "jupyter",
+        "vscode",
+        "powerbi",
+        "tableau",
+        "grafana",
+        "엑셀",
+        "스프레드시트",
+        "Inspect the source table",
+        "Explore the data in a notebook",
+        "Inspect the source table",
+        "Check the formula and exceptions",
+        "Check assumptions and validation",
+        "Review a testable service boundary",
+        "Compare the analysis and output",
+        "Inspect the report and filter context",
+        "Compare dimensions and measures",
+        "Inspect failures and changes over time",
+        "Inspect the analytical view",
+        "Build explicit dashboard measures",
+        "Reconcile the source and report",
+        "The finished experience",
+        "The finished experience"
+      ],
+      "hasNarration": true,
+      "revision": "20261124d",
+      "editorialApproval": false,
+      "technicalQa": {
+        "passed": true,
+        "fullDecode": true,
+        "peakDb": -2.8
+      }
+    },
+    "acumelo-chris-design-demo-20261124d": {
+      "mediaId": "acumelo-chris-design-demo-20261124d",
+      "id": "acumelo-chris-design-demo-20261124d",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "design",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "From direction to motion",
+        "ko": "Chris · AI 디자인·콘텐츠 · 시연"
+      },
+      "src": "assets/media/20261124d/chris-design-demo-20261124d.mp4",
+      "poster": "assets/media/20261124d/posters/chris-design-demo-20261124d.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261124d/captions/chris-design-demo-20261124d.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 53.8,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true,
+        "voiceId": "am_michael"
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "f66e4c117170ff3d904e677f6876439872b0fa0ae78918857ec21a8e40ae7c1d",
+      "bytes": 6868113,
+      "assignedInstructorId": "instructor-chris",
+      "voiceId": "am_michael",
+      "voiceRole": "instructor-demo",
+      "tools": [
+        "Figma",
+        "Adobe After Effects"
+      ],
+      "searchKeywords": [
+        "kinetic identity",
+        "motion campaign",
+        "figma",
+        "aftereffects",
+        "cinema4d",
+        "higgsfield",
+        "comfyui",
+        "resolve",
+        "피그마",
+        "애프터이펙트",
+        "에펙",
+        "Build reusable interface components",
+        "Shape the timing and composition",
+        "Build reusable interface components",
+        "Animate the layers and keyframes",
+        "Inspect the graph editor",
+        "Inspect the cloner and geometry",
+        "Review lighting and the rendered scene",
+        "Compare camera, lens, and movement",
+        "Trace the generation graph",
+        "Inspect the scene and asset structure",
+        "Edit the sequence and sound",
+        "Edit the sequence and sound",
+        "Compare responsive surfaces",
+        "Review timing, color, and the final frame",
+        "The finished experience"
+      ],
+      "hasNarration": true,
+      "revision": "20261124d",
+      "editorialApproval": false,
+      "technicalQa": {
+        "passed": true,
+        "fullDecode": true,
+        "peakDb": -2.8
+      }
+    },
+    "acumelo-chris-development-demo-20261124d": {
+      "mediaId": "acumelo-chris-development-demo-20261124d",
+      "id": "acumelo-chris-development-demo-20261124d",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "development",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "One service, many surfaces",
+        "ko": "Chris · AI 서비스 개발 · 시연"
+      },
+      "src": "assets/media/20261124d/chris-development-demo-20261124d.mp4",
+      "poster": "assets/media/20261124d/posters/chris-development-demo-20261124d.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261124d/captions/chris-development-demo-20261124d.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 55,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true,
+        "voiceId": "am_michael"
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "8f7255e0d1af11680ea16ab13d82feadf0e7602541ee7a601da9fda2f20a08cb",
+      "bytes": 5339318,
+      "assignedInstructorId": "instructor-chris",
+      "voiceId": "am_michael",
+      "voiceRole": "instructor-demo",
+      "tools": [
+        "Visual Studio Code",
+        "Flutter / Dart"
+      ],
+      "searchKeywords": [
+        "knowledge workspace",
+        "web and mobile service",
+        "vscode",
+        "flutter",
+        "firebase",
+        "langflow",
+        "unity",
+        "unreal",
+        "플러터",
+        "유니티",
+        "언리얼",
+        "Inspect the architecture and source",
+        "Build the Flutter interface in Dart",
+        "Inspect the architecture and source",
+        "Trace data and interface state",
+        "Compare the mobile state and source",
+        "Review a testable service boundary",
+        "Check the access rules",
+        "Trace retrieval through the flow",
+        "Work in the Unity scene and Inspector",
+        "Trace the Blueprint event graph",
+        "Check tests before publishing",
+        "The finished experience",
+        "The finished experience"
+      ],
+      "hasNarration": true,
+      "revision": "20261124d",
+      "editorialApproval": false,
+      "technicalQa": {
+        "passed": true,
+        "fullDecode": true,
+        "peakDb": -2.8
+      }
+    },
+    "acumelo-chris-marketing-demo-20261124d": {
+      "mediaId": "acumelo-chris-marketing-demo-20261124d",
+      "id": "acumelo-chris-marketing-demo-20261124d",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "marketing",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "A campaign with a feedback loop",
+        "ko": "Chris · AI 마케팅·세일즈 · 시연"
+      },
+      "src": "assets/media/20261124d/chris-marketing-demo-20261124d.mp4",
+      "poster": "assets/media/20261124d/posters/chris-marketing-demo-20261124d.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261124d/captions/chris-marketing-demo-20261124d.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 54.06666666666667,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true,
+        "voiceId": "am_michael"
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "ba1b5456c257e52ce275517ebdcec5a7f6599d6c8111e4998d4da1248481efe0",
+      "bytes": 4538750,
+      "assignedInstructorId": "instructor-chris",
+      "voiceId": "am_michael",
+      "voiceRole": "instructor-demo",
+      "tools": [
+        "ChatGPT",
+        "HubSpot",
+        "Google Analytics 4",
+        "n8n",
+        "Looker Studio",
+        "Figma"
+      ],
+      "searchKeywords": [
+        "multi-channel launch",
+        "campaign dashboard",
+        "chatgpt",
+        "hubspot",
+        "ga4",
+        "figma",
+        "n8n",
+        "looker",
+        "챗지피티",
+        "피그마",
+        "자동화",
+        "Structure the task in ChatGPT",
+        "Connect contacts and lifecycle stages",
+        "Structure the task in ChatGPT",
+        "Review the proposed output",
+        "Review the segment and follow-up",
+        "Compare the customer journey",
+        "Structure the task in ChatGPT",
+        "Inspect acquisition and conversion events",
+        "Inspect the input and output contract",
+        "Review the decision dashboard",
+        "Compare the customer journey",
+        "Compare responsive surfaces",
+        "Trace approval and recovery paths",
+        "Review the decision dashboard",
+        "The finished experience"
+      ],
+      "hasNarration": true,
+      "revision": "20261124d",
+      "editorialApproval": false,
+      "technicalQa": {
+        "passed": true,
+        "fullDecode": true,
+        "peakDb": -2.7
+      }
+    },
+    "acumelo-chris-strategy-demo-20261124d": {
+      "mediaId": "acumelo-chris-strategy-demo-20261124d",
+      "id": "acumelo-chris-strategy-demo-20261124d",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "strategy",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "An AI operating model",
+        "ko": "Chris · AI 기획·프로젝트 관리 · 시연"
+      },
+      "src": "assets/media/20261124d/chris-strategy-demo-20261124d.mp4",
+      "poster": "assets/media/20261124d/posters/chris-strategy-demo-20261124d.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261124d/captions/chris-strategy-demo-20261124d.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 50.4,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true,
+        "voiceId": "am_michael"
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "6fbee0282d02d4c281fb91ca2f3386dfe9d734768954b85669f953d9e4a04d7f",
+      "bytes": 4410441,
+      "assignedInstructorId": "instructor-chris",
+      "voiceId": "am_michael",
+      "voiceRole": "instructor-demo",
+      "tools": [
+        "Notion",
+        "Claude",
+        "Miro",
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Jira"
+      ],
+      "searchKeywords": [
+        "AI adoption roadmap",
+        "decision brief",
+        "notion",
+        "claude",
+        "miro",
+        "jira",
+        "excel",
+        "powerpoint",
+        "클로드",
+        "엑셀",
+        "스프레드시트",
+        "파워포인트",
+        "피피티",
+        "PPT",
+        "Maintain the shared decision brief",
+        "Challenge the rules with Claude",
+        "Maintain the shared decision brief",
+        "Track owners and next actions",
+        "Review the artifact and its assumptions",
+        "Connect the opportunity to an experiment",
+        "Maintain the shared decision brief",
+        "Map evidence, dependencies, and decisions",
+        "Check the formula and exceptions",
+        "Review the slide structure",
+        "Connect the opportunity to an experiment",
+        "Track delivery and acceptance criteria",
+        "Reconcile the source and report",
+        "Turn evidence into a clear story",
+        "The finished experience"
+      ],
+      "hasNarration": true,
+      "revision": "20261124d",
+      "editorialApproval": false,
+      "technicalQa": {
+        "passed": true,
+        "fullDecode": true,
+        "peakDb": -2.7
+      }
+    },
+    "acumelo-chris-workflow-demo-20261124d": {
+      "mediaId": "acumelo-chris-workflow-demo-20261124d",
+      "id": "acumelo-chris-workflow-demo-20261124d",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "workflow",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "Weekly reporting, connected",
+        "ko": "Chris · AI 업무혁신·자동화 · 시연"
+      },
+      "src": "assets/media/20261124d/chris-workflow-demo-20261124d.mp4",
+      "poster": "assets/media/20261124d/posters/chris-workflow-demo-20261124d.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261124d/captions/chris-workflow-demo-20261124d.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 51,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true,
+        "voiceId": "am_michael"
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "5e12e7d128f72f492849cccfea457a771ebc199031d80470d1159e687e74086f",
+      "bytes": 5113179,
+      "assignedInstructorId": "instructor-chris",
+      "voiceId": "am_michael",
+      "voiceRole": "instructor-demo",
+      "tools": [
+        "Microsoft Excel",
+        "ChatGPT",
+        "Microsoft Word",
+        "Microsoft PowerPoint",
+        "n8n",
+        "Microsoft Outlook"
+      ],
+      "searchKeywords": [
+        "weekly operations",
+        "board-ready report",
+        "excel",
+        "chatgpt",
+        "n8n",
+        "powerpoint",
+        "word",
+        "outlook",
+        "엑셀",
+        "스프레드시트",
+        "챗지피티",
+        "자동화",
+        "파워포인트",
+        "피피티",
+        "PPT",
+        "워드",
+        "문서",
+        "아웃룩",
+        "메일",
+        "Validate the source table",
+        "Turn intent into a reporting brief",
+        "Inspect the calculation",
+        "A structured request",
+        "From table to evidence",
+        "A reviewable explanation",
+        "The same evidence, clearly presented",
+        "Connect the reporting workflow",
+        "Inspect the JSON contract",
+        "Approval and recovery paths",
+        "Execution trace",
+        "Source and report, side by side",
+        "A draft ready for human review",
+        "Schedule the next run",
+        "The team sees the next action"
+      ],
+      "hasNarration": true,
+      "revision": "20261124d",
+      "editorialApproval": false,
+      "technicalQa": {
+        "passed": true,
+        "fullDecode": true,
+        "peakDb": -2.7
+      }
+    },
+    "acumelo-design-showcase-20261124d": {
+      "mediaId": "acumelo-design-showcase-20261124d",
+      "id": "acumelo-design-showcase-20261124d",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "design",
+      "kind": "project",
+      "scope": "category",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "AI Design & Content / Project possibilities",
+        "ko": "AI 디자인·콘텐츠 · 결과물 예시"
+      },
+      "src": "assets/media/20261124d/design-showcase-20261124d.mp4",
+      "poster": "assets/media/20261124d/posters/design-showcase-20261124d.jpg",
+      "captions": [],
+      "durationSeconds": 31.333333333333332,
+      "narration": null,
+      "hasBgm": true,
+      "projectCount": 24,
+      "sha256": "eb68261a12bb3e2862ac0a7c2012e1148c1f6c194b116058a8a1ad8dc92b5600",
+      "bytes": 6236065,
+      "assignedInstructorId": null,
+      "voiceId": null,
+      "voiceRole": "shared-project-music",
+      "hasNarration": false,
+      "revision": "20261124d",
+      "editorialApproval": false,
+      "technicalQa": {
+        "passed": true,
+        "fullDecode": true,
+        "peakDb": -13.7
+      }
+    },
+    "acumelo-development-showcase-20261124d": {
+      "mediaId": "acumelo-development-showcase-20261124d",
+      "id": "acumelo-development-showcase-20261124d",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "development",
+      "kind": "project",
+      "scope": "category",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "AI Service Development / Project possibilities",
+        "ko": "AI 서비스 개발 · 결과물 예시"
+      },
+      "src": "assets/media/20261124d/development-showcase-20261124d.mp4",
+      "poster": "assets/media/20261124d/posters/development-showcase-20261124d.jpg",
+      "captions": [],
+      "durationSeconds": 31.466666666666665,
+      "narration": null,
+      "hasBgm": true,
+      "projectCount": 24,
+      "sha256": "bf643db15809aaa6d874ad8bfb61c450e9ec446adfcb476b26a26a9720239828",
+      "bytes": 5055849,
+      "assignedInstructorId": null,
+      "voiceId": null,
+      "voiceRole": "shared-project-music",
+      "hasNarration": false,
+      "revision": "20261124d",
+      "editorialApproval": false,
+      "technicalQa": {
+        "passed": true,
+        "fullDecode": true,
+        "peakDb": -14.1
+      }
+    },
+    "acumelo-marketing-showcase-20261124d": {
+      "mediaId": "acumelo-marketing-showcase-20261124d",
+      "id": "acumelo-marketing-showcase-20261124d",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "marketing",
+      "kind": "project",
+      "scope": "category",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "AI Marketing & Sales / Project possibilities",
+        "ko": "AI 마케팅·세일즈 · 결과물 예시"
+      },
+      "src": "assets/media/20261124d/marketing-showcase-20261124d.mp4",
+      "poster": "assets/media/20261124d/posters/marketing-showcase-20261124d.jpg",
+      "captions": [],
+      "durationSeconds": 31.333333333333332,
+      "narration": null,
+      "hasBgm": true,
+      "projectCount": 24,
+      "sha256": "96e0de8a281c263a372f4e89a0060257c80bb7dd224ff9382ec2541a7059f923",
+      "bytes": 3850991,
+      "assignedInstructorId": null,
+      "voiceId": null,
+      "voiceRole": "shared-project-music",
+      "hasNarration": false,
+      "revision": "20261124d",
+      "editorialApproval": false,
+      "technicalQa": {
+        "passed": true,
+        "fullDecode": true,
+        "peakDb": -14
+      }
+    },
+    "acumelo-pillow-design-demo-20261124d": {
+      "mediaId": "acumelo-pillow-design-demo-20261124d",
+      "id": "acumelo-pillow-design-demo-20261124d",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "design",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "Make a visual system move",
+        "ko": "Pillow · AI 디자인·콘텐츠 · 시연"
+      },
+      "src": "assets/media/20261124d/pillow-design-demo-20261124d.mp4",
+      "poster": "assets/media/20261124d/posters/pillow-design-demo-20261124d.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261124d/captions/pillow-design-demo-20261124d.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 74.1,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true,
+        "voiceId": "af_nicole"
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "61b77041431a08272bcb45e9b8ff0603e582a7bb000119252a759b04063fe68d",
+      "bytes": 8388831,
+      "assignedInstructorId": "instructor-03",
+      "voiceId": "af_nicole",
+      "voiceRole": "instructor-demo",
+      "tools": [
+        "Adobe After Effects",
+        "Cinema 4D"
+      ],
+      "searchKeywords": [
+        "interactive exhibition",
+        "generative installation",
+        "aftereffects",
+        "cinema4d",
+        "comfyui",
+        "higgsfield",
+        "blender",
+        "resolve",
+        "애프터이펙트",
+        "에펙",
+        "블렌더",
+        "Shape the timing and composition",
+        "Build the camera and material system",
+        "Shape the timing and composition",
+        "Animate the layers and keyframes",
+        "Inspect the graph editor",
+        "Inspect the cloner and geometry",
+        "Review lighting and the rendered scene",
+        "Compare camera, lens, and movement",
+        "Trace the generation graph",
+        "Inspect the scene and asset structure",
+        "Edit the sequence and sound",
+        "Edit the sequence and sound",
+        "Compare responsive surfaces",
+        "Review timing, color, and the final frame",
+        "The finished experience"
+      ],
+      "hasNarration": true,
+      "revision": "20261124d",
+      "editorialApproval": false,
+      "technicalQa": {
+        "passed": true,
+        "fullDecode": true,
+        "peakDb": -2.9
+      }
+    },
+    "acumelo-pillow-development-demo-20261124d": {
+      "mediaId": "acumelo-pillow-development-demo-20261124d",
+      "id": "acumelo-pillow-development-demo-20261124d",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "development",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "Turn a scene into an experience",
+        "ko": "Pillow · AI 서비스 개발 · 시연"
+      },
+      "src": "assets/media/20261124d/pillow-development-demo-20261124d.mp4",
+      "poster": "assets/media/20261124d/posters/pillow-development-demo-20261124d.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261124d/captions/pillow-development-demo-20261124d.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 74.43333333333334,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true,
+        "voiceId": "af_nicole"
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "47d59bbf13fabad1a31935028214a25d8b629e0bf47136608b46ab2703fedac4",
+      "bytes": 8605192,
+      "assignedInstructorId": "instructor-03",
+      "voiceId": "af_nicole",
+      "voiceRole": "instructor-demo",
+      "tools": [
+        "Visual Studio Code",
+        "Unity"
+      ],
+      "searchKeywords": [
+        "interactive gallery",
+        "interactive browser gallery",
+        "vscode",
+        "unity",
+        "unreal",
+        "blender",
+        "firebase",
+        "github",
+        "유니티",
+        "언리얼",
+        "블렌더",
+        "Inspect the architecture and source",
+        "Work in the Unity scene and Inspector",
+        "Inspect the architecture and source",
+        "Trace data and interface state",
+        "Review a testable service boundary",
+        "Inspect the architecture and source",
+        "Work in the Unity scene and Inspector",
+        "Trace the Blueprint event graph",
+        "Review geometry, lighting, and render",
+        "Inspect Firestore records",
+        "Check tests before publishing",
+        "The finished experience",
+        "The finished experience"
+      ],
+      "hasNarration": true,
+      "revision": "20261124d",
+      "editorialApproval": false,
+      "technicalQa": {
+        "passed": true,
+        "fullDecode": true,
+        "peakDb": -2.7
+      }
+    },
+    "acumelo-sage-design-demo-20261124d": {
+      "mediaId": "acumelo-sage-design-demo-20261124d",
+      "id": "acumelo-sage-design-demo-20261124d",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "design",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "Design the complete journey",
+        "ko": "Sage · AI 디자인·콘텐츠 · 시연"
+      },
+      "src": "assets/media/20261124d/sage-design-demo-20261124d.mp4",
+      "poster": "assets/media/20261124d/posters/sage-design-demo-20261124d.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261124d/captions/sage-design-demo-20261124d.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 51.06666666666667,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true,
+        "voiceId": "af_heart"
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "8e56a1c188d1bafa89179662ca1288616e1e747ffde8c2c73668e56cc94ee83d",
+      "bytes": 5602473,
+      "assignedInstructorId": "instructor-sage",
+      "voiceId": "af_heart",
+      "voiceRole": "instructor-demo",
+      "tools": [
+        "Figma",
+        "Claude"
+      ],
+      "searchKeywords": [
+        "booking interface",
+        "responsive design system",
+        "figma",
+        "claude",
+        "aftereffects",
+        "canva",
+        "blender",
+        "resolve",
+        "피그마",
+        "클로드",
+        "애프터이펙트",
+        "에펙",
+        "블렌더",
+        "Build reusable interface components",
+        "Challenge the rules with Claude",
+        "Build reusable interface components",
+        "Inspect layout, spacing, and states",
+        "Review the artifact and its assumptions",
+        "Compare responsive surfaces",
+        "Inspect the graph editor",
+        "Review layout and type at delivery size",
+        "Review geometry, lighting, and render",
+        "Inspect the scene and asset structure",
+        "Edit the sequence and sound",
+        "Edit the sequence and sound",
+        "Compare responsive surfaces",
+        "Review timing, color, and the final frame",
+        "The finished experience"
+      ],
+      "hasNarration": true,
+      "revision": "20261124d",
+      "editorialApproval": false,
+      "technicalQa": {
+        "passed": true,
+        "fullDecode": true,
+        "peakDb": -2.6
+      }
+    },
+    "acumelo-sage-development-demo-20261124d": {
+      "mediaId": "acumelo-sage-development-demo-20261124d",
+      "id": "acumelo-sage-development-demo-20261124d",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "development",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "A booking flow that feels effortless",
+        "ko": "Sage · AI 서비스 개발 · 시연"
+      },
+      "src": "assets/media/20261124d/sage-development-demo-20261124d.mp4",
+      "poster": "assets/media/20261124d/posters/sage-development-demo-20261124d.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261124d/captions/sage-development-demo-20261124d.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 48.63333333333333,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true,
+        "voiceId": "af_heart"
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "1ec62017c65b989e6e270eb180d7b7385c08c6fa5aa764fead4d52b05c4082b4",
+      "bytes": 4534069,
+      "assignedInstructorId": "instructor-sage",
+      "voiceId": "af_heart",
+      "voiceRole": "instructor-demo",
+      "tools": [
+        "Visual Studio Code",
+        "Flutter / Dart"
+      ],
+      "searchKeywords": [
+        "appointment booking",
+        "booking application",
+        "vscode",
+        "flutter",
+        "supabase",
+        "figma",
+        "firebase",
+        "github",
+        "플러터",
+        "피그마",
+        "Inspect the architecture and source",
+        "Build the Flutter interface in Dart",
+        "Inspect the architecture and source",
+        "Trace data and interface state",
+        "Compare the mobile state and source",
+        "Build the Flutter interface in Dart",
+        "Trace the query and access boundary",
+        "Compare responsive surfaces",
+        "Check the access rules",
+        "Check tests before publishing",
+        "Check tests before publishing",
+        "The finished experience",
+        "The finished experience"
+      ],
+      "hasNarration": true,
+      "revision": "20261124d",
+      "editorialApproval": false,
+      "technicalQa": {
+        "passed": true,
+        "fullDecode": true,
+        "peakDb": -2.7
+      }
+    },
+    "acumelo-sage-strategy-demo-20261124d": {
+      "mediaId": "acumelo-sage-strategy-demo-20261124d",
+      "id": "acumelo-sage-strategy-demo-20261124d",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "strategy",
+      "kind": "demo",
+      "scope": "instructor",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "Find the right product to build",
+        "ko": "Sage · AI 기획·프로젝트 관리 · 시연"
+      },
+      "src": "assets/media/20261124d/sage-strategy-demo-20261124d.mp4",
+      "poster": "assets/media/20261124d/posters/sage-strategy-demo-20261124d.jpg",
+      "captions": [
+        {
+          "src": "assets/media/20261124d/captions/sage-strategy-demo-20261124d.vtt",
+          "srclang": "en",
+          "label": "English"
+        }
+      ],
+      "durationSeconds": 46.96666666666667,
+      "narration": {
+        "language": "en",
+        "temporaryVoice": true,
+        "voiceId": "af_heart"
+      },
+      "hasBgm": true,
+      "projectCount": 0,
+      "sha256": "04794714fdd7d9db615edcf22239054aee87b9b99ca756e6ce16169e22975775",
+      "bytes": 3871756,
+      "assignedInstructorId": "instructor-sage",
+      "voiceId": "af_heart",
+      "voiceRole": "instructor-demo",
+      "tools": [
+        "Miro",
+        "Gemini",
+        "Notion",
+        "Figma",
+        "Microsoft PowerPoint",
+        "Jira"
+      ],
+      "searchKeywords": [
+        "booking experience",
+        "validated product brief",
+        "miro",
+        "gemini",
+        "notion",
+        "jira",
+        "figma",
+        "powerpoint",
+        "제미나이",
+        "피그마",
+        "파워포인트",
+        "피피티",
+        "PPT",
+        "Map evidence, dependencies, and decisions",
+        "Structure the evidence with Gemini",
+        "Map evidence, dependencies, and decisions",
+        "Connect the opportunity to an experiment",
+        "Compare the proposed next steps",
+        "Track owners and next actions",
+        "Map evidence, dependencies, and decisions",
+        "Maintain the shared decision brief",
+        "Inspect layout, spacing, and states",
+        "Review the slide structure",
+        "Track owners and next actions",
+        "Track delivery and acceptance criteria",
+        "Compare responsive surfaces",
+        "Turn evidence into a clear story",
+        "The finished experience"
+      ],
+      "hasNarration": true,
+      "revision": "20261124d",
+      "editorialApproval": false,
+      "technicalQa": {
+        "passed": true,
+        "fullDecode": true,
+        "peakDb": -2.8
+      }
+    },
+    "acumelo-strategy-showcase-20261124d": {
+      "mediaId": "acumelo-strategy-showcase-20261124d",
+      "id": "acumelo-strategy-showcase-20261124d",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "strategy",
+      "kind": "project",
+      "scope": "category",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "AI Strategy & Project Management / Project possibilities",
+        "ko": "AI 기획·프로젝트 관리 · 결과물 예시"
+      },
+      "src": "assets/media/20261124d/strategy-showcase-20261124d.mp4",
+      "poster": "assets/media/20261124d/posters/strategy-showcase-20261124d.jpg",
+      "captions": [],
+      "durationSeconds": 32.2,
+      "narration": null,
+      "hasBgm": true,
+      "projectCount": 24,
+      "sha256": "4b6d039740aef3b73abb9d36037afe45df675433902d77bcc025b8d173253bbd",
+      "bytes": 2528303,
+      "assignedInstructorId": null,
+      "voiceId": null,
+      "voiceRole": "shared-project-music",
+      "hasNarration": false,
+      "revision": "20261124d",
+      "editorialApproval": false,
+      "technicalQa": {
+        "passed": true,
+        "fullDecode": true,
+        "peakDb": -14.1
+      }
+    },
+    "acumelo-workflow-showcase-20261124d": {
+      "mediaId": "acumelo-workflow-showcase-20261124d",
+      "id": "acumelo-workflow-showcase-20261124d",
+      "contentOwnerId": "instructor-chris",
+      "fieldId": "workflow",
+      "kind": "project",
+      "scope": "category",
+      "status": "ready",
+      "illustrative": true,
+      "title": {
+        "en": "AI Workflow & Automation / Project possibilities",
+        "ko": "AI 업무혁신·자동화 · 결과물 예시"
+      },
+      "src": "assets/media/20261124d/workflow-showcase-20261124d.mp4",
+      "poster": "assets/media/20261124d/posters/workflow-showcase-20261124d.jpg",
+      "captions": [],
+      "durationSeconds": 31.633333333333333,
+      "narration": null,
+      "hasBgm": true,
+      "projectCount": 24,
+      "sha256": "dd2eb43679f8c7c11cb7286b342058dfbd20ad79a08083ac2db2598183dcef0d",
+      "bytes": 2466008,
+      "assignedInstructorId": null,
+      "voiceId": null,
+      "voiceRole": "shared-project-music",
+      "hasNarration": false,
+      "revision": "20261124d",
+      "editorialApproval": false,
+      "technicalQa": {
+        "passed": true,
+        "fullDecode": true,
+        "peakDb": -14
+      }
     }
   },
   "mediaAssignments": [
@@ -4725,7 +5776,7 @@ window.ACUMELO = {
       "fieldId": "workflow",
       "placement": "profile-demo",
       "temporaryAssignment": false,
-      "status": "active"
+      "status": "superseded"
     },
     {
       "assignmentId": "assignment-chris-strategy-demo",
@@ -4734,7 +5785,7 @@ window.ACUMELO = {
       "fieldId": "strategy",
       "placement": "profile-demo",
       "temporaryAssignment": false,
-      "status": "active"
+      "status": "superseded"
     },
     {
       "assignmentId": "assignment-chris-design-demo",
@@ -4743,7 +5794,7 @@ window.ACUMELO = {
       "fieldId": "design",
       "placement": "profile-demo",
       "temporaryAssignment": false,
-      "status": "active"
+      "status": "superseded"
     },
     {
       "assignmentId": "assignment-chris-analytics-demo",
@@ -4752,7 +5803,7 @@ window.ACUMELO = {
       "fieldId": "analytics",
       "placement": "profile-demo",
       "temporaryAssignment": false,
-      "status": "active"
+      "status": "superseded"
     },
     {
       "assignmentId": "assignment-chris-marketing-demo",
@@ -4761,7 +5812,7 @@ window.ACUMELO = {
       "fieldId": "marketing",
       "placement": "profile-demo",
       "temporaryAssignment": false,
-      "status": "active"
+      "status": "superseded"
     },
     {
       "assignmentId": "assignment-chris-development-demo",
@@ -4770,7 +5821,7 @@ window.ACUMELO = {
       "fieldId": "development",
       "placement": "profile-demo",
       "temporaryAssignment": false,
-      "status": "active"
+      "status": "superseded"
     },
     {
       "assignmentId": "assignment-sage-strategy-demo",
@@ -4779,7 +5830,7 @@ window.ACUMELO = {
       "fieldId": "strategy",
       "placement": "profile-demo",
       "temporaryAssignment": true,
-      "status": "active"
+      "status": "superseded"
     },
     {
       "assignmentId": "assignment-sage-design-demo",
@@ -4788,7 +5839,7 @@ window.ACUMELO = {
       "fieldId": "design",
       "placement": "profile-demo",
       "temporaryAssignment": true,
-      "status": "active"
+      "status": "superseded"
     },
     {
       "assignmentId": "assignment-sage-development-demo",
@@ -4797,7 +5848,7 @@ window.ACUMELO = {
       "fieldId": "development",
       "placement": "profile-demo",
       "temporaryAssignment": true,
-      "status": "active"
+      "status": "superseded"
     },
     {
       "assignmentId": "assignment-pillow-design-demo",
@@ -4806,7 +5857,7 @@ window.ACUMELO = {
       "fieldId": "design",
       "placement": "profile-demo",
       "temporaryAssignment": true,
-      "status": "active"
+      "status": "superseded"
     },
     {
       "assignmentId": "assignment-pillow-development-demo",
@@ -4815,7 +5866,7 @@ window.ACUMELO = {
       "fieldId": "development",
       "placement": "profile-demo",
       "temporaryAssignment": true,
-      "status": "active"
+      "status": "superseded"
     },
     {
       "assignmentId": "assignment-john-workflow-demo",
@@ -4968,7 +6019,7 @@ window.ACUMELO = {
       "fieldId": "workflow",
       "placement": "course-project",
       "temporaryAssignment": false,
-      "status": "active"
+      "status": "superseded"
     },
     {
       "assignmentId": "assignment-strategy-overview",
@@ -4986,7 +6037,7 @@ window.ACUMELO = {
       "fieldId": "strategy",
       "placement": "course-project",
       "temporaryAssignment": false,
-      "status": "active"
+      "status": "superseded"
     },
     {
       "assignmentId": "assignment-design-overview",
@@ -5004,7 +6055,7 @@ window.ACUMELO = {
       "fieldId": "design",
       "placement": "course-project",
       "temporaryAssignment": false,
-      "status": "active"
+      "status": "superseded"
     },
     {
       "assignmentId": "assignment-analytics-overview",
@@ -5022,7 +6073,7 @@ window.ACUMELO = {
       "fieldId": "analytics",
       "placement": "course-project",
       "temporaryAssignment": false,
-      "status": "active"
+      "status": "superseded"
     },
     {
       "assignmentId": "assignment-marketing-overview",
@@ -5040,7 +6091,7 @@ window.ACUMELO = {
       "fieldId": "marketing",
       "placement": "course-project",
       "temporaryAssignment": false,
-      "status": "active"
+      "status": "superseded"
     },
     {
       "assignmentId": "assignment-development-overview",
@@ -5058,7 +6109,177 @@ window.ACUMELO = {
       "fieldId": "development",
       "placement": "course-project",
       "temporaryAssignment": false,
-      "status": "active"
+      "status": "superseded"
+    },
+    {
+      "assignmentId": "assignment-analytics-showcase-20261124d",
+      "mediaId": "acumelo-analytics-showcase-20261124d",
+      "assignedInstructorId": null,
+      "fieldId": "analytics",
+      "placement": "course-project",
+      "temporaryAssignment": false,
+      "status": "active",
+      "replacesAssignmentId": "assignment-analytics-showcase"
+    },
+    {
+      "assignmentId": "assignment-chris-analytics-demo-20261124d",
+      "mediaId": "acumelo-chris-analytics-demo-20261124d",
+      "assignedInstructorId": "instructor-chris",
+      "fieldId": "analytics",
+      "placement": "profile-demo",
+      "temporaryAssignment": false,
+      "status": "active",
+      "replacesAssignmentId": "assignment-chris-analytics-demo"
+    },
+    {
+      "assignmentId": "assignment-chris-design-demo-20261124d",
+      "mediaId": "acumelo-chris-design-demo-20261124d",
+      "assignedInstructorId": "instructor-chris",
+      "fieldId": "design",
+      "placement": "profile-demo",
+      "temporaryAssignment": false,
+      "status": "active",
+      "replacesAssignmentId": "assignment-chris-design-demo"
+    },
+    {
+      "assignmentId": "assignment-chris-development-demo-20261124d",
+      "mediaId": "acumelo-chris-development-demo-20261124d",
+      "assignedInstructorId": "instructor-chris",
+      "fieldId": "development",
+      "placement": "profile-demo",
+      "temporaryAssignment": false,
+      "status": "active",
+      "replacesAssignmentId": "assignment-chris-development-demo"
+    },
+    {
+      "assignmentId": "assignment-chris-marketing-demo-20261124d",
+      "mediaId": "acumelo-chris-marketing-demo-20261124d",
+      "assignedInstructorId": "instructor-chris",
+      "fieldId": "marketing",
+      "placement": "profile-demo",
+      "temporaryAssignment": false,
+      "status": "active",
+      "replacesAssignmentId": "assignment-chris-marketing-demo"
+    },
+    {
+      "assignmentId": "assignment-chris-strategy-demo-20261124d",
+      "mediaId": "acumelo-chris-strategy-demo-20261124d",
+      "assignedInstructorId": "instructor-chris",
+      "fieldId": "strategy",
+      "placement": "profile-demo",
+      "temporaryAssignment": false,
+      "status": "active",
+      "replacesAssignmentId": "assignment-chris-strategy-demo"
+    },
+    {
+      "assignmentId": "assignment-chris-workflow-demo-20261124d",
+      "mediaId": "acumelo-chris-workflow-demo-20261124d",
+      "assignedInstructorId": "instructor-chris",
+      "fieldId": "workflow",
+      "placement": "profile-demo",
+      "temporaryAssignment": false,
+      "status": "active",
+      "replacesAssignmentId": "assignment-chris-workflow-demo"
+    },
+    {
+      "assignmentId": "assignment-design-showcase-20261124d",
+      "mediaId": "acumelo-design-showcase-20261124d",
+      "assignedInstructorId": null,
+      "fieldId": "design",
+      "placement": "course-project",
+      "temporaryAssignment": false,
+      "status": "active",
+      "replacesAssignmentId": "assignment-design-showcase"
+    },
+    {
+      "assignmentId": "assignment-development-showcase-20261124d",
+      "mediaId": "acumelo-development-showcase-20261124d",
+      "assignedInstructorId": null,
+      "fieldId": "development",
+      "placement": "course-project",
+      "temporaryAssignment": false,
+      "status": "active",
+      "replacesAssignmentId": "assignment-development-showcase"
+    },
+    {
+      "assignmentId": "assignment-marketing-showcase-20261124d",
+      "mediaId": "acumelo-marketing-showcase-20261124d",
+      "assignedInstructorId": null,
+      "fieldId": "marketing",
+      "placement": "course-project",
+      "temporaryAssignment": false,
+      "status": "active",
+      "replacesAssignmentId": "assignment-marketing-showcase"
+    },
+    {
+      "assignmentId": "assignment-pillow-design-demo-20261124d",
+      "mediaId": "acumelo-pillow-design-demo-20261124d",
+      "assignedInstructorId": "instructor-03",
+      "fieldId": "design",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active",
+      "replacesAssignmentId": "assignment-pillow-design-demo"
+    },
+    {
+      "assignmentId": "assignment-pillow-development-demo-20261124d",
+      "mediaId": "acumelo-pillow-development-demo-20261124d",
+      "assignedInstructorId": "instructor-03",
+      "fieldId": "development",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active",
+      "replacesAssignmentId": "assignment-pillow-development-demo"
+    },
+    {
+      "assignmentId": "assignment-sage-design-demo-20261124d",
+      "mediaId": "acumelo-sage-design-demo-20261124d",
+      "assignedInstructorId": "instructor-sage",
+      "fieldId": "design",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active",
+      "replacesAssignmentId": "assignment-sage-design-demo"
+    },
+    {
+      "assignmentId": "assignment-sage-development-demo-20261124d",
+      "mediaId": "acumelo-sage-development-demo-20261124d",
+      "assignedInstructorId": "instructor-sage",
+      "fieldId": "development",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active",
+      "replacesAssignmentId": "assignment-sage-development-demo"
+    },
+    {
+      "assignmentId": "assignment-sage-strategy-demo-20261124d",
+      "mediaId": "acumelo-sage-strategy-demo-20261124d",
+      "assignedInstructorId": "instructor-sage",
+      "fieldId": "strategy",
+      "placement": "profile-demo",
+      "temporaryAssignment": true,
+      "status": "active",
+      "replacesAssignmentId": "assignment-sage-strategy-demo"
+    },
+    {
+      "assignmentId": "assignment-strategy-showcase-20261124d",
+      "mediaId": "acumelo-strategy-showcase-20261124d",
+      "assignedInstructorId": null,
+      "fieldId": "strategy",
+      "placement": "course-project",
+      "temporaryAssignment": false,
+      "status": "active",
+      "replacesAssignmentId": "assignment-strategy-showcase"
+    },
+    {
+      "assignmentId": "assignment-workflow-showcase-20261124d",
+      "mediaId": "acumelo-workflow-showcase-20261124d",
+      "assignedInstructorId": null,
+      "fieldId": "workflow",
+      "placement": "course-project",
+      "temporaryAssignment": false,
+      "status": "active",
+      "replacesAssignmentId": "assignment-workflow-showcase"
     }
   ]
 };

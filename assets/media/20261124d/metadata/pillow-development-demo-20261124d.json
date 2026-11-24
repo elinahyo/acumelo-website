@@ -1,0 +1,615 @@
+{
+  "id": "pillow-development-demo",
+  "mediaId": "acumelo-pillow-development-demo-20261124d",
+  "stem": "pillow-development-demo-20261124d",
+  "kind": "demo",
+  "scope": "instructor",
+  "name": "Pillow",
+  "instructorId": "instructor-03",
+  "fieldId": "development",
+  "title": "Turn a scene into an experience",
+  "topic": "interactive gallery",
+  "result": "interactive browser gallery",
+  "apps": [
+    "vscode",
+    "unity",
+    "unreal",
+    "blender",
+    "firebase",
+    "github"
+  ],
+  "variant": 2,
+  "color": "#8d9eff",
+  "voice": "af_nicole",
+  "bpm": 116,
+  "beats": [
+    {
+      "text": "Turn interactive gallery into a working product. Start with the interface, the data contract, and the boundaries between the client, the API, and the storage layer.",
+      "shots": [
+        {
+          "app": "vscode",
+          "title": "Inspect the architecture and source",
+          "tool": "Visual Studio Code",
+          "weight": 1.1
+        },
+        {
+          "app": "unity",
+          "title": "Work in the Unity scene and Inspector",
+          "tool": "Unity",
+          "weight": 1.35
+        },
+        {
+          "app": "vscode",
+          "title": "Inspect the architecture and source",
+          "tool": "Visual Studio Code",
+          "weight": 0.7,
+          "camera": "detail"
+        }
+      ]
+    },
+    {
+      "text": "Build the browser scene with Three dot js and React. Separate the camera, scene state, and interaction logic. A visitor should understand how to move and what can be selected without an explanation.",
+      "shots": [
+        {
+          "app": "vscode",
+          "stage": 1,
+          "weight": 1.5,
+          "title": "Trace data and interface state"
+        },
+        {
+          "app": "vscode",
+          "stage": 2,
+          "weight": 1.1,
+          "title": "Review a testable service boundary",
+          "camera": "detail"
+        },
+        {
+          "app": "vscode",
+          "stage": 3,
+          "weight": 1.5,
+          "title": "Inspect the architecture and source",
+          "split": "result"
+        }
+      ]
+    },
+    {
+      "text": "Compare the scene in Unity and Unreal, then inspect the Blender asset and Firebase content model. Test selection and loading before sending the browser experience through a repeatable GitHub release.",
+      "shots": [
+        {
+          "app": "unity",
+          "stage": 0,
+          "weight": 1.4,
+          "title": "Work in the Unity scene and Inspector"
+        },
+        {
+          "app": "unreal",
+          "stage": 2,
+          "weight": 1.6,
+          "title": "Trace the Blueprint event graph"
+        },
+        {
+          "app": "blender",
+          "stage": 1,
+          "weight": 1,
+          "title": "Review geometry, lighting, and render"
+        },
+        {
+          "app": "firebase",
+          "stage": 0,
+          "weight": 1,
+          "title": "Inspect Firestore records"
+        }
+      ]
+    },
+    {
+      "text": "Test the critical journey and prepare a repeatable release. The result is interactive browser gallery: a usable experience with a clear architecture, visible state, and a path to improve it.",
+      "shots": [
+        {
+          "app": "github",
+          "stage": 1,
+          "weight": 1.2,
+          "title": "Check tests before publishing"
+        },
+        {
+          "app": "result",
+          "stage": 3,
+          "weight": 1.7,
+          "title": "The finished experience",
+          "split": "vscode"
+        },
+        {
+          "app": "result",
+          "stage": 3,
+          "weight": 2.1,
+          "title": "The finished experience"
+        }
+      ]
+    }
+  ],
+  "contentOwnerId": "instructor-chris",
+  "temporaryAssignment": true,
+  "sourceHash": "fe06540c9b804785c441f20132d341f4a43c78c1feca72b0f19293e35e5cb03b",
+  "durationSeconds": 74.43333333333334,
+  "shots": [
+    {
+      "app": "vscode",
+      "title": "Inspect the architecture and source",
+      "tool": "Visual Studio Code",
+      "weight": 1.1,
+      "start": 1.17,
+      "duration": 3.549357058823529,
+      "beat": 0,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "vscode",
+      "title": "Inspect the architecture and source",
+      "tool": "Visual Studio Code",
+      "weight": 1.1,
+      "start": 4.719357058823529,
+      "duration": 1.4348464705882351,
+      "beat": 0,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "vscode",
+      "title": "Inspect the architecture and source",
+      "tool": "Visual Studio Code",
+      "weight": 1.1,
+      "start": 6.154203529411764,
+      "duration": 2.56762,
+      "beat": 0,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "unity",
+      "title": "Work in the Unity scene and Inspector",
+      "tool": "Unity",
+      "weight": 1.35,
+      "start": 8.721823529411765,
+      "duration": 2.974960784313726,
+      "beat": 0,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "vscode",
+      "title": "Inspect the architecture and source",
+      "tool": "Visual Studio Code",
+      "weight": 0.7,
+      "camera": "detail",
+      "start": 11.696784313725491,
+      "duration": 2.3662380392156863,
+      "beat": 0,
+      "editorialMode": "pip",
+      "transition": "cut",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "vscode",
+      "title": "Inspect the architecture and source",
+      "tool": "Visual Studio Code",
+      "weight": 0.7,
+      "camera": "detail",
+      "start": 14.063022352941177,
+      "duration": 0.9565643137254903,
+      "beat": 0,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "vscode",
+      "title": "Inspect the architecture and source",
+      "tool": "Visual Studio Code",
+      "weight": 0.7,
+      "camera": "detail",
+      "start": 15.019586666666667,
+      "duration": 1.711746666666667,
+      "beat": 0,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "vscode",
+      "stage": 1,
+      "weight": 1.5,
+      "title": "Trace data and interface state",
+      "start": 16.731333333333335,
+      "duration": 4.323032352941176,
+      "beat": 1,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "vscode",
+      "stage": 1,
+      "weight": 1.5,
+      "title": "Trace data and interface state",
+      "start": 21.05436568627451,
+      "duration": 1.7476088235294116,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "vscode",
+      "stage": 1,
+      "weight": 1.5,
+      "title": "Trace data and interface state",
+      "start": 22.801974509803923,
+      "duration": 3.1273,
+      "beat": 1,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "vscode",
+      "stage": 2,
+      "weight": 1.1,
+      "title": "Review a testable service boundary",
+      "camera": "detail",
+      "start": 25.929274509803925,
+      "duration": 3.6234313725490197,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "vscode",
+      "stage": 3,
+      "weight": 1.5,
+      "title": "Inspect the architecture and source",
+      "split": "result",
+      "start": 29.552705882352946,
+      "duration": 2.882021568627451,
+      "beat": 1,
+      "editorialMode": "split",
+      "transition": "cut",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "vscode",
+      "stage": 3,
+      "weight": 1.5,
+      "title": "Inspect the architecture and source",
+      "split": "result",
+      "start": 32.4347274509804,
+      "duration": 1.1650725490196079,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "vscode",
+      "stage": 3,
+      "weight": 1.5,
+      "title": "Inspect the architecture and source",
+      "split": "result",
+      "start": 33.5998,
+      "duration": 2.0848666666666666,
+      "beat": 1,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "unity",
+      "stage": 0,
+      "weight": 1.4,
+      "title": "Work in the Unity scene and Inspector",
+      "start": 35.68466666666667,
+      "duration": 2.5385576271186436,
+      "beat": 2,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "unity",
+      "stage": 0,
+      "weight": 1.4,
+      "title": "Work in the Unity scene and Inspector",
+      "start": 38.223224293785314,
+      "duration": 1.0262254237288133,
+      "beat": 2,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "unity",
+      "stage": 0,
+      "weight": 1.4,
+      "title": "Work in the Unity scene and Inspector",
+      "start": 39.249449717514125,
+      "duration": 1.8364033898305083,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "unreal",
+      "stage": 2,
+      "weight": 1.6,
+      "title": "Trace the Blueprint event graph",
+      "start": 41.08585310734464,
+      "duration": 2.12774011299435,
+      "beat": 2,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "blender",
+      "stage": 1,
+      "weight": 1,
+      "title": "Review geometry, lighting, and render",
+      "start": 43.21359322033899,
+      "duration": 3.6007909604519774,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "firebase",
+      "stage": 0,
+      "weight": 1,
+      "title": "Inspect Firestore records",
+      "start": 46.81438418079097,
+      "duration": 3.846299435028248,
+      "beat": 2,
+      "editorialMode": "pip",
+      "transition": "cut",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "firebase",
+      "stage": 0,
+      "weight": 1,
+      "title": "Inspect Firestore records",
+      "start": 50.66068361581922,
+      "duration": 1.5548870056497173,
+      "beat": 2,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "firebase",
+      "stage": 0,
+      "weight": 1,
+      "title": "Inspect Firestore records",
+      "start": 52.215570621468935,
+      "duration": 2.782429378531073,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "github",
+      "stage": 1,
+      "weight": 1.2,
+      "title": "Check tests before publishing",
+      "start": 54.998000000000005,
+      "duration": 4.223129705882352,
+      "beat": 3,
+      "editorialMode": "establish",
+      "transition": "dissolve",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "github",
+      "stage": 1,
+      "weight": 1.2,
+      "title": "Check tests before publishing",
+      "start": 59.221129705882355,
+      "duration": 1.7072226470588232,
+      "beat": 3,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "github",
+      "stage": 1,
+      "weight": 1.2,
+      "title": "Check tests before publishing",
+      "start": 60.928352352941175,
+      "duration": 3.0550299999999995,
+      "beat": 3,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    },
+    {
+      "app": "result",
+      "stage": 3,
+      "weight": 1.7,
+      "title": "The finished experience",
+      "split": "vscode",
+      "start": 63.98338235294118,
+      "duration": 3.5396960784313722,
+      "beat": 3,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "result",
+      "stage": 3,
+      "weight": 2.1,
+      "title": "The finished experience",
+      "start": 67.52307843137255,
+      "duration": 2.8154198039215688,
+      "beat": 3,
+      "editorialMode": "pip",
+      "transition": "cut",
+      "visualStart": 0,
+      "visualEnd": 0.47
+    },
+    {
+      "app": "result",
+      "stage": 3,
+      "weight": 2.1,
+      "title": "The finished experience",
+      "start": 70.33849823529413,
+      "duration": 1.138148431372549,
+      "beat": 3,
+      "editorialMode": "detail",
+      "transition": "cut",
+      "visualStart": 0.47,
+      "visualEnd": 0.6599999999999999
+    },
+    {
+      "app": "result",
+      "stage": 3,
+      "weight": 2.1,
+      "title": "The finished experience",
+      "start": 71.47664666666667,
+      "duration": 2.0366866666666668,
+      "beat": 3,
+      "editorialMode": "split",
+      "transition": "dissolve",
+      "visualStart": 0.66,
+      "visualEnd": 1
+    }
+  ],
+  "captions": [
+    {
+      "start": 1.25,
+      "end": 16.41133333333333,
+      "text": "Turn interactive gallery into a working product. Start with the interface, the data contract, and the boundaries between the client, the API, and the storage layer."
+    },
+    {
+      "start": 16.811333333333334,
+      "end": 35.364666666666665,
+      "text": "Build the browser scene with Three dot js and React. Separate the camera, scene state, and interaction logic. A visitor should understand how to move and what can be selected without an explanation."
+    },
+    {
+      "start": 35.76466666666667,
+      "end": 54.678000000000004,
+      "text": "Compare the scene in Unity and Unreal, then inspect the Blender asset and Firebase content model. Test selection and loading before sending the browser experience through a repeatable GitHub release."
+    },
+    {
+      "start": 55.078,
+      "end": 73.19333333333333,
+      "text": "Test the critical journey and prepare a repeatable release. The result is interactive browser gallery: a usable experience with a clear architecture, visible state, and a path to improve it."
+    }
+  ],
+  "audio": {
+    "sampleRate": 24000,
+    "voicePath": "audio/pillow-development-demo-voice.wav",
+    "musicPath": "audio/pillow-development-demo-music.wav",
+    "mixPath": "audio/pillow-development-demo-mix.wav",
+    "voiceEngine": "Kokoro-82M ONNX",
+    "voiceId": "af_nicole",
+    "musicType": "Original procedural composition",
+    "peak": 0.7274960875511169
+  },
+  "editing": {
+    "revision": "20261124d",
+    "cutSeconds": [
+      3.549,
+      1.435,
+      2.568,
+      2.975,
+      2.366,
+      0.957,
+      1.712,
+      4.323,
+      1.748,
+      3.127,
+      3.623,
+      2.882,
+      1.165,
+      2.085,
+      2.539,
+      1.026,
+      1.836,
+      2.128,
+      3.601,
+      3.846,
+      1.555,
+      2.782,
+      4.223,
+      1.707,
+      3.055,
+      3.54,
+      2.815,
+      1.138,
+      2.037
+    ],
+    "splitFrames": 10,
+    "pictureInPictureFrames": 3,
+    "transitions": [
+      "dissolve",
+      "slide",
+      "cut",
+      "fade-in",
+      "fade-out"
+    ],
+    "particles": "subtle brand accents on concept/result shots",
+    "status": "editorial-review-required"
+  },
+  "revision": "20261124d",
+  "assignedInstructorId": "instructor-03",
+  "sourceVideoSha256": "ac6fc56af2915924754a8e6410452657db86b75abbcbd94650f1dd46e720a0b0",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "src": "assets/media/20261124d/pillow-development-demo-20261124d.mp4",
+  "path": "pillow-development-demo-20261124d.mp4",
+  "poster": "posters/pillow-development-demo-20261124d.jpg",
+  "subtitlePath": "captions/pillow-development-demo-20261124d.vtt",
+  "hasNarration": true,
+  "hasMusic": true,
+  "voiceId": "af_nicole",
+  "speakerId": "instructor-03",
+  "audioRole": "instructor-demonstration",
+  "voiceProvenance": "Existing verified temporary synthetic voice; encoded audio copied unchanged from v3",
+  "illustrative": true,
+  "disclosure": "Illustrative interface reconstructions and project concepts. Temporary synthetic instructor voices; project concepts use music only.",
+  "status": "technical-qa-passed-editorial-review-required",
+  "bytes": 8605192,
+  "sha256": "47d59bbf13fabad1a31935028214a25d8b629e0bf47136608b46ab2703fedac4",
+  "audioStreamSha256": "SHA256=1ebf00ff2f276ecff4102ba4dfee8b48673c1bb437355240bd4d9f36860cfe5f",
+  "audioCopiedVerified": true,
+  "technicalQa": {
+    "passed": true,
+    "fullDecode": true,
+    "peakDb": -2.7
+  }
+}

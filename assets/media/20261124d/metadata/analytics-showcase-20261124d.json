@@ -1,0 +1,705 @@
+{
+  "id": "analytics-showcase",
+  "mediaId": "acumelo-analytics-showcase-20261124d",
+  "stem": "analytics-showcase-20261124d",
+  "kind": "showcase",
+  "scope": "category",
+  "name": "Acumelo",
+  "fieldId": "analytics",
+  "title": "AI Data Analytics / Project possibilities",
+  "topic": "AI Data Analytics",
+  "result": "24 original project concepts",
+  "variant": 18,
+  "color": "#66b8ef",
+  "voice": null,
+  "bpm": 120,
+  "contentOwnerId": "instructor-chris",
+  "temporaryAssignment": false,
+  "sourceHash": "4af8ec657db54fe8cfce8589a398bf44ac9640051d9b03e1c054e69c876c6423",
+  "durationSeconds": 31.133333333333333,
+  "shots": [
+    {
+      "app": "project",
+      "title": "Revenue, explained",
+      "weight": 1.2,
+      "project": {
+        "type": "dashboard",
+        "title": "Revenue, explained",
+        "detail": "A finished executive analytics view",
+        "variant": 9,
+        "weight": 1.2
+      },
+      "projectIndex": 0,
+      "secondProject": {
+        "type": "heatmap",
+        "title": "Customers who stay",
+        "detail": "A cohort retention report",
+        "variant": 10,
+        "weight": 0.55
+      },
+      "start": 1.17,
+      "duration": 2.0989121061359866,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "dissolve"
+    },
+    {
+      "app": "project",
+      "title": "Customers who stay",
+      "weight": 0.55,
+      "project": {
+        "type": "heatmap",
+        "title": "Customers who stay",
+        "detail": "A cohort retention report",
+        "variant": 10,
+        "weight": 0.55
+      },
+      "projectIndex": 1,
+      "secondProject": {
+        "type": "map",
+        "title": "The regional picture",
+        "detail": "A location-based performance map",
+        "variant": 11,
+        "weight": 1.7
+      },
+      "start": 3.2689121061359865,
+      "duration": 0.5931708126036485,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "The regional picture",
+      "weight": 1.7,
+      "project": {
+        "type": "map",
+        "title": "The regional picture",
+        "detail": "A location-based performance map",
+        "variant": 11,
+        "weight": 1.7
+      },
+      "projectIndex": 2,
+      "secondProject": {
+        "type": "forecast",
+        "title": "What comes next",
+        "detail": "A forecast with visible uncertainty",
+        "variant": 12,
+        "weight": 0.8
+      },
+      "start": 3.862082918739635,
+      "duration": 0.7756849087893865,
+      "beat": 0,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "What comes next",
+      "weight": 0.8,
+      "project": {
+        "type": "forecast",
+        "title": "What comes next",
+        "detail": "A forecast with visible uncertainty",
+        "variant": 12,
+        "weight": 0.8
+      },
+      "projectIndex": 3,
+      "split": "project",
+      "secondProject": {
+        "type": "report",
+        "title": "The insight brief",
+        "detail": "A concise analytical recommendation",
+        "variant": 13,
+        "weight": 1
+      },
+      "start": 4.6377678275290215,
+      "duration": 1.5057412935323382,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "The insight brief",
+      "weight": 1,
+      "project": {
+        "type": "report",
+        "title": "The insight brief",
+        "detail": "A concise analytical recommendation",
+        "variant": 13,
+        "weight": 1
+      },
+      "projectIndex": 4,
+      "secondProject": {
+        "type": "dashboard",
+        "title": "Product adoption",
+        "detail": "Activation and engagement trends",
+        "variant": 14,
+        "weight": 0.65
+      },
+      "start": 6.14350912106136,
+      "duration": 0.5019137645107795,
+      "beat": 0,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Product adoption",
+      "weight": 0.65,
+      "project": {
+        "type": "dashboard",
+        "title": "Product adoption",
+        "detail": "Activation and engagement trends",
+        "variant": 14,
+        "weight": 0.65
+      },
+      "projectIndex": 5,
+      "secondProject": {
+        "type": "heatmap",
+        "title": "When customers return",
+        "detail": "Patterns by day and hour",
+        "variant": 15,
+        "weight": 1.4
+      },
+      "start": 6.645422885572139,
+      "duration": 1.186341625207297,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "When customers return",
+      "weight": 1.4,
+      "project": {
+        "type": "heatmap",
+        "title": "When customers return",
+        "detail": "Patterns by day and hour",
+        "variant": 15,
+        "weight": 1.4
+      },
+      "projectIndex": 6,
+      "split": "project",
+      "secondProject": {
+        "type": "map",
+        "title": "Delivery coverage",
+        "detail": "A service-area planning view",
+        "variant": 16,
+        "weight": 0.7
+      },
+      "start": 7.831764510779436,
+      "duration": 0.6844278606965175,
+      "beat": 0,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Delivery coverage",
+      "weight": 0.7,
+      "project": {
+        "type": "map",
+        "title": "Delivery coverage",
+        "detail": "A service-area planning view",
+        "variant": 16,
+        "weight": 0.7
+      },
+      "projectIndex": 7,
+      "secondProject": {
+        "type": "forecast",
+        "title": "Demand outlook",
+        "detail": "A seasonal demand comparison",
+        "variant": 17,
+        "weight": 1.2
+      },
+      "start": 8.516192371475954,
+      "duration": 1.82514096185738,
+      "beat": 0,
+      "editorialMode": "split",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Demand outlook",
+      "weight": 1.2,
+      "project": {
+        "type": "forecast",
+        "title": "Demand outlook",
+        "detail": "A seasonal demand comparison",
+        "variant": 17,
+        "weight": 1.2
+      },
+      "projectIndex": 8,
+      "secondProject": {
+        "type": "presentation",
+        "title": "The data story",
+        "detail": "A finished decision-making deck",
+        "variant": 18,
+        "weight": 0.55
+      },
+      "start": 10.341333333333333,
+      "duration": 2.3697247097844114,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "dissolve"
+    },
+    {
+      "app": "project",
+      "title": "The data story",
+      "weight": 0.55,
+      "project": {
+        "type": "presentation",
+        "title": "The data story",
+        "detail": "A finished decision-making deck",
+        "variant": 18,
+        "weight": 0.55
+      },
+      "projectIndex": 9,
+      "secondProject": {
+        "type": "dashboard",
+        "title": "Marketing efficiency",
+        "detail": "Spend, conversion and return",
+        "variant": 19,
+        "weight": 1.7
+      },
+      "start": 12.711058043117745,
+      "duration": 0.6697048092868989,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Marketing efficiency",
+      "weight": 1.7,
+      "project": {
+        "type": "dashboard",
+        "title": "Marketing efficiency",
+        "detail": "Spend, conversion and return",
+        "variant": 19,
+        "weight": 1.7
+      },
+      "projectIndex": 10,
+      "secondProject": {
+        "type": "report",
+        "title": "Quality scorecard",
+        "detail": "Data completeness and freshness",
+        "variant": 20,
+        "weight": 0.8
+      },
+      "start": 13.380762852404644,
+      "duration": 0.8757678275290216,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Quality scorecard",
+      "weight": 0.8,
+      "project": {
+        "type": "report",
+        "title": "Quality scorecard",
+        "detail": "Data completeness and freshness",
+        "variant": 20,
+        "weight": 0.8
+      },
+      "projectIndex": 11,
+      "split": "project",
+      "secondProject": {
+        "type": "map",
+        "title": "Market opportunity",
+        "detail": "Regions compared on equal terms",
+        "variant": 21,
+        "weight": 1
+      },
+      "start": 14.256530679933665,
+      "duration": 1.7000199004975127,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Market opportunity",
+      "weight": 1,
+      "project": {
+        "type": "map",
+        "title": "Market opportunity",
+        "detail": "Regions compared on equal terms",
+        "variant": 21,
+        "weight": 1
+      },
+      "projectIndex": 12,
+      "secondProject": {
+        "type": "heatmap",
+        "title": "Channel cohorts",
+        "detail": "Retention across acquisition channels",
+        "variant": 22,
+        "weight": 0.65
+      },
+      "start": 15.956550580431177,
+      "duration": 0.5666733001658376,
+      "beat": 1,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Channel cohorts",
+      "weight": 0.65,
+      "project": {
+        "type": "heatmap",
+        "title": "Channel cohorts",
+        "detail": "Retention across acquisition channels",
+        "variant": 22,
+        "weight": 0.65
+      },
+      "projectIndex": 13,
+      "secondProject": {
+        "type": "forecast",
+        "title": "Inventory scenarios",
+        "detail": "A comparison of planning assumptions",
+        "variant": 23,
+        "weight": 1.4
+      },
+      "start": 16.523223880597016,
+      "duration": 1.3394096185737978,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Inventory scenarios",
+      "weight": 1.4,
+      "project": {
+        "type": "forecast",
+        "title": "Inventory scenarios",
+        "detail": "A comparison of planning assumptions",
+        "variant": 23,
+        "weight": 1.4
+      },
+      "projectIndex": 14,
+      "split": "project",
+      "secondProject": {
+        "type": "dashboard",
+        "title": "Service performance",
+        "detail": "Queue, volume and response signals",
+        "variant": 24,
+        "weight": 0.7
+      },
+      "start": 17.862633499170812,
+      "duration": 0.7727363184079603,
+      "beat": 1,
+      "editorialMode": "detail",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Service performance",
+      "weight": 0.7,
+      "project": {
+        "type": "dashboard",
+        "title": "Service performance",
+        "detail": "Queue, volume and response signals",
+        "variant": 24,
+        "weight": 0.7
+      },
+      "projectIndex": 15,
+      "secondProject": {
+        "type": "report",
+        "title": "Pricing evidence",
+        "detail": "A readable price sensitivity study",
+        "variant": 25,
+        "weight": 1.2
+      },
+      "start": 18.635369817578773,
+      "duration": 2.0606301824212276,
+      "beat": 1,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Pricing evidence",
+      "weight": 1.2,
+      "project": {
+        "type": "report",
+        "title": "Pricing evidence",
+        "detail": "A readable price sensitivity study",
+        "variant": 25,
+        "weight": 1.2
+      },
+      "projectIndex": 16,
+      "secondProject": {
+        "type": "presentation",
+        "title": "Quarterly intelligence",
+        "detail": "A business review with evidence",
+        "variant": 26,
+        "weight": 0.55
+      },
+      "start": 20.696,
+      "duration": 2.174739635157545,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "dissolve"
+    },
+    {
+      "app": "project",
+      "title": "Quarterly intelligence",
+      "weight": 0.55,
+      "project": {
+        "type": "presentation",
+        "title": "Quarterly intelligence",
+        "detail": "A business review with evidence",
+        "variant": 26,
+        "weight": 0.55
+      },
+      "projectIndex": 17,
+      "secondProject": {
+        "type": "map",
+        "title": "Site selection",
+        "detail": "A location comparison interface",
+        "variant": 27,
+        "weight": 1.7
+      },
+      "start": 22.87073963515755,
+      "duration": 0.6146003316749585,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Site selection",
+      "weight": 1.7,
+      "project": {
+        "type": "map",
+        "title": "Site selection",
+        "detail": "A location comparison interface",
+        "variant": 27,
+        "weight": 1.7
+      },
+      "projectIndex": 18,
+      "secondProject": {
+        "type": "forecast",
+        "title": "Cash flow outlook",
+        "detail": "A range of financial scenarios",
+        "variant": 28,
+        "weight": 0.8
+      },
+      "start": 23.485339966832505,
+      "duration": 0.8037081260364841,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Cash flow outlook",
+      "weight": 0.8,
+      "project": {
+        "type": "forecast",
+        "title": "Cash flow outlook",
+        "detail": "A range of financial scenarios",
+        "variant": 28,
+        "weight": 0.8
+      },
+      "projectIndex": 19,
+      "split": "project",
+      "secondProject": {
+        "type": "dashboard",
+        "title": "Learning impact",
+        "detail": "Engagement and completion patterns",
+        "variant": 29,
+        "weight": 1
+      },
+      "start": 24.28904809286899,
+      "duration": 1.5601393034825868,
+      "beat": 2,
+      "editorialMode": "detail",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Learning impact",
+      "weight": 1,
+      "project": {
+        "type": "dashboard",
+        "title": "Learning impact",
+        "detail": "Engagement and completion patterns",
+        "variant": 29,
+        "weight": 1
+      },
+      "projectIndex": 20,
+      "secondProject": {
+        "type": "heatmap",
+        "title": "Portfolio correlations",
+        "detail": "A matrix of related signals",
+        "variant": 30,
+        "weight": 0.65
+      },
+      "start": 25.849187396351574,
+      "duration": 0.5200464344941957,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Portfolio correlations",
+      "weight": 0.65,
+      "project": {
+        "type": "heatmap",
+        "title": "Portfolio correlations",
+        "detail": "A matrix of related signals",
+        "variant": 30,
+        "weight": 0.65
+      },
+      "projectIndex": 21,
+      "secondProject": {
+        "type": "report",
+        "title": "Experiment readout",
+        "detail": "Results with caveats and next steps",
+        "variant": 31,
+        "weight": 1.4
+      },
+      "start": 26.36923383084577,
+      "duration": 1.229200663349917,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    },
+    {
+      "app": "project",
+      "title": "Experiment readout",
+      "weight": 1.4,
+      "project": {
+        "type": "report",
+        "title": "Experiment readout",
+        "detail": "Results with caveats and next steps",
+        "variant": 31,
+        "weight": 1.4
+      },
+      "projectIndex": 22,
+      "split": "project",
+      "secondProject": {
+        "type": "dashboard",
+        "title": "Decision centre",
+        "detail": "A linked view of the business",
+        "variant": 32,
+        "weight": 0.7
+      },
+      "start": 27.598434494195686,
+      "duration": 0.7091542288557213,
+      "beat": 2,
+      "editorialMode": "split",
+      "transition": "slide"
+    },
+    {
+      "app": "project",
+      "title": "Decision centre",
+      "weight": 0.7,
+      "project": {
+        "type": "dashboard",
+        "title": "Decision centre",
+        "detail": "A linked view of the business",
+        "variant": 32,
+        "weight": 0.7
+      },
+      "projectIndex": 23,
+      "secondProject": {
+        "type": "dashboard",
+        "title": "Revenue, explained",
+        "detail": "A finished executive analytics view",
+        "variant": 9,
+        "weight": 1.2
+      },
+      "start": 28.307588723051406,
+      "duration": 1.891077943615257,
+      "beat": 2,
+      "editorialMode": "full",
+      "transition": "cut"
+    }
+  ],
+  "captions": [],
+  "audio": {
+    "musicType": "Original procedural composition, rebuilt without narration or speech ducking",
+    "voiceEngine": null,
+    "voiceId": null,
+    "voicePath": null,
+    "musicPath": "music/analytics-showcase.wav",
+    "mixPath": null,
+    "mode": "music-only"
+  },
+  "editing": {
+    "revision": "20261124d",
+    "cutSeconds": [
+      2.099,
+      0.593,
+      0.776,
+      1.506,
+      0.502,
+      1.186,
+      0.684,
+      1.825,
+      2.37,
+      0.67,
+      0.876,
+      1.7,
+      0.567,
+      1.339,
+      0.773,
+      2.061,
+      2.175,
+      0.615,
+      0.804,
+      1.56,
+      0.52,
+      1.229,
+      0.709,
+      1.891
+    ],
+    "splitFrames": 5,
+    "pictureInPictureFrames": 0,
+    "transitions": [
+      "dissolve",
+      "slide",
+      "cut",
+      "fade-in",
+      "fade-out"
+    ],
+    "particles": "subtle brand accents on concept/result shots",
+    "status": "editorial-review-required"
+  },
+  "revision": "20261124d",
+  "assignedInstructorId": null,
+  "sourceVideoSha256": "96944d40d82383fc6b9be7d3a1a4076616a8f0d51d7a714b539fe33777a148d1",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "src": "assets/media/20261124d/analytics-showcase-20261124d.mp4",
+  "path": "analytics-showcase-20261124d.mp4",
+  "poster": "posters/analytics-showcase-20261124d.jpg",
+  "subtitlePath": null,
+  "hasNarration": false,
+  "hasMusic": true,
+  "voiceId": null,
+  "speakerId": null,
+  "audioRole": "music-only",
+  "voiceProvenance": null,
+  "illustrative": true,
+  "disclosure": "Illustrative interface reconstructions and project concepts. Temporary synthetic instructor voices; project concepts use music only.",
+  "status": "technical-qa-passed-editorial-review-required",
+  "bytes": 2549903,
+  "sha256": "017e40580fe7222d6fae6ed9bc04ce74d1ee6123a19d551d8d1f1b54f18f8d79",
+  "technicalQa": {
+    "passed": true,
+    "fullDecode": true,
+    "peakDb": -14
+  },
+  "narration": null
+}
