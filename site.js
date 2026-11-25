@@ -187,7 +187,7 @@
       const output = el('div', 'comparison-cell');
       audience.append(el('span', 'comparison-mobile-label', copy.audience), el('p', '', c.comparison.audience));
       output.append(el('span', 'comparison-mobile-label', copy.outcome), el('p', '', c.comparison.output));
-      title.prepend(number); title.append(arrow);
+      title.prepend(fieldIcon(c.id), number); title.append(arrow);
       link.append(title, audience, output);
       article.append(link); list.append(article);
     });
@@ -197,6 +197,12 @@
     const link = pageLink(page, label, className);
     link.href += '&field=' + encodeURIComponent(field) + '&tab=' + tab;
     return link;
+  }
+  function fieldIcon(field) {
+    const icon = el('img', 'field-icon');
+    icon.src = 'assets/studio/field-' + field + '.svg'; icon.alt = '';
+    icon.width = 48; icon.height = 48; icon.setAttribute('aria-hidden', 'true');
+    return icon;
   }
   function renderActivePage() {
     // Unmounted contexts contain no hidden media, captions or stale playback.
@@ -251,6 +257,7 @@
     const fieldControls = courses.map(course => {
       const option = el('option', '', course.title); option.value = course.id; select.append(option);
       const button = el('button', 'learning-field-button', course.title); button.type = 'button'; button.dataset.fieldId = course.id;
+      button.prepend(fieldIcon(course.id));
       button.addEventListener('click', () => changeField(course.id)); fieldButtons.append(button);
       return button;
     });

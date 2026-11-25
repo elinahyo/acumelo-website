@@ -1,0 +1,2043 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "lang": "en",
+      "width": 320,
+      "page": "home",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "page": "fields",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "page": "people",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "page": "profile",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "page": "demo",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "page": "about",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "page": "contact",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 360,
+      "page": "home",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 360,
+      "page": "fields",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 360,
+      "page": "people",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 360,
+      "page": "profile",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 360,
+      "page": "demo",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 360,
+      "page": "about",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 360,
+      "page": "contact",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "page": "home",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "page": "fields",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "page": "people",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "page": "profile",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "page": "demo",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "page": "about",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "page": "contact",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "page": "home",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "page": "fields",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "page": "people",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "page": "profile",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "page": "demo",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "page": "about",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "page": "contact",
+      "overflow": false,
+      "fonts": [
+        "Nunito"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "page": "home",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "page": "fields",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "page": "people",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "page": "profile",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "page": "demo",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "page": "about",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "page": "contact",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Nunito, Jua, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 320,
+      "page": "home",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 320,
+      "page": "fields",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 320,
+      "page": "people",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 320,
+      "page": "profile",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 320,
+      "page": "demo",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 320,
+      "page": "about",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 320,
+      "page": "contact",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 360,
+      "page": "home",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 360,
+      "page": "fields",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 360,
+      "page": "people",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 360,
+      "page": "profile",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 360,
+      "page": "demo",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 360,
+      "page": "about",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 360,
+      "page": "contact",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 390,
+      "page": "home",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 390,
+      "page": "fields",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 390,
+      "page": "people",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 390,
+      "page": "profile",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 390,
+      "page": "demo",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 390,
+      "page": "about",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 390,
+      "page": "contact",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 768,
+      "page": "home",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 768,
+      "page": "fields",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 768,
+      "page": "people",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 768,
+      "page": "profile",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 768,
+      "page": "demo",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 768,
+      "page": "about",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 768,
+      "page": "contact",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 1440,
+      "page": "home",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 1440,
+      "page": "fields",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 1440,
+      "page": "people",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 1440,
+      "page": "profile",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 1440,
+      "page": "demo",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 1440,
+      "page": "about",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "lang": "ko",
+      "width": 1440,
+      "page": "contact",
+      "overflow": false,
+      "fonts": [
+        "Nunito",
+        "Jua",
+        "Jua",
+        "Noto Sans KR",
+        "Noto Sans KR"
+      ],
+      "body": "Nunito, \"Noto Sans KR\", sans-serif",
+      "heading": "Jua, Nunito, sans-serif"
+    },
+    {
+      "name": "keyboard-menu-focus-and-reduced-motion",
+      "passed": true
+    }
+  ],
+  "contrasts": [
+    {
+      "text": "Education01",
+      "selector": "",
+      "minRatio": 9.13538349379168,
+      "color": "rgb(249, 248, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Instructors02",
+      "selector": "",
+      "minRatio": 9.13538349379168,
+      "color": "rgb(249, 248, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "About03",
+      "selector": "",
+      "minRatio": 9.13538349379168,
+      "color": "rgb(249, 248, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Enquiries↗",
+      "selector": "sidebar-contact",
+      "minRatio": 7.078890523153893,
+      "color": "rgb(48, 34, 69)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "EN English",
+      "selector": "",
+      "minRatio": 9.770876161025358,
+      "color": "rgb(48, 53, 99)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "KR 한국어",
+      "selector": "",
+      "minRatio": 12.61725610044669,
+      "color": "rgb(211, 221, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "AI learning. Human possibility.",
+      "selector": "",
+      "minRatio": 10.647629926098848,
+      "color": "rgb(245, 232, 253)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Operated by Zionnetwork",
+      "selector": "footer-operator",
+      "minRatio": 9.838274474897267,
+      "color": "rgb(255, 224, 169)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Representative: Lee Chang Bae",
+      "selector": "",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Business registration no.: 749-81-00711",
+      "selector": "",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Registered address: 2F, 29, Cheongdugot-gil, Seocho-gu,",
+      "selector": "",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Acumelo is an education brand operated by Zionnetwork.",
+      "selector": "footer-brand-note",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Education01",
+      "selector": "",
+      "minRatio": 7.43281605013216,
+      "color": "rgb(249, 248, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Instructors02",
+      "selector": "",
+      "minRatio": 9.13538349379168,
+      "color": "rgb(249, 248, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "About03",
+      "selector": "",
+      "minRatio": 9.13538349379168,
+      "color": "rgb(249, 248, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Enquiries↗",
+      "selector": "sidebar-contact",
+      "minRatio": 7.078890523153893,
+      "color": "rgb(48, 34, 69)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "EN English",
+      "selector": "",
+      "minRatio": 9.770876161025358,
+      "color": "rgb(48, 53, 99)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "KR 한국어",
+      "selector": "",
+      "minRatio": 12.61725610044669,
+      "color": "rgb(211, 221, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Who it is forOperations, HR, finance and administration",
+      "selector": "comparison-cell",
+      "minRatio": 7.95798864587013,
+      "color": "rgb(67, 70, 99)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "What you will createAutomation that connects recurring ",
+      "selector": "comparison-cell",
+      "minRatio": 7.95798864587013,
+      "color": "rgb(67, 70, 99)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Who it is forPMs, product owners, team leads and AI ado",
+      "selector": "comparison-cell",
+      "minRatio": 7.95798864587013,
+      "color": "rgb(67, 70, 99)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "What you will createRequirements, validation plans and ",
+      "selector": "comparison-cell",
+      "minRatio": 7.95798864587013,
+      "color": "rgb(67, 70, 99)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Who it is forDesign, video, motion and 3D creators",
+      "selector": "comparison-cell",
+      "minRatio": 7.95798864587013,
+      "color": "rgb(67, 70, 99)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "What you will createImages, videos and cinematics",
+      "selector": "comparison-cell",
+      "minRatio": 7.95798864587013,
+      "color": "rgb(67, 70, 99)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Who it is forAnalytics, planning, finance and operation",
+      "selector": "comparison-cell",
+      "minRatio": 7.95798864587013,
+      "color": "rgb(67, 70, 99)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "What you will createAnalysis reports and decision-makin",
+      "selector": "comparison-cell",
+      "minRatio": 7.95798864587013,
+      "color": "rgb(67, 70, 99)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Who it is forMarketing, CRM and sales professionals",
+      "selector": "comparison-cell",
+      "minRatio": 7.95798864587013,
+      "color": "rgb(67, 70, 99)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "What you will createCampaigns, customer management and ",
+      "selector": "comparison-cell",
+      "minRatio": 7.95798864587013,
+      "color": "rgb(67, 70, 99)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Who it is forDevelopers and creators of technology-driv",
+      "selector": "comparison-cell",
+      "minRatio": 7.95798864587013,
+      "color": "rgb(67, 70, 99)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "What you will createWeb apps, RAG, games, XR and digita",
+      "selector": "comparison-cell",
+      "minRatio": 7.95798864587013,
+      "color": "rgb(67, 70, 99)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "AI learning. Human possibility.",
+      "selector": "",
+      "minRatio": 10.647629926098848,
+      "color": "rgb(245, 232, 253)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Operated by Zionnetwork",
+      "selector": "footer-operator",
+      "minRatio": 9.838274474897267,
+      "color": "rgb(255, 224, 169)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Representative: Lee Chang Bae",
+      "selector": "",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Business registration no.: 749-81-00711",
+      "selector": "",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Registered address: 2F, 29, Cheongdugot-gil, Seocho-gu,",
+      "selector": "",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Acumelo is an education brand operated by Zionnetwork.",
+      "selector": "footer-brand-note",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Education01",
+      "selector": "",
+      "minRatio": 9.13538349379168,
+      "color": "rgb(249, 248, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Instructors02",
+      "selector": "",
+      "minRatio": 7.43281605013216,
+      "color": "rgb(249, 248, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "About03",
+      "selector": "",
+      "minRatio": 9.13538349379168,
+      "color": "rgb(249, 248, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Enquiries↗",
+      "selector": "sidebar-contact",
+      "minRatio": 7.078890523153893,
+      "color": "rgb(48, 34, 69)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "EN English",
+      "selector": "",
+      "minRatio": 9.770876161025358,
+      "color": "rgb(48, 53, 99)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "KR 한국어",
+      "selector": "",
+      "minRatio": 12.61725610044669,
+      "color": "rgb(211, 221, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "All",
+      "selector": "field-filter",
+      "minRatio": 7.668352252684102,
+      "color": "rgb(50, 46, 83)",
+      "fontSize": "15px"
+    },
+    {
+      "text": "AI Workflow Automation",
+      "selector": "field-filter",
+      "minRatio": 8.174034863592196,
+      "color": "rgb(243, 237, 255)",
+      "fontSize": "15px"
+    },
+    {
+      "text": "AI Strategy & Project Management",
+      "selector": "field-filter",
+      "minRatio": 8.174034863592196,
+      "color": "rgb(243, 237, 255)",
+      "fontSize": "15px"
+    },
+    {
+      "text": "AI Design & Content",
+      "selector": "field-filter",
+      "minRatio": 8.174034863592196,
+      "color": "rgb(243, 237, 255)",
+      "fontSize": "15px"
+    },
+    {
+      "text": "AI Data Analytics",
+      "selector": "field-filter",
+      "minRatio": 8.174034863592196,
+      "color": "rgb(243, 237, 255)",
+      "fontSize": "15px"
+    },
+    {
+      "text": "AI Marketing & Sales",
+      "selector": "field-filter",
+      "minRatio": 8.174034863592196,
+      "color": "rgb(243, 237, 255)",
+      "fontSize": "15px"
+    },
+    {
+      "text": "AI Application Development",
+      "selector": "field-filter",
+      "minRatio": 8.174034863592196,
+      "color": "rgb(243, 237, 255)",
+      "fontSize": "15px"
+    },
+    {
+      "text": "AI Workflow Automation",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Strategy & Project Management",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Design & Content",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Data Analytics",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Marketing & Sales",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Application Development",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Strategy & Project Management",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Design & Content",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Application Development",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Design & Content",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Application Development",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Workflow Automation",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Application Development",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Strategy & Project Management",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Design & Content",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Data Analytics",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Application Development",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Marketing & Sales",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Application Development",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Data Analytics",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Application Development",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Workflow Automation",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Strategy & Project Management",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Data Analytics",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Workflow Automation",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI Application Development",
+      "selector": "field-tag",
+      "minRatio": 8.25284727761798,
+      "color": "rgb(62, 59, 98)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "AI learning. Human possibility.",
+      "selector": "",
+      "minRatio": 10.647629926098848,
+      "color": "rgb(245, 232, 253)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Operated by Zionnetwork",
+      "selector": "footer-operator",
+      "minRatio": 9.838274474897267,
+      "color": "rgb(255, 224, 169)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Representative: Lee Chang Bae",
+      "selector": "",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Business registration no.: 749-81-00711",
+      "selector": "",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Registered address: 2F, 29, Cheongdugot-gil, Seocho-gu,",
+      "selector": "",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Acumelo is an education brand operated by Zionnetwork.",
+      "selector": "footer-brand-note",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Education01",
+      "selector": "",
+      "minRatio": 9.13538349379168,
+      "color": "rgb(249, 248, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Instructors02",
+      "selector": "",
+      "minRatio": 7.43281605013216,
+      "color": "rgb(249, 248, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "About03",
+      "selector": "",
+      "minRatio": 9.13538349379168,
+      "color": "rgb(249, 248, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Enquiries↗",
+      "selector": "sidebar-contact",
+      "minRatio": 7.078890523153893,
+      "color": "rgb(48, 34, 69)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "EN English",
+      "selector": "",
+      "minRatio": 9.770876161025358,
+      "color": "rgb(48, 53, 99)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "KR 한국어",
+      "selector": "",
+      "minRatio": 12.61725610044669,
+      "color": "rgb(211, 221, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Choose a field, then the content you want to explore.",
+      "selector": "learning-help",
+      "minRatio": 6.301247190701931,
+      "color": "rgb(85, 85, 119)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "AI Workflow Automation",
+      "selector": "learning-field-button",
+      "minRatio": 5.963105974417542,
+      "color": "rgb(255, 255, 255)",
+      "fontSize": "15px"
+    },
+    {
+      "text": "AI Strategy & Project Management",
+      "selector": "learning-field-button",
+      "minRatio": 7.932947283170821,
+      "color": "rgb(62, 66, 103)",
+      "fontSize": "15px"
+    },
+    {
+      "text": "AI Design & Content",
+      "selector": "learning-field-button",
+      "minRatio": 7.932947283170821,
+      "color": "rgb(62, 66, 103)",
+      "fontSize": "15px"
+    },
+    {
+      "text": "AI Data Analytics",
+      "selector": "learning-field-button",
+      "minRatio": 7.932947283170821,
+      "color": "rgb(62, 66, 103)",
+      "fontSize": "15px"
+    },
+    {
+      "text": "AI Marketing & Sales",
+      "selector": "learning-field-button",
+      "minRatio": 7.932947283170821,
+      "color": "rgb(62, 66, 103)",
+      "fontSize": "15px"
+    },
+    {
+      "text": "AI Application Development",
+      "selector": "learning-field-button",
+      "minRatio": 7.932947283170821,
+      "color": "rgb(62, 66, 103)",
+      "fontSize": "15px"
+    },
+    {
+      "text": "Curriculum",
+      "selector": "learning-tab",
+      "minRatio": 5.591285384301015,
+      "color": "rgb(255, 255, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Lectures",
+      "selector": "learning-tab",
+      "minRatio": 7.421090747707104,
+      "color": "rgb(73, 69, 101)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Demos",
+      "selector": "learning-tab",
+      "minRatio": 7.421090747707104,
+      "color": "rgb(73, 69, 101)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Projects",
+      "selector": "learning-tab",
+      "minRatio": 7.421090747707104,
+      "color": "rgb(73, 69, 101)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Chris’s curriculum for this field is being prepared. De",
+      "selector": "learning-pending",
+      "minRatio": 7.56873594759758,
+      "color": "rgb(73, 67, 103)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "AI learning. Human possibility.",
+      "selector": "",
+      "minRatio": 10.647629926098848,
+      "color": "rgb(245, 232, 253)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Operated by Zionnetwork",
+      "selector": "footer-operator",
+      "minRatio": 9.838274474897267,
+      "color": "rgb(255, 224, 169)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Representative: Lee Chang Bae",
+      "selector": "",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Business registration no.: 749-81-00711",
+      "selector": "",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Registered address: 2F, 29, Cheongdugot-gil, Seocho-gu,",
+      "selector": "",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Acumelo is an education brand operated by Zionnetwork.",
+      "selector": "footer-brand-note",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Education01",
+      "selector": "",
+      "minRatio": 9.13538349379168,
+      "color": "rgb(249, 248, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Instructors02",
+      "selector": "",
+      "minRatio": 7.43281605013216,
+      "color": "rgb(249, 248, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "About03",
+      "selector": "",
+      "minRatio": 9.13538349379168,
+      "color": "rgb(249, 248, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Enquiries↗",
+      "selector": "sidebar-contact",
+      "minRatio": 7.078890523153893,
+      "color": "rgb(48, 34, 69)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "EN English",
+      "selector": "",
+      "minRatio": 9.770876161025358,
+      "color": "rgb(48, 53, 99)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "KR 한국어",
+      "selector": "",
+      "minRatio": 12.61725610044669,
+      "color": "rgb(211, 221, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Choose a field, then the content you want to explore.",
+      "selector": "learning-help",
+      "minRatio": 6.301247190701931,
+      "color": "rgb(85, 85, 119)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "AI Workflow Automation",
+      "selector": "learning-field-button",
+      "minRatio": 7.932947283170821,
+      "color": "rgb(62, 66, 103)",
+      "fontSize": "15px"
+    },
+    {
+      "text": "AI Strategy & Project Management",
+      "selector": "learning-field-button",
+      "minRatio": 7.932947283170821,
+      "color": "rgb(62, 66, 103)",
+      "fontSize": "15px"
+    },
+    {
+      "text": "AI Design & Content",
+      "selector": "learning-field-button",
+      "minRatio": 5.963105974417542,
+      "color": "rgb(255, 255, 255)",
+      "fontSize": "15px"
+    },
+    {
+      "text": "AI Data Analytics",
+      "selector": "learning-field-button",
+      "minRatio": 7.932947283170821,
+      "color": "rgb(62, 66, 103)",
+      "fontSize": "15px"
+    },
+    {
+      "text": "AI Marketing & Sales",
+      "selector": "learning-field-button",
+      "minRatio": 7.932947283170821,
+      "color": "rgb(62, 66, 103)",
+      "fontSize": "15px"
+    },
+    {
+      "text": "AI Application Development",
+      "selector": "learning-field-button",
+      "minRatio": 7.932947283170821,
+      "color": "rgb(62, 66, 103)",
+      "fontSize": "15px"
+    },
+    {
+      "text": "Curriculum",
+      "selector": "learning-tab",
+      "minRatio": 7.421090747707104,
+      "color": "rgb(73, 69, 101)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Lectures",
+      "selector": "learning-tab",
+      "minRatio": 7.421090747707104,
+      "color": "rgb(73, 69, 101)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Demos",
+      "selector": "learning-tab",
+      "minRatio": 5.591285384301015,
+      "color": "rgb(255, 255, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Projects",
+      "selector": "learning-tab",
+      "minRatio": 7.421090747707104,
+      "color": "rgb(73, 69, 101)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Illustrative interface reconstructions with temporary s",
+      "selector": "learning-note",
+      "minRatio": 6.4100145912851305,
+      "color": "rgb(85, 84, 115)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "AI learning. Human possibility.",
+      "selector": "",
+      "minRatio": 10.647629926098848,
+      "color": "rgb(245, 232, 253)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Operated by Zionnetwork",
+      "selector": "footer-operator",
+      "minRatio": 9.838274474897267,
+      "color": "rgb(255, 224, 169)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Representative: Lee Chang Bae",
+      "selector": "",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Business registration no.: 749-81-00711",
+      "selector": "",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Registered address: 2F, 29, Cheongdugot-gil, Seocho-gu,",
+      "selector": "",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Acumelo is an education brand operated by Zionnetwork.",
+      "selector": "footer-brand-note",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Education01",
+      "selector": "",
+      "minRatio": 9.13538349379168,
+      "color": "rgb(249, 248, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Instructors02",
+      "selector": "",
+      "minRatio": 9.13538349379168,
+      "color": "rgb(249, 248, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "About03",
+      "selector": "",
+      "minRatio": 7.43281605013216,
+      "color": "rgb(249, 248, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Enquiries↗",
+      "selector": "sidebar-contact",
+      "minRatio": 7.078890523153893,
+      "color": "rgb(48, 34, 69)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "EN English",
+      "selector": "",
+      "minRatio": 9.770876161025358,
+      "color": "rgb(48, 53, 99)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "KR 한국어",
+      "selector": "",
+      "minRatio": 12.61725610044669,
+      "color": "rgb(211, 221, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "AI learning. Human possibility.",
+      "selector": "",
+      "minRatio": 10.647629926098848,
+      "color": "rgb(245, 232, 253)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Operated by Zionnetwork",
+      "selector": "footer-operator",
+      "minRatio": 9.838274474897267,
+      "color": "rgb(255, 224, 169)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Representative: Lee Chang Bae",
+      "selector": "",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Business registration no.: 749-81-00711",
+      "selector": "",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Registered address: 2F, 29, Cheongdugot-gil, Seocho-gu,",
+      "selector": "",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Acumelo is an education brand operated by Zionnetwork.",
+      "selector": "footer-brand-note",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Education01",
+      "selector": "",
+      "minRatio": 9.13538349379168,
+      "color": "rgb(249, 248, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Instructors02",
+      "selector": "",
+      "minRatio": 9.13538349379168,
+      "color": "rgb(249, 248, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "About03",
+      "selector": "",
+      "minRatio": 9.13538349379168,
+      "color": "rgb(249, 248, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Enquiries↗",
+      "selector": "sidebar-contact",
+      "minRatio": 7.078890523153893,
+      "color": "rgb(48, 34, 69)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "EN English",
+      "selector": "",
+      "minRatio": 9.770876161025358,
+      "color": "rgb(48, 53, 99)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "KR 한국어",
+      "selector": "",
+      "minRatio": 12.61725610044669,
+      "color": "rgb(211, 221, 255)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "This is a design preview. Your text is neither sent nor",
+      "selector": "preview-notice",
+      "minRatio": 9.64365690680106,
+      "color": "rgb(237, 230, 252)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Organisation",
+      "selector": "",
+      "minRatio": 10.083677213979431,
+      "color": "rgb(57, 51, 89)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Education area",
+      "selector": "",
+      "minRatio": 10.083677213979431,
+      "color": "rgb(57, 51, 89)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Tell us about your course *",
+      "selector": "",
+      "minRatio": 10.083677213979431,
+      "color": "rgb(57, 51, 89)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Prepare enquiry draft↗",
+      "selector": "solid-button",
+      "minRatio": 7.043249579141819,
+      "color": "rgb(53, 35, 69)",
+      "fontSize": "17px"
+    },
+    {
+      "text": "AI learning. Human possibility.",
+      "selector": "",
+      "minRatio": 10.647629926098848,
+      "color": "rgb(245, 232, 253)",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Operated by Zionnetwork",
+      "selector": "footer-operator",
+      "minRatio": 9.838274474897267,
+      "color": "rgb(255, 224, 169)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Representative: Lee Chang Bae",
+      "selector": "",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Business registration no.: 749-81-00711",
+      "selector": "",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Registered address: 2F, 29, Cheongdugot-gil, Seocho-gu,",
+      "selector": "",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Acumelo is an education brand operated by Zionnetwork.",
+      "selector": "footer-brand-note",
+      "minRatio": 9.194815737048627,
+      "color": "rgb(215, 220, 242)",
+      "fontSize": "14px"
+    }
+  ],
+  "externalFontRequests": [],
+  "errors": []
+}
