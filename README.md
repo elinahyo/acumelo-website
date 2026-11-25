@@ -24,6 +24,8 @@ Open `http://127.0.0.1:8765/` when UI review is authorized. Stop the server with
 
 ## Edit and build
 
+The site-wide studio art direction, self-hosted font licences, artwork regeneration and visual QA are documented in [the studio theme review](docs/studio-theme-review.md). All copy and media relationships remain in `content.js`; visual changes belong in the stylesheet, markup and original `assets/studio/` decorations.
+
 | File | Purpose |
 | --- | --- |
 | `source.html`, `styles.css`, `site.js` | Page structure, appearance and behaviour |

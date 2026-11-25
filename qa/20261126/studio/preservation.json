@@ -1,0 +1,48 @@
+{
+  "baseline": "ce1d215bb5b5af01627fac96c7960372e4da4265",
+  "protectedObjects": [
+    {
+      "path": "assets/brand",
+      "before": "49c334301959d567887775eb1a2033ab5405e437",
+      "after": "49c334301959d567887775eb1a2033ab5405e437"
+    },
+    {
+      "path": "assets/instructors",
+      "before": "06877c125834225a5f2382f2f19cbf8ba2dac0ff",
+      "after": "06877c125834225a5f2382f2f19cbf8ba2dac0ff"
+    },
+    {
+      "path": "assets/media",
+      "before": "ffc937336da5721eb5f41de1611175f5d2257d5a",
+      "after": "ffc937336da5721eb5f41de1611175f5d2257d5a"
+    },
+    {
+      "path": "content.js",
+      "before": "498162b51fd93d2a6090ff130354143709a88316",
+      "after": "498162b51fd93d2a6090ff130354143709a88316"
+    },
+    {
+      "path": "media-production",
+      "before": "a50453161c872d095b65ee5b4491da56b33d8b13",
+      "after": "a50453161c872d095b65ee5b4491da56b33d8b13"
+    }
+  ],
+  "contentExactUnchanged": true,
+  "newAssetDirectories": [
+    "assets/fonts",
+    "assets/studio"
+  ],
+  "fontBytes": 185288,
+  "mediaEditing": "paused; no existing video/audio/image/source modified or deleted",
+  "validation": {
+    "designCases": 71,
+    "contrastSamples": 158,
+    "minTextContrast": 5.591285384301015,
+    "navigationCases": 337,
+    "playbackGroups": 7,
+    "finalSmokeCases": 13,
+    "externalRuntimeFontRequests": 0
+  },
+  "preview": "http://127.0.0.1:8792/?page=lectures",
+  "status": "ready-for-design-review"
+}
